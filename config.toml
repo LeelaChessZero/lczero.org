@@ -13,40 +13,39 @@ pygmentsUseClasses = true
 summaryLength = 30
 
 
-
 [[menu.main]]
     name = "Play"
-    url = "/"
+    url = "/play/"
     weight = 20
 
 [[menu.main]]
     name = "Watch"
-    url = "/docs/"
+    url = "/watch/"
     weight = 30
 
 [[menu.main]]
     name = "Contribute"
-    url = "/docs/"
+    url = "/contribute/"
     weight = 40
 
 [[menu.main]]
     name = "Development"
-    url = "/docs/"
+    url = "/dev/"
     weight = 50
 
 [[menu.main]]
     name = "Community"
-    url = "/docs/"
+    url = "/community/"
     weight = 60
 
 [[menu.main]]
     name = "Blog"
-    url = "/docs/"
+    url = "/blog/"
     weight = 70
 
 [[menu.main]]
     name = "About"
-    url = "/docs/"
+    url = "/about/"
     weight = 80
 
 
@@ -57,6 +56,7 @@ summaryLength = 30
   # homepage_button_text = 'Download'
   homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
   homepage_image = '/images/logo_v2.svg'
+  mainSections = ["play", "watch", "contribute", "dev", "community", "blog", "about"]
   [[params.homepage_button]]
     link = "/docs"
     text = "Download"

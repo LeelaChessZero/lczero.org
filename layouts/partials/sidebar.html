@@ -8,7 +8,7 @@
 {{define "submenu"}}
 {{$docId := .docId}}
 {{with .sect}}
-    {{ range .CurrentSection.Pages.ByWeight }}
+    {{ range .CurrentSection.Pages.ByWeight }}    
     <li class="{{ if eq .File.UniqueID $docId }}active {{ end }}">
       {{ if .Content }}
         <a href="{{ .Permalink }}">{{ .Title }}</a>
