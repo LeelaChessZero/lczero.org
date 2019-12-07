@@ -13,10 +13,6 @@ pygmentsUseClasses = true
 summaryLength = 30
 
 
-[[menu.main]]
-    name = "About"
-    url = "/docs/"
-    weight = 70
 
 [[menu.main]]
     name = "Play"
@@ -43,13 +39,30 @@ summaryLength = 30
     url = "/docs/"
     weight = 60
 
+[[menu.main]]
+    name = "Blog"
+    url = "/docs/"
+    weight = 70
+
+[[menu.main]]
+    name = "About"
+    url = "/docs/"
+    weight = 80
+
+
 
 [params]
   google_analytics_id=""
-  homepage_button_link = '/docs'
-  homepage_button_text = 'Read The Docs'
+  # homepage_button_link = '/docs'
+  # homepage_button_text = 'Download'
   homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
-  homepage_image = '/images/terminal.gif'
+  homepage_image = '/images/logo_v2.svg'
+  [[params.homepage_button]]
+    link = "/docs"
+    text = "Download"
+  [[params.homepage_button]]
+    link = "/docs"
+    text = "Quick start"
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
@@ -66,5 +79,5 @@ summaryLength = 30
     meta_twitter_creator = "@zerostaticio"
 
   [params.logo]
-      mobile = "/images/logo-mobile.svg"
+      mobile = "/images/logo.svg"
       standard  = "/images/logo.svg"
