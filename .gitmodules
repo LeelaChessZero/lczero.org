@@ -1,3 +1,6 @@
 [submodule "themes/whisper"]
 	path = themes/whisper
 	url = https://github.com/jugglerx/hugo-whisper-theme.git
+[submodule "scripts/wiki"]
+	path = scripts/wiki
+	url = https://github.com/LeelaChessZero/lc0.wiki.git
