@@ -1,6 +1,8 @@
 ---
 title: "Getting Started"
+weight: 500
 wikiname: "Getting-Started"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 ## Basics
 Lc0 has three main parts: 

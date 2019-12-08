@@ -1,6 +1,8 @@
 ---
 title: "Known Issues"
+weight: 500
 wikiname: "Known-Issues"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 There are several known issues with Leela Chess Zero play and training runs.
 Some of them have already been solved and are listed for "historical documentation", while others are still being investigated.

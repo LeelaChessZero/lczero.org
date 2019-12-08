@@ -1,6 +1,8 @@
 ---
 title: "Training runs"
+weight: 500
 wikiname: "Training-runs"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 ## Overview
 | Run  # | Reference                    | Summary     | Currently Active | Net Numbers    |  Best nets |                                                                                                                  

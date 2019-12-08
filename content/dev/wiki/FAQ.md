@@ -1,6 +1,8 @@
 ---
 title: "FAQ"
+weight: 500
 wikiname: "FAQ"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 # Where do I start?
 * To contribute to the project, see [[Getting Started]] and follow the instructions for running self-play training games.

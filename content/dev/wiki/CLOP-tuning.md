@@ -1,6 +1,8 @@
 ---
 title: "CLOP tuning"
+weight: 500
 wikiname: "CLOP-tuning"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 ## TCEC Season 13 tuning
 

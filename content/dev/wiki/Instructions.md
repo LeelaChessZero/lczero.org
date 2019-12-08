@@ -1,6 +1,8 @@
 ---
 title: "Instructions"
+weight: 500
 wikiname: "Instructions"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 Below a list of Guides / instructions for various task.
 

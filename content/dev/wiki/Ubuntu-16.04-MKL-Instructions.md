@@ -1,6 +1,8 @@
 ---
 title: "Ubuntu 16"
+weight: 500
 wikiname: "Ubuntu-16.04-MKL-Instructions"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 Note: These instructions apply to the lczero.exe client, not lc0.exe. See [[lc0-transition]]
 

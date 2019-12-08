@@ -1,6 +1,8 @@
 ---
 title: "Ubuntu 16"
+weight: 500
 wikiname: "Ubuntu-16.04-LC0-Instructions"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 # Building instructions for using CUDA backend
 

@@ -1,6 +1,8 @@
 ---
 title: "Debug and test procedures"
+weight: 500
 wikiname: "Debug-and-test-procedures"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 ## Example tournament command line
 ```

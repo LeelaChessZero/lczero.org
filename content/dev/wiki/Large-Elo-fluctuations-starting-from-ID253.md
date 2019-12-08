@@ -1,6 +1,8 @@
 ---
 title: "Large Elo fluctuations starting from ID253"
+weight: 500
 wikiname: "Large-Elo-fluctuations-starting-from-ID253"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 Below is a brief summary of our investigation into the issues that started showing up in the Elo graph from ID253. We have been performing a number of tests that require changing parameters, generating new self-play games, and training on those. This process requires many self-play games, so your help generating them is still invaluable! We have some promising leads, but still require more time and testing. Thank you for your patience.
 

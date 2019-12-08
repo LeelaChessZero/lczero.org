@@ -1,6 +1,5 @@
 Batchsize---Node-Collisions-Testing
 Benchmarks
-Best-Nets-for-Lc0
 Building-lc0-on-Android,-with-Termux
 CLOP-tuning
 Debug-and-test-procedures

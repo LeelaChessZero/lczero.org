@@ -1,4 +1,4 @@
-baseURL = "lczero.org"
+baseURL = "/"
 languageCode = "en"
 title = "Leela Chess Zero"
 # themesDir = "../.."
@@ -15,7 +15,7 @@ summaryLength = 30
 
 [[menu.main]]
     name = "Play"
-    url = "/play/"
+    url = "/play/quickstart/"
     weight = 20
 
 [[menu.main]]
@@ -51,6 +51,7 @@ summaryLength = 30
 
 
 [params]
+  lc0version="v0.23.1"
   google_analytics_id=""
   # homepage_button_link = '/docs'
   # homepage_button_text = 'Download'
@@ -58,10 +59,10 @@ summaryLength = 30
   homepage_image = '/images/logo_v2.svg'
   mainSections = ["play", "watch", "contribute", "dev", "community", "blog", "about"]
   [[params.homepage_button]]
-    link = "/docs"
+    link = "/play/download"
     text = "Download"
   [[params.homepage_button]]
-    link = "/docs"
+    link = "/play/quickstart"
     text = "Quick start"
 
   ## You can enable to add anchor links to header elements

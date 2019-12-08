@@ -1,6 +1,8 @@
 ---
 title: "Missing Shallow Tactics"
+weight: 500
 wikiname: "Missing-Shallow-Tactics"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 Leela Chess is known to miss relatively shallow tactics in relation to the high level of play.
 The below is a rough draft explaining how the search works and why it misses shallow tactics.

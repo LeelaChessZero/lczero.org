@@ -1,6 +1,8 @@
 ---
 title: "Benchmarks"
+weight: 500
 wikiname: "Benchmarks"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 Run go infinite from start position and abort after depth 26 and report NPS output. 
 

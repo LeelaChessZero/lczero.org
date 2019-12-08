@@ -1,6 +1,8 @@
 ---
 title: "Leela Self play in Docker"
+weight: 500
 wikiname: "Leela-Self-play-in-Docker"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 # Docker 
 

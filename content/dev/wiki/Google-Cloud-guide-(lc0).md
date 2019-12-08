@@ -1,6 +1,8 @@
 ---
 title: "Google Cloud guide (lc0)"
+weight: 500
 wikiname: "Google-Cloud-guide-(lc0)"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 This guide will allow you to have Leela Chess Zero clients running in the cloud in 10 minutes or less. These clients will run self-play training games and help make Leela stronger. This guide is aimed at everyone and assumes no technical understanding.
 

@@ -1,6 +1,8 @@
 ---
 title: "Project History"
+weight: 500
 wikiname: "Project-History"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 * See also our [blog](https://blog.lczero.org)
 * [Discord chat](https://discord.gg/pKujYxD) #announcements and #dev-log have the most detailed updates.

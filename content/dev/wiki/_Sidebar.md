@@ -1,6 +1,8 @@
 ---
 title: "_Sidebar"
+weight: 500
 wikiname: "_Sidebar"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 # [[Home]]
 # [[Getting-Started]]

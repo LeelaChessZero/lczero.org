@@ -101,7 +101,9 @@ class WikiUpdater:
             with open(os.path.join(DESTINATION_DIR, filename), 'w') as f:
                 f.write('''---
 title: %s
+weight: 500
 wikiname: %s
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 %s''' % (json.dumps(title), json.dumps(file), wiki_pages[file]))
 

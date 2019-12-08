@@ -1,6 +1,8 @@
 ---
 title: "Batchsize   Node Collisions Testing"
+weight: 500
 wikiname: "Batchsize---Node-Collisions-Testing"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 1024 bs 256 nc (cccc 2 params) vs default so far.
 ```

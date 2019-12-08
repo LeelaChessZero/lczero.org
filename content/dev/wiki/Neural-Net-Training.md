@@ -1,6 +1,8 @@
 ---
 title: "Neural Net Training"
+weight: 500
 wikiname: "Neural-Net-Training"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 The self-play games your client creates are used by the central server to improve the neural net. This process is called training (many people call the process of running the client to produce self-play games training, but in machine learning these games are only the input data for the actual training process). 
 

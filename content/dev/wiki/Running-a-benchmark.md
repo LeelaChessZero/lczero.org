@@ -1,6 +1,8 @@
 ---
 title: "Running a benchmark"
+weight: 500
 wikiname: "Running-a-benchmark"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 How to run a benchmark on Windows:
 

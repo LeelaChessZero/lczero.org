@@ -1,6 +1,8 @@
 ---
 title: "Running Leela Chess Zero on Intel CPUs (Haswell or later)"
+weight: 500
 wikiname: "Running-Leela-Chess-Zero-on-Intel-CPUs-(Haswell-or-later)"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 Update:  While the MKL version may be useful for analysis, it will be quite slow when generating training games.
 

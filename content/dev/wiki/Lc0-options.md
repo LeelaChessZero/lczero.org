@@ -1,6 +1,8 @@
 ---
 title: "Lc0 options"
+weight: 500
 wikiname: "Lc0-options"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 # Lc0 options
 

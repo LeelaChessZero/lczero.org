@@ -1,6 +1,8 @@
 ---
 title: "Technical Explanation of Leela Chess Zero"
+weight: 500
 wikiname: "Technical-Explanation-of-Leela-Chess-Zero"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 # Lc0 methods and input/output terms
 

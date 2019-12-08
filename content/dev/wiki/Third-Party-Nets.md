@@ -1,6 +1,8 @@
 ---
 title: "Third Party Nets"
+weight: 500
 wikiname: "Third-Party-Nets"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 Outside the official training nets on http://lczero.org/networks, some people are downloading the game data and training their own nets. See also: http://data.lczero.org/files/networks-contrib/
 

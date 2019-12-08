@@ -1,6 +1,8 @@
 ---
 title: "Running Leela Chess Zero as a Lichess Bot"
+weight: 500
 wikiname: "Running-Leela-Chess-Zero-as-a-Lichess-Bot"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 # Introduction
 

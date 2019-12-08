@@ -1,6 +1,8 @@
 ---
 title: "Lc0 for 32 bit windows"
+weight: 500
 wikiname: "Lc0-for-32-bit-windows"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 32 bit processors and operating systems are supported by lc0. However CUDNN is not available for such platforms, so only the `blas` and `opencl` backends can be built. 
 

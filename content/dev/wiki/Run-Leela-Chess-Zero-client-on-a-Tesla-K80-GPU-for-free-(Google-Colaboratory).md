@@ -1,6 +1,8 @@
 ---
 title: "Run Leela Chess Zero client on a Tesla K80 GPU for free (Google Colaboratory)"
+weight: 500
 wikiname: "Run-Leela-Chess-Zero-client-on-a-Tesla-K80-GPU-for-free-(Google-Colaboratory)"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 [Google Colaboratory](https://colab.research.google.com) (Colab) is a free tool for machine learning research. It is a Python notebook running in a Virtual Machine using an NVIDIA Tesla K80 GPU (a graphics processor developed by the NVIDIA Corporation).
 

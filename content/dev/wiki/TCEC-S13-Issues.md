@@ -1,6 +1,8 @@
 ---
 title: "TCEC S13 Issues"
+weight: 500
 wikiname: "TCEC-S13-Issues"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 For TCEC Season 13, division 3, LC0 performed much worse than expected. This page summarizes the issues:
 
