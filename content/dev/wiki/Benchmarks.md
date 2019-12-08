@@ -1,6 +1,6 @@
 ---
 title: "Benchmarks"
-wikiname: "Benchmarks.md"
+wikiname: "Benchmarks"
 ---
 Run go infinite from start position and abort after depth 26 and report NPS output. 
 

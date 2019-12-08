@@ -1,6 +1,6 @@
 ---
 title: "Debug and test procedures"
-wikiname: "Debug-and-test-procedures.md"
+wikiname: "Debug-and-test-procedures"
 ---
 ## Example tournament command line
 ```

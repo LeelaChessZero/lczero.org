@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-wikiname: "Getting-Started.md"
+wikiname: "Getting-Started"
 ---
 ## Basics
 Lc0 has three main parts: 

@@ -1,6 +1,6 @@
 ---
 title: "Running a benchmark"
-wikiname: "Running-a-benchmark.md"
+wikiname: "Running-a-benchmark"
 ---
 How to run a benchmark on Windows:
 

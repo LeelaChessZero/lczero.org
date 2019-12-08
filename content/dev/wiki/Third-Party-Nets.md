@@ -1,6 +1,6 @@
 ---
 title: "Third Party Nets"
-wikiname: "Third-Party-Nets.md"
+wikiname: "Third-Party-Nets"
 ---
 Outside the official training nets on http://lczero.org/networks, some people are downloading the game data and training their own nets. See also: http://data.lczero.org/files/networks-contrib/
 

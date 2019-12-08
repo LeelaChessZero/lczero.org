@@ -1,6 +1,6 @@
 ---
 title: "Running lc0 on Android with a chess GUI"
-wikiname: "Running-lc0-on-Android-with-a-chess-GUI.md"
+wikiname: "Running-lc0-on-Android-with-a-chess-GUI"
 ---
 Follow these simple steps and you'll be running lc0 on your Android device. No root needed. Just the right engine, a weights file and a chess GUI.
 

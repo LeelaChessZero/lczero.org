@@ -1,6 +1,6 @@
 ---
 title: "Dubslow's analysis of Test 10 problems"
-wikiname: "Dubslow's-analysis-of-Test-10-problems.md"
+wikiname: "Dubslow's-analysis-of-Test-10-problems"
 ---
 So, the major assumption that goes into this is that the Tensorboard data is a reliable sole source of information for the information it provides. That's quite reasonable (if it wasn't we may as well give up the project), but it's also in contrast to the various Elo measurements we have, none of which are a single sole reliable source of playing strenth -- instead they all need to be considered collectively.
 

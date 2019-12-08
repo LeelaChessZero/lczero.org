@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-wikiname: "FAQ.md"
+wikiname: "FAQ"
 ---
 # Where do I start?
 * To contribute to the project, see [[Getting Started]] and follow the instructions for running self-play training games.

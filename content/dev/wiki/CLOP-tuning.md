@@ -1,6 +1,6 @@
 ---
 title: "CLOP tuning"
-wikiname: "CLOP-tuning.md"
+wikiname: "CLOP-tuning"
 ---
 ## TCEC Season 13 tuning
 

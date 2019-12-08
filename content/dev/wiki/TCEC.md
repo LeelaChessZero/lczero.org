@@ -1,6 +1,6 @@
 ---
 title: "TCEC"
-wikiname: "TCEC.md"
+wikiname: "TCEC"
 ---
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at http://tcec.chessdom.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 

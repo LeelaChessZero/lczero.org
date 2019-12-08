@@ -1,6 +1,6 @@
 ---
 title: "Training runs"
-wikiname: "Training-runs.md"
+wikiname: "Training-runs"
 ---
 ## Overview
 | Run  # | Reference                    | Summary     | Currently Active | Net Numbers    |  Best nets |                                                                                                                  

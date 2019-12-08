@@ -1,6 +1,6 @@
 ---
 title: "What is Lc0? (for non programmers)"
-wikiname: "What-is-Lc0?-(for-non-programmers).md"
+wikiname: "What-is-Lc0?-(for-non-programmers)"
 ---
 Lc0 is often referred to as a chess engine, however, Lc0 is more like a chess engine *shell* than an actual chess engine.
 Lc0 needs a *neural network* in order to play, just as a car requires a driver, or a mech requires a pilot.

@@ -1,6 +1,6 @@
 ---
 title: "Project History"
-wikiname: "Project-History.md"
+wikiname: "Project-History"
 ---
 * See also our [blog](https://blog.lczero.org)
 * [Discord chat](https://discord.gg/pKujYxD) #announcements and #dev-log have the most detailed updates.

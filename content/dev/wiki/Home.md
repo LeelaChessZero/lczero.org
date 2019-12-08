@@ -1,6 +1,6 @@
 ---
 title: "Home"
-wikiname: "Home.md"
+wikiname: "Home"
 ---
 Welcome to the Leela Chess Zero wiki!  
 Lc0 is a UCI-compliant chess engine designed to play chess via neural network  

@@ -1,6 +1,6 @@
 ---
 title: "Running lczero with cuda and cudnn under nvidia docker2"
-wikiname: "Running-lczero-with-cuda-and-cudnn-under-nvidia-docker2.md"
+wikiname: "Running-lczero-with-cuda-and-cudnn-under-nvidia-docker2"
 ---
 If you have nvidia-docker2 installed, it's possible to run lczero under a docker container while still leveraging all the speed advantages of CUDA and cuDNN.  See https://github.com/NVIDIA/nvidia-docker for instructions on setting up nvidia-docker2
 

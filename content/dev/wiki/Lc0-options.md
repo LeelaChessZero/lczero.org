@@ -1,6 +1,6 @@
 ---
 title: "Lc0 options"
-wikiname: "Lc0-options.md"
+wikiname: "Lc0-options"
 ---
 # Lc0 options
 

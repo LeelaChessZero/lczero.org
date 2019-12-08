@@ -1,6 +1,6 @@
 ---
 title: "_Sidebar"
-wikiname: "_Sidebar.md"
+wikiname: "_Sidebar"
 ---
 # [[Home]]
 # [[Getting-Started]]

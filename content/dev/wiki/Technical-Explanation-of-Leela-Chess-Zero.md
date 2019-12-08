@@ -1,6 +1,6 @@
 ---
 title: "Technical Explanation of Leela Chess Zero"
-wikiname: "Technical-Explanation-of-Leela-Chess-Zero.md"
+wikiname: "Technical-Explanation-of-Leela-Chess-Zero"
 ---
 # Lc0 methods and input/output terms
 

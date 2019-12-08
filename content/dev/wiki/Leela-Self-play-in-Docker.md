@@ -1,6 +1,6 @@
 ---
 title: "Leela Self play in Docker"
-wikiname: "Leela-Self-play-in-Docker.md"
+wikiname: "Leela-Self-play-in-Docker"
 ---
 # Docker 
 

@@ -29,11 +29,11 @@ class WikiUpdater:
     def ReadWikiFiles(self):
         name_to_content = {}
         for file in os.listdir(WIKI_PATH):
-            _, ext = os.path.splitext(file)
+            name, ext = os.path.splitext(file)
             if ext != '.md':
                 continue
             with open(os.path.join(WIKI_PATH, file)) as f:
-                name_to_content[file] = f.read()
+                name_to_content[name] = f.read()
         return name_to_content
 
     def ReadHugoFile(self, filename):
@@ -97,7 +97,8 @@ class WikiUpdater:
         for file in new_files:
             click.secho("Creating %s." % file)
             title = os.path.splitext(file)[0].replace('-', ' ')
-            with open(os.path.join(DESTINATION_DIR, file), 'w') as f:
+            filename = file + '.md'
+            with open(os.path.join(DESTINATION_DIR, filename), 'w') as f:
                 f.write('''---
 title: %s
 wikiname: %s

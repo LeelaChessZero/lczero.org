@@ -1,6 +1,6 @@
 ---
-title: "Ubuntu 16.04 MKL Instructions"
-wikiname: "Ubuntu-16.04-MKL-Instructions.md"
+title: "Ubuntu 16"
+wikiname: "Ubuntu-16.04-MKL-Instructions"
 ---
 Note: These instructions apply to the lczero.exe client, not lc0.exe. See [[lc0-transition]]
 

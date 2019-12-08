@@ -1,6 +1,6 @@
 ---
 title: "Best Nets for Lc0"
-wikiname: "Best-Nets-for-Lc0.md"
+wikiname: "Best-Nets-for-Lc0"
 ---
 There is no single "best net" for Leela but there a few worth recommending for various purposes. The most important consideration in choosing a net is picking the right size for your hardware and time controls (TC). In general, if you have a weak GPU (or no GPU at all) and you want to only spend milliseconds per move, then you want a smaller net that evaluates positions more quickly, i.e. higher NPS (nodes per second). On the other hand, if you have an RTX card (or several) and you want to run an analysis on a single move for hours at a time, then the quality of the evaluation is more important than the speed and a larger (but slower) net is probably going to work best.
 

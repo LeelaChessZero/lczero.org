@@ -1,6 +1,6 @@
 ---
 title: "Instructions"
-wikiname: "Instructions.md"
+wikiname: "Instructions"
 ---
 Below a list of Guides / instructions for various task.
 

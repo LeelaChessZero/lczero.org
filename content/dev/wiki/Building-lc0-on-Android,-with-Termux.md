@@ -1,6 +1,6 @@
 ---
 title: "Building lc0 on Android, with Termux"
-wikiname: "Building-lc0-on-Android,-with-Termux.md"
+wikiname: "Building-lc0-on-Android,-with-Termux"
 ---
 <div align="middle">
 <img src="https://user-images.githubusercontent.com/12534727/57578012-ec787100-7451-11e9-9afe-eaf2b7b6d3e8.jpg" width="250" alt="DroidFish running Lc0" />

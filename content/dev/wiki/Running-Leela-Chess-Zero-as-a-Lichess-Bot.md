@@ -1,6 +1,6 @@
 ---
 title: "Running Leela Chess Zero as a Lichess Bot"
-wikiname: "Running-Leela-Chess-Zero-as-a-Lichess-Bot.md"
+wikiname: "Running-Leela-Chess-Zero-as-a-Lichess-Bot"
 ---
 # Introduction
 

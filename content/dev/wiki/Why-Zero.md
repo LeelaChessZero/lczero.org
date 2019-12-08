@@ -1,6 +1,6 @@
 ---
 title: "Why Zero"
-wikiname: "Why-Zero.md"
+wikiname: "Why-Zero"
 ---
 "Zero" means that no human knowledge have been added, with the exception of the rules of the game (piece movement and victory condition).
 Even very simple strategic concepts (e.g. it's good to have more pieces instead of less) were not taught to Leela Chess Zero.

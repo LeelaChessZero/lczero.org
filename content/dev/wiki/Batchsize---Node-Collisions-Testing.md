@@ -1,6 +1,6 @@
 ---
 title: "Batchsize   Node Collisions Testing"
-wikiname: "Batchsize---Node-Collisions-Testing.md"
+wikiname: "Batchsize---Node-Collisions-Testing"
 ---
 1024 bs 256 nc (cccc 2 params) vs default so far.
 ```

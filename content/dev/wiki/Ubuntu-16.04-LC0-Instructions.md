@@ -1,6 +1,6 @@
 ---
-title: "Ubuntu 16.04 LC0 Instructions"
-wikiname: "Ubuntu-16.04-LC0-Instructions.md"
+title: "Ubuntu 16"
+wikiname: "Ubuntu-16.04-LC0-Instructions"
 ---
 # Building instructions for using CUDA backend
 

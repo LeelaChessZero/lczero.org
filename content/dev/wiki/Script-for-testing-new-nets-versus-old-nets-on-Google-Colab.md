@@ -1,6 +1,6 @@
 ---
 title: "Script for testing new nets versus old nets on Google Colab"
-wikiname: "Script-for-testing-new-nets-versus-old-nets-on-Google-Colab.md"
+wikiname: "Script-for-testing-new-nets-versus-old-nets-on-Google-Colab"
 ---
 Use this script to run tournaments between different versions of Leela.
 
