@@ -34,3 +34,4 @@ It's usual for people to go back and forth in game tree when analyzing their gam
 * Transposition handling and repetition
 * Node serialization
 * Nodes GC and material key
+* Large batches v3
