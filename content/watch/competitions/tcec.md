@@ -1,6 +1,6 @@
 ---
 title: "TCEC"
-weight: 500
+weight: 200
 wikiname: "TCEC"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---

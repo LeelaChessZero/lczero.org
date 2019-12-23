@@ -1,7 +1,7 @@
 ---
 title: "New batching scheme"
 weight: 400
-draft: false
+draft: true
 ---
 
 The aim of a new batching scheme is to be able to gather a batch of arbitrary size.
@@ -29,6 +29,8 @@ This has several problems:
 
 ## Alternative batch gathering idea (failed so far)
 
+**Note that while I was writing that, I found several inconsistencies and bugs in the code, I'll experiment a bit more before declaring this a failure.**
+
 To address those problems, the following idea was tried:
 * There is a single queue of nodes-to-eval shared for all backends, and a separate thread (or set of threads) to gather nodes into that queue, independent from backend evaluation threads.
 * The target queue length is called **batch budget** and is initially equal to `(batch_size)×(1 + number_of_backends)` nodes.
@@ -38,9 +40,8 @@ To address those problems, the following idea was tried:
 * The **collision budget** is distributed to children proportionally to **batch budget**.
 * **n-in-flight** for the child is incremented by value of **collision budget** sent to that child.
 * The batch gathering is called recursively for children passing those per-child budgets as parameters. If implementation allows, all children may be called in parallel without mutex, as all they operate on different parts of the tree.
-* If a node finds itself with **batch budget == 0**, all the remaining **collision budget** is sent back through the parent towards the root (to use in the next iteration), decreasing **n-in-flight** changes along its way.
-* If a node finds itself with **collision budget == 0** with non-zero **batch budget**, n-in-flight remains intact, but remaining **batch budget** is sent to eval backends as "skip evals". ** <- never happens **
-* **[WAT??]** Colliston budget > 0 and batch budget > 0 and collision. -> store collisions to revert in node, skip evals.
+* If a node is being evaluated and received a non-empty **collision budget**, the value of collision budget and path to root is stored in the node so that it's reverted when the eval is done.
+* If a node is being evaluated and received a non-empty **batch budget**, the batch is respawned from the root node. If current node is already a root node, **skip eval** command is sent to evaluator.
 * *(the problems with this approach occurred long before the terminal nodes, so mentioning just for completeness)* If visit hits terminal node, entire route from parent is recomputed knowing **Q** of that node, adjusting **batch budget**, **collision budget**, and **n-in-flight** along the way.
 * If after the iteration both **batch budget** sent to root and **collision budget** sent to root were larger than 0, start the operation again from root with the new values of the budgets, otherwise wait for them to become non-zero.
 * Eval backend takes `(batch size)` nodes from the queue, and adds them back to the **batch budget** immediately.
@@ -68,4 +69,20 @@ It still requires more thorough research what exactly is happening there. Possib
 
 Maybe just ignore nodes that are being evaluated completely? That will make evaluated nodes concentrated near the leaves though. Also also that "node block" should be propagated back to the parent when a node has zero available moves, undone when the node is evaluated. That adds additional challenge when combined with other search algorithm optimizations (namely, transposition hash instead of a tree).
 
-TODO(taking a node out of tree)
+Another idea is to store number of leaves of subtree which are not already being evaluated in the node. That idea looks fine when eval tree is a tree, but with introducing transpositions it becomes unmanageably hard.
+
+## Idea v3
+
+* No collisions, no n-in-flight stored in nodes
+* Node gathering has an epoch (8 bit?) which is incremented every time any batch is evaluated. All gatherer-to-gatherer messages have epoch number.
+* All updates, queries, etc, are from root to leaves (even backpropagation).
+* Message order must be stable.
+* Initially full batch at root node.
+* Every node splits the batch to subtrees.
+* If eval hit, message is sent to evaluator, but also to the root ("batch item used")
+* If collision, the node is "excluded" from the tree, probabilities along the tree are updated, and that information is sent to root.
+* If terminal, recalculate Q from entire route and send to root for update.
+* If any node hits "all routes banned" situation, send skip eval to remaining nodes.
+* When root receives eval, epoch is incremented.
+* When epoch chenged, "excluded" list is cleared.
+* Three categories of batch budget: evaluating, gathering, waiting.
