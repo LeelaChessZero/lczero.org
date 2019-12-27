@@ -24,4 +24,4 @@ OpenBLAS version is for older CPUs.
 
 Older versions, beta releases and other package types are available at our [GitHub releases page](https://github.com/LeelaChessZero/lc0/releases).
 
-TODO(write about other OSes)
+TODO(write about other OSes, including Linux, MacOS and Android. Possibly in a separate article)
