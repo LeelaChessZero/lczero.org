@@ -26,7 +26,7 @@ To install a network.
   * Download a network file.  
   Refer to [this page]({{<ref "bestnets">}}) to decide the best network for your needs.
   * The name will be some long hash string, for example: b82f0b34b96c8f38f68ee97703b4149ab976122ca9bed6120f9dea88d733d266
-  * Rename to "weights" or any other filename (for convenience, not necessary).
+  * Rename to "weights" or any other filename (for convenience, not necessary). **No need to unzip the weights file!**
   * Place the network file into the same directory where the lc0 application is located.
   * The file will be found automatically by Lc0.  
   Note that if there are several network files in the directory, Lc0 will use the **latest one by file modification date**.
