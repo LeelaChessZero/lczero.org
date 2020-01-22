@@ -1,10 +1,10 @@
 ---
 title: "Overview"
 weight: 100
-draft: true
+draft: false
 ---
 
-*Draft: crem, 2019-12-xx*
+*Note from crem (2020-01-07): this is unfinished draft. I started to write this and realized that it's not self-consistent. I'm currently in the process of trying new ideas. Because, you know, month of coding can save you from a hour of discussions. (I should have discussed all that first).*
 
 This section contains the summary of ideas for the potential reimplementation of Lc0 search algorithm to address limitations of search algorithm (aka "Lc2 project").
 

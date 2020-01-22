@@ -1,7 +1,7 @@
 ---
 title: "Node stats duplication"
 weight: 300
-draft: true
+draft: false
 ---
 
 It is believed that the main limiting factor of Lc0 performance is memory latency. The reason for that is that the node selection algorithm is not CPU cache friendly.
