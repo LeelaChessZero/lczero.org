@@ -1,6 +1,6 @@
 ---
 title: "Setting up Lc0 in chess GUI"
-weight: 800
+weight: 500
 draft: false
 ---
 

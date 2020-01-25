@@ -1,6 +1,6 @@
 ---
 title: "Best Network"
-weight: 500
+weight: 800
 wikiname: "Best-Nets-for-Lc0"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---

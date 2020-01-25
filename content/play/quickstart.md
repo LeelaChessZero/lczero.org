@@ -35,7 +35,8 @@ To install a network.
  The best way to play and analyze games is to use chess GUI. Check [this document]({{<ref "gui">}}) to find how to do that.
 
 ## Contribute training games
- TODO(write that)
+ TODO(write that briefly).
+ Information about advanced configuration can be found [here]({{<ref "../contribute/selfplay">}}).
 
 ## Support
 

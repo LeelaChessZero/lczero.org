@@ -1,7 +1,7 @@
 ---
 title: "Engine parameters"
 weight: 900
-draft: false
+draft: true
 ---
 
 Can be specified using command-line/UCI/config file.

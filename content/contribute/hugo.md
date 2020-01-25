@@ -23,6 +23,8 @@ Some pages originated from [GitHub wiki](https://github.com/LeelaChessZero/lc0/w
 
 New pages appear in [this section]({{<ref "../dev/wiki">}}) of the website. It's possible to move the document around (and keeping `wikiname` header), and it will keep being linked/synched to the GitHub wiki page.
 
+The syntax for pages is [CommonMark](https://commonmark.org/) standard of MarkDown.
+
 ## Setting up HuGo to run locally
 
 If you create pages or plan to contribute non-trivial amount of changes, it's recommended to setup HuGo locally. It works will both under Windows and Linux. Here is how to do it.
@@ -60,7 +62,7 @@ git clone --recurse-submodules git@github.com:YOURUSERNAME/lc0-website.git
 To start local HuGo server, use this command line:
 ```bash
 cd lc0-website
-hugo server
+hugo -D server  # Remove -D to stop seeing draft pages.
 ```
 
 After that the website will be available by address http://localhost:1313/, and all changes will be shown live on the web page.
@@ -77,5 +79,10 @@ You may want to edit page's header:
 ```yaml
 title: "Teapot"  # Change to human readable page title.
 weight: 100      # Is used for page sorting withint server.
-draft: false     # Change to true to hide the page.
+draft: true      # Change to publish the page.
 ```
+
+### Drafts
+
+All pages are created as drafts, and there are many stub pages.
+The version of the website with all drafts rendered is located at https://draft.lczero.org/.

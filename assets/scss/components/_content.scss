@@ -1,5 +1,11 @@
 .content {
   -webkit-font-smoothing: antialiased;
+  .banner {
+    background: lightgoldenrodyellow;
+    border-radius: 3px;
+    padding: 4px 10px 4px 10px;
+    margin: 20px 0;
+  }
   .highlight {
     border-radius: 2px;
     margin-bottom: 20px;

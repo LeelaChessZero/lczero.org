@@ -1,7 +1,7 @@
 ---
 title: "WCEC"
 weight: 100
-draft: false
+draft: true
 ---
 
 We also participated in WCEC once.

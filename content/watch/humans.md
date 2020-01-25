@@ -1,7 +1,7 @@
 ---
 title: "Games against humans"
 weight: 1500
-draft: false
+draft: true
 ---
 
 TODO(write about notable games against humans)

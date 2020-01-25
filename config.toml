@@ -51,7 +51,7 @@ summaryLength = 30
 
 
 [params]
-  lc0version="v0.23.1"
+  lc0version="v0.23.2"
   google_analytics_id=""
   # homepage_button_link = '/docs'
   # homepage_button_text = 'Download'
