@@ -91,6 +91,22 @@ The version of the website with all drafts rendered is located at https://draft.
 The "production" version of the website is currently located at https://newsite.lczero.org/,
 with plans to make it the main lczero.org site.
 
+### File locations
+
+Hugo has a non-trivial rules for mapping filenames to URLs. Here is how it works roughly:
+
+|File location|Resulting URL|
+|---|---|
+|`content/foo/bar.md`|`example.com/foo/bar/`|
+|`content/foo/bar/index.md`|`example.com/foo/bar/`|
+|`content/foo/bar/_index.md`|`example.com/foo/bar/`|
+
+Note that `index.md` and `_index.md` has a special meaning.
+
+The difference between `_index.md` and `index.md` is that `_index.md` creates logical subsection.
+* When a page doesn't have subpages, use `index.md`.
+* When in doubt, use `_index.md` (there's nothing wrong with using it always).
+
 ### Contents of section
 
 Section pages (pages that have subpages) have table of contents at the bottom of the page
