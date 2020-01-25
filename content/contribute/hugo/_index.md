@@ -16,11 +16,11 @@ The source files of the website are located on [GitHub](https://github.com/Leela
 
 ### Editing (non-GitHub wiki) pages
 
-If you just want do edit a single page without need to create a new one or preview the page looks, you can press **[Edit]** button on the topright corner of every article and edit in GitHub editor.
+If you just want do edit a single page without need to create a new one or preview the page looks, you can press **[Edit on GitHub]** button on the topright corner of every article and edit in GitHub editor.
 
 ### Editing GitHub wiki pages
 
-Some pages originated from [GitHub wiki](https://github.com/LeelaChessZero/lc0/wiki). Those pages should not be edited in WebSite repository (they would be overwritten anyway). Instead, **[Edit]** button leads to the wiki, where those documents can be edited. Such pages are automatically synchronized with website every ten minutes.
+Some pages originated from [GitHub wiki](https://github.com/LeelaChessZero/lc0/wiki). Those pages should not be edited in WebSite repository (they would be overwritten anyway). Instead, **[Edit on Wiki]** button leads to the wiki, where those documents can be edited. Such pages are automatically synchronized with website every ten minutes.
 
 New pages appear in [this section]({{<ref "../../dev/wiki">}}) of the website. It's possible to move the document around (and keeping `wikiname` header), and it will keep being linked/synched to the GitHub wiki page.
 
