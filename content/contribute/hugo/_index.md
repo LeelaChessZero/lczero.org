@@ -12,7 +12,7 @@ The website is generated using the [Hugo](https://gohugo.io) static site generat
 
 ## Where data is located
 
-The source files of the website are located on [GitHub](https://github.com/LeelaChessZero/lc0-website/blob/master/content/). All changes of **master** branch of this repository are automatically pushed to live server every 10 minutes.
+The source files of the website are located on [GitHub](https://github.com/LeelaChessZero/lczero.org/blob/master/content/). All changes of **master** branch of this repository are automatically pushed to live server every 10 minutes.
 
 ### Editing (non-GitHub wiki) pages
 
