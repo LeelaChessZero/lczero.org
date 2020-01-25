@@ -38,10 +38,10 @@ summaryLength = 30
     url = "/community/"
     weight = 60
 
-[[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 70
+#[[menu.main]]
+#    name = "Blog"
+#    url = "/blog/"
+#    weight = 70
 
 [[menu.main]]
     name = "About"
@@ -53,9 +53,7 @@ summaryLength = 30
 [params]
   lc0version="v0.23.2"
   google_analytics_id=""
-  # homepage_button_link = '/docs'
-  # homepage_button_text = 'Download'
-  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
+  #homepage_intro = 'Lc0'
   homepage_image = '/images/logo_v2.svg'
   mainSections = ["play", "watch", "contribute", "dev", "community", "blog", "about"]
   [[params.homepage_button]]
@@ -68,16 +66,16 @@ summaryLength = 30
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
 
-  [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
-    meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.com"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+  # [params.homepage_meta_tags]
+  #   meta_description = "Leela Chess Zero is an open source neural network based chess engine."
+  #   meta_og_title = "Leela Chess Zero"
+  #   meta_og_type = "website"
+  #   meta_og_url = "https://hugo-whisper.netlify.com"
+  #   meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+  #   meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+  #   meta_twitter_card = "summary"
+  #   meta_twitter_site = "@zerostaticio"
+  #   meta_twitter_creator = "@zerostaticio"
 
   [params.logo]
       mobile = "/images/logo.svg"
