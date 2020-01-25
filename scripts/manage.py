@@ -9,7 +9,7 @@ import json
 SCRIPT_DIR = os.path.dirname(__file__)
 FILELIST = os.path.join(SCRIPT_DIR, 'wikifiles.txt')
 CONTENT_DIR = os.path.realpath(os.path.join(SCRIPT_DIR, '../content'))
-WIKI_PATH = os.path.join(SCRIPT_DIR, 'wiki')
+WIKI_PATH = os.path.join(SCRIPT_DIR, 'lc0.wiki')
 DESTINATION_DIR = os.path.join(CONTENT_DIR, 'dev/wiki')
 
 

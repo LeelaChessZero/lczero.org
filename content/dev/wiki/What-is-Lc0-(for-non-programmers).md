@@ -4,17 +4,20 @@ weight: 500
 wikiname: "What-is-Lc0?-(for-non-programmers)"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-Lc0 is often referred to as a chess engine, however, Lc0 is more like a chess engine *shell* than an actual chess engine.
-Lc0 needs a *neural network* in order to play, just as a car requires a driver, or a mech requires a pilot.
-
-The brains of Lc0, the true *player* of the engine, is the neural network that it uses.
-Lc0 will give the possible moves (the resulting positions) to the network, and the network will evaluate how good the positions are and determine which positions/moves are most likely to result in victory or at least a draw, and then tell Lc0 what move is the best.
+Lc0 is often referred to as a chess engine, however, Lc0 is more like a chess engine *shell* than an actual chess engine. This is often called "the binary".
+Lc0 needs a *neural network* (also called a "weights file") in order to play, just as a car requires a driver, or a mech requires a pilot.
 
 In other words, Lc0 is a robot body with eyes to see the pieces and hands to move them, and the neural network is the brain of the robot that chooses the best move.
+
+Lc0 (the shell) tells the network (the brain) where the pieces are and what the possible moves are. The network then figures out which moves are most likely to win the game. If a move looks good, the network will look at the moves that might come after it to figure out if it really is the best move. If it isn't, it will start looking at a different, better looking move.
+
+But this requires that the network knows what a good looking move even is. A completely new untrained network has no idea what moves are good and will choose seemingly random moves. But a trained network that has seen millions of games will know what a good move looks like and will generally choose a great, or the best, move, which Lc0 will then play.
 
 With a weak network, Lc0 can play as poorly as a toddler, and with a strong network, Lc0 can beat even the strongest existing chess engines.
 
 And so, if you wish to use Lc0, you need to download both Lc0 *and* a network to drive it. To get started, you can follow [the instructions found here](https://github.com/LeelaChessZero/lc0/wiki/Getting-Started).
+
+There are also different network sizes. The bigger networks are smarter but slower, and the smaller networks aren't as smart but are much faster. So if Lc0 is playing a bullet game, then you might want to use a smaller net which can think faster. However if you are using Lc0 to analyze a position, and don't really care about the time it takes to analyze it, then you'll want a bigger and smarter network.
 
 ---
 
@@ -45,8 +48,7 @@ All of the main networks can be downloaded from [lczero.org](https://lczero.org/
 
 J nets are not the main Lc0 networks, but are still important networks, and are often used in tournaments against other engines.
 
-Because all of the T net games are saved, all of them can be used as training data for other networks as well.
-J nets are trained on these games.
+J nets are trained on the games that the T networks train with.
 
 The J nets have different network sizes and different training parameters from the T nets, which can sometimes make them stronger than the T nets in some ways.
 
@@ -60,11 +62,15 @@ There are many J nets, each of different sizes and different parameters. (This i
 
 ## Other Nets
 
-**Leelenstein** is [a net](https://www.patreon.com/jjosh) that is trained on a myriad of chess game databases with a myraid of training methods.
+**Leelenstein** is [a net](https://www.patreon.com/jjosh) that is trained on a myriad of chess game databases with a myraid of training methods, focused mostly on high level play. It also runs on a modified version of Lc0.
 
 **Dark Queen** is a net that is trained on the available Lichess games database.
 
 You can find more nets [here](https://github.com/LeelaChessZero/lc0/wiki/Third-Party-Nets).
+
+**SV or Sergio**
+
+Nets by Sergiovieri, [found here](https://www.comp.nus.edu.sg/~sergio-v/t40/).
 
 ## What is the BEST net?
 

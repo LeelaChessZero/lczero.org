@@ -21,7 +21,7 @@ If you don't already have, install git:
 
 Docker 16.04 image needs also  gnupg: `apt install git gnupg`
 
-Docker 17.10 image needs also dirmng: `apt install git gnupg dirmng`
+Docker 17.10 image needs also dirmng: `apt install git gnupg dirmngr`
 
 Get lc0 source if you don't already have it. Follow the [README.md instructions](https://github.com/LeelaChessZero/lc0#downloading-source) on how to create a `git` clone of the repository.
 

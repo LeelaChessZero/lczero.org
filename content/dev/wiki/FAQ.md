@@ -28,9 +28,8 @@ Many people test the strength of Lc0 nets but the main exchange of results is no
 
 ### Regularly updated
 * [lc0 Elo Ratings -- ID Progression](https://docs.google.com/spreadsheets/d/1QxAG6XVTvvTAGlZ-kpSSvv0VuMGh7RkJjgKqgT37vMU/edit?ts=5bf04640#gid=0) (!sheet4 on Discord)
-* [Position tester](https://docs.google.com/spreadsheets/d/1MeCqY05v41ojhnejrqSy2cUSfVhjYEAFbfNCn13cyH8/edit#gid=401642408)
-### Occasionally updated
-* [Lc0 test30 Elo estimates](https://docs.google.com/spreadsheets/d/19UL5a9I3M_TjIYwTpJQKdCi2RJHpxDD9YHnRogrwTnc/edit#gid=0) (!sheet3 on Discord)
+* [Position tester](https://docs.google.com/spreadsheets/d/1MeCqY05v41ojhnejrqSy2cUSfVhjYEAFbfNCn13cyH8/edit#gid=401642408) (!position-tester on discord)
+* [Lc0 Elo estimates](https://docs.google.com/spreadsheets/d/19UL5a9I3M_TjIYwTpJQKdCi2RJHpxDD9YHnRogrwTnc/edit#gid=620784436) (!sheet3 on Discord)
 
 ### Long time no update seen
 * [Aggregated list](https://docs.google.com/document/d/1vdmi1TJgPtYo_l-i-wDI_Ki6Hh9Ix26UbUP5HBbaquw)
@@ -59,6 +58,7 @@ Despite all this, some of the best nets are listed [here](https://github.com/Lee
 * Several people run Lc0 on lichess:
   * https://lichess.org/@/LeelaChess/tv
 * Some people stream test matches against other engines or itself frequently, notable streams include:
+  * [navratil25](https://m.twitch.tv/navratil25)
   * [CMCanavessi](https://twitch.tv/ccls)
   * [jjosh](https://www.twitch.tv/jjoshua2)
   * [y_Sensei](https://www.twitch.tv/y_sensei)
@@ -94,5 +94,4 @@ LC0 network ID:  247 GPU v8 W/ TB
 Opponent:        Houdini 6.03
 ```
 Download link:https://lichess.org/BHgy4azy
-
 
