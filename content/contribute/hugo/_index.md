@@ -2,6 +2,7 @@
 title: "Website"
 weight: 1500
 draft: false
+show_contents: false
 ---
 
 Many sections of this website are not fully written or and help filling/fixing them up would be appreciated.
@@ -21,7 +22,7 @@ If you just want do edit a single page without need to create a new one or previ
 
 Some pages originated from [GitHub wiki](https://github.com/LeelaChessZero/lc0/wiki). Those pages should not be edited in WebSite repository (they would be overwritten anyway). Instead, **[Edit]** button leads to the wiki, where those documents can be edited. Such pages are automatically synchronized with website every ten minutes.
 
-New pages appear in [this section]({{<ref "../dev/wiki">}}) of the website. It's possible to move the document around (and keeping `wikiname` header), and it will keep being linked/synched to the GitHub wiki page.
+New pages appear in [this section]({{<ref "../../dev/wiki">}}) of the website. It's possible to move the document around (and keeping `wikiname` header), and it will keep being linked/synched to the GitHub wiki page.
 
 The syntax for pages is [CommonMark](https://commonmark.org/) standard of MarkDown.
 
@@ -71,7 +72,7 @@ After that the website will be available by address http://localhost:1313/, and 
 
 To create a new page, use `hugo new` command, for example:  
 ```bash
-hugo new watch/teapot.md
+hugo new --kind docs watch/teapot.md
 ```
 That will create a page which will be located at `content/watch/teapot.md` and available at `http://localhost:1313/watch/teapot`.
 
@@ -86,3 +87,11 @@ draft: true      # Change to publish the page.
 
 All pages are created as drafts, and there are many stub pages.
 The version of the website with all drafts rendered is located at https://draft.lczero.org/.
+
+The "production" version of the website is currently located at https://newsite.lczero.org/,
+with plans to make it the main lczero.org site.
+
+### Contents of section
+
+Section pages (pages that have subpages) have table of contents at the bottom of the page
+by default. Add `show_contents: false` to the header to switch that off.
