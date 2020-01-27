@@ -97,7 +97,7 @@ class WikiUpdater:
         for file in new_files:
             click.secho("Creating %s." % file)
             title = os.path.splitext(file)[0].replace('-', ' ')
-            filename = file + '.md'
+            filename = file.replace('?', '') + '.md'
             with open(os.path.join(DESTINATION_DIR, filename), 'w') as f:
                 f.write('''---
 title: %s
@@ -108,7 +108,7 @@ wikiname: %s
 %s''' % (json.dumps(title), json.dumps(file), wiki_pages[file]))
 
         with open(FILELIST, "w") as f:
-            f.write('\n'.join(list(sorted(new_files or known_pages))))
+            f.write('\n'.join(list(sorted(new_files | known_pages))))
 
 
 @click.group()

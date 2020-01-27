@@ -13,7 +13,7 @@ Lc0 (the shell) tells the network (the brain) where the pieces are and what the 
 
 But this requires that the network knows what a good looking move even is. A completely new untrained network has no idea what moves are good and will choose seemingly random moves. But a trained network that has seen millions of games will know what a good move looks like and will generally choose a great, or the best, move, which Lc0 will then play.
 
-With a weak network, Lc0 can play as poorly as a toddler, and with a strong network, Lc0 can beat even the strongest existing chess engines.
+With a weak network, Lc0 can play as poorly as a toddler, and with a strong network, Lc0 can beat even the strongest existing chess engines (assuming you have a good enough GPU).
 
 And so, if you wish to use Lc0, you need to download both Lc0 *and* a network to drive it. To get started, you can follow [the instructions found here](https://github.com/LeelaChessZero/lc0/wiki/Getting-Started).
 
