@@ -8,7 +8,7 @@
 <a href="https://github.com/LeelaChessZero/lc0/wiki/{{ .Params.wikiname }}/_edit" class="overview" target="_blank">
 Edit on wiki</a>
 {{else}}
-<a href="https://github.com/LeelaChessZero/lczero.org/edit/master/content/{{ .File.Path }}" class="overview" target="_blank">
+<a href="https://github.com/LeelaChessZero/lczero.org/edit/master/content/{{ with .File }}{{ .Path }}{{ end }}" class="overview" target="_blank">
 Edit on GitHub</a>
 {{end}}
 <h1 class="title">{{ .Title }}</h1>
