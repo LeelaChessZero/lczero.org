@@ -1,7 +1,7 @@
 ---
 title: "New batching scheme"
 weight: 400
-draft: false
+draft: true
 ---
 
 The aim of a new batching scheme is to be able to gather a batch of arbitrary size.
