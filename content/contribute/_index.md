@@ -17,6 +17,7 @@ If you are not a developer, there is still plenty of ways to contribute:
 
 * Contribute training games.  
 Self-play training game generation is vital part of the LCZero project.
+* Help on **#help** channel in our Discord.
 * Contributing to [improving this site]({{<ref "hugo">}}).
 * Maintaining [benchmark tool]({{<ref "benchmark">}}) and submitting your
   benchmark data.

@@ -34,20 +34,14 @@ summaryLength = 30
     weight = 50
 
 [[menu.main]]
-    name = "Community"
-    url = "/community/"
+    name = "About"
+    url = "/about/"
     weight = 60
 
 #[[menu.main]]
 #    name = "Blog"
 #    url = "/blog/"
 #    weight = 70
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 80
-
 
 
 [params]
