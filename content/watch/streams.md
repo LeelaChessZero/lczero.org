@@ -4,7 +4,7 @@ weight: 1000
 draft: true
 ---
 
-Those people are frequently stream Leela games on Twitch:
+These people frequently stream Leela games on Twitch:
 
 * [mattblachess](https://www.twitch.tv/mattblachess)
 * [navratil](https://www.twitch.tv/navratil25)
