@@ -24,10 +24,10 @@ As Lc0 keeps entire search tree in memory, it's pretty memory hungry and no real
 It's usual for people to go back and forth in game tree when analyzing their games. Lc0 discards entire tree in that case, even though sometimes it has useful subtrees steel in memory.
 * **Ability to store the search state.**  
 It would be useful to be able to store/restore the search state, for example to switch analysis back and forth for different positions, or to distribute pre-computed search from startpos together with Lc0 as kind-of an opening book.
+* **Easy changes of data types and formulas.**  
+Currently it's quite a challenge to replace floats with doubles, changing PUCT or backprop formula requires touching several places of the code. Changing **N** from uint32 to uint64 is even larger problem. Would be nice to localize all "logic" code in one place.
 
 We are attempting to fix all of that at once, and repeatedly fail at that.
-
-## Summary of ideas
 
 The following pages describe ideas addressing the issues, but the real challenge is how to glue them together..
 
