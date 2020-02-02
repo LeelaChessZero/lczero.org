@@ -42,7 +42,7 @@ This node was visited 4 times, all children visits went to the move **g1h3**. An
 What we can do for the next visits is to pretend that the move was not legal at all and setting it's **P** to **0**.  
 ![Making move illegal](fig3.svg)
 
-It may make sense also to renormalize all other **P**, although I'm not sure how much of a performance hit it would be.  
+It may make sense also to renormalize all other **P**.  
 ![Making move illegal](fig4.svg)
 
 Note that with this approach we don't need **N-in-flight** anymore, although it's being replaced by much heavier logic. Also note that we don't need to adjust parent's **N** or **Q** in any way as the locked node always has 0 visits.
@@ -60,6 +60,28 @@ would have **P**s updated this way:
 
 ### Implementation
 
+I didn't try to implement this yet, but my plan for the first attempt is:
+
+* Don't modify **P** in nodes. Instead have a separate tree data structure to override values of **P**.
+    * On collision add entire path from root to the leaf with **P** adjustments.
+    * Before sending a "wave" (described in previous section), join all such paths to a tree. When propagating "wave" recursively, pass a subtree.
+* Don't do that **P=0** when sending a node to eval, so that on collision instead.
+    * This is more transposition-friendly, as multiple paths can lead to the same node.
+    * It allows to clear the data structure at arbitrary moments of time (e.g. when some nodes finish NN evaluation), and nothing breaks.
+    * But it adds more unnecessary node gathering passes to rebuild that tree structure.
+* When any of NN batches finish evaluation, clean entire structure (which includes nodes for which evaluation is still in progress). Wasteful but easy, will do that in first prototype.
+* If this scheme fails (e.g. we somehow get into the node where all child nodes are already with P=0), skip the eval. E.g. when there are only 20 nodes in entire tree (first few iterations), there's no theoretical way to build large batches.
+* The renormalization is also simple. Nothing has to be updated in Nodes structure, do that on the fly.
+* The "working tree" structure will be relatively small (O(depth × nodes_in_flight)), it may probably be designed to be a cache friendly.
+
 ### Why
 
+Why is all that needed?
+
+* Main reason: we need huge batches (10000 or more), and all "hacky" ways to gather them failed.
+* It does seem like a "correct" way to solve it, rather than "hacky" virtual loss-related ways.
+
 ### Problems/thoughts
+
+* Performance may be a bottleneck.
+* Updating and using the structure must not hinder parallelization.

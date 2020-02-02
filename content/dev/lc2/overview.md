@@ -36,5 +36,6 @@ The following pages describe ideas addressing the issues, but the real challenge
 * For better (unlimited!) parallelization and remove locks, shard the nodes hashmap and have dedicated thread per shard.
 * Pick hash function which incorporates rule50 but not threefold position.
 * Run search using message/event passing architecture.
+* Isolate all "data type and logic" code in one place.
 * Node serialization
 * Nodes GC and material key
