@@ -4,9 +4,7 @@ weight: 100
 draft: true
 ---
 
-*Note from crem (2020-01-07): this is unfinished draft. I started to write this and realized that it's not self-consistent. I'm currently in the process of trying new ideas. Because, you know, month of coding can save you from a hour of discussions. (I should have discussed all that first).*
-
-This section contains the summary of ideas for the potential reimplementation of Lc0 search algorithm to address limitations of search algorithm (aka "Lc2 project").
+This section contains the summary of ideas for the potential reimplementation of Lc0 search algorithm to address limitations of search algorithm (for now I name it "Lc2", although probably the name will be changed as not everyone likes that).
 
 ## Desired improvements
 
@@ -25,16 +23,18 @@ As Lc0 keeps entire search tree in memory, it's pretty memory hungry and no real
 * **Discarding tree on take-back.**  
 It's usual for people to go back and forth in game tree when analyzing their games. Lc0 discards entire tree in that case, even though sometimes it has useful subtrees steel in memory.
 * **Ability to store the search state.**  
-It would be useful to be able to store/restore the search state, for example to switch analyzis back and forth for different positions, or to distribute pre-computed search from startpos together with Lc0 as kind-of an opening book.
+It would be useful to be able to store/restore the search state, for example to switch analysis back and forth for different positions, or to distribute pre-computed search from startpos together with Lc0 as kind-of an opening book.
 
+We are attempting to fix all of that at once, and repeatedly fail at that.
 
-## Unwritten
+## Summary of ideas
 
-* Hash and sharding
-  * Rule50?
-  * Threefold
-* Message passing
-* Transposition handling and repetition
+The following pages describe ideas addressing the issues, but the real challenge is how to glue them together..
+
+* Bring edge **N** and edge **Q** to [parent node]({{<ref "edgedata">}}).
+* To be able to gather unlimited number of nodes fast, [temporary exclude them from legal moves]({{<ref "batching">}}) and adjust all nodes until root.
+* For better (unlimited!) parallelization and remove locks, shard the nodes hashmap and have dedicated thread per shard.
+* Pick hash function which incorporates rule50 but not threefold position.
+* Run search using message/event passing architecture.
 * Node serialization
 * Nodes GC and material key
-* Large batches v3

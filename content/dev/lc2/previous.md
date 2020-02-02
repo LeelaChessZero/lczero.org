@@ -1,8 +1,11 @@
 ---
 title: "Failed attempts"
-weight: 200
+weight: 20000
 draft: true
 ---
+
+*Feel free to skip this page, nothing useful is here.*
+
 
 There have been already several iterations of attempting to solve the listed problems, but none so far was successful (probably because I keep on trying to solve them all at once).
 
