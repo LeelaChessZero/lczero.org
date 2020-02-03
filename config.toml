@@ -46,7 +46,7 @@ summaryLength = 30
 
 [params]
   lc0version="v0.23.2"
-  google_analytics_id=""
+  google_analytics_id="UA-100707634-4"
   #homepage_intro = 'Lc0'
   homepage_image = '/images/logo_v2.svg'
   mainSections = ["play", "watch", "contribute", "dev", "community", "blog", "about"]
