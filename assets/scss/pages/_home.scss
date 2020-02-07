@@ -1,0 +1,30 @@
+.page-home {
+  text-align: center;
+  .title {
+    font-weight: lighter;
+    font-family: $font-family-base;
+  }
+  p {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 60%;
+    }
+  }
+  .terminal {
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: -200px;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      max-height: 40em;
+    }
+  }
+}
