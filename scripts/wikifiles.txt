@@ -3,6 +3,7 @@ Benchmarks
 Best-Nets-for-Lc0
 Building-lc0-on-Android,-with-Termux
 CLOP-tuning
+Contributing-Training-Games
 Debug-and-test-procedures
 Dubslow's-analysis-of-Test-10-problems
 FAQ
