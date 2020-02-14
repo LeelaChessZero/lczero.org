@@ -30,18 +30,6 @@ First, install Termux from Google Play:
 
 After the install you should be ready to start adding packages, but give the app permissions to access the **storage** as you'll need it later.
 
-## Automated installation
-
-Just copy/paste the following command into your Termux, press enter and wait, everything will be ready when it's done.
-
-`pkg install curl && curl -L https://git.io/fj8jq | sh`
-
-It will build and install the engine to your DroidFish/**uci** folder, the libs and weights to DroidFish/**lib**. They will be ready to use with the DroidFish fork provided [here](https://github.com/lealgo/droidfish/releases/tag/1.74-lc0). Done, no more fiddling needed.
-
-If for some reason you can't find the engine files, then something went wrong and you'll need to start again clean, reinstall Termux and follow the steps in the remaining sections.
-
-**Disclaimer** This is a simple script I wrote and tested on my phone only. It might not work for you, but please report any issues on Discord.
-
 ## Add repos and required packages
 
 You will need to add a custom repo that has clang, openblas and other goodies. Don't worry, the repo is listed on the Termux wiki [https://wiki.termux.com/wiki/Package_Management](https://wiki.termux.com/wiki/Package_Management).
