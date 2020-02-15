@@ -23,7 +23,7 @@ For nets of the same size, the first net listed is likely the strongest.
 |--------|------------------|-----------------------------------|------------------|
 | 5b x 48f   | Good Gyal 5      | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
 | 9b x 112f  | ID11258-112x9-se | [GitHub: dkappe Distilled Networks](https://github.com/dkappe/leela-chess-weights/wiki/Distilled-Networks) | Other sizes also here |
-| 10b x 128f | T58: #58613  | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Last T58 net |
+| 10b x 128f | Latest T59  | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Current test run |
 | 10b x 128f | Little Demon 2 | [data.lczero.org repository](http://data.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
 | 16b x 192f | J20-460          | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
 | 20b x 256f | SV-20b-t40-1541  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/) | Trained on T40 data |
