@@ -33,7 +33,7 @@ Can be downloaded from https://github.com/LeelaChessZero/lczero-client/releases
   * Other GPU cases: lc0--<version>-windows-opencl.zip
 * [[Changelog|https://github.com/LeelaChessZero/lc0/blob/master/changelog.txt]] between different versions
 ### Network
-Download a network from http://lczero.org/networks or see [best nets](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0) for an overview of the best nets for your conditions. 
+Download a network from http://training.lczero.org/networks or see [best nets](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0) for an overview of the best nets for your conditions. 
   * The name will be some long hash string, for example: b82f0b34b96c8f38f68ee97703b4149ab976122ca9bed6120f9dea88d733d266
   * Rename to "weights" (for convenience).
   * Place in the same directory with the lc0 application. On a Mac this is /Users/[username]/lc0/build/release/.
@@ -80,7 +80,7 @@ bestmove c2c4
   * `CUDA driver version is insufficient for CUDA runtime version`
     * You need 411.31 or newer. Download latest from nvidia's website.
   * `error Network weights file not found`
-    * Download the latest weights from http://lczero.org/networks and place in the same directory as lc0.exe.
+    * Download the latest weights from http://training.lczero.org/networks and place in the same directory as lc0.exe.
     * OR: point to the weights using `--weights=c:\path\to\weights_run2_32282.pb.gz`
   * If there are other problems, please upload `log.txt` to the discord chat #help channel.
 
