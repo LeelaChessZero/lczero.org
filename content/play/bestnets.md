@@ -46,4 +46,4 @@ As in the table above, the top-recommended 20b net is `256x20-t40-1541.pb.gz` fr
 
 ---
 
-If this page hasn't been updated recently, check the [Discord](https://discordapp.com/channels/425419482568196106/425419483016855563) channels for a recommendation. Be sure to specify your hardware and use case so the helpful regulars know what to recommend.
+If this page hasn't been updated recently, check the [Discord](https://discord.gg/pKujYxD) channels for a recommendation. Be sure to specify your hardware and use case so the helpful regulars know what to recommend.
