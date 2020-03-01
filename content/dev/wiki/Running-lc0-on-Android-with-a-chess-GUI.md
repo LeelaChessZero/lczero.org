@@ -14,8 +14,6 @@ https://streamable.com/fozkg
 
 ## Get lc0 for Android
 
-Android builds aren't official yet, but there are already some you can try out.
-
 ### Supported Devices
 
 There are currently two architectures supported: *armv7-a* and *aarch64*. In general older devices are 32-bit in which case you must download the *armv7-a* builds. The more recent devices are 64-bit so if you have one you should get the *aarch64* builds that are much *faster*. If you are not sure which architecture to choose, use [this app](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo) to lookup the architecture of your Android device.
@@ -29,6 +27,13 @@ All the 64-bit builds on this page are compiled targeting the API Level 21 (equi
 It's better to try either Eigen or OpenBLAS links first as they're easier to use and they should be faster too. As for the OpenCL ones, they are heavier and have some extra requirements:
 * Device with OpenCL support (builds are linked to OpenCL version 2.0)
 * Expect a very long delay on the first start of the engine and when a different network size is tried. This happens because the OpenCL tuner needs to optimize its parameters to your device.
+
+### Official builds for 0.24rc2
+
+|  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
+|:----------------|:---------:|:---------:|:---------:|
+| armv7-a     |   -  |  [link](https://github.com/LeelaChessZero/lc0/releases/download/v0.24.0-rc2/lc0-android-armv7a)   |   -   |
+| aarch64     |   -  |  [link](https://github.com/LeelaChessZero/lc0/releases/download/v0.24.0-rc2/lc0-android-aarch64)   |   -   |
 
 ### Builds for the new release 0.23
 
