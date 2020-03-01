@@ -28,28 +28,28 @@ It's better to try either Eigen or OpenBLAS links first as they're easier to use
 * Device with OpenCL support (builds are linked to OpenCL version 2.0)
 * Expect a very long delay on the first start of the engine and when a different network size is tried. This happens because the OpenCL tuner needs to optimize its parameters to your device.
 
-### Official builds for 0.24rc2
+### Official builds for the release candidate 0.24rc2
 
 |  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
 |:----------------|:---------:|:---------:|:---------:|
 | armv7-a     |   -  |  [link](https://github.com/LeelaChessZero/lc0/releases/download/v0.24.0-rc2/lc0-android-armv7a)   |   -   |
 | aarch64     |   -  |  [link](https://github.com/LeelaChessZero/lc0/releases/download/v0.24.0-rc2/lc0-android-aarch64)   |   -   |
 
-### Builds for the new release 0.23
+### Unofficial builds for version 0.23
 
 |  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
 |:----------------|:---------:|:---------:|:---------:|
 | armv7-a     |   [link](https://github.com/LeelaChessZero/lc0/files/3909474/lc0-0.23-eigen-armv7.zip)  |  [link](https://github.com/LeelaChessZero/lc0/files/3909472/lc0-0.23-blas-armv7.zip)   |   [link](https://github.com/LeelaChessZero/lc0/files/3909475/lc0-0.23-opencl-armv7.zip)    |
 | aarch64     |   [link](https://github.com/LeelaChessZero/lc0/files/3909470/lc0-0.23-eigen-aarch64.zip)  |  [link](https://github.com/LeelaChessZero/lc0/files/3909467/lc0-0.23-blas-aarch64.zip)   |   [link](https://github.com/LeelaChessZero/lc0/files/3909471/lc0-0.23-opencl-aarch64.zip)    |
 
-### Builds for the previous release 0.22
+### Unofficial builds for version 0.22
 
 |  Architecture           |  Eigen   | OpenBLAS  |   OpenCL   |
 |:------------------------|:---------:|:---------:|:---------:|
 | armv7-a | [link](https://github.com/LeelaChessZero/lc0/files/3494665/lc0-0.22-eigen-armv7a.zip) | [link](https://github.com/LeelaChessZero/lc0/files/3494666/lc0-0.22-blas-armv7a.zip) | |
 | aarch64     |   [link](https://github.com/LeelaChessZero/lc0/files/3494676/lc0-0.22-eigen-aarch64.zip)  |  [link](https://github.com/LeelaChessZero/lc0/files/3494674/lc0-0.22-blas-aarch64.zip)   |   [link](https://github.com/LeelaChessZero/lc0/files/3494675/lc0-0.22-opencl-aarch64.zip)    |
 
-### Special builds with embedded weights
+### Unofficial builds with embedded weights
 
 |  Architecture           |  Eigen   | OpenBLAS  |   OpenCL   |
 |:------------------------|:---------:|:---------:|:---------:|
