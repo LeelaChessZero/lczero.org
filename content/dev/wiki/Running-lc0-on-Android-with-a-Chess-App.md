@@ -4,15 +4,17 @@ weight: 500
 wikiname: "Running-lc0-on-Android-with-a-Chess-App"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-Follow these simple steps and you'll be running lc0 on your Android device. No root needed. Just the right engine, a weights file and the right Chess App.
+<div align="middle">
+<img src="https://user-images.githubusercontent.com/12534727/57578012-ec787100-7451-11e9-9afe-eaf2b7b6d3e8.jpg" width="250" alt="DroidFish running Lc0" />
+</div>
+
+Follow these simple steps and you'll be running lc0 on your Android device. No root needed. Just the right engine, a weights file and a supported Chess App.
 
 ## Video Tutorial
 
 Here's a small video showing the steps described below, just in case you need to see it in action:
 
-https://streamable.com/fozkg
-
-## Get lc0 for Android
+[To watch the video, click here ](https://streamable.com/fozkg)
 
 ### Supported Devices
 
@@ -28,12 +30,16 @@ It's better to try either Eigen or OpenBLAS links first as they're easier to use
 * Device with OpenCL support (builds are linked to OpenCL version 2.0)
 * Expect a very long delay on the first start of the engine and when a different network size is tried. This happens because the OpenCL tuner needs to optimize its parameters to your device.
 
+## Download the right engine
+
 ### Official builds for the release candidate 0.24rc2
 
 |  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
 |:----------------|:---------:|:---------:|:---------:|
 | armv7-a     |   -  |  [link](https://github.com/LeelaChessZero/lc0/releases/download/v0.24.0-rc2/lc0-android-armv7a)   |   -   |
 | aarch64     |   -  |  [link](https://github.com/LeelaChessZero/lc0/releases/download/v0.24.0-rc2/lc0-android-aarch64)   |   -   |
+
+More back-ends will be added as they are available.
 
 ### Unofficial builds for version 0.23
 
