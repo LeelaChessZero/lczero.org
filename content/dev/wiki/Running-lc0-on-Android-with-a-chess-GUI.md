@@ -51,6 +51,8 @@ It's better to try either Eigen or OpenBLAS links first as they're easier to use
 
 ### Unofficial builds with embedded weights
 
+These are special builds for those who couldn't or wouldn't fiddle with UCI Options and full paths, or maybe those using a GUI without that capability. These builds contain a small weights file embedded into the engine itself. You'll still be able to use other weights with them, but the embedded weights will load when you didn't specify one.
+
 |  Architecture           |  Eigen   | OpenBLAS  |   OpenCL   |
 |:------------------------|:---------:|:---------:|:---------:|
 | armv7-a with **LD2** | [link](https://github.com/LeelaChessZero/lc0/files/3494669/lc0-0.22-LD2-eigen-armv7a.zip) | [link](https://github.com/LeelaChessZero/lc0/files/3494667/lc0-0.22-LD2-blas-armv7a.zip) | |
@@ -58,9 +60,7 @@ It's better to try either Eigen or OpenBLAS links first as they're easier to use
 
 * **LD2**: Little Demon 2 is a strong 128x10 network from aart (https://lc0.org/ld2).
 
-These are special builds for those who couldn't or wouldn't fiddle with UCI Options and full paths, or maybe those using a GUI without that capability. These builds contain a small weights file embedded into the engine itself. You'll still be able to use other weights with them, but the embedded weights will load when you didn't specify one.
-
-### Previous development builds
+### Unofficial and older development builds
 
 |  Architecture           |   Eigen   | OpenBLAS  |   OpenCL   |
 |:------------|:---------:|:---------:|:---------:|
