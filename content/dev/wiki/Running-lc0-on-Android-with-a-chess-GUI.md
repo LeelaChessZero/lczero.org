@@ -22,7 +22,7 @@ There are currently two architectures supported: *armv7-a* and *aarch64*. In gen
 
 ### Supported Android versions
 
-All the 64-bit builds on this page are compiled targeting the API Level 21 (equivalent to Android 5.0 Lollipop). The 32-bit ones target the API Level 16 (Android 4.1 Jelly Bean). Older Android versions may not work.
+All the 64-bit builds on this page are compiled targeting the API Level 21 (equivalent to Android 5.0 Lollipop). The 32-bit ones target the API Level 24 (Android 7.0 Nougat). Older Android versions may not work.
 
 ### Which back-end to choose?
 
