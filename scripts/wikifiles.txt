@@ -23,6 +23,7 @@ Run-Leela-Chess-Zero-client-on-a-Tesla-K80-GPU-for-free-(Google-Colaboratory)
 Running-Leela-Chess-Zero-as-a-Lichess-Bot
 Running-Leela-Chess-Zero-on-Intel-CPUs-(Haswell-or-later)
 Running-a-benchmark
+Running-lc0-on-Android-with-a-Chess-App
 Running-lc0-on-Android-with-a-chess-GUI
 Running-lczero-with-cuda-and-cudnn-under-nvidia-docker2
 Script-for-testing-new-nets-versus-old-nets-on-Google-Colab
