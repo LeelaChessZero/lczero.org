@@ -37,6 +37,8 @@ It's better to try either Eigen or OpenBLAS links first as they're easier to use
 
 ### Unofficial builds for version 0.23
 
+Now that the Android builds are official there is no need to use other ones. The following builds are left here just for reference.
+
 |  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
 |:----------------|:---------:|:---------:|:---------:|
 | armv7-a     |   [link](https://github.com/LeelaChessZero/lc0/files/3909474/lc0-0.23-eigen-armv7.zip)  |  [link](https://github.com/LeelaChessZero/lc0/files/3909472/lc0-0.23-blas-armv7.zip)   |   [link](https://github.com/LeelaChessZero/lc0/files/3909475/lc0-0.23-opencl-armv7.zip)    |
