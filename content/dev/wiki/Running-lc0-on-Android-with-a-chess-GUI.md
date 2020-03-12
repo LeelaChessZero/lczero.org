@@ -8,6 +8,24 @@ wikiname: "Running-lc0-on-Android-with-a-chess-GUI"
 <img src="https://user-images.githubusercontent.com/12534727/57578012-ec787100-7451-11e9-9afe-eaf2b7b6d3e8.jpg" width="250" alt="DroidFish running Lc0" />
 </div>
 
+# Official support
+
+Since version 0.24 lc0 officially supports the Android platform. Get the APK from here:
+
+https://github.com/LeelaChessZero/lc0/releases/tag/v0.24.0
+
+After installing it you can choose the Leela Chess Zero engine from your chess app. The chess app must support the Open Exchange protocol, like the following:
+
+- https://play.google.com/store/apps/details?id=org.petero.droidfish
+- https://play.google.com/store/apps/details?id=com.google.android.chess
+- https://play.google.com/store/apps/details?id=jwtc.android.chess
+- https://play.google.com/store/apps/details?id=com.kalab.pgnviewer
+
+This should be enough. The following steps are no longer needed but are left here for reference.
+
+---
+
+
 Follow these simple steps and you'll be running lc0 on your Android device. No root needed. Just the right engine, a weights file and a supported Chess App.
 
 ## Video Tutorial
