@@ -32,7 +32,7 @@ For nets of the same size, the first net listed is likely the strongest.
 | 20b x 256f | Leelenstein 13.0 | [13.0 Post](https://www.patreon.com/posts/leelenstein-13-32874035) | No patreon required |
 | 24b x 320f | Latest T60       | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Current main run |
 | 24b x 320f | J13B.2-136       | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | "Terminator 2" Net |
-| 30b x 384f | 	384x30-t60-2950 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data |
+| 30b x 384f | 	384x30-t60-3010, 384x30-t60-3044 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data |
 | 30b x 384f | SV-30b-t40-1705| [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/) | Trained on T40 data |
 
 Note: The Sergio-V nets are also available on [data.lczero.org](http://data.lczero.org/files/networks-contrib/sergio-v/) in some cases.
