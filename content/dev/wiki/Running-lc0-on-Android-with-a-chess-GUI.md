@@ -12,6 +12,8 @@ wikiname: "Running-lc0-on-Android-with-a-chess-GUI"
 
 Since version 0.24 lc0 officially supports the Android platform. Get the APK from here:
 
+### Installable package for version 0.24
+
 https://github.com/LeelaChessZero/lc0/releases/tag/v0.24.0
 
 After installing it you can choose the Leela Chess Zero engine from your chess app. The chess app must support the Open Exchange protocol, like the following:
@@ -21,10 +23,19 @@ After installing it you can choose the Leela Chess Zero engine from your chess a
 - https://play.google.com/store/apps/details?id=jwtc.android.chess
 - https://play.google.com/store/apps/details?id=com.kalab.pgnviewer
 
-This should be enough. The following steps are no longer needed but are left here for reference. Or maybe for those willing to use the plain engine binaries.
+This should be enough. For those willing to use the plain engine binaries, get them here:
+
+### Plain engine binaries for version 0.24
+
+|  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
+|:----------------|:---------:|:---------:|:---------:|
+| armv7-a     |   -  |  [link](https://ci.appveyor.com/api/projects/LeelaChessZero/lc0/artifacts/armeabi-v7a%2Flc0?branch=release/0.24&job=Environment%3A%20NAME%3Dandroid)   |   -   |
+| aarch64     |   -  |  [link](https://ci.appveyor.com/api/projects/LeelaChessZero/lc0/artifacts/arm64-v8a%2Flc0?branch=release/0.24&job=Environment%3A%20NAME%3Dandroid)   |   -   |
+
+More back-ends will be added as soon as they are available.
 
 ---
-
+**Note**: The following steps are no longer needed but are left here for reference.
 
 Follow these simple steps and you'll be running lc0 on your Android device. No root needed. Just the right engine, a weights file and a supported Chess App.
 
@@ -49,15 +60,6 @@ It's better to try either Eigen or OpenBLAS links first as they're easier to use
 * Expect a very long delay on the first start of the engine and when a different network size is tried. This happens because the OpenCL tuner needs to optimize its parameters to your device.
 
 ## Download the right engine
-
-### Official builds for the release candidate 0.24
-
-|  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
-|:----------------|:---------:|:---------:|:---------:|
-| armv7-a     |   -  |  [link](https://ci.appveyor.com/api/projects/LeelaChessZero/lc0/artifacts/armeabi-v7a%2Flc0?branch=release/0.24&job=Environment%3A%20NAME%3Dandroid)   |   -   |
-| aarch64     |   -  |  [link](https://ci.appveyor.com/api/projects/LeelaChessZero/lc0/artifacts/arm64-v8a%2Flc0?branch=release/0.24&job=Environment%3A%20NAME%3Dandroid)   |   -   |
-
-More back-ends will be added as soon as they are available.
 
 ### Unofficial builds for version 0.23
 
