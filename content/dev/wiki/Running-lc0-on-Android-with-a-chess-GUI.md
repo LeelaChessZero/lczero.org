@@ -10,22 +10,22 @@ wikiname: "Running-lc0-on-Android-with-a-chess-GUI"
 
 # Official support
 
-Since version 0.24 lc0 officially supports the Android platform. Get the APK from here:
+Since version 0.24, Leela Chess Zero has official support for Android. Get the APK from here:
 
-### Installable package for version 0.24
+### Installable package for the latest release
 
-https://github.com/LeelaChessZero/lc0/releases/tag/v0.24.0
+https://github.com/LeelaChessZero/lc0/releases/latest
 
-After installing it you can choose the Leela Chess Zero engine from your chess app. The chess app must support the Open Exchange protocol, like the following:
+After installing the APK you will need a chess app that supports the Open Exchange protocol, like the following:
 
 - https://play.google.com/store/apps/details?id=org.petero.droidfish
 - https://play.google.com/store/apps/details?id=com.google.android.chess
 - https://play.google.com/store/apps/details?id=jwtc.android.chess
 - https://play.google.com/store/apps/details?id=com.kalab.pgnviewer
 
-This should be enough. For those willing to use the plain engine binaries, get them here:
+Once you are in the chess app you can choose the Leela Chess Zero engine. This should be enough as the engine is ready to use with a built-in weights file. For those willing to use the plain engine binaries, get them here:
 
-### Plain engine binaries for version 0.24
+### Plain engine binaries for the latest release
 
 |  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
 |:----------------|:---------:|:---------:|:---------:|
