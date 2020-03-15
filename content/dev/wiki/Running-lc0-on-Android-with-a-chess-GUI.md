@@ -21,7 +21,7 @@ After installing it you can choose the Leela Chess Zero engine from your chess a
 - https://play.google.com/store/apps/details?id=jwtc.android.chess
 - https://play.google.com/store/apps/details?id=com.kalab.pgnviewer
 
-This should be enough. The following steps are no longer needed but are left here for reference.
+This should be enough. The following steps are no longer needed but are left here for reference. Or maybe for those willing to use the plain engine binaries.
 
 ---
 
@@ -50,12 +50,12 @@ It's better to try either Eigen or OpenBLAS links first as they're easier to use
 
 ## Download the right engine
 
-### Official builds for the release candidate 0.24rc2
+### Official builds for the release candidate 0.24
 
 |  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
 |:----------------|:---------:|:---------:|:---------:|
-| armv7-a     |   -  |  [link](https://github.com/LeelaChessZero/lc0/releases/download/v0.24.0-rc2/lc0-android-armv7a)   |   -   |
-| aarch64     |   -  |  [link](https://github.com/LeelaChessZero/lc0/releases/download/v0.24.0-rc2/lc0-android-aarch64)   |   -   |
+| armv7-a     |   -  |  [link](https://ci.appveyor.com/api/projects/LeelaChessZero/lc0/artifacts/armeabi-v7a%2Flc0?branch=release/0.24&job=Environment%3A%20NAME%3Dandroid)   |   -   |
+| aarch64     |   -  |  [link](https://ci.appveyor.com/api/projects/LeelaChessZero/lc0/artifacts/arm64-v8a%2Flc0?branch=release/0.24&job=Environment%3A%20NAME%3Dandroid)   |   -   |
 
 More back-ends will be added as soon as they are available.
 
