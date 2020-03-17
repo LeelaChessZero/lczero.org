@@ -16,6 +16,7 @@ Google docs of bench results here. Easier to maintain/prettier? https://docs.goo
 |1080 ti @ 2ghz -t 3 | v7 Windows openCL | 10x128 | | 2500 nps|
 |GTX 470 @ stock -t 2 | v7 Windows openCL | 10x128 | | 600 nps|
 |GTX 1060 @ stock -t 3 | v7 Linux openCL | 10x128 | | 2650 nps|
+|GTX 1050 Ti @ stock | v7 Windows openCL | 20x256 | | 1690 nps|
 # CPU
 | CPU @ stock or OC frequency| Engine version/type | Neural Net size | Username | Speed |
 | ------------- | ---- | ------------- | ------------- |------------- |
