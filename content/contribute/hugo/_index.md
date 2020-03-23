@@ -55,14 +55,14 @@ For the site, you need **"extended"** version of Hugo v0.60.1 or later.
 1. Fork the [repository](https://github.com/LeelaChessZero/lczero.org) on GitHub (only needed once per GitHub user).
 1. Clone you repository and subrepositories:  
 ```bash
-git clone --recurse-submodules git@github.com:YOURUSERNAME/lc0-website.git
+git clone --recurse-submodules git@github.com:YOURUSERNAME/lczero.org.git
 ```
 
 ### Running HuGo server
 
 To start local HuGo server, use this command line:
 ```bash
-cd lc0-website
+cd lczero.org
 hugo -D server  # Remove -D to stop seeing draft pages.
 ```
 
