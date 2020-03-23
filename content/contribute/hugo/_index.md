@@ -52,7 +52,7 @@ For the site, you need **"extended"** version of Hugo v0.60.1 or later.
 ### Getting site sources
 
 1. Download (e.g. from [here](https://git-scm.com/download/win)) and install `git` on your computer (only needed once, and you may already have it installed in your system, check by typing `git`).
-1. Fork the [repository](https://github.com/LeelaChessZero/lc0-website) on GitHub (only needed once per GitHub user).
+1. Fork the [repository](https://github.com/LeelaChessZero/lczero.org) on GitHub (only needed once per GitHub user).
 1. Clone you repository and subrepositories:  
 ```bash
 git clone --recurse-submodules git@github.com:YOURUSERNAME/lc0-website.git
