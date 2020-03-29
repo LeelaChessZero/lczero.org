@@ -38,10 +38,10 @@ summaryLength = 30
     url = "/about/"
     weight = 60
 
-#[[menu.main]]
-#    name = "Blog"
-#    url = "/blog/"
-#    weight = 70
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 70
 
 
 [params]
@@ -56,6 +56,9 @@ summaryLength = 30
   [[params.homepage_button]]
     link = "/play/quickstart"
     text = "Quick start"
+
+  [permalinks]
+    blog = "/blog/:year/:month/:slug/"
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
