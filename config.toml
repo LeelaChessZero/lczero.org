@@ -3,7 +3,6 @@ languageCode = "en"
 title = "Leela Chess Zero"
 # themesDir = "../.."
 theme = "whisper"
-
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
@@ -15,32 +14,32 @@ summaryLength = 30
 
 [[menu.main]]
     name = "Play"
-    url = "/play/quickstart/"
+    url = "/play/quickstart"
     weight = 20
 
 [[menu.main]]
     name = "Watch"
-    url = "/watch/"
+    url = "/watch"
     weight = 30
 
 [[menu.main]]
     name = "Contribute"
-    url = "/contribute/"
+    url = "/contribute"
     weight = 40
 
 [[menu.main]]
     name = "Development"
-    url = "/dev/"
+    url = "/dev"
     weight = 50
 
 [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/about"
     weight = 60
 
 #[[menu.main]]
 #    name = "Blog"
-#    url = "/blog/"
+#    url = "/blog"
 #    weight = 70
 
 
