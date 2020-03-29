@@ -6,6 +6,7 @@ theme = "whisper"
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
+enableGitInfo = true
 
 # Controls how many words are printed in the content summary on the docs homepage.
 # See https://gohugo.io/content-management/summaries/
@@ -46,6 +47,7 @@ summaryLength = 30
 [params]
   lc0version="v0.24.1"
   google_analytics_id="UA-100707634-4"
+
   #homepage_intro = 'Lc0'
   homepage_image = '/images/logo_v2.svg'
   mainSections = ["play", "watch", "contribute", "dev", "community", "blog", "about"]
@@ -73,3 +75,4 @@ summaryLength = 30
   [params.logo]
       mobile = "/images/logo.svg"
       standard  = "/images/logo.svg"
+
