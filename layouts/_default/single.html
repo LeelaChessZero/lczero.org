@@ -22,6 +22,9 @@ Edit on GitHub</a>
   {{end}}  
   {{ .Content }}
 </div>
+<div class="last-updated">
+  Last Updated: {{ .Page.Lastmod.Format "2006-01-02" }}
+</div>
 
 {{if default true .Params.show_contents}}
   {{ range.Pages }}
