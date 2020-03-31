@@ -11,19 +11,15 @@ draft = true
 score-* options were active. If you use either of those options, please
 upgrade to v0.24.1.  
 
-  
-
-  
-
+    
 It's been a while since we had a blog post, and it's been a while since we had
 a release of Lc0. And today is happening:
 
-  
 
 Lc0 v0.24 has been released, and you can download it
 [here](https://github.com/LeelaChessZero/lc0/releases/tag/v0.24.1).
 
-  
+<!--more-->  
 
 ## What's new?
 
