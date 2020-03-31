@@ -8,39 +8,37 @@ draft = true
 +++
 
 [![](../../images/2019-01-16-leela-promotes-to-superfinal-of-tcec-
-jkhkjh9879879999.png)](https://2.bp.blogspot.com/-O-bKV64ZFvA/XD9-4IE6fzI/AAAAAAAAAbs/w_UKPESDmgAHgPtQmMO8lR1tY8eWDREoACLcBGAs/s1600/jkhkjh9879879999.png)
+jkhkjh9879879999.png)](https://2.bp.blogspot.com/-O-bKV64ZFvA/XD9-4IE6fzI/AAAAAA
+AAAbs/w_UKPESDmgAHgPtQmMO8lR1tY8eWDREoACLcBGAs/s1600/jkhkjh9879879999.png)
 
-  
 **Leela** just made it on the **superfinal** of the **TCEC** tournament!  
 There, she will face **Stockfish** on a 100-games match for the title of TCEC
-champion.  
-  
+champion.
+
 As always with Leela it was a dramatic promotion at the last moment, at the
 last game.  
 Where in that game Stockfish missed a win to the relief of Leela's fans. The
-win of course was not that easy to find.  
-  
+win of course was not that easy to find.
+
 So after approximately 10 months, where first nets of Leela were born, Leela
 has managed to break the dominance of the so called "big-3" of the computer
 Chess world, **Stockfish, Houdini and Komodo** , took 2nd place ahead of
-Komodo and Houdini and went to the superfinal.  
-  
-  
-  
+Komodo and Houdini and went to the superfinal.
+
 It was not easy of course.  
 Leela at this **TCEC season 14** , started from **division 3** and cruised
 over up to premier division easily, promoting as 1st with ease and having a
 large difference from the 2nd each time. For division 3 and 2 and 1 the old
-**11248** net of **test10** was used.  
-  
+**11248** net of **test10** was used.
+
 But at Premier division things would not be supposed to be easy for Leela. A
 new net was being used, one from **test30** series, the **32194**. It was a
 mystery how it will do in the strongest TCEC division. Many talked about
 relegation possibilities. Others that it may even fight for 3rd place. Most
 predicted 3rd to 5th place. But no one really believed that Leela could break
 the big 3 dominance, achieve 2nd place and promote to superfinal.  
-Yet in a dramatic fashion Leela managed to do it at the final game.  
-  
+Yet in a dramatic fashion Leela managed to do it at the final game.
+
 Leela started Premier division with 8 consecutive draws, and was at the middle
 of the table with people believing that this was the strength of her and that
 this must be the place she would end eventually. But then she got 2 wins in
@@ -48,8 +46,8 @@ the next 3 games, some other 5 draws and then suddenly went to killer mode
 winning 4 consecutive games! But immediately after that she lost 3 out of 4
 games. Maybe that was with a crippled Leela though, as confirmed problems with
 Leela's GPUs overheating were reported and nodes per second of Leela in some
-games where pretty low for many moves.  
-  
+games where pretty low for many moves.
+
 The previous GPU problems for Leela where fixed and Leela started to draw
 again and suddenly with just a bunch of games left, Leela was at 3nd place
 half a point less than 2nd Komodo and Houdini 4th very close behind! The
@@ -65,8 +63,8 @@ tournament and all its games will not count.
 So with Leela being 3rd half a point behind Komodo, a 3rd crash of Komodo MCTS
 would place her 2nd.  
 This situation remained for a little while, where suddenly Komodo MCTS crashed
-against Houdini! So it was eliminated and Leela now was second.  
-  
+against Houdini! So it was eliminated and Leela now was second.
+
 This place remained till the end where with 2 games left Leela could
 practically check her ticket to superfinal with a win against Andscacs. She
 did well and reached a very favorable position to win but she played an
@@ -75,21 +73,19 @@ incredibly dubious move (77.Ba6?) and was a dead draw from then on. The normal
 176 thread that was kibitzing the game was reporting +4.55 for 77.Be2. Game
 ended in a draw and still Leela was favorite to promote to superfinal. But
 after that Komodo managed 1.5 point out of 2 games with a win against Andscacs
-so all would be decided in the **last** game of the division:  
-  
+so all would be decided in the **last** game of the division:
+
 **Stockfish - Leela!** If Leela would hold with a draw or a win then she would
 advance to superfinal. If she would lose then Komodo would advance. Leela
 played well but made a mistake with 21...Rf8? instead of the correct Nf8 but
 luckily for her Stockfish didn't find the winning(as it was proved later)
 **22.c5!** and played g5 which was still tricky but Leela defended well and
-managed to draw the game after 93 moves.  
-  
+managed to draw the game after 93 moves.
 
 [![](../../images/2019-01-16-leela-promotes-to-superfinal-of-tcec-
-hkjhk7897899998798.png)](https://1.bp.blogspot.com/-PWQmyE7qO3g/XD9_xeIYlBI/AAAAAAAAAb8/wRY6jpnUc607of71GrfVRfEJdPqcKZqVQCLcBGAs/s1600/hkjhk7897899998798.png)
+hkjhk7897899998798.png)](https://1.bp.blogspot.com/-PWQmyE7qO3g/XD9_xeIYlBI/AAAA
+AAAAAb8/wRY6jpnUc607of71GrfVRfEJdPqcKZqVQCLcBGAs/s1600/hkjhk7897899998798.png)
 
-  
-  
 So she promoted!!  
 Now there will be a **100 games match** between Leela and Stockfish with **120
 minutes + 15 seconds per move time control.**  
@@ -98,133 +94,130 @@ expected to last 15-20 days.
 The Leela net that will be used there is yet to be decided but it would
 probably be a test 30 net and not a test 40 net since test 40 is yet too
 immature. Stockfish will probably use the latest development version at that
-time.  
-  
-  
-Leela's trip through divisions:  
-  
- **Division 3 standings:**  
+time.
 
-    
-    
-      
-      
-     | Player    | Score    | (Tie)  | LCZe | Komo | Aras | Pedo | rofC | Vajo | Nemo | Hann   | +/-/=  
-    ---|---|---|---|---|---|---|---|---|---|---|---|---  
-      
-    1: | **LCZero v19-TP-11248**|  22.5 / 28  | 283.00  | XXXX | =1=1 | 0=11 | 11== | =1=1 | 1111 | 11=1 | =111| (+18 -1 =9)  
-      
-    2: | KomodoMCTS 2210.00  | 20.0 / 28  | 238.00  | =0=0 | XXXX | 11== | 11=1 | =1=1 | =11= | =1== | 1111| (+14 -2 =12)  
-      
-    3: | Arasan CCC3         | 13.5 / 28  | 171.75  | 1=00 | 00== | XXXX | 0==1 | 10== | ==== | ==== | 1==1| (+5 -6 =17)  
-      
-    4: | Pedone 191118       | 13.5 / 28  | 158.75  | 00== | 00=0 | 1==0 | XXXX | ===1 | =0=0 | 1110 | 1=11| (+8 -9 =11)  
-      
-    5: | rofChade 1.023T     | 12.5 / 28  | 158.00  | =0=0 | =0=0 | 01== | ===0 | XXXX | =100 | ==11 | =1==| (+5 -8 =15)  
-      
-    6: | Vajolet2 2.6.1      | 12.5 / 28  | 151.00  | 0000 | =00= | ==== | =1=1 | =011 | XXXX | =0== | ==1=| (+5 -8 =15)  
-      
-    7: | Nemorino 5.05       | 11.5 / 28  | 143.50  | 00=0 | =0== | ==== | 0001 | ==00 | =1== | XXXX | 1011| (+5 -10 =13)  
-      
-    8: | Hannibal 20181202   | 6.0 / 28  | 80.50  | =000 | 0000 | 0==0 | 0=00 | =0== | ==0= | 0100 | XXXX| (+1 -17 =10)  
-      
-      
-    
+Leela's trip through divisions:
 
-  
-  
- **Division 2 standings:**  
+ **Division 3 standings:**
 
-    
-    
-      
-      
-     | Player    | Score    | (Tie)  | LCZe | Komo | Xiph | Booo | Nirv | Ches | Gull | Texe   | +/-/=  
-    ---|---|---|---|---|---|---|---|---|---|---|---|---  
-      
-    1: | **LCZero v19.1-RC2-11248** | 20.0 / 28  | 260.50  | XXXX | =1== | =11= | 110= | 1=1= | 1=1= | =11= | 1=1=| (+13 -1 =14)  
-      
-    2: | KomodoMCTS 2217.00     | 17.0 / 28  | 216.75  | =0== | XXXX | ==== | ==== | 1=== | =1== | 1==1 | 11=1| (+7 -1 =20)  
-      
-    3: | Xiphos 0.4.14          | 16.0 / 28  | 207.00  | =00= | ==== | XXXX | ==== | 11== | ==11 | ===1 | ===1| (+6 -2 =20)  
-      
-    4: | Booot 6.3.1            | 14.0 / 28  | 188.50  | 001= | ==== | ==== | XXXX | ==== | 0=== | 0=1= | =1=1| (+4 -4 =20)  
-      
-    5: | Nirvana 2.4            | 13.0 / 28  | 169.25  | 0=0= | 0=== | 00== | ==== | XXXX | 01== | =11= | ==1=| (+4 -6 =18)  
-      
-    6: | ChessBrainVB 3.72      | 12.0 / 28  | 164.00  | 0=0= | =0== | ==00 | 1=== | 10== | XXXX | 11=0 | ==0=| (+4 -8 =16)  
-      
-    7: | Gull 180521            | 11.5 / 28  | 149.75  | =00= | 0==0 | ===0 | 1=0= | =00= | 00=1 | XXXX | 111=| (+5 -10 =13)  
-      
-    8: | Texel 1.08a13          | 8.5 / 28  | 121.75  | 0=0= | 00=0 | ===0 | =0=0 | ==0= | ==1= | 000= | XXXX| (+1 -12 =15)  
-      
-      
-    
+     | Player    | Score    | (Tie)  | LCZe | Komo | Aras | Pedo | rofC | Vajo 
+| Nemo | Hann   | +/-/=  
+    ---|---|---|---|---|---|---|---|---|---|---|---|---
 
-  
-  
+    1: | **LCZero v19-TP-11248**|  22.5 / 28  | 283.00  | XXXX | =1=1 | 0=11 | 
+11== | =1=1 | 1111 | 11=1 | =111| (+18 -1 =9)
+
+    2: | KomodoMCTS 2210.00  | 20.0 / 28  | 238.00  | =0=0 | XXXX | 11== | 11=1 
+| =1=1 | =11= | =1== | 1111| (+14 -2 =12)
+
+    3: | Arasan CCC3         | 13.5 / 28  | 171.75  | 1=00 | 00== | XXXX | 0==1 
+| 10== | ==== | ==== | 1==1| (+5 -6 =17)
+
+    4: | Pedone 191118       | 13.5 / 28  | 158.75  | 00== | 00=0 | 1==0 | XXXX 
+| ===1 | =0=0 | 1110 | 1=11| (+8 -9 =11)
+
+    5: | rofChade 1.023T     | 12.5 / 28  | 158.00  | =0=0 | =0=0 | 01== | ===0 
+| XXXX | =100 | ==11 | =1==| (+5 -8 =15)
+
+    6: | Vajolet2 2.6.1      | 12.5 / 28  | 151.00  | 0000 | =00= | ==== | =1=1 
+| =011 | XXXX | =0== | ==1=| (+5 -8 =15)
+
+    7: | Nemorino 5.05       | 11.5 / 28  | 143.50  | 00=0 | =0== | ==== | 0001 
+| ==00 | =1== | XXXX | 1011| (+5 -10 =13)
+
+    8: | Hannibal 20181202   | 6.0 / 28  | 80.50  | =000 | 0000 | 0==0 | 0=00 | 
+=0== | ==0= | 0100 | XXXX| (+1 -17 =10)
+
+ **Division 2 standings:**
+
+     | Player    | Score    | (Tie)  | LCZe | Komo | Xiph | Booo | Nirv | Ches 
+| Gull | Texe   | +/-/=  
+    ---|---|---|---|---|---|---|---|---|---|---|---|---
+
+    1: | **LCZero v19.1-RC2-11248** | 20.0 / 28  | 260.50  | XXXX | =1== | =11= 
+| 110= | 1=1= | 1=1= | =11= | 1=1=| (+13 -1 =14)
+
+    2: | KomodoMCTS 2217.00     | 17.0 / 28  | 216.75  | =0== | XXXX | ==== | 
+==== | 1=== | =1== | 1==1 | 11=1| (+7 -1 =20)
+
+    3: | Xiphos 0.4.14          | 16.0 / 28  | 207.00  | =00= | ==== | XXXX | 
+==== | 11== | ==11 | ===1 | ===1| (+6 -2 =20)
+
+    4: | Booot 6.3.1            | 14.0 / 28  | 188.50  | 001= | ==== | ==== | 
+XXXX | ==== | 0=== | 0=1= | =1=1| (+4 -4 =20)
+
+    5: | Nirvana 2.4            | 13.0 / 28  | 169.25  | 0=0= | 0=== | 00== | 
+==== | XXXX | 01== | =11= | ==1=| (+4 -6 =18)
+
+    6: | ChessBrainVB 3.72      | 12.0 / 28  | 164.00  | 0=0= | =0== | ==00 | 
+1=== | 10== | XXXX | 11=0 | ==0=| (+4 -8 =16)
+
+    7: | Gull 180521            | 11.5 / 28  | 149.75  | =00= | 0==0 | ===0 | 
+1=0= | =00= | 00=1 | XXXX | 111=| (+5 -10 =13)
+
+    8: | Texel 1.08a13          | 8.5 / 28  | 121.75  | 0=0= | 00=0 | ===0 | 
+=0=0 | ==0= | ==1= | 000= | XXXX| (+1 -12 =15)
+
  **Division 1 standings:** (Leela broke the record of points for this
 division) **  
-**  
+**
 
-    
-    
-      
-      
-    |  Player    | Score    | (Tie)  | LCZe | Komo | Fizb | Chir | Gink | Lase | Jonn | Frit   | +/-/=  
-    ---|---|---|---|---|---|---|---|---|---|---|---|---  
-      
-    1: | **LCZero v19.1-11248** | 20.0 / 28  | 256.25  | XXXX | ==== | ==11 | 11=0 | ==11 | 1=11 | ==1= | 11=1| (+13 -1 =14)  
-      
-    2: | KomodoMCTS 2221.00 | 17.5 / 28  | 229.75  | ==== | XXXX | ==10 | =1== | ==11 | ===1 | ===1 | 11==| (+8 -1 =19)  
-      
-    3: | Fizbo 2            | 14.5 / 28  | 194.50  | ==00 | ==01 | XXXX | 1=== | 110= | ==10 | ==1= | ====| (+6 -5 =17)  
-      
-    4: | Chiron S14         | 13.5 / 28  | 176.25  | 00=1 | =0== | 0=== | XXXX | 10=0 | ==== | =10= | 1=11| (+6 -7 =15)  
-      
-    5: | Ginkgo 2.18b       | 13.5 / 28  | 175.00  | ==00 | ==00 | 001= | 01=1 | XXXX | ==== | 1==1 | =1==| (+6 -7 =15)  
-      
-    6: | Laser 181205       | 13.0 / 28  | 169.25  | 0=00 | ===0 | ==01 | ==== | ==== | XXXX | =1== | 1===| (+3 -5 =20)  
-      
-    7: | Jonny 8.1          | 12.0 / 28  | 162.00  | ==0= | ===0 | ==0= | =01= | 0==0 | =0== | XXXX | =1=1| (+3 -7 =18)  
-      
-    8: | Fritz 16.10        | 8.0 / 28  | 115.00  | 00=0 | 00== | ==== | 0=00 | =0== | 0=== | =0=0 | XXXX| (+0 -12 =16)  
-      
-      
-    
+    |  Player    | Score    | (Tie)  | LCZe | Komo | Fizb | Chir | Gink | Lase 
+| Jonn | Frit   | +/-/=  
+    ---|---|---|---|---|---|---|---|---|---|---|---|---
 
-  
-  
- **Premier division standings** (Komodo MCTS results have been removed) **:**  
+    1: | **LCZero v19.1-11248** | 20.0 / 28  | 256.25  | XXXX | ==== | ==11 | 
+11=0 | ==11 | 1=11 | ==1= | 11=1| (+13 -1 =14)
 
-    
-    
-      
-      
-     | Player    | Score    | (Tie)  | Stockf | LCZero | Komodo | Houdin | Fire 7 | Ethere | Andsca   | +/-/=  
-    ---|---|---|---|---|---|---|---|---|---|---|---  
-      
-    1: | Stockfish 181224    | 25.0 / 36  | 416.75  | XXXXXX | ===1== | ==1=11 | =1=1== | 1===== | 1==1=1 | 111=1=| (+14 -0 =22)  
-      
-    2: | **LCZero v20rc2-32194** | 20.0 / 36  | 338.00  | ===0== | XXXXXX | ====0= | ====== | =1=101 | ===1== | =111==| (+7 -3 =26)  
-      
-    3: | Komodo 2227.00      | 19.5 / 36  | 328.25  | ==0=00 | ====1= | XXXXXX | ====== | =1=1=1 | ===1== | =====1| (+6 -3 =27)  
-      
-    4: | Houdini 6.03        | 19.0 / 36  | 324.00  | =0=0== | ====== | ====== | XXXXXX | 1===== | ===1== | 1==1==| (+4 -2 =30)  
-      
-    5: | Fire 7.1            | 15.0 / 36  | 268.75  | 0===== | =0=010 | =0=0=0 | 0===== | XXXXXX | 1===== | ======| (+2 -8 =26)  
-      
-    6: | Ethereal 11.14      | 14.0 / 36  | 255.00  | 0==0=0 | ===0== | ===0== | ===0== | 0===== | XXXXXX | ==0===| (+0 -8 =28)  
-      
-    7: | Andscacs 095        | 13.5 / 36  | 235.75  | 000=0= | =000== | =====0 | 0==0== | ====== | ==1=== | XXXXXX| (+1 -10 =25)  
-      
-      
-    
+    2: | KomodoMCTS 2221.00 | 17.5 / 28  | 229.75  | ==== | XXXX | ==10 | =1== 
+| ==11 | ===1 | ===1 | 11==| (+8 -1 =19)
 
-  
-  
-  
-All Leela's games at premier division:  
+    3: | Fizbo 2            | 14.5 / 28  | 194.50  | ==00 | ==01 | XXXX | 1=== 
+| 110= | ==10 | ==1= | ====| (+6 -5 =17)
+
+    4: | Chiron S14         | 13.5 / 28  | 176.25  | 00=1 | =0== | 0=== | XXXX 
+| 10=0 | ==== | =10= | 1=11| (+6 -7 =15)
+
+    5: | Ginkgo 2.18b       | 13.5 / 28  | 175.00  | ==00 | ==00 | 001= | 01=1 
+| XXXX | ==== | 1==1 | =1==| (+6 -7 =15)
+
+    6: | Laser 181205       | 13.0 / 28  | 169.25  | 0=00 | ===0 | ==01 | ==== 
+| ==== | XXXX | =1== | 1===| (+3 -5 =20)
+
+    7: | Jonny 8.1          | 12.0 / 28  | 162.00  | ==0= | ===0 | ==0= | =01= 
+| 0==0 | =0== | XXXX | =1=1| (+3 -7 =18)
+
+    8: | Fritz 16.10        | 8.0 / 28  | 115.00  | 00=0 | 00== | ==== | 0=00 | 
+=0== | 0=== | =0=0 | XXXX| (+0 -12 =16)
+
+ **Premier division standings** (Komodo MCTS results have been removed) **:**
+
+     | Player    | Score    | (Tie)  | Stockf | LCZero | Komodo | Houdin | Fire 
+7 | Ethere | Andsca   | +/-/=  
+    ---|---|---|---|---|---|---|---|---|---|---|---
+
+    1: | Stockfish 181224    | 25.0 / 36  | 416.75  | XXXXXX | ===1== | ==1=11 
+| =1=1== | 1===== | 1==1=1 | 111=1=| (+14 -0 =22)
+
+    2: | **LCZero v20rc2-32194** | 20.0 / 36  | 338.00  | ===0== | XXXXXX | 
+====0= | ====== | =1=101 | ===1== | =111==| (+7 -3 =26)
+
+    3: | Komodo 2227.00      | 19.5 / 36  | 328.25  | ==0=00 | ====1= | XXXXXX 
+| ====== | =1=1=1 | ===1== | =====1| (+6 -3 =27)
+
+    4: | Houdini 6.03        | 19.0 / 36  | 324.00  | =0=0== | ====== | ====== 
+| XXXXXX | 1===== | ===1== | 1==1==| (+4 -2 =30)
+
+    5: | Fire 7.1            | 15.0 / 36  | 268.75  | 0===== | =0=010 | =0=0=0 
+| 0===== | XXXXXX | 1===== | ======| (+2 -8 =26)
+
+    6: | Ethereal 11.14      | 14.0 / 36  | 255.00  | 0==0=0 | ===0== | ===0== 
+| ===0== | 0===== | XXXXXX | ==0===| (+0 -8 =28)
+
+    7: | Andscacs 095        | 13.5 / 36  | 235.75  | 000=0= | =000== | =====0 
+| 0==0== | ====== | ==1=== | XXXXXX| (+1 -10 =25)
+
+All Leela's games at premier division:
 
 [Event "TCEC Season 14 - Division P"] [Site "http://tcec.chessdom.com"] [Date
 "2018.12.26"] [Round "1.2"] [White "Komodo 2227.00"] [Black "LCZero
@@ -1088,15 +1081,10 @@ Kg8 81. Rb7 Ra1 82. Re7 Rc1 83. Re4 Kg7 84. Ra4 Rc7 85. Ra6 Rb7 86. Ra3 Rb5
 87. Ra7+ Kg8 88. Ra4 Kg7 89. Ke4 Rb7 90. Kd4 Rf7 91. Kc3 Rf5 92. Kd3 Rf7 93.
 Re4 1/2-1/2
 
-  
-  
-  
-  
-  
 **Best game** of the tournament must be one **Leela - Fire** game where it's
 incredibly rare to see a top engine like Fire in this super fast hardware to
 get outplayed positionaly that badly that both of his Bishops to be literally
-dead for most of the game!  
+dead for most of the game!
 
 [Event "TCEC Season 14 - Division P"] [Site "http://tcec.chessdom.com"] [Date
 "2019.01.07"] [Round "24.3"] [White "LCZero v20rc2-32194"] [Black "Fire 7.1"]

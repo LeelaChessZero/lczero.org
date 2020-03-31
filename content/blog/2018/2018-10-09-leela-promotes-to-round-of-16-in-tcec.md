@@ -8,15 +8,15 @@ draft = true
 +++
 
 [![](../../images/2018-10-09-leela-promotes-to-round-of-16-in-tcec-
-hk678688888.png)](https://3.bp.blogspot.com/-EUuhSUNK1rE/W7jIS1e83LI/AAAAAAAAAXo/zrM_1vDSJPkpmRyNl32VFObvLrQB2QG6ACLcBGAs/s1600/hk678688888.png)
+hk678688888.png)](https://3.bp.blogspot.com/-EUuhSUNK1rE/W7jIS1e83LI/AAAAAAAAAXo
+/zrM_1vDSJPkpmRyNl32VFObvLrQB2QG6ACLcBGAs/s1600/hk678688888.png)
 
-  
 Leela after 6 consecutive draws in the series of games against Laser(division
 1 engine) she won last 2 games so she promoted to next round where she will
 face Ethereal(premier division engine) that beat Rodent(division 4 engine)
 easily with 5-0 and promoted too. The games against Ethereal will probably
-take place on this Sunday.  
-  
+take place on this Sunday.
+
 Leela's performances generally seem very odd, since when she is playing top
 engines like Stockfish and getting countless draws with performances like
 around 40 Elo short of Stockfish(like it is on TCEC bonus games) you expect to
@@ -24,10 +24,9 @@ crush weaker engines. But this doesn't really happen.
 It's a general observation that Leela **underperforms against weaker engines**
 and a good analysis of this can be found
 [HERE](http://www.talkchess.com/forum3/viewtopic.php?f=2&t=68517&p=775116)
-where it was found that the usual Elo curve does not fit Leela's results well.  
-  
-  
-Here are the first 6 games that all ended in a draw.  
+where it was found that the usual Elo curve does not fit Leela's results well.
+
+Here are the first 6 games that all ended in a draw.
 
 [Event "TCEC Cup - Round 1 - Match 7"] [Site "http://tcec.chessdom.com"] [Date
 "2018.10.08"] [Round "1"] [White "Laser 250918"] [Black "Lc0 18.11248"]
@@ -137,10 +136,8 @@ f5 61. Qa4 Kf7 62. Qd7+ Kg6 63. b7 Qg4+ 64. Kh2 Qh5+ 65. Kg2 Qg4+ 66. Kf1 Qc4+
 79. Kg2 Qg4+ 80. Kh1 Qf3+ 81. Kg1 Qg4+ 82. Kf1 Qc4+ 83. Ke1 Qc3+ 84. Kd1 Qb3+
 85. Kc1 Qc3+ 86. Kb1 Qb3+ 87. Ka1 Qa3+ 88. Kb1 1/2-1/2
 
-  
-  
 And here are the 2 wins of her:  
-Game 7:  
+Game 7:
 
 [Event "TCEC Cup - Round 1 - Match 7"] [Site "http://tcec.chessdom.com"] [Date
 "2018.10.08"] [Round "1"] [White "Laser 250918"] [Black "Lc0 18.11248"]
@@ -192,9 +189,7 @@ Ra2 66. Nc3 Ra3 67. Nxd5 c3 68. Nfe3 Nf4 69. Nc2 Ra2 70. Nde3 Nxh3+ 71. Kf1
 Kg7 72. b5 Rb2 73. Rd4 Bxe3 74. Nxe3 c2 75. Nxc2 Rxc2 {[%csl Rh3] White is a
 Knight down so it's easy 0-1.} 76. Rb4 Ng5 77. b6 Rc8 78. Ke2 Rb8 79. Rb1 0-1
 
-  
-  
-Game 8:  
+Game 8:
 
 [Event "TCEC Cup - Round 1 - Match 7"] [Site "http://tcec.chessdom.com"] [Date
 "2018.10.08"] [Round "1"] [White "Lc0 18.11248"] [Black "Laser 250918"]
@@ -239,7 +234,6 @@ Gh3e6]} Rd8 30. Qe6#) 29. Rd4 Rh8 30. a5 b5 31. Qe3 Qxa5 32. Bf3 Qc7 33. g4
 Bc6 34. Bxc6 Qxc6 35. Rg1 Rh7 36. Ke2 Na4 37. Rgd1 Rh8 38. Rd8 Kh7 39. Nxh8
 Rxh8 1-0
 
-  
 The schedule of TCEC Cup:  
 ![](../../images/2018-10-09-leela-promotes-to-round-of-16-in-
 tcec-2018-10-09_12-41-17.png)

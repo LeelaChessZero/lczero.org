@@ -8,16 +8,14 @@ draft = true
 +++
 
 [![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
-jhgjhg79789798799.png)](https://4.bp.blogspot.com/-kLKX6hxQG30/XGgKNaNOFII/AAAAAAAAAdw/tVjhiU3WZ4cDGwEHosQjSkg29CvlzCEbQCLcBGAs/s1600/jhgjhg79789798799.png)
+jhgjhg79789798799.png)](https://4.bp.blogspot.com/-kLKX6hxQG30/XGgKNaNOFII/AAAAA
+AAAAdw/tVjhiU3WZ4cDGwEHosQjSkg29CvlzCEbQCLcBGAs/s1600/jhgjhg79789798799.png)
 
-  
-  
 As per the usual expression of **BOOM** of TCEC chat when an engine finds
 something good, Leela right now is making a great surprise in her first
 appearance in a TCEC superfinal by **leading after 64 games with 2 points
-more. A 33-31 score in favor of Leela.**  
-  
-  
+more. A 33-31 score in favor of Leela.**
+
 After a 14.5-14.5 score with 6 wins by each engine after 29 games, **19
 consecutive draws** happened. But then Leela won one game and she was on the
 lead for the first time on the superfinal! But there was more drama for
@@ -26,9 +24,8 @@ same opening) so she was 2 points up after 54 games!
 Things started to get hot and she could have even be 3 points up had she found
 in the next game 55, with Leela having white, the 85.Kg3 move that wins. She
 was short on time though and the win would be tough and long so it was not
-such an obvious win.  
-  
-  
+such an obvious win.
+
 Leela till now has 1 easy thrown win in the King's Gambit Accepted game-8 with
 black where she blundered heavily by playing a horrible 51...Be3?? blunder
 throwing the win, another one very probable win would be in game 35 if she
@@ -41,17 +38,15 @@ Stockfish immediately. Super blunders that even programs of 1995 like Fritz
 5.32 and Crafty of the time would avoid!  
 Leela also blundered at game 22 where at move 32 in a position where Stockfish
 had an advantage, she played 31...Qd6? that loses on the spot, while the
-correct 31...Qb6 might hold with good defense.  
-  
-  
+correct 31...Qb6 might hold with good defense.
+
 Yet after all these Leela's very bad mistakes that are uncharacteristic for
 this level, she manages to be in front by 2 points.  
 This shows that this new approach of Chess engines has huge potential. It also
 shows the previously(before Deepmind appeared) thought "perfect" or unbeatable
 engine Stockfish is not in fact perfect or unbeatable and has big room for
-improvements.  
-  
-  
+improvements.
+
 So game 58 was reached with the score at 29.5-27.5 in favor of Leela and it
 was the turn of Stockfish to make a win. Its first after game 22!  
 Game 22 till game 58 had Leela with **5 wins, 0 losses and 30 draws!**  
@@ -62,25 +57,20 @@ attack. Leela defended well and she would have big chances to hold had she
 found 33...Kf8!, yet Leela must have been lost in complications and played
 Qf3? losing easily after that as Stockfish used his own version(after Houdini
 doing this to Stockfish in TCEC CUP2 winning against Stockfish) of Alekhine's
-gun to crush Leela's position.  
-  
+gun to crush Leela's position.
+
 After 4 more draws Leela managed to grab another win in a sharp French
 variation(MacCutcheon) having white and defended easily in the reverse so she
 now leads with 33.0-31.0  
 Leela on French defense seems to be on another level of its own against other
-engines.  
-  
- _ **Standings so far:**_  
+engines.
 
-    
-    
+ _ **Standings so far:**_
+
     TCEC Season 14 - Superfinal  2019  
     1   LCZero v20.2-32930    +9/=48/-7 51.56%   33.0/64  
-    2   Stockfish 190203      +7/=48/-9 48.44%   31.0/64  
-    
+    2   Stockfish 190203      +7/=48/-9 48.44%   31.0/64
 
-  
-  
 This is one of the most exciting superfinals of last years as the big favorite
 to easily win, Stockfish, has big troubles to be on the lead and in fact Leela
 is ahead by 2 points after 64 games.  
@@ -93,8 +83,8 @@ result so far is not that suprrising for one that sees the games. Yet,
 Stockfish is incredibly good defender and the top of its kind in tactics so it
 still has a good chance of turning the tables.  
 36 games remain so we will soon see if Leela manages to keep this small
-advantage....  
-  
+advantage....
+
  **  
 ** **Last game won by Leela in the French was an amazing one** showing how
 much potential this new Neural-Net approach has. After Leela played some
@@ -110,8 +100,8 @@ more! Leela must have seen that the h8 black Rook is out of the game after all
 these. Stockfish couldn't see it as it can't search in patterns like Leela
 does, and has to calculate concrete variations but seeing that a Rook is out
 of the game needs an excessive amount of computation so Stockfish is really
-blind in this situation here.  
-  
+blind in this situation here.
+
 And after Queen's exchange Leela gave another 2 Pawns, playing with 3 Pawns
 less but thinking she is winning with a **+4.35** score. Stockfish realized
 Leela was right around at that time but it was too late.  
@@ -119,10 +109,9 @@ Leela used the very weak black squares and her strong Pawn march in Kingside
 excellently as also of course the fact that she paralyzed h8 Rook of Stockfish
 with her Bg6! Leela took advantage that she was effectively was playing with a
 Rook more so she won easily.  
-That h8 poor Rook of Stockfish, hasn't moved the whole game!  
-  
-Leela-Stockfish 1-0 Game 63, (French, MacCutcheon, Janowski variation)  
-  
+That h8 poor Rook of Stockfish, hasn't moved the whole game!
+
+Leela-Stockfish 1-0 Game 63, (French, MacCutcheon, Janowski variation)
 
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.16"] [Round "63.1"] [White "LCZero v20.2-32930"] [Black "Stockfish
@@ -150,10 +139,9 @@ Bxg3 {[%eval 1339,0]} Kf8 {[%eval 746,0]} 35. Bd6+ {[%eval 1492,0]} Ke8
 39. f6 {[%eval 1595,0]} Bxe6 {[%eval 1124,0]} 40. f7+ {[%eval 1709,0]} Kd7
 {[%eval 1122,0]} 41. f8=R {[%eval 1959,0]} Kc6 {[%eval 1071,0]} 1-0
 
-  
-**  
-  
-Leela's games:**  
+**
+
+Leela's games:**
 
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.04"] [Round "1.1"] [White "LCZero v20.2-32930"] [Black "Stockfish
@@ -1597,58 +1585,52 @@ fxe5 94. Be3 Ke4 95. Re1 Nf5 96. Rb4+ d4 97. cxd4 exd4 98. Bg5 Rf7 99. Kd2+
 Kd5 100. Kd3 Raa7 101. Rb8 Rad7 102. Rbe8 Kxc5 103. R8e5+ Rd5 104. Re8 Rdd7
 105. R8e5+ Rd5 106. Re6 Rd6 107. R6e5+ Rd5 1/2-1/2
 
-  
-  
 Above we mentioned Leela thinking about +2.25 after playing Bg6 while
 Stockfish being on +0.42 only. But evaluation of Leela does not correspond to
 evaluation of Stockfish.  
 If we use the evaluation to win percentage and expected score of [THIS
-article](https://www.chessprogramming.org/Pawn_Advantage,_Win_Percentage,_and_Elo)
+article](https://www.chessprogramming.org/Pawn_Advantage,_Win_Percentage,_and_El
+o)
 (that also TCEC uses) for Stockfish's evaluation, as also the Leela's own
 evaluation to win percentage and expected score mapping (ecpected
 score=ArcTan[centiPawns/2.90680623072]/3.096181612 + 0.5), for translating her
 evaluations to probabilities of winning, we obtain the following 2 diagrams to
 compare.  
 We see that a +3.0 eval by Leela has much less probability to win than for
-Stockfish's +3 eval.  
-  
+Stockfish's +3 eval.
 
 [![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
 gjgj89798798797979.png)](https://3.bp.blogspot.com/-lZ-
-PTatw1Nk/XGgSnC20e8I/AAAAAAAAAeA/wwE0VTexn6UTd_Oi3jghYdLKUx4IOLaywCLcBGAs/s1600/gjgj89798798797979.png)
-
-  
+PTatw1Nk/XGgSnC20e8I/AAAAAAAAAeA/wwE0VTexn6UTd_Oi3jghYdLKUx4IOLaywCLcBGAs/s1600/
+gjgj89798798797979.png)
 
 [![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
-hkk79879879.png)](https://4.bp.blogspot.com/-cF5dzkXIX2k/XGgSr9UtlfI/AAAAAAAAAeE/SXOqbgQclcsCf_gC7b2fMNynY6YTUIauACLcBGAs/s1600/hkk79879879.png)
+hkk79879879.png)](https://4.bp.blogspot.com/-cF5dzkXIX2k/XGgSr9UtlfI/AAAAAAAAAeE
+/SXOqbgQclcsCf_gC7b2fMNynY6YTUIauACLcBGAs/s1600/hkk79879879.png)
 
-  
-  
- _ **[UPDATE:]**_  
-  
+ _ **[UPDATE:]**_
+
 Next 2 games 65 and 66 were not without much drama.  
 After Leela leading with 2 points after 64 games, she completely outplayed
 Stockfish with her having having and she reached a totally **winning position
-with 7 pieces on the board** :  
-  
+with 7 pieces on the board** :
+
 [7 men syzygy tablebases](https://syzygy-
 tables.info/?fen=8/2b1k3/8/2pP4/2P3N1/5K2/8/8_b_-_-_0_1) say it's a win for
 white.  
 Leela and Stockfish have 6 men syzygy tablebases in TCEC though so the game
 continued and a very easy win for Leela was expected with her showing big
 positives scores ( **+8.92** ) and Stockfish showed +14.44 and 3 moves later a
-**+152.92** indicating it has found a tablebases forced win.  
-  
+**+152.92** indicating it has found a tablebases forced win.
+
 But Leela **did not manage to find the winning path** so instead of easy
 winning she just drew! Another inexcusable half point lost that would have
 made the point difference between her and Stockfish to be at +3. But it stayed
 at +2.  
 So along with the other **2 easy points she has thrown she would be at +7 from
 Stockfish** if she didn't have these incredible blind spots. So the potential
-of her seems even higher when these things get fixed.  
-  
-  
-  
+of her seems even higher when these things get fixed.
+
 But things would be even worse for Leela in the next game.  
 In the reverse game Leela didn't have any problems to equalize and a **drawish
 position** was reached with Stockfish saying +0.18 and Leela **+0.04** and the
@@ -1658,8 +1640,8 @@ But then an unfortunate thing happened. Leela does not run on main hardware of
 **the internet connection of this remote hardware was cut off** so connection
 with Leela was lost and Leela refused to make a move.  
 Meanwhile Stockfish on 176 threads had analyzed **4 trillion(!!)** positions
-keeping its eval to **0.00.**  
-  
+keeping its eval to **0.00.**
+
 So according to the **_very bad in this aspect TCEC rules, the game would have
 to be replayed from the starting position and not from the last position of
 the interrupted game!_**  
@@ -1675,16 +1657,15 @@ again this advantage and nothing guarantees that(engines are not
 deterministic) and if this does not happen and replay is draw then this engine
 has not won because of e.g an internet provider would be faulty or because of
 a power outage etc. Or if there is a drawn position and replay happens then
-one engine may win the game, so this is unfair to the other engine again.  
-  
+one engine may win the game, so this is unfair to the other engine again.
+
 And the latter is what exactly happened here too. A replay happened (from
 starting position) and there was a crash again and then game was **replayed
 again** , from starting Chess position again, but in that 3rd game Leela did
 not manage to hold. In a complicated position where Stockfish had an advantage
 she blundered again missing some nice and deep tactics and Stockfish
-evaluation from +1.57 to +6.37 and went on to win easily from then.  
-  
-  
+evaluation from +1.57 to +6.37 and went on to win easily from then.
+
 So Leela had to not draw this game(playing the initial one) because an
 internet provider had problems!  
 This is not a football game where a pigeon can enter the field and can affect
@@ -1693,8 +1674,8 @@ replay from the position before the crash can happen.
 A reason that was provided in the past by some TCEC admins was a replay from
 the previous stopped position can't happen, as engines would not have all the
 hash nodes saved from previous search so they have to start search from
-scratch, but this is a 100% bogus reasoning as:  
-  
+scratch, but this is a 100% bogus reasoning as:
+
 •If you repeat game from last position you stopped before the crash then:  
 Engines lose all the hash they had and all the info for the game AND game
 starts from the position it has stopped so the external factor will only
@@ -1704,16 +1685,13 @@ position it has stopped) the course of the **INITIAL** game.
 Engines lose all the hash they had and all the info for the game AND game
 starts from starting position so you lose all previous moves of the INITIAL
 game too, so there is an external factor that affected **HUGELY** the course
-of the INITIAL game.  
-  
-  
+of the INITIAL game.
+
 So after these misfortunes instead of Leela being **+3** points after 66
-games, she is only just **+1** point ahead of Stockfish.  
-  
-  
-  
+games, she is only just **+1** point ahead of Stockfish.
+
 The incredible game Leela didn't manage to win from a 7 men tablebase
-position:  
+position:
 
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.16"] [Round "65.1"] [White "LCZero v20.2-32930"] [Black "Stockfish

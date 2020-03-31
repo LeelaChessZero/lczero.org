@@ -8,18 +8,14 @@ draft = true
 +++
 
 [![](../../images/2018-09-15-cccc-quiz-12-impressive-moves-
-hjk68688.png)](https://1.bp.blogspot.com/-AcjAEd5qRlU/W51ntmvlpvI/AAAAAAAAATg/wP9HWW50GgAX65syan63JYAusDcl__B-
+hjk68688.png)](https://1.bp.blogspot.com/-AcjAEd5qRlU/W51ntmvlpvI/AAAAAAAAATg/wP
+9HWW50GgAX65syan63JYAusDcl__B-
 gCLcBGAs/s1600/hjk68688.png)
 
-  
-  
 In CCCC there have been played some very nice games and moves till now.  
 Can you find them? Play the move on the board and if it's correct it will show
 the game continuation with a comment. If not, go back with arrows and try
-again or press show solution if you can't find it.  
-  
-  
-  
+again or press show solution if you can't find it.
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.13"] [Round "?"] [White "Nirvana 2.4"] [Black "Fire 7.1"] [Result
@@ -38,11 +34,6 @@ Kb7 38. Rb4+ Kc6 39. Ra4 Kd5 40. Ra5+ Kc6 41. Ra4 Kd6 42. Ra6+ Ke7 43. d5 c6
 44. dxc6 Qd8 45. a8=Q Qd3+ 46. Kf2 Qd2+ 47. Kf1 Qc1+ 48. Ke2 Qc2+ 49. Ke1 Qe4+
 50. Kd1 Qd3+ 51. Kc1 Qf1+ 52. Kc2 Qe2+ 53. Kb1 Qd1+ 54. Ka2 Qb3+ 55. Ka1 Qd1+
 56. Ka2 Qb3+ 57. Ka1 Qd1+ 58. Ka2 1/2-1/2
-
-  
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.02"] [Round "?"] [White "Senpai 2.0"] [Black "Stockfish 220818"]
@@ -63,11 +54,6 @@ Nxf6+ Kg6 43. Rdxd1 Kxf6 44. Rc1 Qa5 45. Rgf1 Kg5 46. Rc2 Qxa4 47. Re2 Qd4 48.
 Kh2 Qc3 49. Kh1 f3 50. gxf3 Nxf3 51. Ra2 Kh4 52. g5 hxg5 53. Kg2 Ne1+ 54. Rxe1
 Qxe1 55. Ra4+ Kh5 56. Ra2 f5 57. Kf3 Kh4 58. Ra4+ f4 59. Rxf4+ gxf4 60. Kxf4
 Qe6 61. Kf3 Qe5 62. Kf2 Qe4 63. Kg1 Qe2 64. Kh1 Kxh3 65. Kg1 Qg2# 0-1
-
-  
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.10"] [Round "?"] [White "Lc0 17.11089"] [Black "Booot 6.3.1"] [Result
@@ -96,11 +82,6 @@ Rg6 93. Re8 Kg7 94. Re1 Kf6 95. c7 Kf5+ 96. Kc5 Rg8 97. Kd5 Kf6 98. b6 Rg5+
 99. Kd6 Rg2 100. c8=Q Rd2+ 101. Kc7 Rc2+ 102. Kb8 Rxc8+ 103. Kxc8 Kf5 104. b7
 Kf4 105. b8=Q+ Kf3 106. Qe5 Kg2 107. Re3 Kf1 108. Qb2 Kg1 109. Re1# 1-0
 
-  
-  
-  
-  
-
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.03"] [Round "?"] [White "Lc0 17.11089"] [Black "Nirvana 2.4"] [Result
 "1-0"] [ECO "D38"] [WhiteElo "3300"] [BlackElo "3090"] [SetUp "1"] [FEN
@@ -113,11 +94,6 @@ exchange.} Bxf1 19. Rxf1 Na4 20. f5 Rc7 21. Bh6 Nxc3 22. Bxf8 Rxf8 23. f6 Kh8
 e6 Rcc8 31. e7 Qxa3 32. g4 Qd3 33. Ng5+ Kg8 34. exf8=N a6 35. Nd7 Re8 36. Ne5
 Qc2 37. Ngxf7 Qf2+ 38. Rxf2 Rc8 39. Qh6 Rc1+ 40. Kg2 Rg1+ 41. Kxg1 hxg4 42.
 Qg7# 1-0
-
-  
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.05"] [Round "?"] [White "Gull 3.syz"] [Black "Ivanhoe 999946h"]
@@ -132,11 +108,6 @@ Bxg5 26. fxg5 Bd7 27. h6 Qe7 28. Qe3 Kg8 29. Rb1 Rab8 30. Be4 Be8 31. Qg3 e5
 fxe5 Nxe5 39. Qh5 Qd6 40. Qg5 Rc5 41. Rf5 b6 42. Kh1 Bd5 43. Bxd5+ Rxd5 44.
 Rexe5 Rd1+ 45. Kh2 Qd7 46. Qf6 Rh1+ 47. Kxh1 Qd1+ 48. Rf1 Qxf1+ 49. Qxf1 Rf8
 50. h7+ Kg7 51. Qxf8+ Kxg6 52. h8=N+ Kh7 53. Re7# 1-0
-
-  
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.06"] [Round "?"] [White "Wasp 3.25"] [Black "Senpai 2.0"] [Result
@@ -155,11 +126,6 @@ a4 48. Qd3 fxg3 49. fxg3 Kg7 50. Qc3+ Kg8 51. Qd2 Nh7 52. Re6 Qd7 53. d6 Qxe6
 54. d7 Nf6 55. d8=Q+ Kf7 56. Qc7+ Kg6 57. Qd3+ Qf5 58. Qdc4 Kh6 59. Qd6 g4 60.
 Qf8+ Kh5 61. Qcf7+ Qg6 62. Qxf6 Qc2+ 63. Qf2 Qxf2+ 64. Kxf2 Kg5 65. Ke3 a3 66.
 Kd4 Kg6 67. Ke5 b5 68. Qg8+ Kh5 69. Kf5 Kh6 70. Qg6# 1-0
-
-  
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.07"] [Round "?"] [White "Fritz 16.10"] [Black "Crafty 25.2"] [Result
@@ -182,11 +148,6 @@ Nh6 91. Kh4 Kc5 92. Kg5 Ng4 93. h6 Nxh6 94. Kxh6 Kb4 95. Be6 Ka3 96. Bxf5 Ka2
 97. g4 Ka1 98. Nd3 Kb1 99. g5 Ka1 100. Be6 Kb1 101. Bb3 Ka1 102. g6 Kb1 103.
 g7 Ka1 104. g8=Q Kb1 105. Qg1# 1-0
 
-  
-  
-  
-  
-
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.08"] [Round "?"] [White "Ethereal 10.88"] [Black "Xiphos 0.3.17"]
 [Result "1-0"] [ECO "C11"] [WhiteElo "3283"] [BlackElo "3041"] [SetUp "1"]
@@ -200,11 +161,6 @@ Qf8 35. Qxf8+ Kxf8 36. Nxd7+ Ke8 37. Rxg7 bxc3+ 38. Kd3 Rc6 39. Ne5 Rb6 40.
 Bb1 Kd8 41. Kxc3 d4+ 42. Kc4 Ra6 43. Kb5 Rd6 44. Nf7+ Ke7 45. Nxd6+ Kxd6 46.
 Kc4 d3 47. Bxd3 h5 48. Kd4 Kc6 49. a4 h4 50. a5 e5+ 51. fxe5 b1=Q 52. Bxb1 Kb5
 53. a6 Ka5 54. a7 Kb6 55. a8=Q Kb5 56. Bd3+ Kb4 57. Rb7# 1-0
-
-  
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.12"] [Round "?"] [White "Stockfish 220818"] [Black "Houdini 6.03"]
@@ -223,11 +179,6 @@ f5 42. Rc4+ Kd7 43. Rb4 Kc8 44. Rb6 e5 45. Rxg6 f4 46. Rg7 Ra6 47. Rxh7 fxe3
 Re7+ Rc7 55. Rxc7+ Kxc7 56. Kf2 e1=R 57. Kxe1 Kc6 58. g5 Kd6 59. g6 Ke6 60.
 h8=Q a3 61. g7 Kd7 62. g8=Q axb2 63. Qc8+ Ke7 64. Qhf8# 1-0
 
-  
-  
-  
-  
-
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.12"] [Round "?"] [White "Komodo 2118.00"] [Black "Nirvana 2.4"]
 [Result "1-0"] [ECO "D37"] [WhiteElo "3404"] [BlackElo "3115"] [SetUp "1"]
@@ -239,11 +190,6 @@ Kg6 17. Qc2+ Kf6 18. Qxc3+ Ke7 19. Qxg7 Ke8 20. f5 Ba6 21. Rfe1 Qe7 22. f6
 Qxc5 23. Nxe6 fxe6 24. Rxe6+ Kd8 25. Rae1 Rg8 26. Qxg8+ Kc7 27. Qxa8 Kb6 28.
 f7 Bb5 29. f8=Q Qxf8 30. Qxf8 a5 31. Rb1 d4 32. Qb8+ Kc5 33. Rc1+ Bc4 34. Re5#
 1-0
-
-  
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.13"] [Round "?"] [White "Ethereal 10.88"] [Black "Pedone 1.8"]
@@ -259,11 +205,6 @@ Kh3 Qg6 54. d6 Qg7 55. Qd5 Qg6 56. Qc5 Qf7 57. Qc7+ Qxc7 58. dxc7+ Kxc7 59. h5
 Kd6 60. h6 Ke5 61. h7 Ke4 62. h8=Q Kd3 63. Qxf6 Kd2 64. Kg3 Kc2 65. Kf3 Kd2
 66. Qd4+ Kc2 67. Ke2 Kb3 68. Kd2 Kb2 69. Kd1 Kb3 70. Kc1 Ka3 71. Kc2 Ka2 72.
 Qa7# 1-0
-
-  
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.02"] [Round "?"] [White "Shredder 13"] [Black "Texel 1.07"] [Result

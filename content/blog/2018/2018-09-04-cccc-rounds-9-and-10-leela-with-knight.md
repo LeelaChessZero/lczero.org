@@ -10,10 +10,8 @@ draft = true
 [ ![](../../images/2018-09-04-cccc-rounds-9-and-10-leela-with-knight-
 gjgj98789798799999.png)](https://www.chess.com/computer-chess-championship)
 
-  
-  
-**ROUND 9**  
-  
+**ROUND 9**
+
 It was the round of draws, with only 4 games to be decided and 8 draws. All
 top 6 engines drew their games.  
 Ethereal had a pleasant game as it crashed the aging Crafty while Shredder
@@ -28,8 +26,8 @@ complicated game with attacking prospects against Senpai's King, never really
 managed to go beyond that due to some inaccuracies by playing many moves with
 her King and delaying the attack. Yet after some shuffling she had a chance to
 try to push for the win with 59...Kf8! but Leela missed it and played
-59...Rc1? that is a drawish.  
-  
+59...Rc1? that is a drawish.
+
 Results:  
 97 Andscacs vs Nirvana 1-0  
 98 Nemorino vs Pedone 1/2-1/2  
@@ -42,8 +40,7 @@ Results:
 105 Xiphos vs Fritz 1/2-1/2  
 106 Fizbo vs Arasan 0-1  
 107 Booot vs Fire 1/2-1/2  
-108 Ethereal vs Crafty 1-0  
-  
+108 Ethereal vs Crafty 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.03"] [Round "?"] [White "Senpai 2.0"] [Black "Lc0 17.11089"] [Result
@@ -199,10 +196,6 @@ anything.} 60. Rb7 Rc1 61. Qb3 R8c4 $15) 60. Ne7 $1 {[%eval 0,30] [%emt
 0:00:01]} 140. Ra7+ { [%eval 0,37] [%emt 0:00:08]} Kg8 {[%eval 0,3] [%emt
 0:00:01]} 141. Ra8+ { [%eval 0,38] [%emt 0:00:08]} Kg7 {[%eval 0,2] [%emt
 0:00:08]} 142. Ra7+ 1/2-1/2
-
-  
-  
-  
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.03"] [Round "?"] [White "Stockfish 220818"] [Black "Komodo 2118.00"]
@@ -424,10 +417,8 @@ Nd8 {[%eval 0,36] [%emt 0:00:08]} 34. Rg1 {[%eval 53,41] [%emt 0:00:14]} Rg7 {
 [%eval 0,44] [%emt 0:00:12]} 214. Kc1 {[%eval 0,58] [%emt 0:00:00]} Qf1+ {
 [%eval 0,38] [%emt 0:00:03]} 215. Kc2 1/2-1/2
 
-  
-  
-ROUND 10  
-  
+ROUND 10
+
 Another clash of the titans with the Houdini-Stockfish game, where both
 opponents played very accurately form beginning to end so nothing spectacular
 came out of this and result was an easy draw for both.  
@@ -438,9 +429,8 @@ attack and it was over but with a fanciful way by underpromoting to a Knight!
 And even more, Nirvana did not capture the Knight. Game ended very quickly
 after that.  
 Ethereal got a second win in a row and as expected it climbs to the top 8 that
-should eventually get comfortably in.  
-  
-  
+should eventually get comfortably in.
+
 109 Nemorino vs Andscacs 0-1  
 110 **Lco** vs Nirvana 1-0  
 111 Pedone vs Laser 1/2-1/2  
@@ -452,9 +442,7 @@ should eventually get comfortably in.
 117 Wasp vs Fizbo 1/2-1/2  
 118 Fire vs Xiphos 1/2-1/2  
 119 Arasan vs Ethereal 0-1  
-120 Crafty vs Booot 0-1  
-  
-  
+120 Crafty vs Booot 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.03"] [Round "?"] [White "Lc0 17.11089"] [Black "Nirvana 2.4"] [Result
@@ -513,14 +501,9 @@ Qc2 {[%eval -32741,28] [%emt 0:00:13]} 37. Ngxf7 {[%eval 3050,8] [%emt
 {[%eval 6754,4] [%emt 0:00:16]} hxg4 {[%eval -32765,18] [%emt 0:00:10]} 42.
 Qg7# 1-0
 
-  
-  
-  
 Round 11 had Leela drawing with black not that easily Andscacs.  
 Leela has now in the next round to face the toughest challenge thus far in
-this tournament. Komodo with Leela having black pieces!  
-  
-  
+this tournament. Komodo with Leela having black pieces!
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.04"] [Round "?"] [White "Andscacs 0.94"] [Black "Lc0 17.11089"]
@@ -710,10 +693,8 @@ Nf3 {[%eval 26,28] [%emt 0:00:47]} e6 {[%eval -21,12] [%emt 0:00:34]} 2. c4
 [%emt 0:00:05]} Kc6 {[%eval 0,5] [%emt 0:00:06]} 183. Rg8 { [%eval 1,77] [%emt
 0:00:00]} Kc7 {[%eval 0,3] [%emt 0:00:08]} 184. Rg3 1/2-1/2
 
-  
-  
-Next games:  
-  
+Next games:
+
  **ROUND 11**  
 121 Andscacs vs **Lco** 1/2-1/2  
 122 Laser vs Nemorino  
@@ -726,8 +707,8 @@ Next games:
 129 Vajolet vs Fire  
 130 Ethereal vs Wasp  
 131 Xiphos vs Crafty  
-132 Booot vs Arasan  
-  
+132 Booot vs Arasan
+
  **ROUND 12**  
 133 Laser vs Andscacs  
 134 Komodo vs **Lco**  
@@ -740,11 +721,10 @@ Next games:
 141 Texel vs Ethereal  
 142 Crafty vs Vajolet  
 143 Wasp vs Booot  
-144 Arasan vs Xiphos  
-  
-  
- _Standings so far:_  
-  
+144 Arasan vs Xiphos
+
+ _Standings so far:_
+
 1 Shredder 8.5/10  
 2 **Lc0** 8.5/11  
 3 Houdini 8.0/10  

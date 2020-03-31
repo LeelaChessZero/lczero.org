@@ -8,10 +8,9 @@ draft = true
 +++
 
 [![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-
-karsparov.jpeg)](https://3.bp.blogspot.com/-eAvVer5MvPA/W7ul7sxFzzI/AAAAAAAAAYE/gOw0ZP7tDHE56t4wZkZMX95j1VAuAsj7ACLcBGAs/s1600/karsparov.jpeg)
+karsparov.jpeg)](https://3.bp.blogspot.com/-eAvVer5MvPA/W7ul7sxFzzI/AAAAAAAAAYE/
+gOw0ZP7tDHE56t4wZkZMX95j1VAuAsj7ACLcBGAs/s1600/karsparov.jpeg)
 
-  
-  
 When first Chess engines were born were very weak. First real Chess
 program(even though in 1912 there was a King Rook versus King solver and in
 1951 Turing wrote only in paper a Chess program) was written in 1951 by Alan
@@ -23,24 +22,25 @@ progress on AI. As hardware has started to evolve more and more, many
 researchers started to be able to use the already known algorithm, that has
 proved to be the backbone for future Chess engines: the **Minimax algorithm**
 , that was invented many years before by the pioneer in so many fields, John
-Von Neumann.  
-  
+Von Neumann.
+
 Minimax algorithm combined with heuristics of simple Chess rules, trying to
 simulate humans basic rules of thumb, has proved to be a success creating weak
 but not random Chess playing programs showing a certain intelligence. Interest
 in computer Chess was growing, Minimax algorithm was enhanced by the creation
 of **AlphaBeta** search, that brought even more increase in strength and with
 continuous improvements in hardware Chess engines started to win to win
-against humans.  
-  
+against humans.
+
 In **1967** there was the **first won game of a computer at official
 tournament play** , where **Mac Hack VI** program of Richard Greenblatt,
-running on a PDP-6, won against a 1510 Elo human player.  
-  
- _(Mac Hack VI)_  
+running on a PDP-6, won against a 1510 Elo human player.
+
+ _(Mac Hack VI)_
 
 [![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-
-phpJK5zWz.png)](https://1.bp.blogspot.com/-Z-vV0XRzb7Y/W7unmbGQOXI/AAAAAAAAAYg/rS3Kapx-
+phpJK5zWz.png)](https://1.bp.blogspot.com/-Z-vV0XRzb7Y/W7unmbGQOXI/AAAAAAAAAYg/r
+S3Kapx-
 uG8ocik83Y7YGbwYv1QPXtn_ACLcBGAs/s1600/phpJK5zWz.png)
 
 In 1968 David Levy he beat in a friendly chess game with Stanford professor
@@ -61,28 +61,28 @@ positions a second.
 But despite of the win against the computer, Levy **became the first
 International Master to give up a draw and a loss** to a computer program,
 when **CHESS 4.7 got a draw in game 1 of the match and won the 4th game of the
-match.**  
-  
-  
- _(J. Robert Oppenheimer, John Von Neumann, and the MANIAC computer.)_  
+match.**
+
+ _(J. Robert Oppenheimer, John Von Neumann, and the MANIAC computer.)_
 
 [![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-
-Oppie%2B%252526%2BNeumann%2B%252526%2BMANIAC_0.jpg)](https://1.bp.blogspot.com/-lZdNCqBN71Q/W7um4G_WhtI/AAAAAAAAAYQ/-RzaYrmGq80WZW4cvuaQb-0v_CeMH3tWQCLcBGAs/s1600/Oppie%2B%252526%2BNeumann%2B%252526%2BMANIAC_0.jpg)
+Oppie%2B%252526%2BNeumann%2B%252526%2BMANIAC_0.jpg)](https://1.bp.blogspot.com/-
+lZdNCqBN71Q/W7um4G_WhtI/AAAAAAAAAYQ/-RzaYrmGq80WZW4cvuaQb-0v_CeMH3tWQCLcBGAs/s16
+00/Oppie%2B%252526%2BNeumann%2B%252526%2BMANIAC_0.jpg)
 
-  
 In the decade of 1970, Chess engine interest continues to flourish and Chess
 playing programs continued to improve because of a combination of big hardware
 advances as also algorithms continuing getting better and also new innovative
 improvements were happening, like **iterative deepening** that had brought a
-very __ nice boost in the depth of search of Alpha-Beta algorithm.  
-  
+very __ nice boost in the depth of search of Alpha-Beta algorithm.
+
  **In 1981 Cray Blitz** of Robert Hyatt, Harry Nelson and Albert Gower was the
 Chess program that **won for the first time a human master** Joe Sentef 2262
 Elo, in tournament play, while in 1982 Ken Thompson's Chess program **Belle**
 , earns a US master title, while in 1986 **Deep Thought** was the first
 computer Chess program that **defeated a human Grandmaster** as it won the GM
-Bent Larsen.  
-  
+Bent Larsen.
+
 With the coming of home PCs, the 1990s brought the Chess engines in everyone's
 home and the rise of specialized software for PCs has come with countless
 Chess engines from different authors to exist, tournaments for Chess programs
@@ -91,8 +91,8 @@ In 1994 one such program the **ChessGenius** of Richard Lang, was the **first
 program to ever win a world champion at Chess, the great Garry Kasparov** , in
 a non blitz time control game!  
 3 years later **Deep Blue** would win a whole series of games against Kasparov
-in the well known match.  
-  
+in the well known match.
+
 While Deep Blue won that match and showed computers are of maybe equal
 strength with top GMs, the Chess engines on home PCs were of a much less
 strength mainly because of much slower hardware(we remind that Deep Blue was
@@ -102,8 +102,8 @@ compared to recent Chess engines). Deep Blue was the myth of the time for
 hobbyists on the Chess engine scene, and people would wish their PC programs,
 like Fritz, Hiarcs, Junior, Rebel Century, Chess Genius, Crafty etc etc, would
 find Deep Blues star moves, but in vain most times. At the late 90s top 20 PC
-Chess engines had already surpassed top humans in blitz time controls.  
-  
+Chess engines had already surpassed top humans in blitz time controls.
+
 Progress continued and new innovations mostly in search happened, full
 adoption of bitboards, null move pruning, late move reductions, futility
 pruning and many many others made the search much more efficient and in 2000s
@@ -111,28 +111,28 @@ engines made a big leap in strength starting with the release of **Fruit 2.1**
 as an open source and the coming of **Rybka** **1.0** an engine that dominated
 everything for many years has lead to very top levels of play. From about
 2004-2005 humans started to not be a match for computers even on classical
-time controls.  
-  
+time controls.
+
 Next decade from 2010 and thereafter, had **Stockfish** with the adoption of a
 clear and rigid testing framework(Fishtest) to explode and reach super level
 of strength being currently the strongest Chess engine around. Other engines
 of course got huge improvements also and engines in this era are no match in
 humans at any time control and any top human would get crushed by any top 50
-engine.  
-  
-  
+engine.
+
  _(At this position of Deep Blue-Garry Kasparov, game 2 in 1997, Deep Blue,
 was supposed to play the typical computer move Qb6 in order to win a pawn.
 Kasparov and the viewers were quit surprised by Deep Blue's move **Be4!** This
 positionally strong move almost chokes every counter play. Later analysis
 showed Deep Blue didn't play this correctly and Kasparov could have drawn This
 legendary Be4 move is now easily found from Chess engines with the correct
-continuation of course.)_  
+continuation of course.)_
 
 [![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-Deep-Blue-
 versus-Garry-Kasparov-game-2-in-1997-At-this-position-Deep-Blue-using-
 the.png)](https://1.bp.blogspot.com/-De-
-FtdFxTgE/W7upHiZ4XEI/AAAAAAAAAYs/p3mgHWVi1a8CLAvEMqJGooGIQ6Yv2laDQCLcBGAs/s1600/Deep-
+FtdFxTgE/W7upHiZ4XEI/AAAAAAAAAYs/p3mgHWVi1a8CLAvEMqJGooGIQ6Yv2laDQCLcBGAs/s1600/
+Deep-
 Blue-versus-Garry-Kasparov-game-2-in-1997-At-this-position-Deep-Blue-using-
 the.png)
 
@@ -144,8 +144,8 @@ till now. Bad back then programs would have some important blind spots.
 sacrifices to get an attack, they would hesitate most of the time to **give
 the exchange** for the initiative, they would play **closed positions** in a
 random way just shuffling pieces and they were very very bad in **endgames**.
-And above all they would absolutely suck in _**fortress**_ positions.  
-  
+And above all they would absolutely suck in _**fortress**_ positions.
+
 With time, positional play would improve(the Be4!! and h5! moves of Deep Blue
 would started to be found by even 2005 engines) and it was a usual trick for
 commercial engine's advertisement to include the key phrase "Much improved in
@@ -156,26 +156,26 @@ quantity becomes quality and positional play is very good. Along with these
 improvements in evaluation heuristics and search leaps, came the ability of
 programs to find sacrifices. With the introduction of Fruit and especially
 Rybka(the old King of material imbalances) engines started to be very good at
-exchange sacrifices also.  
-  
+exchange sacrifices also.
+
 Endgame was steadily was improving and after about 2011-13 programs started to
 be considered better than even top GMs in endgame. Todays engines with the use
 of endgame tablebases also, they are much much better than humans in endgame
-too, even though some blind spots remain.  
-  
+too, even though some blind spots remain.
+
 Big thorns on engine play though, still remains the closed positions play,
 where even todays engines continue their never-ending shuffling. But with a
 big difference of the past that they can't be tricked to worsen their position
 like in the old days and that extremely more often now, they do find a
-breakthrough, something that didn't occur in older days.  
-  
+breakthrough, something that didn't occur in older days.
+
  _But the biggest weakness of Chess engine remains undaunted!_ _**Fortress
 positions!**_  
 A fortress position is one that one side can't make any progress because the
 other has built an impenetrable cage. And so engines can't see that no
 progress can be made because this requires huge depths that even todays
-engines can't reach.  
-  
+engines can't reach.
+
 2018 brought the introduction of neural net engines using a variation of MCTS
 search. **AlphaZero** for Chess and Leela.  
 And while we can't see the games of AlphaZero we are seeing the games of Leela
@@ -188,8 +188,8 @@ than current engines, handling Pawns and material imbalances in a far superior
 way(Leela took the royal scepter from Rybka on material imbalances) and in
 middlegame is also superior to anything else. And while its endgame is worse
 than other top engines this is because of not enough training in endgame
-positions and this can be easily improved with more training.  
-  
+positions and this can be easily improved with more training.
+
 The introduction of neural net engines brought hope that it would handle
 better closed positions or fortresses. But in vain. Leela appears to shuffle
 maybe even more than traditional engines. And in fortress positions things
@@ -198,20 +198,19 @@ This seems to contradict the MCTS(Monte Carlo tree search) search they use,
 since Monte Carlo means you should play countless times at random, from a
 position and then see which moves were having the best statistics. So
 seemingly MCTS should be able to solve fortress positions but why this doesn't
-occur? Because  
-  
+occur? Because
+
 AlphaZero and Leela does not use any random process to guide the search but
-the search is guided by the neural network only!  
-  
+the search is guided by the neural network only!
+
 Traditional engines don't seem to have any hope to ever solve fortress
 positions, expect when they will start searching 80 or more plies ahead.  
 But neural nets seem to have big chances to do it, as they are supposed to
 learn from what they see and so more and more training games would
-theoretically mean they would learn to solve them.  
-  
+theoretically mean they would learn to solve them.
+
 And here are some nice fortress Chess positions that it would be awesome if
-engines started to solve them:  
-  
+engines started to solve them:
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "3k4/4pp2/n2n4/5BN1/3N4/b7/4K3/8 w -
@@ -220,8 +219,6 @@ Knight to create a drawn fortress it's the only move that draws.} Nxf7 2. Ne6+
 Ke8 3. Bg6 Bc1 4. Bd3 Nb8 5. Bb5+ Nd7 6. Kd1 Bh6 7. Be2 {White created a
 really nice fortress. Black can't make progress. When he moves a Knight white
 gives a check.} *
-
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN
@@ -235,8 +232,6 @@ Kf6 12. g3 Re8 13. Kf1 Rh8 14. Kg1 Kg5 15. f3 Kf5 16. Kg2 Re8 17. Kf2 Kg5 18.
 Kf1 Rh8 (18... Re3 19. Kf2 Re6 (19... Rd3 20. Ke2 $11) 20. Kf1 Rf6 21. Kf2 Rh6
 22. Kg2 $11) 19. Kg2 $11 *
 
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN
 "1k6/3p4/1B6/4Pp1p/1p5R/1p4p1/pP3n2/K6n w - - 0 1"] [PlyCount "31"] {White
@@ -247,16 +242,12 @@ Bg3 e5 7. Bf2 e4 8. Bg3 Kd4 9. Bh4 e3 10. Be1 f4 11. Bh4 f3 12. Bf2 Kd3 13.
 Bg3 f2 14. Bxf2 e2 15. Bh4 Kd2 16. Bf2 $11 {Hopefully one day computers will
 find this move.} *
 
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "4knQ1/7r/3p2p1/2bP1pP1/5P1N/6K1/8/8
 b - - 0 1"] [PlyCount "18"] 1... Rxh4 $1 2. Kxh4 Bd4 {[%csl
 Re6,Rf7,Rg7,Rh7,Rh8][%cal Gd4a1] All moves of Queen are blocked. Bishop move
 son a1-d4 diagonal and black can't make progress.} 3. Kg3 Bc3 4. Kf3 Bb2 5.
 Ke3 Bc3 6. Kd3 Ba1 7. Kc4 Bb2 8. Kb5 Bc3 9. Kc6 Ke7 10. Kc7 $11 *
-
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN
@@ -266,8 +257,6 @@ computers. Maybe one day....} Kxa4 2. b3+ Kb5 3. c4+ Kc6 4. d5+ Kd7 5. e6+
 Kxd8 6. f5 $11 {White gave its 2 Bishops in order to create a fortress that
 black can't enter.} *
 
-  
-
 [Event "?"] [Site "?"] [Date "2010.01.07"] [Round "?"] [White "?"] [Black "?"]
 [Result "1/2-1/2"] [Annotator ",user"] [SetUp "1"] [FEN
 "7r/p3k3/2p5/1pPp4/3P4/PP4P1/3P1PB1/2K5 w - - 0 1"] [PlyCount "29"] [EventDate
@@ -276,8 +265,6 @@ Rxg2 3. Kf1 Rh2 4. Kg1 Rh7 5. f3 Rh8 6. Kg2 Ke6 7. Kg1 Kf5 8. Kg2 Re8 9. Kf2
 a5 10. Kf1 Ra8 11. Kf2 b4 (11... a4 12. b4) 12. a4 Rh8 13. Kg2 Rh7 14. Kg1 Rh3
 15. Kg2 $11 1/2-1/2
 
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN
 "8/2r3k1/8/1p1p1p2/p2PbPp1/PB4P1/1P1K4/5R2 w - - 0 1"] [PlyCount "11"] {[#]}
@@ -285,8 +272,6 @@ a5 10. Kf1 Ra8 11. Kf2 b4 (11... a4 12. b4) 12. a4 Rh8 13. Kg2 Rh7 14. Kg1 Rh3
 $19) 1... Rxc1 2. Kxc1 axb3 3. Kd2 b4 (3... Kf6 4. Kc3 Bc2 5. Kb4 Bd3 6. Kxb3
 Ke6 7. Kc3 Be2 8. b4 $11) 4. a4 $1 (4. axb4 $4 Kf6 $19) 4... Bg2 $1 { [%csl
 Gf1]} 5. Ke1 {[%csl Rf1]} Be4 {[%csl Gd3]} 6. Kd2 $11 {[%csl Rd3]} *
-
-  
 
 [Event "?"] [Site "?"] [Date "2018.10.08"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [Annotator ""] [SetUp "1"] [FEN
@@ -298,16 +283,12 @@ Ke8 105. Kb2 $18) 97. Ne4 Rc1+ 98. Kd3 Rd1+ 99. Kc2 $18 Rdg1 100. Nf6+ Ke7
 101. Nd5+ Ke8 102. Nf6+ Ke7 103. Ne4 $18) 96. bxa4 Ke8 97. Kd5 $11 {[%csl
 Ge7,Gg7] [%cal Gg7e7,Ge7g7] White can't penetrate.} *
 
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN
 "8/2p5/2Pp1k2/3Pp3/p3P3/5P1p/6p1/4K1B1 w - - 0 1"] [PlyCount "10"] 1. Kf2 $1
 {This is the only move that draws, creating a nice fortress.} (1. Kd2 $2 Kg5
 $19) (1. Kd1 $2 Kg5 $19) 1... a3 2. Kg3 a2 3. Kxh3 a1=Q 4. Kxg2 Qb1 5. Bf2 Qc2
 {Draw! Black can't make any progress at all.} *
-
-  
 
 [Event ""] [Site "?"] [Date "1929.11.17"] [Round "?"] [White "Hasek=J"] [Black
 "(=0031.46d6a8)"] [Result "*"] [SetUp "1"] [FEN
@@ -318,8 +299,6 @@ Kb8 $1 9. Nf6 Kc8 $1 10. Nh7 Qh6+ 11. Ke5 Qg7+ 12. Ke6 Qg6+ 13. Nf6 Qh6 $1 14.
 Ke7 Qe3+ 15. Kf8 Kd8) 1... a3 2. Ng6 $1 a2 (2... Kb8 3. Kxd7 a2 4. Nf8 a1=Q 5.
 Kd8 Qd4+ 6. Nd7+ Ka8 $11) 3. Nf8 a1=Q 4. Nxd7 Qd4+ 5. Kc7 Be2 $11 {Black a
 queen up but it's pointless.} *
-
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN
@@ -334,8 +313,6 @@ cxd6 3. h5 Kf8 (3... a5 4. Kb2 Kf8 5. Kb3 Ke8 6. Kb2 Kd8 7. Kb3 Kc7 8. Ka3 Rb8
 Stalemate traps.}) 5. Kc3 (5. a3 Ke8 6. Kc3 Kd8 7. Kb3 Kc7 8. Ka4 {Stalemate
 traps.}) 5... Ke8 6. a3 Kd8 7. Kb3 Kc7 8. Ka4 Kb7 9. Kb3 Ka7 10. Ka4 Rb8 {
 Stalemate.}
-
-  
 
 [Event "?"] [Site "?"] [Date "2017.??.??"] [Round "?"] [White "Fortress by
 Arpad Rusz"] [Black "?"] [Result "*"] [Annotator "Ts,George"] [SetUp "1"] [FEN
@@ -354,8 +331,6 @@ the white king to the c-file.} Kd6 15. Nc2 $1 {This move explains why we have
 not chosen 9.Kc2?!} Ke6 16. Ne1 Kf6 17. Ng2 Ke6 18. Kd1 Kf6 19. Nh4 $1 Kf7
 (19... gxh4 20. Ke1 $18) 20. Nf5 {[%csl Rh6]} *
 
-  
-
 [Event "?"] [Site "?"] [Date "2014.??.??"] [Round "?"] [White "Tarasiuk,
 Vladislav"] [Black "?"] [Result "*"] [SetUp "1"] [FEN
 "8/1N1Pb2p/p3p3/1ppP2P1/6p1/P1k5/6PK/2n5 w - - 0 1"] [PlyCount "33"]
@@ -369,8 +344,6 @@ d7 Ne2 12. d8=Q { [%csl Rh7] In the 1.d6 line the Pawn is on h7 and it's a
 draw. Here white wins! } Kc2 13. Qd5 g5 14. Qd8 g4 15. Qd5 a5 16. Qxa5 Kd3 17.
 Qg5 {1-0} *
 
-  
-
 [Event ""] [Site "?"] [Date "2014.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [Annotator "Ts,George"] [SetUp "1"] [FEN
 "4KBbn/5p2/5Pp1/3k4/3N2P1/7p/8/8 b - - 0 1"] [PlyCount "3"] [EventDate
@@ -379,8 +352,6 @@ Qg5 {1-0} *
 2. g5 h1=Q 3. Bh6 Kxd4 4. Kf8 $11 { White with a Queen and a Knight more but
 it is just a draw!!}) (1... Kxd4 $2 2. g5 h2 3. Bh6 h1=Q 4. Kf8 $11) 2. Nf3
 Ng6 $19 *
-
-  
 
 [Event ""] [Site "?"] [Date "1968.??.??"] [Round "?"] [White "Kasparyan=G"]
 [Black "(=3012.32e3d6)"] [Result "*"] [SetUp "1"] [FEN
@@ -391,8 +362,6 @@ Kc5 2. Ne6+ Kb4 3. Bd5 $11) (1... Kc6 2. Nd4+ Kb6 3. Nd7+ Kc7 4. Be6 $11) 2.
 Nd7+ $1 Kxf5 3. Bb1+ Kg5 4. h4+ Kh5 5. Kf2 $1 Qa7+ 6. Kf1 Qa1 7. Nf6+ $1 Qxf6+
 8. Kg1 Qb6+ 9. Kh2 $11 Qxb1 *
 
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1/2-1/2"] [SetUp "1"] [FEN
 "4bq2/5pbK/3kp3/1p1p2p1/pP1PPP2/P5B1/P7/5Q2 w - - 0 2"] [PlyCount "21"] 2.
@@ -401,23 +370,17 @@ fxg5+ $3 {Giving the Queen to create a fortress.} (2. f5+ $2 Ke7 3. f6+ Bxf6
 5. e5 Bc6 6. Bf4 Kc7 7. Bh6 Qd8 8. Bf8 Kd7 (8... Qxf8 $11 {Stalemate.}) 9. Bc5
 Bb7 10. Kg7 $11 {Black can't penetrate.} Qc8 11. Kh7 Qxc5 12. bxc5 1/2-1/2
 
-  
-
 [Event "?"] [Site "?"] [Date "2013.03.27"] [Round "?"] [White ""] [Black "?"]
 [Result "*"] [SetUp "1"] [FEN
 "6r1/6r1/2p1k1pp/p1pbP2q/Pp1p1PpP/1P1P2NR/1KPQ3R/8 b - - 0 1"] [PlyCount "5"]
 1... Qf5 $3 {Giving the Queen to obtain a fortress white can't break.} 2. Nxf5
 gxf5 3. Rg3 h5 $11 *
 
-  
-
 [Event "?"] [Site "?"] [Date "2013.03.27"] [Round "?"] [White "draw"] [Black
 "?"] [Result "*"] [Annotator "George"] [SetUp "1"] [FEN
 "r7/7k/5R2/p3p3/Pp1pPp2/1PpP1Pp1/K1P3P1/8 w - - 0 1"] [PlyCount "13"] 1. Kb1
 $3 Kg7 2. Rh6 $3 Kxh6 3. Kc1 Kg6 4. Kd1 Rh8 5. Ke2 Rh2 6. Kf1 Rh1+ 7. Ke2
 {Stalemate trap.} *
-
-  
 
 [Event "?"] [Site "?"] [Date "2013.03.15"] [Round "?"] [White "Draw!!"] [Black
 "?"] [Result "*"] [Annotator "George"] [SetUp "1"] [FEN
@@ -427,8 +390,6 @@ h4+ Kf6 $19) 1... Re5 2. e8=Q Rxe8 3. Ne7 Rxe7 4. Bd8 f2 5. Bxe7+ g5 6. Bc5
 f1=Q+ 7. Bg1 Qb5 8. Ba7 Qb1+ 9. Bg1 Qc2 10. Bd4 Qd1+ 11. Bg1 Qe2 12. Bc5 Qe1+
 13. Bg1 $11 {Draw.} *
 
-  
-
 [Event "?"] [Site "?"] [Date "2009.09.23"] [Round "?"] [White "?"] [Black "?"]
 [Result "*"] [Annotator ",user"] [SetUp "1"] [FEN
 "3k4/p1pq3p/1p5R/4P3/P6P/2PN4/1PN3K1/8 w - - 0 1"] [PlyCount "12"] [EventDate
@@ -436,8 +397,6 @@ f1=Q+ 7. Bg1 Qb5 8. Ba7 Qb1+ 9. Bg1 Qc2 10. Bd4 Qd1+ 11. Bg1 Qe2 12. Bc5 Qe1+
 black's Queen.} Qg7+ 2. Kh3 Qxh6 3. Nf4 Kd7 (3... Qg7 4. Nde6+) (3... Qf8 4.
 Nde6+) 4. Nde6 c6 5. Kg4 Ke7 6. h5 Ke8 {All squares of Queen are blocked and
 the white King can freely move and analysis shows white wins!} *
-
-  
 
 [Event ""] [Site "?"] [Date "2008.08.16"] [Round "?"] [White ""] [Black "?"]
 [Result "*"] [Annotator ",user"] [SetUp "1"] [FEN
@@ -448,8 +407,6 @@ that leads to a fortess for black with a draw.}) 1... Nf1 (1... Nh5 2. Bh6 Kf7
 2. Rc1 Nxh2 3. Rh1 Nf3 4. Bf6 Kf7 5. Ke3 Kg6 6. Rxh3 gxh3 7. Kxf3 Kh5 8. Kg3
 h2 9. Kxh2 Kg4 10. Bg5 Kf3 11. Kh3 Ke4 12. Kh4 Kd5 13. Kh5 Kc5 14. Kg6 Kb4 15.
 Kf7 Kxa5 16. Ke8 Nxb6 17. c8=Q Nxc8 18. Kxd7 Na7 19. Kxe6 Kb4 20. d7 $18 *
-
-  
 
 [Event "1800"] [Site "?"] [Date "2008.07.08"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [Annotator "User,user"] [SetUp "1"] [FEN
@@ -463,8 +420,6 @@ f3 9. e6 f2 (9... dxe6 10. Kg3 f2 11. Kxf2 $18) 10. Kg2 f1=Q+ 11. Kxf1 dxe6
 12. Kf2 e5 (12... Bd7 13. Kf3 Bb5 14. Ke4 Bd7 15. Ke5 Bc8 16. Kf6 $18) 13. Kf3
 Bf5 14. Ke3 e4 15. Kf4 $18 *
 
-  
-
 [Event "1800"] [Site "?"] [Date "2008.07.08"] [Round "?"] [White "ChestUCI
 Ver.4.4"] [Black "User, user"] [Result "*"] [SetUp "1"] [FEN
 "4r3/p1p1pPp1/P1P1P1P1/5K2/3p2P1/7p/3P1ppr/3R1nkq w - - 0 1"] [PlyCount "37"]
@@ -474,8 +429,6 @@ Knight. And several others :)} d3 2. Nf6 gxf6 3. g5 fxg5 4. g7 g4 5. g8=N g3
 6. Nf6 exf6 7. Kg6 f5 8. e7 f4 9. e8=N f3 10. Nd6 cxd6 11. c7 d5 12. c8=N d4
 13. Nb6 axb6 14. a7 b5 15. a8=N b4 16. Nb6 b3 17. Nc4 b2 18. Ne5 b1=Q 19.
 Nxf3# *
-
-  
 
 [Event "1800"/1"] [Site "?"] [Date "2008.04.03"] [Round "?"] [White ""] [Black
 "?"] [Result "*"] [Annotator "User,user"] [SetUp "1"] [FEN

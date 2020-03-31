@@ -8,9 +8,9 @@ draft = true
 +++
 
 [![](../../images/2018-09-28-tcec-cup-in-next-days-
-hjkhk79799999.png)](https://1.bp.blogspot.com/-u-PpF09N_UM/W66Ffjf_7qI/AAAAAAAAAVs/HIEnOk5WZaIWnJlwZyFAdPoVSm8L52OLgCLcBGAs/s1600/hjkhk79799999.png)
+hjkhk79799999.png)](https://1.bp.blogspot.com/-u-PpF09N_UM/W66Ffjf_7qI/AAAAAAAAA
+Vs/HIEnOk5WZaIWnJlwZyFAdPoVSm8L52OLgCLcBGAs/s1600/hjkhk79799999.png)
 
-  
 The TCEC(Top Chess Engine Championship) tournament is currently running with
 engines playing in the premier division and this division will finish in a few
 days. But this time, after premier division end, there would not be an
@@ -19,8 +19,8 @@ premier, but a new tournament is going to happen that Chessdom [has
 announced](http://www.chessdom.com/announcing-tcec-cup-2018/), the **TCEC
 CUP** , with all engines of TCEC but in a different format, that of knockout
 games, one that brings in mind the traditional Cup competitions of football.  
-(TCEC superfinal will he held after the TCEC Cup of course)  
-  
+(TCEC superfinal will he held after the TCEC Cup of course)
+
 So the **32 engines** of season 13 of TCEC will participate and the pairs will
 be according to their places that had in the current 13th season. That means
 1st engine in premier will play against 8th placed engine in 4th division, 2nd
@@ -32,69 +32,62 @@ round.
 In case of a tie after 8 games, 2 more games(1 with black and 1 with white for
 each engines) will be played to determine the winner(the one who will score
 more points). In case of a tie another 2 games will be played and so on, until
-an engine wins the 2-game tiebreak.  
-  
+an engine wins the 2-game tiebreak.
+
 Obviously with 32 engines there would be a round of 32, then a round of 16,
-then the **quarter-finals, then semi-finals and at the end the final**.  
-  
-  
+then the **quarter-finals, then semi-finals and at the end the final**.
+
 All games will be played with time control of **30 minutes plus 10 second per
 move** increment with pondering off.  
 Hardware for traditional engines will be **43 cores(2 x Intel Xeon E5 2699)**
 while for the 2 neural net engines(Leela and DeusX) it would be **2x Tesla
-V100 GPUs** provided by Google.  
-  
-  
+V100 GPUs** provided by Google.
+
 These are the current pairings and a probable, according to how Football and
 Basketball competitions are being run, format between the pairings. But only
 the round of 32 pairings holds as per the TCEC announcement, since they may
-choose different match ups for the next rounds.  
-  
-(click to zoom image)  
+choose different match ups for the next rounds.
+
+(click to zoom image)
 
 [![](../../images/2018-09-28-tcec-cup-in-next-days-
-ghjgjh866868.png)](https://1.bp.blogspot.com/-PczplYasswA/W66Gc4UQy7I/AAAAAAAAAV8/FlrGBXfKblY-w1JtF8kjpPcRz2IbtftQACLcBGAs/s1600/ghjgjh866868.png)
+ghjgjh866868.png)](https://1.bp.blogspot.com/-PczplYasswA/W66Gc4UQy7I/AAAAAAAAAV
+8/FlrGBXfKblY-w1JtF8kjpPcRz2IbtftQACLcBGAs/s1600/ghjgjh866868.png)
 
-  
-  
-  
 So **Leela** will have to face **Laser** in the TCEC Cup in 8 games. The odds
 should be with her and she should promote as she is stronger than Laser but we
-will see.....  
-  
-  
-  
+will see.....
+
 Knowing that premier division is running and Leela is not participating as she
 got stuck in 3rd division due to the known issues with overheating problems
 because of the hardware, TCEC had been running various **bonus games** with
 most time Leela participating.  
 And in these bonus games **Leela** has so far a fantastic performance against
-the mighty Stockfish development version(dev) with 43 cores or even more!  
-  
+the mighty Stockfish development version(dev) with 43 cores or even more!
+
 So **Leela** test 10 nets running on good GPUs(P100s or V100s), on 20'+5" time
 control has till now in TCEC bonus games against **43 cores or better
 Stockfish dev** a result of:  
  _ **1 win, 7 losses and 42 draws in 50 games.**_  
 That means a **-42 ±38 Elo** performance and that Stockfish has won **14 %**
-of the games against Leela.  
-  
+of the games against Leela.
+
 Right now Stockfish on premier division has _**21 wins, 1 loss and 25 draws in
 47 games.**_  
 That means a **+158 ±67 Elo** average performance and that Stockfish has won
-**45 %** of its games against the other premier engines.  
-  
-  
+**45 %** of its games against the other premier engines.
+
 So one has to wonder. What super resistance Leela puts against Stockfish
 compared to the premier division engines?  
 Is Leela so much better than average premier division engines?  
 The answer is not easy.  
-Since Leela is peculiar.  
+Since Leela is peculiar.
 
 She, in a way, adapts to her opponent so a great result against Stockfish
 doesn't necessarily mean she will have a equivalent, Elo-wise, result against
 a weaker engine, or even against a much weaker engine. Transitivity of Elo
-doesn't really work that well with Leela.  
-  
+doesn't really work that well with Leela.
+
 This must be due to Leela is still having many blind spots resulting in
 blunders from time to time mostly in endgame and mainly because of her
 ineffectiveness in many occasions in the endgame, not being able to convert a
@@ -114,11 +107,10 @@ happens of course also due to not optimal evaluation in many endgames. So more
 training is needed to improve all these and even better training techniques
 that are currently tried in test 30.  
 For more about that curiosity of Leela one can read
-[HERE!](http://www.talkchess.com/forum3/viewtopic.php?f=2&t=68517)  
-  
-  
+[HERE!](http://www.talkchess.com/forum3/viewtopic.php?f=2&t=68517)
+
 Leela's only win against Stockfish dev 43 cores in TCEC bonus games. Stockfish
-was blind to the g4->g5->g6 march of Pawn.  
+was blind to the g4->g5->g6 march of Pawn.
 
 [Event "?"] [Site "?"] [Date "2018.08.29"] [Round "7.1"] [White "Lc0 v17 11089
 (4xP100, 10CPU)."] [Black "Stockfish dev (43 cores)"] [Result "1-0"] [ECO

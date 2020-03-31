@@ -8,22 +8,23 @@ draft = true
 +++
 
 As everyone has already heard, DeepMind has published a detailed paper on
-AlphaZero!  
-  
+AlphaZero!
+
 The announcement can be found [here](https://deepmind.com/blog/alphazero-
 shedding-new-light-grand-games-chess-shogi-and-go/). Scroll down the
 announcement to get links to the full paper text as well as supplementary
-materials (including PGNs of games and training pseudocode).  
-  
+materials (including PGNs of games and training pseudocode).
+
 The paper contains additional details that were missing in the original
 preprint from one year before. There were some aspects that were implemented
-in Leela differently from AlphaZero, and I'm sure we'll find some more.  
+in Leela differently from AlphaZero, and I'm sure we'll find some more.
 
 ### Differences found
 
 So, what differences have we found so far? Here is the list!
 
-  *  **In training games, only first 15 moves (30 ply) are generated with temperature randomness.**  
+  *  **In training games, only first 15 moves (30 ply) are generated with 
+temperature randomness.**  
 To explore more possibilities during training games, a randomness (including
 random blunders) was added to the training. The paper preprint told that that
 happens for all moves. Final paper also says so, but if you look into
@@ -32,7 +33,8 @@ Training new networks with 15-move-temperature setting will possibly help us
 to improve endgame play. Leela won't longer wait opponent to blunder, having
 too high eval for drawn positions.
 
-  *  **When played against stockfish, AlphaZero used a new technique to ensure game diversity.**  
+  *  **When played against stockfish, AlphaZero used a new technique to ensure 
+game diversity.**  
 What AlphaZero did, is picked a random move with eval within 1% of the best
 move's eval, for the first 15 moves. Surprisingly, that improved winrate of
 AlphaZero in those games.  
@@ -61,7 +63,8 @@ We used a value based on a parent node (assuming that eval of children is
 roughly the same as parent's eval). Turned out that AlphaZero just considered
 unvisited nodes as lost (with very little confidence though)
 
-  *  **When training new network, positions from last 1 000 000 games are used.**  
+  *  **When training new network, positions from last 1 000 000 games are 
+used.**  
 We used 500 000 last games so far, as it was the number mentioned in previous
 papers.
 
@@ -75,15 +78,13 @@ chess/issues/47#issuecomment-445009350) for the context.
 
 ### v0.19.1-rc2
 
-What does those findings mean for us?  
-  
+What does those findings mean for us?
+
 We want to experiment with new settings in play and training, so we are
 urgently releasing a new version of Lc0 v0.19.1 (as a release candidate today,
 the full release will happen during the next days), where we add missing
 parameters. There are lots of parameters, and many of them are expected to be
-renamed/rethought for version v0.20. So, please welcome new parameters:  
-  
-  
+renamed/rethought for version v0.20. So, please welcome new parameters:
 
   *  **\--temp-cutoff-move=X**  
 After move number X, temperature will be fixed to what is set in **\--temp-
@@ -120,19 +121,21 @@ why), so for now default is 3.0
 That's that factor which defines how Cpuct grows. The value from DeepMind
 paper is 19652, and that's now the default.
 
-  *  **\--cpuct-factor** That's the multiplier of the growing part of Cpuct. Default value now is 2, and that's what DeepMind used (well, they didn't have that factor, but as our action space is 2 times larger, we have to scale this parameter).
+  *  **\--cpuct-factor** That's the multiplier of the growing part of Cpuct. 
+Default value now is 2, and that's what DeepMind used (well, they didn't have 
+that factor, but as our action space is 2 times larger, we have to scale this 
+parameter).
 
-  
 Those parameters will appear in today's release candidate v0.19.1-rc2, which
 will be available for download
 [here](https://github.com/LeelaChessZero/lc0/releases/tag/v0.19.1-rc2).
 (Yesterday there was already v0.19.1-rc1 which had one new parameter, but rc2
-will have more!)  
-  
+will have more!)
+
 Note that most of those parameters probably won't have immediate useful
 effect. For them to be useful, new networks have to be trained using those
-parameters.  
-  
+parameters.
+
 Also, all those parameters were added into RC2 in a bit of a hurry. It's very
 probable there will be RC3 with fixes for bugs that I just introduced. If you
 see a bug, please report!

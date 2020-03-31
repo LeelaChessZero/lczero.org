@@ -10,19 +10,18 @@ draft = true
 [ ![](../../images/2018-09-02-cccc-rounds-3-4-and-5-leela-with-
 gjgj98789798799999.png)](https://www.chess.com/computer-chess-championship)
 
-  
 CCCC rounds 3 and 4 and 5 were finished. Houdini is on the lead with 5.0/5
-while Leela is doing well with 4.0/5.  
-  
+while Leela is doing well with 4.0/5.
+
  **In round 3** Leela with black against Fizbo, reached a material imbalanced
 position but with her King exposed she couldn't avoid a perpetual check with a
 draw.  
 One of Leela's weak spots is that she is too weak in recognizing perpetual
 checks that lead to draw, but in this game this wasn't an issue since it
 didn't cost her anything because the position was draw anyway.  
-Xiphos with white also drew Stockfish.  
-  
-The game of Leela against Fizbo:  
+Xiphos with white also drew Stockfish.
+
+The game of Leela against Fizbo:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.01"] [Round "?"] [White "Fizbo 1.9"] [Black "Lc0 17.11089"] [Result
@@ -38,16 +37,13 @@ relatively drawish anyway.} Kxg7 30. Qg4+ Kh6 31. Qf4+ Kh7 32. Qf5+ Kh6 33.
 Qf4+ Kg6 34. Qg4+ Kf7 35. Qh5+ Kg7 36. Qg4+ Kh8 37. Qh5+ Kg8 38. Qg6+ Kh8 39.
 Qh6+ Kg8 40. Qg6+ Kh8 41. Qh6+ Kg8 42. Qg6+ 1/2-1/2
 
-  
-  
 **In round 4** Leela had a good moment in this tournament as she outplayed
 Ethereal in a French game providing a very nice win. Some of its moves were
 very spectacular attacking Chess of deep positional understanding.  
 Shredder had its first non win result also and Houdini again won with white
-against Gull so it had 4 points out of 4 games.  
-  
-  
-Leela-Ethereal game:  
+against Gull so it had 4 points out of 4 games.
+
+Leela-Ethereal game:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.01"] [Round "?"] [White "Lc0 17.11089"] [Black "Ethereal 10.88"]
@@ -134,13 +130,8 @@ Qxc8+ {[%eval 459,8] [%emt 0: 00:09] 45.99/8 9} Kb5 {[%eval -32759,127]} 70.
 Kd5 {[%eval 6807,4] [%emt 0:00: 11]} Kb4 {[%eval -31867,127] [%emt 0:00:00]}
 71. Qc4# 1-0
 
-  
-  
-You can view the nice analysis of that game by Kingscrusher here also:  
-  
+You can view the nice analysis of that game by Kingscrusher here also:
 
-  
-  
  **Round 5** had some nice games and started with another small
 surprise(actually in this big hardware draws are common even against Stockfish
 and an upset is only a loss of the big ones) of Andscacs with white holding
@@ -152,16 +143,15 @@ for very little compensation, this proved too bad, Ethereal kept the 2 Pawns
 for only minor initiative of Komodo, and gained the upper hand having a won
 -Rook plus 3 Pawns versus Knight plus 3 Pawns- endgame with both engines to
 show +4.00 scores. Yet, Ethereal under the time pressure couldn't find the
-winning path.  
-  
+winning path.
+
 Leela drew with black against Booot in a game with no real emotions, with a
 dry opening line after 12.Rxd6 where thereafter nothing could happen and
-nothing noticeable happened.  
-  
-Leela will now play at around **17:00 UTC.**  
-  
-  
-The Leela game:  
+nothing noticeable happened.
+
+Leela will now play at around **17:00 UTC.**
+
+The Leela game:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.02"] [Round "?"] [White "Booot 6.3.1"] [Black "Lc0 17.11089"] [Result
@@ -270,9 +260,7 @@ engine.} Ne5 { [%eval 27,15] [%emt 0:00:00]} 13. O-O {[%eval 0,41] [%emt
 07]} 100. Rc3+ {[%eval 0,57] [%emt 0:00:07]} Kd4 {[%eval 0,3] [%emt 0:00:01]}
 101. Rd3+ {3 fold repetition.} 1/2-1/2
 
-  
-  
-Ethereal-Komodo game:  
+Ethereal-Komodo game:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.02"] [Round "?"] [White "Ethereal 10.88"] [Black "Komodo 2118.00"]
@@ -422,10 +410,8 @@ Ra5 {[%eval 71,32] [%emt 0:00:07]} Ke6 {[%eval 0,47] [%emt 0:00:04]} 123. Kg2
 {[%eval 0,52] [%emt 0:00:12]} Ke5 { [%eval 0,51] [%emt 0:00:06]} 133. Re1+
 {[%eval 0,57] [%emt 0:00:08]} Kd6 1/2-1/2
 
-  
-  
-So after 5 rounds we have the following standings:  
-  
+So after 5 rounds we have the following standings:
+
 1 Houdini 5.0/5  
 2 Shredder 4.5/5  
 3 Stockfish 4.0/5  
@@ -449,11 +435,10 @@ So after 5 rounds we have the following standings:
 21 Ivanhoe 1.0/5  
 22 Senpai 1.0/5  
 23 Nirvana 1.0/5  
-24 Crafty 0.5/5  
-  
-  
-And next 2 rounds are:  
-  
+24 Crafty 0.5/5
+
+And next 2 rounds are:
+
 **ROUND 6**  
 61 Shredder vs Andscacs  
 62 Senpai vs Stockfish  
@@ -466,8 +451,8 @@ And next 2 rounds are:
 69 Crafty vs Ivanhoe  
 70 Houdini vs Ethereal  
 71 Fire vs Gull  
-72 Fritz vs Fizbo  
-  
+72 Fritz vs Fizbo
+
 **ROUND 7**  
 73 Andscacs vs Senpai  
 74 Pedone vs Shredder  

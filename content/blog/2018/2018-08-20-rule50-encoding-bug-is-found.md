@@ -8,27 +8,24 @@ draft = true
 +++
 
 We had numerous issues in network encoding in the past, and now after pretty
-long pause we found yet another one! :)  
-  
+long pause we found yet another one! :)
+
 Turns out, that information about 50-move-no-capture-and-pawn-move-counter was
 located in wrong place in training data, so networks were trained without that
-information.  
-  
+information.
+
 That bug existed since the first version of lc0.exe, but wasn't there in
 lczero.exe (v0.10). That may explain a slight Elo drop when we fully switched
-to lc0.exe (v0.16).  
-  
+to lc0.exe (v0.16).
+
 This bug will be fixed in upcoming **v0.17.0**.  
 It may however cause slight Elo drop in networks after that as it needs time
-to adapt.  
-  
-  
- **And for the curious, what the bug was,**  
-  
- **In the code:**  
+to adapt.
 
-    
-    
+ **And for the curious, what the bug was,**
+
+ **In the code:**
+
     struct V3TrainingData {  
       uint32_t version;  
       float probabilities[1858];  
@@ -41,14 +38,10 @@ to adapt.
       uint8_t move_count;  // Not used, always 0.  
       uint8_t rule50_count;  
       int8_t result;  
-    };  
-    
+    };
 
-  
- **Should be:**  
+ **Should be:**
 
-    
-    
     struct V3TrainingData {  
       uint32_t version;  
       float probabilities[1858];  
@@ -61,8 +54,6 @@ to adapt.
       uint8_t rule50_count;  
       uint8_t move_count;  // Not used, always 0.  
       int8_t result;  
-    };  
-    
+    };
 
-  
 Spot the difference!

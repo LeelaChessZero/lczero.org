@@ -27,40 +27,41 @@ it's not something trivial. Will take a more thorough look tomorrow.
 currently travelling, until Sunday. That means that updated information about
 the server is expected in the beginning of the next week.  
  **  
-**\--- original message ---  
-  
-As many of you heard, the training of Lc0 has been suspended yesterday.  
-  
-Here is a short summary what's happened.  
-  
+**\--- original message ---
+
+As many of you heard, the training of Lc0 has been suspended yesterday.
+
+Here is a short summary what's happened.
+
  **(context)**  
 In April 2018 when we were looking for a training server, one of our
 contributors kindly volunteered to help and provided 3 servers (with middle-
 class GPUs), together than a space to cost them and covering the electricity
-bills.  
-  
+bills.
+
 In May 2018 we croudfunded and bought another server (with two GTX 1080ti,
 which were high end consumer GPUs at that time), and located it at the same
 place. Since then it have been our training server.  
- **(/end of context)**  
-  
+ **(/end of context)**
+
 Yesterday, May 16 2019, our training server went offline (three other servers
 are online, but they are too weak to be useful), ~~and so far we have not been
-able to reach the person who hosts it~~.  
-  
+able to reach the person who hosts it~~.
+
 We don't know what happened to that machine (it's likely that just reboot
 would help, or maybe there's some part to replace, or maybe it's something
 more serious).  
  ~~We also don't know how long will it take to reach to the person who can
-take a look.~~  
-  
-  
+take a look.~~
+
  **FAQ**  
- **Q: Why not to move training to cloud service?**  
-  
- **A:** Several reasons:  
-  
+ **Q: Why not to move training to cloud service?**
+
+ **A:** Several reasons:
 
   1. We had our own server, and it was just fine.
-  2. It takes time to set up (so if we choose this option, or decide to buy a new machine and put to some other place, it will take up to a few days to bring it online).
-  3. It is expensive (at least $600/months a the configuration that we need), and we are trying to stay away from accounting.
+  2. It takes time to set up (so if we choose this option, or decide to buy a 
+new machine and put to some other place, it will take up to a few days to bring 
+it online).
+  3. It is expensive (at least $600/months a the configuration that we need), 
+and we are trying to stay away from accounting.

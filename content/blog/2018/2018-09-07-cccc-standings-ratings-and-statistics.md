@@ -9,16 +9,17 @@ draft = true
 
 Chess.com Computer World Championship continues with engines battling for the
 first 8 positions that would bring them to next stage.  
-Round 17 has been completed out of 46 that will be played.  
-  
-Here are some statistics from the games so far:  
-  
+Round 17 has been completed out of 46 that will be played.
+
+Here are some statistics from the games so far:
+
  _ **The crosstable of the engines.**_ Only the first 8 promote to the next
-round.  
-  
+round.
+
 | Player | Score  | (SB)  | H | S | K | L | S | B | F | A | X | E | F | T | P
 | V | A | G | F | I | W | L | N | S | C | N | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Houdini 6.03 | 14.0/17 | 110.00  | X | = | = | = | . | = | 1 | 1 | 1 | =
 | 1 | . | . | = | . | 1 | 1 | 1 | . | 1 | 1 | 1 | . | 1| (+11 -0 =6)  
 2: | Stockfish 220818 | 13.0/17 | 105.75  | = | X | = | = | = | 1 | = | = | =
@@ -66,14 +67,10 @@ X | = | 0 | = | . | 1 | . | . | 1 | = | 1 | 1 | = | 1 | 1| (+6 -4 =7)
 23: | Crafty 25.2 | 3.0 / 17 | 15.75  | . | 0 | 0 | = | 0 | 0 | . | . | 0 | 0
 | . | 0 | 0 | 0 | . | 0 | 0 | = | . | 0 | = | = | X | 1| (+1 -12 =4)  
 24: | Nirvana 2.4 | 2.0 / 17 | 12.00  | 0 | 0 | 0 | 0 | . | 0 | 0 | 0 | 0 | 0
-| 0 | . | . | 0 | 0 | = | = | . | = | . | . | = | 0 | X| (+0 -13 =4)  
-  
-  
- _ **The performance Elo of the engines so far:**_  
-  
+| 0 | . | . | 0 | 0 | = | = | . | = | . | . | = | 0 | X| (+0 -13 =4)
 
-    
-    
+ _ **The performance Elo of the engines so far:**_
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Houdini 6.03       472  147  127    17   82%   255   35%   
        2 Stockfish 220818   442  135  122    17   76%   264   47%   
@@ -98,88 +95,57 @@ X | = | 0 | = | . | 1 | . | . | 1 | = | 1 | 1 | = | 1 | 1| (+6 -4 =7)
       21 Nemorino 5.00      123  123  135    17   29%   255   35%   
       22 Senpai 2.0          87  125  142    17   21%   273   41%   
       23 Crafty 25.2         26  133  158    17   18%   250   24%   
-      24 Nirvana 2.4          0  139  172    17   12%   278   24%   
-    
+      24 Nirvana 2.4          0  139  172    17   12%   278   24% 
 
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
-because gull crashed, was 1-0 in favor of Lc0.  
-  
-  
+because gull crashed, was 1-0 in favor of Lc0.
+
 Score **Game length** **Frequency**  
 1-0 =-= 0-1 1-0 =-= 0-1  
-All games 54.4% 77 98 78 30.3% 48.0% 21.5%  
-  
-  
+All games 54.4% 77 98 78 30.3% 48.0% 21.5%
 
 [![](../../images/2018-09-07-cccc-standings-ratings-and-statistics-
-hkhjk8999.png)](https://4.bp.blogspot.com/-psMngBac5i0/W5GsPIV8u5I/AAAAAAAAARc/ZXWeXJV81Dw9Gb4J1bySRpctgDcaZYY8wCLcBGAs/s1600/hkhjk8999.png)
+hkhjk8999.png)](https://4.bp.blogspot.com/-psMngBac5i0/W5GsPIV8u5I/AAAAAAAAARc/Z
+XWeXJV81Dw9Gb4J1bySRpctgDcaZYY8wCLcBGAs/s1600/hkhjk8999.png)
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-**  
-  
-  
-  
+**
+
 Shortest wins (White)**  
 1-0(35) Pedone 1.8 3090 - Crafty 25.2 3283  
 1-0(36) Fire 7.1 3326 - Nirvana 2.4 3090  
 1-0(39) Arasan CCCC-2018 3123 - Nirvana 2.4 3090  
 1-0(42) Lc0 17.11089 3300 - Nirvana 2.4 3090  
-1-0(49) Stockfish 220818 3439 - Crafty 25.2 3276  
-  
-  
+1-0(49) Stockfish 220818 3439 - Crafty 25.2 3276
+
 **Shortest wins (Black)**  
 0-1(38) Nirvana 2.4 3186 - Booot 6.3.1 3013  
 0-1(40) Laser 1.6 3226 - Komodo 2118.00 3226  
 0-1(43) Nemorino 5.00 3099 - Booot 6.3.1 3123  
 0-1(46) Nirvana 2.4 3186 - Komodo 2118.00 3115  
-0-1(50) Nemorino 5.00 3099 - Fire 7.1 3259  
-  
-  
+0-1(50) Nemorino 5.00 3099 - Fire 7.1 3259
+
 **Longest games**  
 1/2-1/2(301) Shredder 13 - Fizbo 1.9 301 moves  
 1/2-1/2(237) Lc0 17.11089 - Fire 7.1 237 moves  
-1/2-1/2(225) Crafty 25.2 - Lc0 17.11089 225 moves  
-  
-  
+1/2-1/2(225) Crafty 25.2 - Lc0 17.11089 225 moves
+
 **Shortest games**  
 1/2-1/2(12) Nirvana 2.4 - Senpai 2.0 12 moves  
 1/2-1/2(26) Booot 6.3.1 - Arasan CCCC-2018 26 moves  
-1/2-1/2(30) Ivanhoe 999946h - Fire 7.1 30 moves  
-  
-  
-  
-  
+1/2-1/2(30) Ivanhoe 999946h - Fire 7.1 30 moves
+
  **Move Frequency Score Draw**  
 1: e4 112: 54.9% 50.4% 46%  
 2: d4 76: 37.2% 60.5% 50%  
-3: Nf3 16: 7.8% 53.1% 56%  
-  
-  
-Opening ECO classification :  
-  
+3: Nf3 16: 7.8% 53.1% 56%
+
+Opening ECO classification :
 
 [![](../../images/2018-09-07-cccc-standings-ratings-and-statistics-
-fdfhd868.png)](https://4.bp.blogspot.com/-AulM3qgDvwo/W5Gs2iXySBI/AAAAAAAAARk/eRfM0YFJAjMS-4iHVTPGPKeGETnkRFqrgCLcBGAs/s1600/fdfhd868.png)
-
-  
-  
+fdfhd868.png)](https://4.bp.blogspot.com/-AulM3qgDvwo/W5Gs2iXySBI/AAAAAAAAARk/eR
+fM0YFJAjMS-4iHVTPGPKeGETnkRFqrgCLcBGAs/s1600/fdfhd868.png)
 
 [![](../../images/2018-09-07-cccc-standings-ratings-and-statistics-
-tyutu8768.png)](https://4.bp.blogspot.com/-SfTQY88uXjQ/W5GtCgBabaI/AAAAAAAAARo/HN2Gj0neHKoHyZ41JmcrJJHvERAzn99PgCLcBGAs/s1600/tyutu8768.png)
+tyutu8768.png)](https://4.bp.blogspot.com/-SfTQY88uXjQ/W5GtCgBabaI/AAAAAAAAARo/H
+N2Gj0neHKoHyZ41JmcrJJHvERAzn99PgCLcBGAs/s1600/tyutu8768.png)

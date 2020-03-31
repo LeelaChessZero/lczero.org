@@ -8,16 +8,15 @@ draft = true
 +++
 
 [![](../../images/2018-09-26-cccc-stage-2-ended-leela-4th-with-good-
-gjhgj786867645.png)](https://3.bp.blogspot.com/-_QuwXzJzT7I/W6tGVFs18ZI/AAAAAAAAAVQ/UUZY7JT7wVUEqFAt1id4N_n2f95n0J32gCLcBGAs/s1600/gjhgj786867645.png)
+gjhgj786867645.png)](https://3.bp.blogspot.com/-_QuwXzJzT7I/W6tGVFs18ZI/AAAAAAAA
+AVQ/UUZY7JT7wVUEqFAt1id4N_n2f95n0J32gCLcBGAs/s1600/gjhgj786867645.png)
 
-  
 Chess.com Computer Chess Championship stage 2 has finally ended. After a 280
 games battle only the top 2 engines will continue to the superfinal.  
  **Stockfish and Houdini** for a **200** games "fight". Well no one really
 expects it would be a fight and Stockfish will probably win this by a huge
-margin.  
-  
-  
+margin.
+
  **Leela** finished 4th, with 37.5 points, in a strong position where it was
 very close just 1 point short to the 3rd Komodo and a comfortable 6.5 points
 ahead of the 5th Ethereal. Fire was 6th with 29 points and Booot and Andscacs
@@ -29,26 +28,23 @@ So till now **Stockfish** has not lose a single game out of the 116 of stage 1
 and 2. Let's see if it will lose in the 200 games of the superfinal. Logic
 says it will but Stockfish on CCCC hardware appears to be invincible! Even
 though it should definitely had lost one game against Leela since they reached
-a dead-won endgame position.  
-  
-  
+a dead-won endgame position.
+
 Leela managed against the big 3 to have a fantastic score in this tournament
 of **2 wins, 3 losses and 31 draws!!** While against Stockfish she was the
 only engine in this tournament that lost just 1 time as it had 1 loss and 11
-draws against the mighty Stockfish.  
-  
+draws against the mighty Stockfish.
+
 In stage 2 there were also some really dubious predefined opening lines, like
 one that Leela had to deal with in 2 games against Ethereal(the lines always
 had been played on reverse too so for a specific pair of engines would not be
 unfair) the 1.e4 Nf6 2.e5 Ne4? line where Leela won with white while she lost
 with black. Other 2 such dubious lines had been played but Leela did not have
-any of the other.  
-  
+any of the other.
+
 From the 280 played games, **white** won the **80(28.6%)** , **black** only
-the **23(8%)** and **177(63%)** ended in a **draw**.  
-  
-  
-  
+the **23(8%)** and **177(63%)** ended in a **draw**.
+
 Other than that Leela performed very good in this tournament showing it
 belongs to top 5, perhaps even top 4 engines and very close to top 3 now, of
 the Chess engine world right now, and showed in head to head performance
@@ -56,8 +52,8 @@ against the big 3 it's already among them. The problem lies when it comes to
 play weaker engines where she does not succeed to have such good results as
 the other big 3 have.  
 This was even more evident in stage 1 where she finished behind Fire, while
-here she left Fire, 8.5 full point behind!  
-  
+here she left Fire, 8.5 full point behind!
+
 So she definitely has a specific problem of underperformance when playing in a
 pool of weaker engines. This issue must be because of the general Chess
 related problem of Leela to convert an advantage that usually gets in
@@ -84,8 +80,8 @@ giving very high evaluations even on drawing positions.
 Leela definitely needs more endgame training with other methods like using
 endgame tablebases and definitely seeing more endgames in her training and
 currently test-30 is about that, experimenting with different schemes to help
-her in the endgame.  
-  
+her in the endgame.
+
 _**  
 ****LEELA'S MISTAKES.**_  
 This Leela net(11089) in this tournament would have won at least 3 games if
@@ -156,10 +152,8 @@ Leela also badly misplayed a game with black against Booot, after outplaying
 it in middlegame they reached a favorable endgame position for Leela, only to
 blunder it because she acquired a Pawn in 2nd rank that thought it was
 winning(giving super high bogus evals of -10.0 or so) only to realize inside
-the game that it was a dead draw by perpetual.  
-  
-  
-  
+the game that it was a dead draw by perpetual.
+
  _ **Final stage 2 standings:**_  
 | Player | Score  | (Tie)  | Stockfish  | Houdini 6. | Komodo 211 | Lc0 17.110
 | Ethereal 1 | Fire 7.1  | Booot 6.3. | Andscacs 0 | +/-/=  
@@ -185,14 +179,10 @@ XXXXXXXXXX | ======0=01 | 1====1===1 | 1==101==== | 1==1==1==1 | 1==1=1=1==|
 | 00====0=== | ======0=== | ===0=0=0== | XXXXXXXXXX | ====1=====| (+1 -20 =49)  
 8: | Andscacs 0.94 | 24.5 / 70 | 842.50  | 00=00000== | 0=0=0===0= |
 0==0=0=0== | 01====010= | 0=0=01=00= | =====1=0== | ====0===== | XXXXXXXXXX|
-(+4 -25 =41)  
-  
-  
-  
- _ **Stage 2 ratings:**_  
+(+4 -25 =41)
 
-    
-    
+ _ **Stage 2 ratings:**_
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   198   58   55    70   73%    61   54%   
        2 Houdini 6.03       133   55   54    70   61%    70   60%   
@@ -201,27 +191,20 @@ XXXXXXXXXX | ======0=01 | 1====1===1 | 1==101==== | 1==1==1==1 | 1==1=1=1==|
        5 Ethereal 10.88      50   53   53    70   44%    82   66%   
        6 Fire 7.1            34   54   55    70   41%    84   60%   
        7 Booot 6.3.1         11   52   54    70   36%    88   70%   
-       8 Andscacs 0.94        0   54   56    70   35%    89   59%   
-    
+       8 Andscacs 0.94        0   54   56    70   35%    89   59% 
 
-  
-  
-  
-  
-  
 **Shortest wins (White)**  
 1: 1-0(52) Lc0 17.11089 3300 - Andscacs 0.94 3404  
 2: 1-0(53) Ethereal 10.88 3283 - Lc0 17.11089 3276  
 3: 1-0(56) Stockfish 220818 3439 - Fire 7.1 3283  
-4: 1-0(56) Komodo 2118.00 3404 - Fire 7.1 3300  
-  
+4: 1-0(56) Komodo 2118.00 3404 - Fire 7.1 3300
+
  **Shortest wins (Black)**  
 1: 0-1(58) Ethereal 10.88 3283 - Komodo 2118.00 3400  
 2: 0-1(59) Andscacs 0.94 3244 - Stockfish 220818 3300,  
 3: 0-1(64) Fire 7.1 3326 - Stockfish 220818 3283  
-4: 0-1(67) Andscacs 0.94 3244 - Stockfish 220818 3300  
-  
-  
+4: 0-1(67) Andscacs 0.94 3244 - Stockfish 220818 3300
+
 The games of Leela to download in a PGN: [Leela
 PGN](https://georgemj23.000webhostapp.com/LeelaStage2.pgn)  
 And all stage 2 games in a PGN: [CCCC Stage 2

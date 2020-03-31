@@ -7,24 +7,23 @@ tags = []
 draft = true
 +++
 
-v0.18.0 is out of "release candidate" status, and now is fully released!  
-  
+v0.18.0 is out of "release candidate" status, and now is fully released!
+
 Can be downloaded
-[here](https://github.com/LeelaChessZero/lc0/releases/tag/v0.18.0).  
-  
+[here](https://github.com/LeelaChessZero/lc0/releases/tag/v0.18.0).
+
 It has no changes relative to RC2. For the list of differences relative to
 v0.17, see posts for
-[v0.18.0-rc1](http://blog.lczero.org/2018/09/lc0-v0180-rc1-has-been-
+[v0.18.0-rc1](../../../2018/09/lc0-v0180-rc1-has-been-
 released.html) and
-[v0.18.0-rc2](http://blog.lczero.org/2018/09/lc0-v0180-rc2-has-been-
-released.html).  
-  
+[v0.18.0-rc2](../../../2018/09/lc0-v0180-rc2-has-been-
+released.html).
+
 For people contributing training games, there's no need to rush to upgrade,
-it's fine to use v0.17.  
-  
-  
+it's fine to use v0.17.
+
 There is a small known issue with time management. The version v0.18.0 times
-out sometimes when **all** of the following is true:  
+out sometimes when **all** of the following is true:
 
   * Ponder is ON
   * Time is added every X moves (e.g. every 40)

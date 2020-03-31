@@ -14,18 +14,17 @@ gjgj98789798799999.png)](https://www.chess.com/computer-chess-championship)
 **After another 3 rounds have completed and we reached round 16 of 46 that
 would be played, Houdini continues its comfortable lead being 1 full point
 ahead of the second. Leela had a nice win against Fritz but didn't manage to
-win against the weakest engine of the tournament Crafty! **  
-  
-  
-ROUND 14**  
-  
+win against the weakest engine of the tournament Crafty! **
+
+ROUND 14**
+
 The round of draws. Out of 12 games, the 10 were drawn and only 2 were
 decided.  
 Leela was one of them by winning against Fritz. A nice game where in late
 middlegame she outplayed Fritz creating a strong Kingside attack step by step,
 with Fritz making not optimal moves and losing tempos for Leela to obtain a
-Kingside attack.  
-  
+Kingside attack.
+
 Another clash of titans with Houdini-Komodo game where in a Ruy Lopez, after
 all Bishops were traded already in the opening, it got an interesting position
 with black to have a pressure with double Rooks on the Kingside but white was
@@ -34,8 +33,8 @@ draw. Not that quickly over the board of course, since even though after move
 68 it was a dead draw for these engines, they were forced to play till
 insufficient material till move 135.  
 Shredder while in first 6 games with white had 6 wins, it now dropped another
-half point with white by drawing with Booot.  
-  
+half point with white by drawing with Booot.
+
 157 Ivanhoe vs Andscacs 1/2-1/2  
 158 Houdini vs Komodo 1/2-1/2  
 159 Laser vs Gull 1/2-1/2  
@@ -47,9 +46,9 @@ half point with white by drawing with Booot.
 165 Shredder vs Booot 1/2-1/2  
 166 Arasan vs Stockfish 1/2-1/2  
 167 Texel vs Xiphos 1/2-1/2  
-168 Wasp vs Vajolet 1/2-1/2  
-  
-Analysis of the Leela-Fritz very nice game:  
+168 Wasp vs Vajolet 1/2-1/2
+
+Analysis of the Leela-Fritz very nice game:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.05"] [Round "?"] [White "Fritz 16.10"] [Black "Lc0 17.11089"] [Result
@@ -169,20 +168,14 @@ Qg4+ {[%eval 4952,6] [%emt 0:00:04]} 82. Kf8 {[%eval -32761,62] [%emt
 0:00:00]} Ra7 {[%eval 8339,5] [%emt 0:00:03]} 83. Ke8 {[%eval -32761,62] [%emt
 0:00:00]} Qg8# 0-1
 
-  
-  
-  
-You can watch the nice analysis of Leela Fritz game by Kingscrusher here:  
-  
+You can watch the nice analysis of Leela Fritz game by Kingscrusher here:
 
-  
-  
  **ROUND 15**  
 Houdini that was leading went to a nice win over Andscacs with black, totally
 outplaying Andscacs in the middlegame.  
 Komodo didn't managed to win against the good defense of Fritz that till now
-only lost to Stockfish and Leela.  
-  
+only lost to Stockfish and Leela.
+
 Leela also got a draw with white pieces in the game against Fire. The game
 didn't have any real good moments, Leela tried to achieve something in the
 opening but Fire was always under control. Leela gave the exchange giving her
@@ -193,8 +186,8 @@ really able to resolve the perpetual draw. This is a weakness of her MCTS
 variation(puct) that uses to search, while AlphaBeta engines do not have any
 problems. And while it was the 3rd time in 15 games where Leela gets a draw
 from perpetual, once again it didn't matter at all and Leela did not lose any
-points because of that since game was drawn anyway.  
-  
+points because of that since game was drawn anyway.
+
 169 Andscacs vs Houdini 0-1  
 170 Gull vs Ivanhoe 1-0  
 171 Komodo vs Fritz 1/2-1/2  
@@ -206,9 +199,7 @@ points because of that since game was drawn anyway.
 177 Senpai vs Arasan 1/2-1/2  
 178 Xiphos vs Shredder 1/2-1/2  
 179 Stockfish vs Wasp 1-0  
-180 Vajolet vs Texel 1/2-1/2  
-  
-  
+180 Vajolet vs Texel 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.05"] [Round "?"] [White "Lc0 17.11089"] [Black "Fire 7.1"] [Result
@@ -462,10 +453,8 @@ now.} 33. Bf1 {[%eval 78,27] [%emt 0:00:00]} g5 {[%eval 0, 31] [%emt 0:00:15]}
 [%eval 1,4] [%emt 0:00:04]} Qc1+ {[%eval 0,49] [%emt 0:00:00]} 237. Kb3
 1/2-1/2
 
-  
-  
-**ROUND 16**  
-  
+**ROUND 16**
+
 This round Houdini continued winning and maintaining the lead, by having a win
 against Fritz that now have left its undefeated days behind.  
 Komodo with black won a difficult and long game against Fire. Komodo in 137th
@@ -474,16 +463,15 @@ their Queens. Around move 180 Komodo had to deal with the 2 ready to promote
 Pawns of Fire and the never-ending checks of the Queen, always careful not to
 lose its only Pawn also. Normally this would be a draw but in this case after
 a long struggle Komodo won. Fire blundered though, but to save the position it
-had to find an underpromotion to a Knight that it didn't!  
-  
+had to find an underpromotion to a Knight that it didn't!
+
 Leela had a big disappointment in this round by not being able to win against
 Crafty, the weakest program so far in this tournament along with Nirvana. It
 outplayed Crafty in late middlegame and got a favorable position, in the
 endgame it even had a winning position but missed in several chances the
 chance to win so they went into a Bishop plus 2 Pawns for Leela versus Bishop
-plus 1 Pawn for Crafty but because of the position it was draw.  
-  
-  
+plus 1 Pawn for Crafty but because of the position it was draw.
+
 181 Gull vs Andscacs 0-1  
 182 Fritz vs Houdini 0-1  
 183 Ivanhoe vs Fizbo 1/2-1/2  
@@ -495,9 +483,7 @@ plus 1 Pawn for Crafty but because of the position it was draw.
 189 Pedone vs Xiphos  
 190 Wasp vs Senpai  
 191 Shredder vs Vajolet  
-192 Texel vs Stockfish  
-  
-  
+192 Texel vs Stockfish
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.06"] [Round "?"] [White "Crafty 25.2"] [Black "Lc0 17.11089"] [Result
@@ -746,10 +732,8 @@ Ka4 {[%eval 3,4] [%emt 0:00:05]} 195. Bf6 {[%eval 0,124] [%emt 0:00:00]} Kb5 {
 0:00:05]} 224. Bc7 { [%eval 0,124] [%emt 0:00:00]} Kb5 {[%eval 0,4] [%emt
 0:00:04]} 225. Bd6 { [%eval 1,1] [%emt 0:00:00]} Kc4 1/2-1/2
 
-  
-  
 The Fire-Komodo game where Fire could have drawn with an excellent
-underpromotion to a Knight move!  
+underpromotion to a Knight move!
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.06"] [Round "?"] [White "Fire 7.1"] [Black "Komodo 2118.00"] [Result
@@ -984,9 +968,6 @@ Qh6+ {[%eval -9992,33] [%emt 0:00:00]} Kd3 {[%eval 25000,22] [%emt 0:00: 00]}
 {[%eval 32764,72] [%emt 0:00:02]} 222. c7 {[%eval -9998,49] [%emt 0:00:00]}
 Qb5# 0-1
 
-  
-  
-  
 _Standings so far:_  
 1 Houdini 13.0/16  
 2 Komodo 12.0/16  
@@ -1011,13 +992,10 @@ _Standings so far:_
 21 Wasp 4.5/15  
 22 Senpai 3.5/15  
 23 Crafty 3.0/16  
-24 Nirvana 1.5/16  
-  
-  
-Performance ratings so far:  
+24 Nirvana 1.5/16
 
-    
-    
+Performance ratings so far:
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Houdini 6.03       469  148  128    16   81%   263   38%   
        2 Stockfish 220818   450  143  129    15   77%   269   47%   
@@ -1042,14 +1020,13 @@ Performance ratings so far:
       21 Nemorino 5.00      145  125  136    16   31%   265   38%   
       22 Senpai 2.0         127  129  144    15   23%   293   47%   
       23 Crafty 25.2         45  133  158    16   19%   252   25%   
-      24 Nirvana 2.4          0  147  189    16    9%   297   19%   
-    
+      24 Nirvana 2.4          0  147  189    16    9%   297   19% 
 
-  
-*Assuming Leela-Gull a draw. Since it was adjudicated because Gull crashed as 1-0.  
-  
-Leela now plays with Arasan and she has white.  
-  
+*Assuming Leela-Gull a draw. Since it was adjudicated because Gull crashed as 
+1-0.
+
+Leela now plays with Arasan and she has white.
+
  **ROUND 17**  
 193 Andscacs vs Fritz  
 194 Fizbo vs Gull  
@@ -1062,8 +1039,8 @@ Leela now plays with Arasan and she has white.
 201 Nirvana vs Wasp  
 202 Vajolet vs Pedone  
 203 Senpai vs Texel  
-204 Stockfish vs Shredder  
-  
+204 Stockfish vs Shredder
+
  **ROUND 18**  
 205 Fizbo vs Andscacs  
 206 Fire vs Fritz  

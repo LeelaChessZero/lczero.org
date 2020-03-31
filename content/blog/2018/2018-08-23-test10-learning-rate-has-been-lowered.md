@@ -8,15 +8,15 @@ draft = true
 +++
 
 The learning rate for the **test10** training run has been lowered to 0.0002.
-Network id 11013 will be the first network trained with the new LR.  
-  
+Network id 11013 will be the first network trained with the new LR.
+
 This is the last time we lower it for test10 to squeeze some more Elo out of
-it. It's expected that the result will be visible within a day or two.  
-  
+it. It's expected that the result will be visible within a day or two.
+
 The test10 will probably stay for some weeks, and after that the plan is to do
-a reset and to start a **main2** run from scratch again.  
-  
-What will change after restart:  
+a reset and to start a **main2** run from scratch again.
+
+What will change after restart:
 
   * int8 quantization during training  
 That's how DeepMind did it. This will produce networks compatible with
@@ -35,4 +35,6 @@ As I wrote in a few previous blog posts, it turns out that information about
   * Value of Cpuct constant will be increased during training.  
 That may allow Leela to better see tactics.
 
-  * It's possible that we'll train multiple network sizes in parallel, but recently training was really back to back, we are not sure there will be capacity even for two networks.
+  * It's possible that we'll train multiple network sizes in parallel, but 
+recently training was really back to back, we are not sure there will be 
+capacity even for two networks.

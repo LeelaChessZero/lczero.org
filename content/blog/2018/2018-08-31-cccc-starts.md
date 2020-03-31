@@ -8,8 +8,8 @@ draft = true
 +++
 
 [Chess.com Computer Chess Championship](http://www.chess.com/computer-chess-
-championship) starts today.  
-  
+championship) starts today.
+
 24 engines will participate playing all against all twice, in a double Round
 Robin tournament with 15 minutes for each player for the game plus 5 seconds
 per move increment and pondering(thinking in opponent's time) on. There will
@@ -17,34 +17,31 @@ be no opening books usage for the 1st round. Every engine will calculate all
 the moves by itself.  
 Leela will play on four Tesla V100 GPUs while the other engines on 46 threads
 of a 2 x Intel Xeon Platinum 8168, 2.70 GHz that has 48 logical cores and 96
-threads.  
-  
+threads.
+
 The hardware is very fast, the engines belong to the top ones so the level of
 play will be amazing.  
 Every engine will play 46 games so there would be 46 rounds.  
 After all games are completed, the first **8** of the 24 engines will advance
-to round 2.  
-  
-  
-  
+to round 2.
+
 [![](../../images/2018-08-31-cccc-starts-
-ffh67678845.png)](https://1.bp.blogspot.com/-4tg6-VYnVCQ/W4llmUJqnhI/AAAAAAAAAPs/oW8RHXP40tsjYpOl13f3BRGM2oDj6uETgCLcBGAs/s1600/ffh67678845.png)Leela
+ffh67678845.png)](https://1.bp.blogspot.com/-4tg6-VYnVCQ/W4llmUJqnhI/AAAAAAAAAPs
+/oW8RHXP40tsjYpOl13f3BRGM2oDj6uETgCLcBGAs/s1600/ffh67678845.png)Leela
 will compete with Lc0 cuda version, with **11089** net and with no tablebases
-usage.  
-  
+usage.
+
 The first game will start at 17:00 UTC and Leela's first game will be around
 September 1st, 00:00 UTC.  
 After that she should play around 08:00 UTC and around 16:00 UTC. This should
-keep for most games but not all.  
-  
+keep for most games but not all.
+
 Leela follows Nirvana's schedule so with every opponent Nirvana is playing in
 a round, in the next one Leela will play that opponent. Except when Leela and
-Nirvana meet.  
-  
-  
-  
-The schedule of the first 3 rounds is:  
-  
+Nirvana meet.
+
+The schedule of the first 3 rounds is:
+
  **_ROUND 1_**  
 1 Andscacs vs Xiphos  
 2 Wasp vs Arasan  
@@ -57,8 +54,8 @@ The schedule of the first 3 rounds is:
 9 Gull vs Nirvana  
 10 Nemorino vs Houdini  
 11 Ivanhoe vs **Lco**  
-12 Laser vs Komodo  
-  
+12 Laser vs Komodo
+
  ****_**ROUND 2**_  
 13 Wasp vs Andscacs  
 14 Vajolet vs Xiphos  
@@ -71,8 +68,8 @@ The schedule of the first 3 rounds is:
 21 Fritz vs Nemorino  
 22 **Lco** vs Gull  
 23 Houdini vs Laser  
-24 Komodo vs Ivanhoe  
-  
+24 Komodo vs Ivanhoe
+
 _**ROUND 3**_  
 25 Andscacs vs Vajolet  
 26 Texel vs Wasp  
@@ -85,13 +82,11 @@ _**ROUND 3**_
 33 Fizbo vs **Lco**  
 34 Laser vs Fritz  
 35 Gull vs Komodo  
-36 Ivanhoe vs Houdini  
-  
-  
+36 Ivanhoe vs Houdini
+
 Yesterday there were some test games on CCCC and Leela had a rather good
 performance without losing games against Xiphos, Texel, Wasp and Crafty. Here
-is one of the games against Wasp which was impressive:  
-  
+is one of the games against Wasp which was impressive:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Testing"] [Site "Chess.com"] [Date
 "2018.08.30"] [Round "?"] [White "Lc0 17.11089"] [Black "Wasp 3.25"] [Result

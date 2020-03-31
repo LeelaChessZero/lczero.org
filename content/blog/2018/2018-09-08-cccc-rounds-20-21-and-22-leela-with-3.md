@@ -11,8 +11,6 @@ draft = true
 with-3-gjgj98789798799999.png)](https://www.chess.com/computer-chess-
 championship)
 
-  
-  
 As it seems 6 engines will fight hard for 5 places that lead to next stage
 provided that Stockfish, Houdini and Komodo will have no problems to get the 3
 top places.  
@@ -20,30 +18,29 @@ Leela, Shredder, Fire, Andscacs, Ethereal and Boot will fight for the other 5.
 Booot actually came out of nowhere to fight for getting in the top 8 and right
 now seems the outsider even though it has a good performance thus far. Leela
 and Shredder seem a bit safe right now but with 23 more rounds remaining
-everything is possible.  
-  
+everything is possible.
+
 After Komodo beat Shredder in round 21, now the only undefeated engines are
-Stockfish, Komodo, Houdini and Leela.  
-  
-  
+Stockfish, Komodo, Houdini and Leela.
+
  **ROUND 20**  
 This round had Ethereal beating Andscacs and now it took its place on the 8th
 place where it gives the promotion.  
 Wasp after drawing Leela, managed to get a draw with white from Houdini also.
-Laser also with white drew its mighty opponent Stockfish also.  
-  
+Laser also with white drew its mighty opponent Stockfish also.
+
 While Leela having black played with Shredder a sharp Sicilian Najdorf
 variation with opposite castles, Leela gave the exchange giving her Rook for a
 Bishop trying to attack but the defense of Shredder was spectacular and there
 was no way for Leela to continue the attack. But the exposed white King gave
 no way to Shredder to try for an advantage due to being an exchange up so game
-ended with 50 move rule shuffling.  
-  
+ended with 50 move rule shuffling.
+
 In the meantime, Gull had a draw with Xiphos after just just 12 moves by 3
 fold repetition. The same happened with Nirvana versus Senpai in the 8th round
 where they also had a draw after 12 moves by 3 fold repetition. But even more
-curious is that the 2 games are identical!!  
-  
+curious is that the 2 games are identical!!
+
 229 Ethereal vs Andscacs 1-0  
 230 Crafty vs Fire 0-1  
 231 Fizbo vs Booot 1/2-1/2  
@@ -55,9 +52,7 @@ curious is that the 2 games are identical!!
 237 Laser vs Stockfish 1/2-1/2  
 238 Shredder vs Lco 1/2-1/2  
 239 Nemorino vs Senpai 1-0  
-240 Pedone vs Nirvana 1-0  
-  
-  
+240 Pedone vs Nirvana 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.07"] [Round "?"] [White "Shredder 13"] [Black "Lc0 17.11089"] [Result
@@ -205,23 +200,18 @@ This Knight is huge there.} 64. Kh1 { [%eval 0,41] [%emt 0:00:03]} Bf8 {[%eval
 0:00:04]} 110. Qf3 { [%eval 0,55] [%emt 0:00:01]} Qb6 {[%eval 1,4] [%emt
 0:00:04]} 111. Bb7 { [%eval 0,46] [%emt 0:00:06]} Qa7 1/2-1/2
 
-  
-  
-  
-  
 **ROUND 21**  
 Komodo beat Shredder and now Shredder is at 4th place along with Leela and
 Leela along with the top 3 are the only undefeated engines left.  
 Ethereal and Booot on the fight for top 8 had a draw between each other so
-nothing changed. But Andscacs with its win got closer to them by half point.  
-  
+nothing changed. But Andscacs with its win got closer to them by half point.
+
 Leela on the other hand while her opening wasn't that successful she outplayed
 Pedone and reached a won endgame. It wasn't that trivial though and required
 some technique to win. Leela didn't manage to do it so result was draw. This
 is the second, after Crafty, won endgame for Leela that didn't manage to
-convert and take the full point.  
-  
-  
+convert and take the full point.
+
 241 Andscacs vs Crafty 1-0  
 242 Booot vs Ethereal 1/2-1/2  
 243 Fire vs Arasan 1-0  
@@ -233,8 +223,7 @@ convert and take the full point.
 249 Komodo vs Shredder 1-0  
 250 Senpai vs Laser 0-1  
 251 Lco vs Pedone 1/2-1/2  
-252 Nirvana vs Nemorino 0-1  
-  
+252 Nirvana vs Nemorino 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.07"] [Round "?"] [White "Lc0 17.11089"] [Black "Pedone 1.8"] [Result
@@ -486,8 +475,6 @@ Ra7 { [%eval 78,9] [%emt 0:00:05]} Re1 {[%eval 0,100] [%emt 0:00:02]} 208. Bd4
 [%eval 1,4] [%emt 0:00:04]} Rc6+ {[%eval 0,100] [%emt 0:00:01]} 212. Kd7
 1/2-1/2
 
-  
-  
 **ROUND 22**  
 Shredder had another big opponent, the third in a row, Houdini this time. In
 another French Tarrasch in this tournament, many simplifications happened in
@@ -495,12 +482,12 @@ the opening and middlegame didn't have anything to offer. They quickly agreed
 to a draw.  
 Booot and Andscacs for the battle of 8th place were matched, and the result
 was a draw. Ethereal took advantage of it and won Xiphos so it's now again 1
-full point ahead of the 9th Andscacs.  
-  
+full point ahead of the 9th Andscacs.
+
 Fizbo drew Vajolet and it is now the 9th consecutive draw of Fizbo!
 Furthermore Fizbo is right now on 1 win, 4 losses and 17 draws!! A real
-drawmaster on this tournament till now.  
-  
+drawmaster on this tournament till now.
+
 Leela had another draw, this time having black against Nemorino where in a
 Nimzo-Indian managed to equilize and even to be a little better, but didn't
 manage to find something useful in the resulted position. The lack of central
@@ -508,9 +495,8 @@ Pawns and lack of Pawn complexity in a game with open center does not fit
 Leela at all.  
 Even though after 22 rounds she is still undefeated like the top big 3, but
 has some problems to win against weaker engines in the consistent way the big
-3 are doing it.  
-  
-  
+3 are doing it.
+
 253 Booot vs Andscacs 1/2-1/2  
 254 Arasan vs Crafty 1-0  
 255 Ethereal vs Xiphos 1-0  
@@ -522,9 +508,7 @@ has some problems to win against weaker engines in the consistent way the big
 261 Ivanhoe vs Senpai 0-1  
 262 Pedone vs Komodo 0-1  
 263 Laser vs Nirvana 1-0  
-264 Nemorino vs Lco 1/2-1/2  
-  
-  
+264 Nemorino vs Lco 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.08"] [Round "?"] [White "Nemorino 5.00"] [Black "Lc0 17.11089"]
@@ -679,13 +663,12 @@ Kd2 { [%eval 0,29] [%emt 0:00:00]} Re4 {[%eval 32,17] [%emt 0:00:11]} 53. Nc3
 0:00:00]} Ke2 { [%eval 2,4] [%emt 0:00:04]} 146. Kb1 {[%eval 0,63] [%emt
 0:00:00]} f1=B 1/2-1/2
 
-  
-  
-_**Standings after round 22 of 46.**_ First 8 go to next stage.  
-  
+_**Standings after round 22 of 46.**_ First 8 go to next stage.
+
 | Player | Score  | (SB)  | H | K | S | L | S | F | B | E | A | F | X | P | T
 | V | F | A | G | L | N | I | W | S | C | N | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Houdini 6.03 | 18.0/22 | 179.25  | X | = | = | = | = | 1 | = | = | 1 | 1
 | 1 | . | 1 | = | 1 | 1 | 1 | 1 | 1 | 1 | = | 1 | 1 | 1| (+14 -0 =8)  
 2: | Komodo 2118.00 | 17.5/22 | 179.00  | = | X | = | = | 1 | 1 | 1 | = | = |
@@ -733,14 +716,10 @@ _**Standings after round 22 of 46.**_ First 8 go to next stage.
 23: | Crafty 25.2 | 3.0 / 22 | 20.25  | 0 | 0 | 0 | = | 0 | 0 | 0 | 0 | 0 | 0
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | = | = | . | = | X | 1| (+1 -17 =4)  
 24: | Nirvana 2.4 | 2.0 / 22 | 15.25  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-| 0 | 0 | 0 | 0 | = | 0 | = | 0 | 0 | . | = | = | 0 | X| (+0 -18 =4)  
-  
-  
-  
- _ **Rating performance so far after round 22:**_  
+| 0 | 0 | 0 | 0 | = | 0 | = | 0 | 0 | . | = | = | 0 | X| (+0 -18 =4)
 
-    
-    
+ _ **Rating performance so far after round 22:**_
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Houdini 6.03       516  130  114    22   82%   293   36%   
        2 Stockfish 220818   502  126  112    22   80%   295   41%   
@@ -765,18 +744,14 @@ _**Standings after round 22 of 46.**_ First 8 go to next stage.
       21 Nemorino 5.00      220  111  117    22   39%   297   32%   
       22 Senpai 2.0         111  117  133    22   20%   312   32%   
       23 Crafty 25.2         44  126  155    22   14%   317   18%   
-      24 Nirvana 2.4          0  132  169    22    9%   319   18%   
-    
+      24 Nirvana 2.4          0  132  169    22    9%   319   18% 
 
-  
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
-because Gull crashed, was 1-0 in favor of Lc0.  
-  
-  
-  
-Next 2 rounds:  
-  
+because Gull crashed, was 1-0 in favor of Lc0.
+
+Next 2 rounds:
+
  **ROUND 23 (Half of the Tournament)**  
 265 Andscacs vs Arasan 1-0  
 266 Xiphos vs Booot 1/2-1/2  
@@ -789,8 +764,8 @@ Next 2 rounds:
 273 Houdini vs Pedone  
 274 Nirvana vs Ivanhoe  
 275 Komodo vs Nemorino  
-276 Lco vs Laser  
-  
+276 Lco vs Laser
+
  **ROUND 24**  
 277 Xiphos vs Andscacs  
 278 Arasan vs Wasp  

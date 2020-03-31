@@ -19,9 +19,13 @@ the accuracy of the value head. The procedure is:
 
   * Clients continue generating self-play games as before, no TB involved.
   * The data from these games are sent to the server.
-  * The server parses these games, and when a position reaches a new WDL entry, the game result for all positions up to that point is changed to the TB result. 
-  * An WDL entry is when there are 5 or fewer pieces and a capture or pawn push just happened, and neither side can castle (9000 internet points for anyone who can find an Lc0 self-play game where the castling exception applies!)
-  * The game is parsed for the next WDL entry, and again all positions in this new section are marked with the TB result.
+  * The server parses these games, and when a position reaches a new WDL entry, 
+the game result for all positions up to that point is changed to the TB result. 
+  * An WDL entry is when there are 5 or fewer pieces and a capture or pawn push 
+just happened, and neither side can castle (9000 internet points for anyone who 
+can find an Lc0 self-play game where the castling exception applies!)
+  * The game is parsed for the next WDL entry, and again all positions in this 
+new section are marked with the TB result.
 
 This is an alternative to doing temperature reduction or other similar
 methods, but does not require changing the way clients generate data. So it’s

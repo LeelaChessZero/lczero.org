@@ -8,20 +8,18 @@ draft = true
 +++
 
 [![](../../images/2018-10-19-leela-beats-fire-promoting-to-semi-
-LeelaFire3.png)](https://3.bp.blogspot.com/-04bgjNeo_Gc/W8nBG1dM92I/AAAAAAAAAaE/iOjdb5ZGw3gZlnbOsjTyBHUHj6vI3aIBwCLcBGAs/s1600/LeelaFire3.png)
+LeelaFire3.png)](https://3.bp.blogspot.com/-04bgjNeo_Gc/W8nBG1dM92I/AAAAAAAAAaE/
+iOjdb5ZGw3gZlnbOsjTyBHUHj6vI3aIBwCLcBGAs/s1600/LeelaFire3.png)
 
-  
-  
 **Leela** in a classic drama style, **promoted in TCEC Cup Semi-Finals** and
 it will face **Stockfish** today!  
 While in **CCCC blitz** tournament she is still at **3rd place** ahead of
-Komodo, Ethereal and Fire and behind Stockfish and Houdini.  
-  
-  
+Komodo, Ethereal and Fire and behind Stockfish and Houdini.
+
 **Leela** after a hard promotion against **Laser** with 6 draws in the first 6
 games winning the last 2 and promoting, she faced **Ethereal** in a very tough
-battle.  
-  
+battle.
+
 After a draw, she won the 2nd game and after 2 more draws she was leading
 2.5-1.5 controlling the match. After a dubious predefined opening selection
 that was choose, the Elephant gambit, Leela missed a tactic that Ethereal
@@ -34,17 +32,15 @@ First 2 sets were all drawn so score was 6-6. In the next set first game was
 draw but in the 2nd game, the 14th in total of the series, with Leela white,
 Leela managed to create a winning position that she should have won and end
 the series promoting to next round. But she fell into one of her worst
-enemies, a perpetual check! So she lost the chance.  
-  
+enemies, a perpetual check! So she lost the chance.
+
 With match tied at 7-7 next game ended in a draw but in the next game, 16th of
 the series, only in 6th move Leela offered a Pawn in the opening that was
 proved to be a poisonous one. Ethereal made the mistake to grab it and never
 managed to recover since then. **Leela promoted with an 8.5-7.5 score.** You
 can see this game analyzed here by Tryfon Gavriel (2121 CM) the known
-Kingscrusher in youtube:  
+Kingscrusher in youtube:
 
-  
-  
 After promoting to Quarter-Finals Leela had to face a very strong opponent
 again, the previously (since now probably this place belongs to herself as
 most results show) number 4 engine in the world, **Fire**.  
@@ -63,8 +59,8 @@ game, Leela would promote. In the 7th game a draw happened so Leela was too
 close to promotion, she just had to hold the 8th game. But Fire played very
 strongly creating pressure and trying things and while Leela tried to play
 aggressively and not passive, she didn't manage to cope with Fire's powerful
-play so she lost.  
-  
+play so she lost.
+
  **With the score tied at 4-4** a series of 2-game sets would start with a
 promotion to the first engine that would win any set. Set 1 was a tie with
 both engines drawing both games with black and with white. 2nd set of games
@@ -79,8 +75,8 @@ lost(game 4). So if she would lose here she would be eliminated. Game started
 and indeed both engines followed game 4 (Fire-Leela 1-0) continuation so if no
 one deviated Leela would lose an identical game! But Fire instead of playing
 12.Rb1 that played in game 4 and won, deviated with 12.Ra1. And Leela defended
-well and drew this one.  
-  
+well and drew this one.
+
 But in 3rd set of tiebreaks, in an again dubious predefined opening
 choice(that engines would have of course to play it with both white and black
 pieces) that gave white a clear edge, Leela played a wonderful game that won,
@@ -92,8 +88,8 @@ better position for white but Leela played very cleverly giving 2 Pawns for
 gaining an attack to the opponent King. The plan worked and the attack would
 be too much for Fire to handle so position should be about equal had Leela
 found 24...Bh4!! but she didn't and then she easily lost, since Fire played
-amazingly an impossible to handle endgame for humans.  
-  
+amazingly an impossible to handle endgame for humans.
+
  **Now score was 7-7** and next 2 sets were a little quiet resulting in 4
 draws even though in one of them Leela pressured hard for a win but didn't
 make it. So with the score tied on 9-9 they reached the 19th-20th games. The
@@ -111,21 +107,18 @@ Queenside, has created a powerful Kingside attack position where even
 Stockfish that was kibitzing didn't notice. Fire on the other hand was
 literally sleeping the whole game(and this was not the first time this
 happened in the series), even thinking it was equal or even better when
-Stockfish and Leela was showing -4.0 or less evaluations!  
-  
-Analysis by Kingscrusher of game-19 of the games can be seen here:  
-  
+Stockfish and Leela was showing -4.0 or less evaluations!
 
-  
+Analysis by Kingscrusher of game-19 of the games can be seen here:
+
 Leela will now face the mighty Stockfish that is having an easy time till now
 crushing everyone in its path thus far. Game can be seen
-[HERE!](http://tcec.chessdom.com/live.html)  
-  
-  
+[HERE!](http://tcec.chessdom.com/live.html)
+
 The games of Leela in TCEC Cup: [TCEC Cup-Leela
-PGN](https://georgemj23.000webhostapp.com/Leela-TCEC-Cup.pgn)  
-  
-Leela-Ethereal series:  
+PGN](https://georgemj23.000webhostapp.com/Leela-TCEC-Cup.pgn)
+
+Leela-Ethereal series:
 
 [Event "TCEC Cup - Round 2 - Match 20"] [Site "http://tcec.chessdom.com"]
 [Date "2018.10.14"] [Round "1"] [White "Ethereal 11.06"] [Black "Lc0
@@ -530,9 +523,7 @@ Rd5 33. Qe7 Rd7 34. Qxc5 Qxc5 35. Bxc5 g5 36. Rb1 Rd5 37. Be7 g4 38. hxg4 hxg4
 Kf7 46. Kg5 Rb8 47. Be5 Rb5 48. Bf4 g3 49. Re2 Ke7 50. Bxg3 Rb3 51. Bf4 Rb5
 52. Re5 Rb2 53. g3 Rc2 1-0
 
-  
-  
-Leela-Fire series:  
+Leela-Fire series:
 
 [Event "TCEC Cup - Round 3 - Match 26"] [Site "http://tcec.chessdom.com"]
 [Date "2018.10.17"] [Round "1"] [White "Lc0 18.11248"] [Black "Fire 7.1"]
@@ -1021,24 +1012,21 @@ Bd3+ 56. Kg1 Be2 57. Ba3 Bc4 58. Bc1 Ne4 59. Ba3 Kf5 60. Bc1 Nc3 61. Kh1 Ne2
 62. Ba3 Bd3 63. Nxd3 Rxd3 64. Bb4 Ke4 65. Re1 Kf3 66. e4 dxe4 67. Rf1 Nxd4 68.
 Kg1 0-1
 
-  
-  
 _**TCEC Cup brackets:**_  
 ![](../../images/2018-10-19-leela-beats-fire-promoting-to-
-semi-2018-10-19_10-57-23.png)  
-  
-  
-  
+semi-2018-10-19_10-57-23.png)
+
 _**On the CCCC blitz event now**_ , **Leela** is steadily in the 3rd place
 having a solid performance so far with 38 wins 19 draws and just 2 losses out
 of 59 games. Leela lost a game from Stockfish and recently against Pedone from
-a blunder she've made missing a tactical shot.  
-  
+a blunder she've made missing a tactical shot.
+
 The standings:  
 | Player | Score  | (SB)  | St | Ho | Lc | Et | Ko | Fi | An | Sh | Ch | Bo |
 La | Xi | Pe | Fr | Ko | Gu | Te | Ar | Va | Ne | Cr | Eq | Fi | Se | Ha | Wa
 | Ni | Iv | Bo | Pr | Bl | Cr | Al | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
 1: | Stockfish 18092721 | 53.5 / 59 | 1511.75  | XX | == | 1= | =1 | 1= | =1 |
 1= | 11 | =. | 1= | 11 | 11 | 11 | 11 | 11 | 11 | =1 | 1. | 11 | 11 | 11 | 11
 | 1. | 11 | 11 | 11 | =1 | 11 | 1. | 11 | 11 | 11 | 1.| (+48 -0 =11)  
@@ -1143,13 +1131,10 @@ would have won as she had a totally winning position and
 server/connection/remote hardware of Leela or whatever of Chess.com went down.
 A replay of the game have been made some hours later after CCCC page fixed and
 it was a draw. Depending on Chess.com' decision(probably they will adjudicate
-as per their results the game as Leela win) the standings will be corrected.  
-  
-  
- _Ratings for CCCC Blitz event:_  
+as per their results the game as Leela win) the standings will be corrected.
 
-    
-    
+ _Ratings for CCCC Blitz event:_
+
     Rank Name                 Elo    +    - games score oppo. draws   
        1 Stockfish 18092721   779  109   91    59   91%   415   19%   
        2 Houdini 6.03         717   94   83    60   87%   407   27%   
@@ -1183,10 +1168,8 @@ as per their results the game as Leela win) the standings will be corrected.
       30 Protector            261   72   76    59   27%   425   44%   
       31 Black Mamba          223   77   83    59   24%   426   31%   
       32 Crafty 25.2          128   85   97    59   14%   426   22%   
-      33 Alfilx64               0  102  130    59    6%   429   12%   
-    
+      33 Alfilx64               0  102  130    59    6%   429   12% 
 
-  
 Games of Leela in CCCC Blitz event: [CCCC Blitz - Leela
 PGN](https://georgemj23.000webhostapp.com/Leela-CCCC-Blitz.pgn)  
 Game of CCCC blitz can be followed [HERE!](https://www.chess.com/computer-

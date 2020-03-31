@@ -10,14 +10,14 @@ draft = true
 CCCC continues running and we are on round 3 currently. The level of play is
 very high as it was expected and interesting games and positions arise.  
 Shredder is on the lead now with 3 points out of 3 games but other engines can
-reach that too(Komodo, Houdini).  
-  
+reach that too(Komodo, Houdini).
+
 First 2 rounds, were not without many adventures for Leela since in the first
 round it was winning with black against Ivanhoe, but for some reason game
 crashed. It was not because of any engine's fault. Leela was clearly winning
 and Stockfish with 7-man tablebases show a win for black so this is a won
-position. Of course nothing says Leela would actually win the game.  
-  
+position. Of course nothing says Leela would actually win the game.
+
 The official CCCC rules state that:  
  _"If a neutral event occurs due to a technical error by the CCCC system or
 anything outside the two engines playing, the game will be restarted and
@@ -30,8 +30,7 @@ The game was restarted then and it was a draw.
 But according to their above rule the result of restarted game is irrelevant
 and the actual result will be the adjudication decision of the original game.  
 They took that decision and they have decided Leela would win in the winning
-position so they awarded a win for Leela.  
-  
+position so they awarded a win for Leela.
 
 [Event "CCCC"] [Site "?"] [Date "2018.09.01"] [Round "?"] [White "Ivanhoe"]
 [Black "Lc0 17.11089"] [Result "*"] [ECO "B52"] [PlyCount "263"] [EventDate
@@ -65,10 +64,6 @@ Kg6 135. Rc3 Kf5 136. Ke1 Re8+ 137. Kf2 Re3 138. Rc8 Rd5 139. Kg2 Rdd3 140.
 Rf8+ Ke6 141. Kh3 Rxf3+ 142. Kg4 Rg3+ 143. Kh5 f3 144. Re8+ Kf7 145. Rb8 Rg2
 $19 {0-1})
 
-  
-  
-  
-  
 In the second game where Leela with white faced Gull, the game reached a
 tablebase drawn 5 piece position but Gull refused to play. So by their rules
 the full point was given to Leela. Their rules for that state: _  
@@ -83,15 +78,13 @@ If the engine that crashed was in a winning position, the game will be
 adjudicated as a draw.  
  **If the position was a clear draw, the game will be adjudicated as a win for
 the crashing engine's opponent.** Otherwise, the game will be adjudicated as a
-loss for the crashing engine."_  
-  
+loss for the crashing engine."_
+
 So since this was a drawn position it has been adjudicated as a loss for the
 engine that crashed, Gull.  
-A replay game for demonstration purposes was made where it ended in a draw.  
-  
-  
-  
-The original Leela-Gull game where Gull crashed in the final position:  
+A replay game for demonstration purposes was made where it ended in a draw.
+
+The original Leela-Gull game where Gull crashed in the final position:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.01"] [Round "?"] [White "Lc0 17.11089"] [Black "Gull 3.syz"] [Result
@@ -209,21 +202,17 @@ Kg6 {[%eval 16,10] [%emt 0:00:03]} Rd1 {[%eval 0,63] [%emt 0:00:00]} 129. Re6
 {Here Gull crashed. The game as per CCCC rules is awarded to Leela as it is a
 drawn position.} *
 
-  
-  
-  
 So Leela has 2 points out of 2 games but her performance is poor so far since
 over the board she drew 3 games out of 4 and the win was by adjudication
 because she had a winning position in the first game.  
 Till now the rate of games is **1** game per **48** minutes. So Leela will
-play around 18:30 UTC and then in about 8 hours, i.e 02:00 UTC, etc.  
-  
+play around 18:30 UTC and then in about 8 hours, i.e 02:00 UTC, etc.
+
 Games can be seen from the following site:
-[CCCC](http://www.chess.com/computer-chess-championship)  
-  
-So far we have the results:  
-  
-  
+[CCCC](http://www.chess.com/computer-chess-championship)
+
+So far we have the results:
+
 **ROUND 1**  
 1 Andscacs vs Xiphos 0-1  
 2 Wasp vs Arasan 0-1  
@@ -236,8 +225,8 @@ So far we have the results:
 9 Gull vs Nirvana 1/2-1/2  
 10 Nemorino vs Houdini 0-1  
 11 Ivanhoe vs **Lco** 0-1  
-12 Laser vs Komodo 0-1  
-  
+12 Laser vs Komodo 0-1
+
 **ROUND 2**  
 13 Wasp vs Andscacs 0-1  
 14 Vajolet vs Xiphos 1-0  
@@ -250,8 +239,8 @@ So far we have the results:
 21 Fritz vs Nemorino 1/2-1/2  
 22 **Lco** vs Gull 1-0  
 23 Houdini vs Laser 1-0  
-24 Komodo vs Ivanhoe 1-0  
-  
+24 Komodo vs Ivanhoe 1-0
+
 **ROUND 3**  
 25 Andscacs vs Vajolet 1-0  
 26 Texel vs Wasp 1/2-1/2  
@@ -264,10 +253,10 @@ So far we have the results:
 33 Fizbo vs **Lco**  
 34 Laser vs Fritz  
 35 Gull vs Komodo  
-36 Ivanhoe vs Houdini  
-  
-So far the classification is:  
-  
+36 Ivanhoe vs Houdini
+
+So far the classification is:
+
 1 Shredder 3.0/3  
 2 Stockfish 2.5/3  
 3 Andscacs 2.0/3  
@@ -291,11 +280,10 @@ So far the classification is:
 20 Ethereal 0.5/2  
 22 Laser 0.0/2  
 22 Ivanhoe 0.0/2  
-22 Crafty 0.0/3  
-  
-  
-Next 2 rounds:  
-  
+22 Crafty 0.0/3
+
+Next 2 rounds:
+
 **ROUND 4**  
 37 Texel vs Andscacs  
 38 Stockfish vs Vajolet  
@@ -308,8 +296,8 @@ Next 2 rounds:
 45 Fire vs Laser  
 46 Komodo vs Fizbo  
 47 Fritz vs Ivanhoe  
-48 Houdini vs Gull  
-  
+48 Houdini vs Gull
+
 **ROUND 5**  
 49 Andscacs vs Stockfish  
 50 Shredder vs Texel  

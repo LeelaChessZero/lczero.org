@@ -8,10 +8,9 @@ draft = true
 +++
 
 [![](../../images/2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-
-uiyi888888.png)](https://1.bp.blogspot.com/-U3vevV5DIY8/W5Zf0DQEwpI/AAAAAAAAASY/PuxHQCPwVOsg5RMqm_wsmJihMCmZYWU_ACLcBGAs/s1600/uiyi888888.png)
+uiyi888888.png)](https://1.bp.blogspot.com/-U3vevV5DIY8/W5Zf0DQEwpI/AAAAAAAAASY/
+PuxHQCPwVOsg5RMqm_wsmJihMCmZYWU_ACLcBGAs/s1600/uiyi888888.png)
 
-  
-  
 Leela had its first loss in the tournament after 27 games that went
 undefeated. It lost against Ethereal with black after she blundered in
 endgame.  
@@ -19,15 +18,14 @@ But before that, a real circus game happened in the Leela game of course
 again. It was the Leela-Fisbo game with Fizbo the known drawmaster with 19
 draws out of 25 games but Leela managed to hypnotize Fizbo to lose, while
 Fizbo was playing with tablebases and the position was a drawn with just 4
-pieces remaining!  
-  
-  
+pieces remaining!
+
  **ROUND 26**  
 In this round Arasan upset Shredder by drawing him, while the big 3 won their
 games as usual and Fire won against Nemorino. While for the battle of the top
 8 place Booot, Ethereal and Andscacs won their games, even though all had the
-black pieces.  
-  
+black pieces.
+
 The real craziness happened in the Leela-Fisbo game. Fizbo till now is drawing
 most of its games with 19 draws out of 25 games and 9 draws out of the last
 10!  
@@ -38,8 +36,8 @@ with tablebases would have found most of the winning moves so she would have
 won. Leela was pushing to win, the position was always won for her but she
 didn't make any progress. When simplifications occurred she had to find in 2-3
 occasions some easy winning moves (that most of them she finds with TBs) but
-was still missing the key move that would give the final blow.  
-  
+was still missing the key move that would give the final blow.
+
 And suddenly she blundered! The position form then on was a dead tablebase
 draw! And Fisbo was using tablebases and immediately has shown 0.00 indicating
 of course that it would draw. The game as per rules of CCCC, continued till
@@ -51,17 +49,16 @@ away the game!! Unbelievable blunder for an engine that has access to endgame
 3,4,5 and piece tablebases and we had 4 pieces on the board. Obviously some
 bug of Fizbo that was exposed with the most dramatic way.  
 Fizbo the drawmaster, threw away a dead, 4-men TB position, draw! Only Leela
-can do this. Skynet maybe more close than we think.  
-  
+can do this. Skynet maybe more close than we think.
+
 The bug is reproducible as the following picture shows. Fizbo 1.9 with 3,4,5,6
 syzygy tablebases, incorrectly, believes 209...Re1?? draws. 209...Rd2+ is the
-move that draws.  
+move that draws.
 
 [![](../../images/2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-
-dfguyt89798.png)](https://1.bp.blogspot.com/-0sP_FAGyDqw/W5ZgheUK0jI/AAAAAAAAASw/4zPn2EDudqUV9t5Z4ZTX0W4MpEa7cMIiQCLcBGAs/s1600/dfguyt89798.png)
+dfguyt89798.png)](https://1.bp.blogspot.com/-0sP_FAGyDqw/W5ZgheUK0jI/AAAAAAAAASw
+/4zPn2EDudqUV9t5Z4ZTX0W4MpEa7cMIiQCLcBGAs/s1600/dfguyt89798.png)
 
-  
-  
 301 Vajolet vs Andscacs 0-1  
 302 Wasp vs Texel 0-1  
 303 Stockfish vs Xiphos 1-0  
@@ -73,8 +70,7 @@ dfguyt89798.png)](https://1.bp.blogspot.com/-0sP_FAGyDqw/W5ZgheUK0jI/AAAAAAAAASw
 309 **Lco** vs Fizbo 1-0  
 310 Fritz vs Laser 1/2-1/2  
 311 Komodo vs Gull 1-0  
-312 Houdini vs Ivanhoe 1-0  
-  
+312 Houdini vs Ivanhoe 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.09"] [Round "?"] [White "Lc0 17.11089"] [Black "Fizbo 1.9"] [Result
@@ -207,16 +203,13 @@ issues in the endgame though, yet not in the extend they seem to be in CCCC
 since there she does not use tablebases while Leela supports them and in this
 game they would lead to an easy win.} 1-0
 
-  
-  
 Here a little experiment to see how Leela with endgame tablebases would do
 against SF dev(040918).  
 SF dev had black pieces and 3,4,5,6, a big part of 7 TBs, while Leela 11089
 net with 3,4,5,6 TBs running on 1 million nodes per move(around that much that
 has on CCCC) and getting around 50000 to 120000 TB hits per move, played with
 white pieces from 75.Qxc3 position.  
-Leela got a comfortable win.  
-  
+Leela got a comfortable win.
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.09"] [Round "?"] [White "Leela 11089"] [Black "Fizbo"] [Result "1-0"]
@@ -271,20 +264,17 @@ Qxf7 Rh3 95. g6 Rh2+ 96. Kd3 Rh3+ 97. Kd4 e5+ 98. Ke4 Rh4+ 99. Ke3 Rh3+ 100.
 Kf2 Rh2+ 101. Kg3 Rc2 102. g7 Rc3+ 103. Kh4 Rc8 104. Kxh5 Kc6 105. g8=R Rxg8
 106. Qxg8 Kd6 107. Kg6 Kc5 108. Kf5 Kd4 109. Qb3 e4 110. Kf4 e3 111. Qxe3+ 1-0
 
-  
-  
-  
-**ROUND 27**  
-  
+**ROUND 27**
+
 In the battle for the 8 places, Booot, Ethereal and Andscacs won their games
 again.  
 Ethereal won against Leela in a sharp Sicilian because of a blunder of Leela
 in the endgame. This was Leela's first loss in this tournament and now only
-the first 3 are undefeated.  
-  
+the first 3 are undefeated.
+
 Shredder drew again and nothing reminds its early days in this tournament
-where he was winning and winning and leading the tournament.  
-  
+where he was winning and winning and leading the tournament.
+
 313 Andscacs vs Texel 1-0  
 314 Vajolet vs Stockfish 0-1  
 315 Shredder vs Wasp 1/2-1/2  
@@ -296,8 +286,7 @@ where he was winning and winning and leading the tournament.
 321 Laser vs Fire 1/2-1/2  
 322 Fizbo vs Komodo 0-1  
 323 Ivanhoe vs Fritz 1/2-1/2  
-324 Gull vs Houdini 0-1  
-  
+324 Gull vs Houdini 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.10"] [Round "?"] [White "Ethereal 10.88"] [Black "Lc0 17.11089"]
@@ -343,12 +332,11 @@ c7+ Kd7 76. Kb7 Ke6 77. c8=Q+ Ke5 78. Qh3 Kf4 79. Qxh2+ Kf3 80. Qh3+ Kxf2 81.
 Kb6 Ke2 82. Kc5 Kf2 83. Kd4 Kg1 84. Kd3 Kf2 85. Qg4 Kf1 86. Ke3 Ke1 87. Qg1#
 1-0
 
-  
-  
 _**Standings after round 27 of 46.**_ First 8 go to next stage.  
 | Player | Score  | (Tie)  | Ho | St | Ko | Lc | Sh | Fi | Bo | Et | An | Fr |
 Te | Xi | Pe | Va | La | Ar | Gu | Fi | Ne | Wa | Iv | Se | Ni | Cr | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Houdini 6.03 | 22.5 / 27 | 268.00  | XX | =. | =. | =. | =. | 1. | =. |
 =. | 1. | 1. | 1. | 1. | 1. | =. | 1= | 1. | 11 | 1. | 11 | =. | 11 | 1. | 1.
 | 1.| (+18 -0 =9)  
@@ -420,15 +408,10 @@ XX | 1. | =. | 0. | 1. | =. | =. | 1. | 1. | 1. | =. | 1. | =. | 1. | =1 | 11
 0.| (+1 -20 =6)  
 24: | Crafty 25.2 | 3.5 / 27 | 30.25  | 0. | 0. | 0. | =. | 00 | 0. | 0. | 0.
 | 0. | 0. | 00 | 0. | 00 | 0. | 0. | 0. | 0. | 0. | =0 | =. | =. | =. | 1. |
-XX| (+1 -21 =5)  
-  
-  
-  
-  
- _ **Rating performance so far after round 27:**_  
+XX| (+1 -21 =5)
 
-    
-    
+ _ **Rating performance so far after round 27:**_
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   499  118  104    27   81%   274   37%   
        2 Houdini 6.03       498  122  106    27   83%   259   33%   
@@ -453,9 +436,7 @@ XX| (+1 -21 =5)
       21 Ivanhoe 999946h    171  104  112    27   31%   301   33%   
       22 Senpai 2.0          84  106  119    27   20%   288   33%   
       23 Nirvana 2.4         23  114  136    27   15%   289   22%   
-      24 Crafty 25.2          0  116  142    27   13%   288   19%   
-      
-    
+      24 Crafty 25.2          0  116  142    27   13%   288   19% 
 
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules

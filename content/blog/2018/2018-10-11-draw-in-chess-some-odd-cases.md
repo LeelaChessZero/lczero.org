@@ -8,18 +8,17 @@ draft = true
 +++
 
 [![](../../images/2018-10-11-draw-in-chess-some-odd-cases-
-hjkhk.png)](https://1.bp.blogspot.com/-wSeXSLF0qPw/W7-oGvrvixI/AAAAAAAAAZQ/Y_fD3z1ZsIcxtnUalVcoSifOt7bZKxzmQCLcBGAs/s1600/hjkhk.png)
+hjkhk.png)](https://1.bp.blogspot.com/-wSeXSLF0qPw/W7-oGvrvixI/AAAAAAAAAZQ/Y_fD3
+z1ZsIcxtnUalVcoSifOt7bZKxzmQCLcBGAs/s1600/hjkhk.png)
 
-  
-  
 Chess is a game where there are 3 distinct results. White wins or black wins
 or it is a draw and nobody wins. Draw can achieved in many ways in Chess.
-These are:  
-  
+These are:
+
  **•Stalemate position.** A position where the player to move does not have a
 legal move to play and his King is not in check. Game immediately ends as a
-draw.  
-  
+draw.
+
  **•3 times repetition** of a position(not necessarily in consecutive moves).
 3 times repetition of a position is defined as when the **same position occurs
 3 times**. **Same position** means that 2 positions are considered the same if
@@ -34,13 +33,13 @@ is reached 3 times it's not an automatic draw. This means this rule, the so
 called 3-fold repetition, is not a mandatory draw and game can continue if
 player on move does not want a draw. Technically if both sides have just
 repeated a position 3 times or the side to move can play a move that would
-repeat 3 times the same position, the player having the move can claim a draw.  
-  
+repeat 3 times the same position, the player having the move can claim a draw.
+
 • **5 times repetition** of a position(not necessarily in consecutive moves).
 FIDE has recently added this and with the same definition of repetition of a
 position 3 times. But this 5-fold repetition is a forced draw. So if this
-situation occurs a draw is forced.  
-  
+situation occurs a draw is forced.
+
  **•50 moves rule.** 50 moves rule is defined when the last 50 moves by **each
 player** have been completed without the movement of any Pawn and without any
 capture of a piece or Pawn.  
@@ -56,29 +55,26 @@ Pawn and without any capture, then the player having the move can claim a
 draw.  
 **Checkmate** has higher precedence than 50 moves rule, so if the last move is
 one, that a side can claim a draw by 50 moves rule, but it's also a checkmate,
-then game is not drawn and a win for the side with the checkmate is rewarded.  
-  
+then game is not drawn and a win for the side with the checkmate is rewarded.
+
  **•75 moves rule.** 75 moves rules is defined as any series of at least 75
 moves that have been made by each player without the movement of any Pawn and
 without any capture. If this happens, it's an automatic draw.  
 If the last move resulted in **checkmate** , that shall take precedence and
-game is won for the player that gave the checkmate.  
-  
+game is won for the player that gave the checkmate.
+
  **•Dead position.** The game is drawn when a position has arisen in which
 neither player can checkmate the opponent’s king with any series of legal
-moves. The game **immediately ends in a draw.**  
-  
-  
-  
-  
+moves. The game **immediately ends in a draw.**
+
 In engine play, engines can't claim a draw for 3-fold or 50 move rule, so it's
 an old "agreement"  
 that when 3 fold occurs or 50 move rule is reached game is an automatic draw!  
 So 5-fold repetition or 75 move rule are useless for engine-engine games. Even
 though having in engine-engine games the 50 or 75 move rule applied in the era
 of 6 and 7 men endgame tablebases kills many wonderful checkmates in 80 and
-100 and 200 or even 1000 moves.  
-  
+100 and 200 or even 1000 moves.
+
  **E.g in the following position** white can force a checkmate in 550(or maybe
 less) with a nice combination. But in between **violates the 50 moves rule so
 this is a draw.** The whole magic of the combination is lost because of 50
@@ -86,8 +82,7 @@ moves rule that has been applied to save spectators(and players) from very
 lengthy and unnecessary long games.  
 But for engine games perhaps this should not apply. Of course then as engines
 are never get tired and with the weakness of engines to endlessly shuffle many
-drawn endgame positions, it would mean much longer games.  
-  
+drawn endgame positions, it would mean much longer games.
 
 [Event "Mate in 550"] [Site "?"] [Date "2002.06.13"] [Round "?"] [White
 "Matein550"] [Black "?"] [Result "1-0"] [WhiteType "human"] [BlackType
@@ -189,11 +184,9 @@ Qe5+ Ka7 529. Qc3 Nb6 530. Qa1+ Kb7 531. Ke6 Bh3+ 532. Kd6 Nc8+ 533. Kc5 Kc7
 540. Qe7+ Kb8 541. Qd8+ Kb7 542. Qb6+ Ka8 543. Qb4 Bb7 544. Kb6 Kb8 545. Qd6+
 Ka8 546. Qc5 Nc6 547. Qf8+ Nb8 548. Qe7 Nd7+ 549. Qxd7 Bc8 550. Qxc8# 1-0
 
-  
 Same here, black in this position loses but it needs 517 moves for white to
 capture a piece instead of 50 that has available for not breaking 50 moves
-rule.  
-  
+rule.
 
 [Event "https://syzygy-tables.info/?fe"] [Site "https://syzygy-
 tables.info/?fe"] [Date "2018.10.11"] [Round "?"] [White "Syzygy"] [Black
@@ -209,37 +202,29 @@ Bf3+ 37. Kd2 Be4 38. Qa6+ Ke7 39. Qb5 Ke6 40. Qb6+ Kf5 41. Qh6 Nf3+ 42. Ke2
 Ne5 43. Qf8+ Ke6 44. Na6 Bf3+ 45. Kd2 Rd4+ 46. Kc1 Rc4+ 47. Kb1 Be4+ 48. Ka2
 Nd3 49. Qe8+ Kf6 50. Qd8+ Kf5 {Draw by 50 moves rule.}
 
-  
-  
 _**3-fold repetition**_ is also interesting in some cases.  
 For example in the _**position-1:**_  
-White to move and black **King and Rook haven't moved** the whole game.  
+White to move and black **King and Rook haven't moved** the whole game.
 
-  
 Black has castling rights as his King and Rook haven't moved.  
 But black can't castle, since white b4 Bishop controls the f8 square the King
-should pass to make the castle.  
-  
-  
+should pass to make the castle.
+
 While after forcing to position-1 the moves 20.Ba5 Kf8 21.Bb4 Ke8, we reach
 the _**position-2**_ :  
-White to move and **black King has moved** obviously(20...Kf8 21...Ke8)  
+White to move and **black King has moved** obviously(20...Kf8 21...Ke8)
 
-  
-  
 Similar looking with position-1, BUT here black can't castle because white b4
-Bishop controls the f8 square _**AND**_ because King has moved.  
-  
+Bishop controls the f8 square _**AND**_ because King has moved.
+
 These 2 positions are **NOT** the same regarding the 3-fold repetition
 definition, since now black has lost castle rights because his King moved(and
 this is the critical for whether the 2 positions are equal for 3-fold
 repetition because of castling rights, if the Rook and King had moved or not).  
 So in a case of a 3-fold repeat of a position, when for example, position 1 is
 repeated 2 times and then position 2 arises again, it will be NOT a 3 fold
-repetition and one could not claim a draw!  
-  
-  
-  
+repetition and one could not claim a draw!
+
 Now, about the above last rule for draws, _**the one with the dead position**_
 , has a significant possible effect in time controlled games. As if a dead
 position occurs, it is immediately being declared by Chess rules, as a draw
@@ -250,36 +235,25 @@ goes unnoticed it will be not declared as a draw provided the weak side loses.
 But in engine-engine games the GUI and most importantly the operator should
 notice such things.  
 While this issue and rule seems trivial and such positions trivial and easy to
-look, there are many interesting dead (draw) positions.  
-  
+look, there are many interesting dead (draw) positions.
+
 Obviously the trivial dead positions are King-King, King-King+Knight, King-
-King+Bishop.  
-  
-  
+King+Bishop.
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "8/6K1/8/8/1k6/8/8/8 w - - 0 0"]
 [PlyCount "0"] {This position is clearly a dead position as no side can
 checkmate the other.} Kf7
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "8/6K1/8/8/1k6/8/4n3/8 w - - 0 1"]
 [PlyCount "0"] {This is also a dead position as black cannot checkmate white
 with any legal way.} Kf7
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "8/6K1/8/8/1k6/8/4B3/8 w - - 0 1"]
 [PlyCount "0"] {This is also a dead position as white cannot checkmate black
 with any legal way.} Kf7
-
-  
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1-0"] [SetUp "1"] [FEN "8/6K1/8/8/nk6/8/4B3/8 w - - 0 1"]
@@ -290,17 +264,11 @@ to the rule. So it's not an automatic draw.} 1. Kf6 (1. Kh8 Kc5 2. Bd3 Kd6 3.
 Bh7 Ke7 4. Bg6 Kf8 5. Bh7 Nc5 6. Bf5 Nd7 7. Be4 Ne5 8. Bh7 Nf7#) 1... Ka5 2.
 Ke6 Kb6 3. Kd6 Ka7 4. Kc7 Ka8 5. Bd3 Nb6 6. Be2 Nc8 7. Ba6 Na7 8. Bb7# 1-0
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "8/6K1/2b5/8/1k6/8/4B3/8 w - - 0 1"]
 [PlyCount "0"] {King+Bishop versus King+Bishop with same Bishop colors is a
 dead position so it's an automatic draw! Neither side can checkmate the other
 with any series of legal moves.} Kf7
-
-  
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "0-1"] [SetUp "1"] [FEN "8/6K1/8/2b5/1k6/8/4B3/8 w - - 0
@@ -309,17 +277,11 @@ colors, is NOT a dead draw as a checkmate (for either side) is possible(with
 very unskillful play of course).} 1. Kh8 Kc3 2. Bf3 Kd4 3. Bg4 Ke5 4. Bf3 Kf6
 5. Bg4 Kf7 6. Bf5 Bb6 7. Bh7 Bd4# 0-1
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1-0"] [SetUp "1"] [FEN "7k/8/7P/1K6/8/8/8/8 w - - 0 0"]
 [PlyCount "9"] {This is NOT a dead position and an automatic draw as black can
 lose the game even if this would require a complete suicidal play from him.}
 1. Kc5 Kg8 2. Kd5 Kf8 3. Ke6 Kg8 4. h7+ Kf8 5. h8=Q# 1-0
-
-  
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1-0"] [SetUp "1"] [FEN "8/8/2k2N2/8/1K6/8/4N3/8 w - - 0
@@ -332,25 +294,16 @@ KNN versus K situation white can't force a win but if black has a Pawn, in
 many position white can force a win.} 1. Ka5 Kc7 2. Ka6 Kc8 3. Ka7 Kd8 4. Ne4
 Kc8 5. Ng5 Kd8 6. Ne6+ Kc8 7. Nc3 Kd7 8. Nd5 Kc8 9. Nb6# 1-0
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "8/K7/8/1B6/4B1k1/3B4/8/8 b - - 0
 9"] [PlyCount "0"] {This is a dead position and an automatic draw since white
 had no way to checkmate the black King as all his Bishops are of the same
 color.} 9...Kg3
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "8/K4b2/8/1B6/4B1k1/3B4/8/8 b - - 0
 9"] [PlyCount "0"] {This is also a dead position and a draw as neither side
 can checkmate the opponent's King.} 9...Kg3
-
-  
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "2k3r1/2Q5/r4n2/8/b7/7p/7P/7K b - -
@@ -359,9 +312,6 @@ the Queen and then it's stalemate. So checkmate can't occur by neither side
 with legal play so it's an automatic draw. That means even for some reason
 black loses on time after Qc7+ it would still be a draw.} 1...Kxc7
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1/2-1/2"] [SetUp "1"] [FEN
 "1kq3r1/1pp5/r4n2/8/b7/1Qp4p/1QP4P/7K w - - 0 1"] [PlyCount "4"] {[#]} 1.
@@ -369,25 +319,16 @@ Qxb7+ {After white played that move it's a dead position! So an automatic
 draw. So even if black or white lose on time after this move, it would still
 be a draw.} Qxb7+ { Forced.} 2. Qxb7+ {Forced.} Kxb7 {Forced. Draw.} 1/2-1/2
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "8/4p3/2k5/1p2p1p1/1P2P1P1/8/4K3/8 w
 - - 0 0"] [PlyCount "0"] {Another dead position, since no side can reach a
 checkmate with any series of legal moves. So this is an automatic draw per
 FIDE rules. So even if one side loses on time it's still a draw.} Kd2
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN
 "5b1k/4p1p1/4P1P1/8/8/4p1p1/2B1P1P1/5B1K w - - 0 0"] [PlyCount "0"] {Another
 dead position, with an automatic draw.} Bb3
-
-  
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "*"] [SetUp "1"] [FEN "6k1/5pPp/5P1P/1p6/8/3p4/1P1P4/qKB5
@@ -395,16 +336,10 @@ w - - 0 1"] [PlyCount "0"] {Another dead position, with an automatic draw. No
 side can reach a checkmate with any series of legal moves. So even if one side
 loses on time it's still a draw.} 1.Kxa1
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1/2-1/2"] [SetUp "1"] [FEN "7R/7k/5K2/8/8/8/1B6/8 b - - 0
 0"] [PlyCount "0"] {Immediately when white played Rh8+ it has become a dead
 draw position with an automatic draw.} Kxh8
-
-  
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1/2-1/2"] [SetUp "1"] [FEN
@@ -414,9 +349,6 @@ With an automatic draw. Whatever happens from now it's pointless, as even if
 one side loses on time(to play the forced moves) it's still a draw.} Rxe4+ 2.
 Rxe4+ Qxe4+ 3. Nxe4 1/2-1/2
 
-  
-  
-
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1/2-1/2"] [SetUp "1"] [FEN
 "6kr/3N1p1p/p4P1n/P5PP/1P1q1RQr/7p/4pN1P/4B1KR w - - 0 1"] [PlyCount "5"] 1.
@@ -425,9 +357,6 @@ is pointless, as this is a dead position. An automatic draw! The next is
 forced and lead to stalemate. Once again, if one side loses on time before
 reaching the final stalemate position, it's still a draw.} Rxg4+ 2. Rxg4+
 Qxg4+ 3. Nxg4 1/2-1/2
-
-  
-  
 
 [Event "?"] [Site "?"] [Date "????.??.??"] [Round "?"] [White "New game"]
 [Black "?"] [Result "1/2-1/2"] [SetUp "1"] [FEN

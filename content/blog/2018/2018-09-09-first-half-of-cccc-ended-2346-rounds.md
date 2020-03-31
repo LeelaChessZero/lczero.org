@@ -8,18 +8,17 @@ draft = true
 +++
 
 [![](../../images/2018-09-09-first-half-of-cccc-ended-2346-rounds-
-jkj0770709.png)](https://1.bp.blogspot.com/-20Lup9ex2mc/W5RfQZjh5JI/AAAAAAAAAR4/6UOTlgOdI-
+jkj0770709.png)](https://1.bp.blogspot.com/-20Lup9ex2mc/W5RfQZjh5JI/AAAAAAAAAR4/
+6UOTlgOdI-
 AaA76wJTpkpV8g574ZCfEQwCLcBGAs/s1600/jkj0770709.png)
 
-  
 First half of the CCCC tournament has ended.  
 It's a 46 rounds tournament and so 23 rounds have been played. Time control is
 15'+5" and engines will play all against all twice, one with black and one
 with white, while pondering is on and no opening books are used and 6 pieces
 tablebases are being used.  
-Top 8 engines promote to next round.  
-  
-  
+Top 8 engines promote to next round.
+
 Till now there are 4 distinctive groups that have been formed. The top 3 that
 are consisted of the known "big 3" of computer Chess this moment and for the
 last 4-5 years, Stockfish, Komodo and Houdini, the other group the engines
@@ -30,14 +29,15 @@ There is a group 8-9 engines that seems to just be in the middle without
 having any prospects of going to top 8 and there is the low end of the
 tournament that does not do that good.  
 There are 4 engines that till now haven't lost any game so far. Stockfish,
-Houdini, Komodo and Leela.  
-  
+Houdini, Komodo and Leela.
+
  **  
-The standings after round 23, finishing the first half of the tournament.**  
-  
+The standings after round 23, finishing the first half of the tournament.**
+
 | Player | Score  | (SB)  | H | K | S | L | S | F | B | E | A | F | X | V | P
 | T | G | F | A | L | N | W | I | S | C | N | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Houdini 6.03 | 19.0/23 | 198.50  | X | = | = | = | = | 1 | = | = | 1 | 1
 | 1 | = | 1 | 1 | 1 | 1 | 1 | 1 | 1 | = | 1 | 1 | 1 | 1| (+15 -0 =8)  
 2: | Komodo 2118.00 | 18.5/23 | 195.25  | = | X | = | = | 1 | 1 | 1 | = | = |
@@ -85,14 +85,10 @@ The standings after round 23, finishing the first half of the tournament.**
 23: | Crafty 25.2 | 3.5 / 23 | 25.75  | 0 | 0 | 0 | = | 0 | 0 | 0 | 0 | 0 | 0
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | = | = | = | = | X | 1| (+1 -17 =5)  
 24: | Nirvana 2.4 | 3.0 / 23 | 24.00  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-| 0 | 0 | 0 | 0 | = | = | 0 | 0 | 0 | = | 1 | = | 0 | X| (+1 -18 =4)  
-  
-  
-  
- **And the ratings:**  
+| 0 | 0 | 0 | 0 | = | = | 0 | 0 | 0 | = | 1 | = | 0 | X| (+1 -18 =4)
 
-    
-    
+ **And the ratings:**
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Houdini 6.03       495  130  113    23   83%   265   35%   
        2 Stockfish 220818   480  125  111    23   80%   266   39%   
@@ -117,16 +113,12 @@ The standings after round 23, finishing the first half of the tournament.**
       21 Ivanhoe 999946h    180  110  118    23   35%   279   35%   
       22 Senpai 2.0          74  115  132    23   20%   284   30%   
       23 Crafty 25.2         27  120  144    23   15%   286   22%   
-      24 Nirvana 2.4          0  126  156    23   13%   287   17%   
-    
+      24 Nirvana 2.4          0  126  156    23   13%   287   17% 
 
-  
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
-because Gull crashed, was 1-0 in favor of Lc0.  
-  
-  
-  
+because Gull crashed, was 1-0 in favor of Lc0.
+
 •Houdini has an exceptional tournament thus far, winning against almost every
 engine below top 8. In this short time control Houdini is to be expected to
 continue doing great.  
@@ -159,8 +151,8 @@ moments where it shows its true potential, it has some moments where it plays
 dubiously.  
 •Andscacs is also killing the weakest engines but has many problems against
 the first 11 having lost already 5 times. It's expected to be on top 8
-replacing Booot, but perhaps Booot is going to hold.  
-  
+replacing Booot, but perhaps Booot is going to hold.
+
 •Fritz is solid enough but is not having enough wins against weaker engines to
 fight for top 8. Probably will be 9-10 not having a chance to try for top 8.  
 •Xiphos is relatively solid having 13 draws so far but it's strength is not
@@ -174,8 +166,8 @@ chance for the top 8 where it lost most of the games aganist them.
 •Gull is not winning enough even though it is rather solid and its place is
 expected.  
 •Fizbo is underperforming here so far with all these draws. It has 1 win 5
-losses and **17 draws**! It is a better engines than this.  
-  
+losses and **17 draws**! It is a better engines than this.
+
 •Arasan is having a logical performance of its strength so far. It got also
 some nice results like the 2 draws against Stockfish and Komodo.  
 •Laser is severely underperforming here. This is very strange so far.  
@@ -192,35 +184,22 @@ obviously it is too much for it. It is getting outplayed in most games. Took a
 draw from Leela though (even in a lost position where Leela didn't manage to
 find the win).  
 •Nirvana for some reason is severely underperforming. It plays very weak Chess
-and this is strange since it's usually much stronger than this.  
-  
-  
+and this is strange since it's usually much stronger than this.
+
 45% of the games are draws. A rather good result of decided games.  
 A whole lot of games have French defense! Engines for some reason prefer
-1...e6 over "normal" 1...e5 after 1.e4.  
-  
-  
+1...e6 over "normal" 1...e5 after 1.e4.
 
-    
-    
                      Score      Game length             Frequency         
                               1-0    =-=    0-1    1-0     =-=     0-1    
-     All games       56.1%     79     96     78   33.6%   44.9%   21.3%   
-      
-    
+     All games       56.1%     79     96     78   33.6%   44.9%   21.3% 
 
-  
-
-    
-    
         Move      Frequency    Score  Draw   
      1: e4        152: 55.0%   52.9%  44%    
      2: d4        102: 36.9%   61.2%  46%    
-     3: Nf3        22:  7.9%   54.5%  45%    
-    
-
-  
+     3: Nf3        22:  7.9%   54.5%  45%  
 
 [![](../../images/2018-09-09-first-half-of-cccc-ended-2346-rounds-
-fgh86868888.png)](https://4.bp.blogspot.com/-Jc7UUR0-8A4/W5RgX5if8FI/AAAAAAAAASE/23z_SXJVKD8o4Ae-
+fgh86868888.png)](https://4.bp.blogspot.com/-Jc7UUR0-8A4/W5RgX5if8FI/AAAAAAAAASE
+/23z_SXJVKD8o4Ae-
 om7wr66a4XEHC60pwCLcBGAs/s1600/fgh86868888.png)

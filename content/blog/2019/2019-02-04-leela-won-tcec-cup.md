@@ -8,23 +8,22 @@ draft = true
 +++
 
 [![](../../images/2019-02-04-leela-won-tcec-cup-
-hkh98799.png)](https://2.bp.blogspot.com/-kzwqhru9vkg/XFiljDoGhDI/AAAAAAAAAcY/aKeH6mecBbQ9ikbeAx7y-bo9BzfXRcdZwCLcBGAs/s1600/hkh98799.png)
+hkh98799.png)](https://2.bp.blogspot.com/-kzwqhru9vkg/XFiljDoGhDI/AAAAAAAAAcY/aK
+eH6mecBbQ9ikbeAx7y-bo9BzfXRcdZwCLcBGAs/s1600/hkh98799.png)
 
-  
-**  
-  
+**
+
 Leela has won the TCEC CUP-2! ** After many very difficult battles and games
 against the top Chess engines, Leela eventually managed to win the tournament.  
 In the final Leela managed to beat Houdini at the very final game(before
-tiebreaks start) with a spectacular win.  
-  
-  
+tiebreaks start) with a spectacular win.
+
 TCEC CUP-2 was a tournament running with the 32 top engines of TCEC running on
 normal TCEC hardware of **43 cores** of **2 x** **Intel Xeon E5 2699** v4 at
 2.8 GHz.  
 Leela was running on a **Nvidia RTX 2080 Ti** plus a **RTX 2080** with the
-**32742** net and **Lc0 v20.1**.  
-  
+**32742** net and **Lc0 v20.1**.
+
 The tournament had time control of **30'+5"** (30 minutes base time plus 5
 seconds per move) and predefined openings were used for the games(4 ply
 openings for Round of 32 and 12 ply openings for the rest of tournament).  
@@ -34,17 +33,16 @@ wins and promotes to next round. Format is such that the best of previous TCEC
 season(that of premier division) plays the weakest engine(the weakest of 4th
 division), the 2nd best of premier division plays the 2nd worst of division 4,
 etc.  
-There is round of 32, round of 16, quarter finals, semi finals and the final.  
-  
-  
+There is round of 32, round of 16, quarter finals, semi finals and the final.
+
  _ **Round of 32**_  
 Leela started against **Tucano** , a relatively weak engine and faced no
 problem to beat Tucano in all 8 games with a 8-0 score.  
 In this round only Stockfish and Ethereal managed to win with a perfect score
-like Leela, beating respectively Rodent III and Schooner 8-0.  
-  
+like Leela, beating respectively Rodent III and Schooner 8-0.
+
  **Leela-Tucano  
-**  
+**
 
 [Event "TCEC Cup 2 - Round 1 - Match 9"] [Site "http://tcec.chessdom.com"]
 [Date "2019.01.24"] [Round "1.1"] [White "Tucano 7.06"] [Black "LCZero
@@ -214,17 +212,17 @@ Bg4 85. Rxa4 Bh3 86. Kb4 Bf1 87. Kc5 Ng4 88. Ra1 Bd3 89. Nf3 Nf2 90. Kd4 Ne4
 121. Ra1 Ne4 122. c6 Ke7 123. Ra2 Kd6 124. Rg2 Kxc6 125. Rxg6+ Kd7 126. Ke5
 Ke7 127. Kxf5 Nc3 128. Rh6 Nd5 1-0
 
-**  
-  
+**
+
 _Round of 16_**  
 Leela would meet a new and rapidly developing engine that had some huge rapid
 increase in strength lately, **Xiphos**.  
 And even though they started with 3 draws, Leela had no problem to win as she
 won 4 out of the next 5 games and promoted with 6-2 score.  
 The strongest engines also promoted in this round so quarter finals would have
-the exact 8 engines of Premier Division.  
-  
- **Leela-Xiphos**  
+the exact 8 engines of Premier Division.
+
+ **Leela-Xiphos**
 
 [Event "TCEC Cup 2 - Round 2 - Match 21"] [Site "http://tcec.chessdom.com"]
 [Date "2019.01.29"] [Round "1.1"] [White "Xiphos 0.4.19"] [Black "LCZero
@@ -409,8 +407,6 @@ Be4 Ra8 52. f4 Rh8 53. Rh1 Kf7 54. Kf3 Rf8 55. Bb1 Ra8 56. Rd1 Nf8 57. g4 Ra3+
 58. Rd3 Ra1 59. Rb3 b5 60. g5 Ra8 61. Kg4 Ra1 62. Bc2 Rg1+ 63. Rg3 Rh1 64. Ra3
 Ke7 1-0
 
-  
-  
 _**Quarter Finals**_  
 Leela here was matched with **Andscacs** and she started with a win, while in
 the 2nd game she outplayed Andscacs and she had a win, but Leela didn't manage
@@ -424,9 +420,9 @@ in the 2nd game of the tiebreak pair of games, gave Houdini the promotion with
 5.5-4.5 and Komodo also promoted but really struggled against Ethereal having
 7 draws and 1 win promoting with a 4.5-3.5 also. In the game Ethereal lost,
 Ethereal could save itself with a nice defensive move that it didn't manage to
-find so it was eliminated.  
-  
- **Leela-Andscacs**  
+find so it was eliminated.
+
+ **Leela-Andscacs**
 
 [Event "TCEC Cup 2 - Round 3 - Match 27"] [Site "http://tcec.chessdom.com"]
 [Date "2019.01.31"] [Round "1.1"] [White "Andscacs 095045"] [Black "LCZero
@@ -593,12 +589,10 @@ Re1 Bd4 118. Bc2 Nb5 119. Bd1 Kd3 120. f6 Ra8 121. g7 Rg8 122. Nf8 Nc3 123.
 Ne6 Bf2 124. Rf1 Ne4+ 125. Kg6 Nxf6 126. Rxf2 Ne4 127. Rf1 Nc3 128. Nf8 Kd2
 1-0
 
-  
 Here in Komodo-Ethereal game, with black to play, black can save himself by
 playing Bxa3! that leads to a draw.  
-Yet, Ethereal had played Qc7? that loses.  
+Yet, Ethereal had played Qc7? that loses.
 
-  
  _ **  
 Semi Finals**_  
 Here Leela faced the mighty **Komodo** and in most games she seemed always in
@@ -615,8 +609,8 @@ Leela playing with black first, outplayed Komodo to obtain her first win of
 the series. So if she would hold in the next game, even with a draw, she would
 promote to the final. Yet Leela having white this time, easily outplayed
 Komodo and she managed to win again.  
-So she **promoted with a final score 10-8.**  
-  
+So she **promoted with a final score 10-8.**
+
 In the other pair of **Stockfish-Houdini** a great battle was expected but
 most people expected Stockfish to prevail easily or not. Houdini after all is
 from September-October of 2017, a 1.5 year old engine while Stockfish is being
@@ -637,10 +631,10 @@ easily after that.
  **Stockfish was eliminated!** It was a big SHOCK! Even though at these low
 number of played games like here 8 anything can happen, still Stockfish didn't
 lose a single game at premier division so when it loses in this TCEC hardware
-of 43 cores, is big news.  
-  
+of 43 cores, is big news.
+
  **Leela-Komodo  
-**  
+**
 
 [Event "TCEC Cup 2 - Round 4 - Match 30"] [Site "http://tcec.chessdom.com"]
 [Date "2019.02.01"] [Round "1.1"] [White "Komodo 2246.00"] [Black "LCZero
@@ -1068,17 +1062,17 @@ Kh6 65. Ke6 Kg7 66. Kd6 Ra6+ 1-0
 
 In the Stockfish-Houdini, Stockfish had the chance to win the match and
 promote in this winning position where Stockfish showed a +5.99 score but
-didn't manage to win.  
+didn't manage to win.
 
- **  
-  
+ **
+
  _Final_**  
 Leela versus **Houdini** then.  
 Leela again seemed in control of the game and defended without any problems
 when she was with black and with white created some problems for Houdini but
 without anything much more than just applying some pressure where Houdini
-managed to draw eventually.  
-  
+managed to draw eventually.
+
 So after first 7 games were draws, last game(8) before tiebreaks, was a very
 sharp and double edged opening Leela decided to get into, where she played
 some nice speculative attacking moves trying to apply pressure to the weak
@@ -1095,10 +1089,10 @@ After Leela played 31.fxe5 and after 2 more moves having been played the 176
 thread Stockfish jumped to +3.03 seeing indeed that Leela's move was sound and
 superb.  
 After that it was more or less over so Leela went on to win and win the final
-and the CUP!  
-  
+and the CUP!
+
  **Leela-Houdini  
-**  
+**
 
 [Event "TCEC Cup 2 - Round 5 - Match 31"] [Site "http://tcec.chessdom.com"]
 [Date "2019.02.03"] [Round "1"] [White "Houdini 6.03"] [Black "LCZero
@@ -1274,17 +1268,16 @@ Qd7 43. Red1 Kg7 44. c5 Bb5 45. Qe3 Ng4 46. Qh3 Ra8 47. Re1 Rf8 48. Bd1 Ne5
 R3xb2 axb1=B 56. Rxb1 b3 57. Bg4 Rxc6 58. dxc6 Bxc6 59. Rxb3 Kf7 60. Bf5 Ke7
 61. Kf2 Be8 1-0
 
-**  
-  
+**
+
 ** Archive of TCEC CUP2 is [HERE!](http://legacy-
 tcec.chessdom.com/archive.php)  
-The whole TCEC CUP2:  
+The whole TCEC CUP2:
 
 [![](../../images/2019-02-04-leela-won-tcec-cup-
-gjhgjh87878.png)](https://3.bp.blogspot.com/-x6o8O1_PkyM/XFimYcrURoI/AAAAAAAAAco/HuKbnsmI2PodZXtpomf7FSoz2EUVqJtOQCLcBGAs/s1600/gjhgjh87878.png)
+gjhgjh87878.png)](https://3.bp.blogspot.com/-x6o8O1_PkyM/XFimYcrURoI/AAAAAAAAAco
+/HuKbnsmI2PodZXtpomf7FSoz2EUVqJtOQCLcBGAs/s1600/gjhgjh87878.png)
 
-  
-  
 Leela now plays the Superfinal of TCEC Season 14 against Stockfish dev. Time
 control is 120'+15".  
 Leela there uses Lc0v20.2 version and 32930 net while Stockfish the 190203(3

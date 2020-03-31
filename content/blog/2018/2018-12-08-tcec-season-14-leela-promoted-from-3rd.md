@@ -8,28 +8,28 @@ draft = true
 +++
 
 [![](../../images/2018-12-08-tcec-season-14-leela-promoted-from-3rd-
-ghgj6786888.png)](https://1.bp.blogspot.com/-I3JsRYSloyw/XAwhDy3dOiI/AAAAAAAAAbA/Afb_PXAc9XsczbhW480s1kkIikz4LPh3gCLcBGAs/s1600/ghgj6786888.png)
+ghgj6786888.png)](https://1.bp.blogspot.com/-I3JsRYSloyw/XAwhDy3dOiI/AAAAAAAAAbA
+/Afb_PXAc9XsczbhW480s1kkIikz4LPh3gCLcBGAs/s1600/ghgj6786888.png)
 
-  
 Leela's big journey to try to go to premier division of TCEC, has started!  
 TCEC season 14 is running for the last couple of weeks and Leela has
 participated in 3rd division of it, finishing in the top position easily and
-now participates in the 2nd division trying to promote to 1st division.  
-  
+now participates in the 2nd division trying to promote to 1st division.
+
 Division 3 consisted of 8 strong engines but they were no match for Leela, as
 she along with Komodo MTCS version, promoted to next division 2 easily.  
-Time control is for both divisions is 30 minutes + 10 seconds per move.  
-  
+Time control is for both divisions is 30 minutes + 10 seconds per move.
+
 Leela in 3rd division participated with **Lc0 TP** ("Trade Penalty", i.e it
 gives a penalty to every early trades making Leela play stronger as results
 showed) binary and **11248** net.  
 But in the 2nd division Leela participates with the newer Lc0-RC2 binary
 version that has some new innovations(see [this
-post](https://blog.lczero.org/2018/12/alphazero-paper-and-lc0-v0191.html))
+post](../../../2018/12/alphazero-paper-and-lc0-v0191.html))
 inspired from the new release of **Deepmind** 's paper for AlphaZero and again
 the 11248 net from the old test10. Thankfully test30 is getting stronger and
-soon will probably overtake test10 nets.  
-  
+soon will probably overtake test10 nets.
+
 Leela had a strong performance in this division and finished easily in 1st
 position and now she has to pass division 2 and then division 1 also to
 promote to premier division in which she belongs considering her performance
@@ -38,8 +38,8 @@ top 4 engine, along with Stockfish(the clear leader) and almost in the level
 of Komodo and Houdini. But divisions 2 and 1 are hard and only 2 engines out
 of 8 promote and with only 28 games for each engine to be played, means
 anything can happen and the probability for Leela not to promote(to div1 or to
-divP), not to be that small so anything can happen.  
-  
+divP), not to be that small so anything can happen.
+
 Standings of 3rd division. Leela and Komodo MCTS promoted to division 2.  
 | Player | Score  | (SB)  | LCZe | Komo | Aras | Pedo | rofC | Vajo | Nemo |
 Hann | +/-/=  
@@ -59,13 +59,10 @@ XXXX | =0== | ==1=| (+5 -8 =15)
 7: | Nemorino 5.05 | 11.5 / 28 | 143.50  | 00=0 | =0== | ==== | 0001 | ==00 |
 =1== | XXXX | 1011| (+5 -10 =13)  
 8: | Hannibal 20181202 | 6.0 / 28 | 80.50  | =000 | 0000 | 0==0 | 0=00 | =0==
-| ==0= | 0100 | XXXX| (+1 -17 =10)  
-  
-  
-Performance ratings of division 3(Hannibal's Elo was set to 0):  
+| ==0= | 0100 | XXXX| (+1 -17 =10)
 
-    
-    
+Performance ratings of division 3(Hannibal's Elo was set to 0):
+
     Rank Name                  Elo    +    - games score oppo. draws   
        1 LCZero v19-TP-11248   333  107   94    28   80%   134   32%   
        2 KomodoMCTS 2210.00    271   95   88    28   71%   143   43%   
@@ -74,12 +71,9 @@ Performance ratings of division 3(Hannibal's Elo was set to 0):
        5 rofChade 1.023T       129   86   87    28   45%   163   54%   
        6 Vajolet2 2.6.1        125   86   87    28   45%   164   54%   
        7 Nemorino 5.05         119   88   90    28   41%   165   46%   
-       8 Hannibal 20181202       0   92  103    28   21%   182   36%   
-    
+       8 Hannibal 20181202       0   92  103    28   21%   182   36% 
 
-  
-  
-Leela's games in 3rd division:  
+Leela's games in 3rd division:
 
 [Event "TCEC Season 14 - Division 3"] [Site "http://tcec.chessdom.com"] [Date
 "2018.12.02"] [Round "1.3"] [White "rofChade 1.023T"] [Black "LCZero
@@ -541,5 +535,4 @@ Qxf3 29. Qe1 Ne6 30. Qe3 Qxe3 31. fxe3 g5 32. c6 Kg7 33. a4 Ra8 34. Bxe6 fxe6
 Ra8 g4 42. Rg8+ Kh6 43. Ke2 Rxc4 44. Kf2 Rxe4 45. Ke2 Rc4 46. Kf2 h4 47. Re8
 Rc2+ 48. Kg1 h3 49. Rg8 Kh5 50. Rh8+ Kg5 51. Kh1 c5 52. Rh7 c4 53. Kg1 c3 0-1
 
-  
 You can watch the games [HERE!](http://tcec.chessdom.com/live.php)

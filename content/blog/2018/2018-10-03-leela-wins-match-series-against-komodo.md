@@ -8,24 +8,24 @@ draft = true
 +++
 
 [![](../../images/2018-10-03-leela-wins-match-series-against-komodo-
-hkjhk8999999.png)](https://2.bp.blogspot.com/-lHjC1cq6_Tk/W7T97b-EV-I/AAAAAAAAAXE/dmMVDduNitQD5bcwk9hrLWuIvDOCAIb2QCLcBGAs/s1600/hkjhk8999999.png)
+hkjhk8999999.png)](https://2.bp.blogspot.com/-lHjC1cq6_Tk/W7T97b-EV-I/AAAAAAAAAX
+E/dmMVDduNitQD5bcwk9hrLWuIvDOCAIb2QCLcBGAs/s1600/hkjhk8999999.png)
 
-  
 **Leela** won **16-14** against **Komodo** the 30 games match to determine 3rd
 position in CCCC1, while on the variants tournament she **won a game against
-Stockfish** while being **handicapped having a Pawn less!!**  
-  
+Stockfish** while being **handicapped having a Pawn less!!**
+
 So the **3rd place** **Komodo-Leela** match has ended with Leela winning
 16-14, having **5 wins, 3 losses and 22 draws** , so Leela had finished 3rd in
-the first CCCC tournament according to Chess.com changed rules.  
-  
+the first CCCC tournament according to Chess.com changed rules.
+
 One thing remains to be seen though if they will remove **game 3** of this
 match where from a mistake/bug the same opening with before was repeated while
 it shouldn't.  
 They had to use 15 predefined opening positions(for 3 first moves) with
 reversed colors, so each engine will have to play every position once with
-black and once with white.  
-  
+black and once with white.
+
 So this normally happened in the first 2 games where Leela won both 2 games(as
 white and as black) with a specific opening(Torre Attack). Then while King's
 Gambit opening should have been used in the 3rd game (Komodo had white), the
@@ -35,22 +35,18 @@ Thing is the final score is 16-14 and if we don't count the 3rd game it would
 be 15-14, so Komodo would have a chance to tie the series with the Komodo-
 Leela game on King's Gambit opening. Even though in that variation of King's
 Gambit, engines favor black and usually engine games end with a draw or a
-black win but this has to be seen for the current pair.  
-  
-  
+black win but this has to be seen for the current pair.
+
 | Player | Score  | (Tie)  | 123456789012345678901234567890 | +/-/=  
 ---|---|---|---|---|---  
 1: | Lc0 17.11089 | 16.0 / 30 | 224.00  | 111===0==1========0=========01| (+5
 -3 =22)  
 2: | Komodo 2118.00 | 14.0 / 30 | 224.00  | 000===1==0========1=========10|
-(+3 -5 =22)  
-  
-  
-  
+(+3 -5 =22)
+
 Here are the **30 Leela-Komodo games** : [Leela-Komodo
-PGN](https://georgemj23.000webhostapp.com/KomodoLeela-30-Bonus-games.pgn)  
-  
-  
+PGN](https://georgemj23.000webhostapp.com/KomodoLeela-30-Bonus-games.pgn)
+
 Meanwhile the Chess variants games have started.  
 First is the f2-Pawn missing variant where Leela already lost easily the games
 as white against Komodo and Ethereal, drew with black against Houdini and made
@@ -61,15 +57,14 @@ endgame. Stockfish made a mistake in a tough position very early but this was
 not the critical mistake since after that the position was equal anyway.
 Somehow without any apparent big mistake of black(Stockfish), black's position
 got worse and worse and the endgame they reached was won for white, where
-Leela after her usual shuffling instead of immediate killing, managed to win.  
-  
+Leela after her usual shuffling instead of immediate killing, managed to win.
+
 It was also the first win with white pieces of any engine till now in this
 variant, after 9 black wins and 4 draws!!  
-For more info about it [READ HERE](http://blog.lczero.org/2018/09/cccc-leela-
-komodo-event-for-3rd-place.html) where all 5 variants are explained.  
-  
-Here is the Leela Stockfish game:  
-  
+For more info about it [READ HERE](../../../2018/09/cccc-leela-
+komodo-event-for-3rd-place.html) where all 5 variants are explained.
+
+Here is the Leela Stockfish game:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Bonus Games"] [Site "Chess.com"] [Date
 "2018.10.03"] [Round "?"] [White "Lc0 17.11089"] [Black "Stockfish 220818"]
@@ -122,8 +117,6 @@ Ke8 106. e6 Kd8 107. Kf4 a6 108. bxa6 Be8 109. a7 Kc7 110. a8=Q Kd6 111. h7
 Kc5 112. h8=R Bd7 113. Ke5 Kb4 114. Rh3 Bxa4 115. Kd4 Bd1 116. Bc6 Bb3 117. f7
 b5 118. f8=Q# 1-0
 
-  
-  
 Testing about the aforementioned, in the above blog post, disparity in
 results/behavior of Leela between a FEN position and a PGN position(with
 history of moves that lead to the desired position), the following 2 gaunlets
@@ -133,15 +126,13 @@ one row"** position variant that they will play in the variants tournament.
 Time control was 4'+2" and the Stockfish/Leela nodes per second ratio of
 **850** , the same Deepmind used for AlphaZero-Stockfish 8 games(while in CCCC
 they have **2000** , which, compared to 850, is more in favor for traditional
-engines obviously).  
-  
-The "up one row" position:  
+engines obviously).
 
-  
-  
+The "up one row" position:
+
 The one gaunlet is with FEN of the variant:  
-rnbqkbnr/pppppppp/8/8/8/PPPPPPPP/RNBQKBNR/8 w kq - 0 1  
-  
+rnbqkbnr/pppppppp/8/8/8/PPPPPPPP/RNBQKBNR/8 w kq - 0 1
+
 The other gaunlet is with PGN of the variant:  
 [Event "?"]  
 [Site "?"]  
@@ -149,50 +140,52 @@ The other gaunlet is with PGN of the variant:
 [Round "?"]  
 [White "?"]  
 [Black "?"]  
-[Result "*"]  
-  
+[Result "*"]
+
 1\. g3 Nf6 2. Bh3 Ng8 3. c3 Nf6 4. Bf5 Ng8 5. Bc2 Nf6 6. d3 Ng8 7. Be3 Nf6 8.
 f3  
 Ng8 9. Bf2 Nf6 10. e3 Ng8 11. Ne2 Nf6 12. Nf4 Ng8 13. Ng2 Nf6 14. Nd2 Ng8 15.  
 Nc4 Nf6 16. b3 Ng8 17. Nb2 Nf6 18. Ke2 Ng8 19. Qd2 Nf6 20. a3 Ng8 21. h3 Nf6
 22.  
-Rh2 Ng8 23. Rc1 Nf6 24. Rb1 Ng8 25. Ra1 Nf6 26. Ra2 Ng8 *  
-  
-And the results were:  
-  
-  
+Rh2 Ng8 23. Rc1 Nf6 24. Rb1 Ng8 25. Ra1 Nf6 26. Ra2 Ng8 *
+
+And the results were:
+
 _**The gaunlet with history/PGN:**_  
-Leela had **10.0/14**  
+Leela had **10.0/14**
 
-    
-    
-    Lc0v18 11089     - Andscacs 0.94                     2.0 - 0.0    +2/=0/-0    100.00%  
-    Lc0v18 11089     - Booot 6.3.1                       2.0 - 0.0    +2/=0/-0    100.00%  
-    Lc0v18 11089     - Ethereal 11.00-x64-pext           1.0 - 1.0    +1/=0/-1    50.00%  
-    Lc0v18 11089     - Fire 7.1                          2.0 - 0.0    +2/=0/-0    100.00%  
-    Lc0v18 11089     - Fizbo2x64_bmi2                    1.5 - 0.5    +1/=1/-0    75.00%  
-    Lc0v18 11089     - Stockfish 8                       1.0 - 1.0    +0/=2/-0    50.00%  
-    Lc0v18 11089     - Stockfish_18090410_x64_bmi2       0.5 - 1.5    +0/=1/-1    25.00%  
-    
+    Lc0v18 11089     - Andscacs 0.94                     2.0 - 0.0    +2/=0/-0  
+  100.00%  
+    Lc0v18 11089     - Booot 6.3.1                       2.0 - 0.0    +2/=0/-0  
+  100.00%  
+    Lc0v18 11089     - Ethereal 11.00-x64-pext           1.0 - 1.0    +1/=0/-1  
+  50.00%  
+    Lc0v18 11089     - Fire 7.1                          2.0 - 0.0    +2/=0/-0  
+  100.00%  
+    Lc0v18 11089     - Fizbo2x64_bmi2                    1.5 - 0.5    +1/=1/-0  
+  75.00%  
+    Lc0v18 11089     - Stockfish 8                       1.0 - 1.0    +0/=2/-0  
+  50.00%  
+    Lc0v18 11089     - Stockfish_18090410_x64_bmi2       0.5 - 1.5    +0/=1/-1  
+  25.00%
 
-  
-  
  _ **The gaunlet with FEN:**_  
-Leela had **11.0/14**  
+Leela had **11.0/14**
 
-    
-    
-    Lc0v18 11089     - Andscacs 0.94                     1.5 - 0.5    +1/=1/-0    75.00%  
-    Lc0v18 11089     - Booot 6.3.1                       1.5 - 0.5    +1/=1/-0    75.00%  
-    Lc0v18 11089     - Ethereal 11.00-x64-pext           1.5 - 0.5    +1/=1/-0    75.00%  
-    Lc0v18 11089     - Fire 7.1                          1.5 - 0.5    +1/=1/-0    75.00%  
-    Lc0v18 11089     - Fizbo2x64_bmi2                    2.0 - 0.0    +2/=0/-0    100.00%  
-    Lc0v18 11089     - Stockfish 8                       1.5 - 0.5    +1/=1/-0    75.00%  
-    Lc0v18 11089     - Stockfish_18090410_x64_bmi2       1.5 - 0.5    +1/=1/-0    75.00%  
-    
+    Lc0v18 11089     - Andscacs 0.94                     1.5 - 0.5    +1/=1/-0  
+  75.00%  
+    Lc0v18 11089     - Booot 6.3.1                       1.5 - 0.5    +1/=1/-0  
+  75.00%  
+    Lc0v18 11089     - Ethereal 11.00-x64-pext           1.5 - 0.5    +1/=1/-0  
+  75.00%  
+    Lc0v18 11089     - Fire 7.1                          1.5 - 0.5    +1/=1/-0  
+  75.00%  
+    Lc0v18 11089     - Fizbo2x64_bmi2                    2.0 - 0.0    +2/=0/-0  
+  100.00%  
+    Lc0v18 11089     - Stockfish 8                       1.5 - 0.5    +1/=1/-0  
+  75.00%  
+    Lc0v18 11089     - Stockfish_18090410_x64_bmi2       1.5 - 0.5    +1/=1/-0  
+  75.00%
 
-  
-  
-  
 So in this particular variant, Leela doesn't seem to be affected much by the
 FEN issue she has. She even got a point more with FEN!

@@ -11,13 +11,12 @@ When doing machine learning it helps to use a standardized dataset such that
 methods can be compared in an objective manner. For machine vision, one of the
 earliest standard datasets is [MNIST](http://yann.lecun.com/exdb/mnist/), a
 set of handwritten characters that was also used in the (arguably) [first deep
-learning](https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf) paper.  
-  
+learning](https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf) paper.
+
 We should define such a dataset in the world of chess programming as we try to
 improve training algorithms for our new chess engines based on neural
 networks. This blogpost introduces such a dataset called the _CCRL Dataset_
-(also giving a huge hint as to where it comes from).  
-  
+(also giving a huge hint as to where it comes from).
 
 ## Introducing the CCRL Dataset
 
@@ -28,15 +27,10 @@ trainingset. You can download the dataset in [pgn-
 format](http://data.lczero.org/files/ccrl-pgn.tar.bz2) (539M) and
 [v3-format](http://data.lczero.org/files/ccrl-v3.tar.bz2) (11G).
 
-  
-
 [![](../../images/2018-09-12-a-standard-dataset-cclr-
-test.png)](https://2.bp.blogspot.com/-IrUPCn8qXoU/W5fpknIedTI/AAAAAAAAqog/9HXUhw3uJH0KiI3HM0X9P7GDSo9JiV_WgCLcBGAs/s1600/cclr-
+test.png)](https://2.bp.blogspot.com/-IrUPCn8qXoU/W5fpknIedTI/AAAAAAAAqog/9HXUhw
+3uJH0KiI3HM0X9P7GDSo9JiV_WgCLcBGAs/s1600/cclr-
 test.png)
-
-  
-
-  
 
 This figure shows a distribution of all the gameover types within the testset
 of this data. Games with over 500 plies have been excluded from this figure to
@@ -46,13 +40,11 @@ checkmates and resignations. 38% was won with white, 30% with black and 32%
 draw. Finally, the testset has ~86% unique positions (including history
 planes).
 
-  
-
 ## Baseline results
 
 For training a simple baseline network the following yaml scheme was used as
-input to _train.py_ :  
-  
+input to _train.py_ :
+
 %YAML 1.2 \---name: '128x10-base'gpu: 0  
 dataset: num_chunks: 2500000  
 train_ratio: 0.80  
@@ -78,15 +70,11 @@ model: filters: 128
 residual_blocks: 10  
 ...
 
-  
-
 This resulted in an accuracy of **47.0583%** , policy loss of **1.591** and
 mse loss of **0.10882**. The network can be downloaded as [ccrl-
 baseline.pb.gz](http://data.lczero.org/files/ccrl-baseline.pb.gz). The
 tensorboard graphs can be downloaded as [leelalogs-
 base.tgz](http://data.lczero.org/files/leelalogs-base.tgz).
-
-  
 
 ## Potential ideas
 
@@ -97,11 +85,10 @@ useful:
   * Different neural network architectures
   * Different input encoding (e.g. removing history planes)
   * Different move encoding on the policy head
-  * Finishing resign or adjudicated games to get more endgame data with n-man tablebases
+  * Finishing resign or adjudicated games to get more endgame data with n-man 
+tablebases
 
 And much more...
-
-  
 
 ## Final notes
 
@@ -111,8 +98,6 @@ number of games produced by clients as new networks are trained. As such one
 can only test a subset of ideas/parameters using this data. Still, it's
 _probably_ safe to say one should never regress in terms of performance on
 this dataset.
-
-  
 
 Have fun experimenting and please share your results ( _good or bad, as both
 can be very useful_ )!

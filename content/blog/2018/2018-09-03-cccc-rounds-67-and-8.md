@@ -11,16 +11,13 @@ draft = true
 rounds-67-and-8-gjgj98789798799999.png)](https://www.chess.com/computer-chess-
 championship)
 
-  
-  
 The Chess.com computer Chess championship continued with most top engines
 winning their games so little things changed in the top positions.  
 Leela had a good performance winning 2 games and drawing the 3rd against the
-mighty Stockfish! It was a boring draw though, with no big fights whatsoever.  
-  
-  
- **ROUND 6**  
-  
+mighty Stockfish! It was a boring draw though, with no big fights whatsoever.
+
+ **ROUND 6**
+
 Leela played a very good game against Xiphos that till now has a good
 performance. On a semi-slav a normally complicated position arose and when
 black castled long Leela showed it understands the position very well. After
@@ -29,13 +26,13 @@ black's position. It's incredible that she has shown big positive evaluations
 from the very early showing that she knew this is winning. And white was
 winning because after destroying black's queenside, black had some bad
 isolated Pawn islands and white a super strong play in Kingside where he could
-march his Pawns if heavy pieces are traded.  
-  
+march his Pawns if heavy pieces are traded.
+
 Ethereal on the other side managed with black to have an easy draw, with
 another French in this tournament, against the co-leader Houdini, while
 Shredder continued its excellent tournament winning against the strong
-Andscacs on another French obtaining a strong kingside attack.  
-  
+Andscacs on another French obtaining a strong kingside attack.
+
 The results:  
 61 Shredder vs Andscacs 1-0  
 62 Senpai vs Stockfish 0-1  
@@ -48,9 +45,7 @@ The results:
 69 Crafty vs Ivanhoe 1/2-1/2  
 70 Houdini vs Ethereal 1/2-1/2  
 71 Fire vs Gull 1-0  
-72 Fritz vs Fizbo 1/2-1/2  
-  
-  
+72 Fritz vs Fizbo 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.02"] [Round "?"] [White "Lc0 17.11089"] [Black "Xiphos 0.3.17"]
@@ -134,18 +129,16 @@ Qb2+ {[%eval 5477,8] [%emt 0:00:10]} Kd1 {[%eval -32757,99] [%emt 0:00:00]}
 73. Ke3 {[%eval 7521,4] [%emt 0:00:11]} Ke1 {[%eval -32765,99] [%emt 0:00:01]}
 74. Qb1# 1-0
 
-  
-**ROUND 7**  
-  
+**ROUND 7**
+
 This time the leaders Houdini and Shredder were stopped by having a draw from
 Pedone and Booot respectively. Komodo had a draw with Xiphos also.  
 Stockfish had a hard time against Nirvana and was in danger of a draw but
 finally managed to win.  
 Leela with black had a very good game against Vajolet in a Sicilian Najdorf
 opening where Leela outplayed Vajolet and after the fantastic **15...g5!!**
-managed to trap white Bishop and from then on game went downhill for Vajolet.  
-  
-  
+managed to trap white Bishop and from then on game went downhill for Vajolet.
+
 73 Andscacs vs Senpai 1-0  
 74 Pedone vs Shredder 1/2-1/2  
 75 Stockfish vs Nirvana 1-0  
@@ -157,8 +150,7 @@ managed to trap white Bishop and from then on game went downhill for Vajolet.
 81 Booot vs Houdini 1/2-1/2  
 82 Gull vs Crafty 1-0  
 83 Ethereal vs Fritz 1/2-1/2  
-84 Fizbo vs Fire 1/2-1/2  
-  
+84 Fizbo vs Fire 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.02"] [Round "?"] [White "Vajolet 2.6"] [Black "Lc0 17.11089"] [Result
@@ -230,17 +222,14 @@ Nxf1+ {[%eval 5282,7] [%emt 0:00: 02]} 59. Rxf1 {[%eval -32761,74] [%emt
 [%emt 0:00:00]} Qxf2+ {[%eval 7813,4] [%emt 0:00:05]} 61. Kh1 {[%eval
 -32763,100] [%emt 0:00:00]} Qg2# 0-1
 
-  
-  
-  
-**ROUND 8**  
-  
+**ROUND 8**
+
 Leela faced the strongest engine of the tournament, Stockfish, and managed
 rather very easily for both, to have a draw. Houdini and Shredder won against
 Xiphos and Nemorino as also Komodo did against Vajolet so took advantage of
 the Lc0-Stockfish draw and reached 3rd place that shares with Stockfish and
-Leela.  
-  
+Leela.
+
 Results:  
 85 Pedone vs Andscacs 1/2-1/2  
 86 Nirvana vs Senpai 1/2-1/2  
@@ -253,9 +242,7 @@ Results:
 93 Arasan vs Gull 1/2-1/2  
 94 Fritz vs Booot 1/2-1/2  
 95 Crafty vs Fizbo 0-1  
-96 Fire vs Ethereal 1-0  
-  
-  
+96 Fire vs Ethereal 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.03"] [Round "?"] [White "Lc0 17.11089"] [Black "Stockfish 220818"]
@@ -472,9 +459,8 @@ go till checkmate or a draw so it continued till move 206!!} 53. Re8 {[%eval
 0:00:05]} Rb1 { [%eval 0,85] [%emt 0:00:07]} 206. Kg6 {[%eval 0,4] [%emt
 0:00:04]} Rg1+ { At last! A 3 fold repetition!} 1/2-1/2
 
-  
-Standings so far after and the Andscacs-Nirvana 1-0 game of round 9:  
-  
+Standings so far after and the Andscacs-Nirvana 1-0 game of round 9:
+
 1 Shredder 7.0/8  
 2 Houdini 7.0/8  
 3 **Lc0** 6.5/8  
@@ -498,12 +484,10 @@ Standings so far after and the Andscacs-Nirvana 1-0 game of round 9:
 21 Nemorino 2.5/8  
 22 Nirvana 1.5/9  
 22 Senpai 1.5/8  
-24 Crafty 1.0/8  
-  
-  
-  
-Next rounds are:  
-  
+24 Crafty 1.0/8
+
+Next rounds are:
+
  **ROUND 9**  
 97 Andscacs vs Nirvana 1-0  
 98 Nemorino vs Pedone  
@@ -516,9 +500,8 @@ Next rounds are:
 105 Xiphos vs Fritz  
 106 Fizbo vs Arasan  
 107 Booot vs Fire  
-108 Ethereal vs Crafty  
-  
-  
+108 Ethereal vs Crafty
+
  **ROUND 10**  
 109 Nemorino vs Andscacs  
 110 **Lco** vs Nirvana  

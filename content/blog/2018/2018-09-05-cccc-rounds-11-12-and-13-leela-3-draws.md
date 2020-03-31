@@ -10,8 +10,6 @@ draft = true
 [ ![](../../images/2018-09-05-cccc-rounds-11-12-and-13-leela-3-draws-
 gjgj98789798799999.png)](https://www.chess.com/computer-chess-championship)
 
-  
-  
 **ROUND 11**  
 This round saw Leela drawing rather not that comfortably a strong engine and
 currently in the top 8 engines(the top 8 of 24 engines are promoted to next
@@ -21,17 +19,16 @@ opposite of what one actually expects in this opening. By move 30 position for
 white seemed very good with total dominance on the Queenside and a Pawn of
 black ready to fall. Yet Leela defended very well and gave the exchange
 sacrifice giving her Rook for a Knight and because of the exposed white King
-managed to make a difficult draw.  
-  
+managed to make a difficult draw.
+
 Shredder continued its superb performance by having another win with black.
 While Stockfish managed to get a miraculous save against Fritz, in a game with
 opposite color Bishops that looked very drawish, it played excellently and
 finally managed to win. It was the first loss of Fritz that till now had 2
 wins and 8 draws!  
 Ethereal continues to underperform by not managing to win against the weaker
-Wasp engine.  
-  
-  
+Wasp engine.
+
 121 Andscacs vs **Lco** 1/2-1/2  
 122 Laser vs Nemorino 1-0  
 123 Nirvana vs Komodo 0-1  
@@ -43,8 +40,7 @@ Wasp engine.
 129 Vajolet vs Fire 1/2-1/2  
 130 Ethereal vs Wasp 1/2-1/2  
 131 Xiphos vs Crafty 1-0  
-132 Booot vs Arasan 1/2-1/2  
-  
+132 Booot vs Arasan 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.04"] [Round "?"] [White "Andscacs 0.94"] [Black "Lc0 17.11089"]
@@ -235,8 +231,6 @@ gxf3 Ne5) 18. Qe2 {[%eval 11,28] [%emt 0:00:25]} Bf6 {[%eval -4,29] [%emt
 Rg3 { [%eval 1,77] [%emt 0:00:05]} Kc6 {[%eval 0,5] [%emt 0:00:06]} 183. Rg8 {
 [%eval 1,77] [%emt 0:00:00]} Kc7 {[%eval 0,3] [%emt 0:00:08]} 184. Rg3 1/2-1/2
 
-  
-  
 **ROUND 12**  
 This round had Shredder to have its first draw with white, against Fizbo. Till
 now, even if it was with mostly weaker opponents, Shredder had 6 wins out of 6
@@ -247,8 +241,8 @@ into any problems.
 Another big match happened in this round with Fire against Stockfish playing,
 but nothing at all happened also than a dry draw in a French Tarrasch where
 much simplifications happened and the draw was obvious after 20th move where
-no side had any weakness at all.  
-  
+no side had any weakness at all.
+
 133 Laser vs Andscacs 0-1  
 134 Komodo vs **Lco** 1/2-1/2  
 135 Nemorino vs Ivanhoe 1-0  
@@ -260,8 +254,7 @@ no side had any weakness at all.
 141 Texel vs Ethereal 1-0  
 142 Crafty vs Vajolet 0-1  
 143 Wasp vs Booot 0-1  
-144 Arasan vs Xiphos 1/2-1/2  
-  
+144 Arasan vs Xiphos 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.04"] [Round "?"] [White "Komodo 2118.00"] [Black "Lc0 17.11089"]
@@ -412,17 +405,14 @@ Rxh4) 57... Bf6 {[%eval -14,21] [%emt 0:00:10]} 58. Bd3 {[%eval 0,42] [%emt
 [%eval 3,4] [%emt 0:00:02]} 139. Kd5 {[%eval 0,43] [%emt 0:00:02]} Kf4 {
 [%eval 1,3] [%emt 0:00:08]} 140. Kxd4 1/2-1/2
 
-  
-  
-ROUND 13  
-  
+ROUND 13
+
 Leela in this round faced another super strong opponent, one of the big 3,
 Houdini. This time with white in another semi-Slav Leela got a nice game and a
 very complicated one where after 17.a3 black had enough problems to solve.
 Houdini is a top engine and didn't have much problems to find the best defense
-and draw.  
-  
-  
+and draw.
+
 145 Andscacs vs Komodo 1/2-1/2  
 146 Ivanhoe vs Laser 1-0  
 147 **Lco** vs Houdini 1/2-1/2  
@@ -434,8 +424,7 @@ and draw.
 153 Stockfish vs Crafty 1-0  
 154 Booot vs Texel 1-0  
 155 Vajolet vs Arasan  
-156 Xiphos vs Wasp  
-  
+156 Xiphos vs Wasp
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.04"] [Round "?"] [White "Lc0 17.11089"] [Black "Houdini 6.03"]
@@ -483,17 +472,15 @@ goes for even more advantage allowing the perpetual. Thankfully this doesn't
 happen that much frequent right now and in most cases they do not cost
 points.} 1/2-1/2
 
-  
-  
 While Leela had 3 successful results with 3 draws against a very strong
 Andscacs and 2 of the big 3(Stockfish, Komodo, Houdini), in these tournament
 you end up in high places when you take full points. So Leela needs to take
 some wins in the next rounds if she doesn't won to have troubles. Yet, in next
 2 rounds she faces Fritz a strong opponent also that lost only to Stockfish,
-and the very strong Fire.  
-  
- _Standings so far:_  
-  
+and the very strong Fire.
+
+ _Standings so far:_
+
 1 Shredder 10.5/13  
 2 Houdini 10.5/13  
 3 Stockfish 10.0/13  
@@ -517,11 +504,10 @@ and the very strong Fire.
 21 Wasp 3.5/12  
 22 Senpai 2.5/13  
 23 Nirvana 1.5/13  
-24 Crafty 1.0/13  
-  
-  
-Next 2 rounds:  
-  
+24 Crafty 1.0/13
+
+Next 2 rounds:
+
  **ROUND 14**  
 157 Ivanhoe vs Andscacs  
 158 Houdini vs Komodo  
@@ -534,8 +520,8 @@ Next 2 rounds:
 165 Shredder vs Booot  
 166 Arasan vs Stockfish  
 167 Texel vs Xiphos  
-168 Wasp vs Vajolet  
-  
+168 Wasp vs Vajolet
+
  **ROUND 15**  
 169 Andscacs vs Houdini  
 170 Gull vs Ivanhoe  
@@ -548,18 +534,14 @@ Next 2 rounds:
 177 Senpai vs Arasan  
 178 Xiphos vs Shredder  
 179 Stockfish vs Wasp  
-180 Vajolet vs Texel  
-  
-  
+180 Vajolet vs Texel
+
 Tournament performance ratings so far indicate Stockfish even though it's in
 3rd place in standings, it has the best performance(Elo) right now. While
 Shredder even though it's 1st in standings, it is 5th in the rating
 performance behind Lc0! The error bars are huge for this low number of games
-though.  
-  
+though.
 
-    
-    
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   487  152  136    13   77%   305   46%   
        2 Houdini 6.03       468  161  138    13   81%   274   38%   
@@ -584,8 +566,7 @@ though.
       21 Wasp 3.25          167  134  145    12   29%   272   58%   
       22 Senpai 2.0         161  138  161    13   19%   347   38%   
       23 Nirvana 2.4         81  150  189    13   12%   342   23%   
-      24 Crafty 25.2          0  156  212    13    8%   293   15%   
-    
+      24 Crafty 25.2          0  156  212    13    8%   293   15% 
 
 ****** This is with result of Leela-Gull counted as draw and not win by per
 CCCC rules because of  

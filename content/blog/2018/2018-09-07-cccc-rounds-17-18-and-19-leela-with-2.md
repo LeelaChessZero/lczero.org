@@ -11,18 +11,17 @@ draft = true
 with-2-gjgj98789798799999.png)](https://www.chess.com/computer-chess-
 championship)
 
-  
 CCCC continues with Houdini on the lead a full point ahead of the 2nd
 Stockfish. Houdini till now seems unstoppable and is killing every other
 engine except for the top ones. Leela is 5th for now even though she won 2
-games and drew the other.  
-  
+games and drew the other.
+
  **ROUND 17**  
 Houdini won against Fire in a nice game where after just a single mistake of
 Fire leaving its Rook in b2 Houdini took the chance and punished it winning
 the exchange of a Rook for a Knight and after some deep maneuvering it won a
-Pawn also and the game was essentially over.  
-  
+Pawn also and the game was essentially over.
+
  **Leela** completely outplayed Arasan in middlegame and in opening and her
 position was winning even from move 20! Yet game lasted 147 moves and this is
 because Leela refused to win. Her advantage was so huge that after some point
@@ -40,16 +39,16 @@ at finding shortest solution of a problem, checkmate here in Chess, as also
 not good at focusing in a narrow line and resolving it, i.e to find a winning
 line and solve it. While traditional programs use AlphaBeta search that is
 exceptionally good at finding a narrow path and resolve its theoretical
-result.  
-  
+result.
+
 Ethereal won against Ivanhoe so it climbed and now top 8 it's on its horizon.
 Ivanhoe has chosen a gambit that it didn't know how to play it and Ethereal
 punished it.  
 Shredder managed to get a draw against Stockfish and with black also. When
 Stockfish has shown +2.0 for white most spectators believed it's over for
 Shredder but with more careful examination of the position, Stockfish was
-illusional as white could not win.  
-  
+illusional as white could not win.
+
 193 Andscacs vs Fritz 0-1  
 194 Fizbo vs Gull 1/2-1/2  
 195 Houdini vs Fire 1-0  
@@ -61,9 +60,7 @@ illusional as white could not win.
 201 Nirvana vs Wasp 1/2-1/2  
 202 Vajolet vs Pedone 1/2-1/2  
 203 Senpai vs Texel 0-1  
-204 Stockfish vs Shredder 1/2-1/2  
-  
-  
+204 Stockfish vs Shredder 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.06"] [Round "?"] [White "Lc0 17.11089"] [Black "Arasan CCCC-2018"]
@@ -239,19 +236,16 @@ can't stand this anymore, says Arasan. Allowing a mate in 2.} 146. fxe5
 {[%eval 7752,5] [%emt 0:00:03]} Ka5 {[%eval -24600,34] [%emt 0: 00:00]} 147.
 Ra3# 1-0
 
-  
-  
 **ROUND 18**  
 Arasan surprised Komodo and managed to get a draw while the other top 3 won
 easily. Shredder also won, but Leela facing with black the Wasp engine, after
 a bad opening where most pieces to have been exchanged till move 20, didn't
-have to play for anything and just drew.  
-  
+have to play for anything and just drew.
+
 Ethereal won an imprortant game with black again Gull and is now very close to
 entering top 8 after Andscacs drew with Fizbo. Fire had an important win after
-a series of unsuccessful results and kept it well inside top 8.  
-  
-  
+a series of unsuccessful results and kept it well inside top 8.
+
 205 Fizbo vs Andscacs 1/2-1/2  
 206 Fire vs Fritz 1-0  
 207 Gull vs Ethereal 0-1  
@@ -263,9 +257,7 @@ a series of unsuccessful results and kept it well inside top 8.
 213 Nemorino vs Vajolet 1-0  
 214 Texel vs Nirvana 1-0  
 215 Pedone vs Stockfish 0-1  
-216 Shredder vs Senpai 1-0  
-  
-  
+216 Shredder vs Senpai 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.06"] [Round "?"] [White "Wasp 3.25"] [Black "Lc0 17.11089"] [Result
@@ -366,8 +358,6 @@ Be6 {[%eval 11,8] [%emt 0:00:25]} 51. Bd4 {[%eval 7,38] [%emt 0:00:14]} Bd5 {
 0:00:04]} 93. Bc7 {[%eval 0,39] [%emt 0:00:04]} Bf7 {[%eval 0,3] [%emt
 0:00:04]} 94. Bh2 1/2-1/2
 
-  
-  
 **ROUND 19**  
 Andscacs had a draw with Fire and gave Ethereal a chance to get passed it, but
 Ethereal didn't took the chance as it drew Fizbo with white so now it's tied
@@ -378,8 +368,8 @@ problems but found its way. It was really magic the way Komodo won as after a
 very strong Wasp play when they reached an opposite color Bishop's ending and
 having a Pawn less, it managed to create enough counterplay in both sides and
 with extremely strong tactical moves it outplayed Wasp creating a King attack
-so it has won.  
-  
+so it has won.
+
 Leela in a QGD Slav opening played the interesting 9.Bxb5 instead of the
 normal 9.Ne4 and after several inaccuracies of Texel we reached a position
 where Texel's King was in a bad position and Leela had a Rook for 2 pieces
@@ -389,9 +379,8 @@ and white's position got better with black King to be very open under heavy
 fire. Leela misplayed several moves by not playing the best move that would
 kill black quickly, but found a way to a won endgame with Rook plus 3 Pawns
 versus the Bishop and Knight with one Pawn of black. Her technique on that
-endgame was excellent and won easily.  
-  
-  
+endgame was excellent and won easily.
+
 217 Andscacs vs Fire 1/2-1/2  
 218 Ethereal vs Fizbo 1/2-1/2  
 219 Fritz vs Crafty 1-0  
@@ -403,9 +392,7 @@ endgame was excellent and won easily.
 225 Lco vs Texel 1-0  
 226 Stockfish vs Nemorino 1-0  
 227 Nirvana vs Shredder 0-1  
-228 Senpai vs Pedone 0-1  
-  
-  
+228 Senpai vs Pedone 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.07"] [Round "?"] [White "Lc0 17.11089"] [Black "Texel 1.07"] [Result
@@ -532,14 +519,12 @@ Ng5+ {[%eval -32681,19] [%emt 0:00:00]} 79. Ke7 {[%eval 2125,8] [%emt
 Qh8+ {[%eval 7913,4] [%emt 0:00:08]} Nh6+ {[%eval -32753,15] [%emt 0:00:00]}
 92. Qxh6# 1-0
 
-  
-  
-  
-_**Standings after round 19 out of 46.**_ First 8 go to next stage.  
-  
+_**Standings after round 19 out of 46.**_ First 8 go to next stage.
+
 | Player | Score  | (SB)  | H | S | K | S | L | B | F | A | E | X | F | T | P
 | V | A | F | G | I | W | L | N | S | C | N | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Houdini 6.03 | 16.0/19 | 133.50  | X | = | = | . | = | = | 1 | 1 | = | 1
 | 1 | . | . | = | 1 | 1 | 1 | 1 | . | 1 | 1 | 1 | 1 | 1| (+13 -0 =6)  
 2: | Stockfish 220818 | 15.0/19 | 133.00  | = | X | = | = | = | 1 | = | = | 1
@@ -587,14 +572,10 @@ X | . | 1 | 1 | . | = | = | = | . | = | = | = | 1 | 1| (+5 -4 =10)
 23: | Crafty 25.2 | 3.0 / 19 | 17.50  | 0 | 0 | 0 | 0 | = | 0 | . | . | 0 | 0
 | 0 | 0 | 0 | 0 | . | 0 | 0 | = | . | 0 | = | = | X | 1| (+1 -14 =4)  
 24: | Nirvana 2.4 | 2.0 / 19 | 13.00  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-| 0 | 0 | . | 0 | 0 | = | = | . | = | . | . | = | 0 | X| (+0 -15 =4)  
-  
-  
-  
- **Rating performance so far after round 19:**  
+| 0 | 0 | . | 0 | 0 | = | = | . | = | . | . | = | 0 | X| (+0 -15 =4)
 
-    
-    
+ **Rating performance so far after round 19:**
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Houdini 6.03       497  146  124    19   84%   256   32%   
        2 Stockfish 220818   471  133  119    19   79%   270   42%   
@@ -619,15 +600,12 @@ X | . | 1 | 1 | . | = | = | = | . | = | = | = | 1 | 1| (+5 -4 =10)
       21 Nemorino 5.00      158  119  129    19   32%   283   32%   
       22 Senpai 2.0          84  122  140    19   18%   293   37%   
       23 Crafty 25.2         32  130  157    19   16%   279   21%   
-      24 Nirvana 2.4          0  136  171    19   11%   297   21%   
-    
+      24 Nirvana 2.4          0  136  171    19   11%   297   21% 
 
-  
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
-because gull crashed, was 1-0 in favor of Lc0.  
-  
-  
+because gull crashed, was 1-0 in favor of Lc0.
+
 Next rounds:  
  **  
 ROUND 20**  
@@ -642,8 +620,8 @@ ROUND 20**
 237 Laser vs Stockfish  
 238 Shredder vs **Lco**  
 239 Nemorino vs Senpai  
-240 Pedone vs Nirvana  
-  
+240 Pedone vs Nirvana
+
  **ROUND 21**  
 241 Andscacs vs Crafty  
 242 Booot vs Ethereal  

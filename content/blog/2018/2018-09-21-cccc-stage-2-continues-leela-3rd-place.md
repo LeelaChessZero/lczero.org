@@ -8,21 +8,20 @@ draft = true
 +++
 
 [![](../../images/2018-09-21-cccc-stage-2-continues-leela-3rd-place-
-gjhgjh5646656.png)](https://3.bp.blogspot.com/-lGHa_mdgxi0/W6I3wkCHR7I/AAAAAAAAAT8/49LSvniHtMsGdfihdKwEZrM3EjsNew4OACLcBGAs/s1600/gjhgjh5646656.png)
+gjhgjh5646656.png)](https://3.bp.blogspot.com/-lGHa_mdgxi0/W6I3wkCHR7I/AAAAAAAAA
+T8/49LSvniHtMsGdfihdKwEZrM3EjsNew4OACLcBGAs/s1600/gjhgjh5646656.png)
 
-  
-  
 Stage 2 continues with **Leela** doing excellently being 3rd, half a point
 ahead of Komodo! **  
 Stockfish** continues its unbeaten run, being the only engine with no loss,
-stage 1 and 2 combined!  
-  
+stage 1 and 2 combined!
+
 This definitely comes as a surprise since Komodo one of the big 3 engines in
 the Chess world, after 31 games should already be ahead in a well defined top
 3 but Leela persists to not lose! She now had in the last 17 games, 2 wins and
 15 draws.  
-Komodo even had **15 consecutive draws**!  
-  
+Komodo even had **15 consecutive draws**!
+
 She only lost once from Andscacs and that was only because of a heavy blunder
 of her in an equal position, while she has 13 draws with the big 3 engines
 Komodo, Houdini and Stockfish and if we count stage 1 results too she has 19
@@ -38,18 +37,16 @@ in the second Leela was really close to beating Stockfish! That would be the
 first loss of Stockfish in this tournament. But Leela blundered and lost the
 win. Afterwards analysis show that this 11089(CCCC) net with endgame
 tablebases would not be able to beat SF from that position while net 11250
-with endgame tablebases would do it rather easily.  
-  
+with endgame tablebases would do it rather easily.
+
 Fire is also underperforming being currently last in 8th position while Booot
 continues to surprise being 6th for now.  
 Stockfish is a clear leader 3 points ahead of 2nd, wining against everyone
-except Leela.  
-  
-  
-  
+except Leela.
+
 **Standings so far:**  
- **  
-  
+ **
+
 |  Player | Score  | (SB)  | Stock | Houdi | Lc0 1 | Komod | Ether | Booot |
 Andsc | Fire  | +/-/=  
 ---|---|---|---|---|---|---|---|---|---|---|---|---  
@@ -69,51 +66,31 @@ XXXXX | ====. | 1=1=. | ==0=0| (+2 -7 =21)
 0=0=. | ====. | XXXXX | ====.| (+1 -11 =19)  
 8: | Fire 7.1 | 10.5 / 31 | 140.25  | 00=00 | 00=00 | =000. | 0==0. | ==1=1 |
 ===1. | ====. | XXXXX| (+3 -13 =15)  
-**  
-  
-  
-  
+**
+
 The openings till now, that are predefined 4 ply openings by the organizers,
-are not and the most normal ones with ECO A openings being played so often :)  
-  
-  
-(click to open a bigger image)  
+are not and the most normal ones with ECO A openings being played so often :)
+
+(click to open a bigger image)
 
 [![](../../images/2018-09-21-cccc-stage-2-continues-leela-3rd-place-
-ffh778687687.png)](https://4.bp.blogspot.com/-RBKzAMVmEn0/W6Sr4jEHziI/AAAAAAAAAUQ/GC7rwEEIY0UJf-
+ffh778687687.png)](https://4.bp.blogspot.com/-RBKzAMVmEn0/W6Sr4jEHziI/AAAAAAAAAU
+Q/GC7rwEEIY0UJf-
 QJWobr-okqAExu8id1wCLcBGAs/s1600/ffh778687687.png) ****
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- ** _Length of games and percentages of white/black wins and draws:_**  
+ ** _Length of games and percentages of white/black wins and draws:_**
 
-    
-    
      **Score      Game length             Frequency  
                               1-0    =-=    0-1    1-0     =-=     0-1    
      All games       56.9%     77     99     94   25.2%   63.4%   11.3%   
     **
 
 ****63.4% of games are draws a rather high value but logical for this level of
-play now with top 8 engines. **  
-  
-  
- _Shortest wins (White)_  
-**  
+play now with top 8 engines. **
 
-    
-    
+ _Shortest wins (White)_  
+**
+
       1:  1-0(52) Lc0 17.11089 3300 - Andscacs 0.94 3404  
       2:  1-0(56) Stockfish 220818 3439 - Fire 7.1 3283  
       3:  1-0(57) Andscacs 0.94 3244 - Lc0 17.11089 3404  
@@ -123,10 +100,8 @@ play now with top 8 engines. **
 
  **  
  _Shortest wins (Black)_  
-**  
+**
 
-    
-    
      **** 1:  0-1(58) Ethereal 10.88 3283 - Komodo 2118.00 3400  
       2:  0-1(59) Andscacs 0.94 3244 - Stockfish 220818 3300  
       3:  0-1(64) Fire 7.1 3326 - Stockfish 220818 3283  
@@ -134,27 +109,18 @@ play now with top 8 engines. **
       5:  0-1(77) Fire 7.1 3326 - Stockfish 220818 3283 **  
     **
 
-  
-  
- _ **Starting moves**_  
+ _ **Starting moves**_
 
-    
-    
     Move      Frequency    Score  Draw AvElo Perf AvYear ECO  
      1: e4         52: 42.2%   53.8%  62%  3326  3360  2018 B00a   
      2: d4         38: 30.8%   60.5%  63%  3338  3409  2018 A40a   
      3: c4         21: 17.0%   59.5%  71%  3324  3410  2018 A10    
      4: Nf3         8:  6.5%   43.7%  63%              2018 A04    
      5: f4          2:  1.6%   75.0%  50%              2018 A02    
-     6: Nc3         2:  1.6%   75.0%  50%              2018 A00l   
-    
+     6: Nc3         2:  1.6%   75.0%  50%              2018 A00l 
 
-  
-  
-_**Ratings so far:**_  
+_**Ratings so far:**_
 
-    
-    
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   206   88   81    31   74%    62   52%   
        2 Houdini 6.03       148   83   79    31   65%    70   58%   
@@ -163,13 +129,9 @@ _**Ratings so far:**_
        5 Ethereal 10.88      43   79   80    30   42%    86   70%   
        6 Booot 6.3.1         22   78   80    30   37%    93   73%   
        7 Andscacs 0.94        3   79   83    31   34%    98   61%   
-       8 Fire 7.1             0   82   86    31   34%    98   48%   
-    
+       8 Fire 7.1             0   82   86    31   34%    98   48% 
 
-  
-  
-  
-And the games of Leela (games 16-31, for 1-15 see the previous blog post):  
+And the games of Leela (games 16-31, for 1-15 see the previous blog post):
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 2"] [Site "Chess.com"] [Date
 "2018.09.19"] [Round "?"] [White "Lc0 17.11089"] [Black "Andscacs 0.94"]
@@ -566,85 +528,83 @@ b4 36. Nb1 f4 37. g4 Rd3 38. Nd2 Kf7 39. Nf3 Ne6 40. Rd2 Rd5 41. Rxd5 cxd5 42.
 b3 Kg7 43. Kf1 Kh7 44. Ke2 Kg7 45. Nd2 Nc5 46. Kf3 Ne6 47. Ke2 Nc5 48. Kf3 Ne6
 49. Ke2 1/2-1/2
 
-  
-  
-Results so far:  
-  
+Results so far:
+
 61 Lc0-Andscacs 1/2-1/2  
 62 Komodo-Stockfish 1/2-1/2  
 63 Booot-Houdini 1/2-1/2  
-64 Fire-Ethereal 1-0  
-  
+64 Fire-Ethereal 1-0
+
 65 Andscacs-Komodo 1/2-1/2  
 66 Houdini-Lc0 1/2-1/2  
 67 Stockfish-Fire 1/2-1/2  
-68 Ethereal-Booot 1/2-1/2  
-  
+68 Ethereal-Booot 1/2-1/2
+
 69 Houdini-Andscacs 1-0  
 70 Fire-Komodo 1/2-1/2  
 71 Lc0-Ethereal 1/2-1/2  
-72 Booot-Stockfish 1/2-1/2  
-  
+72 Booot-Stockfish 1/2-1/2
+
 73 Andscacs-Fire 1/2-1/2  
 74 Ethereal-Houdini 1/2-1/2  
 75 Komodo-Booot 1/2-1/2  
-76 Stockfish-Lc0 1/2-1/2  
-  
+76 Stockfish-Lc0 1/2-1/2
+
 77 Ethereal-Andscacs 1-0  
 78 Booot-Fire 1/2-1/2  
 79 Houdini-Stockfish 1/2-1/2  
-80 Lc0-Komodo 1/2-1/2  
-  
+80 Lc0-Komodo 1/2-1/2
+
 81 Andscacs-Booot 1/2-1/2  
 82 Stockfish-Ethereal 1-0  
 83 Fire-Lc0 0-1  
-84 Komodo-Houdini 1/2-1/2  
-  
+84 Komodo-Houdini 1/2-1/2
+
 85 Stockfish-Andscacs 1-0  
 86 Booot-Lc0 1/2-1/2  
 87 Komodo-Ethereal 1/2-1/2  
-88 Fire-Houdini 0-1  
-  
+88 Fire-Houdini 0-1
+
 89 Andscacs-Lc0 1/2-1/2  
 90 Stockfish-Komodo 1-0  
 91 Houdini-Booot 1/2-1/2  
-92 Ethereal-Fire 1/2-1/2  
-  
+92 Ethereal-Fire 1/2-1/2
+
 93 Komodo-Andscacs 1-0  
 94 Lc0-Houdini 1/2-1/2  
 95 Fire-Stockfish 0-1  
-96 Booot-Ethereal 1/2-1/2  
-  
+96 Booot-Ethereal 1/2-1/2
+
 97 Andscacs-Houdini 1/2-1/2  
 98 Komodo-Fire 1-0  
 99 Ethereal-Lc0 1/2-1/2  
-100 Stockfish-Booot 1-0  
-  
+100 Stockfish-Booot 1-0
+
 101 Fire-Andscacs 1/2-1/2  
 102 Houdini-Ethereal 1-0  
 103 Booot-Komodo 0-1  
-104 Lc0-Stockfish 1/2-1/2  
-  
+104 Lc0-Stockfish 1/2-1/2
+
 105 Andscacs-Ethereal 1/2-1/2  
 106 Fire-Booot 1-0  
 107 Stockfish-Houdini 1-0  
-108 Komodo-Lc0 1/2-1/2  
-  
+108 Komodo-Lc0 1/2-1/2
+
 109 Booot-Andscacs 1/2-1/2  
 110 Ethereal-Stockfish 1/2-1/2  
 111 Lc0-Fire 1-0  
-112 Houdini-Komodo 1-0  
-  
+112 Houdini-Komodo 1-0
+
 113 Andscacs-Stockfish 0-1  
 114 Lc0-Booot 1/2-1/2  
 115 Ethereal-Komodo 1/2-1/2  
-116 Houdini-Fire 1-0  
-  
+116 Houdini-Fire 1-0
+
 117 Lc0-Andscacs 1/2-1/2  
 118 Komodo-Stockfish 1/2-1/2  
 119 Booot-Houdini 1/2-1/2  
-120 Fire-Ethereal 1-0  
-  
+120 Fire-Ethereal 1-0
+
 121 Andscacs-Komodo 1/2-1/2  
 122 Houdini-Lc0 1/2-1/2  
 123 Stockfish-Fire 1-0  

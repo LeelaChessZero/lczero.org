@@ -12,12 +12,9 @@ jhjhgj8798.png)](https://1.bp.blogspot.com/-hE7K5GYGENM/W8Btv-
 SI9TI/AAAAAAAAAZo/z4T1bsQDMIE9RHJZYmEUUR-
 kEYcvFMnVgCLcBGAs/s1600/jhjhgj8798.png)
 
-  
-  
 CCCC blitz tournament is running and till now Leela is having a good
-performance being steadily on the top 3.  
-  
-  
+performance being steadily on the top 3.
+
  _Conditions for the tournament are:_  
 • **33 engines play a 4x Round Robin** tournament with each engine that will
 play each other 4 times(2 with black and 2 with white) in a total of 128 games
@@ -29,22 +26,21 @@ determinism of multithreaded search(traditional engines that use more than 1
 threads/cores are not deterministic, even Leela that uses more than 1 CPU
 threads it's not(Leela mainly uses GPU for its search, but uses also CPUs)).
 This is of course not that wise decision and they should use predefined
-positions for the second part of the Round Robin.  
-  
-•Time control of **5 minutes per game plus 2 seconds added time per move.**  
-  
+positions for the second part of the Round Robin.
+
+•Time control of **5 minutes per game plus 2 seconds added time per move.**
+
 • All engines except Leela use **46 physical cores** on a 2 x Intel Xeon
 Platinum 8168, 2.70 GHz system with 8 GB hash, while Leela uses **2 Tesla V100
-GPUs** on an Intel Xeon , 2.70 GHz.  
-  
-•Full **3,4,5 and 6 syzygy** **endgame tablebases** are being used.  
-  
-  
+GPUs** on an Intel Xeon , 2.70 GHz.
+
+•Full **3,4,5 and 6 syzygy** **endgame tablebases** are being used.
+
 Till now **Leela** had 15 wins and 4 draws and no losses!  
 Leela is playing with **0.18.1** version of **Lc0** with the **11248** net and
 with 3,4,5,6 syzygy endgame tablebases(even though for the first 14 games she
-was playing with about half the set of the tablebases).  
-  
+was playing with about half the set of the tablebases).
+
 Leela had some impressive wins so far, especially the games against Shredder
 and Andscacs with Leela as black playing the Sicilian Najdorf and completely
 outplaying its opponents were very impressive.  
@@ -52,14 +48,14 @@ Leela seems to have a much better performance till now against weaker engines
 compared to the CCCC event. This must be a combination of the new stronger
 11248(than 11089 that was used there) net, the use of tablebases and that the
 5'+2" time controls used here is shorter from the 15'+5" that was used in main
-CCCC as Leela seems to be better at shorter time controls.  
-  
-  
+CCCC as Leela seems to be better at shorter time controls.
+
 Standings so far:  
 | Player | Score  | (SB)  | H | S | L | F | E | L | A | S | K | B | X | C | T
 | F | K | V | G | P | A | W | C | N | H | E | I | F | N | P | B | S | B | C |
 A | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
 1: | Houdini 6.03 | 18.0 / 20 | 150.75  | X | = | = | . | . | . | . | 1 | . |
 . | . | 1 | . | 1 | 1 | 1 | 1 | 1 | 1 | . | 1 | 1 | . | 1 | 1 | = | 1 | = | .
 | 1 | 1 | . | 1| (+16 -0 =4)  
@@ -158,71 +154,53 @@ A | +/-/=
 = | = | X | =| (+1 -13 =5)  
 33: | Alfilx64 | 2.0 / 20 | 13.75  | 0 | . | 0 | 0 | 0 | 0 | = | 0 | 0 | 0 | 0
 | . | 0 | . | 0 | . | . | 0 | . | 0 | . | 0 | 0 | . | . | . | 0 | = | = | . |
-. | = | X| (+0 -16 =4)  
-  
-  
-  
-  
-  
-Some statistics:  
-  
+. | = | X| (+0 -16 =4)
 
-    
-    
+Some statistics:
+
                        Games     1-0     =-=     0-1       
     ------------------------------------------------------  
      All report games    316     114     126      76       
                                 36.0%   39.8%     24.0%  
-    ------------------------------------------------------  
-    
+    ------------------------------------------------------
 
-  
 Till now draws are not that frequent, only **39.8% of games are drawn,** and
 this can be explained because the difference in strength between top and lower
-end engines is very big.  
-  
-  
-  
+end engines is very big.
+
  **Shortest wins (White)**  
 1: 1-0(38) Booot 6.3.1 - Ivanhoe 999946h  
 2: 1-0(40) Houdini 6.03 - Senpai 2.0  
 3: 1-0(42) Houdini 6.03 - Alfilx64  
 4: 1-0(42) Xiphos 0.4.3 - Alfilx64  
-5: 1-0(43) Houdini 6.03 - Bobcat 8.0  
-  
+5: 1-0(43) Houdini 6.03 - Bobcat 8.0
+
 **Shortest wins (Black)**  
 1: 0-1(51) Andscacs 0.9403 - Lc0 0.18.1  
 2: 0-1(59) Alfilx64 - Fire 7.1  
 3: 0-1(59) Pedone 1.8 - Houdini 6.03  
 4: 0-1(62) Crafty 25.2 - Stockfish 18092721  
-5: 0-1(63) Arasan 21.1 - Shredder 13  
-  
-The percentage of opening selection of engines. We remind that engines choose
-all the moves by themselves.  
+5: 0-1(63) Arasan 21.1 - Shredder 13
 
-    
-    
+The percentage of opening selection of engines. We remind that engines choose
+all the moves by themselves.
+
         Move      Frequency    Score  Draw AvElo Perf AvYear ECO  
      1: e4        210: 66.4%   53.0%  42%  2990  2973  2018 B00a   
      2: d4         89: 28.1%   62.3%  37%  2821  2999  2018 A40a   
      3: Nf3        15:  4.7%   63.3%  20%  3146  3216  2018 A04    
      4: Nc3         1:  0.3%    0.0%   0%              2018 A00l   
-     5: e3          1:  0.3%   50.0% 100%              2018 A00k   
-    
+     5: e3          1:  0.3%   50.0% 100%              2018 A00k 
 
-  
 Again the French Defense is dominating engines' preference.  
- _(click to zoom)_  
+ _(click to zoom)_
 
 [![](../../images/2018-10-12-cccc-blitz-tournament-is-running-and-
-hjkhkh789798.png)](https://3.bp.blogspot.com/-Yij_edvQiJs/W8BrqW733vI/AAAAAAAAAZc/kvSTU9uYGZA5rf9S_Pth6FSsFKvprfE8QCLcBGAs/s1600/hjkhkh789798.png)
+hjkhkh789798.png)](https://3.bp.blogspot.com/-Yij_edvQiJs/W8BrqW733vI/AAAAAAAAAZ
+c/kvSTU9uYGZA5rf9S_Pth6FSsFKvprfE8QCLcBGAs/s1600/hjkhkh789798.png)
 
-  
-  
-Ratings so far:  
+Ratings so far:
 
-    
-    
     Rank Name                 Elo    +    - games score oppo. draws   
        1 Stockfish 18092721   600  171  135    19   89%   302   21%   
        2 Houdini 6.03         591  174  139    20   90%   274   20%   
@@ -256,12 +234,9 @@ Ratings so far:
       30 Black Mamba          128  119  130    20   28%   285   35%   
       31 Bobcat 8.0           120  122  137    20   20%   318   40%   
       32 Crafty 25.2           55  128  149    19   18%   276   26%   
-      33 Alfilx64               0  137  172    20   10%   318   20%   
-    
+      33 Alfilx64               0  137  172    20   10%   318   20% 
 
-  
-  
-Leela's games:  
+Leela's games:
 
 [Event "CCC 2: Blitz Battle (5|2)"] [Site "Chess.com"] [Date "2018.10.08"]
 [Round "?"] [White "Lc0 0.18.1"] [Black "Black Mamba"] [Result "1-0"] [ECO

@@ -8,20 +8,19 @@ draft = true
 +++
 
 [![](../../images/2018-09-13-cccc-rounds-32333435-and-36-leela-with-
-gtuytu6767.png)](https://4.bp.blogspot.com/-MZ3EIaz76lo/W5pvM_o5nqI/AAAAAAAAATI/pSn3Oc3c1pEpCeXImmouDbe2kK2YemtIACLcBGAs/s1600/gtuytu6767.png)
+gtuytu6767.png)](https://4.bp.blogspot.com/-MZ3EIaz76lo/W5pvM_o5nqI/AAAAAAAAATI/
+pSn3Oc3c1pEpCeXImmouDbe2kK2YemtIACLcBGAs/s1600/gtuytu6767.png)
 
-  
-  
 First round CCCC approaches to its end and situation is clear by now.  
 Houdini, Komodo and Stockfish will be in top 3 advancing to stage 2, with
 Stockfish and Komodo to fight for the 1st place in this 1st stage, thatdoesn't
 mean much anyway, Fire and Leela would most probably advance to the next round
 also with some minor chances of not achieving it, and Shredder, Booot,
-Ethereal and Andscacs will fight for the other 3 places for stage 2.  
-  
+Ethereal and Andscacs will fight for the other 3 places for stage 2.
+
 Leela had 5 draws in these 5 rounds with 2 easy and 3 very hard opponents and
-she has 7 consecutive draws.  
-  
+she has 7 consecutive draws.
+
 Simulations using Bayeselo give right now(after and the Andscacs-Inavhoe 1-0
 game of round 37):  
 Probability to promote:  
@@ -33,17 +32,15 @@ Fire 100 %
 Shredder 90.33 %  
 Booot 81.67 %  
 Andscacs 77.67 %  
-Ethereal 44.67 %  
-  
-  
+Ethereal 44.67 %
+
  **ROUND 32**  
 Leela had an extra-disastrous opening with Senpai and never managed to recover
 so it ended in a draw. Against the very weak in this CCCC Senpai, Leela had to
 win but the selection of the opening moves was a nightmare and even with
 Senpai playing sub optimal moves, Leela never really managed to get an
-advantage so it was easy draw.  
-  
-  
+advantage so it was easy draw.
+
 373 Nirvana vs Andscacs 0-1  
 374 Pedone vs Nemorino 1-0  
 375 **Lc0** vs Senpai 1/2-1/2  
@@ -55,8 +52,7 @@ advantage so it was easy draw.
 381 Fritz vs Xiphos 1/2-1/2  
 382 Arasan vs Fizbo 1-0  
 383 Fire vs Booot 1/2-1/2  
-384 Crafty vs Ethereal 0-1  
-  
+384 Crafty vs Ethereal 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.11"] [Round "?"] [White "Lc0 17.11089"] [Black "Senpai 2.0"] [Result
@@ -103,24 +99,21 @@ Leela. The opening was a disaster and couldn't turn the tables from there.
 These are 3200+ Elo engines so it's never easy to recover after such a bad
 opening choice.} 1/2-1/2
 
-  
-  
 **ROUND 33**  
 Leela against another very weak in this CCCC engine, didn't manage to win
 again, because her opening treatment was not perfect, against going for a very
 open center that does not suit her. She took a small advantage but it was not
 enough.  
-Stockfish won against Houdini in this round so Houdini now has 2 losses.  
-  
+Stockfish won against Houdini in this round so Houdini now has 2 losses.
+
 Ethereal lost to Arasan with white and that was a big surprise but the way it
 lost is very odd and must be due to hardware problems. Ethereal played
 **59.Nxd5??** an incredible blunder that only considers at depth 1. Afterwards
 examination of the logs showed it has spent 6 seconds at depth a that is a
 factor of 1000 more than what normally does so there had to be a problem with
 Ethereal's usage of hardware. CCCC should probably examine if they have to
-replay the game preferably from the position before Nxd5.  
-  
-  
+replay the game preferably from the position before Nxd5.
+
 385 Andscacs vs Nemorino 1-0  
 386 Nirvana vs **Lc0** 1/2-1/2  
 387 Laser vs Pedone 0-1  
@@ -132,9 +125,7 @@ replay the game preferably from the position before Nxd5.
 393 Fizbo vs Wasp 1/2-1/2  
 394 Xiphos vs Fire 0-1  
 395 Ethereal vs Arasan 0-1  
-396 Booot vs Crafty 1-0  
-  
-  
+396 Booot vs Crafty 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.11"] [Round "?"] [White "Nirvana 2.4"] [Black "Lc0 17.11089"] [Result
@@ -188,17 +179,14 @@ Bb7 Kg5 234. Ba8 Kg4 235. Bb7 Kh5 236. Ba8 Kg5 237. Bb7 Kh6 238. Ba8 Kg6 239.
 Bb7 Kg7 240. Ba8 Kh6 241. Bb7 Kh7 242. Ba8 Kg7 243. Bb7 Kh8 244. Ba8 Kh7 245.
 Bb7 g2 246. Bxg2 1/2-1/2
 
-  
-  
 ROUND 34  
 Leela at last, had this time a normal opening and tried against Andscacs to
 gain some decisive advantage but Andscacs played very well and some times it's
 not easy to win.  
 Ethereal drew Wasp and Shredder didn't manage to win against Gull with white
 so they lost some ground for the top 8 battle, since Booot won against Arasan
-with black.  
-  
-  
+with black.
+
 397 **Lc0** vs Andscacs 1/2-1/2  
 398 Nemorino vs Laser 0-1  
 399 Komodo vs Nirvana 1-0  
@@ -210,9 +198,7 @@ with black.
 405 Fire vs Vajolet 1-0  
 406 Wasp vs Ethereal 1/2-1/2  
 407 Crafty vs Xiphos 0-1  
-408 Arasan vs Booot 0-1  
-  
-  
+408 Arasan vs Booot 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.12"] [Round "?"] [White "Lc0 17.11089"] [Black "Andscacs 0.94"]
@@ -246,8 +232,6 @@ Kg7 92. Ke3 Kf7 93. Kf3 Kg7 94. Ra5 Kg6 95. Rg5+ Kh6 96. Rc5 Kg6 97. Ra5 Rc4
 Rb4 110. Ra8 Kg6 111. Ra5 Rc4 112. Kf3 Rb4 113. Rc5 Rb8 114. Rc6+ Kf5 115.
 Rc5+ Kg6 116. Rg5+ Kf6 117. Ra5 Rb3+ 118. Ke4 Rb4+ 119. Kf3 Kg6 1/2-1/2
 
-  
-  
 **ROUND 35**  
 Leela with white pieces faced the CCCC till that time leader Komodo and after
 a rather dubious opening choice she quickly managed to gain a small advantage.
@@ -263,13 +247,11 @@ She(the test 10 nets generally, as also one of them 11089 that is being used
 in CCCC) obviously lacks specific endgame knowledge for some endings
 especially with opposite color Bishops endings but a new test 20 is being run
 and hopefully will provide better endgame, even though other training methods
-for endgames are examined also.  
-  
-  
+for endgames are examined also.
+
 Boot won again and since Ethereal and Andscacs drew and Shredder lost to
-Fizbo(!), its 2nd loss in CCCC, it got a step closer to next stage.  
-  
-  
+Fizbo(!), its 2nd loss in CCCC, it got a step closer to next stage.
+
 409 Andscacs vs Laser 1/2-1/2  
 410 **Lc0** vs Komodo 1/2-1/2  
 411 Ivanhoe vs Nemorino 0-1  
@@ -281,9 +263,7 @@ Fizbo(!), its 2nd loss in CCCC, it got a step closer to next stage.
 417 Ethereal vs Texel 1/2-1/2  
 418 Vajolet vs Crafty 1-0  
 419 Booot vs Wasp 1-0  
-420 Xiphos vs Arasan 1/2-1/2  
-  
-  
+420 Xiphos vs Arasan 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.12"] [Round "?"] [White "Lc0 17.11089"] [Black "Komodo 2118.00"]
@@ -454,22 +434,18 @@ reached a won position, but missed the chance to give the final blow several
 times and it ended in this CCCC record of most moves with 395 moves and a
 draw!} 1/2-1/2
 
-  
-  
 **ROUND 36**  
 Another round with a very tough opponent for Leela, one of the biggest tests
 for her as she faced with black Houdini. Yet, she very easily with some
 paradoxical middlegame play, seemingly not paying that much attention to the
 strong white forces that gathered in the Kingside and could threaten  
 the black King, it managed not only to equalize but to achieve and a minor
-edge! It was not enough though with the solid play by Houdin.  
-  
+edge! It was not enough though with the solid play by Houdin.
+
 Shredder had a draw with Ethereal, Boot with Texel and Andscacs lost to Komodo
 so the battle for top 8 continues in a dramatic fashion since many critical
-games, like Booot-Shredder of next round are coming.  
-  
-  
-  
+games, like Booot-Shredder of next round are coming.
+
 421 Komodo vs Andscacs 1-0  
 422 Laser vs Ivanhoe 1-0  
 423 Houdini vs **Lc0** 1/2-1/2  
@@ -481,9 +457,7 @@ games, like Booot-Shredder of next round are coming.
 429 Crafty vs Stockfish 0-1  
 430 Texel vs Booot 1/2-1/2  
 431 Arasan vs Vajolet 1/2-1/2  
-432 Wasp vs Xiphos 0-1  
-  
-  
+432 Wasp vs Xiphos 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.13"] [Round "?"] [White "Houdini 6.03"] [Black "Lc0 17.11089"]
@@ -511,14 +485,12 @@ has now managed not to lose none of the 6 games with the big 3 engines as she
 drew both with black and white rather very comfortably(and she could have won
 her white game with Komodo actually) Stockfish, Komodo and Houdini.} 1/2-1/2
 
-  
-  
-  
-_**Standings after round 36 of 46.**_ First 8 go to next stage.  
-  
+_**Standings after round 36 of 46.**_ First 8 go to next stage.
+
 | Player | Score  | (SB)  | Ko | St | Ho | Fi | Lc | Sh | An | Bo | Et | Te |
 Fr | Pe | Xi | Ar | Va | La | Gu | Fi | Wa | Ne | Iv | Se | Ni | Cr | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Komodo 2118.00 | 30.0 / 37 | 496.75  | XX | == | == | 1. | == | 1. | =1 |
 1= | =1 | 1. | =. | 1. | =1 | =. | 11 | 1= | =1 | 11 | 1. | 1. | 11 | 11 | 11
 | 1.| (+23 -0 =14)  
@@ -590,14 +562,10 @@ Fr | Pe | Xi | Ar | Va | La | Gu | Fi | Wa | Ne | Iv | Se | Ni | Cr | +/-/=
 0.| (+1 -26 =9)  
 24: | Crafty 25.2 | 5.0 / 36 | 62.00  | 0. | 00 | 0. | 0. | =. | 00 | 0. | 00
 | 00 | 00 | 0. | 00 | 00 | 0. | 00 | 01 | 00 | 0= | =. | =0 | =0 | =. | 1. |
-XX| (+2 -28 =6)  
-  
-  
-  
- _ **Rating performance so far after round 36** (plus some round 37 games):_  
+XX| (+2 -28 =6)
 
-    
-    
+ _ **Rating performance so far after round 36** (plus some round 37 games):_
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   520  105   94    36   82%   281   36%   
        2 Komodo 2118.00     506  102   91    37   81%   278   38%   
@@ -622,10 +590,8 @@ XX| (+2 -28 =6)
       21 Ivanhoe 999946h    142   92   99    37   28%   295   30%   
       22 Senpai 2.0         103   93  103    36   21%   310   36%   
       23 Nirvana 2.4         42  100  116    36   15%   309   25%   
-      24 Crafty 25.2          0  104  125    36   14%   293   17%   
-    
+      24 Crafty 25.2          0  104  125    36   14%   293   17% 
 
-  
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
 because Gull crashed, was 1-0 in favor of Lc0.

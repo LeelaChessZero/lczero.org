@@ -8,37 +8,35 @@ draft = true
 +++
 
 [![](../../images/2018-10-02-cccc-leela-komodo-3rd-place-match-
-hkjhk87987979798799.png)](https://2.bp.blogspot.com/-sl82CL68l_s/W7Mxp5OJ_TI/AAAAAAAAAWc/ABvo3gtIc8wOe2kXiByX9KIACm9wPdPXgCLcBGAs/s1600/hkjhk87987979798799.png)
+hkjhk87987979798799.png)](https://2.bp.blogspot.com/-sl82CL68l_s/W7Mxp5OJ_TI/AAA
+AAAAAAWc/ABvo3gtIc8wOe2kXiByX9KIACm9wPdPXgCLcBGAs/s1600/hkjhk87987979798799.png)
 
-  
 TCEC Cup is about to start in a few days and _**Chessdom.com**_ just
 [announced the complete pairings](http://www.chessdom.com/tcec-
-cup-2018-brackets/) up to the final.  
-  
+cup-2018-brackets/) up to the final.
+
 Leela is on the Stockfish side and if she will promote from the first match
 against Laser she will probably face Ethereal in round of 16, so it will be a
 tough match already.  
 But first has to overcome Laser of course.  
  **Leela** in TCEC Cup will use the **v18 of Lc0** and **11248** net of
-test10.  
-  
-Here is the format of TCEC Cup:  
-  
-(click to zoom)  
+test10.
+
+Here is the format of TCEC Cup:
+
+(click to zoom)
 
 [![](../../images/2018-10-02-cccc-leela-komodo-3rd-place-match-
-hgjhgj686868.png)](https://4.bp.blogspot.com/-kAVSZsPj3Qs/W7MyX_2Ex7I/AAAAAAAAAWk/7aRCCIlzLVMv7hGUswj48QdxWnMh-X5qwCLcBGAs/s1600/hgjhgj686868.png)
+hgjhgj686868.png)](https://4.bp.blogspot.com/-kAVSZsPj3Qs/W7MyX_2Ex7I/AAAAAAAAAW
+k/7aRCCIlzLVMv7hGUswj48QdxWnMh-X5qwCLcBGAs/s1600/hgjhgj686868.png)
 
-  
-  
 All games will be played with time control of 30 minutes plus 10 second per
 move increment with pondering off.  
 Each pair of engines in every round will will play 8 games, 4 with black and 4
 with white with 4 predefined positions with reversed colors.  
 More about the details of TCEC Cup
-[HERE....](http://blog.lczero.org/2018/09/tcec-cup-in-next-days.html)  
-  
-  
+[HERE....](../../../2018/09/tcec-cup-in-next-days.html)
+
 On the other side, in _**Chess.com**_ the 3rd place 30 games match has started
 and [ is running](https://www.chess.com/computer-chess-championship) between
 **Leela** (11089 net with v17) **** and **Komodo** and after 4 games Leela is
@@ -47,11 +45,9 @@ Openings are supposed to be reversed so each engine will play the same opening
 once with black and once with white, but due to some bug maybe, opening in the
 3rd game was the same with games 1-2 but Komodo deviated in 10th move so it
 was a completely different game. That 3rd game was an impressive outplay of
-Komodo by Leela where Leela locked Komodo's Bishop in a cage.  
-  
-  
-Leela's games so far:  
-  
+Komodo by Leela where Leela locked Komodo's Bishop in a cage.
+
+Leela's games so far:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 3"] [Site "Chess.com"] [Date
 "2018.10.02"] [Round "?"] [White "Komodo 2118.00"] [Black "Lc0 17.11089"]
@@ -168,7 +164,5 @@ Kd6 155. Ra3 Bh5 156. Ra6+ Kc7 157. Ra2 Nf1+ 158. Kf2 Nh2 159. Kg3 Nf1+ 160.
 Kf2 Nh2 161. Ra7+ Kb6 162. Re7 Nf3 163. Re3 Nd2 164. Re5 Bd1 165. Rd5 Ne4+
 166. Ke3 Nd2 1/2-1/2
 
-  
-  
 _Hats off to anyone that noticed that the Chessboard of the initial picture is
 not placed correctly :)_

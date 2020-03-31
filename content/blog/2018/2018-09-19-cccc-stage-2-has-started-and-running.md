@@ -8,34 +8,30 @@ draft = true
 +++
 
 [![](../../images/2018-09-19-cccc-stage-2-has-started-and-running-
-gjhgjh5646656.png)](https://3.bp.blogspot.com/-lGHa_mdgxi0/W6I3wkCHR7I/AAAAAAAAAT8/49LSvniHtMsGdfihdKwEZrM3EjsNew4OACLcBGAs/s1600/gjhgjh5646656.png)
+gjhgjh5646656.png)](https://3.bp.blogspot.com/-lGHa_mdgxi0/W6I3wkCHR7I/AAAAAAAAA
+T8/49LSvniHtMsGdfihdKwEZrM3EjsNew4OACLcBGAs/s1600/gjhgjh5646656.png)
 
-  
-  
 **Stage 2** of CCCC has already started before 2 days. Not without problems
 initially with repeating restarts but at last now it's running flawlessly.  
  **Stockfish** continues to be invincible! As it hasn't lost a single game in
 the first 46 games of stage 1 plus the 15th till now in stage 2.  
-While the so far unbeatable too Komodo, in this stage lost to Houdini.  
-  
+While the so far unbeatable too Komodo, in this stage lost to Houdini.
+
  **Leela** on the other hand had after 6 games with the big 3, 6 draws as in
 stage 1. So now she is the only engine that has not lost a game from the big
 3. She is going fine also generally till now since she won 4 games also and
 shares 3rd place with Komodo. She lost 1 game though due to a huge blunder
-with a blind spot of her in an equal position.  
-  
+with a blind spot of her in an equal position.
+
 Every engine will play 10 times all the other so 70 games for each engine will
 be played in this stage.  
-Top 2 will promote to the super final.  
-  
-  
+Top 2 will promote to the super final.
+
 Below are the results, the games of Leela with some comments as also the
-standings and ratings.  
-  
-  
-  
- **Standings so far:**  
-  
+standings and ratings.
+
+ **Standings so far:**
+
 | Player | Score  | (SB)  | Sto | Hou | Lc0 | Kom | Eth | And | Boo | Fir |
 +/-/=  
 ---|---|---|---|---|---|---|---|---|---|---|---|---  
@@ -54,15 +50,10 @@ standings and ratings.
 7: | Booot 6.3.1 | 5.0 / 15 | 34.75  | =0. | =0. | 00= | 0=. | ==. | ==. | XXX
 | ==.| (+0 -5 =10)  
 8: | Fire 7.1 | 4.0 / 14 | 25.50  | 00. | 00. | =0. | 0=. | ==. | ==. | ==. |
-XXX| (+0 -6 =8)  
-  
-  
-  
-  
- **Ratings so far:**  
+XXX| (+0 -6 =8)
 
-    
-    
+ **Ratings so far:**
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   215  122  111    15   73%    84   53%   
        2 Houdini 6.03       187  125  116    14   68%    92   50%   
@@ -71,13 +62,9 @@ XXX| (+0 -6 =8)
        5 Ethereal 10.88      76  107  109    15   43%   111   73%   
        6 Booot 6.3.1         30  108  114    15   33%   117   67%   
        7 Andscacs 0.94       25  112  119    15   33%   122   53%   
-       8 Fire 7.1             0  114  124    14   29%   119   57%   
-    
+       8 Fire 7.1             0  114  124    14   29%   119   57% 
 
-  
-  
-And the games of Leela with some comments:  
-  
+And the games of Leela with some comments:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 2"] [Site "Chess.com"] [Date
 "2018.09.17"] [Round "?"] [White "Lc0 17.11089"] [Black "Booot 6.3.1"] [Result
@@ -645,79 +632,77 @@ a6 Be1 100. a7 Ra3 101. Kb7 Rb3+ 102. Kc6 Ra3 103. Kb7 Rb3+ 104. Kc8 Ra3 105.
 Kb8 Bg3+ 106. Kb7 Rb3+ 107. Ka6 Ra3+ 108. Kb7 Rb3+ 109. Kc8 Ra3 110. Rc6+ Ke7
 111. Kb7 Rb3+ 112. Kc8 Ra3 113. Kb7 Rb3+ 114. Kc8 Ra3 1/2-1/2
 
-  
-  
 STAGE 2 results:  
 1 Andscacs-Stockfish 0-1  
 2 ****Lc0**** -Booot 1-0  
 3 Ethereal-Komodo 0-1  
-4 Houdini-Fire 1-0  
-  
+4 Houdini-Fire 1-0
+
 5 **Lc0** -Andscacs 1-0  
 6 Komodo-Stockfish 1/2-1/2  
 7 Booot-Houdini 1/2-1/2  
-8 Fire-Ethereal 1/2-1/2  
-  
+8 Fire-Ethereal 1/2-1/2
+
 9 Andscacs-Komodo 0-1  
 10 Houdini- **Lc0** 1/2-1/2  
 11 Stockfish-Fire 1-0  
-12 Ethereal-Booot 1/2-1/2  
-  
+12 Ethereal-Booot 1/2-1/2
+
 13 Houdini-Andscacs 1-0  
 14 Fire-Komodo 0-1  
 15 **Lc0** -Ethereal 1/2-1/2  
-16 Booot-Stockfish 1/2-1/2  
-  
+16 Booot-Stockfish 1/2-1/2
+
 17 Andscacs-Fire 1/2-1/2  
 18 Ethereal-Houdini 0-1  
 19 Komodo-Booot 1-0  
-20 Stockfish- **Lc0** 1/2-1/2  
-  
+20 Stockfish- **Lc0** 1/2-1/2
+
 21 Ethereal-Andscacs 1-0  
 22 Booot-Fire 1/2-1/2  
 23 Houdini-Stockfish 1/2-1/2  
-24 **Lc0** -Komodo 1/2-1/2  
-  
+24 **Lc0** -Komodo 1/2-1/2
+
 25 Andscacs-Booot 1/2-1/2  
 26 Stockfish-Ethereal 1-0  
 27 Fire- **Lc0** 1/2-1/2  
-28 Komodo-Houdini 0-1  
-  
+28 Komodo-Houdini 0-1
+
 29 Stockfish-Andscacs 1-0  
 30 Booot- **Lc0** 0-1  
 31 Komodo-Ethereal 1/2-1/2  
-32 Fire-Houdini 0-1  
-  
+32 Fire-Houdini 0-1
+
 33 Andscacs- **Lc0** 1-0  
 34 Stockfish-Komodo 1/2-1/2  
 35 Houdini-Booot 1-0  
-36 Ethereal-Fire 1/2-1/2  
-  
+36 Ethereal-Fire 1/2-1/2
+
 37 Komodo-Andscacs 1/2-1/2  
 38 **Lc0** -Houdini 1/2-1/2  
 39 Fire-Stockfish 0-1  
-40 Booot-Ethereal 1/2-1/2  
-  
+40 Booot-Ethereal 1/2-1/2
+
 41 Andscacs-Houdini 1/2-1/2  
 42 Komodo-Fire 1/2-1/2  
 43 Ethereal- **Lc0** 1/2-1/2  
-44 Stockfish-Booot 1-0  
-  
+44 Stockfish-Booot 1-0
+
 45 Fire-Andscacs 1/2-1/2  
 46 Houdini-Ethereal 1/2-1/2  
 47 Booot-Komodo 1/2-1/2  
-48 **Lc0** -Stockfish 1/2-1/2  
-  
+48 **Lc0** -Stockfish 1/2-1/2
+
 49 Andscacs-Ethereal 1/2-1/2  
 50 Fire-Booot 1/2-1/2  
 51 Stockfish-Houdini 1-0  
-52 Komodo- **Lc0** 1/2-1/2  
-  
+52 Komodo- **Lc0** 1/2-1/2
+
 53 Booot-Andscacs 1/2-1/2  
 54 Ethereal-Stockfish 1/2-1/2  
 55 **Lc0** -Fire 1-0  
-56 Houdini-Komodo 1/2-1/2  
-  
+56 Houdini-Komodo 1/2-1/2
+
 57 Andscacs-Stockfish 1/2-1/2  
 58 **Lc0** -Booot 1/2-1/2  
 59 Ethereal-Komodo 1/2-1/2  

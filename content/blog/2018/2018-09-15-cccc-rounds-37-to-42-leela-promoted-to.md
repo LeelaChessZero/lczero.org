@@ -8,27 +8,22 @@ draft = true
 +++
 
 [![](../../images/2018-09-15-cccc-rounds-37-to-42-leela-promoted-to-
-ghjgjh5667.png)](https://3.bp.blogspot.com/-515yWrtXY0g/W51KlIoFVCI/AAAAAAAAATU/pZ9I0J3nyCs5cHwI5pCIRzDy_uVsYFgzQCLcBGAs/s1600/ghjgjh5667.png)
+ghjgjh5667.png)](https://3.bp.blogspot.com/-515yWrtXY0g/W51KlIoFVCI/AAAAAAAAATU/
+pZ9I0J3nyCs5cHwI5pCIRzDy_uVsYFgzQCLcBGAs/s1600/ghjgjh5667.png)
 
-  
-  
 CCCC continues and **Leela** , along with **Stockfish** , **Houdini** ,
 **Komodo** and **Fire** , already has secured a place in the 2nd stage.  
 Ethereal after a strong finish, mainly winning in the last games, has almost
 secured the promotion. Booot has also many chances.  
 While Shredder and Andscacs are the ones that are competing for the final 8th
 place right now with Shredder to be ahead, but having difficult opponents to
-face in the next 4 rounds.  
-  
-  
-  
+face in the next 4 rounds.
+
  **ROUND 37**  
 Leela won a fine game against Fritz with an opposite colors Bishops ending
 with Rooks also. Leela outplayed Fritz that made some mistakes being short on
-time since it played in the beginning very slowly.  
-  
-  
-  
+time since it played in the beginning very slowly.
+
 433 Andscacs vs Ivanhoe 1-0  
 434 Komodo vs Houdini 1/2-1/2  
 435 Gull vs Laser 1/2-1/2  
@@ -40,8 +35,7 @@ time since it played in the beginning very slowly.
 441 Booot vs Shredder 1/2-1/2  
 442 Stockfish vs Arasan 1-0  
 443 Xiphos vs Texel 1/2-1/2  
-444 Vajolet vs Wasp 1/2-1/2  
-  
+444 Vajolet vs Wasp 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.13"] [Round "?"] [White "Lc0 17.11089"] [Black "Fritz 16.10"] [Result
@@ -129,8 +123,6 @@ in an opposite Bishop ending with Rooks. Fritz lost a similar one in this
 tournament from Stockfish. Fritz could draw this one in at least 2 cases but
 missed its chance.} 1-0
 
-  
-  
 **ROUND 38**  
 Fire in a sharp Sicilian Najdorf line, managed to win after a blunder of
 Leela. If Leela would have found the correct move she would have drawn the
@@ -144,15 +136,13 @@ Leela. She is not perfect anyway. :)
 And of course this "she" is a bit ambiguous since there are so many nets of
 Leela and most are untested, so no one really knows which is the strongest.
 For sure though, the 11089 that is participating in CCCC, is not the strongest
-as the nets after 11150 are surely stronger.  
-  
+as the nets after 11150 are surely stronger.
+
 Ethereal had its 2nd win on the row and now things do seem better for his
 chances to promote. While Shredder had a shock loss from Xiphos and now
 struggles with the promotion! Andscacs lost from Houdini and also is on a bad
-situation about promotion.  
-  
-  
-  
+situation about promotion.
+
 445 Houdini vs Andscacs 1-0  
 446 Ivanhoe vs Gull 1-0  
 447 Fritz vs Komodo 0-1  
@@ -164,8 +154,7 @@ situation about promotion.
 453 Arasan vs Senpai 1-0  
 454 Shredder vs Xiphos 0-1  
 455 Wasp vs Stockfish 0-1  
-456 Texel vs Vajolet 1/2-1/2  
-  
+456 Texel vs Vajolet 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.13"] [Round "?"] [White "Fire 7.1"] [Black "Lc0 17.11089"] [Result
@@ -215,16 +204,13 @@ Rcd1 43. e6+ Kh4 44. e7 Rxd3 45. e8=Q Rd5 46. Qe2 Nf6 47. Qh8+ Kg5 48. Qxg7+
 Kf5 49. Qc2+ R1d3 50. Qc8+ Ke4 51. Qg6+ Kf3 52. Qh3+ Ke2 53. Qgg2+ Kd1 54.
 Qhf3+ Kc1 55. Qff1+ Rd1 56. Qc4+ Kb1 57. Qgc2+ Ka1 58. Q4c3# 1-0
 
-  
-  
 **ROUND 39**  
 Leela had an easy game against Crafty and won easily while Ethereal got its
 3rd win in a row and now seems in good shape to promote. Boot also won and
 increased its chances for promotion.  
 Shredder lost ground since it drew Vajolet while Andscacs won against Gull in
-an important point.  
-  
-  
+an important point.
+
 457 Andscacs vs Gull 1-0  
 458 Houdini vs Fritz 1/2-1/2  
 459 Fizbo vs Ivanhoe 1-0  
@@ -236,8 +222,7 @@ an important point.
 465 Xiphos vs Pedone 1/2-1/2  
 466 Senpai vs Wasp 0-1  
 467 Vajolet vs Shredder 1/2-1/2  
-468 Stockfish vs Texel 1-0  
-  
+468 Stockfish vs Texel 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.14"] [Round "?"] [White "Lc0 17.11089"] [Black "Crafty 25.2"] [Result
@@ -271,8 +256,6 @@ Kf7 50. g5 fxg5 51. b7 g4 52. Kxe5 g3 53. hxg3 Na6 54. f6 Nb8 55. g4 Kg6 56.
 Ke6 Nc6 57. a6 Nd8+ 58. Kd5 Nxb7 59. axb7 Kh6 60. b8=Q Kg6 61. Qf8 Kh7 62.
 Qg7# 1-0
 
-  
-  
 **ROUND 40**  
 Leela with black won against Arasan in a beautiful game and Ethereal had its 4
 win in the last 4 games and now it's the favorite to promote.  
@@ -282,10 +265,8 @@ In that game Shredder showed how not to play French with white! And it was
 against Stockfish that of course grabbed the chance and did not forgive
 anything! No favors to Shredder from the leader. Shredder did have a really
 bad game and completely lost track of the position and Stockfish won rather
-easily.  
-  
-  
-  
+easily.
+
 469 Fritz vs Andscacs 1/2-1/2  
 470 Gull vs Fizbo 1/2-1/2  
 471 Fire vs Houdini 1/2-1/2  
@@ -297,8 +278,7 @@ easily.
 477 Wasp vs Nirvana 0-1  
 478 Pedone vs Vajolet 0-1  
 479 Texel vs Senpai 1/2-1/2  
-480 Shredder vs Stockfish 0-1  
-  
+480 Shredder vs Stockfish 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.14"] [Round "?"] [White "Arasan CCCC-2018"] [Black "Lc0 17.11089"]
@@ -350,23 +330,19 @@ Rgc8 59. Re1+ Kd6 60. Rd1 Rc5 61. Ra1 e5 62. Rh1 e4 63. Rh3 Rf8 64. Ka1 Ke5
 Re6 d4 72. Ka3 Re5 73. Rf6+ Ke4 74. Rg6 e2 75. Rg4+ Kf5 76. Rg1 Rf1 77. Bc4
 Rxg1 78. Bd3+ Kf4 79. Bxe2 Rb1 80. Ka2 Rb8 81. Bb5 Rexb5 82. Ka1 Ra5# 0-1
 
-  
-  
 **ROUND 41**  
 Leela won another nice game against Wasp this time, again showing some signs
 of not being able to provide the crushing move, the move that will win easily,
 but still managed to get a comfortable win in a game of zugzwangs. A really
 beautiful game played by Leela that won because it made her opponent to be in
-a zugzwang a-la Nimzowitsch style!  
-  
+a zugzwang a-la Nimzowitsch style!
+
 While Ethereal is on a roll since it made its 5th win in the lats 5 games and
 now it's seems improbable that will not promote. Boot won against Ivanhoe also
 almost securing its place in the 2nd stage. Andscacs drew against Fizbo and
 lost a big chance to take a valuable full point since Shredder won against
-Senpai easily.  
-  
-  
-  
+Senpai easily.
+
 481 Andscacs vs Fizbo 1/2-1/2  
 482 Fritz vs Fire 1/2-1/2  
 483 Ethereal vs Gull 1-0  
@@ -378,8 +354,7 @@ Senpai easily.
 489 Vajolet vs Nemorino 1-0  
 490 Nirvana vs Texel 0-1  
 491 Stockfish vs Pedone 1-0  
-492 Senpai vs Shredder 0-1  
-  
+492 Senpai vs Shredder 0-1
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.14"] [Round "?"] [White "Lc0 17.11089"] [Black "Wasp 3.25"] [Result
@@ -437,8 +412,6 @@ gxf6 44. Kxh6 Bc5 45. Re1 {[%cal Ge1h1]} f5 46. Kg6 {[%cal Ge1h1]}) (37... Bc7
 43. Re1 {[%cal Ge1h1]} f3 44. Rh1) 43. axb5 a4 44. b6 a3 45. bxa3 Kh8 46. Kg6
 f4 47. Re1 Rxf7 48. Rh1+ Kg8 49. Bxf7+ Kf8 50. Rh8# 1-0
 
-  
-  
 **ROUND 42**  
 Stockfish continues its rampage winning the last 8 games.  
 Leela also won a very nice game with black outplaying positionaly Texel with
@@ -447,9 +420,8 @@ Shredder won against Nirvana and Andscacs lost to Fire and now it's the
 outsider for promotion even though Shredder has to play difficult opponents in
 next 4 rounds.  
 Booot and Ethereal got 2 draws but probably this would not cost them as they
-will promote.  
-  
-  
+will promote.
+
 493 Fire vs Andscacs 1-0  
 494 Fizbo vs Ethereal 1/2-1/2  
 495 Crafty vs Fritz 0-1  
@@ -461,8 +433,7 @@ will promote.
 501 Texel vs **Lco** 0-1  
 502 Nemorino vs Stockfish 0-1  
 503 Shredder vs Nirvana 1-0  
-504 Pedone vs Senpai 1-0  
-  
+504 Pedone vs Senpai 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.15"] [Round "?"] [White "Texel 1.07"] [Black "Lc0 17.11089"] [Result
@@ -492,14 +463,12 @@ Rxe6 Rc1 62. Rf6+ Kxg4 63. Rg6+ Kf5 64. Rd6 e1=Q 65. Rd5+ Kg4 66. Rd4+ Kg5 67.
 Rd5+ Kh4 68. Rd4+ Kh5 69. Rd5+ Kg4 70. Rd4+ Kf5 71. Rd5+ Kf4 72. Rd4+ Ke5 73.
 Rd1 Qxf2+ 74. Kh3 Qg2+ 75. Kh4 Rxd1 76. Kh5 Rh1# 0-1
 
-  
-  
-  
-_**Standings after round 42 of 46.**_ First 8 go to next stage.  
-  
+_**Standings after round 42 of 46.**_ First 8 go to next stage.
+
 | Player | Score  | (Tie)  | St | Ko | Ho | Lc | Fi | Et | Bo | An | Sh | Fr |
 Xi | Te | La | Pe | Va | Ar | Fi | Gu | Wa | Ne | Iv | Se | Ni | Cr | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Stockfish 220818 | 38.0 / 45 | 787.50  | XX | == | =1 | == | =1 | 11 | 1=
 | =1 | =1 | 1= | =1 | 11 | == | 11 | 11 | =1 | 1. | 11 | 11 | 11 | 11 | 11 |
 11 | 11| (+31 -0 =14)  
@@ -571,16 +540,10 @@ XX | 0= | 0= | 0= | =1 | 1= | =1 | 11 | 11 | == | 11 | 1= | 11 | =1 | 11 | 11
 00| (+2 -32 =11)  
 24: | Crafty 25.2 | 6.5 / 45 | 97.25  | 00 | 00 | 00 | =0 | 00 | 00 | 00 | 00
 | 00 | 00 | 00 | 00 | 01 | 00 | 00 | 0= | 0= | 00 | =. | =0 | =0 | =0 | 11 |
-XX| (+3 -35 =7)  
-  
-  
-  
-  
-  
- _ **Rating performance so far after round 42** (plus some round 43 games):_  
+XX| (+3 -35 =7)
 
-    
-    
+ _ **Rating performance so far after round 42** (plus some round 43 games):_
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   557  103   91    42   85%   289   31%   
        2 Komodo 2118.00     529   98   88    42   82%   285   36%   
@@ -605,19 +568,14 @@ XX| (+3 -35 =7)
       21 Ivanhoe 999946h    140   88   96    42   27%   306   26%   
       22 Senpai 2.0         107   88   97    42   21%   312   33%   
       23 Nirvana 2.4         54   94  108    42   17%   313   24%   
-      24 Crafty 25.2          0   99  118    43   14%   309   14%   
-    
+      24 Crafty 25.2          0   99  118    43   14%   309   14% 
 
-  
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
-because Gull crashed, was 1-0 in favor of Lc0.  
-  
-  
-  
-  
-Next 4 rounds:  
-  
+because Gull crashed, was 1-0 in favor of Lc0.
+
+Next 4 rounds:
+
 ROUND 43  
 505 Andscacs vs Ethereal 1/2-1/2  
 506 Fire vs Crafty 1-0  
@@ -630,8 +588,8 @@ ROUND 43
 513 Stockfish vs Laser  
 514 Lco vs Shredder  
 515 Senpai vs Nemorino  
-516 Nirvana vs Pedone  
-  
+516 Nirvana vs Pedone
+
 ROUND 44  
 517 Crafty vs Andscacs  
 518 Ethereal vs Booot  
@@ -644,8 +602,8 @@ ROUND 44
 525 Shredder vs Komodo  
 526 Laser vs Senpai  
 527 Pedone vs Lco  
-528 Nemorino vs Nirvana  
-  
+528 Nemorino vs Nirvana
+
 ROUND 45  
 529 Andscacs vs Booot  
 530 Crafty vs Arasan  
@@ -658,8 +616,8 @@ ROUND 45
 537 Senpai vs Ivanhoe  
 538 Komodo vs Pedone  
 539 Nirvana vs Laser  
-540 Lco vs Nemorino  
-  
+540 Lco vs Nemorino
+
 ROUND 46  
 541 Arasan vs Andscacs  
 542 Booot vs Xiphos  

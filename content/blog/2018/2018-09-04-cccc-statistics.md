@@ -7,86 +7,47 @@ tags = []
 draft = true
 +++
 
-Some statistics about Chess.com Computer Chess Championship till now.  
-  
-  
+Some statistics about Chess.com Computer Chess Championship till now.
+
 **Game length** Frequency  
 1-0 =-= 0-1 1-0 =-= 0-1  
-All games 78 94 76 33.8% 46.2% 19.8%  
-  
-  
+All games 78 94 76 33.8% 46.2% 19.8%
+
 [![](../../images/2018-09-04-cccc-statistics-
-stst1.png)](https://2.bp.blogspot.com/-xfhm1Z5g0vw/W45CwNA9yOI/AAAAAAAAAQ8/S_Rwm7Jw-
-JUq-cU2N0xhv2FaWwsBSUoYACLcBGAs/s1600/stst1.png)  
-  
-  
-  
-**  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+stst1.png)](https://2.bp.blogspot.com/-xfhm1Z5g0vw/W45CwNA9yOI/AAAAAAAAAQ8/S_Rwm
+7Jw-
+JUq-cU2N0xhv2FaWwsBSUoYACLcBGAs/s1600/stst1.png)
+
+**
+
 Shortest wins (White)**  
 1: 1-0(35) Pedone 1.8 3090 - Crafty 25.2 3283  
 2: 1-0(42) Lc0 17.11089 3300 - Nirvana 2.4 3090  
 3: 1-0(51) Ethereal 10.88 3283 - Crafty 25.2 3099  
 4: 1-0(53) Shredder 13 3287 - Nemorino 5.00 3287  
-5: 1-0(53) Xiphos 0.3.17 3179 - Nirvana 2.4 3099  
-  
+5: 1-0(53) Xiphos 0.3.17 3179 - Nirvana 2.4 3099
+
  **Shortest wins (Black)**  
 1: 0-1(38) Nirvana 2.4 3186 - Booot 6.3.1 3013  
 2: 0-1(40) Laser 1.6 3226 - Komodo 2118.00 3226  
 3: 0-1(50) Nemorino 5.00 3099 - Fire 7.1 3259  
 4: 0-1(61) Vajolet 2.6 3101 - Lc0 17.11089 3226  
-5: 0-1(65) Senpai 2.0 3112 - Stockfish 220818 3144  
-  
-  
+5: 0-1(65) Senpai 2.0 3112 - Stockfish 220818 3144
+
 **Move Frequency Score Draw**  
 1: e4 68: 56.1% 53.6% 43%  
 2: d4 41: 33.8% 60.9% 49%  
-3: Nf3 12: 9.9% 62.5% 58%  
-  
-**Opening ECO classification :**  
+3: Nf3 12: 9.9% 62.5% 58%
+
+**Opening ECO classification :**
 
 [![](../../images/2018-09-04-cccc-statistics-
-eco5675.png)](https://4.bp.blogspot.com/-pUtFETYaAJk/W45DFgf4oWI/AAAAAAAAARE/yvvAZGmpwE8X9qEmICxK5l5ZfiK-
+eco5675.png)](https://4.bp.blogspot.com/-pUtFETYaAJk/W45DFgf4oWI/AAAAAAAAARE/yvv
+AZGmpwE8X9qEmICxK5l5ZfiK-
 fsUoQCLcBGAs/s1600/eco5675.png)
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- _ **The performance Elo of the engines so far:**_  
+ _ **The performance Elo of the engines so far:**_
 
-    
-    
-      
      Rank    Name           Elo   +   -    games score oppo. draws   
        1 Stockfish 220818   197  164  148    10   75%    45   50%   
        2 Komodo 2118.00     183  177  152    10   80%    10   40%   
@@ -111,18 +72,14 @@ fsUoQCLcBGAs/s1600/eco5675.png)
       21 Wasp 3.25         -128  144  155    10   30%   -30   60%   
       22 Nemorino 5.00     -134  153  169    10   30%   -10   40%   
       23 Nirvana 2.4       -171  158  193    10   15%    39   30%   
-      24 Crafty 25.2       -266  163  215    10   10%   -19   20%   
-    
+      24 Crafty 25.2       -266  163  215    10   10%   -19   20% 
 
-  
 ****** _This is with Lc0 - Gull game counted as **draw**._ Since this is a
 rating list the real result should be counted, as the CCCC result by their
-rules because gull crashed, was 1-0 in favor of Lc0.  
-  
-And the **crosstable** _with Lc0 - Gull game counted as a win for Lc0:_  
-  
-  
-  
+rules because gull crashed, was 1-0 in favor of Lc0.
+
+And the **crosstable** _with Lc0 - Gull game counted as a win for Lc0:_
 
 [![](../../images/2018-09-04-cccc-statistics-
-ffh78668.png)](https://2.bp.blogspot.com/-XQ3aNH7gbTM/W45FM4XLSDI/AAAAAAAAARQ/FIDAYa3IKXA1fEe7aV0yAOBpcOTavCoRQCLcBGAs/s1600/ffh78668.png)
+ffh78668.png)](https://2.bp.blogspot.com/-XQ3aNH7gbTM/W45FM4XLSDI/AAAAAAAAARQ/FI
+DAYa3IKXA1fEe7aV0yAOBpcOTavCoRQCLcBGAs/s1600/ffh78668.png)

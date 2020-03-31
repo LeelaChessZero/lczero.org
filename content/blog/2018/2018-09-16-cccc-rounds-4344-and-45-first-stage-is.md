@@ -8,22 +8,19 @@ draft = true
 +++
 
 [![](../../images/2018-09-16-cccc-rounds-4344-and-45-first-stage-is-
-ghjgj5522.png)](https://1.bp.blogspot.com/-_XUgrjfZ6nE/W56BESTeXgI/AAAAAAAAATs/1GHe9BcJpf0a9esAMRnXsMySbRyL4SfXwCLcBGAs/s1600/ghjgj5522.png)
+ghjgj5522.png)](https://1.bp.blogspot.com/-_XUgrjfZ6nE/W56BESTeXgI/AAAAAAAAATs/1
+GHe9BcJpf0a9esAMRnXsMySbRyL4SfXwCLcBGAs/s1600/ghjgj5522.png)
 
-  
-  
 1st stage is almost over, 1 round remains but the top 8 engines that will
 participate in stage 2 are known.  
  **Stockfish, Komodo, Houdini, Leela, Fire, Ethereal, Andscacs and Boot**
 promote to next round.  
 Next round, unlike this round, would be without pondering and every engines
 will play every other 10 times so we would have a total of 70 games per
-engine.  
-  
-Andscacs won Arasan in the final round so Shredder has no hope to promote.  
-  
-  
-  
+engine.
+
+Andscacs won Arasan in the final round so Shredder has no hope to promote.
+
  **ROUND 43**  
 In this round Leela destroyed Shredder's hopes for promotion by winning him
 after a superb game where it completely outplayed Shredder with a startling
@@ -31,9 +28,8 @@ exchange sacrifice that Shredder(as also other engines like the mighty
 Stockfish) had no idea about it. The defense that would lead to draw was very
 thin and Shredder didn't manage to find it. To him as also to other engines
 most moves drew easily. But that was not the case as the genius Leela knew in
-this game!  
-  
-  
+this game!
+
 505 Andscacs vs Ethereal 1/2-1/2  
 506 Fire vs Crafty 1-0  
 507 Booot vs Fizbo 1-0  
@@ -45,9 +41,7 @@ this game!
 513 Stockfish vs Laser 1/2-1/2  
 514 Lco vs Shredder 1-0  
 515 Senpai vs Nemorino 1/2-1/2  
-516 Nirvana vs Pedone 1/2-1/2  
-  
-  
+516 Nirvana vs Pedone 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.15"] [Round "?"] [White "Lc0 17.11089"] [Black "Shredder 13"] [Result
@@ -166,8 +160,6 @@ how intelligent she is with this superb handling of the material imbalance she
 forced. Shredder as also other traditional engines were sleeping till it was
 too late.} 1-0
 
-  
-  
 **ROUND 44**  
 Komodo won against Shredder making things worse for its promotion chances.  
 While Leela in a complicated game with semi closed position and many pieces on
@@ -175,36 +167,40 @@ the board, outplayed Pedone as it was expected and reached a winning position.
 Yet she blundered throwing away the win with 63...Bxd5?  
 But once again afterwards analysis showed that if Leela was using its Lc0
 binary of now, that is with support for endgame tablebases, it would avoid the
-blunder in less than a second and would win.  
-  
+blunder in less than a second and would win.
+
 Here follows the analysis of the position with Lc0 11089 net but with 3,4,5,6
 syzygy TBs where we can see Leela avoids the drawing move in 1 second.  
 In the game analysis below we can see and the test game of this Leela against
-Stockfish where it wins easily when she uses tablebases.  
-  
+Stockfish where it wins easily when she uses tablebases.
+
 So now along with the game against again Pedone with Leela having white, the
 game Leela-Komodo and the current game, Leela has lost 1.5 points that if she
 were using tablebases she would have won them.  
 She also drew a won game against Crafty because of a blunder but Leela with
-TBs would not have found. So 2 points thrown because off bad endgame play.  
-  
-  
-Lc0v17 11089:  
+TBs would not have found. So 2 points thrown because off bad endgame play.
 
-    
-    
-     6/13    00:00     2,645    3,638    -7,21    Bd7xb5 c4xb5 a4-a3 Kd2-c2 Rb8-d8 Bd3-c4 Rd8-c8 Kc2-b3 Rc8xc4  
-     7/13    00:01     5,245    4,104    -5,44    Bd7xb5 c4xb5 a4-a3 Kd2-c2 Rb8-d8 Bd3-g6 Rd8-d2+ Kc2-b1 Ke7-e6 Bg6-e8 Rd2-b2+ Kb1-a1  
-     7/13    00:01     7,746    4,310    -6,24    Rb8-c8 Nb5-a3 Ke7-e6 Kd2-c3 Ke6xe5 Bd3-c2 Rc8-b8 Bc2-d1 Ke5-d6 Na3-b5+ Bd7xb5 c4xb5  
-     7/14    00:02     8,890    4,385    -6,26    Rb8-c8 Nb5-a3 Ke7-e6 Kd2-c3 Ke6xe5 Bd3-c2 Rc8-b8 Bc2-d1 Ke5-d6 Na3-b5+ Bd7xb5 c4xb5  
-     7/15    00:05     28,152    5,023    -6,08    Rb8-h8 Kd2-c2 Ke7-e6 Kc2-c3 Ke6xe5 Kc3-b2 Rh8-h3 Bd3-c2 Rh3-h2 Kb2-c3 Bd7xb5 c4xb5  
-     7/16    00:08     48,459    5,477    -6,63    Rb8-h8 Kd2-c2 Ke7-e6 Kc2-c3 Ke6xe5 Bd3-g6 Rh8-g8 Bg6-c2 Bd7xb5 c4xb5  
-     8/16    00:09     49,887    5,502    -6,64    Rb8-h8 Kd2-c2 Ke7-e6 Kc2-b2 Rh8-h2+ Bd3-c2 Ke6xe5 Kb2-c3 Bd7xb5 c4xb5  
-     8/17    00:11     64,564    5,631    -6,75    Rb8-h8 Kd2-c2 Ke7-e6 Kc2-c3 Ke6xe5 Bd3-g6 Rh8-h6 Bg6-f7 Rh6-h4 Kc3-b4 Bd7xb5 Kb4xb5  
-     8/18    00:13     77,072    5,746    -6,92    Rb8-h8 Kd2-c2 Ke7-e6 Kc2-c3 Ke6xe5 Bd3-g6 Rh8-h6 Bg6-f7 Rh6-h4 Kc3-b4 Bd7xb5 Kb4xb5
+Lc0v17 11089:
 
-  
-  
+     6/13    00:00     2,645    3,638    -7,21    Bd7xb5 c4xb5 
+a4-a3 Kd2-c2 Rb8-d8 Bd3-c4 Rd8-c8 Kc2-b3 Rc8xc4  
+     7/13    00:01     5,245    4,104    -5,44    Bd7xb5 c4xb5 
+a4-a3 Kd2-c2 Rb8-d8 Bd3-g6 Rd8-d2+ Kc2-b1 Ke7-e6 Bg6-e8 Rd2-b2+ Kb1-a1  
+     7/13    00:01     7,746    4,310    -6,24    Rb8-c8 Nb5-a3 
+Ke7-e6 Kd2-c3 Ke6xe5 Bd3-c2 Rc8-b8 Bc2-d1 Ke5-d6 Na3-b5+ Bd7xb5 c4xb5  
+     7/14    00:02     8,890    4,385    -6,26    Rb8-c8 Nb5-a3 
+Ke7-e6 Kd2-c3 Ke6xe5 Bd3-c2 Rc8-b8 Bc2-d1 Ke5-d6 Na3-b5+ Bd7xb5 c4xb5  
+     7/15    00:05     28,152    5,023    -6,08    Rb8-h8 
+Kd2-c2 Ke7-e6 Kc2-c3 Ke6xe5 Kc3-b2 Rh8-h3 Bd3-c2 Rh3-h2 Kb2-c3 Bd7xb5 c4xb5  
+     7/16    00:08     48,459    5,477    -6,63    Rb8-h8 
+Kd2-c2 Ke7-e6 Kc2-c3 Ke6xe5 Bd3-g6 Rh8-g8 Bg6-c2 Bd7xb5 c4xb5  
+     8/16    00:09     49,887    5,502    -6,64    Rb8-h8 
+Kd2-c2 Ke7-e6 Kc2-b2 Rh8-h2+ Bd3-c2 Ke6xe5 Kb2-c3 Bd7xb5 c4xb5  
+     8/17    00:11     64,564    5,631    -6,75    Rb8-h8 
+Kd2-c2 Ke7-e6 Kc2-c3 Ke6xe5 Bd3-g6 Rh8-h6 Bg6-f7 Rh6-h4 Kc3-b4 Bd7xb5 Kb4xb5  
+     8/18    00:13     77,072    5,746    -6,92    Rb8-h8 
+Kd2-c2 Ke7-e6 Kc2-c3 Ke6xe5 Bd3-g6 Rh8-h6 Bg6-f7 Rh6-h4 Kc3-b4 Bd7xb5 Kb4xb5
+
 517 Crafty vs Andscacs 0-1  
 518 Ethereal vs Booot 1/2-1/2  
 519 Arasan vs Fire 0-1  
@@ -216,9 +212,7 @@ Lc0v17 11089:
 525 Shredder vs Komodo 0-1  
 526 Laser vs Senpai 1-0  
 527 Pedone vs Lco 1/2-1/2  
-528 Nemorino vs Nirvana 1-0  
-  
-  
+528 Nemorino vs Nirvana 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.16"] [Round "?"] [White "Pedone 1.8"] [Black "Lc0 17.11089"] [Result
@@ -290,18 +284,15 @@ Ba4+ Kc3 151. Bc6 Re5 152. Ka2 Re2+ 153. Kb1 Rb2+ 154. Ka1 Kb3 155. Be8 Rf2
 Rg5 168. Bc6 Re5 169. Ka2 Re2+ 170. Kb1 Rb2+ 171. Ka1 Rh2 172. Be8 Kd4 173.
 Bf7 Rh7 174. Bb3 Kc3 175. Bg8 1/2-1/2
 
-  
-  
 **ROUND 45**  
 Leela won an easy game against Nemorino that didn't provide any resistance.  
 Shredder had its 3rd loss in the last 3 games and didn't manage to welcome the
 gift of Booot that won against Andscacs, so its hopes for promotion are based
-on Arasan to draw the game with Andscacs.  
-  
+on Arasan to draw the game with Andscacs.
+
 Booot is the pleasant surprise of this tournament so far since no one believed
-it has chances to promote!  
-  
-  
+it has chances to promote!
+
 529 Andscacs vs Booot 0-1  
 530 Crafty vs Arasan 1/2-1/2  
 531 Xiphos vs Ethereal 0-1  
@@ -313,9 +304,7 @@ it has chances to promote!
 537 Senpai vs Ivanhoe 1/2-1/2  
 538 Komodo vs Pedone 1-0  
 539 Nirvana vs Laser 0-1  
-540 Lco vs Nemorino 1-0  
-  
-  
+540 Lco vs Nemorino 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.16"] [Round "?"] [White "Lc0 17.11089"] [Black "Nemorino 5.00"]
@@ -337,12 +326,9 @@ g5 Bg6 75. Ne7 Bf7 76. e5 Ka3 77. Kd4 Kb3 78. g6 Be8 79. g7 Bf7 80. Kc5 Be6
 Ne7 Bf7 88. Nc6 Be6 89. Nd8 Bb3 90. f7 Bxf7 91. Nxf7 Ka1 92. Kc3 Kb1 93. g8=Q
 Ka1 94. Qg2 Kb1 95. Qb2# 1-0
 
-  
-  
 **ROUND 46**  
-Andscacs won against Arasan so it promotes to stage 2.  
-  
-  
+Andscacs won against Arasan so it promotes to stage 2.
+
 541 Arasan vs Andscacs 0-1  
 542 Booot vs Xiphos  
 543 Wasp vs Crafty  
@@ -354,14 +340,15 @@ Andscacs won against Arasan so it promotes to stage 2.
 549 Pedone vs Houdini  
 550 Ivanhoe vs Nirvana  
 551 Nemorino vs Komodo  
-552 Laser vs Lco  
-  
+552 Laser vs Lco
+
  _ **  
-Standings after round 45 of 46.**_ First 8 go to next stage.  
-  
+Standings after round 45 of 46.**_ First 8 go to next stage.
+
 | Player | Score  | (Tie)  | St | Ko | Ho | Lc | Fi | Et | Bo | An | Sh | Fr |
 Xi | Te | La | Pe | Va | Ar | Fi | Gu | Wa | Ne | Iv | Se | Ni | Cr | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Stockfish 220818 | 38.0 / 45 | 787.50  | XX | == | =1 | == | =1 | 11 | 1=
 | =1 | =1 | 1= | =1 | 11 | == | 11 | 11 | =1 | 1. | 11 | 11 | 11 | 11 | 11 |
 11 | 11| (+31 -0 =14)  
@@ -433,14 +420,10 @@ XX | 0= | 0= | 0= | =1 | 1= | =1 | 11 | 11 | == | 11 | 1= | 11 | =1 | 11 | 11
 00| (+2 -32 =11)  
 24: | Crafty 25.2 | 6.5 / 45 | 97.25  | 00 | 00 | 00 | =0 | 00 | 00 | 00 | 00
 | 00 | 00 | 00 | 00 | 01 | 00 | 00 | 0= | 0= | 00 | =. | =0 | =0 | =0 | 11 |
-XX| (+3 -35 =7)  
-  
-  
-  
- _ **Rating performance so far after round 45** (plus one round 46 game):_  
+XX| (+3 -35 =7)
 
-    
-    
+ _ **Rating performance so far after round 45** (plus one round 46 game):_
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   546  100   88    45   84%   278   31%   
        2 Komodo 2118.00     537   97   87    45   83%   280   33%   
@@ -465,10 +448,8 @@ XX| (+3 -35 =7)
       21 Ivanhoe 999946h    126   86   93    45   27%   301   27%   
       22 Senpai 2.0          96   85   92    45   22%   298   36%   
       23 Nirvana 2.4         42   91  104    45   17%   303   24%   
-      24 Crafty 25.2          0   96  113    45   14%   303   16%   
-    
+      24 Crafty 25.2          0   96  113    45   14%   303   16% 
 
-  
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
 because Gull crashed, was 1-0 in favor of Lc0.

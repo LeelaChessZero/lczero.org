@@ -11,7 +11,6 @@ draft = true
 with-2-gjgj98789798799999.png)](https://www.chess.com/computer-chess-
 championship)
 
-  
 **ROUND 23**  
 Andscacs won Arasan in an important win for top8 place, while Ethereal and
 Booot drew their games.  
@@ -22,9 +21,8 @@ with no much play but Leela dominated with clever Pawn moves and showing great
 long term understanding of the position it created a positionaly winning
 position.  
 Fizbo after 9 consecutive draws (17th in the tournament so far) it couldn't
-hold and lost against the mighty Stockfish.  
-  
-  
+hold and lost against the mighty Stockfish.
+
 265 Andscacs vs Arasan 1-0  
 266 Xiphos vs Booot 1/2-1/2  
 267 Crafty vs Wasp 1/2-1/2  
@@ -36,9 +34,7 @@ hold and lost against the mighty Stockfish.
 273 Houdini vs Pedone 1-0  
 274 Nirvana vs Ivanhoe 1-0  
 275 Komodo vs Nemorino 1-0  
-276 **Lco** vs Laser 1-0  
-  
-  
+276 **Lco** vs Laser 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.08"] [Round "?"] [White "Lc0 17.11089"] [Black "Laser 1.6"] [Result
@@ -85,16 +81,13 @@ Kc6 Rg8 84. Re7 Ng4 85. Kb5 Nf6 86. c6 Ra8 87. c7 Ng4 88. Nf5 Nh2 89. d6 Nf3
 90. d7 Nd4+ 91. Nxd4 Kxd4 92. Rf7 Ke3 93. c8=R Ra2 94. d8=Q Rb2+ 95. Kc4 Rc2+
 96. Kb3 Rb2+ 97. Kc3 Rc2+ 98. Kxc2 Kxe4 99. Qd6 Ke3 100. Re8# 1-0
 
-  
-  
 **ROUND 24**  
 A small upset as Laser drew Komodo with black so Komodo lost some ground for
 the hunt of 1st place.  
 Fire and Shredder had a draw while Booot and Andscacs drew their games.  
 Ethereal lost to Stockfish so it's not fighting for top 8.  
-Leela won another game this time against Ivanhoe.  
-  
-  
+Leela won another game this time against Ivanhoe.
+
 277 Xiphos vs Andscacs 1/2-1/2  
 278 Arasan vs Wasp 1/2-1/2  
 279 Vajolet vs Booot 1/2-1/2  
@@ -106,8 +99,7 @@ Leela won another game this time against Ivanhoe.
 285 Nirvana vs Gull 1/2-1/2  
 286 Houdini vs Nemorino 1-0  
 287 **Lco** vs Ivanhoe 1-0  
-288 Komodo vs Laser 1/2-1/2  
-  
+288 Komodo vs Laser 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.09"] [Round "?"] [White "Lc0 17.11089"] [Black "Ivanhoe 999946h"]
@@ -141,8 +133,6 @@ Kg5 Rd8 81. Re7 Rd5+ 82. Kf4 Rd4+ 83. Kf5 Rd5+ 84. Ke4 Rd8 85. g5 Kg8 86. Kf4
 Kf8 87. Rb7 Kg8 88. Kg4 {Here Ivanhoe crashed but white was winning anyway.}
 1-0
 
-  
-  
 **ROUND 25**  
 Laser after drawing Komodo in previous round, now it had a draw against
 Houdini!  
@@ -150,8 +140,8 @@ Boot also had an easy draw against Stockfish.
 Fizbo, the drawmaster, with 18 draws out of 24 games was winning against
 Nirvana, but maybe deliberately, not to miss its beloved draw result,
 blundered and played wrongly and instead drew so now it has 19 draws out of 25
-games!!  
-  
+games!!
+
 Leela with black against Gull had a draw too in a very dubious fashion, since
 instead of playing for a win it followed the plan of exchanging everything and
 up to move 25 the position was a dead draw. Worth noting is that while the
@@ -165,8 +155,7 @@ weaker than Leela she instead should seek keeping the Pawns and pieces on the
 board and creating complicated positions. So she needs a kind of contempt like
 the one traditional engines have especially the strongest ones like Stockfish,
 that contempt implementation as default transformed its performance in
-tournaments like TCEC winning much more frequently instead of just drawing.  
-  
+tournaments like TCEC winning much more frequently instead of just drawing.
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.09"] [Round "?"] [White "Gull 3.syz"] [Black "Lc0 17.11089"] [Result
@@ -193,8 +182,6 @@ Rb3+ 73. Kf4 Rb2 74. Rc6+ Kg7 75. Kf3 Rb3+ 76. Kg2 Ra3 77. Rd6 Rc3 78. Rd8 Kf6
 79. Ra8 Rc7 80. Rb8 Ra7 81. Rb3 Rc7 82. Rb2 Rc3 83. Rb1 Ra3 84. Rb6+ Kg7 85.
 Rb2 Kf6 86. Kg1 Ra7 87. Kh2 Rc7 88. Kh1 Rc5 89. Kg2 Kf5 90. Rb7 Ke6 1/2-1/2
 
-  
-  
 289 Andscacs vs Wasp 1/2-1/2  
 290 Xiphos vs Vajolet 1-0  
 291 Texel vs Arasan 1-0  
@@ -206,13 +193,13 @@ Rb2 Kf6 86. Kg1 Ra7 87. Kh2 Rc7 88. Kh1 Rc5 89. Kg2 Kf5 90. Rb7 Ke6 1/2-1/2
 297 Nemorino vs Fritz 1/2-1/2  
 298 Gull vs **Lco** 1/2-1/2  
 299 Laser vs Houdini 1/2-1/2  
-300 Ivanhoe vs Komodo 0-1  
-  
-  
+300 Ivanhoe vs Komodo 0-1
+
  _ **Standings after round 25 of 46.**_ First 8 go to next stage.  
 | Player | Score  | (SB)  | Ho | St | Ko | Lc | Sh | Fi | Bo | Et | An | Xi |
 Fr | Te | Pe | Va | Gu | Fi | La | Ar | Wa | Ne | Iv | Se | Ni | Cr | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Houdini 6.03 | 20.5 / 25 | 230.25  | XX | =. | =. | =. | =. | 1. | =. |
 =. | 1. | 1. | 1. | 1. | 1. | =. | 1. | 1. | 1= | 1. | =. | 11 | 1. | 1. | 1.
 | 1.| (+16 -0 =9)  
@@ -284,16 +271,10 @@ XX | 1. | 1. | =. | 0. | =. | =. | 1. | =. | 1. | 1. | =. | 1. | 1. | =1 | 1.
 0.| (+1 -18 =6)  
 24: | Crafty 25.2 | 3.5 / 25 | 28.50  | 0. | 0. | 0. | =. | 00 | 0. | 0. | 0.
 | 0. | 0. | 0. | 00 | 0. | 0. | 0. | 0. | 0. | 0. | =. | =. | =. | =. | 1. |
-XX| (+1 -19 =5)  
-  
-  
-  
+XX| (+1 -19 =5)
+
  _ **Rating performance so far after round 22:**_
 
-  
-
-    
-    
     Rank Name               Elo    +    - games score oppo. draws   
        1 Houdini 6.03       469  123  108    25   82%   246   36%   
        2 Stockfish 220818   466  119  106    25   80%   256   40%   
@@ -318,15 +299,14 @@ XX| (+1 -19 =5)
       21 Ivanhoe 999946h    152  108  116    25   32%   275   32%   
       22 Senpai 2.0          60  109  124    25   20%   267   32%   
       23 Nirvana 2.4         16  116  137    25   16%   265   24%   
-      24 Crafty 25.2          0  118  143    25   14%   274   20%   
-    
+      24 Crafty 25.2          0  118  143    25   14%   274   20% 
 
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
-because Gull crashed, was 1-0 in favor of Lc0.  
-  
-Next rounds:  
-  
+because Gull crashed, was 1-0 in favor of Lc0.
+
+Next rounds:
+
  **ROUND 26**  
 301 Vajolet vs Andscacs 0-1  
 302 Wasp vs Texel 0-1  
@@ -339,8 +319,8 @@ Next rounds:
 309 **Lco** vs Fizbo  
 310 Fritz vs Laser  
 311 Komodo vs Gull  
-312 Houdini vs Ivanhoe  
-  
+312 Houdini vs Ivanhoe
+
  **ROUND 27**  
 313 Andscacs vs Texel  
 314 Vajolet vs Stockfish  

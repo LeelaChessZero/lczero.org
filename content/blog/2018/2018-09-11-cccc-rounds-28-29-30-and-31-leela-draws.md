@@ -8,25 +8,23 @@ draft = true
 +++
 
 [![](../../images/2018-09-11-cccc-rounds-28-29-30-and-31-leela-draws-
-hgfh8768768.png)](https://1.bp.blogspot.com/-9hfMRB6pkew/W5gIPd4T1mI/AAAAAAAAAS8/hi-
+hgfh8768768.png)](https://1.bp.blogspot.com/-9hfMRB6pkew/W5gIPd4T1mI/AAAAAAAAAS8
+/hi-
 Vo_pOLyYNWUQdCnnLX8fsoNrE3kbqACLcBGAs/s1600/hgfh8768768.png)
 
-  
-  
 It seems Leela is hiding something that is beyond us. How else can be
 explained that after Fizbo a 3325 CCRL Elo engine with endgame tablebases in a
 dead 4-men position lost to Leela, now Leela in another dead draw position
 made Xiphos, a 3200 CCRL Elo engines, to lose!  
 At round 29 there was the first loss in this tournament of one of the big 3,
-as Houdini with black lost to Ethereal!  
-  
-  
+as Houdini with black lost to Ethereal!
+
  **ROUND 28**  
 Andscacs lost to Stockfish and lost ground for the battle of 8th place but
 Ethereal and Booot lost to Komodo and Leela respectively so they did not took
 advantage of it so things remained the same.  
-Fire won against Ivanhoe so now it has a comfortable place inside top 8.  
-  
+Fire won against Ivanhoe so now it has a comfortable place inside top 8.
+
 Leela playing with Booot a French defense(what else?) opening, she took a very
 easy win by playing simple Chess. She initially pushed all her Pawns,
 h4,f4,g4, in from of the castled King gaining all the space in Kingside and
@@ -35,9 +33,8 @@ the
 exchange of Queens getting a huge Knight on d6 and from then on some almost
 forced trades have been made going to an endgame that as it seems it was
 almost lost for black since its King was too far away and white had a 3-2 Pawn
-majority on Queenside.  
-  
-  
+majority on Queenside.
+
 325 Stockfish vs Andscacs 1-0  
 326 Texel vs Shredder 1/2-1/2  
 327 Senpai vs Vajolet 0-1  
@@ -49,8 +46,7 @@ majority on Queenside.
 333 Komodo vs Ethereal 1-0  
 334 Fire vs Ivanhoe 1-0  
 335 Houdini vs Fizbo 1-0  
-336 Fritz vs Gull 1-0  
-  
+336 Fritz vs Gull 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.10"] [Round "?"] [White "Lc0 17.11089"] [Black "Booot 6.3.1"] [Result
@@ -91,8 +87,6 @@ Kc5 Rg8 97. Kd5 Kf6 98. b6 Rg5+ 99. Kd6 Rg2 100. c8=Q Rd2+ 101. Kc7 Rc2+ 102.
 Kb8 Rxc8+ 103. Kxc8 Kf5 104. b7 Kf4 105. b8=Q+ Kf3 106. Qe5 Kg2 107. Re3 Kf1
 108. Qb2 Kg1 109. Re1# 1-0
 
-  
-  
 **ROUND 29**  
 Andscacs had a draw with Shredder and Stockfish won so after Komodo drew with
 Booot and Houdini lost, now Stockfish goes to the natural position of it, to
@@ -105,8 +99,8 @@ forcing the exchange of the Queens so his King felt more safe. After that
 Ethereal had a double Rooks + double Bishops + 3 Pawns against Rook + 2
 Knights + Bishop + 5 Pawns of black. An interesting imbalance that Ethereal
 won masterfully because of the power of the double Rooks.  
-A very nice game to watch. So now only Komodo and Stockfish remain undefeated.  
-  
+A very nice game to watch. So now only Komodo and Stockfish remain undefeated.
+
 Leela with black against Xiphos was another crazy circus game because of how
 it ended. In a surprisingly peaceful Sicilian with 4.Qxd4, many exchanges
 happened early and by move 25 it was already seemed draw was unavoidable.
@@ -122,9 +116,8 @@ Leela after the mistake won on the spot. It's really inexplicable how Xiphos
 fell to that mistake. Was this a graph history interaction(GHI) issue? Was
 this a bug in Xiphos with 50 move rule or zugzwang detection? Its author will
 have to find out, even though with multithreading search reproducibility is
-never easy.  
-  
-  
+never easy.
+
 337 Andscacs vs Shredder 1/2-1/2  
 338 Stockfish vs Senpai 1-0  
 339 Pedone vs Texel 0-1  
@@ -136,8 +129,7 @@ never easy.
 345 Ivanhoe vs Crafty 1-0  
 346 Ethereal vs Houdini 1-0  
 347 Gull vs Fire 0-1  
-348 Fizbo vs Fritz 1/2-1/2  
-  
+348 Fizbo vs Fritz 1/2-1/2
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.10"] [Round "?"] [White "Xiphos 0.3.17"] [Black "Lc0 17.11089"]
@@ -183,9 +175,7 @@ Bf1 Rd8+ 148. Kc3 Ke4 149. Bg2+ Ke5 150. Bf1 Rd1 151. Be2 f1=Q 152. Bxf1 Rxf1
 153. Kd3 Rf3 154. Kc3 Ke4 155. Kb4 Kd4 156. Kb5 Rf6 157. Kb4 e2 158. Kb3 e1=Q
 159. Kb2 Kc4 160. Ka2 Rf2+ 161. Ka3 Qa1# 0-1
 
-  
-  
-And the Ethereal-Houdini game:  
+And the Ethereal-Houdini game:
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.10"] [Round "?"] [White "Ethereal 10.88"] [Black "Houdini 6.03"]
@@ -211,12 +201,10 @@ Bd4+ Kf3 106. h6 Ra5+ 107. Kg6 Ra6+ 108. Bf6 Kf2 109. Rh1 Kf3 110. Rf1+ Ke4
 111. Rd1 Ra3 112. h7 Rg3+ 113. Kh5 Rh3+ 114. Bh4 Rc3 115. h8=Q Rc5+ 116. Kg4
 a1=Q 117. Qh7+ Rf5 118. Qxf5+ Ke3 119. Qd3# 1-0
 
-  
-  
 **ROUND 30**  
 Andscacs got closer to top 8 since it won against Senpai while Ethereal had a
-draw with Fritz and Booot lost from Houdini.  
-  
+draw with Fritz and Booot lost from Houdini.
+
 Leela didn't have a good game since after opening it ended up in a position
 where she didn't have a clear target and didn't managed to find a plan to
 create a specific target. In an almost equal position she has fallen again for
@@ -227,10 +215,8 @@ tournament this had happened the position was draw so Leela did not lose any
 points out of them. But in this game this may not be the case since while the
 position was equal, a different choice by Leela not falling into the trap,
 would mean the game will continue and who knows if Leela could turn the
-position in her favor.  
-  
-  
-  
+position in her favor.
+
 349 Senpai vs Andscacs 0-1  
 350 Shredder vs Pedone 1/2-1/2  
 351 Nirvana vs Stockfish 0-1  
@@ -242,8 +228,7 @@ position in her favor.
 357 Houdini vs Booot 1-0  
 358 Crafty vs Gull 0-1  
 359 Fritz vs Ethereal 1/2-1/2  
-360 Fire vs Fizbo 1-0  
-  
+360 Fire vs Fizbo 1-0
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.11"] [Round "?"] [White "Lc0 17.11089"] [Black "Vajolet 2.6"] [Result
@@ -264,14 +249,12 @@ miss perpetual checks.} Nxd5 47. Be4 Rxd4 48. Rxd4 Qa1+ 49. Rd1 Qxd1+ $1 50.
 Qxd1 Nxe3 51. Qb3 Rd1+ 52. Kh2 Nf1+ 53. Kg1 Ne3+ 54. Kh2 Nf1+ 55. Kg1 Ne3+
 1/2-1/2
 
-  
-  
 **ROUND 31**  
 While Shredder started the tournament with 9.5 points after 11 games with 8
 wins, 3 draws and no losses, in the next 20 games it has 11 points out of 20
 games with 3 wins 1 loss and 16 draws!! It has been transformed into a drawing
-machine. Here didn't manage to win against Nemorino.  
-  
+machine. Here didn't manage to win against Nemorino.
+
 Leela had a big fight as she had with black to face Stockfish. Stockfish with
 white had 2 draws and 13 wins so far, no losses of course so Leela
 theoretically before the match would have one of the toughest games. Yet Leela
@@ -280,13 +263,12 @@ Sicilian opening and after that an never ending shuffling occurred that was
 more or less pointless as the result was determined already. A draw! In the
 end there were some nice fireworks for the uninitiated eye of humans, but
 these computers play on another level and both sides had everything under
-control.  
-  
+control.
+
 Houdini and Komodo outplayed in the endgame Xiphos and Vajolet respectively
 and they won, so after Stockfish's draw both big 3 are tied in points for the
-first place.  
-  
-  
+first place.
+
 361 Andscacs vs Pedone 1-0  
 362 Senpai vs Nirvana 1/2-1/2  
 363 Nemorino vs Shredder 1/2-1/2  
@@ -298,8 +280,7 @@ first place.
 369 Gull vs Arasan 1/2-1/2  
 370 Booot vs Fritz  
 371 Fizbo vs Crafty  
-372 Ethereal vs Fire  
-  
+372 Ethereal vs Fire
 
 [Event "CCCC 1: Rapid Rumble (15|5) Stage 1"] [Site "Chess.com"] [Date
 "2018.09.11"] [Round "?"] [White "Stockfish 220818"] [Black "Lc0 17.11089"]
@@ -346,15 +327,14 @@ Ke3 Bb5 149. Ke4 Kd7 150. Kd5 Bc6+ 151. Kc5 Rxg4 {Nice way to end this.} 152.
 hxg4 Bg2 153. Rd1+ Ke7 154. Rd6 h3 155. Re6+ Kd7 156. Rd6+ Ke7 157. Re6+ Kd7
 158. Rd6+ Ke7 1/2-1/2
 
-  
-  
-_**  
-  
-Standings after round 31 of 46.**_ First 8 go to next stage.  
-  
+_**
+
+Standings after round 31 of 46.**_ First 8 go to next stage.
+
 | Player | Score  | (SB)  | Ko | St | Ho | Lc | Fi | Sh | An | Et | Bo | Te |
 Fr | Xi | Pe | Ar | Va | La | Gu | Wa | Fi | Ne | Iv | Se | Cr | Ni | +/-/=  
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---  
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---  
 1: | Komodo 2118.00 | 25.5 / 31 | 356.50  | XX | =. | =. | =. | 1. | 1. | =. |
 =1 | 1= | 1. | =. | =1 | 1. | =. | 11 | 1= | =1 | 1. | 11 | 1. | 11 | 1. | 1.
 | 1.| (+20 -0 =11)  
@@ -426,16 +406,11 @@ XX | =. | 0. | == | 1. | =. | 1. | =. | 1. | 1. | =. | =. | 1. | 1. | =1 | 1.
 1.| (+2 -23 =5)  
 24: | Nirvana 2.4 | 4.5 / 31 | 45.25  | 0. | 00 | 0. | 0. | 0. | 0. | 0. | 00
 | 00 | 0. | 0. | 00 | 0. | 0. | 00 | 0. | == | =. | == | 0. | 1. | == | 0. |
-XX| (+1 -23 =7)  
-  
-  
-  
-  
- _ **Rating performance so far after round 31** (2 games haven't been played
-yet) **:**_  
+XX| (+1 -23 =7)
 
-    
-    
+ _ **Rating performance so far after round 31** (2 games haven't been played
+yet) **:**_
+
     Rank Name               Elo    +    - games score oppo. draws   
        1 Stockfish 220818   502  113  100    31   82%   264   35%   
        2 Houdini 6.03       500  116  102    31   82%   262   29%   
@@ -460,10 +435,8 @@ yet) **:**_
       21 Ivanhoe 999946h    165   98  105    31   32%   290   32%   
       22 Senpai 2.0          61  102  115    31   19%   286   32%   
       23 Nirvana 2.4          8  108  128    31   15%   286   23%   
-      24 Crafty 25.2          0  111  134    30   15%   279   17%   
-    
+      24 Crafty 25.2          0  111  134    30   15%   279   17% 
 
-  
 ****This is with Lc0 - Gull game counted as draw.** Since this is a rating
 list the real result should be counted, as the CCCC result by their rules
 because Gull crashed, was 1-0 in favor of Lc0.
