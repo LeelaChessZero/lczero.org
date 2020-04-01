@@ -6,7 +6,7 @@ wikiname: "Technical-Explanation-of-Leela-Chess-Zero"
 ---
 # Lc0 methods and input/output terms
 
-A nice pictorial [overview](https://applied-data.science/static/main/res/alpha_go_zero_cheat_sheet.png)
+A nice pictorial [overview](https://adsp.ai/articles/alphago-zero-cheat-sheet/)
 
 ## Basics
 
