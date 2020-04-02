@@ -11,10 +11,11 @@ Today, May 10, 2019, Leela is playing in the first game of the high profile
 [TCEC Season 15 Superfinal](https://tcec.chessdom.com/). Leela qualified after
 she cleared Division P undefeated, winning at least once head-to-head against
 every opponent except Houdini. Her opponent in the superfinal is Stockfish,
-who [lost
-once](https://cd.tcecbeta.club/archive.html?season=15&div=p&game=161) to Leela
+who [lost once](https://cd.tcecbeta.club/archive.html?season=15&div=p&game=161) to Leela
 head-to-head in Division P, but finished with a higher score by winning more
 games than Leela against the other Division P competitors.
+
+<!--more-->
 
 In the just-concluded [TCEC Cup
 III](https://cd.tcecbeta.club/archive.html?season=cup3&round=fl), seeding was

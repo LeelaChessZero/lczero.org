@@ -16,6 +16,8 @@ first Chess GUI designed specifically for Lc0, and inspired by the excellent
 is a work in progress, it's very usable, and has received a lot of favourable
 comment.
 
+<!--more-->
+
 ![]({{< file "screenshot.png" >}})
 
 Being designed specifically for Lc0 means it can use the sort of information

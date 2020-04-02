@@ -12,6 +12,8 @@ v0.21.2.
 
 Download [here](https://github.com/LeelaChessZero/lc0/releases/).
 
+<!--more-->
+
 Changes include:
 
   * Optimizations for GTX 16xx cards (cudnn-fp16 now works for them, even 

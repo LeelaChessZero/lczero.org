@@ -22,6 +22,8 @@ it's not something trivial. Will take a more thorough look tomorrow.
 currently travelling, until Sunday. That means that updated information about
 the server is expected in the beginning of the next week.  
 
+<!--more-->
+
 -- original message ---
 
 As many of you heard, the training of Lc0 has been suspended yesterday.

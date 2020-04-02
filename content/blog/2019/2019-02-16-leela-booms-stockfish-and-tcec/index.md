@@ -5,15 +5,19 @@ published = 2019-02-16T14:42:00.003000+01:00
 author = "Bob23"
 tags = []
 draft = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 +++
 
-[![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
-jhgjhg79789798799.png)
 
 As per the usual expression of **BOOM** of TCEC chat when an engine finds
 something good, Leela right now is making a great surprise in her first
 appearance in a TCEC superfinal by **leading after 64 games with 2 points
 more. A 33-31 score in favor of Leela.**
+
+<!--more-->
 
 After a 14.5-14.5 score with 6 wins by each engine after 29 games, **19
 consecutive draws** happened. But then Leela won one game and she was on the
@@ -64,7 +68,7 @@ now leads with 33.0-31.0
 Leela on French defense seems to be on another level of its own against other
 engines.
 
- _ **Standings so far:**_
+ **Standings so far:**
 
     TCEC Season 14 - Superfinal  2019  
     1   LCZero v20.2-32930    +9/=48/-7 51.56%   33.0/64  
@@ -84,8 +88,7 @@ still has a good chance of turning the tables.
 36 games remain so we will soon see if Leela manages to keep this small
 advantage....
 
- **  
-** **Last game won by Leela in the French was an amazing one** showing how
+**Last game won by Leela in the French was an amazing one** showing how
 much potential this new Neural-Net approach has. After Leela played some
 clever openings moves advancing the h Pawn to h5 for gaining space there, she
 sacrificed 2 Pawns to gain some more tempo and space for attacking to white's
@@ -111,6 +114,8 @@ Rook more so she won easily.
 That h8 poor Rook of Stockfish, hasn't moved the whole game!
 
 Leela-Stockfish 1-0 Game 63, (French, MacCutcheon, Janowski variation)
+
+{{< chessboard >}}
 
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.16"] [Round "63.1"] [White "LCZero v20.2-32930"] [Black "Stockfish
@@ -138,9 +143,11 @@ Bxg3 {[%eval 1339,0]} Kf8 {[%eval 746,0]} 35. Bd6+ {[%eval 1492,0]} Ke8
 39. f6 {[%eval 1595,0]} Bxe6 {[%eval 1124,0]} 40. f7+ {[%eval 1709,0]} Kd7
 {[%eval 1122,0]} 41. f8=R {[%eval 1959,0]} Kc6 {[%eval 1071,0]} 1-0
 
-**
+{{< /chessboard >}}
 
-Leela's games:**
+**Leela's games:**
+
+{{< chessboard >}}
 
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.04"] [Round "1.1"] [White "LCZero v20.2-32930"] [Black "Stockfish
@@ -170,7 +177,9 @@ Bc5 95. Kg3 Nc7 96. Kh4 Be7+ 97. Kg3 Bc5 98. Rb8 Kd5 99. Kh4 Be7+ 100. Kg3 Bc5
 113. Rb3 Ke8 114. f5 gxf5 115. exf5 Bd4 116. f4 Kd7 117. Kg5 Kc6 118. Kxh4
 Bf2+ 119. Kg5 Be1 120. Ra3 Bb4 121. Ra2 Kb5 122. Kf6 Bxa5 123. Rb2+ Kc4 124.
 Kxf7 Nd5 125. Rf2 Kd3 126. Ra2 Bb4 127. Ra4 Ke3 128. f6 Bc3 129. Ra3 Ke4 130.
-Ra4+ Kd3 131. Ra3 Nxf4 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Ra4+ Kd3 131. Ra3 Nxf4 1/2-1/2
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.04"] [Round "2.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "D32"] [Opening "QGD"] [Variation "Tarrasch,
@@ -196,7 +205,9 @@ Kh7 90. Be5 Kg6 91. Bd4 Kh7 92. Be5 Kg8 93. Bf6 Kf7 94. Bh8 Ke7 95. Be5 Kd7
 96. Bc3 Ke7 97. Ke3 Ke6 98. f4 gxf4+ 99. Nxf4+ Kf7 100. Ne2 Kg6 101. g3 h3
 102. Nf4+ Kh7 103. Nxh3 Rg2 104. Ng5+ Kg6 105. Nf3 Rxg3 106. Kf2 Rh3 107. g5
 a2 108. Ke2 Rh1 109. Ne5+ Kg7 110. g6 Rh3 111. Nd3+ Kg8 112. g7 Rh2+ 113. Kd1
-Rh1+ 114. Kc2 Rh2+ 115. Kb3 Rh3 116. Kxa2 1/2-1/2 [Event "TCEC Season 14 -
+Rh1+ 114. Kc2 Rh2+ 115. Kb3 Rh3 116. Kxa2 1/2-1/2
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.05"] [Round
 "3.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result
 "1/2-1/2"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "B90"] [Opening
@@ -215,7 +226,9 @@ Rb8 45. c6 Kd6 46. Rc1 Kc7 47. Ke2 g2 48. Kf2 Rg8 49. Kg1 f4 50. Rc3 f3 51.
 Rc1 f2+ 52. Kxf2 g1=Q+ 53. Rxg1 Rf8+ 54. Ke3 Kxc6 55. Rb1 Kc7 56. Rb4 Kb8 57.
 Ke2 Rf7 58. Ke3 Rf1 59. Ke4 Rg1 60. Rb3 Ra1 61. Kf3 Rg1 62. Kf4 Rg6 63. Ke4
 Rg1 64. Kf4 Rg2 65. Ke4 Rg5 66. Kf4 Rg1 67. Ke4 Ra1 68. Kf5 Rg1 69. Rb4 Rg3
-70. Rxh4 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+70. Rxh4 1/2-1/2
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.05"] [Round "4.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "B90"] [Opening "Sicilian"] [Variation
@@ -231,7 +244,9 @@ Bxf6 27. Ra3 Be8 28. Qxd6 Qxc2 29. Qd3 Qxd3 30. Rxd3 Be7 31. Nd4 e5 32. fxe5
 Bxb4 33. e6 Ng6 34. Nf5 Rf6 35. Rd8 Kf8 36. Bf3 Rxe6 37. Bxh5 Kf7 38. Rb8 Bc3
 39. Rb7+ Kg8 40. Bd1 Kh7 41. Bb3 Rxe4 42. Bd5 Re5 43. Rxg7+ Kh8 44. Rg8+ Kh7
 45. Rg7+ Kh8 46. Rg8+ Kh7 47. Bb3 b4 48. Rg7+ Kh8 49. Rg8+ Kh7 50. h4 Re4 51.
-Kf2 Re5 52. Rg7+ Kh8 53. Rg8+ Kh7 54. Rg7+ Kh8 55. Ke2 1/2-1/2 [Event "TCEC
+Kf2 Re5 52. Rg7+ Kh8 53. Rg8+ Kh7 54. Rg7+ Kh8 55. Ke2 1/2-1/2
+
+[Event "TCEC
 Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.05"]
 [Round "5.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result
 "1/2-1/2"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "E90"] [Opening "King's
@@ -249,7 +264,9 @@ Be2 c3 40. Nc5 Kf7 41. Ke3 Ke7 42. Nd3 c2 43. Nc1 Kd6 44. Kd4 c5+ 45. dxc6
 Kxc6 46. Ke5 Kc5 47. Nb3+ Kc6 48. Bc4 a4 49. Nc1 Bh5 50. Bd5+ Kd7 51. Kf4 Kd6
 52. Bc4 Ke7 53. Bd3 Bf7 54. Bxc2 Bxa2 55. Bxa4 Bb1 56. Kg4 Kf7 57. Kh5 Kg7 58.
 Bb3 Be4 59. Bc4 Bf3+ 60. Kh4 Be4 61. Kh5 Bb1 62. Nd3 b3 63. Bb5 Bc2 64. Nb2
-Bg6+ 65. Kg4 h6 66. Ba4 hxg5 67. Bxb3 1/2-1/2 [Event "TCEC Season 14 -
+Bg6+ 65. Kg4 h6 66. Ba4 hxg5 67. Bxb3 1/2-1/2
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.05"] [Round
 "6.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "E90"] [Opening "King's
@@ -270,7 +287,9 @@ Kg7 58. Rg5+ Kf7 59. Rf5+ Kg7 60. Rb5 Kg6 61. Kf1 Kf6 62. Kg1 Ra2 63. Rh5 Re2
 64. Rb5 Rb2 65. Kf1 Kg6 66. Kg1 Ra2 67. Kf1 Rb2 68. Ke1 Kf6 69. Kd1 Kg6 70.
 Rxb6+ Kg5 71. Re6 Kf4 72. Rh6 Rxb3 73. Rxh7 Rb1+ 74. Kc2 Rb4 75. Rf7+ Ke3 76.
 g5 Rxa4 77. g6 Rc4+ 78. Kb3 Rb4+ 79. Kc3 Rb5 80. g7 Rg5 81. Re7 Rg4 82. Kc4
-Kd2 83. g8=Q Rxg8 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Kd2 83. g8=Q Rxg8 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.05"] [Round "7.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "0-1"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "C34"] [Opening "KGA"] [Variation "Schallop defence"]
@@ -285,7 +304,9 @@ Rb6 24. Kxg3 Bh4+ 25. Kh2 Rg6 26. Nc3 Bg3+ 27. Kg2 Bxf4+ 28. Kf1 Qh4 29. Qe4
 Qh2 30. Bg2 Be3 31. Ne2 Rf6+ 32. Ke1 Re6 33. Qg4+ Bg5 34. Bf3 Rfe8 35. Kf1 Rf6
 36. Qg2 Rxf3+ 37. Qxf3 Re3 38. Qf2 Qh3+ 39. Qg2 Qxg2+ 40. Kxg2 Rxe2+ 41. Kf3
 Rxb2 42. d5 Kg7 43. c5 Rd2 44. d6 cxd6 45. c6 Rc2 46. Ke4 Rxc6 47. Re1 Rc1 48.
-Re2 h5 49. Kf5 Rc5+ 50. Ke4 Re5+ 51. Kf3 Rxe2 52. Kxe2 h4 0-1 [Event "TCEC
+Re2 h5 49. Kf5 Rc5+ 50. Ke4 Re5+ 51. Kf3 Rxe2 52. Kxe2 h4 0-1 
+
+[Event "TCEC
 Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.05"]
 [Round "8.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "C34"] [Opening "KGA"]
@@ -312,7 +333,9 @@ Kc3 Ke4 101. Bc1 Kf3 102. Bd2 Ke2 103. Bc1 Ba4 104. Bf4 Kf2 105. Kd4 Bb3 106.
 Ke5 Bc4 107. Bd2 Ke2 108. Bc3 Kf2 109. Bd2 Ke2 110. Bc3 Kf1 111. Kd6 Bb5 112.
 Kc7 Ke2 113. Kxb7 Kd3 114. Be1 Ke2 115. Bg3 Kf3 116. Be1 Ke2 117. Bc3 Ke3 118.
 Kc7 Kd3 119. Be1 Ke2 120. Bg3 Kf3 121. Be1 Ke2 122. Bg3 Kf3 123. Be1 Ke2
-1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.06"] [Round "9.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "E00"] [Opening "Catalan opening"] [TimeControl
@@ -334,7 +357,9 @@ Kg8 70. Kd4 Kf7 71. Kc5 Bf3 72. Kd6 Ke8 73. Ke6 g5 74. hxg5 hxg5 75. Kd6 g4
 76. a7 Ba8 77. Ke6 Bh1 78. Kd6 Bb7 79. Ke6 Bh1 80. Kf5 Bf3 81. Kf6 Kd7 82. Kf7
 Bd5+ 83. Kf6 Bh1 84. Kf5 Bf3 85. Kf6 Bh1 86. e6+ Ke8 87. Kg5 Bd5 88. Kf6 Bh1
 89. Kf5 Bf3 90. Kf4 Ke7 91. Ke5 Bc6 92. Kf5 Bh1 93. Ke5 Bf3 94. Kf5 Bd5 95.
-Ke5 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Ke5 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.06"] [Round "10.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1-0"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "E00"] [Opening "Catalan opening"] [TimeControl
@@ -349,7 +374,9 @@ Qh7+ Kf7 25. Bh6 Qb6 26. Re1 Qc6+ 27. Kh3 Rg8 28. Rf5+ Bf6 29. g4 Nc7 30. g5
 Ne8 31. Rg1 Ke6 32. gxf6 Nxf6 33. Qg6 Ke7 34. Re1+ Kd8 35. Rxf6 gxf6 36. Qxg8+
 Kc7 37. Qg7 Kb7 38. Kg3 Ka6 39. h4 b4 40. Bf4 c3 41. bxc3 Qxc3+ 42. Re3 Qa1
 43. Qxd7 Rg8+ 44. Bg5 Qg1+ 45. Kh3 Qf1+ 46. Kg4 Qg1+ 47. Rg3 Qb6 48. Rd3 fxg5
-49. Rd6 gxh4+ 50. Kxh4 Rh8+ 51. Kg5 Rg8+ 52. Kf6 Rf8+ 1-0 [Event "TCEC Season
+49. Rd6 gxh4+ 50. Kxh4 Rh8+ 51. Kg5 Rg8+ 52. Kf6 Rf8+ 1-0 
+
+[Event "TCEC Season
 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.06"] [Round
 "11.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result "1-0"]
 [WhiteElo "3404"] [BlackElo "3588"] [ECO "C04"] [Opening "French"] [Variation
@@ -368,7 +395,9 @@ Bxf6 47. Bxf6 Bxe6 48. Bxh8 Bg8 49. Bf6 Nc1 50. Qe3 Nd3 51. Nxd3 cxd3 52. Qxd3
 Rb8 53. Kg3 Be6 54. Kh4 Kb7 55. g7 Qd7 56. Rg5 Rc8 57. Rg1 Bf7 58. Qf3 Qe8 59.
 Rf1 Rc7 60. Qd3 Bg8 61. Kg5 b4 62. axb4 Rc4 63. Kh6 Qe6 64. Qf5 Qe8 65. Rf3
 Rc6 66. Qxh5 Bf7 67. Qf5 Be6 68. Qg6 Bf7 69. Qd3 Re6 70. Kg5 Qc6 71. Rg3 Re8
-72. Rh3 Rg8 73. Rh4 Qd7 74. Kf4 Be6 75. Rh7 Kb6 76. Rh6 Kb7 1-0 [Event "TCEC
+72. Rh3 Rg8 73. Rh4 Qd7 74. Kf4 Be6 75. Rh7 Kb6 76. Rh6 Kb7 1-0 
+
+[Event "TCEC
 Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.06"]
 [Round "12.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "C04"] [Opening "French"]
@@ -395,7 +424,9 @@ Qg5+ Kh8 96. Qe5+ Kh7 97. Qe4+ Kh8 98. g5 Qg1+ 99. Kf4 Qh2+ 100. Kf5 Qh3+ 101.
 Ke5 Rc8 102. Qd4 Kg8 103. Qd5+ Kg7 104. Qb7+ Kg8 105. Nf4 Qe3+ 106. Kf5 Rc5+
 107. Nd5 Qe8 108. g6 Kf8 109. g7+ Kg8 110. Qb3 Ra5 111. Qc4 Qf7+ 112. Ke4 Qg6+
 113. Ke3 Qg1+ 114. Kf4 Qh2+ 115. Kf5 Qf2+ 116. Ke6 Qf7+ 117. Ke5 Qd7 118. Ke4
-Qe6+ 119. Kd4 Qg4+ 120. Nf4+ Kh7 121. g8=Q+ Qxg8 1/2-1/2 [Event "TCEC Season
+Qe6+ 119. Kd4 Qg4+ 120. Nf4+ Kh7 121. g8=Q+ Qxg8 1/2-1/2 
+
+[Event "TCEC Season
 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.06"] [Round
 "13.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result "1-0"]
 [WhiteElo "3404"] [BlackElo "3588"] [ECO "E39"] [Opening "Nimzo-Indian"]
@@ -411,7 +442,9 @@ Bd8 28. Qd2 Rxc4 29. Bxc4 Qxc4 30. f3 Nc5 31. Qc3 Qb5 32. Bxc5 bxc5 33. Kd2 f5
 34. gxf6 Nxf6 35. Ne3 Be7 36. Qc4+ Qxc4 37. Nxc4 Nh5 38. Rb1 Rxf3 39. Rgf1
 Rxf1 40. Rxf1 Bg5+ 41. Kd3 a4 42. Nb6 c4+ 43. Kxc4 Ng3 44. Re1 Bd2 45. Rg1
 Nxe4 46. Kd3 Ng5 47. Nxa4 Bf4 48. Nc3 Ne6 49. a4 Bxh6 50. a5 Nc5+ 51. Ke2 Bg7
-52. Rg4 Bf8 53. Rc4 d5 54. Nxd5 Kf7 55. Nc7 g5 56. a6 Nxa6 1-0 [Event "TCEC
+52. Rg4 Bf8 53. Rc4 d5 54. Nxd5 Kf7 55. Nc7 g5 56. a6 Nxa6 1-0 
+
+[Event "TCEC
 Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.07"]
 [Round "14.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "E39"] [Opening "Nimzo-
@@ -447,6 +480,7 @@ Rfb8 21. Qe2 c6 22. g4 hxg4 23. fxg4 Qa6 24. Nd3 Rb3 25. h5 gxh5 26. gxh5 Rab8
 27. Ka1 Nc4 28. Bc1 Qb7 29. Rxc4 Rxa3+ 30. Kb1 Qb3 31. Rxc6 Bh6 32. Rg1 Qxd3+
 33. Qxd3 Rxd3 34. e5 Nxh5 35. exd6 exd6 36. Ne4+ Bg7 37. Nxd6 Ng3 38. Rc5 Rxd4
 39. Nxf7 a3 40. Rxg3 axb2 41. Bxb2 Rxb2+ 42. Kxb2 Rg4+ 43. Rgc3 Bxc3+ 1/2-1/2
+
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.07"] [Round "16.1"] [White "Stockfish 190203"] [Black "LCZero
 v20.2-32930"] [Result "1-0"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "B06"]
@@ -461,6 +495,7 @@ b4 8. Nce2 a5 9. Kb1 Nbd7 10. g4 Nb6 11. Ng3 h5 12. gxh5 Nxh5 13. Nxh5 Rxh5
 fxg5 Ke7 27. Qe2 Nb6 28. e5 Qg8 29. Rf1 Qh8 30. Rh1 Qg8 31. Qf2 Nd7 32. exd6+
 Kxd6 33. Qf3 Rb6 34. d5 Ne5 35. Qf4 Qc8 36. Rd1 Rb8 37. Bd7 Qh8 38. dxe6+ Ke7
 39. Ba4 fxe6 40. Qf2 Rc8 41. Qc5+ Kf7 42. Bb3 Qh5 43. Bxe6+ Kxe6 44. Qd5+ 1-0
+
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.07"] [Round "17.1"] [White "LCZero v20.2-32930"] [Black "Stockfish
 190203"] [Result "1-0"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "A52"]
@@ -477,7 +512,9 @@ Nf6 31. Bf3 Ng8 32. Bc1 Rf7 33. Bc6 Ref8 34. Kg3 Re7 35. Kg2 Re6 36. Ba4 Ne7
 37. Bc2 Ng6 38. f5 Ne5 39. Qc3 Re7 40. Bf4 Ndf7 41. Qg3 Nd7 42. Bxc7 Rc8 43.
 h4 Nf6 44. Bf4 Rd7 45. Be3 Rcd8 46. g5 Ng8 47. Bc1 Nd6 48. Bb2 Ne8 49. Bc3 Rf7
 50. Qf3 Rd6 51. Kf1 Rfd7 52. Qh5 Re7 53. f6 Ngxf6 54. gxf6 Nxf6 55. Qf3 Kg8
-56. h5 Kf8 1-0 [Event "TCEC Season 14 - Superfinal"] [Site
+56. h5 Kf8 1-0 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.07"] [Round "18.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "A52"] [Opening "Budapest"] [Variation
@@ -498,7 +535,9 @@ Rf8 Kd5 57. Kg3 Ra3+ 58. Kg2 Rb2 59. Kh2 Rb7 60. Be1 Rg7 61. Rf5+ Ke4 62. Re5+
 Kf3 63. Rf5+ Ke4 64. Re5+ Kd3 65. Bf2 Ra2 66. Re3+ Kc4 67. Rf3 Kd5 68. Kh3 Ke4
 69. Re3+ Kf4 70. Rg3 Rb7 71. Be3+ Ke4 72. d5 Kf5 73. Rf3+ Ke4 74. Rg3 Rh7+ 75.
 Kg4 Rg7+ 76. Bg5 Ra5 77. Kh5 Ra2 78. d6 Kf5 79. Rf3+ Ke5 80. Bf6+ Ke4 81. Bxg7
-1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.07"] [Round "19.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "C92"] [Opening "Ruy Lopez"] [Variation "closed,
@@ -527,7 +566,9 @@ Be8 112. Kf2 Kh2 113. Nd5 Bb5 114. Nc3 Bd7 115. Ne4 Be8 116. Nd6 Bc6 117. Nc8
 Bd7 118. Nb6 Be8 119. Nd5 Kh3 120. Nf6 Bc6 121. Ke3 Kg3 122. Kd4 Kf4 123. Kc5
 Bf3 124. Kd4 Bc6 125. Kc5 Bf3 126. Kb5 Ke5 127. Nh7 Bg4 128. Kxa4 Kf5 129. Nf8
 Kf6 130. Nh7+ Kg6 131. Nf8+ Kf7 132. Nh7 Kg6 133. Nf8+ Kf7 134. Nh7 Kg6
-1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.08"] [Round "20.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1-0"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "C92"] [Opening "Ruy Lopez"] [Variation
@@ -544,7 +585,9 @@ Kg7 33. Rxd6 Qc4 34. Nd5 Rb8 35. Ne3 Qxa2 36. R6d5 Nc4 37. Nf5+ gxf5 38. exf5
 Rb6 39. R5d3 Rd6 40. Rg3+ Kf6 41. Re1 Ne5 42. Qe4 c2 43. f4 Nf3+ 44. gxf3 Re6
 45. fxe6 Qxe6 46. Kg2 Qxe4 47. fxe4 c1=Q 48. Rxc1 Bxc1 49. Rc3 Bxf4 50. Rxa3
 Kg6 51. Kf3 Be5 52. Ra5 f6 53. Kg4 Bc3 54. Rf5 Bb2 55. h4 Bd4 56. Rd5 Bb2 57.
-h5+ Kg7 58. Rd7+ Kh6 59. Rf7 Bd4 1-0 [Event "TCEC Season 14 - Superfinal"]
+h5+ Kg7 58. Rd7+ Kh6 59. Rf7 Bd4 1-0 
+
+[Event "TCEC Season 14 - Superfinal"]
 [Site "http://tcec.chessdom.com"] [Date "2019.02.08"] [Round "21.1"] [White
 "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result "0-1"] [WhiteElo
 "3404"] [BlackElo "3588"] [ECO "A22"] [Opening "English"] [Variation "Bellon
@@ -559,7 +602,9 @@ Qxc1 Qg7 24. Nc3 Bc5 25. Na4 Bd6 26. Nc3 Bc5 27. Bf1 a5 28. Re1 Ba7 29. Nd1
 Ne4 30. Qc7 f5 31. Qc6 Qe7 32. Bd3 Rc8 33. Qa6 Rc1 34. Kf1 Bxf2 35. Qxa5 Bxe1
 36. Kxe1 Bf7 37. Qb6 Nc5+ 38. Be2 d4 39. Kd2 Ra1 40. Qb8+ Kh7 41. Qe5 Qxe5 42.
 Nxe5 Bxa2 43. b4 Ne4+ 44. Kd3 Bb3 45. Nb2 Ra2 46. Nbc4 Bxc4+ 47. Nxc4 Nf2+ 48.
-Kxd4 Rxe2 49. b5 Ne4 0-1 [Event "TCEC Season 14 - Superfinal"] [Site
+Kxd4 Rxe2 49. b5 Ne4 0-1 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.08"] [Round "22.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1-0"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "A22"] [Opening "English"] [Variation "Bellon
@@ -574,7 +619,9 @@ Nc5 18. Qa2 Ke7 19. b4 Ne4 20. Nb3 Rab8 21. Na5 Ba8 22. Bxa6 c5 23. Nc4 Bc7
 Be5 Bxe5 31. Nxe5 Qd6 32. Rd1 Rg7 33. a4 Kf8 34. Qd3 Qb6 35. a5 Qxa5 36. Qh3
 Kg8 37. Qxf5 Qa4 38. Ree1 Rf8 39. Qe6+ Kh7 40. Ng4 h5 41. Qh6+ Kg8 42. Qxh5 c4
 43. Ra1 Qb4 44. Rxe4 Qb2 45. Ree1 d4 46. Nh6+ Kh8 47. Nf7+ Kg8 48. Qh8+ Kxf7
-49. Re7+ Kxe7 50. Qxg7+ Rf7 51. Qe5+ Kd8 1-0 [Event "TCEC Season 14 -
+49. Re7+ Kxe7 50. Qxg7+ Rf7 51. Qe5+ Kd8 1-0 
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.08"] [Round
 "23.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result
 "1/2-1/2"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "B32"] [Opening "Sicilian
@@ -594,7 +641,9 @@ Rf5 49. Qg3 Rf7 50. Qg5 Rf5 51. Qg3 Rf7 52. Rc1 Qe7 53. Rg1 Rg7 54. Qg5 Qxa3
 61. Kb3 Qb5+ 62. Ka3 Qa5+ 63. Kb3 Qb5+ 64. Ka2 Qa4+ 65. Kb2 Qb4+ 66. Kc2 Qe4+
 67. Kb3 Qc4+ 68. Ka3 Qc5+ 69. Ka2 Qc4+ 70. Ka1 Qa4+ 71. Kb2 Qb4+ 72. Kc2 Qa4+
 73. Kd2 Qa2+ 74. Ke3 Qe2+ 75. Kf4 Qf2+ 76. Ke5 Qb2+ 77. Kd6 Qa3+ 78. Ke5 Qb2+
-79. Kd6 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+79. Kd6 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.08"] [Round "24.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "B32"] [Opening "Sicilian defence"]
@@ -630,7 +679,9 @@ Kb5 154. Bf2 Kc4 155. Bb6 Kb4 156. Bg1 Kb3 157. Bf2 Kb4 158. Bg1 Kc4 159. Bf2
 Kb3 160. Be1 Kb4 161. Bf2 Kc4 162. Bb6 Kd5 163. Bf2 Kd6 164. Be1 Ke6 165. Bf2
 Kd7 166. Be1 Kc6 167. Bf2 Kb5 168. Be1 Kc5 169. Bf2+ Kd5 170. Ke2 Ke6 171. Ba7
 Ke5 172. Bf2 Kf6 173. Be1 e3 174. Kd3 Ke5 175. Bb4 Kd5 176. Be1 Ke5 177. Bc3+
-Kd5 178. Ba1 Kc5 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Kd5 178. Ba1 Kc5 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.08"] [Round "25.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1-0"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "D31"] [Opening "QGD"] [Variation "semi-Slav"]
@@ -647,6 +698,7 @@ Rb1 Re3 38. Qg5 Qe7 39. Ra1 Qxg5 40. fxg5 R8e7 41. Ra7 Ke8 42. Kf2 Rc3 43. Re1
 Rxe1 44. Kxe1 Rc7 45. Kf2 Kd7 46. Kg3 Kd6 47. Kf4 Rd7 48. Ra2 Re7 49. Ra7 Rg7
 50. g3 Re7 51. Bg2 Rh7 52. Bf1 Rd7 53. Be2 Rg7 54. Bd3 Rf7 55. Bc2 Re7 56. g4
 fxg4 57. hxg4 Bc8 58. Rxe7 Kxe7 59. gxh5 gxh5 60. Bf5 Bxf5 61. Kxf5 Kf8 1-0
+
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.09"] [Round "26.1"] [White "Stockfish 190203"] [Black "LCZero
 v20.2-32930"] [Result "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO
@@ -664,7 +716,9 @@ Rxf2+ 40. Kh1 Ke7 41. Ra1 Rg8 42. Raa7 Rd8 43. c5 e5 44. dxe5 d4 45. exd4 e3
 46. Nf4 e2 47. Nxe2 Rxe2 48. d5 cxd5 49. c6 Rf8 50. Rxd7+ Ke6 51. Re7+ Kf5 52.
 Rf7+ Rxf7 53. Rxf7+ Ke6 54. Rd7 Rc2 55. Rh7 Kxe5 56. g4 d4 57. c7 Kf4 58. Rxh3
 Ke4 59. Rh6 d3 60. Kg1 d2 61. Rd6 Ke3 62. Kf1 Kf3 63. Rf6+ Ke3 64. Rd6 Kf3 65.
-Rd3+ Ke4 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Rd3+ Ke4 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.09"] [Round "27.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1-0"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "B07"] [Opening "Pirc defence"] [TimeControl "7200+15"]
@@ -681,7 +735,9 @@ Nxa4 f4 40. Re2 Rh5 41. Nc3 Rc5 42. Rc2 Kg7 43. Ke2 Kg6 44. Kd2 Rh5 45. Rb2
 Rh2 46. Ke1 Rg2 47. Rb4 f3 48. a4 Bd7 49. a5 Kg7 50. a6 Rg1+ 51. Kd2 Ra1 52.
 a7 Rxa7 53. Ke3 Ra3 54. Rc4 Kf8 55. Kxf3 Ke7 56. Ke3 Ra7 57. d4 Ra1 58. Rc5
 Ke6 59. Ne2 f5 60. Nd3 Rh1 61. Ndf4+ Ke7 62. Rc2 Ra1 63. Rb2 Ra3+ 64. Kd2 Ra6
-65. Rb3 Be8 66. Ke3 Kd6 67. Kf2 Bf7 68. Rh3 Ke7 1-0 [Event "TCEC Season 14 -
+65. Rb3 Be8 66. Ke3 Kd6 67. Kf2 Bf7 68. Rh3 Ke7 1-0 
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.09"] [Round
 "28.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "B07"] [Opening "Pirc
@@ -718,6 +774,7 @@ Rd1 157. Rf3 Kh1 158. Rh3+ Kg1 159. Rf3 Rf1 160. Raa3 Rb1 161. Ra4 Kh2 162.
 Ra2 Kh1 163. Rh3+ Kg1 164. Rd3 Kh1 165. Rh3+ Kg1 166. Rd2 Rc1 167. Kf5 Re1
 168. Kg4 Re5 169. Ra2 Re1 170. Rha3 Kh1 171. Rh3+ Kg1 172. Kf5 Rf1 173. Kxe6
 f3 174. Kf5 f2 175. Rf3 Kh1 176. Rh3+ Kg1 177. Rf3 Kh2 178. Raxf2 1/2-1/2
+
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.09"] [Round "29.1"] [White "LCZero v20.2-32930"] [Black "Stockfish
 190203"] [Result "1-0"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "A80"]
@@ -733,7 +790,9 @@ Qb4 27. Nxe4 fxe4 28. Ng3 Bc6 29. Nxe4 Bxe4 30. Qxe4 Re8 31. Qe5 Rf7 32. Re2
 Qe7 33. Rc1 b6 34. g3 Qf6 35. Rc6 Qxe5 36. dxe5 g5 37. Kg2 Rf5 38. Kh3 Kf7 39.
 Kg4 Kg6 40. f4 Rf7 41. Rd2 gxf4 42. Rdd6 Rfe7 43. gxf4 Kf7 44. Kh5 Rf8 45. f5
 exf5 46. Kg5 Rfe8 47. Rf6+ Kg8 48. e6 f4 49. Kxf4 a6 50. Rxb6 Ra7 51. Ke5 Rc7
-52. Kd6 Ra7 53. a5 Rd8+ 54. Kc6 1-0 [Event "TCEC Season 14 - Superfinal"]
+52. Kd6 Ra7 53. a5 Rd8+ 54. Kc6 1-0 
+
+[Event "TCEC Season 14 - Superfinal"]
 [Site "http://tcec.chessdom.com"] [Date "2019.02.09"] [Round "30.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "A80"] [Opening "Dutch"] [TimeControl
@@ -778,7 +837,9 @@ Bd3 Kc7 209. Kb3 Kb6 210. Na4+ Ka5 211. Bf1 Bxa6 212. Bxa6 Kxa6 213. Kb4 Kb7
 214. Ka5 e5 215. fxe5 f4 216. gxf4 h4 217. f5 Kc7 218. f6 Kd8 219. f7 Ke7 220.
 e6 h3 221. gxh3 gxh3 222. Ka6 Bxd4 223. exd4 h2 224. Nc5 h1=Q 225. Nd7 Kxe6
 226. f8=Q Kxd7 227. Qf7+ Kd6 228. Qf6+ Kd7 229. Qf7+ Kd6 230. Qf6+ Kd7 231.
-Qg7+ Ke6 232. Kb6 Qc1 233. Qg6+ Kd7 1/2-1/2 [Event "TCEC Season 14 -
+Qg7+ Ke6 232. Kb6 Qc1 233. Qg6+ Kd7 1/2-1/2 
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.10"] [Round
 "31.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result
 "1/2-1/2"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "B12"] [Opening "Caro-
@@ -803,7 +864,9 @@ Rh5 Kd6 78. Rh4 Nc6 79. Rh6+ Kd7 80. a6 Nb4 81. a7 Bb7 82. Kf7 Nd5 83. Kg7 Nc3
 Rf6 Nb1 91. Kg6 Nd2 92. Kf5 Nc4 93. Kg5 Nb2 94. Kg6 Nd1 95. Kg5 Nb2 96. Rh6
 Nc4 97. Rg6 Ne5 98. Rf6 Nc4 99. Rg6 Ne5 100. Rf6 Ba8 101. Rf8 Bb7 102. Kf5 Nc4
 103. Rf6 Kc8 104. Rf8+ Kd7 105. Rf6 Ba8 106. Rh6 Kc8 107. Rh8+ Kb7 108. Rb8+
-Ka6 109. Kf4 Nxb6 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Ka6 109. Kf4 Nxb6 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.10"] [Round "32.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "B12"] [Opening "Caro-Kann"] [Variation
@@ -822,7 +885,9 @@ Rg8 Ke7 46. dxe5 fxe5 47. Rg6 Rb8 48. Nd6 Kd7 49. Ne4 Bc5 50. f3 Rf8 51. Rg3
 Ke6 52. Kc4 Be3 53. Kd3 Bc5 54. Rg6+ Ke7 55. Rg7+ Ke6 56. Kc4 Be3 57. Rg6+ Kf5
 58. Rg3 Ke6 59. Rg6+ Kf5 60. Rg4 Ke6 61. Rg3 Rf4 62. Rg6+ Kf7 63. Rg3 Ke6 64.
 Rg6+ Kf7 65. Rc6 Ke7 66. Kd5 Rxf3 67. c4 Bc5 68. Nxc5 bxc5 69. Rxc5 e4 70.
-Kxe4 Ra3 71. Rxa5 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Kxe4 Ra3 71. Rxa5 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.10"] [Round "33.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "E81"] [Opening "King's Indian"] [Variation "Saemisch,
@@ -840,7 +905,9 @@ b6 29. gxh4 Rh3 30. Re2 Rxh4 31. b3 Rf8 32. Kb2 Kg7 33. Ka3 Rhf4 34. Rd7+ R8f7
 47. Rg8 Kf3 48. c5 g2 49. Rf8+ Ke2 50. Re8+ Kf3 51. Rf8+ Ke2 52. Rg8 Kf3 53.
 c6 Rh6 54. Rf8+ Ke2 55. Re8+ Kf2 56. Rf8+ Ke1 57. Rg8 Kf2 58. Rf8+ Ke3 59. Rg8
 Kf3 60. Rf8+ Ke3 61. c7 Ra6+ 62. Kb4 Rc6 63. Rg8 Kf2 64. Rf8+ Ke3 65. Rg8 Kf2
-66. Rf8+ 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+66. Rf8+ 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.10"] [Round "34.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "E81"] [Opening "King's Indian"] [Variation
@@ -859,7 +926,9 @@ Rd1 Kg8 46. Rc1 Qh3 47. f4 Qd7 48. Qg2 Kf8 49. Qd2 Nf5 50. Ree1 Nd4 51. Qf2
 Qg4 52. Re3 Kg8 53. Rg1 Qc8 54. Rc1 Qd7 55. Ka1 Qg4 56. Kb1 h3 57. Qg3 Qxg3
 58. Rxg3 Rxe4 59. Bxe4 Rxe4 60. Rf1 Re2 61. Rxh3 Kg7 62. Rg3 Rxh2 63. a3 Nf5
 64. Rgf3 b3 65. R3f2 Rh4 66. Rf3 Rh2 67. R1f2 Rh4 68. Kc1 Ne7 69. Rd3 Nc8 70.
-Rdf3 Ne7 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Rdf3 Ne7 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.10"] [Round "35.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "C10"] [Opening "French"] [Variation "Paulsen
@@ -888,7 +957,9 @@ Ke4 Kd6 110. Kf3 Ke7 111. Ke2 Ke6 112. Kd2 Ke7 113. Ne3 Nb6 114. Ke2 Na4 115.
 Nd1 Nb6 116. Ke3 Kd6 117. Kf4 Nd5+ 118. Kg4 Nc7 119. Kf3 Nb5 120. Ke4 Ke6 121.
 Kf4 Na3 122. Kf3 Kd5 123. Ne3+ Ke6 124. Nd1 Kd5 125. Ne3+ Kc6 126. Ke4 Nb5
 127. Nd1 Kd6 128. Kf3 Kd5 129. Ke3 Na3 130. Kf4 Nb1 131. Ke3 Na3 132. Kf4 Nb1
-133. Ne3+ Ke6 134. d5+ Kd6 135. Ke4 Nxc3+ 1/2-1/2 [Event "TCEC Season 14 -
+133. Ne3+ Ke6 134. d5+ Kd6 135. Ke4 Nxc3+ 1/2-1/2 
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.11"] [Round
 "36.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "C10"] [Opening "French"]
@@ -912,7 +983,9 @@ Ke5 78. Ba3 Rh5 79. Bc1 Rf5 80. Rd1 Rf6 81. Bd2 f3 82. Re1+ Kd5 83. Kd3 Bxd2
 84. Kxd2 Rh6 85. Rb1 Kc5 86. Re1 Rxh3 87. Re5+ Kc4 88. Re4+ Kd5 89. Rb4 Kc5
 90. Rf4 Kd5 91. Rb4 Kc5 92. Rf4 Rg3 93. Rf5+ Kc4 94. Rf4+ Kd5 95. Rf5+ Kc4 96.
 Rf4+ Kc5 97. Rf7 Rg2+ 98. Kd3 f2 99. Rf5+ Kb6 100. c4 b4 101. Rb5+ Kc6 102.
-Ke2 Rg1 103. Kxf2 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Ke2 Rg1 103. Kxf2 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.11"] [Round "37.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "A45"] [Opening "Trompovsky attack (Ruth, Opovcensky
@@ -939,7 +1012,9 @@ Qc6+ Ke7 98. Qe4+ Kf6 99. Qh1 Qb5+ 100. Kc1 Qg5+ 101. Kb1 Qf5+ 102. Kb2 Qb5+
 103. Ka1 Qd3 104. Qh8+ Ke6 105. Qh6+ Kd5 106. Kb2 Qb5+ 107. Kc1 Qf1+ 108. Kc2
 Qe2+ 109. Kb3 Qd1+ 110. Kb2 Qe2+ 111. Ka3 Qd3 112. Kb2 Qe2+ 113. Ka3 Qe1 114.
 Qg5+ Kc6 115. Qf6+ Rd6 116. Qf3+ Rd5 117. Rf8 Qa1+ 118. Kb3 Qb1+ 119. Ka3 Qa1+
-120. Kb3 Qb1+ 121. Ka3 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+120. Kb3 Qb1+ 121. Ka3 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.11"] [Round "38.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "A45"] [Opening "Trompovsky attack (Ruth,
@@ -965,7 +1040,9 @@ Bc5 95. Bd5 Kf1 96. Kd2 Bb6 97. Be4 Ba7 98. Bf3 Kf2 99. Be4 Kf1 100. Kc2 Ke1
 101. Bh1 Kf1 102. Kd1 Bb6 103. Bd5 Ba7 104. Bh1 Bb6 105. Kd2 Kg1 106. Bf3 Kf1
 107. Kd3 Bc5 108. Kc4 Ba7 109. Kd3 Kf2 110. Bh1 Kg1 111. Bf3 Kf2 112. Bh1 Bb6
 113. Kd2 Kg1 114. Be4 Kf1 115. Bf3 Kf2 116. Bd5 Ba7 117. Bh1 Bc5 118. Kd3 Bb6
-119. Bd5 Bc5 120. Be4 Bb6 121. Bd5 1/2-1/2 [Event "TCEC Season 14 -
+119. Bd5 Bc5 120. Be4 Bb6 121. Bd5 1/2-1/2 
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.11"] [Round
 "39.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result
 "1/2-1/2"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "C33"] [Opening "KGA"]
@@ -1000,7 +1077,9 @@ Ka2 Bd6 145. Ka1 Kg5 146. Be8 Bg3 147. Ka2 Bd6 148. Bf7 Kh6 149. Kb3 Kg5 150.
 Ka2 Kh6 151. Kb1 Be7 152. Be8 Bf6 153. Ka2 Be7 154. Bf7 Bc5 155. Bg6 Kg5 156.
 Ka1 Kg4 157. Ka2 Bd6 158. Be8 Bc5 159. Bg6 Bd6 160. Bf7 Kg5 161. Bg6 Bb4 162.
 Ka1 Be7 163. Ka2 Kf4 164. Kb1 Ke5 165. Ka2 Bb4 166. Kb1 Kf4 167. Ka2 Kg5 168.
-Be8 Be7 169. Bg6 Bf8 170. Kb1 Bd6 171. Ka2 Kh6 1/2-1/2 [Event "TCEC Season 14
+Be8 Be7 169. Bg6 Bf8 170. Kb1 Bd6 171. Ka2 Kh6 1/2-1/2 
+
+[Event "TCEC Season 14
 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.11"] [Round
 "40.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "C33"] [Opening "KGA"]
@@ -1019,6 +1098,7 @@ Rxa5 46. Ke3 Kc7 47. Be6 Kd6 48. Nd4 Ra1 49. Bxf5 Ke5 50. Bg6 Rg1 51. Ne2 Rb1
 52. Bxe4 Rxb2 53. Nf4 Rb3+ 54. Nd3+ Kf6 55. Kd4 a5 56. Nf4 Ke7 57. Nxh5 Rb2
 58. Nf4 a4 59. Nd3 a3 60. Nc1 Re2 61. Bd5 Re1 62. Kc5 Rxc1+ 63. Kxb4 Ra1 64.
 g4 Kf6 65. g5+ Kg7 66. h5 Rd1 67. h6+ Kg6 68. h7 Kg7 69. h8=Q+ Kxh8 1/2-1/2
+
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.12"] [Round "41.1"] [White "LCZero v20.2-32930"] [Black "Stockfish
 190203"] [Result "1/2-1/2"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "D07"]
@@ -1054,7 +1134,9 @@ Nf3 Kg6 149. Kd3 Nf4+ 150. Ke4 Ne6 151. Kd5 Nf4+ 152. Kc5 Kf5 153. Kd4 Ne6+
 154. Kd5 Nf4+ 155. Kd4 Kg4 156. Ke4 Ne6 157. Ke3 Nc7 158. Ke4 Ne6 159. g6 Ng7
 160. Ne5+ Kg5 161. Kd5 Kf6 162. Kd6 Nh5 163. Kd5 Nf4+ 164. Kd4 Ne6+ 165. Kd5
 Ke7 166. Nd3 Kf6 167. Ne5 Kf5 168. Kd6 Ng7 169. Kd5 Ne8 170. Kd4 Ke6 171. Ke4
-Nf6+ 172. Kd4 Kf5 173. g7 Ng8 174. Nc6 Kg6 175. Nxa5 1/2-1/2 [Event "TCEC
+Nf6+ 172. Kd4 Kf5 173. g7 Ng8 174. Nc6 Kg6 175. Nxa5 1/2-1/2 
+
+[Event "TCEC
 Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.12"]
 [Round "42.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "D07"] [Opening "QGD"]
@@ -1071,7 +1153,9 @@ Rd8 26. fxg5 Rd5 27. Rc2 Qa3 28. Rb1 Qc5 29. Nf3 Rad8 30. Ke1 Rd3 31. Qe5 Qd5
 38. Nb1 Rxc2 39. Rxc2 Bd3 40. Rc1 a4 41. Nbd2 a3 42. Rc3 a2 43. Ra3 Bb1 44.
 Nc4 e5 45. Nfxe5 Ke6 46. Nf3 Rc5 47. Ncd2 Kd6 48. Ra8 Kc7 49. Kf2 Kb7 50. Ra3
 Kb6 51. Ra8 Rd5 52. Ke3 Rd3+ 53. Ke2 Rd5 54. Ke3 Kc5 55. Ne4+ Kc4 56. Ra7 Rd3+
-1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.12"] [Round "43.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "B89"] [Opening "Sicilian"] [Variation "Velimirovic
@@ -1093,7 +1177,9 @@ Ne4+ 61. Kc6 Qd6+ 62. Kb7 Nxc3 63. Qxc3 g5 64. b4 Kf7 65. Qb3+ Kf6 66. c4 g4
 73. Ka7 Qc7+ 74. Ka8 Qc6+ 75. Kb8 Qb5+ 76. Ka7 Qd7+ 77. Kb6 Qd8+ 78. Kxa6 Qa8+
 79. Kb6 Qb8+ 80. Ka6 Qa8+ 81. Kb6 Qb8+ 82. Ka5 Qa7+ 83. Kb5 Qb7+ 84. Ka5 Qa7+
 85. Kb5 Qb7+ 86. Ka5 Qc7+ 87. Ka6 Qc8+ 88. Ka7 Qc7+ 89. Ka8 Qc8+ 90. Ka7 Qc7+
-91. Ka6 Qc6+ 92. Ka5 Qc7+ 93. Kb5 Qb8+ 94. Kc6 1/2-1/2 [Event "TCEC Season 14
+91. Ka6 Qc6+ 92. Ka5 Qc7+ 93. Kb5 Qb8+ 94. Kc6 1/2-1/2 
+
+[Event "TCEC Season 14
 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.12"] [Round
 "44.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "B89"] [Opening
@@ -1109,7 +1195,9 @@ Rxd4 Rxe7 21. Bf4 Nc5 22. Qc4 Rxe4 23. Rgd1 Qa5 24. Nxc5 Qa1+ 25. Kd2 Rxd4+
 32. Ke2 Be4 33. c4 bxc3 34. bxc3 f6 35. gxf6 gxf6 36. Bc5 Re6 37. b4 Kf7 38.
 Be3 f5 39. Ra5 Kg6 40. Rc5 Rc6 41. Rxc6+ Bxc6 42. Kf2 Bd5 43. Bf4 Kh5 44. Kg3
 Kg6 45. h3 Kf6 46. Kf2 Ke6 47. Kg3 Bc4 48. h4 Kd5 49. Kf3 Bd3 50. Ke3 Bc2 51.
-Bg3 Kc4 52. Be5 Bd1 53. Kf4 1/2-1/2 [Event "TCEC Season 14 - Superfinal"]
+Bg3 Kc4 52. Be5 Bd1 53. Kf4 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"]
 [Site "http://tcec.chessdom.com"] [Date "2019.02.12"] [Round "45.1"] [White
 "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo
 "3404"] [BlackElo "3588"] [ECO "A30"] [Opening "English"] [Variation
@@ -1138,6 +1226,7 @@ Rh5 Kg4 108. Kb3 Ra1 109. Rc5 Nc6 110. Rc4+ Kg5 111. Rc5+ Kf4 112. Rc4+ Ke3
 113. Rc3+ Kd2 114. Rc2+ Ke3 115. Rc3+ Kd2 116. Rc2+ Kd3 117. Bc4+ Ke4 118.
 Re2+ Kf5 119. a6 Nb8 120. Rf2+ Ke4 121. Re2+ Kf5 122. Bd3+ Kg4 123. Re4+ Kg5
 124. Re5+ Kf4 125. Re4+ Kg5 126. Re5+ Kf4 127. Rf5+ Ke3 128. Rd5 Nxa6 1/2-1/2
+
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.12"] [Round "46.1"] [White "Stockfish 190203"] [Black "LCZero
 v20.2-32930"] [Result "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO
@@ -1173,7 +1262,9 @@ Bxe6 fxe6 143. Nh6 Ka3 144. Nf7 Kxa2 145. Kc2 Bc7 146. Nh8 Bd8 147. Nxg6 Bxg5
 154. Nf3 Be3 155. Kc3 Ka2 156. Ne1 Ba7 157. Nd3 Be3 158. Ne1 a4 159. Kc2 Ka3
 160. Nd3 Bb6 161. Kc3 Be3 162. Kc2 Bg1 163. Nc1 Bc5 164. Ne2 Be3 165. Kc3 Ka2
 166. Kc2 Ka3 167. Kc3 Ka2 168. Kd3 Bf2 169. Kc2 Be3 170. Nc3+ Ka3 171. Nb5+
-Kb4 172. Nc7 a3 173. Nxe6 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Kb4 172. Nc7 a3 173. Nxe6 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.13"] [Round "47.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "B01"] [Opening "Scandinavian defence"] [TimeControl
@@ -1205,7 +1296,9 @@ Rh1 Kd3 112. Rh3+ Be3 113. Rh4 Bf2 114. Rh2 Bd4 115. Rh3+ Be3 116. Rh1 Kc3
 135. Rh2 Ra8 136. Kb7 Rd8 137. Kc6 Ra8 138. Kb7 Rd8 139. Rh5 Kb3 140. Rh4 Kc3
 141. Rh1 Kc4 142. Rh3 Kb5 143. Rh5+ Kc4 144. Rh6 Kb5 145. Rh5+ Kc4 146. Kc7
 Ra8 147. Rh4 Kd5 148. Kb7 Rd8 149. Rh3 Kc4 150. Rh4 Kd5 151. Kc7 Ra8 152. h8=Q
-Bxh8 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Bxh8 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.13"] [Round "48.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "B01"] [Opening "Scandinavian defence"]
@@ -1233,7 +1326,9 @@ Nd6+ 106. Kd3 Ne8 107. Kc4 Kd6 108. Bb4+ Kc7 109. Be7 Nd6+ 110. Kd3 b5 111.
 Bf6 Nc4 112. Bg4 Kd6 113. Be6 Nb6 114. Ke4 Nc4 115. Kd3 Nb6 116. Ke4 b4 117.
 Be5+ Ke7 118. Bxf4 gxf4 119. Kxf4 b3 120. Bf5 b2 121. d6+ Kd8 122. d5 Nc4 123.
 d7 Na3 124. d6 Nc4 125. Bb1 Nd2 126. Ba2 Nc4 127. Bb1 Na3 128. Ba2 Nb5 129.
-Bb1 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Bb1 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.13"] [Round "49.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1-0"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "A61"] [Opening "Benoni defence"] [TimeControl
@@ -1252,7 +1347,9 @@ Re7 38. Rfe1 Qf8 39. Rg4 Re5 40. Rf4 Qe8 41. Rc1 Rg7 42. Qb3 Qe7 43. Bg4 h5
 Rc5 Rd7 57. g4 d4 58. Rb5 Nc4 59. Bd3 Rc7 60. h5 gxh5 61. Rxh5 Rc6 62. Rh7+
 Kf8 63. Rxb7 Nd6 64. Ra7 Rc3 65. Ke2 Ra3 66. Rxa5 Ra2+ 67. Ke1 Ra1+ 68. Kd2
 Ra2+ 69. Kc1 Ra3 70. Rd5 Nb7 71. Rxd4 Nc5 72. Bc2 Ne6 73. Rc4 Ng7 74. g5 Ne8
-75. g6 Kg7 76. Kb2 Rh3 1-0 [Event "TCEC Season 14 - Superfinal"] [Site
+75. g6 Kg7 76. Kb2 Rh3 1-0 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.13"] [Round "50.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "A61"] [Opening "Benoni defence"] [TimeControl
@@ -1266,7 +1363,9 @@ Bxc3 19. Qxc3 Qxc3+ 20. bxc3 Ba4 21. Bb3 Bxb3 22. axb3 a5 23. Rhe1 a4 24. bxa4
 Rxa4 25. Re6 Nd7 26. Rxd6 Ne5 27. Rb6 Rd8 28. d6 Nf7 29. Kc2 Rxd6 30. Rxb7
 Ra2+ 31. Rb2 Rxb2+ 32. Kxb2 h5 33. gxh5 gxh5 34. Kc2 Rg6 35. Rg1 Kg7 36. Kb3
 Nd6 37. Nc4 Nf5 38. g4 hxg4 39. hxg4 Rg5 40. Kc2 Nh6 41. Nb2 Rxg4 42. Rxg4+
-Nxg4 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Nxg4 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.13"] [Round "51.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "C50"] [Opening "Giuoco Pianissimo"] [TimeControl
@@ -1289,7 +1388,9 @@ Nd5 70. Rd7 Nf4 71. Rd4 Ne6 72. Rd6 Kf7 73. Rxc6 Rxa5 74. Kh2 Ke7 75. Rb6 Kf6
 Kg3 Ne2+ 83. Kh2 Nf4 84. Rb5 Re2 85. Nc3 Rxf2 86. Nd5+ Nxd5 87. Rxd5 a4 88.
 Rxh5 a3 89. Ra5 a2 90. Kg3 Re2 91. Ra6 Kf7 92. Ra4 Ke6 93. Ra5 Kf6 94. Ra6+
 Ke5 95. h5 Kf5 96. h6 Re3+ 97. Kh4 Re2 98. Kg3 Re3+ 99. Kh4 Re6 100. Ra5+ Kf6
-101. Rxa2 Kg6 102. Kg3 Kxh6 1/2-1/2 [Event "TCEC Season 14 - Superfinal"]
+101. Rxa2 Kg6 102. Kg3 Kxh6 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"]
 [Site "http://tcec.chessdom.com"] [Date "2019.02.14"] [Round "52.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "C50"] [Opening "Giuoco Pianissimo"]
@@ -1308,7 +1409,9 @@ Qc8 44. g4 Rxa6 45. Qc2 hxg4 46. Rxg4 Ne7 47. Nh2 Rf8 48. f4 exf4 49. Qg2 Qe8
 Qf7 57. Bg5 Rh7 58. R1g2 Nxd5 59. Kg1 Rb4 60. Qa1 Nde7 61. e5 dxe5 62. Rxb4
 fxg5 63. Rbg4 Qb3 64. Rxg5 Qe3+ 65. Kh1 Kf7 66. Qa2+ Kf6 67. Qa6+ Qb6 68. Qd3
 Rh6 69. Qe4 c6 70. Qe2 Qd4 71. Rh5 Rxh5 72. Qxh5 Nf4 73. Ng4+ Ke6 74. Qxe5+
-Qxe5 75. Nxe5 Nxg2 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+Qxe5 75. Nxe5 Nxg2 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.14"] [Round "53.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1-0"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "D12"] [Opening "QGD Slav"] [Variation "4.e3 Bf5"]
@@ -1333,7 +1436,9 @@ Kf7 87. f3 Bf6 88. Ra5 Rb7 89. Raa4 Rb1 90. Ke4 Kg6 91. Ra3 Rb8 92. Rd3 Re8+
 93. Kf4 Kh5 94. Kg3 Rd8 95. d5 Be7 96. Kg2 Bd6 97. Kf1 Kg6 98. Ra4 Kf5 99. Ra7
 Kf6 100. Ke2 Re8+ 101. Kd1 Rd8 102. Kc2 Rc8+ 103. Kb3 Rb8+ 104. Kc4 Rc8+ 105.
 Kb5 g6 106. Ra4 Rc5+ 107. Kb6 Rc1 108. Re4 Kf7 109. Re6 Rb1+ 110. Kc6 Be7 111.
-Rde3 Bg5 1-0 [Event "TCEC Season 14 - Superfinal"] [Site
+Rde3 Bg5 1-0 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.14"] [Round "54.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "D12"] [Opening "QGD Slav"] [Variation "4.e3
@@ -1352,7 +1457,9 @@ Rc8 37. Kf3 Rc4 38. Bd2 Rc2 39. Bc3 Rd8 40. Kg4 Rg2+ 41. Kf3 Rc2 42. Kg3 Rd7
 55. Kf3 Be5 56. fxe5 fxe5 57. Bxe5 Kxe5 58. Rc7 Rh3+ 59. Ke2 a5 60. bxa5 bxa5
 61. Ra7 Rxh4 62. Rxa5 g5 63. Ra6 Rc4 64. a4 Ke4 65. Re6+ Kf5 66. Rd6 Ke4 67.
 Re6+ Kf5 68. Rd6 Rc5 69. Kf3 g4+ 70. Kg3 Ra5 71. Rd7 Ke4 72. Re7+ Kd3 73. Kxg4
-d4 74. exd4 1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+d4 74. exd4 1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.14"] [Round "55.1"] [White "LCZero
 v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo "3404"]
 [BlackElo "3588"] [ECO "B07"] [Opening "Pirc defence"] [TimeControl "7200+15"]
@@ -1402,7 +1509,9 @@ Re1 238. Bg3 Re2 239. Bd6 Rf2 240. Bc7 Rf1 241. Bd6 Rf2 242. Bc7 Rf1 243. Bb8
 Rf3 244. Bh2 Rf1 245. Bc7 Re1 246. Bh2 Rf1 247. Bg3 Rf3 248. Be5 Rf1 249. Bh2
 Kh6 250. Bd6 Rf2 251. Bg3 Rf1 252. Bd6 Rf2 253. Bc7 Kh7 254. Bg3 Rf1 255. Bh2
 Rf3 256. Bb8 Re3 257. Bf4 Ra3 258. Bd6 Rf3 259. Bb8 Re3 260. Bh2 Rd3 261. Be5
-Ra3 262. Bd6 Re3 263. Be7 Re4 264. Ke8 Rxd4 1/2-1/2 [Event "TCEC Season 14 -
+Ra3 262. Bd6 Re3 263. Be7 Re4 264. Ke8 Rxd4 1/2-1/2 
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.14"] [Round
 "56.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1/2-1/2"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "B07"] [Opening "Pirc
@@ -1431,7 +1540,9 @@ Kb1 Nd7 111. Rb2 Ke8 112. Rf2 Ra3 113. Kb2 Ra8 114. Kb3 Kf7 115. Rg2 Ke8 116.
 Rg1 Kd8 117. Bg7 Ke8 118. h6 Kd8 119. Rg2 Rb8+ 120. Ka2 Ra8+ 121. Kb1 Kc8 122.
 Ra2 Kb8 123. Rxa8+ Kxa8 124. Kc2 Kb7 125. Kb3 Ka6 126. Kc2 Kb6 127. Kd3 Kb7
 128. Kd2 Ka7 129. Kd3 Kb7 130. Kd2 Ka7 131. Ke2 Kb8 132. Kd1 Kc7 133. Kc2 Kb6
-134. Kb3 Ka5 135. Bh8 Kb6 136. Kb2 Ka6 137. Kb3 Ka5 1/2-1/2 [Event "TCEC
+134. Kb3 Ka5 135. Bh8 Kb6 136. Kb2 Ka6 137. Kb3 Ka5 1/2-1/2 
+
+[Event "TCEC
 Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.15"]
 [Round "57.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result
 "1/2-1/2"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "E70"] [Opening "King's
@@ -1461,7 +1572,9 @@ Rh8 114. f8=Q Rxf8 115. Rxf8 Rxa4 116. Rf7+ Kc8 117. Rh7 b5 118. Rxh5 Rxb4+
 119. Kf5 Rc4 120. Rh7 b4 121. Ra7 b3 122. Ra1 Rc3 123. Kxg4 Kd7 124. h5 Ke7
 125. h6 b2 126. Rb1 Kf6 127. Rxb2 Kg6 128. Rb6 Rc4+ 129. Kf3 Kxh6 130. Rxd6+
 Kg5 131. Rd8 Rd4 132. d6 Kf6 133. d7 Kg7 134. Ke3 Kf7 135. Kf3 e4+ 136. Ke3
-Rd6 137. Kf4 e3 138. Kf3 e2 139. Kf2 e1=Q+ 140. Kxe1 1/2-1/2 [Event "TCEC
+Rd6 137. Kf4 e3 138. Kf3 e2 139. Kf2 e1=Q+ 140. Kxe1 1/2-1/2 
+
+[Event "TCEC
 Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.15"]
 [Round "58.1"] [White "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result
 "1-0"] [WhiteElo "3588"] [BlackElo "3404"] [ECO "E70"] [Opening "King's
@@ -1480,7 +1593,9 @@ Qg5 40. R4h3 Qf4 41. Nd1 Qg5 42. Kc1 Re7 43. Kb1 Rg7 44. Ka2 Rf7 45. Rh4 Be8
 Rxh7 Qxe3 53. Rxf7+ Kxf7 54. Rh7+ Rg7 55. Rh3 Qg5 56. Bb5 Qxg4 57. Rh8 c6 58.
 Bc4 Ke7 59. dxc6 Be6 60. Bxe6 Kxe6 61. Rf8 Rf7 62. Rxf7 Kxf7 63. Qh7+ Kf6 64.
 Qh8+ Kf7 65. c7 Qxe4 66. Qh7+ Kf6 67. Qg8 Qd3 68. c8=Q Kg5 69. Qgd8+ Kf4 70.
-Qh4+ Kf3 71. Qcg4+ Ke3 72. Qe1+ Qe2 1-0 [Event "TCEC Season 14 - Superfinal"]
+Qh4+ Kf3 71. Qcg4+ Ke3 72. Qe1+ Qe2 1-0 
+
+[Event "TCEC Season 14 - Superfinal"]
 [Site "http://tcec.chessdom.com"] [Date "2019.02.15"] [Round "59.1"] [White
 "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result "1/2-1/2"] [WhiteElo
 "3404"] [BlackElo "3588"] [ECO "B77"] [Opening "Sicilian"] [Variation "dragon,
@@ -1493,7 +1608,9 @@ f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. h4 h5 11. O-O-O Rc8 12. Bb3 Ne5 13. Bg5 Rc5
 14. Kb1 b5 15. g4 Nc4 16. Bxc4 bxc4 17. gxh5 Nxh5 18. Bh6 Qa5 19. Bxg7 Kxg7
 20. f4 Rb8 21. Ka1 Qb4 22. Rb1 Ra5 23. Qe3 Rb6 24. f5 Rba6 25. Nde2 Ba4 26.
 Nxa4 Rxa4 27. Nc3 R4a5 28. Rbg1 Nf6 29. Kb1 Rb6 30. Nd1 Qa4 31. Nc3 Qb4
-1/2-1/2 [Event "TCEC Season 14 - Superfinal"] [Site
+1/2-1/2 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.15"] [Round "60.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "B77"] [Opening "Sicilian"] [Variation "dragon,
@@ -1507,7 +1624,9 @@ f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. h4 h5 11. O-O-O Rc8 12. Bb3 Ne5 13. Bg5 Rc5
 Qe8 21. h5 e6 22. hxg6 fxg6 23. Rxh7 Kxh7 24. Nf4 Rxf4 25. Qxf4 Kg8 26. Bf6
 Qf7 27. Nxe6 Bxe6 28. Bxe6 Qxe6 29. Bxh8 Qc4 30. Rc1 b3 31. Bxe5 bxc2+ 32. Ka1
 dxe5 33. Qf6 Qf7 34. Qd6 Qf4 35. Qxg6+ Kf8 36. Qd6+ Ke8 37. Qe6+ Kd8 38. Qd6+
-Ke8 39. Qe6+ Kf8 40. Qd6+ Kf7 41. Qd7+ Kf6 1/2-1/2 [Event "TCEC Season 14 -
+Ke8 39. Qe6+ Kf8 40. Qd6+ Kf7 41. Qd7+ Kf6 1/2-1/2 
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.15"] [Round
 "61.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result
 "1/2-1/2"] [WhiteElo "3404"] [BlackElo "3588"] [ECO "A40"] [Opening "Queen's
@@ -1544,7 +1663,9 @@ Kd4 Kb6 50. Ke5 h6 51. Kf4 Kb7 52. Kf5 Rf3+ 53. Ke4 Rg3 54. Kf5 Kb6 55. Kf4
 Rh3 56. Kf5 Rf3+ 57. Ke4 Rg3 58. Kf5 Rf3+ 59. Ke4 Rh3 60. Ra2 Rg3 61. Kf4 Rxc3
 62. Rh2 Rb3 63. Rxh6+ Kc7 64. g5 Rxb4 65. Ke3 Kd7 66. Kd4 Rb3 67. Rh1 Ke6 68.
 Rf1 Kd6 69. Rf6+ Ke7 70. Kc5 c3 71. Kd4 b4 72. Kd3 Rb1 73. Rf2 Rg1 74. Kc4
-Rg4+ 75. Kb3 Kd6 76. g6 Ke5 77. g7 Rxg7 1/2-1/2 [Event "TCEC Season 14 -
+Rg4+ 75. Kb3 Kd6 76. g6 Ke5 77. g7 Rxg7 1/2-1/2 
+
+[Event "TCEC Season 14 -
 Superfinal"] [Site "http://tcec.chessdom.com"] [Date "2019.02.16"] [Round
 "63.1"] [White "LCZero v20.2-32930"] [Black "Stockfish 190203"] [Result "1-0"]
 [WhiteElo "3404"] [BlackElo "3588"] [ECO "C12"] [Opening "French"] [Variation
@@ -1558,7 +1679,9 @@ Qxe2 Ne7 15. a4 a5 16. f4 Nf5 17. Bf2 Nxd4 18. Bxd4 c5 19. Bf2 c4 20. Bg6 fxg6
 21. hxg6 Kg8 22. c3 Qf8 23. Qg4 Qf5 24. Qxf5 exf5 25. Rb1 Rb8 26. g4 fxg4 27.
 e6 Bxa4 28. Kd2 Be8 29. f5 b5 30. Ra1 a4 31. Rhb1 Rc8 32. Bh4 g3 33. Ke3 Bc6
 34. Bxg3 Kf8 35. Bd6+ Ke8 36. Rf1 Rd8 37. Bb4 d4+ 38. cxd4 Bd5 39. f6 Bxe6 40.
-f7+ Kd7 41. f8=R Kc6 1-0 [Event "TCEC Season 14 - Superfinal"] [Site
+f7+ Kd7 41. f8=R Kc6 1-0 
+
+[Event "TCEC Season 14 - Superfinal"] [Site
 "http://tcec.chessdom.com"] [Date "2019.02.16"] [Round "64.1"] [White
 "Stockfish 190203"] [Black "LCZero v20.2-32930"] [Result "1/2-1/2"] [WhiteElo
 "3588"] [BlackElo "3404"] [ECO "C12"] [Opening "French"] [Variation
@@ -1584,12 +1707,14 @@ fxe5 94. Be3 Ke4 95. Re1 Nf5 96. Rb4+ d4 97. cxd4 exd4 98. Bg5 Rf7 99. Kd2+
 Kd5 100. Kd3 Raa7 101. Rb8 Rad7 102. Rbe8 Kxc5 103. R8e5+ Rd5 104. Re8 Rdd7
 105. R8e5+ Rd5 106. Re6 Rd6 107. R6e5+ Rd5 1/2-1/2
 
+{{< /chessboard >}}
+
+
 Above we mentioned Leela thinking about +2.25 after playing Bg6 while
 Stockfish being on +0.42 only. But evaluation of Leela does not correspond to
 evaluation of Stockfish.  
 If we use the evaluation to win percentage and expected score of [THIS
-article](https://www.chessprogramming.org/Pawn_Advantage,_Win_Percentage,_and_El
-o)
+article](https://www.chessprogramming.org/Pawn_Advantage,_Win_Percentage,_and_Elo)
 (that also TCEC uses) for Stockfish's evaluation, as also the Leela's own
 evaluation to win percentage and expected score mapping (ecpected
 score=ArcTan[centiPawns/2.90680623072]/3.096181612 + 0.5), for translating her
@@ -1598,21 +1723,18 @@ compare.
 We see that a +3.0 eval by Leela has much less probability to win than for
 Stockfish's +3 eval.
 
-[![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
-gjgj89798798797979.png)
+![]({{< file "graph1.png">}})
 
-[![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
-hkk79879879.png)
+![]({{< file "graph2.png">}})
 
- _ **[UPDATE:]**_
+ **[UPDATE:]**
 
 Next 2 games 65 and 66 were not without much drama.  
 After Leela leading with 2 points after 64 games, she completely outplayed
 Stockfish with her having having and she reached a totally **winning position
 with 7 pieces on the board** :
 
-[7 men syzygy tablebases](https://syzygy-
-tables.info/?fen=8/2b1k3/8/2pP4/2P3N1/5K2/8/8_b_-_-_0_1) say it's a win for
+[7 men syzygy tablebases](https://syzygy-tables.info/?fen=8/2b1k3/8/2pP4/2P3N1/5K2/8/8_b_-_-_0_1) say it's a win for
 white.  
 Leela and Stockfish have 6 men syzygy tablebases in TCEC though so the game
 continued and a very easy win for Leela was expected with her showing big
@@ -1644,7 +1766,7 @@ the interrupted game!_**
 This is obviously a bad rule for handling crashes(that it's not the engine's
 fault for them) as it introduces possible **bias** towards an engine and the
 final result of superfinal **does not depend only on the 2 engines that are
-playing but also on external factors** , like because cutechess crashed or
+playing but also on external factor**, like because cutechess crashed or
 because an internet provider had problems. And this is horrible!  
 For example if the position before the crash has one engine winning, or to
 have a big advantage or to have a small advantage then starting again from
@@ -1657,7 +1779,7 @@ one engine may win the game, so this is unfair to the other engine again.
 
 And the latter is what exactly happened here too. A replay happened (from
 starting position) and there was a crash again and then game was **replayed
-again** , from starting Chess position again, but in that 3rd game Leela did
+again**, from starting Chess position again, but in that 3rd game Leela did
 not manage to hold. In a complicated position where Stockfish had an advantage
 she blundered again missing some nice and deep tactics and Stockfish
 evaluation from +1.57 to +6.37 and went on to win easily from then.
@@ -1689,6 +1811,8 @@ games, she is only just **+1** point ahead of Stockfish.
 The incredible game Leela didn't manage to win from a 7 men tablebase
 position:
 
+{{< chessboard >}}
+
 [Event "TCEC Season 14 - Superfinal"] [Site "http://tcec.chessdom.com"] [Date
 "2019.02.16"] [Round "65.1"] [White "LCZero v20.2-32930"] [Black "Stockfish
 190203"] [Result "1/2-1/2"] [ECO "E15"] [WhiteElo "3404"] [BlackElo "3588"]
@@ -1716,3 +1840,5 @@ Bg1 124. Kb7 Bf2 125. Kb6 Bg1 126. Ka6 Bf2 127. Kb7 Be1 128. Kb6 Bf2 129. Ka7
 Be1 130. Kb6 Bb4 131. Kb7 Bd2 132. Kb6 Bb4 133. Kb7 Bd2 134. Ka6 Bc1 135. Kb6
 Be3 136. Ka7 Bc1 137. Kb6 Be3 138. Ka6 Bd4 139. Kb7 Bg1 140. Ka6 Kc6 141. Ka7
 Bf2 142. Kb8 Bg3 143. Kc8 Bxd6 1/2-1/2
+
+{{< /chessboard >}}

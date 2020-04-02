@@ -14,6 +14,8 @@ There are some plans for the Lc0 engine itself, but that is a topic for
 another post. At least we hope to make releases more regular again
 (v0.21.0-rc1 appeared on February 16th, and we are not even v0.22 yet).
 
+<!--more-->
+
 So, this post is be about networks and training.
 
 ## Training servers

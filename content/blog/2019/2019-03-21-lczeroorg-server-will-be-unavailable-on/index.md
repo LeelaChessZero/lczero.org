@@ -7,14 +7,14 @@ tags = []
 draft = true
 +++
 
-## Summary
-
 Important!
 
 The **lczero.org** server will be not available for ~24 hours starting at
 April 4th 20:00 UTC.
 
 Training game generation will also not be possible during the downtime.
+
+<!--more-->
 
  **For people who use payed services for generating games: don't forget to
 stop your instances for this period in order not to waste money.**

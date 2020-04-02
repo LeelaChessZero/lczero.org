@@ -12,6 +12,8 @@ backends configuration, as it has been totally undocumented so far.
 (For other options it's possible to get rough idea of their meaning by running
 lc0 --help).
 
+<!--more-->
+
 So, there are two command line parameters and corresponding UCI options:
 
   * `--backend` (UCI option: Backend) -- name of the backend,

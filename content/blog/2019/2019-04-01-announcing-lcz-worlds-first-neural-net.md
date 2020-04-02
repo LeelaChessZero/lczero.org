@@ -12,6 +12,8 @@ of the **xyzzy** extension to the UCI protocol introduced in Lc0, it was
 decided to take it one step further and introduce z-machine compatibility to
 the chess engine, giving birth to LcZ.
 
+<!--more-->
+
 Download windows binaries from:
 <https://github.com/borg323/lc0/releases/tag/first-release>  
 or source code from: <https://github.com/borg323/lc0/tree/first-release>

@@ -13,6 +13,8 @@ This a quick note for people who use **CuteChess** and just upgraded to
 Meaning of FPU-related parameters are changed in **v0.21.1** , along with
 default values of those parameters.
 
+<!--more-->
+
 If you upgraded your Lc0 to **v0.21.1** in CuteChess by just replacing the
 files, most probably CuteChess still remembers old defaults and sets them.
 
