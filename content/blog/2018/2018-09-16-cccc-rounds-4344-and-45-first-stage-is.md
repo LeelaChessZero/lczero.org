@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-16-cccc-rounds-4344-and-45-first-stage-is-
-ghjgj5522.png)](https://1.bp.blogspot.com/-_XUgrjfZ6nE/W56BESTeXgI/AAAAAAAAATs/1
-GHe9BcJpf0a9esAMRnXsMySbRyL4SfXwCLcBGAs/s1600/ghjgj5522.png)
+ghjgj5522.png)
 
 1st stage is almost over, 1 round remains but the top 8 engines that will
 participate in stage 2 are known.  

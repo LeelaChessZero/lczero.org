@@ -30,8 +30,7 @@ to drawn or lost games, which Leela would win or draw if it played without
 tablebases at all.
 
 [![](../../images/2018-08-23-tablebase-support-and-leela-weirdness-
-Untitled.png)](https://3.bp.blogspot.com/-Co0NfVbDaSA/W37_vqQb3qI/AAAAAAAA-
-Iw/i_rzB_OsPfgWugWMVopqyumFW-4EipzZwCLcBGAs/s1600/Untitled.png)
+Untitled.png)
 
 The code for DTZ support is ready, but not tested, and we are not releasing it
 in v0.17.0 which will be used in CCCC.

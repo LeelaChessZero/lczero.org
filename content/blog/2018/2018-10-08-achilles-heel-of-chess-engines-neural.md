@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-
-karsparov.jpeg)](https://3.bp.blogspot.com/-eAvVer5MvPA/W7ul7sxFzzI/AAAAAAAAAYE/
-gOw0ZP7tDHE56t4wZkZMX95j1VAuAsj7ACLcBGAs/s1600/karsparov.jpeg)
+karsparov.jpeg)
 
 When first Chess engines were born were very weak. First real Chess
 program(even though in 1912 there was a King Rook versus King solver and in
@@ -39,9 +38,7 @@ running on a PDP-6, won against a 1510 Elo human player.
  _(Mac Hack VI)_
 
 [![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-
-phpJK5zWz.png)](https://1.bp.blogspot.com/-Z-vV0XRzb7Y/W7unmbGQOXI/AAAAAAAAAYg/r
-S3Kapx-
-uG8ocik83Y7YGbwYv1QPXtn_ACLcBGAs/s1600/phpJK5zWz.png)
+phpJK5zWz.png)
 
 In 1968 David Levy he beat in a friendly chess game with Stanford professor
 John McCarthy, and McCarthy said that within 10 years, there would be a
@@ -130,10 +127,6 @@ continuation of course.)_
 
 [![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-Deep-Blue-
 versus-Garry-Kasparov-game-2-in-1997-At-this-position-Deep-Blue-using-
-the.png)](https://1.bp.blogspot.com/-De-
-FtdFxTgE/W7upHiZ4XEI/AAAAAAAAAYs/p3mgHWVi1a8CLAvEMqJGooGIQ6Yv2laDQCLcBGAs/s1600/
-Deep-
-Blue-versus-Garry-Kasparov-game-2-in-1997-At-this-position-Deep-Blue-using-
 the.png)
 
 Engines initially were very weak in all aspects of the game, but as

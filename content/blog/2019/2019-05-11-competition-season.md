@@ -46,15 +46,13 @@ and drew the match.
 The Leela net T41800 (used in Division P) is approximately 10-20 Elo stronger
 than the T32930 net that narrowly lost to Stockfish in the previous superfinal
 and the T40.T8.610 net selected for this superfinal is [approximately 35 Elo
-stronger](https://discordapp.com/channels/425419482568196106/530486338236055583/
-576454343717421086)
+stronger](https://discordapp.com/channels/425419482568196106/530486338236055583/576454343717421086)
 than T32930. Given Leela's progress, [many chess fans think that Leela is
 likely to win this superfinal](https://strawpoll.com/ca24ayb5).
 
 The net T40.T8.610 that is playing in the superfinal is a fork of T40 that has
 been refined by @jhorthos. While more detail is available in the
-[documentation](https://docs.google.com/spreadsheets/d/1-KAIfcaq5gwT90AlFNlqAWsm
-OehrCks86A88V47LDO0)
+[documentation](https://docs.google.com/spreadsheets/d/1-KAIfcaq5gwT90AlFNlqAWsmOehrCks86A88V47LDO0)
 he put together, it can be summarized as a T40 net forked from 42000 with an
 additional 3x LR (learning rate) drop applied at the fork and partial 7-man
 tablebase rescoring. It was trained only on games produced in the main

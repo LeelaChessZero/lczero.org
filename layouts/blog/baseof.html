@@ -27,9 +27,11 @@
     {{ partial "header.html" . }}
 
     <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
-      {{ block "main" . }}
+        <div class="blog-content">
+          {{ block "main" . }}
+          {{ end }}
+        </div>
     </div>
-    {{ end }}
   </div>
 
   {{ partial "sub-footer.html" . }}

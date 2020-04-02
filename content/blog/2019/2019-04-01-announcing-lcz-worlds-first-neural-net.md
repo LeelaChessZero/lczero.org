@@ -7,9 +7,7 @@ tags = []
 draft = true
 +++
 
-After the [huge
-success](https://discordapp.com/channels/425419482568196106/425419999096733706/5
-00051417277530114)
+After the [huge success](https://discordapp.com/channels/425419482568196106/425419999096733706/500051417277530114)
 of the **xyzzy** extension to the UCI protocol introduced in Lc0, it was
 decided to take it one step further and introduce z-machine compatibility to
 the chess engine, giving birth to LcZ.
@@ -46,10 +44,8 @@ accessible through reading the rule book the protagonist is carrying - use the
 “inventory” command to see it and then “read the rule book” in true
 interactive fiction style. Unfortunately, even this doesn’t answer our current
 pressing question, regarding three-fold repetitions when castling rights are
-present, but cannot be exercised, and then subsequently lost. [See here for
-extensive
-discussion.](https://discordapp.com/channels/425419482568196106/4380885347553772
-04/557614930015027220)
+present, but cannot be exercised, and then subsequently lost.
+[See here for extensive discussion.](https://discordapp.com/channels/425419482568196106/438088534755377204/557614930015027220)
 
  **Several interactive fiction authors have offered to create additional
 content specifically for LcZ and we will be making separate announcements when

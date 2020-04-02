@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-06-tcec-cup-started-cccc-variants-
-hk678688888.png)](https://3.bp.blogspot.com/-EUuhSUNK1rE/W7jIS1e83LI/AAAAAAAAAXo
-/zrM_1vDSJPkpmRyNl32VFObvLrQB2QG6ACLcBGAs/s1600/hk678688888.png)
+hk678688888.png)
 
 The **TCEC Cup** has started and 2 match pairs will be played every day.  
 We remind that 32 engines will compete in a Knockout elimination tournament,

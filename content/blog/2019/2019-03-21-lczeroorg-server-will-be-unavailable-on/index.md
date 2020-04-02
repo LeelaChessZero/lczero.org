@@ -7,11 +7,7 @@ tags = []
 draft = true
 +++
 
-![](../../images/2019-03-21-lczeroorg-server-will-be-unavailable-on-duck2.png)
-
 ## Summary
-
-##
 
 Important!
 
@@ -22,9 +18,6 @@ Training game generation will also not be possible during the downtime.
 
  **For people who use payed services for generating games: don't forget to
 stop your instances for this period in order not to waste money.**
-
- **  
-**
 
 ## Details
 

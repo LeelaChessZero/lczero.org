@@ -8,9 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-21-guide-setting-up-leela-on-chess-gui-
-gjh6575777777.png)](https://4.bp.blogspot.com/-m9thNGeo8s8/W6UcYcNpDqI/AAAAAAAAA
-Uc/BrryAp-
-nBKU2L4J-dk_Vjwnm76qyGExvwCLcBGAs/s1600/gjh6575777777.png)
+gjh6575777777.png)
 
 Leela Chess Zero is a project started before some months inspired by
 Deepmind's papers about AlphaGO Zero and AlphaZero, which is based on a new
@@ -296,8 +294,7 @@ ADVANCED... and then ENGINE PARAMETERS.
 (click image to zoom in)
 
 [![](../../images/2018-09-21-guide-setting-up-leela-on-chess-gui-
-yiuyiuyi1.png)](https://1.bp.blogspot.com/-QWS_EJhMVL8/W6UeAU2iYCI/AAAAAAAAAUs/w
-JRWXqXV8zESeolsfPRpf18AVoRyfmvrQCLcBGAs/s1600/yiuyiuyi1.png)
+yiuyiuyi1.png)
 
  _ ****_  
  _ ****_  
@@ -333,12 +330,10 @@ ENGINES->Engine 1->CONFIGURE.
 (click image to zoom in)
 
 [![](../../images/2018-09-21-guide-setting-up-leela-on-chess-gui-
-fhfh87892.png)](https://1.bp.blogspot.com/-StgTDc7F5vk/W6UeMWNLU-I/AAAAAAAAAUw/m
-MaaLULf7MAg7FOLWDCfIUaL2M2VBwr_ACLcBGAs/s1600/fhfh87892.png)
+fhfh87892.png)
 
 [![](../../images/2018-09-21-guide-setting-up-leela-on-chess-gui-
-hhkhkhk2.png)](https://1.bp.blogspot.com/-ZRSIAE3r9aM/W6UechTZq8I/AAAAAAAAAU8/_m
-6WTslTjWozF5Dik4e3IMcJeQdlEfj2QCLcBGAs/s1600/hhkhkhk2.png)
+hhkhkhk2.png)
 
  _ ****_  
  _ **
@@ -360,8 +355,7 @@ If we want we change the name also.
 (click image to zoom in)
 
 [![](../../images/2018-09-21-guide-setting-up-leela-on-chess-gui-
-ghgjh5.png)](https://2.bp.blogspot.com/-VggR6oplPbc/W6Uem5ZQocI/AAAAAAAAAVA/V9tt
-9kEzEBcmNTpPIYOxPnJZ_B8pOteNQCLcBGAs/s1600/ghgjh5.png)
+ghgjh5.png)
 
 So to sum up:  
 1)We grab a Lc0 binary that suits our GPU from here:

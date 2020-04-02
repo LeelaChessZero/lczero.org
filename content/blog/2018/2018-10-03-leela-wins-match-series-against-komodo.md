@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-03-leela-wins-match-series-against-komodo-
-hkjhk8999999.png)](https://2.bp.blogspot.com/-lHjC1cq6_Tk/W7T97b-EV-I/AAAAAAAAAX
-E/dmMVDduNitQD5bcwk9hrLWuIvDOCAIb2QCLcBGAs/s1600/hkjhk8999999.png)
+hkjhk8999999.png)
 
 **Leela** won **16-14** against **Komodo** the 30 games match to determine 3rd
 position in CCCC1, while on the variants tournament she **won a game against

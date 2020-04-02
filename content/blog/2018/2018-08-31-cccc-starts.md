@@ -26,8 +26,7 @@ After all games are completed, the first **8** of the 24 engines will advance
 to round 2.
 
 [![](../../images/2018-08-31-cccc-starts-
-ffh67678845.png)](https://1.bp.blogspot.com/-4tg6-VYnVCQ/W4llmUJqnhI/AAAAAAAAAPs
-/oW8RHXP40tsjYpOl13f3BRGM2oDj6uETgCLcBGAs/s1600/ffh67678845.png)Leela
+ffh67678845.png)Leela
 will compete with Lc0 cuda version, with **11089** net and with no tablebases
 usage.
 

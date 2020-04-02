@@ -34,9 +34,7 @@ So, as a basis, algorithms tries to divide all remaining time roughly using
 the following time distribution (x axis is move number):
 
 [![](../../images/2018-09-05-time-
-management-41066697-eaedea6c-6a21-11e8-9d11-3fd57a192f3a.png)](https://user-
-images.githubusercontent.com/313295/41066697-eaedea6c-6a21-11e8-9d11-3fd57a192f3
-a.png)
+management-41066697-eaedea6c-6a21-11e8-9d11-3fd57a192f3a.png)
 
 To control the shape of that curve, the following parameters are used:
 

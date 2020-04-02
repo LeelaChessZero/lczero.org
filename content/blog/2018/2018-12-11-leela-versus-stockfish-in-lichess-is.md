@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-12-11-leela-versus-stockfish-in-lichess-is-
-ghjgjgj897898888.png)](https://1.bp.blogspot.com/-DodezuI1AoY/XBAFyHyHPBI/AAAAAA
-AAAbM/CFHyiVk-7kUu1tej7W-eEMpFYRCTjiVVACLcBGAs/s1600/ghjgjgj897898888.png)
+ghjgjgj897898888.png)
 
 Lichess.org will host a match between the mighty **Stockfish 10 **and
 **Leela**. It will be a 6 games match with time control of 5'+2" with

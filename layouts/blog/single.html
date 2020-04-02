@@ -6,6 +6,7 @@
 
 <div class="post-date">{{ .PublishDate.Format "2006-01-02" }}</div>
 <h1 class="title">{{ .Title }}</h1>
+
 <div class="content">
   {{if .Draft}}
     <div class="banner">
@@ -13,7 +14,12 @@
       This page is not shown on the site. Remove <code>draft:true</code> from
       the header to publish the page.
     </div>
-  {{end}}  
+  {{end}}
+  {{ if .Resources.GetMatch (default "cover.png" .Params.cover) }}
+    <img class="cover"
+         src="{{ (.Resources.GetMatch (default "cover.png" .Params.cover)).RelPermalink }}"
+         alt="Cover image"/>
+  {{ end }}
   {{ .Content }}
 </div>
 

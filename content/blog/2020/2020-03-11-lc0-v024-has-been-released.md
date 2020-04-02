@@ -7,8 +7,8 @@ tags = []
 draft = true
 +++
 
-**IMPORTANT UPDATE:** v0.24.0 had a bug when either `--logit-q` or `--draw-
-score-*` options were active. If you use either of those options, please
+**IMPORTANT UPDATE:** v0.24.0 had a bug when either `--logit-q` or 
+`--draw-score-*` options were active. If you use either of those options, please
 upgrade to v0.24.1.
 
 It's been a while since we had a blog post, and it's been a while since we had

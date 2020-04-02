@@ -8,9 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-12-cccc-blitz-tournament-is-running-and-
-jhjhgj8798.png)](https://1.bp.blogspot.com/-hE7K5GYGENM/W8Btv-
-SI9TI/AAAAAAAAAZo/z4T1bsQDMIE9RHJZYmEUUR-
-kEYcvFMnVgCLcBGAs/s1600/jhjhgj8798.png)
+jhjhgj8798.png)
 
 CCCC blitz tournament is running and till now Leela is having a good
 performance being steadily on the top 3.
@@ -196,8 +194,7 @@ Again the French Defense is dominating engines' preference.
  _(click to zoom)_
 
 [![](../../images/2018-10-12-cccc-blitz-tournament-is-running-and-
-hjkhkh789798.png)](https://3.bp.blogspot.com/-Yij_edvQiJs/W8BrqW733vI/AAAAAAAAAZ
-c/kvSTU9uYGZA5rf9S_Pth6FSsFKvprfE8QCLcBGAs/s1600/hjkhkh789798.png)
+hjkhkh789798.png)
 
 Ratings so far:
 

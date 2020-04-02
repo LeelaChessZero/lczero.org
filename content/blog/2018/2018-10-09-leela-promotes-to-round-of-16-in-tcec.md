@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-09-leela-promotes-to-round-of-16-in-tcec-
-hk678688888.png)](https://3.bp.blogspot.com/-EUuhSUNK1rE/W7jIS1e83LI/AAAAAAAAAXo
-/zrM_1vDSJPkpmRyNl32VFObvLrQB2QG6ACLcBGAs/s1600/hk678688888.png)
+hk678688888.png)
 
 Leela after 6 consecutive draws in the series of games against Laser(division
 1 engine) she won last 2 games so she promoted to next round where she will

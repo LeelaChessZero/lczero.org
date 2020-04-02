@@ -8,9 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-27-cccc-leela-komodo-event-for-3rd-place-
-fh68768888.png)](https://2.bp.blogspot.com/-iTScj_EdApo/W6zc9wKUMgI/AAAAAAAAAVc/
-MXajCi7ZApcWq-
-rF8E36b-OZxTZkquGfgCLcBGAs/s1600/fh68768888.png)
+fh68768888.png)
 
 Chess.com has [announced](https://www.chess.com/news/view/stockfish-houdini-
 to-battle-for-computer-chess-championship-komodo-vs-lc0-for-3rd) that after

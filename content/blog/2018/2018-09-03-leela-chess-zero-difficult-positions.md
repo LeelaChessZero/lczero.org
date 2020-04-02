@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-gjhbn6868.png)](https://3.bp.blogspot.com/-LndCa_VLYEk/W4031TFAFwI/AAAAAAAAAQs/I
-Rn3C02EKB4fe9gbdHodf8-Oqlc7wf4OgCLcBGAs/s1600/gjhbn6868.png)
+gjhbn6868.png)
 
 Traditional Chess engines with classic Alpha-Beta search, sometimes have huge
 problems with some positions that require deep planning and understanding of
@@ -48,8 +47,7 @@ immediate tactics, then Leela usually shines!
 White to play.
 
 [![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-popki7671.png)](https://2.bp.blogspot.com/-saXddRVPM3Y/W402NWRb8kI/AAAAAAAAAQI/z
-WTm3nClC8YLSDkFpHgq1fcZAo9vpx1eQCLcBGAs/s1600/popki7671.png)
+popki7671.png)
 
 White has created a nice concentration of its pieces in the Kingside but has
 many problems to solve, especially with Bxa3 pending that will destroy white's
@@ -145,8 +143,7 @@ _**Test position 2.**_
 White to play.
 
 [![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-hkjhkj72.png)](https://3.bp.blogspot.com/-LH2ywgbLfTs/W4025MzsAKI/AAAAAAAAAQQ/p-
-ONtVKiqrsqx4Ckbe82qUkY6-fcdAI5gCLcBGAs/s1600/hkjhkj72.png)
+hkjhkj72.png)
 
 This is a position that results in one of the variations of the previous
 position 1. White is a Queen down. Yet it is winning and has a forced
@@ -162,8 +159,7 @@ Leela again finds it immediately with a winning score!
 White to play.
 
 [![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-hkjhkj89793.png)](https://3.bp.blogspot.com/-65k3VZ6RiH0/W403MpZdF_I/AAAAAAAAAQY
-/TYRjjcF3xCA9gCiwXCwEnnCrrXJGZpgdACLcBGAs/s1600/hkjhkj89793.png)
+hkjhkj89793.png)
 
 Here we have a classic anticomputer position where traditional engines have
 many problems to see that the only way for white to win is by playing
@@ -205,8 +201,7 @@ Kd7-e8 Ra2-a6 Nf6-d7 Ra6-h6
 Black to play.
 
 [![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-ggj6876874.png)](https://1.bp.blogspot.com/-PNvJiAy4j-8/W403eTjEKuI/AAAAAAAAAQg/
--ZX7T4PJIX8jAls5RbXEyIfmWIPty6otgCLcBGAs/s1600/ggj6876874.png)
+ggj6876874.png)
 
 Here is a position from a real game where Leela as black has played **g5!!** A
 very deep positional move, trying to trap the Bishop.  
@@ -226,9 +221,7 @@ _**Test position 5.**_
 White to play.
 
 [![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-hkhkj79879795.png)](https://3.bp.blogspot.com/-qmy0oFSxzZs/W403qjrgLQI/AAAAAAAAA
-Qk/L7pd-
-_N95BEwyxPFj41qWiLwUN7Em8rMgCLcBGAs/s1600/hkhkj79879795.png)
+hkhkj79879795.png)
 
 In this again anticomputer position white has to immediately play **Bxb5!!**
 in order to win.  

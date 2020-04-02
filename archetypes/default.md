@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 weight: 100
-draft: false
+draft: true
 ---
 
 (This page is not yet written)

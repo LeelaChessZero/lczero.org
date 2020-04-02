@@ -8,9 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-11-cccc-rounds-28-29-30-and-31-leela-draws-
-hgfh8768768.png)](https://1.bp.blogspot.com/-9hfMRB6pkew/W5gIPd4T1mI/AAAAAAAAAS8
-/hi-
-Vo_pOLyYNWUQdCnnLX8fsoNrE3kbqACLcBGAs/s1600/hgfh8768768.png)
+hgfh8768768.png)
 
 It seems Leela is hiding something that is beyond us. How else can be
 explained that after Fizbo a 3325 CCRL Elo engine with endgame tablebases in a

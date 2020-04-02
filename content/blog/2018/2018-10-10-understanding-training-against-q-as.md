@@ -8,9 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-10-understanding-training-against-q-
-as-1_oTtENBrl4x7EZlLYQo0GQA.jpeg)](https://3.bp.blogspot.com/-0cw0lUIKI4c/W75ofX
-5QahI/AAAAAAAAAZE/8ZuP1hoSUO0KfkRJWnnkYosyo1tM44FqACLcBGAs/s1600/1_oTtENBrl4x7EZ
-lLYQo0GQA.jpeg)
+as-1_oTtENBrl4x7EZlLYQo0GQA.jpeg)
 
 _  
 Article by Cyanogenoid, member of Leela Chess Zero development team ._
@@ -54,8 +52,7 @@ through knowledge distillation while being much smaller and thus faster to run
 than the 256x40 network.
 
 [![](../../images/2018-10-10-understanding-training-against-q-as-
-image_093.png)](https://1.bp.blogspot.com/-OO_ip0CTz5k/W75m_4A1CMI/AAAAAAAAAY4/Q
-50vM2V_NbAZS_64ZjNjmTKkIabxiH_mwCLcBGAs/s1600/image_093.png)
+image_093.png)
 
 One thing to take away from this 40-block to 10-block distillation is that it
 is important for the teacher to be stronger than the student. While this has

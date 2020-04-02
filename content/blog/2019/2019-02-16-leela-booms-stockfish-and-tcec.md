@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
-jhgjhg79789798799.png)](https://4.bp.blogspot.com/-kLKX6hxQG30/XGgKNaNOFII/AAAAA
-AAAAdw/tVjhiU3WZ4cDGwEHosQjSkg29CvlzCEbQCLcBGAs/s1600/jhgjhg79789798799.png)
+jhgjhg79789798799.png)
 
 As per the usual expression of **BOOM** of TCEC chat when an engine finds
 something good, Leela right now is making a great surprise in her first
@@ -1600,13 +1599,10 @@ We see that a +3.0 eval by Leela has much less probability to win than for
 Stockfish's +3 eval.
 
 [![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
-gjgj89798798797979.png)](https://3.bp.blogspot.com/-lZ-
-PTatw1Nk/XGgSnC20e8I/AAAAAAAAAeA/wwE0VTexn6UTd_Oi3jghYdLKUx4IOLaywCLcBGAs/s1600/
 gjgj89798798797979.png)
 
 [![](../../images/2019-02-16-leela-booms-stockfish-and-tcec-
-hkk79879879.png)](https://4.bp.blogspot.com/-cF5dzkXIX2k/XGgSr9UtlfI/AAAAAAAAAeE
-/SXOqbgQclcsCf_gC7b2fMNynY6YTUIauACLcBGAs/s1600/hkk79879879.png)
+hkk79879879.png)
 
  _ **[UPDATE:]**_
 

@@ -7,13 +7,15 @@ tags = []
 draft = true
 +++
 
-**Update:** we have a bugfix release **v0.23.1** , download
+**Update:** we have a bugfix release **v0.23.1**, download
 [here](https://github.com/LeelaChessZero/lc0/releases/tag/v0.23.1). It
 contains no chess-play-related changes, the bug was in training game
 generation code.
 
 We have a new release today!  
 Download [here](https://github.com/LeelaChessZero/lc0/releases/tag/v0.23.0).
+
+<!--more-->
 
 What's new in the release:
 

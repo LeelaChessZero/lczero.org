@@ -28,8 +28,6 @@ format](http://data.lczero.org/files/ccrl-pgn.tar.bz2) (539M) and
 [v3-format](http://data.lczero.org/files/ccrl-v3.tar.bz2) (11G).
 
 [![](../../images/2018-09-12-a-standard-dataset-cclr-
-test.png)](https://2.bp.blogspot.com/-IrUPCn8qXoU/W5fpknIedTI/AAAAAAAAqog/9HXUhw
-3uJH0KiI3HM0X9P7GDSo9JiV_WgCLcBGAs/s1600/cclr-
 test.png)
 
 This figure shows a distribution of all the gameover types within the testset

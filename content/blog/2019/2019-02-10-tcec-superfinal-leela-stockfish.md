@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2019-02-10-tcec-superfinal-leela-stockfish-
-hkjhk897987979.png)](https://1.bp.blogspot.com/-t_zxMi_kUek/XGBJJoNSgYI/AAAAAAAA
-Ac8/a77KtZlhdVwM0EmBNJzt7cVMXpvl7qaywCLcBGAs/s1600/hkjhk897987979.png)
+hkjhk897987979.png)
 
 **TCEC superfinal** of **14th** Season is currently being played as
 **Stockfish** and **Leela** battle for the TCEC Season 14 Champion title.  
@@ -85,8 +84,7 @@ from 3 wins.
 consecutive games by 3 horrible blunders.**
 
 [![](../../images/2019-02-10-tcec-superfinal-leela-stockfish-
-hkhjk9080980909.png)](https://4.bp.blogspot.com/-WHZoEhtaLcQ/XGBLBiOF3ZI/AAAAAAA
-AAdM/EtZDJpRBz3AMyl7a4AFnVN7A9UOVV6c8ACLcBGAs/s1600/hkhjk9080980909.png)
+hkhjk9080980909.png)
 
 In a complicated Ruy Lopez variation, both engines reached a very dynamic and
 tactical position. Stockfish with white had a small advantage, but Leela must
@@ -128,8 +126,7 @@ of course but was a bad blunder again where most good engines from 2000 till
 now would have found easily.
 
 [![](../../images/2019-02-10-tcec-superfinal-leela-stockfish-
-DHIlXPZW0AE2HdC.jpg)](https://1.bp.blogspot.com/-qv6tdxXhIhI/XGBLIwf2rtI/AAAAAAA
-AAdU/hBqWUoaAT3k3eQTnk5y3QXvqQkj3-OJ0gCLcBGAs/s1600/DHIlXPZW0AE2HdC.jpg)
+DHIlXPZW0AE2HdC.jpg)
 
  **So now Stockfish was on the lead with 6 wins versus 3 of Leela.** So
 everyone thought well this is it, things have gone the normal way Stockfish

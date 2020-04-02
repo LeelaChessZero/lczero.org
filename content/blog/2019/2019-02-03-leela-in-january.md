@@ -95,9 +95,7 @@ if often followed by an increase of rating. Here is how the rating changed for
 T40 after the LR-drop to 0.02 on January 27th.
 
 [![](../../images/2019-02-03-leela-in-
-january-2019.02.progress.png)](https://2.bp.blogspot.com/-Li_2QOfdosA/XFc7KcLBWI
-I/AAAAAAAAJX4/FsZdzsAMCHka3GEJTGmvIzMFnlgXbSmEQCLcBGAs/s1600/2019.02.progress.pn
-g)  
+january-2019.02.progress.png)  
 ---  
 Where T40 ended in January and how the first LR-drop affected the rating
 

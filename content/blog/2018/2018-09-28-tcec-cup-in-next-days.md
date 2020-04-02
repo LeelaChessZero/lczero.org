@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-28-tcec-cup-in-next-days-
-hjkhk79799999.png)](https://1.bp.blogspot.com/-u-PpF09N_UM/W66Ffjf_7qI/AAAAAAAAA
-Vs/HIEnOk5WZaIWnJlwZyFAdPoVSm8L52OLgCLcBGAs/s1600/hjkhk79799999.png)
+hjkhk79799999.png)
 
 The TCEC(Top Chess Engine Championship) tournament is currently running with
 engines playing in the premier division and this division will finish in a few
@@ -51,8 +50,7 @@ choose different match ups for the next rounds.
 (click to zoom image)
 
 [![](../../images/2018-09-28-tcec-cup-in-next-days-
-ghjgjh866868.png)](https://1.bp.blogspot.com/-PczplYasswA/W66Gc4UQy7I/AAAAAAAAAV
-8/FlrGBXfKblY-w1JtF8kjpPcRz2IbtftQACLcBGAs/s1600/ghjgjh866868.png)
+ghjgjh866868.png)
 
 So **Leela** will have to face **Laser** in the TCEC Cup in 8 games. The odds
 should be with her and she should promote as she is stronger than Laser but we

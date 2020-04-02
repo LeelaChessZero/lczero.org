@@ -8,32 +8,27 @@ draft = true
 +++
 
 **2019-05-26 UPDATE:** Temporary server is up again.  
- **  
-** **2019-05-25** **UPDATE2:** Turns out cloud instance was preemtable, so it
+**2019-05-25** **UPDATE2:** Turns out cloud instance was preemtable, so it
 was preempted, no training again for now.  
- **  
-** **2019-05-25** **UPDATE:** We've been donated a temporary AWS cloud
+**2019-05-25** **UPDATE:** We've been donated a temporary AWS cloud
 instance for the time of the main server downtime! Training is back up, but
 only for test53, test40 is still paused.  
- **  
-** **2019-05-23** **UPDATE:** PSU seems to be in order, replugging all cables
+**2019-05-23** **UPDATE:** PSU seems to be in order, replugging all cables
 didn't help. The person who has access to the server has to travel again, no
 news expected until next week. :-(  
- **  
-** **2019-05-20** **UPDATE:** The server doesn't react to a power button, so
+**2019-05-20** **UPDATE:** The server doesn't react to a power button, so
 it's not something trivial. Will take a more thorough look tomorrow.  
- **  
-** **2019-05-17** **UPDATE:** The person who has access to the server is
+**2019-05-17** **UPDATE:** The person who has access to the server is
 currently travelling, until Sunday. That means that updated information about
 the server is expected in the beginning of the next week.  
- **  
-**\--- original message ---
+
+-- original message ---
 
 As many of you heard, the training of Lc0 has been suspended yesterday.
 
 Here is a short summary what's happened.
 
- **(context)**  
+**(context)**  
 In April 2018 when we were looking for a training server, one of our
 contributors kindly volunteered to help and provided 3 servers (with middle-
 class GPUs), together than a space to cost them and covering the electricity

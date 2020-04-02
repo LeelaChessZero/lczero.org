@@ -50,8 +50,7 @@ discord has shown that the community wants the reset as soon as possible, and
 that's what we did. :)
 
 [![](../../images/2018-08-30-training-run-reset-
-Capture.PNG)](https://4.bp.blogspot.com/-9txtxG5VJUM/W4gg9WO1qII/AAAAAAAA-
-ZY/PFqhSwbo7yUDVOw3gG0H-pzpmxeJJRZUgCLcBGAs/s1600/Capture.PNG)
+Capture.PNG)
 
 We used to keep network identifiers with test numbers (e.g test5 had network
 id 5xx), but as we had so many networks for the test10 that it overflown into

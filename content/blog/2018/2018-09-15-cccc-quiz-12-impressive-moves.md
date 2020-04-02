@@ -8,9 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-15-cccc-quiz-12-impressive-moves-
-hjk68688.png)](https://1.bp.blogspot.com/-AcjAEd5qRlU/W51ntmvlpvI/AAAAAAAAATg/wP
-9HWW50GgAX65syan63JYAusDcl__B-
-gCLcBGAs/s1600/hjk68688.png)
+hjk68688.png)
 
 In CCCC there have been played some very nice games and moves till now.  
 Can you find them? Play the move on the board and if it's correct it will show

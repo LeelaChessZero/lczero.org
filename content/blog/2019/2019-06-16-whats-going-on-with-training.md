@@ -58,8 +58,7 @@ affected by training server being down.
 
 If you are willing to contribute to this experiment, you need to have a
 special Lc0 version. Further information in our discord ([link to the
-instructions](https://discordapp.com/channels/425419482568196106/445928688115122
-176/589323938010759168)).
+instructions](https://discordapp.com/channels/425419482568196106/445928688115122176/589323938010759168)).
 There is also [this document](http://lc0.org/test49.9), maybe it will have
 instructions too.
 
@@ -131,11 +130,10 @@ be tweaked as soon as we have something promising (e.g. something discovered
 by test7x experiments which will start soon after test60).
 
 One of the possible improvements we'll have in the middle is switching to
-256x24 [self-scaling](https://github.com/Cyanogenoid/lczero-
-training/wiki/Positive-results#self-scaling-httpsgithubcomcyanogenoidlczero-
-trainingtreeselfscale2) network (by training it in parallel from same training
-data). It's expected that 256x24 self-scaling net is stronger than 320x24
-without self-scaling while having same computational complexity.
+256x24 [self-scaling](https://github.com/Cyanogenoid/lczero-training/wiki/Positive-results#self-scaling-httpsgithubcomcyanogenoidlczero-trainingtreeselfscale2)
+network (by training it in parallel from same training data). It's expected that
+256x24 self-scaling net is stronger than 320x24without self-scaling while having
+same computational complexity.
 
 Other possible changes (but unlikely, especially from the very beginning):
 

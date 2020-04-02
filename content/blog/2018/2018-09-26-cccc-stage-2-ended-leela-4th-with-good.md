@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-26-cccc-stage-2-ended-leela-4th-with-good-
-gjhgj786867645.png)](https://3.bp.blogspot.com/-_QuwXzJzT7I/W6tGVFs18ZI/AAAAAAAA
-AVQ/UUZY7JT7wVUEqFAt1id4N_n2f95n0J32gCLcBGAs/s1600/gjhgj786867645.png)
+gjhgj786867645.png)
 
 Chess.com Computer Chess Championship stage 2 has finally ended. After a 280
 games battle only the top 2 engines will continue to the superfinal.  

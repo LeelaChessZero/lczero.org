@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-19-cccc-stage-2-has-started-and-running-
-gjhgjh5646656.png)](https://3.bp.blogspot.com/-lGHa_mdgxi0/W6I3wkCHR7I/AAAAAAAAA
-T8/49LSvniHtMsGdfihdKwEZrM3EjsNew4OACLcBGAs/s1600/gjhgjh5646656.png)
+gjhgjh5646656.png)
 
 **Stage 2** of CCCC has already started before 2 days. Not without problems
 initially with repeating restarts but at last now it's running flawlessly.  

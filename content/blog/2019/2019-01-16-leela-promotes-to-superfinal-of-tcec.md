@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2019-01-16-leela-promotes-to-superfinal-of-tcec-
-jkhkjh9879879999.png)](https://2.bp.blogspot.com/-O-bKV64ZFvA/XD9-4IE6fzI/AAAAAA
-AAAbs/w_UKPESDmgAHgPtQmMO8lR1tY8eWDREoACLcBGAs/s1600/jkhkjh9879879999.png)
+jkhkjh9879879999.png)
 
 **Leela** just made it on the **superfinal** of the **TCEC** tournament!  
 There, she will face **Stockfish** on a 100-games match for the title of TCEC
@@ -83,8 +82,7 @@ luckily for her Stockfish didn't find the winning(as it was proved later)
 managed to draw the game after 93 moves.
 
 [![](../../images/2019-01-16-leela-promotes-to-superfinal-of-tcec-
-hkjhk7897899998798.png)](https://1.bp.blogspot.com/-PWQmyE7qO3g/XD9_xeIYlBI/AAAA
-AAAAAb8/wRY6jpnUc607of71GrfVRfEJdPqcKZqVQCLcBGAs/s1600/hkjhk7897899998798.png)
+hkjhk7897899998798.png)
 
 So she promoted!!  
 Now there will be a **100 games match** between Leela and Stockfish with **120

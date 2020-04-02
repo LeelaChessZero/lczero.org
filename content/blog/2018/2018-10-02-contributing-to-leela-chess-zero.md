@@ -8,9 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-02-contributing-to-leela-chess-zero-
-ghgj76888.png)](https://4.bp.blogspot.com/-WbWm-PGz-
-AY/W7PGlgmjLVI/AAAAAAAAAWw/pK3Ua_dgu9U6CrMcJlTlOtCUvq-nWOO-
-ACLcBGAs/s1600/ghgj76888.png)
+ghgj76888.png)
 
 Deepmind's latest paper release ( _Mastering Chess and Shogi by Self-Play with
 a General Reinforcement Learning Algorithm_ ) on 5 December 2017, presented a

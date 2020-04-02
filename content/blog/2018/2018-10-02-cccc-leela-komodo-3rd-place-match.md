@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-02-cccc-leela-komodo-3rd-place-match-
-hkjhk87987979798799.png)](https://2.bp.blogspot.com/-sl82CL68l_s/W7Mxp5OJ_TI/AAA
-AAAAAAWc/ABvo3gtIc8wOe2kXiByX9KIACm9wPdPXgCLcBGAs/s1600/hkjhk87987979798799.png)
+hkjhk87987979798799.png)
 
 TCEC Cup is about to start in a few days and _**Chessdom.com**_ just
 [announced the complete pairings](http://www.chessdom.com/tcec-
@@ -27,8 +26,7 @@ Here is the format of TCEC Cup:
 (click to zoom)
 
 [![](../../images/2018-10-02-cccc-leela-komodo-3rd-place-match-
-hgjhgj686868.png)](https://4.bp.blogspot.com/-kAVSZsPj3Qs/W7MyX_2Ex7I/AAAAAAAAAW
-k/7aRCCIlzLVMv7hGUswj48QdxWnMh-X5qwCLcBGAs/s1600/hgjhgj686868.png)
+hgjhgj686868.png)
 
 All games will be played with time control of 30 minutes plus 10 second per
 move increment with pondering off.  

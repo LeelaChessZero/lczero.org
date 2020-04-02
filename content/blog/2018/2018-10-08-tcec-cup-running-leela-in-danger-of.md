@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-08-tcec-cup-running-leela-in-danger-of-
-hk678688888.png)](https://3.bp.blogspot.com/-EUuhSUNK1rE/W7jIS1e83LI/AAAAAAAAAXo
-/zrM_1vDSJPkpmRyNl32VFObvLrQB2QG6ACLcBGAs/s1600/hk678688888.png)
+hk678688888.png)
 
 TCEC Cup continues and we already know 6 engines that have promoted to next
 round.  

@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2019-02-04-leela-won-tcec-cup-
-hkh98799.png)](https://2.bp.blogspot.com/-kzwqhru9vkg/XFiljDoGhDI/AAAAAAAAAcY/aK
-eH6mecBbQ9ikbeAx7y-bo9BzfXRcdZwCLcBGAs/s1600/hkh98799.png)
+hkh98799.png)
 
 **
 
@@ -1275,8 +1274,7 @@ tcec.chessdom.com/archive.php)
 The whole TCEC CUP2:
 
 [![](../../images/2019-02-04-leela-won-tcec-cup-
-gjhgjh87878.png)](https://3.bp.blogspot.com/-x6o8O1_PkyM/XFimYcrURoI/AAAAAAAAAco
-/HuKbnsmI2PodZXtpomf7FSoz2EUVqJtOQCLcBGAs/s1600/gjhgjh87878.png)
+gjhgjh87878.png)
 
 Leela now plays the Superfinal of TCEC Season 14 against Stockfish dev. Time
 control is 120'+15".  

@@ -16,10 +16,7 @@ first Chess GUI designed specifically for Lc0, and inspired by the excellent
 is a work in progress, it's very usable, and has received a lot of favourable
 comment.
 
-[![](../../images/2019-06-25-nibbler-
-lc0-gui-60089290-10f58780-9738-11e9-828a-6ebac5366376.png)](https://user-
-images.githubusercontent.com/16438795/60089290-10f58780-9738-11e9-828a-6ebac5366
-376.png)
+![]({{< file "screenshot.png" >}})
 
 Being designed specifically for Lc0 means it can use the sort of information
 Leela provides that other engines don't (or can't). For example, Leela is

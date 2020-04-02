@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-
-uiyi888888.png)](https://1.bp.blogspot.com/-U3vevV5DIY8/W5Zf0DQEwpI/AAAAAAAAASY/
-PuxHQCPwVOsg5RMqm_wsmJihMCmZYWU_ACLcBGAs/s1600/uiyi888888.png)
+uiyi888888.png)
 
 Leela had its first loss in the tournament after 27 games that went
 undefeated. It lost against Ethereal with black after she blundered in
@@ -56,8 +55,7 @@ syzygy tablebases, incorrectly, believes 209...Re1?? draws. 209...Rd2+ is the
 move that draws.
 
 [![](../../images/2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-
-dfguyt89798.png)](https://1.bp.blogspot.com/-0sP_FAGyDqw/W5ZgheUK0jI/AAAAAAAAASw
-/4zPn2EDudqUV9t5Z4ZTX0W4MpEa7cMIiQCLcBGAs/s1600/dfguyt89798.png)
+dfguyt89798.png)
 
 301 Vajolet vs Andscacs 0-1  
 302 Wasp vs Texel 0-1  

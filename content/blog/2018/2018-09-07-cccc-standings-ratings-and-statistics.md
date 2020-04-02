@@ -106,8 +106,7 @@ Score **Game length** **Frequency**
 All games 54.4% 77 98 78 30.3% 48.0% 21.5%
 
 [![](../../images/2018-09-07-cccc-standings-ratings-and-statistics-
-hkhjk8999.png)](https://4.bp.blogspot.com/-psMngBac5i0/W5GsPIV8u5I/AAAAAAAAARc/Z
-XWeXJV81Dw9Gb4J1bySRpctgDcaZYY8wCLcBGAs/s1600/hkhjk8999.png)
+hkhjk8999.png)
 
 **
 
@@ -143,9 +142,7 @@ Shortest wins (White)**
 Opening ECO classification :
 
 [![](../../images/2018-09-07-cccc-standings-ratings-and-statistics-
-fdfhd868.png)](https://4.bp.blogspot.com/-AulM3qgDvwo/W5Gs2iXySBI/AAAAAAAAARk/eR
-fM0YFJAjMS-4iHVTPGPKeGETnkRFqrgCLcBGAs/s1600/fdfhd868.png)
+fdfhd868.png)
 
 [![](../../images/2018-09-07-cccc-standings-ratings-and-statistics-
-tyutu8768.png)](https://4.bp.blogspot.com/-SfTQY88uXjQ/W5GtCgBabaI/AAAAAAAAARo/H
-N2Gj0neHKoHyZ41JmcrJJHvERAzn99PgCLcBGAs/s1600/tyutu8768.png)
+tyutu8768.png)

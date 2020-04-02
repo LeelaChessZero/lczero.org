@@ -14,9 +14,7 @@ Some statistics about Chess.com Computer Chess Championship till now.
 All games 78 94 76 33.8% 46.2% 19.8%
 
 [![](../../images/2018-09-04-cccc-statistics-
-stst1.png)](https://2.bp.blogspot.com/-xfhm1Z5g0vw/W45CwNA9yOI/AAAAAAAAAQ8/S_Rwm
-7Jw-
-JUq-cU2N0xhv2FaWwsBSUoYACLcBGAs/s1600/stst1.png)
+stst1.png)
 
 **
 
@@ -42,9 +40,7 @@ Shortest wins (White)**
 **Opening ECO classification :**
 
 [![](../../images/2018-09-04-cccc-statistics-
-eco5675.png)](https://4.bp.blogspot.com/-pUtFETYaAJk/W45DFgf4oWI/AAAAAAAAARE/yvv
-AZGmpwE8X9qEmICxK5l5ZfiK-
-fsUoQCLcBGAs/s1600/eco5675.png)
+eco5675.png)
 
  _ **The performance Elo of the engines so far:**_
 
@@ -81,5 +77,4 @@ rules because gull crashed, was 1-0 in favor of Lc0.
 And the **crosstable** _with Lc0 - Gull game counted as a win for Lc0:_
 
 [![](../../images/2018-09-04-cccc-statistics-
-ffh78668.png)](https://2.bp.blogspot.com/-XQ3aNH7gbTM/W45FM4XLSDI/AAAAAAAAARQ/FI
-DAYa3IKXA1fEe7aV0yAOBpcOTavCoRQCLcBGAs/s1600/ffh78668.png)
+ffh78668.png)

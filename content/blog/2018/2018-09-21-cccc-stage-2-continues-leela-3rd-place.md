@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-21-cccc-stage-2-continues-leela-3rd-place-
-gjhgjh5646656.png)](https://3.bp.blogspot.com/-lGHa_mdgxi0/W6I3wkCHR7I/AAAAAAAAA
-T8/49LSvniHtMsGdfihdKwEZrM3EjsNew4OACLcBGAs/s1600/gjhgjh5646656.png)
+gjhgjh5646656.png)
 
 Stage 2 continues with **Leela** doing excellently being 3rd, half a point
 ahead of Komodo! **  
@@ -74,9 +73,7 @@ are not and the most normal ones with ECO A openings being played so often :)
 (click to open a bigger image)
 
 [![](../../images/2018-09-21-cccc-stage-2-continues-leela-3rd-place-
-ffh778687687.png)](https://4.bp.blogspot.com/-RBKzAMVmEn0/W6Sr4jEHziI/AAAAAAAAAU
-Q/GC7rwEEIY0UJf-
-QJWobr-okqAExu8id1wCLcBGAs/s1600/ffh778687687.png) ****
+ffh778687687.png) ****
 
  ** _Length of games and percentages of white/black wins and draws:_**
 

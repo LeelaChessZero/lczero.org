@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-10-19-leela-beats-fire-promoting-to-semi-
-LeelaFire3.png)](https://3.bp.blogspot.com/-04bgjNeo_Gc/W8nBG1dM92I/AAAAAAAAAaE/
-iOjdb5ZGw3gZlnbOsjTyBHUHj6vI3aIBwCLcBGAs/s1600/LeelaFire3.png)
+LeelaFire3.png)
 
 **Leela** in a classic drama style, **promoted in TCEC Cup Semi-Finals** and
 it will face **Stockfish** today!  

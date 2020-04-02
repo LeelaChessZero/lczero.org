@@ -8,8 +8,7 @@ draft = true
 +++
 
 [![](../../images/2018-09-13-cccc-rounds-32333435-and-36-leela-with-
-gtuytu6767.png)](https://4.bp.blogspot.com/-MZ3EIaz76lo/W5pvM_o5nqI/AAAAAAAAATI/
-pSn3Oc3c1pEpCeXImmouDbe2kK2YemtIACLcBGAs/s1600/gtuytu6767.png)
+gtuytu6767.png)
 
 First round CCCC approaches to its end and situation is clear by now.  
 Houdini, Komodo and Stockfish will be in top 3 advancing to stage 2, with
