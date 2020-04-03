@@ -19,6 +19,17 @@
 
   {{ block "header_css" . }}{{ end }}
 
+<style>
+.content table thead th, .content table td {
+    border-bottom: 0px solid black;
+    border-top: 0px solid black;
+}
+.content table thead th:empty {
+    padding: 0px;
+}
+
+</style>
+
 </head>
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
