@@ -144,3 +144,13 @@
   max-width: 860px;
   margin: auto;
 }
+
+.cleartable table {
+  thead th, td {
+    border-bottom: 0px solid black;
+    border-top: 0px solid black;
+  }
+  th:empty {
+    padding: 0px;
+  }
+}
