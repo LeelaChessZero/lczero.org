@@ -15,8 +15,10 @@ working as expected.
 Some network properties are not going where we expected them to go _(for
 example, it's expected that MSE loss would suddenly drop, but it didn't.
 Actually, it jumped up instead, can be
-followed[here](http://testtraining.lczero.org/))_. Something is wrong with the
+followed [here](http://testtraining.lczero.org/))_. Something is wrong with the
 training, and we are investigating.
+
+<!--more-->
 
 The original plan for that unplanned case was to **revert** to **test10** and
 do further investigations in background while keeping training test10.
@@ -49,8 +51,7 @@ Test10 was undoubtedly a success, but it has reached its limit. The vote on
 discord has shown that the community wants the reset as soon as possible, and
 that's what we did. :)
 
-[![](../../images/2018-08-30-training-run-reset-
-Capture.PNG)
+![]({{< file "Capture.PNG" >}})
 
 We used to keep network identifiers with test numbers (e.g test5 had network
 id 5xx), but as we had so many networks for the test10 that it overflown into
@@ -64,8 +65,7 @@ to become stronger than latest networks from test10.
 #### What didn't change
 
 Before telling what's new in the next run, let me list what of what we
-[promised](../../../2018/08/test10-learning-rate-has-been-
-lowered.html), but is **not** there:
+[promised]({{< ref "2018-08-23-test10-learning-rate-has-been-lowered" >}}), but is **not** there:
 
   * Weights quantization is not enabled.  
 It is implemented, but we didn't test it enough to confirm that it doesn't
@@ -93,8 +93,7 @@ Cpuct in AlphaGo Zero and AlphaZero papers).
 It is expected that this will make Leela better in tactics, and will add more
 variance to openings.
 
-  * [Rule50 
-bug](../../../2018/08/rule50-encoding-bug-is-found.html) fixed.  
+  * [Rule50 bug]({{< ref "2018-08-20-rule50-encoding-bug-is-found" >}}) fixed.  
 Leela will be able to use information about number of moves without captures
 and pawn moves.
 

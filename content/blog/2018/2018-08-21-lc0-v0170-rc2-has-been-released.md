@@ -7,17 +7,18 @@ tags = []
 draft = true
 +++
 
-[](https://www.blogger.com/)The "Release Candidate 2" for the Lc0 version
-v0.17 has been published!  
+The "Release Candidate 2" for the Lc0 version
+v0.17 has been published!
 Available to download
 [here](https://github.com/LeelaChessZero/lc0/releases/tag/v0.17.0-rc2).
 
+<!--more-->
+
 Release candidate 1 was mostly bug free, but there were still things to tweak:
 
-  * The [Rule50 encoding 
-bug](../../../2018/08/rule50-encoding-bug-is-found.html) was 
+  * The [Rule50 encoding bug]({{< ref "2018-08-20-rule50-encoding-bug-is-found" >}}) was
 fixed.
-  * Default batch size for openCl changed to 16.  
+  * Default batch size for openCl changed to 16.
 Up to 5x speedup, promised in RC1, should be visible with default settings.
 
   * Time management constants were tweaked a bit.
@@ -36,7 +37,5 @@ We've sent this version to CCCC organizers, and it's quite possible that they
 will have another test of Lc0 playing before the main event, so follow their
 news if you are interested! Links to CCCC:
 
-  * [The announcement of CCCC (from the 
-future)](https://www.chess.com/news/view/announcing-the-new-computer-chess-champ
-ionship)
+  * [The announcement of CCCC (from the future)](https://www.chess.com/news/view/announcing-the-new-computer-chess-championship)
   * [Link to the CCCC UI](http://chess.com/cccc)

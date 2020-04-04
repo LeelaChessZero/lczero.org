@@ -10,6 +10,8 @@ draft = true
 It's not completely relevant to Lc0, but many people who follow CCCC wonder
 how to disable sound.
 
+<!--more-->
+
 If you use Chrome browser, you can mute the tab by right's clicking tab's
 header and choosing "mute site" from there. :)  
 The same also works for Firefox.  
@@ -21,10 +23,7 @@ Link: <https://pastebin.com/raw/R3fY11zY>
 To use, just copy contents of that snippet into javascript console when CCCC
 is on.  
 (In Chrome, that's F12 and then Console tab).  
- **UPD:** Also [variant which shows 50-move
-clock](https://gist.githubusercontent.com/kostya/1f5c9ee3e814d0ddc8d7dc15f64c2f5
-7/raw/237bcfc5b406e50e869604c58863edb6c96808f1/gistfile1.txt).  
- **UPD2:** Variant which [does that even better (also resets on captures, not
-only pawn
-moves)](https://gist.github.com/kostya/1f5c9ee3e814d0ddc8d7dc15f64c2f57)  
-[](https://www.blogger.com/)
+ **UPD:** Also [variant which shows 50-move clock](https://gist.githubusercontent.com/kostya/1f5c9ee3e814d0ddc8d7dc15f64c2f57/raw/237bcfc5b406e50e869604c58863edb6c96808f1/gistfile1.txt).  
+ **UPD2:** Variant which [does that even better (also resets on captures, not only pawn moves)](https://gist.github.com/kostya/1f5c9ee3e814d0ddc8d7dc15f64c2f57)  
+
+

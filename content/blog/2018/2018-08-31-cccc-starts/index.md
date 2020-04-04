@@ -7,8 +7,7 @@ tags = []
 draft = true
 +++
 
-[Chess.com Computer Chess Championship](http://www.chess.com/computer-chess-
-championship) starts today.
+[Chess.com Computer Chess Championship](http://www.chess.com/computer-chess-championship) starts today.
 
 24 engines will participate playing all against all twice, in a double Round
 Robin tournament with 15 minutes for each player for the game plus 5 seconds
@@ -25,8 +24,11 @@ Every engine will play 46 games so there would be 46 rounds.
 After all games are completed, the first **8** of the 24 engines will advance
 to round 2.
 
-[![](../../images/2018-08-31-cccc-starts-
-ffh67678845.png)Leela
+<!--more-->
+
+![]({{< file "ffh67678845.png" >}})
+
+Leela
 will compete with Lc0 cuda version, with **11089** net and with no tablebases
 usage.
 
@@ -41,7 +43,7 @@ Nirvana meet.
 
 The schedule of the first 3 rounds is:
 
- **_ROUND 1_**  
+&emsp;&emsp;**ROUND 1**  
 1 Andscacs vs Xiphos  
 2 Wasp vs Arasan  
 3 Booot vs Vajolet  
@@ -55,7 +57,7 @@ The schedule of the first 3 rounds is:
 11 Ivanhoe vs **Lco**  
 12 Laser vs Komodo
 
- ****_**ROUND 2**_  
+&emsp;&emsp;**ROUND 2**  
 13 Wasp vs Andscacs  
 14 Vajolet vs Xiphos  
 15 Arasan vs Texel  
@@ -69,7 +71,7 @@ The schedule of the first 3 rounds is:
 23 Houdini vs Laser  
 24 Komodo vs Ivanhoe
 
-_**ROUND 3**_  
+&emsp;&emsp;**ROUND 3**  
 25 Andscacs vs Vajolet  
 26 Texel vs Wasp  
 27 Xiphos vs Stockfish  
