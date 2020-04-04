@@ -112,7 +112,7 @@ That h8 poor Rook of Stockfish, hasn't moved the whole game!
 
 Leela-Stockfish 1-0 Game 63, (French, MacCutcheon, Janowski variation)
 
-{{< chessboard "all-games.pgn" >}}
+{{< chessgame "all-games.pgn" >}}
 
 Above we mentioned Leela thinking about +2.25 after playing Bg6 while
 Stockfish being on +0.42 only. But evaluation of Leela does not correspond to
@@ -215,5 +215,5 @@ games, she is only just **+1** point ahead of Stockfish.
 The incredible game Leela didn't manage to win from a 7 men tablebase
 position:
 
-{{< chessboard "tablebase-failure.pgn" >}}
+{{< chessgame "tablebase-failure.pgn" >}}
 

@@ -1,0 +1,119 @@
+[Event "TCEC Cup 2 - Round 5 - Match 31"]
+[White "Houdini 6.03"]
+[Black "LCZero v20.1-32742"]
+[Site "http://tcec.chessdom.com"]
+[Round "1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.02.03"]
+[WhiteElo "3495"]
+[BlackElo "3404"]
+[PlyCount "178"]
+[TimeControl "1800+5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. 0-0 Nc6 7. c3 Bg4 8. Nbd2 cxd4 9. cxd4 Bh5 10. a3 a5 11. Qb3 Qc7 12. Qa4 Nge7 13. b4 Nc8 14. b5 N6e7 15. Qd1 a4 16. Bb2 Nb6 17. Rc1 Qd7 18. Rc2 Qd8 19. Qa1 Nf5 20. g3 g5 21. Rfc1 Bg6 22. g4 Ne7 23. Rc5 h5 24. h3 hxg4 25. hxg4 Nc4 26. Nxc4 dxc4 27. d5 Nxd5 28. R5xc4 Be7 29. Bf1 Kf8 30. Bc3 Kg8 31. Bd2 Qf8 32. Re1 Nb6 33. Rc7 Bxa3 34. Qd4 Nd5 35. Rc4 Qh6 36. Bg2 Be7 37. Rxa4 Rc8 38. Rc4 Rd8 39. Qa7 Rd7 40. Rd4 Kg7 41. Qa4 b6 42. Rc1 Re8 43. Rc6 Red8 44. Qa1 Nf4 45. Rxd7 Rxd7 46. Bxf4 gxf4 47. Rxb6 Rd3 48. Rd6 Rb3 49. b6 Be4 50. Qd1 Rb2 51. Qc1 Rb5 52. Qf1 Rb3 53. Qd1 Rb5 54. Qe2 Rb1+ 55. Rd1 Bxf3 56. Bxf3 Rxb6 57. Kg2 Bh4 58. Qa2 Rb8 59. Rh1 Qg5 60. Qc2 Rh8 61. Qe4 Rd8 62. Qe1 Rb8 63. Qc3 Rh8 64. Qd4 Rd8 65. Qb2 Rc8 66. Be2 Rh8 67. Bd1 Qd8 68. Bf3 Be7 69. Rxh8 Qxh8 70. Qd4 Qh6 71. Qd3 Qg5 72. Qd4 Bd8 73. Qc5 Be7 74. Qd4 Qh6 75. Qd3 Kg8 76. Qd4 Qg5 77. Bd1 Bd8 78. Kf3 Qh4 79. Qxf4 Bg5 80. Qd4 Qh1+ 81. Ke2 Qc6 82. Ba4 Qa6+ 83. Kf3 Qf1 84. Bd1 Kg7 85. Bc2 Qh1+ 86. Ke2 Qg2 87. Qe4 Qh2 88. Kf3 Bh4 89. Qd4 Bg5 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 5 - Match 31"]
+[White "LCZero v20.1-32742"]
+[Black "Houdini 6.03"]
+[Site "http://tcec.chessdom.com"]
+[Round "1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.02.03"]
+[WhiteElo "3404"]
+[BlackElo "3495"]
+[PlyCount "228"]
+[TimeControl "1800+5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. 0-0 Nc6 7. c3 Bg6 8. a3 a6 9. Be3 c4 10. Nbd2 Nh6 11. Bxh6 gxh6 12. g3 Be7 13. h4 0-0 14. Nh2 f5 15. h5 Bf7 16. Kh1 b5 17. f4 Kh8 18. Rg1 a5 19. g4 fxg4 20. Bxg4 Bg8 21. Rf1 b4 22. Qf3 bxc3 23. bxc3 Qe8 24. Qh3 Nd8 25. a4 Rb8 26. Rf2 Rf7 27. Qe3 Qf8 28. Rg1 Rg7 29. Ndf1 Rb1 30. Rfg2 Bf7 31. Qf2 Rb3 32. Ng3 Rxc3 33. f5 Bb4 34. Ne2 Rc2 35. f6 Rg8 36. Nf3 Qe8 37. Nh4 Rg5 38. Nf3 Rg8 39. Bh3 Rxg2 40. Qxg2 Bf8 41. Nh4 Nc6 42. Qg4 Rxe2 43. Qxe2 Nxd4 44. Qg4 Nb3 45. Ng6+ hxg6 46. hxg6 Bxg6 47. Qxg6 Qxg6 48. Rxg6 Kh7 49. Rg1 Nd4 50. f7 Bg7 51. Bg4 c3 52. Bh5 Nc6 53. Bg4 Nd4 54. Bh5 Nc6 55. Bd1 Nxe5 56. Bc2+ Kh8 57. Re1 Nxf7 58. Rxe6 Bf8 59. Rf6 Kg7 60. Rg6+ Kh8 61. Bb3 Ne5 62. Rg3 Bb4 63. Bxd5 h5 64. Rg8+ Kh7 65. Rg5 Bd6 66. Rg3 Bb4 67. Rg5 Bd6 68. Be4+ Kh6 69. Rg8 h4 70. Kg2 Kh5 71. Kh3 Bb4 72. Bc2 Nc4 73. Bd1+ Kh6 74. Bc2 Kh5 75. Bh7 Ne3 76. Re8 Nc4 77. Rg8 Ne3 78. Bd3 Bc5 79. Re8 Bd4 80. Ra8 Bb6 81. Rc8 Bd4 82. Ra8 Bb6 83. Rb8 Nd5 84. Rf8 Ne3 85. Rf6 Bd4 86. Ra6 Kg5 87. Rxa5+ Kf6 88. Ra6+ Ke5 89. Rc6 Kd5 90. Rc8 Ke6 91. Rc6+ Kd5 92. Rc8 Ke6 93. Re8+ Kd5 94. Rd8+ Kc5 95. a5 c2 96. Rc8+ Kb4 97. a6 Ka4 98. Rc7 Kb3 99. Be4 Kb2 100. Bxc2 Nxc2 101. Rc4 Bb6 102. Rc7 Bd4 103. Rc4 Bb6 104. Rc8 Bd4 105. Rb8+ Kc3 106. Rc8+ Kb2 107. Rb8+ Kc3 108. Ra8 Nb4 109. Rc8+ Kd2 110. Ra8 Ke3 111. Re8+ Kd2 112. Re4 Kc3 113. Re6 Kc4 114. Re4 Nxa6 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 5 - Match 31"]
+[White "Houdini 6.03"]
+[Black "LCZero v20.1-32742"]
+[Site "http://tcec.chessdom.com"]
+[Round "1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.02.03"]
+[WhiteElo "3495"]
+[BlackElo "3404"]
+[PlyCount "223"]
+[TimeControl "1800+5"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 a6 4. d4 cxd4 5. Nxd4 b5 6. Bd3 Qb6 7. Nb3 Qc7 8. 0-0 Bb7 9. Qe2 b4 10. Nd1 Nc6 11. f4 Be7 12. c3 a5 13. Be3 Nf6 14. Rc1 0-0 15. Nc5 bxc3 16. Rxc3 Rfc8 17. Nf2 d5 18. e5 Nd7 19. Nb3 Qd8 20. a4 Bb4 21. Rc2 Ne7 22. Rfc1 Rxc2 23. Qxc2 Rc8 24. Qd1 h6 25. Rxc8 Qxc8 26. Qc2 Bc6 27. Nc1 Qb7 28. g3 Nb8 29. b3 Be8 30. Ne2 Nbc6 31. Nd4 Nxd4 32. Bxd4 Nc6 33. Be3 Be7 34. Be2 Bd8 35. Bb5 Bb6 36. Bxb6 Qxb6 37. Kf1 Bd7 38. Qc3 Nb8 39. Bxd7 Nxd7 40. Qc8+ Nf8 41. Qc3 Ng6 42. Qc8+ Nf8 43. Qc3 h5 44. Ke2 Nd7 45. Qc8+ Nf8 46. Qc3 Kh7 47. Qd3+ g6 48. Qb5 Qc7 49. Kd2 Qa7 50. Ke2 Qc7 51. Kd2 Kg7 52. Nd3 Nd7 53. b4 axb4 54. Qxb4 Nb6 55. Nc5 Nc4+ 56. Kd3 h4 57. Kc3 h3 58. Kd4 Na5 59. Qb2 Kh6 60. Qb5 g5 61. Kc3 Kh5 62. Qe2+ Kg6 63. Qd3+ Kh5 64. Qe2+ Kg6 65. Qd3+ Kg7 66. Qb5 Kh6 67. Kd4 Kg7 68. Kc3 Kh6 69. Kd3 Kh5 70. Kd4 Nc6+ 71. Kc3 gxf4 72. gxf4 Kg4 73. Qe2+ Kxf4 74. Qf2+ Kg5 75. Qg3+ Kh6 76. Qh4+ Kg6 77. Qg3+ Kf5 78. Qxh3+ Kg5 79. Qg3+ Kh5 80. Qh3+ Kg6 81. Qg4+ Kh6 82. Qh4+ Kg6 83. Qg3+ Kh5 84. h4 Kh6 85. Qg5+ Kh7 86. Qh5+ Kg7 87. Qg5+ Kh7 88. Qh5+ Kg7 89. Qg5+ Kh8 90. Qh6+ Kg8 91. Qg5+ Kf8 92. Qh6+ Kg8 93. Qg5+ Kf8 94. Nd7+ Qxd7 95. Qh6+ Kg8 96. Qg5+ Kh7 97. Qh5+ Kg7 98. Qg5+ Kh7 99. Qh5+ Kg7 100. Qg5+ Kh8 101. Qh6+ Kg8 102. Qg5+ Kf8 103. Qh6+ Ke7 104. Qg5+ Ke8 105. Qg8+ Ke7 106. Qg5+ f6 107. Qxf6+ Ke8 108. Qh8+ Kf7 109. Qh7+ Ke8 110. Qh8+ Ke7 111. Qf6+ Ke8 112. Qh8+ 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 5 - Match 31"]
+[White "LCZero v20.1-32742"]
+[Black "Houdini 6.03"]
+[Site "http://tcec.chessdom.com"]
+[Round "1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.02.03"]
+[WhiteElo "3404"]
+[BlackElo "3495"]
+[PlyCount "225"]
+[TimeControl "1800+5"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 a6 4. d4 cxd4 5. Nxd4 b5 6. Bd3 Qb6 7. Nf3 Qc7 8. 0-0 Bb7 9. Re1 Bc5 10. Be3 Bxe3 11. Rxe3 Nh6 12. h3 0-0 13. Qd2 Nc6 14. a4 b4 15. Na2 Qb6 16. Bf1 a5 17. c3 Rfd8 18. cxb4 axb4 19. Nc1 d5 20. exd5 Rxd5 21. Rd3 Na5 22. Rd4 Nf5 23. Qxb4 Rd6 24. Qxb6 Rxb6 25. Rd2 Bxf3 26. gxf3 h6 27. f4 Nh4 28. Kh1 Ng6 29. f5 exf5 30. Bb5 Nb7 31. Ra3 Nd6 32. Bf1 Ne5 33. Rc2 Rb4 34. Nd3 Nxd3 35. Rxd3 Ne4 36. b3 g6 37. Kg2 Kg7 38. Re3 f4 39. Rf3 Nd6 40. Rd2 Nf5 41. Rc3 Nh4+ 42. Kg1 g5 43. Bc4 Ng6 44. Rd5 Re8 45. a5 Re1+ 46. Kh2 Ra1 47. Rcd3 Kf6 48. Rd6+ Kg7 49. R6d5 Kf6 50. Rd6+ Kg7 51. Rb6 Rxc4 52. bxc4 Rxa5 53. Rc3 Rc5 54. Rb5 Rc7 55. Rc2 f6 56. Rcb2 Rxc4 57. Rb7+ Kg8 58. R2b6 Nh4 59. Rxf6 Rc1 60. Rb3 Kg7 61. Ra6 Rc7 62. Kg1 Rc1+ 63. Kh2 Rc7 64. Rbb6 Re7 65. Ra5 Nf3+ 66. Kg2 Nh4+ 67. Kf1 Nf3 68. Kg2 Nh4+ 69. Kf1 Nf3 70. Ra1 h5 71. Kg2 Nh4+ 72. Kh2 Nf3+ 73. Kg2 Nh4+ 74. Kh1 Nf3 75. Rb3 g4 76. Rb4 Rf7 77. Rb5 Kg6 78. Ra8 Rf6 79. Kg2 Nh4+ 80. Kh2 Nf3+ 81. Kg2 Nh4+ 82. Kh1 Nf3 83. Rd8 Rc6 84. Rd1 Nh4 85. Ra1 Nf3 86. Kg2 Nh4+ 87. Kf1 gxh3 88. Kg1 Nf3+ 89. Kh1 Re6 90. Rb3 Re1+ 91. Rxe1 Nxe1 92. f3 Kf6 93. Kh2 Ke5 94. Kxh3 Kd5 95. Rc3 Kd4 96. Ra3 Nd3 97. Kg2 Ke3 98. Kf1 h4 99. Kg2 Ke2 100. Ra2+ Ke3 101. Ra3 Ke2 102. Ra2+ Ke3 103. Ra1 Ke2 104. Ra3 Kd2 105. Ra4 Ne1+ 106. Kf2 Nd3+ 107. Kg2 Ne1+ 108. Kf2 Nd3+ 109. Kg1 Ke2 110. Rd4 h3 111. Kh2 Ne1 112. Re4+ Kf2 113. Rb4 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 5 - Match 31"]
+[White "Houdini 6.03"]
+[Black "LCZero v20.1-32742"]
+[Site "http://tcec.chessdom.com"]
+[Round "1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.02.03"]
+[WhiteElo "3495"]
+[BlackElo "3404"]
+[PlyCount "172"]
+[TimeControl "1800+5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. Bd3 Bxd3 9. Qxd3 Ngf6 10. Bf4 Qa5+ 11. Bd2 Qc7 12. c4 e6 13. 0-0 Be7 14. Rfe1 Rd8 15. b4 0-0 16. Qc2 Rfe8 17. c5 Ng4 18. Rab1 Ndf6 19. Nf1 Rd5 20. a4 a6 21. Rb3 Bd8 22. Bc1 Qd7 23. Bb2 Bc7 24. Re2 h5 25. Ba1 Nh7 26. Bc3 Nf8 27. Bb2 Ng6 28. g3 Rd8 29. Ng5 Nf8 30. Ne3 Nxe3 31. Rexe3 Ra8 32. Re1 Bd8 33. Ne4 Nh7 34. Nd2 Nf6 35. Nc4 Ng4 36. f3 Nh6 37. Ne3 Qc7 38. f4 Rd7 39. Nc4 Bf6 40. Nb6 Rad8 41. Nxd7 Rxd7 42. Kg2 Rd5 43. Rd1 Nf5 44. Rbd3 g6 45. Kg1 Qd7 46. Qf2 Kh7 47. Qe2 Qd8 48. Qd2 Qd7 49. Qf2 Qd8 50. Bc3 Qd7 51. Qf3 Qd8 52. Kf2 Bh8 53. Qe4 Bf6 54. Kg2 Bh8 55. Qe2 Bxd4 56. Bxd4 Nxd4 57. Qe4 Nf5 58. Qe2 a5 59. b5 Qf6 60. Rxd5 exd5 61. Qe8 Qb2+ 62. Kh3 Nh6 63. f5 gxf5 64. bxc6 bxc6 65. Re1 Qa3 66. Re7 Kg7 67. Re1 Kh7 68. Qe5 Qxc5 69. Qf4 Qc2 70. Re8 Qd3 71. Rh8+ Kxh8 72. Qxh6+ Kg8 73. Qg5+ Kf8 74. Qd8+ Kg7 75. Qg5+ Kf8 76. Qd8+ Kg7 77. Qg5+ Kh8 78. Qxh5+ Kg8 79. Qg5+ Kf8 80. Qd8+ Kg7 81. Qg5+ Kh7 82. Qh5+ Kg8 83. Qg5+ Kf8 84. Qd8+ Kg7 85. Qg5+ Kh8 86. Qh5+ Kg7 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 5 - Match 31"]
+[White "LCZero v20.1-32742"]
+[Black "Houdini 6.03"]
+[Site "http://tcec.chessdom.com"]
+[Round "1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.02.03"]
+[WhiteElo "3404"]
+[BlackElo "3495"]
+[PlyCount "210"]
+[TimeControl "1800+5"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. Bd3 Bxd3 9. Qxd3 Ngf6 10. Bf4 Qa5+ 11. Bd2 Qc7 12. Ne4 e6 13. 0-0-0 Rd8 14. Rhg1 Ng4 15. Qe2 Be7 16. g3 0-0 17. Bf4 Qb6 18. c3 Qa5 19. Kb1 Qf5 20. Ka1 Ndf6 21. Nxf6+ Nxf6 22. Ne5 Qe4 23. Qxe4 Nxe4 24. Nd3 b5 25. Kb1 Nf6 26. Kc2 Nd5 27. Bd2 a5 28. a4 bxa4 29. Rge1 Nb6 30. Ne5 Bf6 31. Re4 Bxe5 32. dxe5 Rd5 33. Be3 Rb8 34. Bxb6 a3 35. Ree1 Rxb6 36. bxa3 Kh7 37. c4 Rxd1 38. Rxd1 Kg6 39. Kc3 a4 40. Kd4 Rb3 41. Kc5 Rxa3 42. Kxc6 Rf3 43. Rd2 a3 44. c5 Rb3 45. Rd4 a2 46. Ra4 Rb2 47. f4 h5 48. Ra5 Rc2 49. Kb6 Kf5 50. c6 Rb2+ 51. Ka7 Rh2 52. Kb7 Rc2 53. c7 Rb2+ 54. Kc8 Rg2 55. Ra8 Kg4 56. Kb7 Rb2+ 57. Kc6 Rc2+ 58. Kd6 Rd2+ 59. Kc6 Rc2+ 60. Kd7 Rd2+ 61. Ke7 Rc2 62. Kd8 Rd2+ 63. Ke8 Rc2 64. Kd7 Rd2+ 65. Ke8 Rc2 66. Kxf7 Kf5 67. Rxa2 Rxc7+ 68. Kf8 Rc3 69. Rg2 g6 70. Ke7 Ra3 71. Kf8 Re3 72. Rg1 Rc3 73. Ke7 Ra3 74. Kf8 Ra7 75. Rb1 Ra3 76. Rg1 Rc3 77. Ke7 Ra3 78. Rg2 Ra7+ 79. Kd6 Ra6+ 80. Kc7 Ra7+ 81. Kc6 Ra3 82. Kd7 Ra7+ 83. Kc6 Ra3 84. Kd6 Rd3+ 85. Ke7 Ra3 86. Kf8 Re3 87. Kg8 Rc3 88. Kg7 Rc7+ 89. Kh6 Rc3 90. Kh7 Rc7+ 91. Kh6 Rc3 92. Rg1 Ra3 93. Kh7 Rc3 94. Kg7 Rc7+ 95. Kh6 Ra7 96. Rg2 Ra8 97. Kh7 Ra7+ 98. Kh6 Ra3 99. Rg1 Ra7 100. Rd1 Ra3 101. Rd7 Rxg3 102. Rf7+ Ke4 103. Rf6 Rg4 104. Rxg6 Rxh4 105. Rxe6 Rxf4 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 5 - Match 31"]
+[White "Houdini 6.03"]
+[Black "LCZero v20.1-32742"]
+[Site "http://tcec.chessdom.com"]
+[Round "1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.02.03"]
+[WhiteElo "3495"]
+[BlackElo "3404"]
+[PlyCount "95"]
+[TimeControl "1800+5"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nc3 dxc4 5. a4 Bb4 6. e3 b5 7. Bd2 a5 8. axb5 Bxc3 9. Bxc3 cxb5 10. b3 Bb7 11. bxc4 b4 12. Bb2 Nf6 13. Bd3 0-0 14. 0-0 Nbd7 15. Nd2 Nc5 16. Bc2 Nce4 17. f3 Nxd2 18. Qxd2 Qc7 19. Rfc1 Rfc8 20. Bb3 Bc6 21. d5 Qd8 22. e4 a4 23. Bc2 b3 24. Bd3 Be8 25. Qe3 Ra5 26. Ba3 Qc7 27. d6 Qb8 28. Rc3 Nd7 29. c5 Nxc5 30. Rxc5 Rcxc5 31. Bxc5 b2 32. Rb1 a3 33. Bc4 a2 34. Bxa2 Rxa2 35. Qc3 f6 36. h4 Qc8 37. Kh2 Bd7 38. Kg3 h6 39. e5 fxe5 40. Bb4 e4 41. Rxb2 Rxb2 42. Qxb2 exf3 43. gxf3 Qe8 44. Bc3 Qg6+ 45. Kf2 Bc6 46. Qe2 Qf5 47. Qe3 Qc2+ 48. Kg3 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 5 - Match 31"]
+[White "LCZero v20.1-32742"]
+[Black "Houdini 6.03"]
+[Site "http://tcec.chessdom.com"]
+[Round "1"]
+[Annotator ""]
+[Result "1-0"]
+[Date "2019.02.03"]
+[WhiteElo "3404"]
+[BlackElo "3495"]
+[PlyCount "122"]
+[TimeControl "1800+5"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nc3 dxc4 5. a4 Bb4 6. e3 b5 7. Bd2 a5 8. axb5 Bxc3 9. Bxc3 cxb5 10. b3 Bb7 11. Bb2 Nf6 12. bxc4 b4 13. Bd3 0-0 14. 0-0 Nbd7 15. Nd2 Qc7 16. Bc2 h6 17. Re1 Rfe8 18. h3 e5 19. d5 Nb6 20. e4 Rec8 21. Rc1 Nfd7 22. Re3 a4 23. Rg3 g6 24. Qh5 Kh7 25. Qf3 f6 26. h4 Qd6 27. h5 g5 28. Qf5+ Kh8 29. f4 a3 30. Ba1 Qe7 31. fxe5 Nxe5 32. Bb3 Nbd7 33. Nf3 Qh7 34. Qh3 Rf8 35. Nxe5 Nxe5 36. Re3 Ba6 37. Qg3 Rae8 38. Bd4 Qg7 39. Bc5 Rb8 40. Bd6 Rfd8 41. Bxb8 Rxb8 42. Ree1 Qd7 43. Red1 Kg7 44. c5 Bb5 45. Qe3 Ng4 46. Qh3 Ra8 47. Re1 Rf8 48. Bd1 Ne5 49. Qxd7+ Bxd7 50. Re3 Rc8 51. c6 Be8 52. Rb1 Nc4 53. Rd3 Nb2 54. Rb3 a2 55. R3xb2 axb1=B 56. Rxb1 b3 57. Bg4 Rxc6 58. dxc6 Bxc6 59. Rxb3 Kf7 60. Bf5 Ke7 61. Kf2 Be8 1-0
