@@ -1,0 +1,120 @@
+[Event "TCEC Cup 2 - Round 3 - Match 27"]
+[White "Andscacs 095045"]
+[Black "LCZero v20.1-32742"]
+[Site "http://tcec.chessdom.com"]
+[Round "1.1"]
+[Annotator ""]
+[Result "0-1"]
+[Date "2019.01.31"]
+[WhiteElo "3372"]
+[BlackElo "3404"]
+[PlyCount "212"]
+[TimeControl "1800+5"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 0-0 6. Nf3 h6 7. Bf4 c5 8. dxc5 Bxc5 9. a3 Nc6 10. Qc2 Qa5 11. Rd1 Re8 12. Bg3 Ne4 13. Bd3 Nxc3 14. bxc3 dxc4 15. Bxc4 Qxa3 16. 0-0 Bf8 17. Bd3 Qe7 18. Bh7+ Kh8 19. Be4 e5 20. Rd2 a5 21. Ra1 Qc7 22. Qd1 f6 23. Nd4 Rd8 24. Qh5 Nxd4 25. cxd4 Be6 26. Rc2 Qf7 27. Qxf7 Bxf7 28. Bxb7 Ra7 29. Bf3 a4 30. dxe5 Re8 31. exf6 gxf6 32. Rc6 Kg7 33. Bd6 a3 34. Bxf8+ Rxf8 35. Rb6 Rd8 36. g4 Rd3 37. Kf1 a2 38. Ke1 Rb3 39. Rxb3 Bxb3 40. Kd2 Bf7 41. Be4 Ra4 42. Bf5 Ra5 43. Kc3 h5 44. h3 Rb5 45. Bd3 Rb3+ 46. Kc2 h4 47. Bf5 Rb6 48. Rf1 Kf8 49. Ra1 Ke7 50. Kc3 Kd6 51. Bc2 Kc5 52. Rd1 Bd5 53. Ra1 Rb5 54. Rg1 Rb7 55. Rc1 Rb8 56. Rg1 Rb5 57. Rc1 Rb7 58. Rg1 Rb8 59. Rc1 Rb7 60. Rg1 Rb6 61. Ra1 Bg8 62. Re1 Be6 63. Rd1 Rb8 64. Ra1 Bg8 65. Rd1 Rb6 66. Re1 Kd6 67. Rd1+ Ke7 68. Ra1 Bd5 69. e4 Rc6+ 70. Kb2 Rb6+ 71. Kc3 Bg8 72. f4 Rb8 73. Rd1 Be6 74. Ra1 Bf7 75. Rd1 Bg8 76. Ra1 Kd7 77. Kd4 Ke7 78. Kc3 Be6 79. f5 Bf7 80. g5 fxg5 81. e5 Bd5 82. Kd4 Rd8 83. Be4 Bg8+ 84. Kc3 Rc8+ 85. Kd4 Bb3 86. Bd3 Kf8 87. Bf1 Rc7 88. Bd3 Ra7 89. Be4 Ra4+ 90. Kd3 Rb4 91. Ke3 Kf7 92. Rc1 Ke8 93. Rc8+ Kd7 94. Rc1 Ke7 95. Ra1 Kf8 96. Kd3 g4 97. Kc3 Rxe4 98. Kxb3 g3 99. Rxa2 Rxe5 100. Kc4 Rxf5 101. Kd3 Rf1 102. Ke4 Ke7 103. Ra7+ Kd6 104. Ra2 Rh1 105. Rd2+ Ke6 106. Kf3 Rxh3 0-1
+
+[Event "TCEC Cup 2 - Round 3 - Match 27"]
+[White "LCZero v20.1-32742"]
+[Black "Andscacs 095045"]
+[Site "http://tcec.chessdom.com"]
+[Round "2.1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.01.31"]
+[WhiteElo "3404"]
+[BlackElo "3372"]
+[PlyCount "206"]
+[TimeControl "1800+5"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 0-0 6. Nf3 h6 7. Bh4 b6 8. Be2 Bb7 9. Bxf6 Bxf6 10. cxd5 exd5 11. 0-0 Re8 12. Rc1 c6 13. b4 Qd6 14. Rb1 Nd7 15. Bd3 a5 16. a3 axb4 17. axb4 Ra3 18. Qd2 Qf8 19. Bf5 Re7 20. h4 g6 21. Bc2 h5 22. Bb3 b5 23. e4 dxe4 24. Ng5 Bxg5 25. hxg5 Kh7 26. Qe3 f5 27. Ne2 Nb6 28. Bg8+ Kxg8 29. Qxa3 f4 30. f3 e3 31. Rfc1 h4 32. Qd3 Kh7 33. Rc5 Nd7 34. Rcc1 Nb6 35. Ra1 h3 36. Rc5 Nd5 37. Nc3 Nxb4 38. Qb1 Na6 39. Rxa6 Bxa6 40. Rxc6 Qf5 41. Qxf5 gxf5 42. Rh6+ Kg7 43. Rxa6 e2 44. Nxe2 Rxe2 45. gxh3 Rd2 46. h4 Rxd4 47. h5 Rd1+ 48. Kh2 Rd2+ 49. Kh1 Rd1+ 50. Kg2 Rd2+ 51. Kh3 Rd1 52. Ra7+ Kg8 53. Kh2 Rd2+ 54. Kh1 Rd1+ 55. Kg2 Rd2+ 56. Kh1 Rd1+ 57. Kg2 Rd2+ 58. Kg1 Rd1+ 59. Kh2 Rd2+ 60. Kh3 Rd1 61. Ra8+ Kg7 62. Kh2 Rd2+ 63. Kg1 Rd1+ 64. Kg2 Rd2+ 65. Kh1 Rd1+ 66. Kg2 Rd2+ 67. Kg1 Rd1+ 68. Kh2 Rd2+ 69. Kh3 Rd1 70. h6+ Kg6 71. Rg8+ Kh7 72. Rg7+ Kh8 73. Kg2 Rd2+ 74. Kh3 Rd1 75. Rf7 Rh1+ 76. Kg2 Rh4 77. Kf1 b4 78. Ke2 b3 79. Kd3 Rh2 80. Rf8+ Kh7 81. Rf7+ Kh8 82. Rf8+ Kh7 83. Rxf5 Kg6 84. Rb5 b2 85. Ke4 b1=Q+ 86. Rxb1 Kxg5 87. Rb6 Re2+ 88. Kd5 Re7 89. Rd6 Ra7 90. Re6 Ra5+ 91. Ke4 Ra4+ 92. Ke5 Ra5+ 93. Kd4 Ra4+ 94. Ke5 Ra5+ 95. Kd4 Ra4+ 96. Kc5 Ra7 97. Kd6 Ra6+ 98. Kd5 Ra5+ 99. Kc4 Ra4+ 100. Kc5 Ra7 101. Kd6 Ra6+ 102. Kd7 Ra3 103. Ke8 Rxf3 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 3 - Match 27"]
+[White "Andscacs 095045"]
+[Black "LCZero v20.1-32742"]
+[Site "http://tcec.chessdom.com"]
+[Round "3.1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.01.31"]
+[WhiteElo "3372"]
+[BlackElo "3404"]
+[PlyCount "70"]
+[TimeControl "1800+5"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Nb3 Nbd7 9. Qe2 Qc7 10. 0-0-0 b5 11. a3 Rb8 12. Kb1 Be7 13. g4 b4 14. axb4 Rxb4 15. Bh4 Nc5 16. e5 dxe5 17. fxe5 Nfd7 18. Bxe7 Kxe7 19. Qd2 Nxb3 20. cxb3 Rxb3 21. Rc1 Qxe5 22. Bc4 Rb8 23. Rhf1 Re8 24. Rce1 Qc5 25. Ba2 Bb7 26. Rf5 Qb6 27. Na4 Qc7 28. Qg5+ Kf8 29. Bxe6 Nf6 30. Rxf6 gxf6 31. Qxf6 Kg8 32. Qg5+ Kh8 33. Qf6+ Kg8 34. Qg5+ Kh8 35. Qf6+ Kg8 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 3 - Match 27"]
+[White "LCZero v20.1-32742"]
+[Black "Andscacs 095045"]
+[Site "http://tcec.chessdom.com"]
+[Round "4.1"]
+[Annotator ""]
+[Result "1-0"]
+[Date "2019.01.31"]
+[WhiteElo "3404"]
+[BlackElo "3372"]
+[PlyCount "143"]
+[TimeControl "1800+5"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f3 Be7 8. Qd2 0-0 9. 0-0-0 b5 10. h4 Bb7 11. Kb1 Nbd7 12. a3 Rc8 13. g4 d5 14. Bxf6 Nxf6 15. g5 Nh5 16. Bh3 b4 17. Nxd5 exd5 18. Bxc8 Qxc8 19. Nf5 Bc5 20. axb4 dxe4 21. Nh6+ gxh6 22. bxc5 Qxc5 23. gxh6 e3 24. Qg2+ Kh8 25. Rhe1 Qe5 26. Qe2 Ng3 27. Qxe3 Qxe3 28. Rxe3 Nf5 29. Rb3 Bc8 30. Rb8 Rg8 31. Rd5 Nxh6 32. Rg5 Be6 33. Rgxg8+ Nxg8 34. Rb6 Ne7 35. Rxa6 Kg7 36. Ra7 Kf6 37. b4 Nd5 38. Rb7 Ke5 39. Kc1 Kd4 40. Kd2 Nc3 41. Rc7 Nb1+ 42. Kc1 Nc3 43. Rc6 h5 44. Kd2 Nb1+ 45. Ke2 Nc3+ 46. Kf2 Bf5 47. Rf6 Bg6 48. Rf4+ Kd5 49. Ke1 Na4 50. Ke2 Nc3+ 51. Ke1 Na4 52. Kd2 Nb6 53. c3 Nc4+ 54. Ke1 Ne5 55. Ke2 Bd3+ 56. Kf2 Ke6 57. Rd4 Bb5 58. Rd8 Ng6 59. Rb8 Bd7 60. Kg3 Ne7 61. Kf4 Nd5+ 62. Kg5 Nxc3 63. Kxh5 Ne2 64. Kg5 f6+ 65. Kg6 Nf4+ 66. Kh6 Ba4 67. b5 Bb3 68. Rc8 Bd5 69. b6 Bxf3 70. Rc7 f5 71. b7 Bxb7 72. Rxb7 1-0
+
+[Event "TCEC Cup 2 - Round 3 - Match 27"]
+[White "Andscacs 095045"]
+[Black "LCZero v20.1-32742"]
+[Site "http://tcec.chessdom.com"]
+[Round "5.1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.01.31"]
+[WhiteElo "3372"]
+[BlackElo "3404"]
+[PlyCount "92"]
+[TimeControl "1800+5"]
+
+1. d4 d5 2. c4 dxc4 3. e3 Nf6 4. Bxc4 e6 5. Nf3 c5 6. 0-0 a6 7. dxc5 Bxc5 8. Qxd8+ Kxd8 9. Nbd2 Ke7 10. b3 Nbd7 11. Be2 b6 12. Ne1 a5 13. Bb2 Rd8 14. Rc1 Kf8 15. Bf3 Nd5 16. Nd3 Ba6 17. Nc4 Be7 18. Rfd1 Rac8 19. Nde5 Nxe5 20. Nxe5 Rxc1 21. Rxc1 Nb4 22. a3 Nd3 23. Nxd3 Bxd3 24. a4 Bc5 25. Rd1 Be7 26. Bd4 Bc2 27. Rc1 Bxb3 28. Bxb6 Re8 29. Bxa5 Bxa4 30. Bc7 Bb5 31. g4 h6 32. Kg2 Kg8 33. Bb7 Bf6 34. h3 Bd3 35. f4 Re7 36. Kf3 Rd7 37. Be4 Bxe4+ 38. Kxe4 Rd2 39. f5 exf5+ 40. Kxf5 Ra2 41. Bg3 Ra4 42. Rc8+ Kh7 43. Rc7 Kg8 44. Rc8+ Kh7 45. Rc7 Ra3 46. Ke4 Kg8 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 3 - Match 27"]
+[White "LCZero v20.1-32742"]
+[Black "Andscacs 095045"]
+[Site "http://tcec.chessdom.com"]
+[Round "6.1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.01.31"]
+[WhiteElo "3404"]
+[BlackElo "3372"]
+[PlyCount "251"]
+[TimeControl "1800+5"]
+
+1. d4 d5 2. c4 dxc4 3. e3 Nf6 4. Bxc4 e6 5. Nf3 c5 6. 0-0 a6 7. Be2 cxd4 8. Nxd4 Bd6 9. Nd2 0-0 10. b3 e5 11. N4f3 e4 12. Nd4 Qc7 13. h3 Nc6 14. Nxc6 Qxc6 15. Bb2 Bb8 16. Re1 Qc7 17. Nf1 Qc5 18. Bxf6 gxf6 19. Rc1 Qg5 20. Qd4 Qg6 21. Nd2 f5 22. Red1 Be6 23. Bc4 Ba7 24. Qe5 Rae8 25. Bxe6 fxe6 26. Nf1 Bb8 27. Qa5 Qg7 28. b4 h5 29. b5 axb5 30. Qxb5 Re7 31. h4 Be5 32. g3 Kh7 33. Rd2 Bf6 34. Kh2 Rg8 35. Rcd1 Qf7 36. Rd8 Rxd8 37. Rxd8 Rc7 38. Rd6 Kg6 39. a4 Be7 40. Rd7 Rxd7 41. Qxd7 Bb4 42. Qc8 Kh7 43. Kh1 Qe7 44. Kg2 Kg7 45. Qc2 Qd6 46. Qc8 Qe7 47. Qc2 Qd6 48. Qb2+ Kg6 49. Qb3 Kf7 50. Qb2 Kg6 51. Kg1 Qc5 52. Qh8 Qf8 53. Qd4 Qd6 54. Qc4 b6 55. Qb5 Kf7 56. Qe2 Kg6 57. Qa6 Qd8 58. Qc4 Qd6 59. Kg2 Be1 60. Qa2 Bc3 61. Qc2 Qc5 62. Qb3 Qc6 63. Qa3 Qc5 64. Qa2 Qd6 65. Qc4 Be1 66. Qc1 Bb4 67. Qc8 Kf7 68. Qb7+ Kg8 69. Qa6 Kf7 70. Qa7+ Kg8 71. Qa8+ Kf7 72. Qa7+ Kg8 73. Qb7 Qd8 74. Qa6 Kf7 75. Qe2 Kg6 76. Qc4 Qd6 77. Qc8 Kf7 78. Qb7+ Kg8 79. Qa7 Qd8 80. Qa6 Kf7 81. Qe2 Kg6 82. Qc4 Qd6 83. Kg1 Kf7 84. Qe2 Kg6 85. Qa6 Qd8 86. Qb5 Ba5 87. Kg2 Be1 88. Qb1 Ba5 89. Qb5 Be1 90. Qc6 Kf7 91. Qc2 Ba5 92. Qe2 Kg6 93. Qc4 Qd7 94. g4 hxg4 95. Ng3 Be1 96. Qb3 Qd6 97. Qc4 Qd7 98. Ne2 Kg7 99. h5 Kh7 100. Qa6 Ba5 101. Ng3 Kg7 102. Ne2 Kh7 103. Ng3 Kg7 104. Qc4 Be1 105. Ne2 Kh7 106. Qc2 g3 107. Nxg3 Bb4 108. Qb3 Bc5 109. Ne2 Qg7+ 110. Kf1 Qa1+ 111. Kg2 Qg7+ 112. Ng3 Qd7 113. Kh2 Qe8 114. Kh3 Qf7 115. Qb5 Bd6 116. Qxb6 Bxg3 117. Kxg3 Qxh5 118. Kg2 Qf3+ 119. Kg1 Qd1+ 120. Kh2 Qh5+ 121. Kg1 Qd1+ 122. Kh2 Qh5+ 123. Kg2 Qf3+ 124. Kf1 Qd1+ 125. Kg2 Qg4+ 126. Kh1 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 3 - Match 27"]
+[White "Andscacs 095045"]
+[Black "LCZero v20.1-32742"]
+[Site "http://tcec.chessdom.com"]
+[Round "7.1"]
+[Annotator ""]
+[Result "1/2-1/2"]
+[Date "2019.02.01"]
+[WhiteElo "3372"]
+[BlackElo "3404"]
+[PlyCount "74"]
+[TimeControl "1800+5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. 0-0 Nd7 7. Re1 Bg6 8. a4 a5 9. c3 Nf5 10. Nbd2 Be7 11. g4 Nh4 12. Nxh4 Bxh4 13. Rf1 h5 14. gxh5 Qg5+ 15. Kh1 Bxh5 16. Nc4 Qg6 17. Nd6+ Kf8 18. Rg1 Bxe2 19. Qxe2 Qh5 20. f3 b6 21. Bd2 Rh7 22. c4 c5 23. Bc3 cxd4 24. Bxd4 Be7 25. cxd5 Bxd6 26. exd6 Qxd5 27. Rad1 Qc6 28. Rg4 Rc8 29. Rxg7 Rxg7 30. Bxg7+ Kxg7 31. Qg2+ Kf6 32. h4 e5 33. Qg5+ Ke6 34. Qe7+ Kf5 35. Qg5+ Ke6 36. Qe7+ Kf5 37. Qg5+ Ke6 1/2-1/2
+
+[Event "TCEC Cup 2 - Round 3 - Match 27"]
+[White "LCZero v20.1-32742"]
+[Black "Andscacs 095045"]
+[Site "http://tcec.chessdom.com"]
+[Round "8.1"]
+[Annotator ""]
+[Result "1-0"]
+[Date "2019.02.01"]
+[WhiteElo "3404"]
+[BlackElo "3372"]
+[PlyCount "256"]
+[TimeControl "1800+5"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. 0-0 Nd7 7. c3 Bg6 8. Nh4 c5 9. Nxg6 hxg6 10. Nd2 Nc6 11. Nf3 Be7 12. g3 g5 13. Kg2 Qb6 14. h3 f6 15. b4 cxb4 16. Rb1 a5 17. exf6 gxf6 18. a3 Qc7 19. cxb4 axb4 20. axb4 Bxb4 21. Qc2 Kd8 22. Rb3 Kc8 23. Qg6 Bd6 24. Re3 g4 25. hxg4 e5 26. dxe5 fxe5 27. Ng5 Nd8 28. Bb5 Ra5 29. Rb3 Nc5 30. Ra3 Rxa3 31. Bxa3 Kb8 32. Rd1 d4 33. Rc1 Qe7 34. Bxc5 Bxc5 35. Ne4 Bb4 36. Rb1 Ba5 37. g5 Ka7 38. Qf5 Rf8 39. Qg4 Rf7 40. Bd3 Qd7 41. Qxd7 Rxd7 42. Ra1 b6 43. Kh3 Nc6 44. Kg4 Rc7 45. Bb5 Ne7 46. Bd3 Nc6 47. Kf5 Kb8 48. Rd1 Bb4 49. Rb1 Bf8 50. Rxb6+ Ka7 51. Rb1 Nb4 52. Bf1 Rd7 53. Bb5 Rb7 54. Bc4 d3 55. Rd1 Rd7 56. Kxe5 Kb8 57. Kf5 Rd4 58. Bb3 Nc6 59. Kf4 Rd8 60. Ke3 Nd4 61. Rxd3 Nf5+ 62. Kd2 Nd4 63. Bc4 Bg7 64. Kd1 Bh8 65. f4 Kc7 66. Kd2 Kb6 67. Ke3 Nc2+ 68. Kf2 Nd4 69. Rd1 Kc6 70. Rc1 Kb6 71. Rb1+ Kc6 72. Bd3 Ra8 73. Kg2 Bg7 74. Rc1+ Kb6 75. Rb1+ Kc6 76. g6 Ra7 77. Rc1+ Kd7 78. Kh3 Ke7 79. Kg4 Ne6 80. Re1 Nf8 81. Ng5+ Kd6 82. Rf1 Nd7 83. Nf7+ Kc5 84. Ng5 Kd6 85. Nh7 Nc5 86. Bb1 Ra4 87. Ng5 Ra7 88. Rg1 Nd7 89. Nf7+ Kc5 90. Rc1+ Kd5 91. Ng5 Kd6 92. Nh7 Ra1 93. Rd1+ Kc7 94. Rf1 Bh8 95. Ng5 Ra8 96. Nf7 Bb2 97. Rf2 Bg7 98. Rc2+ Kb6 99. Rc1 Nf6+ 100. Kh3 Rg8 101. Rc2 Ra8 102. Rb2+ Kc6 103. Re2 Rb8 104. Ba2 Ra8 105. Bb3 Kc5 106. Bc2 Nd5 107. Ng5 Ba1 108. Ne4+ Kc4 109. Kg4 Bg7 110. f5 Rf8 111. Ng5 Bh6 112. Nh7 Rh8 113. Rh2 Bg7 114. Kg5 Be5 115. Re2 Bg7 116. Bb1 Nc3 117. Re1 Bd4 118. Bc2 Nb5 119. Bd1 Kd3 120. f6 Ra8 121. g7 Rg8 122. Nf8 Nc3 123. Ne6 Bf2 124. Rf1 Ne4+ 125. Kg6 Nxf6 126. Rxf2 Ne4 127. Rf1 Nc3 128. Nf8 Kd2 1-0
+
