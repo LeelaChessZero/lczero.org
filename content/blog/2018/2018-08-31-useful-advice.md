@@ -10,6 +10,8 @@ draft = true
 It's not completely relevant to Lc0, but many people who follow CCCC wonder
 how to disable sound.
 
+<!--more-->
+
 If you use Chrome browser, you can mute the tab by right's clicking tab's
 header and choosing "mute site" from there. :)  
 The same also works for Firefox.  
