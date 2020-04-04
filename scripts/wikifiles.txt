@@ -31,6 +31,7 @@ Script-for-testing-new-nets-versus-old-nets-on-Google-Colab
 TCEC
 TCEC-S13-Issues
 Technical-Explanation-of-Leela-Chess-Zero
+Testing-guide
 Third-Party-Nets
 Training-runs
 Ubuntu-16.04-LC0-Instructions
