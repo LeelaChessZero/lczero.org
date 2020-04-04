@@ -5,7 +5,6 @@ published = 2018-08-30T20:34:00+02:00
 author = "crem"
 tags = []
 draft = true
-summary = "As it was planned, we concluded our test10 run, and now it is time for another one."
 +++
 
 ## Update
@@ -18,6 +17,8 @@ example, it's expected that MSE loss would suddenly drop, but it didn't.
 Actually, it jumped up instead, can be
 followed [here](http://testtraining.lczero.org/))_. Something is wrong with the
 training, and we are investigating.
+
+<!--more-->
 
 The original plan for that unplanned case was to **revert** to **test10** and
 do further investigations in background while keeping training test10.
