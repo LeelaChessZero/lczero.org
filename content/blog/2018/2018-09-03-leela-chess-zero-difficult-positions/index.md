@@ -7,8 +7,6 @@ tags = []
 draft = true
 +++
 
-![]({{< file "gjhbn6868.png" >}})
-
 Traditional Chess engines with classic Alpha-Beta search, sometimes have huge
 problems with some positions that require deep planning and understanding of
 the position. This is because they try to search all possible moves in a

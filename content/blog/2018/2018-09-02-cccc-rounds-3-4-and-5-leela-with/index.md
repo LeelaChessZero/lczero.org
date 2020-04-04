@@ -12,8 +12,6 @@ draft = true
 CCCC rounds 3 and 4 and 5 were finished. Houdini is on the lead with 5.0/5
 while Leela is doing well with 4.0/5.
 
-<!--more-->
-
  **In round 3** Leela with black against Fizbo, reached a material imbalanced
 position but with her King exposed she couldn't avoid a perpetual check with a
 draw.  
@@ -441,7 +439,7 @@ So after 5 rounds we have the following standings:
 
 And next 2 rounds are:
 
-&emsp;&emsp;**ROUND 6**  
+### ROUND 6  
 61 Shredder vs Andscacs  
 62 Senpai vs Stockfish  
 63 Texel vs Pedone  
@@ -455,7 +453,7 @@ And next 2 rounds are:
 71 Fire vs Gull  
 72 Fritz vs Fizbo
 
-&emsp;&emsp;**ROUND 7**  
+### ROUND 7  
 73 Andscacs vs Senpai  
 74 Pedone vs Shredder  
 75 Stockfish vs Nirvana  
