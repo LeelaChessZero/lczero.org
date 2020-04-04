@@ -7,14 +7,14 @@ tags = []
 draft = true
 +++
 
-[ ![](../../images/2018-09-03-cccc-
-rounds-67-and-8-gjgj98789798799999.png)](https://www.chess.com/computer-chess-
-championship)
+[![]({{< file "gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 The Chess.com computer Chess championship continued with most top engines
 winning their games so little things changed in the top positions.  
 Leela had a good performance winning 2 games and drawing the 3rd against the
 mighty Stockfish! It was a boring draw though, with no big fights whatsoever.
+
+<!--more-->
 
  **ROUND 6**
 
@@ -488,7 +488,7 @@ Standings so far after and the Andscacs-Nirvana 1-0 game of round 9:
 
 Next rounds are:
 
- **ROUND 9**  
+&emsp;&emsp;**ROUND 9**  
 97 Andscacs vs Nirvana 1-0  
 98 Nemorino vs Pedone  
 99 Senpai vs **Lco**  
@@ -502,7 +502,7 @@ Next rounds are:
 107 Booot vs Fire  
 108 Ethereal vs Crafty
 
- **ROUND 10**  
+&emsp;&emsp;**ROUND 10**  
 109 Nemorino vs Andscacs  
 110 **Lco** vs Nirvana  
 111 Pedone vs Laser  

@@ -7,8 +7,7 @@ tags = []
 draft = true
 +++
 
-[![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-gjhbn6868.png)
+![]({{< file "gjhbn6868.png" >}})
 
 Traditional Chess engines with classic Alpha-Beta search, sometimes have huge
 problems with some positions that require deep planning and understanding of
@@ -21,6 +20,8 @@ be a very good one. Traditional engines also have a handcrafted evaluation
 function. That means in order to judge a position they have to rely on human
 rules for it, e.g bonus for Rook on open file, bonus if a Pawn is on 6th rank
 etc, etc.
+
+<!--more-->
 
 Neural net engines with latest advances Deepmind brought with deep learning
 techniques used to train convolutional neutral networks, like Leela, on the
@@ -46,8 +47,7 @@ immediate tactics, then Leela usually shines!
 
 White to play.
 
-[![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-popki7671.png)
+![]({{< file "popki7671.png" >}})
 
 White has created a nice concentration of its pieces in the Kingside but has
 many problems to solve, especially with Bxa3 pending that will destroy white's
@@ -142,8 +142,7 @@ _**Test position 2.**_
 
 White to play.
 
-[![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-hkjhkj72.png)
+![]({{< file "hkjhkj72.png" >}})
 
 This is a position that results in one of the variations of the previous
 position 1. White is a Queen down. Yet it is winning and has a forced
@@ -158,8 +157,7 @@ Leela again finds it immediately with a winning score!
 
 White to play.
 
-[![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-hkjhkj89793.png)
+![]({{< file "hkjhkj89793.png" >}})
 
 Here we have a classic anticomputer position where traditional engines have
 many problems to see that the only way for white to win is by playing
@@ -200,8 +198,7 @@ Kd7-e8 Ra2-a6 Nf6-d7 Ra6-h6
 
 Black to play.
 
-[![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-ggj6876874.png)
+![]({{< file "ggj6876874.png" >}})
 
 Here is a position from a real game where Leela as black has played **g5!!** A
 very deep positional move, trying to trap the Bishop.  
@@ -220,8 +217,7 @@ _**Test position 5.**_
 
 White to play.
 
-[![](../../images/2018-09-03-leela-chess-zero-difficult-positions-
-hkhkj79879795.png)
+![]({{< file "hkhkj79879795.png" >}})
 
 In this again anticomputer position white has to immediately play **Bxb5!!**
 in order to win.  
