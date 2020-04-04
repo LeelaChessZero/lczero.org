@@ -43,7 +43,7 @@ Nirvana meet.
 
 The schedule of the first 3 rounds is:
 
-&emsp;&emsp;**ROUND 1**  
+### ROUND 1  
 1 Andscacs vs Xiphos  
 2 Wasp vs Arasan  
 3 Booot vs Vajolet  
@@ -57,7 +57,7 @@ The schedule of the first 3 rounds is:
 11 Ivanhoe vs **Lco**  
 12 Laser vs Komodo
 
-&emsp;&emsp;**ROUND 2**  
+### ROUND 2  
 13 Wasp vs Andscacs  
 14 Vajolet vs Xiphos  
 15 Arasan vs Texel  
@@ -71,7 +71,7 @@ The schedule of the first 3 rounds is:
 23 Houdini vs Laser  
 24 Komodo vs Ivanhoe
 
-&emsp;&emsp;**ROUND 3**  
+### ROUND 3  
 25 Andscacs vs Vajolet  
 26 Texel vs Wasp  
 27 Xiphos vs Stockfish  

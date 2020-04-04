@@ -7,16 +7,14 @@ tags = []
 draft = true
 +++
 
-[ ![](../../images/2018-09-03-cccc-
-rounds-67-and-8-gjgj98789798799999.png)](https://www.chess.com/computer-chess-
-championship)
+[![]({{< file "gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 The Chess.com computer Chess championship continued with most top engines
 winning their games so little things changed in the top positions.  
 Leela had a good performance winning 2 games and drawing the 3rd against the
 mighty Stockfish! It was a boring draw though, with no big fights whatsoever.
 
- **ROUND 6**
+### ROUND 6
 
 Leela played a very good game against Xiphos that till now has a good
 performance. On a semi-slav a normally complicated position arose and when
@@ -129,7 +127,7 @@ Qb2+ {[%eval 5477,8] [%emt 0:00:10]} Kd1 {[%eval -32757,99] [%emt 0:00:00]}
 73. Ke3 {[%eval 7521,4] [%emt 0:00:11]} Ke1 {[%eval -32765,99] [%emt 0:00:01]}
 74. Qb1# 1-0
 
-**ROUND 7**
+### ROUND 7
 
 This time the leaders Houdini and Shredder were stopped by having a draw from
 Pedone and Booot respectively. Komodo had a draw with Xiphos also.  
@@ -222,7 +220,7 @@ Nxf1+ {[%eval 5282,7] [%emt 0:00: 02]} 59. Rxf1 {[%eval -32761,74] [%emt
 [%emt 0:00:00]} Qxf2+ {[%eval 7813,4] [%emt 0:00:05]} 61. Kh1 {[%eval
 -32763,100] [%emt 0:00:00]} Qg2# 0-1
 
-**ROUND 8**
+### ROUND 8
 
 Leela faced the strongest engine of the tournament, Stockfish, and managed
 rather very easily for both, to have a draw. Houdini and Shredder won against
@@ -488,7 +486,7 @@ Standings so far after and the Andscacs-Nirvana 1-0 game of round 9:
 
 Next rounds are:
 
- **ROUND 9**  
+### ROUND 9  
 97 Andscacs vs Nirvana 1-0  
 98 Nemorino vs Pedone  
 99 Senpai vs **Lco**  
@@ -502,7 +500,7 @@ Next rounds are:
 107 Booot vs Fire  
 108 Ethereal vs Crafty
 
- **ROUND 10**  
+### ROUND 10  
 109 Nemorino vs Andscacs  
 110 **Lco** vs Nirvana  
 111 Pedone vs Laser  

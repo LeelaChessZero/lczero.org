@@ -12,6 +12,8 @@ very high as it was expected and interesting games and positions arise.
 Shredder is on the lead now with 3 points out of 3 games but other engines can
 reach that too(Komodo, Houdini).
 
+<!--more-->
+
 First 2 rounds, were not without many adventures for Leela since in the first
 round it was winning with black against Ivanhoe, but for some reason game
 crashed. It was not because of any engine's fault. Leela was clearly winning
@@ -213,7 +215,7 @@ Games can be seen from the following site:
 
 So far we have the results:
 
-**ROUND 1**  
+### ROUND 1  
 1 Andscacs vs Xiphos 0-1  
 2 Wasp vs Arasan 0-1  
 3 Booot vs Vajolet 1/2-1/2  
@@ -227,7 +229,7 @@ So far we have the results:
 11 Ivanhoe vs **Lco** 0-1  
 12 Laser vs Komodo 0-1
 
-**ROUND 2**  
+### ROUND 2  
 13 Wasp vs Andscacs 0-1  
 14 Vajolet vs Xiphos 1-0  
 15 Arasan vs Texel 1/2-1/2  
@@ -241,7 +243,7 @@ So far we have the results:
 23 Houdini vs Laser 1-0  
 24 Komodo vs Ivanhoe 1-0
 
-**ROUND 3**  
+### ROUND 3  
 25 Andscacs vs Vajolet 1-0  
 26 Texel vs Wasp 1/2-1/2  
 27 Xiphos vs Stockfish 1/2-1/2  
@@ -284,7 +286,7 @@ So far the classification is:
 
 Next 2 rounds:
 
-**ROUND 4**  
+### ROUND 4  
 37 Texel vs Andscacs  
 38 Stockfish vs Vajolet  
 39 Wasp vs Shredder  
@@ -298,7 +300,7 @@ Next 2 rounds:
 47 Fritz vs Ivanhoe  
 48 Houdini vs Gull
 
-**ROUND 5**  
+### ROUND 5  
 49 Andscacs vs Stockfish  
 50 Shredder vs Texel  
 51 Vajolet vs Senpai  

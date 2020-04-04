@@ -7,8 +7,7 @@ tags = []
 draft = true
 +++
 
-[ ![](../../images/2018-09-02-cccc-rounds-3-4-and-5-leela-with-
-gjgj98789798799999.png)](https://www.chess.com/computer-chess-championship)
+[![]({{< file "gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 CCCC rounds 3 and 4 and 5 were finished. Houdini is on the lead with 5.0/5
 while Leela is doing well with 4.0/5.
@@ -131,6 +130,7 @@ Kd5 {[%eval 6807,4] [%emt 0:00: 11]} Kb4 {[%eval -31867,127] [%emt 0:00:00]}
 71. Qc4# 1-0
 
 You can view the nice analysis of that game by Kingscrusher here also:
+{{< youtube zMh8Q-se66Q >}}
 
  **Round 5** had some nice games and started with another small
 surprise(actually in this big hardware draws are common even against Stockfish
@@ -439,7 +439,7 @@ So after 5 rounds we have the following standings:
 
 And next 2 rounds are:
 
-**ROUND 6**  
+### ROUND 6  
 61 Shredder vs Andscacs  
 62 Senpai vs Stockfish  
 63 Texel vs Pedone  
@@ -453,7 +453,7 @@ And next 2 rounds are:
 71 Fire vs Gull  
 72 Fritz vs Fizbo
 
-**ROUND 7**  
+### ROUND 7  
 73 Andscacs vs Senpai  
 74 Pedone vs Shredder  
 75 Stockfish vs Nirvana  
