@@ -7,7 +7,12 @@ wikiname: "Testing-guide"
 So you'd like to do some engine testing with Lc0 (testing different nets, checking if your improvement increases elo, etc.). Here's how:
 
 ### Setup
-1. Install `cutechess-cli`. Repository [here](https://github.com/cutechess/cutechess). `cutechess-cli` is a tool that allows you to play games and tournaments between multiple engines. It is **highly recommended** to build from source in order to enable some openings-specific flags that are not present in the prebuilt binary releases (namely, `policy=round`, which allows multiple engines to play the same openings in one round).
+1. Install `cutechess-cli`. Repository [here](https://github.com/cutechess/cutechess). `cutechess-cli` is a tool that allows you to play games and tournaments between multiple engines. It is **highly recommended** to build from source in order to enable some openings-specific flags that are not present in the prebuilt binary releases (namely, `policy=round`, which allows multiple engines to play the same openings in one round). For Windows users, it is possible to grab the `cutechess-cli` executable from AppVeyor build artifacts [here](https://ci.appveyor.com/project/artoj/cutechess/builds/28410121/artifacts) (do **not** download from the Releases section on github). For Linux users, it is possible to compile with:
+```
+cd cutechess/projects
+qmake -after "SUBDIRS = lib cli"
+make
+```
 
 2. Install `ordo`. Repository [here](https://github.com/michiguel/Ordo). `ordo` is a tool for computing elo ratings.
 
@@ -92,7 +97,7 @@ Ok, so now that you've finally finished playing all those matches, you need to u
 
 `ordo -Q -D -a 0 -A "sf" -W -n8 -s1000 -U "0,1,2,3,4,5,6,7,8,9,10" -j h2h.txt -C matrix.csv -p games.pgn`
 
-`-a 0 -A "sf"` basically anchors all ratings relative to the player called "sf" at 0 elo, you can change the name and anchored rating of course. This should output something similar to this (3 engine example):
+`-a 0 -A "sf"` anchors all ratings relative to the player called "sf" at 0 elo; you can change the name and anchored rating here. This should output something similar to this (3 engine example):
 
 ```
    # PLAYER                 :  RATING  ERROR  POINTS  PLAYED   (%)  CFS(%)    W     D    L  D(%)
