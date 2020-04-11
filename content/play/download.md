@@ -9,8 +9,9 @@ There are several versions of the engine which use different hardware to evaluat
 
 ## Windows
 
-Every package contains both:
-* **lc0.exe** (the engine), and
+Every package contains:
+* **lc0.exe** (the engine),
+* **591226.pb.gz** (a default network file), and
 * **client.exe** (only needed if you would like to contribute training games).
 
 Pick a version of **Lc0 {{< param lc0version >}} for Windows** to download:
