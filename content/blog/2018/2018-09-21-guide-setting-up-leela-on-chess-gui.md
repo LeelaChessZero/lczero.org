@@ -4,7 +4,7 @@ slug = "guide-setting-up-leela-on-chess-gui"
 published = 2018-09-21T19:09:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-21-guide-setting-up-leela-on-chess-gui-

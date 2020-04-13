@@ -5,7 +5,7 @@ published = 2019-02-04T21:59:00+01:00
 author = "Bob23"
 tags = []
 loadChessbaseScripts = true
-draft = true
+draft = false
 +++
 
 **Leela has won the TCEC CUP-2!** After many very difficult battles and games

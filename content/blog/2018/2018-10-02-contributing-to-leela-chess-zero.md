@@ -4,7 +4,7 @@ slug = "contributing-to-leela-chess-zero"
 published = 2018-10-02T22:10:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-02-contributing-to-leela-chess-zero-

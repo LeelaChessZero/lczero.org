@@ -4,7 +4,7 @@ slug = "useful-advice"
 published = 2018-08-31T23:39:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 It's not completely relevant to Lc0, but many people who follow CCCC wonder

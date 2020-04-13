@@ -4,7 +4,7 @@ slug = "leela-versus-stockfish-in-lichess-is"
 published = 2018-12-11T19:46:00.003000+01:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-12-11-leela-versus-stockfish-in-lichess-is-

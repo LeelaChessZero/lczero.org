@@ -4,7 +4,7 @@ slug = "cccc-standings-ratings-and-statistics"
 published = 2018-09-07T00:46:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 Chess.com Computer World Championship continues with engines battling for the

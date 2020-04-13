@@ -4,7 +4,7 @@ slug = "test10-learning-rate-has-been-lowered"
 published = 2018-08-23T11:13:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 The learning rate for the **test10** training run has been lowered to 0.0002.

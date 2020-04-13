@@ -4,7 +4,7 @@ slug = "a-standard-dataset"
 published = 2018-09-12T10:04:00.002000+02:00
 author = "Error323"
 tags = []
-draft = true
+draft = false
 +++
 
 When doing machine learning it helps to use a standardized dataset such that

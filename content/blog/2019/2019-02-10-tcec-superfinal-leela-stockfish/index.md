@@ -4,7 +4,7 @@ slug = "tcec-superfinal-leela-stockfish"
 published = 2019-02-10T17:18:00+01:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 loadChessbaseScripts = true
 +++
 

@@ -4,7 +4,7 @@ slug = "lczeroorg-server-will-be-unavailable-on"
 published = 2019-03-21T10:35:00+01:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 Important!

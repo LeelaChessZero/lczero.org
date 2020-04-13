@@ -4,7 +4,7 @@ slug = "cccc-statistics"
 published = 2018-09-04T10:45:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 Some statistics about Chess.com Computer Chess Championship till now.

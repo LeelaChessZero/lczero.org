@@ -4,7 +4,7 @@ slug = "lc0-v0180-has-been-released"
 published = 2018-09-30T14:05:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 v0.18.0 is out of "release candidate" status, and now is fully released!

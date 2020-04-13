@@ -4,7 +4,7 @@ slug = "leela-chess-zero-difficult-positions"
 published = 2018-09-03T15:44:00.004000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 Traditional Chess engines with classic Alpha-Beta search, sometimes have huge

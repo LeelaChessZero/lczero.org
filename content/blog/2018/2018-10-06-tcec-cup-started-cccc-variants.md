@@ -4,7 +4,7 @@ slug = "tcec-cup-started-cccc-variants"
 published = 2018-10-06T13:09:00.004000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-06-tcec-cup-started-cccc-variants-

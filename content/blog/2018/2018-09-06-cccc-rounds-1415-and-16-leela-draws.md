@@ -4,7 +4,7 @@ slug = "cccc-rounds-1415-and-16-leela-draws"
 published = 2018-09-06T10:49:00.002000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [ ![](../../images/2018-09-06-cccc-rounds-1415-and-16-leela-draws-

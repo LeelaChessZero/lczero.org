@@ -4,7 +4,7 @@ slug = "leela-beats-fire-promoting-to-semi"
 published = 2018-10-19T13:36:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-19-leela-beats-fire-promoting-to-semi-

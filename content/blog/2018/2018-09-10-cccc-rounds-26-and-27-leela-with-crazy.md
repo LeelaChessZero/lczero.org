@@ -4,7 +4,7 @@ slug = "cccc-rounds-26-and-27-leela-with-crazy"
 published = 2018-09-10T14:33:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-

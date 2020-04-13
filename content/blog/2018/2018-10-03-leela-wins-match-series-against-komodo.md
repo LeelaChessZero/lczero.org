@@ -4,7 +4,7 @@ slug = "leela-wins-match-series-against-komodo"
 published = 2018-10-03T19:47:00.004000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-03-leela-wins-match-series-against-komodo-

@@ -4,7 +4,7 @@ slug = "welcome-to-lczero-blog-v2"
 published = 2018-08-19T18:27:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 Welcome to the new Leela Chess Zero blog! The old blog is gone, and here it

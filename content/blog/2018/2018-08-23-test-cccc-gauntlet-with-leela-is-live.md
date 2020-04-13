@@ -4,7 +4,7 @@ slug = "test-cccc-gauntlet-with-leela-is-live"
 published = 2018-08-23T17:59:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 As you know, we are releasing Lc0 v0.17.0 to participate in the next CCCC

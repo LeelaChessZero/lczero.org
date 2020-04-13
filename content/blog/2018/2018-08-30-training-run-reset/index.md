@@ -4,7 +4,7 @@ slug = "training-run-reset"
 published = 2018-08-30T20:34:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 ## Update

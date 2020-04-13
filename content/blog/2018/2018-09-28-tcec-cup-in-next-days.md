@@ -4,7 +4,7 @@ slug = "tcec-cup-in-next-days"
 published = 2018-09-28T22:09:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-28-tcec-cup-in-next-days-

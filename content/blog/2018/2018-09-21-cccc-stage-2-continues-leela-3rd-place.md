@@ -4,7 +4,7 @@ slug = "cccc-stage-2-continues-leela-3rd-place"
 published = 2018-09-21T11:05:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-21-cccc-stage-2-continues-leela-3rd-place-

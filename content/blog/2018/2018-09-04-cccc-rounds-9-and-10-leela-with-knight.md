@@ -4,7 +4,7 @@ slug = "cccc-rounds-9-and-10-leela-with-knight"
 published = 2018-09-04T10:23:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [ ![](../../images/2018-09-04-cccc-rounds-9-and-10-leela-with-knight-

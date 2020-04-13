@@ -4,7 +4,7 @@ slug = "cccc-rounds-23-24-and-25-leela-with-2"
 published = 2018-09-09T22:32:00.002000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [ ![](../../images/2018-09-09-cccc-rounds-23-24-and-25-leela-

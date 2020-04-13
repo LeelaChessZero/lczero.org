@@ -4,7 +4,7 @@ slug = "first-half-of-cccc-ended-2346-rounds"
 published = 2018-09-09T01:58:00.003000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-09-first-half-of-cccc-ended-2346-rounds-

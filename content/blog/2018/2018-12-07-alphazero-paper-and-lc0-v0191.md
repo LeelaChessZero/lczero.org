@@ -4,7 +4,7 @@ slug = "alphazero-paper-and-lc0-v0191"
 published = 2018-12-07T22:37:00+01:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 As everyone has already heard, DeepMind has published a detailed paper on

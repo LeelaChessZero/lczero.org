@@ -4,7 +4,7 @@ slug = "cccc-rounds-3-4-and-5-leela-with"
 published = 2018-09-02T15:55:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![]({{< file "gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)

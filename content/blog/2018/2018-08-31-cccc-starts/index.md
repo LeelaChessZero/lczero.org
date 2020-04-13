@@ -4,7 +4,7 @@ slug = "cccc-starts"
 published = 2018-08-31T17:59:00.003000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [Chess.com Computer Chess Championship](http://www.chess.com/computer-chess-championship) starts today.

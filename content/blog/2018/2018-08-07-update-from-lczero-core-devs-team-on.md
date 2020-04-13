@@ -4,7 +4,7 @@ slug = "update-from-lczero-core-devs-team-on"
 published = 2018-08-07T10:00:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 Two days before start of TCEC season 13, it was revealed that “DeusX engine”

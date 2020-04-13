@@ -4,7 +4,7 @@ slug = "leela-promotes-to-superfinal-of-tcec"
 published = 2019-01-16T20:16:00.003000+01:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2019-01-16-leela-promotes-to-superfinal-of-tcec-

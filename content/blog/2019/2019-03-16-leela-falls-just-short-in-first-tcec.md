@@ -4,7 +4,7 @@ slug = "leela-falls-just-short-in-first-tcec"
 published = 2019-03-16T22:35:00+01:00
 author = "killrducky"
 tags = []
-draft = true
+draft = false
 +++
 
 Lc0 did well in it's first TCEC Superfinal appearance, but fell just short of

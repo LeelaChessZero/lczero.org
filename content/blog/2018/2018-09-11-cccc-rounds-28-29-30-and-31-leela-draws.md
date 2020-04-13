@@ -4,7 +4,7 @@ slug = "cccc-rounds-28-29-30-and-31-leela-draws"
 published = 2018-09-11T20:44:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-11-cccc-rounds-28-29-30-and-31-leela-draws-

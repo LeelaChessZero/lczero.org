@@ -4,7 +4,7 @@ slug = "test20-progress"
 published = 2018-08-31T23:25:00.002000+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 Test20 is being run for a few hours already, and several people expressed a

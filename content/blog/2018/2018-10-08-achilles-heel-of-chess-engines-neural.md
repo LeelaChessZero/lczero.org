@@ -4,7 +4,7 @@ slug = "achilles-heel-of-chess-engines-neural"
 published = 2018-10-08T21:20:00.002000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-

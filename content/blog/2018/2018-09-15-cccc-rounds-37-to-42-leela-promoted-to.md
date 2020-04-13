@@ -4,7 +4,7 @@ slug = "cccc-rounds-37-to-42-leela-promoted-to"
 published = 2018-09-15T20:19:00.004000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-15-cccc-rounds-37-to-42-leela-promoted-to-

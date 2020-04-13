@@ -4,7 +4,7 @@ slug = "lc0-v0170-rc2-has-been-released"
 published = 2018-08-21T20:23:00.001000+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 The "Release Candidate 2" for the Lc0 version

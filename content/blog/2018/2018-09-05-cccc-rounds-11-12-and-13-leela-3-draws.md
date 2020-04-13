@@ -4,7 +4,7 @@ slug = "cccc-rounds-11-12-and-13-leela-3-draws"
 published = 2018-09-05T10:25:00.002000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [ ![](../../images/2018-09-05-cccc-rounds-11-12-and-13-leela-3-draws-

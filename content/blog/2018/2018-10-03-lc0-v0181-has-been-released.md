@@ -4,7 +4,7 @@ slug = "lc0-v0181-has-been-released"
 published = 2018-10-03T15:43:00.001000+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 It turned out that the version v0.18.0, that was released a few days ago, had

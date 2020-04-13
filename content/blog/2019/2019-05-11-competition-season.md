@@ -4,7 +4,7 @@ slug = "competition-season"
 published = 2019-05-11T02:01:00.001000+02:00
 author = "Alexis Olson"
 tags = []
-draft = true
+draft = false
 +++
 
 Today, May 10, 2019, Leela is playing in the first game of the high profile

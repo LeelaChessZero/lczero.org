@@ -4,7 +4,7 @@ slug = "lc0-v0180-rc1-has-been-released"
 published = 2018-09-24T21:40:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 The release candidate of a new Leela version has been released:

@@ -4,7 +4,7 @@ slug = "cccc-leela-komodo-event-for-3rd-place"
 published = 2018-09-27T16:09:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-27-cccc-leela-komodo-event-for-3rd-place-

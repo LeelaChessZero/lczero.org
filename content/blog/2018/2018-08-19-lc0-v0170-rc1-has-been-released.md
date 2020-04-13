@@ -4,7 +4,7 @@ slug = "lc0-v0170-rc1-has-been-released"
 published = 2018-08-19T19:12:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 The release candidate of a new version of the Lc0 engine has been released.

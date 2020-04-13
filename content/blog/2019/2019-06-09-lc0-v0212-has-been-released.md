@@ -4,7 +4,7 @@ slug = "lc0-v0212-has-been-released"
 published = 2019-06-09T17:25:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 After quite a long delay we are releasing an update to Lc0, new version is

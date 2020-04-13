@@ -4,7 +4,7 @@ slug = "tb-rescoring"
 published = 2018-09-16T00:57:00.001000+02:00
 author = "killrducky"
 tags = []
-draft = true
+draft = false
 +++
 
 While test20 runs, we are running test30 in parallel to test two ideas. First
