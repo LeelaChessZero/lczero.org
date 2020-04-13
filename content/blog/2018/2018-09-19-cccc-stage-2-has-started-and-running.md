@@ -4,7 +4,7 @@ slug = "cccc-stage-2-has-started-and-running"
 published = 2018-09-19T13:55:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-19-cccc-stage-2-has-started-and-running-

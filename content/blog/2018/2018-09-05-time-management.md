@@ -4,7 +4,7 @@ slug = "time-management"
 published = 2018-09-05T22:55:00.001000+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 As many of you have noticed, Leela's thinking time allocation seems suboptimal

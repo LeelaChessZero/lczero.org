@@ -4,7 +4,7 @@ slug = "tcec-season-14-leela-promoted-from-3rd"
 published = 2018-12-08T20:55:00+01:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-12-08-tcec-season-14-leela-promoted-from-3rd-

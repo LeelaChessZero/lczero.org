@@ -4,7 +4,7 @@ slug = "lc0-v024-has-been-released"
 published = 2020-03-11T19:02:00.004000+01:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 **IMPORTANT UPDATE:** v0.24.0 had a bug when either `--logit-q` or 

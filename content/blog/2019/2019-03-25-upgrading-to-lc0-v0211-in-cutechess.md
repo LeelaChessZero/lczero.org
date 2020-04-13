@@ -4,7 +4,7 @@ slug = "upgrading-to-lc0-v0211-in-cutechess"
 published = 2019-03-25T11:45:00.002000+01:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 This a quick note for people who use **CuteChess** and just upgraded to

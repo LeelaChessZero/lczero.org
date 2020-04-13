@@ -4,7 +4,7 @@ slug = "cccc-rounds-20-21-and-22-leela-with-3"
 published = 2018-09-08T18:56:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [ ![](../../images/2018-09-08-cccc-rounds-20-21-and-22-leela-

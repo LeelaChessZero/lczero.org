@@ -4,7 +4,7 @@ slug = "leela-in-december"
 published = 2019-01-07T20:18:00.002000+01:00
 author = "Kaffe avec"
 tags = []
-draft = true
+draft = false
 +++
 
 ## Quick recap

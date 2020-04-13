@@ -4,7 +4,7 @@ slug = "leela-promotes-to-round-of-16-in-tcec"
 published = 2018-10-09T12:09:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-09-leela-promotes-to-round-of-16-in-tcec-

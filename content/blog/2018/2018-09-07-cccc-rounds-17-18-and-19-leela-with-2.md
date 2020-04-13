@@ -4,7 +4,7 @@ slug = "cccc-rounds-17-18-and-19-leela-with-2"
 published = 2018-09-07T17:39:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [ ![](../../images/2018-09-07-cccc-rounds-17-18-and-19-leela-

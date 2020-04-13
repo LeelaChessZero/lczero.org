@@ -4,7 +4,7 @@ slug = "lc0-training"
 published = 2018-10-28T23:06:00+01:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-28-lc0-training-

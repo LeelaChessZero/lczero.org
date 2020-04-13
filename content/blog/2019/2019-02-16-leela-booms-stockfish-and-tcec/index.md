@@ -4,7 +4,7 @@ slug = "leela-booms-stockfish-and-tcec"
 published = 2019-02-16T14:42:00.003000+01:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 loadChessbaseScripts = true
 +++
 

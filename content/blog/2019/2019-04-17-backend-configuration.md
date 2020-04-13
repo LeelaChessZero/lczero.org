@@ -4,7 +4,7 @@ slug = "backend-configuration"
 published = 2019-04-17T11:55:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 To break the silence of lack of posts in this blog, let me write about Lc0

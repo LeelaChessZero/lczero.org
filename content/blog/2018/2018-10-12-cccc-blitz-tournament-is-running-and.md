@@ -4,7 +4,7 @@ slug = "cccc-blitz-tournament-is-running-and"
 published = 2018-10-12T11:45:00.002000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-12-cccc-blitz-tournament-is-running-and-

@@ -4,7 +4,7 @@ slug = "end-of-era"
 published = 2019-07-26T15:44:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 # cover = "cover.png" # Default
 +++
 

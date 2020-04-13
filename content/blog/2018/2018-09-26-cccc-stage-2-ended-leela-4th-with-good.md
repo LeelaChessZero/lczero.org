@@ -4,7 +4,7 @@ slug = "cccc-stage-2-ended-leela-4th-with-good"
 published = 2018-09-26T11:24:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-26-cccc-stage-2-ended-leela-4th-with-good-

@@ -4,7 +4,7 @@ slug = "cccc-rounds-1-2-and-3"
 published = 2018-09-01T19:27:00.003000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 CCCC continues running and we are on round 3 currently. The level of play is

@@ -4,7 +4,7 @@ slug = "training-server-is-down"
 published = 2019-05-17T19:36:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 **2019-05-26 UPDATE:** Temporary server is up again.  

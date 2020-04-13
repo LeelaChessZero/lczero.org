@@ -4,7 +4,7 @@ slug = "whats-going-on-with-training"
 published = 2019-06-16T12:58:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 I've just decided that maybe it's a time for a post. Describing what's going

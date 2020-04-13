@@ -4,7 +4,7 @@ slug = "nibbler-lc0-gui"
 published = 2019-06-25T13:20:00+02:00
 author = "fohristiwhirl"
 tags = []
-draft = true
+draft = false
 +++
 
 Does the world need another Chess GUI? Some people say no, but they don't have

@@ -4,7 +4,7 @@ slug = "cccc-leela-komodo-3rd-place-match"
 published = 2018-10-02T10:57:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-02-cccc-leela-komodo-3rd-place-match-

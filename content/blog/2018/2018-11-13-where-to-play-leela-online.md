@@ -4,7 +4,7 @@ slug = "where-to-play-leela-online"
 published = 2018-11-13T07:25:00+01:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 The **play.lczero.org** web site where everyone could quickly play Lc0 online

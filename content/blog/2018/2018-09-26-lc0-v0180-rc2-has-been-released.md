@@ -4,7 +4,7 @@ slug = "lc0-v0180-rc2-has-been-released"
 published = 2018-09-26T22:55:00.001000+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 The "Release Candidate 2" for the Lc0 version v0.18 has been published!  

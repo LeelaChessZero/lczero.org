@@ -4,7 +4,7 @@ slug = "cccc-rounds-32333435-and-36-leela-with"
 published = 2018-09-13T16:21:00.004000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-13-cccc-rounds-32333435-and-36-leela-with-

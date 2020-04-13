@@ -4,7 +4,7 @@ slug = "cccc-rounds-4344-and-45-first-stage-is"
 published = 2018-09-16T18:48:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-16-cccc-rounds-4344-and-45-first-stage-is-

@@ -4,7 +4,7 @@ slug = "announcing-lcz-worlds-first-neural-net"
 published = 2019-04-01T09:02:00+02:00
 author = "borg"
 tags = []
-draft = true
+draft = false
 +++
 
 After the [huge success](https://discordapp.com/channels/425419482568196106/425419999096733706/500051417277530114)

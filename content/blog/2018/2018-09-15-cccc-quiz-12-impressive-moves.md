@@ -4,7 +4,7 @@ slug = "cccc-quiz-12-impressive-moves"
 published = 2018-09-15T22:21:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-09-15-cccc-quiz-12-impressive-moves-

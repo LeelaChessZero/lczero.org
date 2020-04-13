@@ -4,7 +4,7 @@ slug = "understanding-training-against-q-as"
 published = 2018-10-10T23:06:00+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-10-understanding-training-against-q-

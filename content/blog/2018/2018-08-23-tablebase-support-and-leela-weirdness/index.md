@@ -4,7 +4,7 @@ slug = "tablebase-support-and-leela-weirdness"
 published = 2018-08-23T20:42:00+02:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 As it [has been announced earlier]({{< ref "2018-08-19-lc0-v0170-rc1-has-been-released" >}}),

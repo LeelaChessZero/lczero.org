@@ -4,7 +4,7 @@ slug = "draw-in-chess-some-odd-cases"
 published = 2018-10-11T21:46:00.001000+02:00
 author = "Bob23"
 tags = []
-draft = true
+draft = false
 +++
 
 [![](../../images/2018-10-11-draw-in-chess-some-odd-cases-

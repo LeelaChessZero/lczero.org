@@ -4,7 +4,7 @@ slug = "lc0-vs-gm-adam-tukhaev-on-lichess"
 published = 2019-01-04T15:49:00+01:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 Not everyone knows, but recently there was a match between Lc0 and GM Daniel

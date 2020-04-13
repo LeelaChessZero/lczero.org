@@ -4,7 +4,7 @@ slug = "lc0-v0230-has-been-released"
 published = 2019-12-01T17:05:00+01:00
 author = "crem"
 tags = []
-draft = true
+draft = false
 +++
 
 **Update:** we have a bugfix release **v0.23.1**, download
