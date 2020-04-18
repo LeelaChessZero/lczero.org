@@ -26,10 +26,10 @@ For nets of the same size, the first net listed is likely the strongest.
 | 10b x 128f | Latest T59  | [lczero.org run 2 networks](https://training.lczero.org/get_network?sha=47e3f899519dc1bc95496a457b77730fce7b0b89b6187af5c01ecbbd02e88398) 591226. | A previous test run |
 | 10b x 128f | Little Demon 2 | [data.lczero.org repository](http://data.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
 | 16b x 192f | J20-460          | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
+| 20b x 256f | Leelenstein 14.2 | [Patreon: jjosh](https://www.patreon.com/posts/ls-14-2-35886573) | Early Access |
 | 20b x 256f | SV-20b-t40-1541  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/) | Trained on T40 data |
-| 20b x 256f | Leelenstein 14.0 | [Patreon: jjosh](https://www.patreon.com/posts/ls-14-34414677) | Early Access |
+| 20b x 256f | Leelenstein 14.0 | [14.0 Post](https://www.patreon.com/posts/ls-14-34414677) | No account required |
 | 20b x 256f | T40: #42850   | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Last T40 net |
-| 20b x 256f | Leelenstein 13.2 | [13.2 Post](https://www.patreon.com/posts/33551041) | No patreon required |
 | 24b x 320f | Latest T60       | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Current main run |
 | 24b x 320f | J13B.2-136       | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | "Terminator 2" Net |
 | 30b x 384f | 	384x30-t60-3010, 384x30-t60-3044 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data |
