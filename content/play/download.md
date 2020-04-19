@@ -3,9 +3,9 @@ title: "Download Lc0"
 weight: 200
 ---
 
-The latest stable version of Lc0 is **{{< param lc0version >}}**.
+The latest stable version of Lc0 is **[{{< param lc0version >}}](https://github.com/LeelaChessZero/lc0/releases/tag/{{<param lc0version>}})**.
 
-There are several versions of the engine which use different hardware to evaluate neural network.
+Older versions and beta releases are available at our [GitHub releases page](https://github.com/LeelaChessZero/lc0/releases).
 
 ## Windows
 
@@ -14,7 +14,8 @@ Every package contains:
 * **591226.pb.gz** (a default network file), and
 * **client.exe** (only needed if you would like to contribute training games).
 
-Pick a version of **Lc0 {{< param lc0version >}} for Windows** to download:
+Depending on which hardware you have, different version of Lc0 will be best for you.  
+Pick the row that matches your hardware from the following table:
 
 | Hardware | Backend |
 |----------|---------|
@@ -24,8 +25,12 @@ Pick a version of **Lc0 {{< param lc0version >}} for Windows** to download:
 | Computers without GPUs, but with modern CPUs | [DNNL BLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-dnnl.zip) |
 | Older CPUs | [OpenBLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-openblas.zip) |
 
-Older versions and beta releases are available at our [GitHub releases page](https://github.com/LeelaChessZero/lc0/releases).
+## Android
 
-## Other versions
+| Architecture | Backend |
+|--------------|---------|
+| All architectures | [BLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-android.apk) |
 
-TODO(write about other OSes, including Linux, MacOS and Android. Possibly in a separate article)
+## Building from sources (Linux, Windows and MacOS)
+
+If you want to build the Lc0 from source, refer to [this document](https://github.com/LeelaChessZero/lc0/blob/v0.24.1/README.md#building-and-running-lc0).
