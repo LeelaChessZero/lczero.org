@@ -1,0 +1,24 @@
+
+
+[Event "TCEC Season 17 - Superfinal"]
+[Site "https://tcec-chess.com"]
+[Date "2020.04.10"]
+[Round "16.1"]
+[White "LCZero v0.24-sv-t60-3010"]
+[Black "Stockfish 20200407DC"]
+[Result "0-1"]
+[BlackElo "3851"]
+[ECO "B06"]
+[GameDuration "03:39:53"]
+[GameEndTime "2020-04-10T17:16:55.771 CST"]
+[GameStartTime "2020-04-10T13:37:02.705 CST"]
+[Opening "Robatsch (modern) defence"]
+[PlyCount "391"]
+[Termination "adjudication"]
+[TerminationDetails "TCEC win rule"]
+[TimeControl "5400+5"]
+[WhiteElo "3840"]
+
+
+1. e4  g6 2. d4  d6 3. Nc3  a6 4. Be3 Bg7 5. h4 h5 6. Nh3 Bxh3 7. Rxh3 Nd7 8. Qe2 Qc8 9. O-O-O c5 10. Kb1 b5 11. Nd5 Ngf6 12. dxc5 Nxd5 13. exd5 Nxc5 14. Bd4 O-O 15. Re3 Qf5 16. g3 Bf6 17. f3 Bxd4 18. Rxd4 Ra7 19. Qd2 Qf6 20. a3 Rb7 21. Rf4 Qh8 22. Qe1 Re8 23. g4 Qh6 24. Rb4 Qh8 25. Rf4 Qh6 26. Rb4 Qh8 27. g5 Kh7 28. Ka2 Ra7 29. Rf4 Qg7 30. c3 Qf8 31. Rd4 e5 32. dxe6 fxe6 33. Qd2 d5 34. Be2 Rae7 35. Bd1 Nb7 36. Qh2 Rf7 37. Bc2 Nd6 38. Bd3 Nc4 39. Bxc4 bxc4 40. Qe2 Rfe7 41. Re5 a5 42. Ka1 a4 43. Qe3 Kg7 44. Ka2 Kh7 45. Rd2 Qg7 46. Ka1 Qf7 47. Rd4 Qg7 48. Qe1 Qf7 49. Qe3 Qg7 50. Kb1 Qf8 51. Ka2 Qg7 52. Ka1 Kh8 53. Rd2 Qf8 54. Ka2 Kh7 55. Rg2 Qg7 56. Rf2 Qf8 57. Rg2 Qg7 58. Rf2 Qf8 59. f4 Qf7 60. Rg2 Kg7 61. Re2 Rb7 62. Qd4 Kh7 63. Qe3 Kg7 64. Rd2 Ree7 65. Qd4 Kh7 66. Qe3 Qe8 67. Qe1 Kg7 68. Qe3 Qd7 69. Qd4 Kg8 70. Rde2 Qb5 71. Ka1 Qd7 72. R5e3 Qe8 73. Re1 Kh7 74. R3e2 Qf7 75. Re5 Re8 76. Qf2 Qd7 77. R1e2 Qf7 78. Re1 Rb3 79. Qe3 Rb7 80. Rf1 Ree7 81. Re1 Re8 82. f5 gxf5 83. Rd1 Rbe7 84. Re1 Rb7 85. Rd1 Rbe7 86. Rf1 Kg8 87. Rf4 Kg7 88. Qd4 Kh7 89. Rf1 Rb8 90. Qe3 Rbe8 91. Qe2 Kg7 92. Rf2 Kh7 93. Rf1 Kg8 94. Qe3 Kh7 95. Ka2 Kg7 96. Rf2 Kg8 97. Re2 Rb7 98. Ka1 Kg7 99. Qd4 Kh7 100. Qf2 Kg8 101. Qe3 Qg6 102. Re1 Kh7 103. Rd1 Rbb8 104. Re1 Rb7 105. Rf1 Ree7 106. Qe1 Qe8 107. Qe2 Kg8 108. Rd1 Qf7 109. Re1 Rbd7 110. Rg1 Qg6 111. Rf1 Qf7 112. Qe3 Rb7 113. Re1 Qe8 114. Rd1 Qb5 115. Qe2 Qe8 116. Rd2 Rbd7 117. Rd1 Rd6 118. Qe3 Qg6 119. Qc5 Red7 120. Rf1 Qf7 121. Rd1 Kh7 122. Rde1 Kg7 123. Kb1 Rd8 124. Qe3 Rf8 125. Qc5 Ra6 126. Qe3 Qg6 127. Qc5 Kg8 128. Ka1 Qf7 129. Qb5 Rfa8 130. g6 Qxg6 131. R5e2 Kh8 132. Qd7 R8a7 133. Qb5 Qg8 134. Rh2 Ra8 135. Qc5 Qf7 136. Qd4+ Kh7 137. Rg2 Rg8 138. Rxg8 Qxg8 139. Rg1 e5 140. Qc5 Qf7 141. Rg5 Rg6 142. Rxh5+ Rh6 143. Rg5 Rxh4 144. Rg1 f4 145. Qf2 Rh6 146. Kb1 Rh5 147. Ka2 e4 148. Qe2 f3 149. Qf2 Qc7 150. Qe3 Qf7 151. Qf2 Qc7 152. Qe3 Rh3 153. Rd1 Qb7 154. Rb1 Qf7 155. Qf2 Kg6 156. Rg1+ Kf5 157. Qc5 Kf4 158. Qd6+ Ke3 159. Qb6+ Ke2 160. Qd4 f2 161. Qd1+ Ke3 162. Qd4+ Kf3 163. Qd1+ Kf4 164. Qd2+ e3 165. Qd4+ Kf5 166. Qg4+ Kf6 167. Qd4+ Ke7 168. Qe5+ Kd7 169. Rg7 f1=Q 170. Qxd5+ Ke8 171. Qa8+ Ke7 172. Qb7+ Kf8 173. Rxf7+ Qxf7 174. Qc8+ Ke7 175. Qxh3 e2 176. Qh4+ Qf6 177. Qg3 Qe6 178. Qc7+ Ke8 179. Qb8+ Kd7 180. Qb7+ Kd6 181. Qb6+ Kd5 182. Qb7+ Ke5 183. Qh1 Kf4 184. Qh2+ Ke3 185. Qg1+ Kd2 186. Qd4+ Kc2 187. Qf2 Qe4 188. Qh2 Kd1 189. Qh5 Qc2 190. Qg4 Kc1 191. Qg1+ Qd1 192. Qg5+ Qd2 193. Qg1+ e1=Q 194. Qxe1+ Qxe1 195. Ka1 Kc2+ 196. Ka2 0-1
+

@@ -1,0 +1,23 @@
+
+
+[Event "TCEC Season 17 - Superfinal"]
+[Site "https://tcec-chess.com"]
+[Date "2020.04.15"]
+[Round "53.1"]
+[White "Stockfish 20200407DC"]
+[Black "LCZero v0.24-sv-t60-3010"]
+[Result "1/2-1/2"]
+[BlackElo "3840"]
+[ECO "A81"]
+[GameDuration "03:04:05"]
+[GameEndTime "2020-04-15T17:57:37.706 CST"]
+[GameStartTime "2020-04-15T14:53:32.687 CST"]
+[Opening "Dutch defence, Blackburne variation"]
+[PlyCount "157"]
+[Termination "adjudication"]
+[TerminationDetails "SyzygyTB"]
+[TimeControl "5400+5"]
+[WhiteElo "3851"]
+
+
+1. d4  f5 2. g3  Nf6 3. Bg2  e6 4. Nh3  d5 5. c4 Bd6 6. O-O O-O 7. Bf4 Be7 8. cxd5 exd5 9. Nc3 c6 10. Qc2 a5 11. f3 Na6 12. Nf2 Nc7 13. Be5 Ne6 14. e3 Ng5 15. Rac1 Nf7 16. Nd3 Nd7 17. Na4 Kh8 18. Rfd1 Ra7 19. Qf2 b5 20. Nc3 a4 21. f4 b4 22. Nb1 Ndxe5 23. fxe5 Bd7 24. Nd2 Ng5 25. Rc2 Ne4 26. Qe2 a3 27. Qe1 axb2 28. Rxb2 Qa8 29. Nxb4 Rb8 30. Nxe4 fxe4 31. Rdb1 Rf8 32. h3 h5 33. Nc2 Kh7 34. a3 Qc8 35. Kh2 h4 36. g4 Qc7 37. Qc3 Rc8 38. Kh1 Be6 39. Rb6 Bg8 40. Qe1 Bg5 41. Qf2 Be6 42. Bf1 Qe7 43. Bg2 Qe8 44. Qd2 Qf8 45. Rf1 Qe7 46. Qc3 Bd7 47. Rfb1 Qf8 48. Nb4 Rca8 49. Nc2 Qf2 50. Rf1 Qg3 51. Rg1 Qf2 52. Rf1 Qe2 53. e6 Be8 54. Rxc6 Bxc6 55. Qxc6 Rd8 56. Nb4 Qxe3 57. Qc5 Qxa3 58. Nc6 Qxc5 59. dxc5 Ra6 60. Nxd8 Bxd8 61. Rd1 Bc7 62. e7 Re6 63. Rxd5 Rxe7 64. Rd4 e3 65. Be4+ Kh6 66. Kg2 e2 67. Kf2 Kg5 68. Kxe2 Kf4 69. Kd3 g5 70. Rd5 Be5 71. c6 Kg3 72. Rxe5 Rxe5 73. Kd4 Re7 74. Kd5 Kxh3 75. Bf5 Kg3 76. Kd6 Re8 77. c7 h3 78. c8=Q Rxc8 79. Bxc8 1/2-1/2
