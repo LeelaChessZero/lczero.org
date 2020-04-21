@@ -9,7 +9,7 @@ loadChessbaseScripts: true
 
 *by @glbchess64*
 
-*thanks to @dtracers and @idolphino for correction and rewriting.*
+*thanks to @dtracers and @ildolphino for correction and rewriting.*
 
 
 
