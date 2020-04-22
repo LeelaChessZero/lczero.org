@@ -377,7 +377,7 @@ Sub variation where pawns repartition is very unbalanced after exchange. White h
 
 
 #### Game 34: (Leela equalize)
-Leela played 12.e6 at the end of the book and closed the center. Later on, SF plays the strange new move 17...Rd7 that seems ugly and forces Leela to put her queen on a better square. Later on, bis repetita, 25...Ba6 forced an unexpected rook move 28.Rf2 and the SF eval began to rise (if SF, I would have played the Leela move). SF got a position with a horrible bad bishop, an attack against its king and rooks and queen blocked by pawns. Only a strong knight in the center. Finally SF sacs the exchange to get rid of a strong Ne6 and loses a technical endgame.
+Leela played 12.e6 at the end of the book and closed the center. Later on, SF plays the strange new move 17...Rd7 that seems ugly and forces Leela to put her queen on a better square. Later on, bis repetita, 25...Ba6 forced an unexpected rook move 28.Rf2 and the SF eval began to rise (if SF, I would have played the Leela move). SF got a position with a horrible bad bishop, an attack against its king and rooks and queen blocked by pawns. Only a strong knight in the center. Finally SF sacs the exchange to get rid of a strong Nd6 and loses a technical endgame.
 
 
 {{< chessdiagram "r1bq3k/4r2p/2pNp1pP/pp1nP1Q1/2p2P2/P1P3PB/R4R1K/8 b - - 1 34" >}}
@@ -688,10 +688,10 @@ Leela still plays the queen sac, trades Nb4 for the DSB castle long to protect h
 Leela sacs the d-pawn, reorganizes pieces in the center, begins a king walk to the k-side, trades a rook pair and a-pawns. The material is balanced but Leela eval is +3 and SF eval +2. SF has two doubled b-pawns and an isolated d-pawn in an open file. Good targets for Leela rook and knight.
 
 
-And finally Leela pushes the f-pawns and swaps black LSB for a knight. Now all pawns are fragmented, this is the time for picking. “Les feuilles mortes se ramassent à la pelle”, Jacques Prévert, in english “Dead leaves are picked up by the shovel.” Leela is winning! But she misses the win. a Queen in open space is a real problem for Leela.
+And finally Leela pushes the f-pawns and swaps black LSB for a knight. Now all pawns are fragmented, this is the time for picking. “Les feuilles mortes se ramassent à la pelle”, Jacques Prévert, in english “Dead leaves are picked up by the shovel.” Leela is winning! But she misses the win. A queen in open space is a real problem for Leela.
 
 
-r1b1r1k1/pp1pqppp/n2b4/2pP4/4NP2/8/PP1BQ1PP/R3KBNR w KQ - 5 11" >}}
+{{< chessdiagram "r1b1r1k1/pp1pqppp/n2b4/2pP4/4NP2/8/PP1BQ1PP/R3KBNR w KQ - 5 11" >}}
 
 
 #### Game 59: two knights defence (Leela +2)
