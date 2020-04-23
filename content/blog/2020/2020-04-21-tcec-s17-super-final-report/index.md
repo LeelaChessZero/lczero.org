@@ -72,80 +72,15 @@ TC 90'+5" (note: often short for Leela in the endgame).
 
 Leela equalizes before move 10 and takes an advantage with better pawn structure. She takes a pawn in the center but returns her h pawn to deny 0-0 to SF. She gets a better pawn structure and a majority on the q-side where she castles with SF king in the center. Black has a good edge. But as the queens remain on the board, SF manages, with dynamic play, to equalize and gets a draw by perpetual check.
 
+{{< lichess "fQhbqakr/pzZjMIG6#26" >}}
 
-{{< chessdiagram "r1bqk2r/ppp2p2/4n3/3p2pp/8/2P1P1P1/P2NBPP1/2RQK2R w Kkq - 0 14" >}}
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.08"]
-[Round "1.1"]
-[White "Stockfish 20200407DC"]
-[Black "LCZero v0.24-sv-t60-3010"]
-[Result "1/2-1/2"]
-[WhiteElo "3851"]
-[BlackElo "3840"]
-[ECO "E10"]
-[Opening "Queen's pawn game"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "146"]
-[GameDuration "02:58:18"]
-[GameEndTime "2020-04-08T21:19:03.393 CST"]
-[GameStartTime "2020-04-08T18:20:44.694 CST"]
-[TerminationDetails "TCEC draw rule"]
-
-1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. cxd5 exd5 5. Bf4 Ne4 6. Nc3 Bb4 7. Rc1 Nc6
-8. Nd2 g5 9. Bg3 Nxg3 10. hxg3 Nxd4 11. e3 Bxc3 12. bxc3 Ne6 13. Be2 h5 14.
-Rxh5 Rxh5 15. Bxh5 Qe7 16. Nb3 c6 17. c4 dxc4 18. Rxc4 Bd7 19. Na5 O-O-O
-20. Qb1 Be8 21. Bf3 Qc7 22. Qb4 Qb6 23. Qa3 Nc7 24. Nb3 Bd7 25. Rb4 Nb5 26.
-Qb2 Qc7 27. Nc5 Qa5 28. Nxd7 Kxd7 29. Kf1 Nd6 30. Qd4 Kc7 31. Rb2 Re8 32.
-Rd2 Rd8 33. Rb2 Nb5 34. Qe5+ Rd6 35. Qe7+ Rd7 36. Qe5+ Rd6 37. Qe7+ Rd7 38.
-Qe5+ Kb6 39. Qf6 a6 40. Kg1 Qa3 41. Rc2 Qe7 42. Qb2 Ka7 43. Bg4 Rd8 44. a4
-Nc7 45. Rc4 Rd3 46. Be2 Rd5 47. Bh5 f6 48. Bf3 Rd3 49. Re4 Qd6 50. Rb4 b5
-51. axb5 axb5 52. Qa2+ Kb6 53. Rb1 Ra3 54. Qf7 Qe6 55. Qg7 Ra4 56. Rc1 c5
-57. Kh2 c4 58. Rb1 Qe5 59. Qd7 Ka5 60. Bc6 c3 61. f4 gxf4 62. gxf4 Qh5+ 63.
-Kg1 Kb6 64. Bxb5 Nxb5 65. Qd6+ Kb7 66. Qd7+ Kb6 67. f5 Qe2 68. Qd6+ Kb7 69.
-Qc5 Ra5 70. Qe7+ Kc8 71. Qe6+ Kc7 72. Qe7+ Kc8 73. Qe6+ Kc7 1/2-1/2
-{{</inlinechessgame>}}
 
 #### Game 2: QGD, semi-slav.
 
 Leela loses a small beginning advantage and the game is a short draw.
 
+{{< lichess "fQhbqakr/n3dYfmE2#32" >}}
 
-{{< chessdiagram "r1br2k1/3nqpb1/1pp1p2p/p1PpP3/NP1P2p1/P2B1N2/5PPP/R2Q1RK1 w - - 0 17" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.08"]
-[Round "2.1"]
-[White "LCZero v0.24-sv-t60-3010"]
-[Black "Stockfish 20200407DC"]
-[Result "1/2-1/2"]
-[WhiteElo "3840"]
-[BlackElo "3851"]
-[ECO "D43"]
-[Opening "QGD semi-Slav"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "77"]
-[GameDuration "01:59:55"]
-[GameEndTime "2020-04-08T23:20:09.438 CST"]
-[GameStartTime "2020-04-08T21:20:13.695 CST"]
-[TerminationDetails "TCEC draw rule"]
-
-
-1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 g6 8.
-Be2 Bg7 9. e4 O-O 10. O-O Rd8 11. c5 Nd7 12. Bd3 b6 13. b4 a5 14. a3 Qe7
-15. e5 g5 16. Na4 g4 17. Ne1 axb4 18. axb4 bxc5 19. Nxc5 Rxa1 20. Qxa1 f6
-21. f4 gxf3 22. Nxf3 fxe5 23. Nxd7 Bxd7 24. Nxe5 Qxb4 25. Qa7 c5 26. Qc7
-Qxd4+ 27. Kh1 Rf8 28. Rxf8+ Bxf8 29. h3 Qe3 30. Bg6 Qc1+ 31. Kh2 Qf4+ 32.
-Kh1 Qf1+ 33. Kh2 Qf4+ 34. g3 Qf2+ 35. Kh1 Qf1+ 36. Kh2 Qf2+ 37. Kh1 Qf1+
-38. Kh2 Qe2+ 39. Kg1 1/2-1/2
-{{</inlinechessgame>}}
 
 #### Game 3: Sicilian, Keres attack (SF +1)
 
@@ -155,92 +90,16 @@ The last move of book 6...a6 instead 6...h6 made this line may be winning for wh
 SF mobilizes the h-pawn and gets a fawn in h6. SF used it, after exploding the center, to get a winning pawn endgame.
 This game looks like a Leela game but the next one is more positional.
 
+{{< lichess "fQhbqakr/SecQEqfJ#30" >}}
 
-{{< chessdiagram "r1b1k2r/4bp1p/p1npp1pP/qp4P1/4P3/P1N1B3/1PPQBP2/R3K2R w KQkq - 0 16" >}}
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.08"]
-[Round "3.1"]
-[White "Stockfish 20200407DC"]
-[Black "LCZero v0.24-sv-t60-3010"]
-[Result "1-0"]
-[WhiteElo "3851"]
-[BlackElo "3840"]
-[ECO "B81"]
-[Opening "Sicilian"]
-[Variation "Scheveningen, Keres attack"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "106"]
-[GameDuration "02:23:14"]
-[GameEndTime "2020-04-09T01:44:34.607 CST"]
-[GameStartTime "2020-04-08T23:21:19.702 CST"]
-[TerminationDetails "TCEC win rule"]
-
-
-1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. g4 a6 7. g5 Nfd7 8.
-a3 Nc6 9. Be3 Nde5 10. Be2 Nxd4 11. Qxd4 Nc6 12. Qd2 Be7 13. h4 b5 14. h5
-Qa5 15. h6 g6 16. O-O O-O 17. f4 Qc7 18. Rf2 Rb8 19. Raf1 Bd7 20. Bg4 Rbc8
-21. Bh3 Qb7 22. Na2 a5 23. Nc3 Rb8 24. b4 axb4 25. axb4 Rfc8 26. f5 Ne5 27.
-fxg6 fxg6 28. Bf4 Rf8 29. Qd4 Qc7 30. Nd5 exd5 31. Bxd7 Qxd7 32. Qxd5+ Nf7
-33. Qd4 Bf6 34. Qxf6 Ne5 35. Qg7+ Qxg7 36. hxg7 Rfe8 37. Bxe5 dxe5 38. Rf8+
-Rxf8 39. Rxf8+ Rxf8 40. gxf8=Q+ Kxf8 41. Kf1 Kf7 42. Ke2 Kf8 43. c4 bxc4
-44. Kd2 Kg7 45. b5 Kf8 46. b6 Kf7 47. b7 Ke8 48. Kc3 Ke7 49. b8=Q h6 50.
-gxh6 Kf7 51. h7 g5 52. h8=Q Ke6 53. Qbxe5+ Kd7 1-0
-{{</inlinechessgame>}}
 
 #### Game 4: (Leela equalizes)
 
 
 Leela gets a strong advantage even more quickly than SF. She pushes the f pawn and with Rg3 in offensive and defensive position she gets a semi closed center (black d6-e5 and white e4) and castles long while SF king remains in the center. SF decides for the thematic Rxc3 exchange sac. Swapping the queen and getting the e4 pawn as a minor compensation. The ending that results with white majority on the q-side was absolutely hopeless. Finally a very simple game : pure Leela style.
 
+{{< lichess "fQhbqakr/ig6viVLA#37" >}}
 
-{{< chessdiagram "4k2r/3nbppp/p2p4/1p2pPP1/4b3/P1PBB1R1/2P4P/2KR4 b k - 1 19" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.09"]
-[Round "4.1"]
-[White "LCZero v0.24-sv-t60-3010"]
-[Black "Stockfish 20200407DC"]
-[Result "1-0"]
-[WhiteElo "3840"]
-[BlackElo "3851"]
-[ECO "B81"]
-[Opening "Sicilian"]
-[Variation "Scheveningen, Keres attack"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "213"]
-[GameDuration "03:18:36"]
-[GameEndTime "2020-04-09T05:04:21.030 CST"]
-[GameStartTime "2020-04-09T01:45:44.683 CST"]
-[TerminationDetails "SyzygyTB"]
-
-
-1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. g4 a6 7. g5 Nfd7 8.
-Be3 b5 9. a3 Bb7 10. f4 Nc6 11. Rg1 Rc8 12. Rg3 Be7 13. f5 Nxd4 14. Qxd4 e5
-15. Qd2 Qa5 16. O-O-O Rxc3 17. Qxc3 Qxc3 18. bxc3 Bxe4 19. Bd3 Ba8 20. c4
-Bc6 21. cxb5 axb5 22. c4 bxc4 23. Bxc4 Be4 24. a4 d5 25. Rxd5 Bxd5 26. Bxd5
-Bb4 27. Rg4 Ba5 28. Rc4 Ke7 29. Rc6 Rd8 30. Bc4 Kf8 31. Bb5 e4 32. Bf4 e3
-33. Bxe3 Ne5 34. Ra6 Rc8+ 35. Kd1 Bb4 36. h3 Kg8 37. Ke2 Bc3 38. Rd6 Bb4
-39. Rd4 Bc3 40. Rd1 Bb4 41. Rc1 Ra8 42. Rb1 Bc3 43. Rc1 Ba5 44. Bf4 f6 45.
-Bxe5 fxe5 46. Rc5 Kf7 47. Kf3 Kf8 48. Rxe5 Bc3 49. Rc5 Bb4 50. Rc4 Ba5 51.
-h4 Rb8 52. Kg4 Rd8 53. Re4 Bc3 54. Rc4 Ba5 55. Re4 Bc3 56. Kf3 h6 57. g6 h5
-58. Re6 Rc8 59. Kg2 Ba5 60. Bd7 Rb8 61. Bc6 Rb2+ 62. Kf3 Rb3+ 63. Ke4 Rb4+
-64. Kd5 Rb8 65. Kc5 Bb4+ 66. Kc4 Ba5 67. Re5 Bc7 68. Re4 Ba5 69. Re6 Rb4+
-70. Kc5 Rb8 71. Re4 Bb6+ 72. Kc4 Ba5 73. Re6 Rb4+ 74. Kd3 Rb3+ 75. Ke4 Rb4+
-76. Kd5 Rb8 77. Bb5 Rc8 78. Re4 Rd8+ 79. Kc4 Rc8+ 80. Kb3 Rc3+ 81. Kb2 Rc8
-82. Re6 Rd8 83. Kb3 Rc8 84. Re5 Rc3+ 85. Ka2 Rc2+ 86. Kb1 Rc8 87. f6 gxf6
-88. Rxh5 Rc3 89. Rd5 Rc7 90. Bd3 Bb6 91. a5 Be3 92. Kb2 Kg7 93. h5 Kh6 94.
-Kb3 Bf4 95. a6 Be5 96. Be2 Rc3+ 97. Kb4 Rc7 98. Kb5 Re7 99. Bg4 Bf4 100.
-Rd7 Re5+ 101. Kc6 Re1 102. g7 Re8 103. Re7 Ra8 104. a7 Be3 105. Rxe3 Kxg7
-106. Kb7 Rxa7+ 107. Kxa7 1-0
-{{</inlinechessgame>}}
 
 #### Game 5: KID, orthodox
 
@@ -248,89 +107,14 @@ Rd7 Re5+ 101. Kc6 Re1 102. g7 Re8 103. Re7 Ra8 104. a7 Be3 105. Rxe3 Kxg7
 
 SF decides for a quick a-pawn push to a6. Leela finds usual counter play on the k-side and the center. Lots of pawns and pieces swapping, to end queens and a knight pair, SF a pawn up. But with so few pawns on the board and kings in open space it is a logical draw.
 
-
-{{< chessdiagram "r1bq2rk/ppp1n1b1/P2p1n2/2PPp1pp/1P2Pp2/2NN1P2/3BB1PP/R2Q1RK1 b - - 0 17" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.09"]
-[Round "5.1"]
-[White "Stockfish 20200407DC"]
-[Black "LCZero v0.24-sv-t60-3010"]
-[Result "1/2-1/2"]
-[WhiteElo "3851"]
-[BlackElo "3840"]
-[ECO "E98"]
-[Opening "King's Indian"]
-[Variation "orthodox, Aronin-Taimanov, 9.Ne1"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "97"]
-[GameDuration "02:17:46"]
-[GameEndTime "2020-04-09T07:23:17.418 CST"]
-[GameStartTime "2020-04-09T05:05:30.706 CST"]
-[TerminationDetails "SyzygyTB"]
-
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8.
-d5 Ne7 9. Ne1 Nd7 10. Nd3 f5 11. Bd2 Nf6 12. f3 f4 13. a4 g5 14. b4 h5 15.
-a5 Kh8 16. c5 Rg8 17. a6 bxa6 18. Nf2 g4 19. fxg4 hxg4 20. Nxg4 Qe8 21. Nf2
-Bf8 22. Bxa6 Ng6 23. Kh1 dxc5 24. bxc5 Bxc5 25. Bxc8 Qxc8 26. Nd3 Bd6 27.
-g3 Qh3 28. Rf3 Ng4 29. Qe2 Qh5 30. gxf4 exf4 31. Nxf4 Bxf4 32. Bxf4 Nxf4
-33. Rxf4 Raf8 34. Raf1 Qh6 35. Rxf8 Rxf8 36. Rxf8+ Qxf8 37. h3 Ne5 38. Kg2
-Qg7+ 39. Kf1 Qh6 40. Ke1 Qxh3 41. Kd2 c6 42. Kc2 cxd5 43. exd5 Qf5+ 44. Kb3
-Kg7 45. d6 Qe6+ 46. Kc2 Qxd6 47. Qg2+ Kf8 48. Qa8+ Kg7 49. Qxa7+ 1/2-1/2
-{{</inlinechessgame>}}
+{{< lichess "fQhbqakr/hSodNVbZ#33" >}}
 
 
 #### Game 6:
 3 pawns swap, then on move 25 Leela dominates the q-side and the center. SF holds the k-side and gives a 0 eval. Pieces begin to swap and Leela gets a strong passer in the center but Fish has counter play against Leela King. Draw.
 
+{{< lichess "fQhbqakr/T3ow1LR6#50" >}}
 
-{{< chessdiagram "r2q1bk1/5r1p/1p1p1nn1/pN1P4/P1R1Bpb1/3N4/1P4PP/3QBRK1 w - - 0 26" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.09"]
-[Round "6.1"]
-[White "LCZero v0.24-sv-t60-3010"]
-[Black "Stockfish 20200407DC"]
-[Result "1/2-1/2"]
-[WhiteElo "3840"]
-[BlackElo "3851"]
-[ECO "E98"]
-[Opening "King's Indian"]
-[Variation "orthodox, Aronin-Taimanov, 9.Ne1"]
-[TimeControl "5400+5"]
-[PlyCount "192"]
-[GameDuration "03:07:59"]
-[GameEndTime "2020-04-09T10:32:27.207 CST"]
-[GameStartTime "2020-04-09T07:24:27.707 CST"]
-[TerminationDetails "3-Fold repetition"]
-
-
-1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8.
-d5 Ne7 9. Ne1 Nd7 10. Nd3 f5 11. Bd2 Nf6 12. f3 f4 13. c5 g5 14. Rc1 Ng6
-15. Nb5 Rf7 16. Ba5 b6 17. cxd6 cxd6 18. Be1 a6 19. Nc3 a5 20. a4 Bf8 21.
-Nb5 g4 22. fxg4 Nxe4 23. Rc4 Nf6 24. Bf3 e4 25. Bxe4 Bxg4 26. Bf3 Bxf3 27.
-Qxf3 Ne5 28. Nxe5 dxe5 29. d6 Rc8 30. Rc6 Rxc6 31. Qxc6 Nd7 32. b4 axb4 33.
-Bxb4 Qg5 34. Kh1 Qg4 35. Qc4 Qg6 36. Qd5 Kh8 37. Nc3 Rg7 38. Ba3 Rg8 39.
-Re1 Qh5 40. Bb2 Qg6 41. Ba3 Rg7 42. Rd1 Nf6 43. Qf3 e4 44. Nxe4 Qxe4 45.
-Bb2 Qg6 46. d7 Nxd7 47. Bxg7+ Qxg7 48. Qxf4 Qf6 49. Qxf6+ Nxf6 50. g3 Kg7
-51. Kg2 Kg6 52. Rd8 Be7 53. Rc8 Kf5 54. Kh3 Nd5 55. Rh8 Kg6 56. Rg8+ Kf5
-57. Rh8 Nf6 58. Kg2 h5 59. Kh3 Bd6 60. Rc8 Be7 61. Kh4 Ng4+ 62. Kh3 Bf6 63.
-Rc6 Bd4 64. Rc4 Be3 65. Rb4 Ne5 66. Rb5 Ke4 67. Kh4 Nf3+ 68. Kh3 Bc5 69.
-Rb2 Kf5 70. Rc2 Nd4 71. Rf2+ Kg6 72. Rd2 Kf5 73. Rd1 Ke4 74. Rd2 Kf5 75.
-Rd1 Ke4 76. Re1+ Kd5 77. Rc1 Nf5 78. Rc3 Bd4 79. Rc7 Ng7 80. Rd7+ Kc5 81.
-Re7 Nf5 82. Rf7 Ne3 83. Kh4 Kb4 84. Kxh5 Kxa4 85. g4 b5 86. Rf4 Nc2 87. g5
-b4 88. g6 Be5 89. Re4 Bf6 90. Rf4 Be5 91. Re4 Bf6 92. Kh6 Nd4 93. Rf4 Be5
-94. Re4 Bf6 95. Rf4 Be5 96. Re4 Bf6 1/2-1/2
-
-{{</inlinechessgame>}}
 
 #### Game 7: Vienna Game: Frankenstein-Dracula Variation (SF +1)
 
@@ -338,290 +122,42 @@ b4 88. g6 Be5 89. Re4 Bf6 90. Rf4 Be5 91. Re4 Bf6 92. Kh6 Nd4 93. Rf4 Be5
 
 Likely a 1-0 opening. Black gives the Ra8 for development and space advantage. But taking back the Na8 loses two tempos, black pieces are not well coordinated and black king in d8. SF plays very clever moves like Qf3-h3-f3-d1-g4 at the right tempo, gets well coordinated pieces and wins with strong threats on the black king in the center. A masterpiece for SF.
 
-
-{{< chessdiagram "2nk1b1r/p2p4/1p3q2/3b2p1/1P1NppQp/2P4P/5PP1/R1BR2K1 b - - 5 28" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.09"]
-[Round "7.1"]
-[White "Stockfish 20200407DC"]
-[Black "LCZero v0.24-sv-t60-3010"]
-[Result "1-0"]
-[WhiteElo "3851"]
-[BlackElo "3840"]
-[ECO "C27"]
-[Opening "Vienna game"]
-[TimeControl "5400+5"]
-[PlyCount "185"]
-[GameDuration "03:15:14"]
-[GameEndTime "2020-04-09T13:48:52.697 CST"]
-[GameStartTime "2020-04-09T10:33:37.704 CST"]
-[TerminationDetails "White mates"]
-
-
-1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5
-8. Qd5 Qf6 9. Nxc7+ Kd8 10. Nxa8 b6 11. Qf3 Nd4 12. Qh3 f4 13. c3 Nc6 14.
-d3 h5 15. Qf3 g5 16. Qd1 Ba6 17. Ne2 h4 18. h3 e4 19. O-O Bxd3 20. Bc2 Ba6
-21. a4 Bb7 22. a5 Nxa5 23. Ba4 Bxa8 24. b4 Nc6 25. Bxc6 Bxc6 26. Nd4 Bd5
-27. Qg4 Nc8 28. Rd1 Rh6 29. Bb2 Bc4 30. b5 Rh7 31. Nc6+ Kc7 32. Nxa7 Nd6
-33. Ba3 Rf7 34. Bxd6+ Bxd6 35. Nc6 Bxb5 36. Nd4 Bd3 37. Ra7+ Kd8 38. Ra8+
-Ke7 39. f3 Bc5 40. Rg8 Rg7 41. Rc8 Bxd4+ 42. cxd4 Qg6 43. fxe4 Qxe4 44. Qh5
-Qe3+ 45. Kh2 Qg3+ 46. Kh1 f3 47. Qxf3 Qxf3 48. gxf3 Bb5 49. Rb8 Rf7 50.
-Re1+ Kd6 51. Rxb6+ Bc6 52. Kg2 Rf4 53. Re4 Rf5 54. Re3 Rd5 55. Rb4 Ra5 56.
-Rb2 Rd5 57. Rd2 Rf5 58. Rdd3 Rf4 59. Kf2 Bd5 60. Rd1 Be6 61. Re4 Rf5 62.
-Rde1 Bd5 63. R4e3 Rf4 64. Rg1 Rf5 65. Rg4 Kc6 66. f4 Rxf4+ 67. Rxf4 gxf4
-68. Re5 Be6 69. d5+ Bxd5 70. Rh5 Kd6 71. Rxh4 Ke5 72. Rg4 Kf5 73. Rg1 Be4
-74. h4 d6 75. Rg8 Ke5 76. h5 Kf6 77. h6 Kf7 78. Rg7+ Kf8 79. Ke2 d5 80. Kd2
-Bf5 81. Ke1 Bd3 82. Kf2 Be4 83. Ke2 d4 84. Rg4 Bc2 85. Kf2 Kf7 86. Rg7+ Kf6
-87. Rc7 d3 88. h7 d2 89. h8=Q+ Kg6 90. Qg7+ Kh5 91. Rc5+ Kh4 92. Qh6+ Kg4
-93. Qh5# 1-0
-{{</inlinechessgame>}}
+{{< lichess "fQhbqakr/Fxd7bE1L#55" >}}
 
 
 #### Game 8: (SF +1)
 Leela plays nearly the same setting as SF in the previous game but not at the right tempo, and finally all advantages evaporate. A draw.
 
+{{< lichess "fQhbqakr/YHSwvQer#39" >}}
 
-{{< chessdiagram "3k1b1r/pb1pq3/1p1n4/6p1/3N1p1p/2P4Q/PP3PPP/R1BR2K1 b - - 2 20" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.09"]
-[Round "8.1"]
-[White "LCZero v0.24-sv-t60-3010"]
-[Black "Stockfish 20200407DC"]
-[Result "1/2-1/2"]
-[WhiteElo "3840"]
-[BlackElo "3851"]
-[ECO "C27"]
-[Opening "Vienna"]
-[Variation "`Frankenstein-Dracula' variation"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "131"]
-[GameDuration "02:57:37"]
-[GameEndTime "2020-04-09T16:47:40.412 CST"]
-[GameStartTime "2020-04-09T13:50:02.705 CST"]
-[TerminationDetails "SyzygyTB"]
-
-1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Qh5 Nd6 5. Bb3 Nc6 6. Nb5 g6 7. Qf3 f5
-8. Qd5 Qe7 9. Nxc7+ Kd8 10. Nxa8 b6 11. Qd3 Bb7 12. Ne2 Bxa8 13. O-O g5 14.
-Qh3 h5 15. d4 h4 16. c3 f4 17. Bd5 exd4 18. Bxc6 Bxc6 19. Nxd4 Bb7 20. Rd1
-Kc8 21. b3 Qf7 22. f3 Bg7 23. Re1 Re8 24. Rxe8+ Qxe8 25. Ba3 Bxd4+ 26. cxd4
-Nb5 27. Rc1+ Kb8 28. Bb2 a5 29. Qf5 Qe3+ 30. Kh1 Ka7 31. h3 g4 32. Qxg4 Qd2
-33. Qxd7 Qxb2 34. Re1 Nxd4 35. Re7 Qa1+ 36. Kh2 Nxf3+ 37. gxf3 Qxa2+ 38.
-Kg1 Qb1+ 39. Kf2 Qb2+ 40. Kf1 Qc1+ 41. Ke2 Qb2+ 42. Qd2 Qxb3 43. Qxf4 Qc2+
-44. Ke1 Ka6 45. Qd2 Qb1+ 46. Ke2 Qb5+ 47. Kf2 a4 48. Qd4 Qc5 49. Qxc5 bxc5
-50. Ke2 Kb6 51. Kd2 a3 52. Kc3 a2 53. Kb2 Bc8 54. Rh7 Bxh3 55. Rxh4 Bg2 56.
-f4 Kc6 57. Rh5 Bd5 58. Re5 Bg8 59. Rg5 Bc4 60. Re5 Kd6 61. Re4 Bd3 62. Re3
-Bb1 63. Ka1 c4 64. Kb2 Kd5 65. Ka1 c3 66. Rxc3 1/2-1/2
-{{</inlinechessgame>}}
 
 #### Game 9: Dutch, Leningrad variation (SF +1)
 **Book 1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. O-O O-O 6. c4 d6 7. Nc3 e6**
 
 This opening gives a good edge to white. Leela chooses a stonewall structure and plays an attack on the k-side. SF reacts on the q-side but strangely closes the game on that side to contest k-side. Interestingly both engines thought they were better. Finally after many swaps the game ends in a draw.
 
+{{< lichess "fQhbqakr/BfrknQEc#54" >}}
 
-{{< chessdiagram "4b1rk/1p2qnrp/p1p1pb2/P1Pp1pp1/1P1P1P2/2QNPBPP/4NK2/2R4R w - - 0 28" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.09"]
-[Round "9.1"]
-[White "Stockfish 20200407DC"]
-[Black "LCZero v0.24-sv-t60-3010"]
-[Result "1/2-1/2"]
-[WhiteElo "3851"]
-[BlackElo "3840"]
-[ECO "A81"]
-[Opening "Dutch defence"]
-[TimeControl "5400+5"]
-[PlyCount "209"]
-[GameDuration "03:16:26"]
-[GameEndTime "2020-04-09T20:05:17.449 CST"]
-[GameStartTime "2020-04-09T16:48:50.707 CST"]
-[TerminationDetails "Fifty moves rule"]
-
-
-1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. O-O O-O 6. c4 d6 7. Nc3 e6 8.
-Re1 Ne4 9. Qc2 d5 10. Bf4 c6 11. e3 Nd7 12. Rac1 Qe7 13. b3 Re8 14. Be5
-Nxe5 15. Nxe5 Bd7 16. Ne2 Rac8 17. c5 Ng5 18. f4 Nf7 19. Nd3 g5 20. h3 Kh8
-21. Qc3 Rg8 22. Bf3 Bf6 23. Kf2 Ra8 24. b4 Rg7 25. a4 Rag8 26. Rh1 Be8 27.
-a5 a6 28. Rcg1 Nd8 29. Qb2 Qf8 30. Kf1 Qe7 31. Kf2 Qf8 32. Rh2 Qe7 33. Qa1
-h5 34. fxg5 Rxg5 35. h4 R5g6 36. Nef4 Rh6 37. Rhg2 Kg7 38. Rf1 Kf8 39. Qe1
-Bf7 40. Qd1 Rgh8 41. Kg1 Ke8 42. Ne5 Qc7 43. Nfd3 Kf8 44. Qe2 Kg8 45. Qf2
-Be8 46. Be2 Nf7 47. Qf4 Nxe5 48. Nxe5 Qg7 49. Kf2 Bd8 50. Rfg1 Bc7 51. Ke1
-R8h7 52. Kd2 Kh8 53. Rf2 Bxe5 54. Qxe5 Qxe5 55. dxe5 Rg7 56. Bf3 Bd7 57.
-Ke2 Rgg6 58. Rff1 Rh7 59. Kf2 Rg8 60. Rd1 Rg6 61. Rh1 Kg8 62. Kg2 Rh8 63.
-Be2 Kg7 64. Kf2 Kh6 65. Bf3 Rhg8 66. Rhg1 Be8 67. Rc1 Rh8 68. Rcd1 Bd7 69.
-Rd4 Ra8 70. Rd2 Rag8 71. Rd3 Rd8 72. Rdd1 Rdg8 73. Be2 R6g7 74. Rd4 Rg6 75.
-Bd3 Ra8 76. Bf1 Rgg8 77. Rh1 Kg7 78. Be2 Kh6 79. Rdd1 Rac8 80. Ra1 Rcf8 81.
-Rhd1 Rg6 82. Kg2 Rfg8 83. Kf2 R6g7 84. Rg1 Rg6 85. Ra3 R6g7 86. Rb3 Kg6 87.
-Kg2 Re7 88. Rd3 Kh6 89. Kf2 Rg6 90. Ke1 Re8 91. Rd4 Rh8 92. Bf3 Rb8 93. Kf2
-Rbg8 94. Be2 R6g7 95. Rg2 Rg6 96. Bd1 Ra8 97. Kg1 Rgg8 98. Kh2 Rac8 99. Rg1
-Rb8 100. Kg2 Rg7 101. Kf2 Rbg8 102. Be2 Be8 103. Bf3 Bd7 104. Rdd1 Rg6 105.
-Be4 1/2-1/2
-{{</inlinechessgame>}}
 
 #### Game 10: (SF +1)
 Long positional torture by Leela. SF chooses the stonewall. Leela attacks on the q-side and SF decides to defend, Leela does not manage to explode the q-side so she goes for the center and SF reacts at k-side and manages to get enough counter play. A fighting draw.
 
+{{< lichess "fQhbqakr/rg7KHU1O#50" >}}
 
-{{< chessdiagram "2r3k1/2rn2bp/1ppq2p1/p2p1p2/3Pn2P/1P1BPNP1/PBR1QPK1/2R5 w - - 2 26" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.09"]
-[Round "10.1"]
-[White "LCZero v0.24-sv-t60-3010"]
-[Black "Stockfish 20200407DC"]
-[Result "1/2-1/2"]
-[WhiteElo "3840"]
-[BlackElo "3851"]
-[ECO "A81"]
-[Opening "Dutch defence"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "235"]
-[GameDuration "03:21:25"]
-[GameEndTime "2020-04-09T23:27:52.899 CST"]
-[GameStartTime "2020-04-09T20:06:27.700 CST"]
-[TerminationDetails "SyzygyTB"]
 
 #### Game 11: French, Winawer variation (SF +1)
 **Book 1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6**
 
-1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. O-O O-O 6. c4 d6 7. Nc3 e6 8.
-Re1 d5 9. b3 Ne4 10. Bb2 c6 11. e3 Nd7 12. Ne2 b6 13. Nf4 Re8 14. cxd5 exd5
-15. Re2 Bb7 16. Rc1 Qe7 17. Rec2 Rac8 18. h4 Qd6 19. Nd3 Ba6 20. Nf4 Bb7
-21. Nd3 Ba6 22. Bf1 Bxd3 23. Bxd3 Rc7 24. Kg2 a5 25. Qe2 Rec8 26. Ba6 Ra8
-27. Bb5 Rac8 28. Ba6 Ra8 29. Bd3 Rac8 30. Qe1 Rf8 31. Be2 Re8 32. Bb5 Rec8
-33. Ba6 Re8 34. Bb5 Rec8 35. Ba6 Ra8 36. Be2 Re8 37. Bd3 Rec8 38. Bf1 h6
-39. Ng1 Nf8 40. Ba6 Re8 41. Bb5 Rec8 42. Ba6 Re8 43. Bb5 Rec8 44. Bd3 Qd7
-45. Ba3 h5 46. Bb2 Ne6 47. Qd1 Kh7 48. a4 Bf8 49. Nh3 Bd6 50. Qe2 Kg8 51.
-Bc3 Rf8 52. Rh1 Rf7 53. Be1 Nf6 54. Qd1 Rg7 55. Qb1 Qe7 56. Rb2 Ba3 57. Rc2
-Bd6 58. Rb2 Ba3 59. Re2 Bd6 60. f3 Bb4 61. Bf2 Qe8 62. Rc2 Rge7 63. Rhc1
-Ba3 64. Rf1 Bb4 65. Qb2 Qd7 66. Ng1 Qd6 67. Qb1 Qd8 68. Rfc1 Ba3 69. Rd1
-Qd6 70. Rf1 Bb4 71. Rfc1 Qd7 72. Rf1 Rc8 73. Qc1 Kg7 74. Bb5 Nd8 75. Be2
-Ne6 76. Bd3 Rc7 77. Qa1 Qe8 78. Rfc1 Kh7 79. Nh3 Kg7 80. Qb2 Bd6 81. Re2
-Kg8 82. Be1 Rg7 83. b4 g5 84. Bxf5 gxh4 85. e4 dxe4 86. fxe4 Rcf7 87. d5
-Bxg3 88. Kh1 Nxd5 89. exd5 Rxf5 90. Bc3 Qf7 91. dxe6 Rf1+ 92. Ng1 Qf3+ 93.
-Rg2 h3 94. Rxf1 hxg2+ 95. Qxg2 Qxg2+ 96. Kxg2 Be5+ 97. Kf3 Bxc3 98. bxa5
-bxa5 99. Ne2 Be5 100. Ke4 Bd6 101. Rd1 Be7 102. Nd4 Rg6 103. Ke5 Bf6+ 104.
-Kd6 Rg4 105. Nxc6 Rxa4 106. Ne7+ Kf8 107. Nd5 Bg5 108. Ke5 Rg4 109. Rf1+
-Kg7 110. e7 Bxe7 111. Nxe7 Kh6 112. Kf6 h4 113. Rc1 Rb4 114. Nd5 Rb3 115.
-Nf4 h3 116. Rc5 Rb6+ 117. Kf7 Kh7 118. Nxh3 1/2-1/2
-{{</inlinechessgame>}}
-
 
 The worst opening for SF. Playing the anti positional c4 move SF proves one more time that it does not understand this opening. Leela equalized with a clever Kd7 move after sacrificing g7 pawn for counter play on k-side. Draw.
 
-
-{{< chessdiagram "r6r/p2kbpQp/1p6/3pPq2/P2p4/7P/1P3PP1/R1BR2K1 w - - 1 21" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.09"]
-[Round "11.1"]
-[White "Stockfish 20200407DC"]
-[Black "LCZero v0.24-sv-t60-3010"]
-[Result "1/2-1/2"]
-[WhiteElo "3851"]
-[BlackElo "3840"]
-[ECO "C16"]
-[Opening "French"]
-[Variation "Winawer, advance variation"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "80"]
-[GameDuration "01:59:41"]
-[GameEndTime "2020-04-10T01:28:44.014 CST"]
-[GameStartTime "2020-04-09T23:29:02.704 CST"]
-[TerminationDetails "TCEC draw rule"]
-
-
-1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6 5. Qg4 Bf8 6. Nf3 Qd7 7. Bb5 c6 8.
-Be2 Ba6 9. O-O Ne7 10. a4 Ng6 11. Rd1 Bxe2 12. Nxe2 c5 13. c4 Nc6 14. Nf4
-Nxd4 15. Nxd4 cxd4 16. cxd5 Nxf4 17. Qxf4 exd5 18. Qg3 Qf5 19. h3 Be7 20.
-Qxg7 Kd7 21. Qg3 Rhg8 22. Qb3 Qe4 23. g3 Rac8 24. a5 Bh4 25. Qa4+ Ke6 26.
-Qxd4 Qxd4 27. Rxd4 Be7 28. Be3 Rc2 29. Rf4 Bg5 30. Rg4 Bxe3 31. Rxg8 Rxf2
-32. axb6 axb6 33. Re8+ Kd7 34. Raa8 Rf3+ 35. Kg2 Rf2+ 36. Kh1 Rf1+ 37. Kg2
-Rf2+ 38. Kg1 Rf4+ 39. Kh1 Rf1+ 40. Kh2 Rf2+ 1/2-1/2
-{{</inlinechessgame>}}
+{{< lichess "fQhbqakr/c6JOyD7Q#40" >}}
 
 
 #### Game 12: (Leela equalizes)
 The game all Leela fans waited for. Classical play by Leela on k-side with g4-h5, Rh3 setup. SF reacts by closing the q-side with c4? and then a4?? At this point he thinks white has a slight edge whereas Leela and all club players know that the position is hopeless for black. The remainder of the game is just technical for Leela. A game to analyse by the SF dev team.
 
-
-{{< chessdiagram "r2nkb1r/1q3pp1/2n1p2p/1p1pP2P/p1pP1NP1/P1P1BN1R/1P3PK1/1R1Q4 b kq - 0 22" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.10"]
-[Round "12.1"]
-[White "LCZero v0.24-sv-t60-3010"]
-[Black "Stockfish 20200407DC"]
-[Result "1-0"]
-[WhiteElo "3840"]
-[BlackElo "3851"]
-[ECO "C16"]
-[Opening "French"]
-[Variation "Winawer, advance variation"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "360"]
-[GameDuration "03:33:36"]
-[GameEndTime "2020-04-10T05:03:29.748 CST"]
-[GameStartTime "2020-04-10T01:29:53.705 CST"]
-[TerminationDetails "SyzygyTB"]
-
-1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6 5. h4 Bf8 6. Nf3 c5 7. Ne2 Ba6 8. c3
-Ne7 9. h5 h6 10. Nf4 Bxf1 11. Kxf1 Nbc6 12. Bd2 a5 13. Rh3 Nf5 14. g4 Nfe7
-15. Kg2 Qc7 16. Be3 Nd8 17. Rb1 Nec6 18. Rg3 Qb7 19. Rh3 a4 20. Nd3 c4 21.
-Nf4 b5 22. a3 Qd7 23. Qc2 Nb7 24. Kh2 Be7 25. Ng2 O-O-O 26. Nfh4 Rhf8 27.
-f3 f6 28. f4 Rde8 29. Ng6 Rf7 30. Kg1 fxe5 31. fxe5 Bd8 32. Rf1 Rxf1+ 33.
-Kxf1 Qf7+ 34. Qf2 Qg8 35. Rf3 Be7 36. Kg1 Nbd8 37. Bd2 Kc7 38. Qf1 Kb6 39.
-Ne1 Nb7 40. Rf7 Nbd8 41. Rf2 Kc7 42. Rf3 Nb8 43. Ng2 Nd7 44. Be1 Bg5 45.
-Bh4 Bxh4 46. N2xh4 Nc6 47. Rf4 Ra8 48. Ng2 Re8 49. Kh2 Nd8 50. Kg3 Kb7 51.
-Kh4 Qh7 52. Qf3 Kc7 53. Ne3 Qg8 54. g5 hxg5+ 55. Kxg5 Kb6 56. Kg4 Kc7 57.
-Ng2 Nc6 58. Kg3 Nd8 59. Kh4 Nc6 60. Kh3 Ra8 61. Kg3 Kb6 62. Qg4 Qe8 63. Rf3
-Ra7 64. N2f4 Nd8 65. Nh3 Rc7 66. Ng5 Ra7 67. Kg2 Ka6 68. Rf2 Rc7 69. Kg3
-Ra7 70. Rf3 Kb6 71. Kg2 Rc7 72. Rf2 Ka5 73. Qf4 Qg8 74. Kg3 Ka6 75. Qg4 Ka5
-76. Rf3 Qe8 77. Qf4 Ra7 78. Rf2 Qg8 79. Kg2 Rc7 80. Qf3 Qe8 81. Rf1 Rb7 82.
-Kg3 Qg8 83. Qg4 Rc7 84. Rf2 Ra7 85. Rf4 Qe8 86. Kg2 Kb6 87. Rf2 b4 88. cxb4
-Rc7 89. Rf3 Ka7 90. Nf4 Nf8 91. Ne2 Re7 92. Nc3 Kb8 93. Rf2 Nd7 94. Qh4 Nb6
-95. Qg4 Qd7 96. Rf8 Re8 97. Rxe8 Qxe8 98. Nf3 Qh8 99. Qg5 Nf7 100. Qg6 Nd8
-101. b5 Qf8 102. Qg4 Kc8 103. Kf2 Kd7 104. Ke1 Nf7 105. Qf4 Qg8 106. Nh4
-Nh6 107. Kd2 Kc7 108. Kc1 Qe8 109. Qg5 Qd7 110. Kb1 Kb7 111. Qg6 Qe7 112.
-Ka2 Kc7 113. Qg3 Kb8 114. Qf4 Qd8 115. Qg3 Qe7 116. Qf4 Qd8 117. Kb1 Kb7
-118. Ka1 Kc7 119. Qg3 Qe7 120. Kb1 Kb7 121. Ka1 Kc8 122. Qf4 Qe8 123. Ka2
-Kd8 124. Qg5+ Qe7 125. Qxe7+ Kxe7 126. Kb1 Ng4 127. Kc2 Nf2 128. Ne2 Ne4
-129. Nf3 Kd7 130. Nd2 Nf2 131. Nf4 Ke7 132. Nb1 Ne4 133. Ne2 Kd8 134. Nbc3
-Ng5 135. Kd2 Nf3+ 136. Ke3 Nh4 137. Kf4 Ke7 138. Nd1 Ng2+ 139. Kg3 Ne1 140.
-Kg4 Kf7 141. Kf4 Nc8 142. Ke3 g6 143. hxg6+ Kxg6 144. Kd2 Nd3 145. Nc1 Nf4
-146. Kc3 Kf7 147. Kb4 Ke8 148. Kxa4 Ne7 149. Kb4 Kd8 150. b3 Nf5 151. bxc4
-Nxd4 152. Ne3 Nf3 153. cxd5 exd5 154. Kc5 d4 155. Nc4 d3 156. Nb3 Kd7 157.
-Nbd2 Ng5 158. Kd4 Nge6+ 159. Ke4 Ne2 160. Kxd3 Nc1+ 161. Kc3 Ne2+ 162. Kb4
-N2f4 163. Ne4 Nd3+ 164. Kc3 Ndf4 165. a4 Nd5+ 166. Kb3 Ndc7 167. Kb4 Nd5+
-168. Ka3 Ndc7 169. Kb4 Nd5+ 170. Kb3 Ndc7 171. Ne3 Kd8 172. b6 Na6 173. Kc4
-Kc8 174. Kb5 Nb8 175. Nc5 Nd4+ 176. Kc4 Ndc6 177. e6 Kd8 178. Nd7 Nxd7 179.
-exd7 Ke7 180. d8=Q+ Kxd8 1-0
-{{</inlinechessgame>}}
+{{< lichess "fQhbqakr/HblUvhjc#43" >}}
 
 
 
@@ -630,207 +166,27 @@ exd7 Ke7 180. d8=Q+ Kxd8 1-0
 
 Another opening that SF does not understand but Leela does. SF plays on the q-side and keeps the center closed. Since in Benoni black must play on q-side and white in the center this results in a fighting draw where SF gets a pawn up but nothing to convert.
 
-
-{{< chessdiagram "r2qr1k1/p1n2pb1/bp1p1npp/2pP4/P1N1P3/2N1BP2/1P2B1PP/R2Q1RK1 b - - 1 15" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.10"]
-[Round "13.1"]
-[White "Stockfish 20200407DC"]
-[Black "LCZero v0.24-sv-t60-3010"]
-[Result "1/2-1/2"]
-[WhiteElo "3851"]
-[BlackElo "3840"]
-[ECO "A61"]
-[Opening "Benoni"]
-[Variation "Nimzovich (knight's tour) variation"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "291"]
-[GameDuration "03:26:24"]
-[GameEndTime "2020-04-10T08:31:04.422 CST"]
-[GameStartTime "2020-04-10T05:04:39.707 CST"]
-[TerminationDetails "TCEC draw rule"]
-
-
-1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Nd2 Bg7 8.
-e4 O-O 9. Be2 Na6 10. O-O Nc7 11. a4 Re8 12. f3 b6 13. Nc4 Ba6 14. Bg5 h6
-15. Be3 Bxc4 16. Bxc4 a6 17. Qd2 Kh7 18. Rab1 Rb8 19. b4 b5 20. axb5 axb5
-21. Be2 Nd7 22. bxc5 Nxc5 23. Nxb5 Nxb5 24. Bxb5 Re7 25. Bd3 Reb7 26. Rxb7
-Rxb7 27. Rb1 Rxb1+ 28. Bxb1 Qf6 29. Bc2 Qa1+ 30. Qd1 Qa3 31. Qe2 Qa1+ 32.
-Qd1 Qa3 33. Bf2 Qc3 34. g3 h5 35. Kf1 Kg8 36. Be1 Qe3 37. Bd2 Qa3 38. Kg2
-Bf6 39. Qe2 h4 40. Be3 Nd7 41. Qd3 Qb2 42. Bf2 hxg3 43. hxg3 Qb4 44. Qb3
-Qd2 45. Qd3 Qb4 46. Be3 Nc5 47. Qd1 Nd7 48. Qb1 Qc3 49. Qb3 Qa1 50. Qb4 Ne5
-51. Bf2 Kg7 52. Qb3 g5 53. Bd1 Qa5 54. Qa4 Qd8 55. Be3 Qc8 56. Qc2 Qd8 57.
-Qc1 Nd3 58. Qd2 Ne5 59. Be2 Qe7 60. Qc2 Qd8 61. Qd2 Ng6 62. Kg1 Qe7 63. Qb4
-Ne5 64. Qb1 Ng6 65. Qc2 Qd8 66. Qc6 Qe7 67. Qc8 Qe5 68. Kf2 Qa1 69. Qc1 Qe5
-70. Bd3 Qe7 71. Qc8 Qe5 72. Qc1 Qe7 73. Qc2 Ne5 74. Be2 Ng6 75. Qc8 Qe5 76.
-Qc2 Qe7 77. Kg2 Qd8 78. Qc4 Qe7 79. Bb6 Qe5 80. Qc2 Qe7 81. Be3 Qd8 82. Qd2
-Qe7 83. Qb4 Qc7 84. Qb3 Qe7 85. Qc4 Qd8 86. Bd1 Ne5 87. Qc2 Ng6 88. Be2 Qe8
-89. Ba6 Ne5 90. Bd4 Qd8 91. Qc3 Ng6 92. Bc8 Bxd4 93. Qxd4+ Ne5 94. Bf5 Qf6
-95. f4 gxf4 96. gxf4 Ng4 97. Qxf6+ Nxf6 98. Kf2 Kf8 99. Ke3 Ke7 100. Bh3
-Kd8 101. Kd3 Nh5 102. Ke3 Nf6 103. Bg2 Nd7 104. Kd4 f6 105. Ke3 Nc5 106.
-Bh3 Ke8 107. Kd4 Kd8 108. e5 fxe5+ 109. fxe5 Nb3+ 110. Kc4 Nd2+ 111. Kd3
-Nb3 112. e6 Nc5+ 113. Ke3 Ke7 114. Kf3 Na4 115. Kf4 Nb6 116. Bg2 Kf6 117.
-Be4 Na8 118. Bd3 Nc7 119. Bc4 Ne8 120. Ke4 Ke7 121. Kd4 Nf6 122. Ke3 Ke8
-123. Kd4 Ng8 124. Bb5+ Ke7 125. Bd3 Nf6 126. Bb5 Ng8 127. Bf1 Ke8 128. Bd3
-Ke7 129. Ke3 Nf6 130. Kd4 Ng8 131. Bc2 Nf6 132. Ba4 Ng8 133. Kc4 Nf6 134.
-Bb3 Ng8 135. Bc2 Nf6 136. Bg6 Ng8 137. Kb5 Nf6 138. Kc4 Ng8 139. Kb5 Nf6
-140. Kc6 Ng4 141. Be4 Nf6 142. Bf3 Ng8 143. Bd1 Nf6 144. Bf3 Ng8 145. Kb6
-Nf6 146. Kb7 1/2-1/2
-{{</inlinechessgame>}}
+{{< lichess "fQhbqakr/CZ0IYXbu#29" >}}
 
 
 #### Game 14: (Leela +1)
 New nightmare for SF. It swaps, early in the game, the Bg7 against the Nc3 and allows white to block q-side with Nb6. The only compensation it gets is the e-pawn. All Benoni players know that it is not enough. Weaknesses on DS and closed q-side is too much. At this point, on move 19, the game is positionaly lost and SF eval is just +0.7 Leela fights to take control of the e-file, SF gives the pawn back on the a-file to delay the logical result : Leela wins with a devastating rook on e6.
 
+{{< lichess "fQhbqakr/7PbXUQl4#37" >}}}
 
-{{< chessdiagram "1rb1nrk1/1p2q2p/pN1p2p1/2pP1p2/P3nP2/2P2B1P/6PK/R1B1QR2 b - - 1 19" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.10"]
-[Round "14.1"]
-[White "LCZero v0.24-sv-t60-3010"]
-[Black "Stockfish 20200407DC"]
-[Result "1-0"]
-[WhiteElo "3840"]
-[BlackElo "3851"]
-[ECO "A61"]
-[Opening "Benoni"]
-[Variation "Nimzovich (knight's tour) variation"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "171"]
-[GameDuration "03:14:47"]
-[GameEndTime "2020-04-10T11:47:01.711 CST"]
-[GameStartTime "2020-04-10T08:32:14.706 CST"]
-[TerminationDetails "TCEC win rule"]
-
-
-1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 d6 6. Nf3 g6 7. Nd2 Bg7 8.
-e4 O-O 9. Be2 Nbd7 10. h3 Ne8 11. O-O a6 12. a4 Rb8 13. Nc4 Qe7 14. f4 Bd4+
-15. Kh2 Ndf6 16. Bf3 Bxc3 17. bxc3 Nxe4 18. Qe1 f5 19. Nb6 N8f6 20. c4 Bd7
-21. Ra3 h5 22. Kg1 Rf7 23. Re3 a5 24. Qxa5 Qd8 25. Bb2 h4 26. Rfe1 Kh7 27.
-Rb3 Qf8 28. Bxf6 Nxf6 29. Qd2 Qg7 30. a5 Kg8 31. Qf2 g5 32. Nxd7 Nxd7 33.
-Bh5 Rff8 34. Re6 Nf6 35. Qe2 Qh6 36. Bf3 g4 37. hxg4 fxg4 38. Bxg4 Qxf4 39.
-Bh3 Qc1+ 40. Qe1 Qxe1+ 41. Rxe1 Kg7 42. Rb6 Rfd8 43. Reb1 Ra8 44. Rxb7+ Kg6
-45. Ra1 Ra6 46. Rb6 Ra7 47. a6 Kg5 48. Rf1 Nh5 49. Rf5+ Kg6 50. Re5 Nf4 51.
-Kh2 Kh6 52. Rf5 Nh5 53. Bg4 Ng3 54. Re5 Kg6 55. Bd1 Rf7 56. Bc2+ Kf6 57.
-Re6+ Kg5 58. Rbxd6 Rxd6 59. Rxd6 Ra7 60. Bd3 Kf4 61. Re6 Kg4 62. Kg1 Kg5
-63. Kf2 Nh5 64. Kf3 Nf6 65. Ke3 Ng4+ 66. Kd2 Kf4 67. Be2 Ne5 68. Kc3 Rg7
-69. Bf1 Ra7 70. Kb3 Ng4 71. Ka4 Ra8 72. Kb5 Ne5 73. Kxc5 Rc8+ 74. Kd4 Nd7
-75. Re7 Nc5 76. a7 Nb3+ 77. Kc3 Nc5 78. Kb4 Ne4 79. g3+ Kf3 80. gxh4 Ra8
-81. Bg2+ Kxg2 82. Rxe4 Rxa7 83. d6 Rb7+ 84. Kc5 Rf7 85. Re7 Rf5+ 86. Kb6
-1-0
-{{</inlinechessgame>}}
 
 #### Game 15: Modern, Robatsch defense (Leela +1)
 **Book 1. e4 g6 2. d4 d6 3. Nc3 a6**
 
-SF chooses the 3 pawns attack, Leela reacts immediately with a6-b5 and, for a pawn, gets the control of LS on the q-side and the center. On move 20, she has enough counter play to get an easy draw in a simple endgame. Good positional play for Leela
+SF chooses the 3 pawns attack, Leela reacts immediately with a6-b5 and, for a pawn, gets the control of LS on the q-side and the center. On move 20, she has enough counter play to get an easy draw in a simple endgame. Good positional play for Leela.
 
-
-{{< chessdiagram "1r1q1rk1/1b1nppbp/p5p1/4N3/P2P1P2/2P5/2Q1N1PP/1RB2RK1 b - - 8 21" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.10"]
-[Round "15.1"]
-[White "Stockfish 20200407DC"]
-[Black "LCZero v0.24-sv-t60-3010"]
-[Result "1/2-1/2"]
-[WhiteElo "3851"]
-[BlackElo "3840"]
-[ECO "B06"]
-[Opening "Robatsch (modern) defence"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "70"]
-[GameDuration "01:47:40"]
-[GameEndTime "2020-04-10T13:35:52.569 CST"]
-[GameStartTime "2020-04-10T11:48:11.706 CST"]
-[TerminationDetails "TCEC draw rule"]
-
-
-1. e4 g6 2. d4 d6 3. Nc3 a6 4. f4 b5 5. Bd3 Nd7 6. a4 b4 7. Nce2 c5 8. c3
-d5 9. exd5 Ngf6 10. Nf3 Bg7 11. O-O bxc3 12. bxc3 Nxd5 13. Bc4 Bb7 14. Qb3
-N7b6 15. Rb1 Nxc4 16. Qxc4 Nb6 17. Qxc5 Nd7 18. Qc4 Rc8 19. Qb3 Rb8 20. Qc2
-O-O 21. Ne5 Ba8 22. Rxb8 Nxb8 23. Ba3 Qd5 24. Rf2 Nc6 25. Nf3 Rc8 26. Qd3
-Qa5 27. f5 Qxf5 28. Qxf5 gxf5 29. d5 Nb8 30. Bxe7 Bxd5 31. Nfd4 Be4 32. Bd6
-Rd8 33. Bc7 Rc8 34. Bd6 Rd8 35. Bc7 Rc8 1/2-1/2
-{{</inlinechessgame>}}
+{{< lichess "fQhbqakr/TH1IpujV#41" >}}
 
 
 #### Game 16: (SF equalizes)
 Drama Leela blunders and loses the game. She chooses a Be3, h4, 0-0-0 setup and begins a long positional torture. But SF manages to resist and Leela blunders.
 
-
-{{< chessdiagram "4r3/1r3qk1/4p1p1/3pR1Pp/p1p2P1P/P1P1Q3/KP2R3/8 w - - 5 62" >}}
-
-
-{{<inlinechessgame>}}
-[Event "TCEC Season 17 - Superfinal"]
-[Site "https://tcec-chess.com"]
-[Date "2020.04.10"]
-[Round "16.1"]
-[White "LCZero v0.24-sv-t60-3010"]
-[Black "Stockfish 20200407DC"]
-[Result "0-1"]
-[WhiteElo "3840"]
-[BlackElo "3851"]
-[ECO "B06"]
-[Opening "Robatsch (modern) defence"]
-[TimeControl "5400+5"]
-[Termination "adjudication"]
-[PlyCount "391"]
-[GameDuration "03:39:53"]
-[GameEndTime "2020-04-10T17:16:55.771 CST"]
-[GameStartTime "2020-04-10T13:37:02.705 CST"]
-[TerminationDetails "TCEC win rule"]
-
-1. e4 g6 2. d4 d6 3. Nc3 a6 4. Be3 Bg7 5. h4 h5 6. Nh3 Bxh3 7. Rxh3 Nd7 8.
-Qe2 Qc8 9. O-O-O c5 10. Kb1 b5 11. Nd5 Ngf6 12. dxc5 Nxd5 13. exd5 Nxc5 14.
-Bd4 O-O 15. Re3 Qf5 16. g3 Bf6 17. f3 Bxd4 18. Rxd4 Ra7 19. Qd2 Qf6 20. a3
-Rb7 21. Rf4 Qh8 22. Qe1 Re8 23. g4 Qh6 24. Rb4 Qh8 25. Rf4 Qh6 26. Rb4 Qh8
-27. g5 Kh7 28. Ka2 Ra7 29. Rf4 Qg7 30. c3 Qf8 31. Rd4 e5 32. dxe6 fxe6 33.
-Qd2 d5 34. Be2 Rae7 35. Bd1 Nb7 36. Qh2 Rf7 37. Bc2 Nd6 38. Bd3 Nc4 39.
-Bxc4 bxc4 40. Qe2 Rfe7 41. Re5 a5 42. Ka1 a4 43. Qe3 Kg7 44. Ka2 Kh7 45.
-Rd2 Qg7 46. Ka1 Qf7 47. Rd4 Qg7 48. Qe1 Qf7 49. Qe3 Qg7 50. Kb1 Qf8 51. Ka2
-Qg7 52. Ka1 Kh8 53. Rd2 Qf8 54. Ka2 Kh7 55. Rg2 Qg7 56. Rf2 Qf8 57. Rg2 Qg7
-58. Rf2 Qf8 59. f4 Qf7 60. Rg2 Kg7 61. Re2 Rb7 62. Qd4 Kh7 63. Qe3 Kg7 64.
-Rd2 Ree7 65. Qd4 Kh7 66. Qe3 Qe8 67. Qe1 Kg7 68. Qe3 Qd7 69. Qd4 Kg8 70.
-Rde2 Qb5 71. Ka1 Qd7 72. R5e3 Qe8 73. Re1 Kh7 74. R3e2 Qf7 75. Re5 Re8 76.
-Qf2 Qd7 77. R1e2 Qf7 78. Re1 Rb3 79. Qe3 Rb7 80. Rf1 Ree7 81. Re1 Re8 82.
-f5 gxf5 83. Rd1 Rbe7 84. Re1 Rb7 85. Rd1 Rbe7 86. Rf1 Kg8 87. Rf4 Kg7 88.
-Qd4 Kh7 89. Rf1 Rb8 90. Qe3 Rbe8 91. Qe2 Kg7 92. Rf2 Kh7 93. Rf1 Kg8 94.
-Qe3 Kh7 95. Ka2 Kg7 96. Rf2 Kg8 97. Re2 Rb7 98. Ka1 Kg7 99. Qd4 Kh7 100.
-Qf2 Kg8 101. Qe3 Qg6 102. Re1 Kh7 103. Rd1 Rbb8 104. Re1 Rb7 105. Rf1 Ree7
-106. Qe1 Qe8 107. Qe2 Kg8 108. Rd1 Qf7 109. Re1 Rbd7 110. Rg1 Qg6 111. Rf1
-Qf7 112. Qe3 Rb7 113. Re1 Qe8 114. Rd1 Qb5 115. Qe2 Qe8 116. Rd2 Rbd7 117.
-Rd1 Rd6 118. Qe3 Qg6 119. Qc5 Red7 120. Rf1 Qf7 121. Rd1 Kh7 122. Rde1 Kg7
-123. Kb1 Rd8 124. Qe3 Rf8 125. Qc5 Ra6 126. Qe3 Qg6 127. Qc5 Kg8 128. Ka1
-Qf7 129. Qb5 Rfa8 130. g6 Qxg6 131. R5e2 Kh8 132. Qd7 R8a7 133. Qb5 Qg8
-134. Rh2 Ra8 135. Qc5 Qf7 136. Qd4+ Kh7 137. Rg2 Rg8 138. Rxg8 Qxg8 139.
-Rg1 e5 140. Qc5 Qf7 141. Rg5 Rg6 142. Rxh5+ Rh6 143. Rg5 Rxh4 144. Rg1 f4
-145. Qf2 Rh6 146. Kb1 Rh5 147. Ka2 e4 148. Qe2 f3 149. Qf2 Qc7 150. Qe3 Qf7
-151. Qf2 Qc7 152. Qe3 Rh3 153. Rd1 Qb7 154. Rb1 Qf7 155. Qf2 Kg6 156. Rg1+
-Kf5 157. Qc5 Kf4 158. Qd6+ Ke3 159. Qb6+ Ke2 160. Qd4 f2 161. Qd1+ Ke3 162.
-Qd4+ Kf3 163. Qd1+ Kf4 164. Qd2+ e3 165. Qd4+ Kf5 166. Qg4+ Kf6 167. Qd4+
-Ke7 168. Qe5+ Kd7 169. Rg7 f1=Q 170. Qxd5+ Ke8 171. Qa8+ Ke7 172. Qb7+ Kf8
-173. Rxf7+ Qxf7 174. Qc8+ Ke7 175. Qxh3 e2 176. Qh4+ Qf6 177. Qg3 Qe6 178.
-Qc7+ Ke8 179. Qb8+ Kd7 180. Qb7+ Kd6 181. Qb6+ Kd5 182. Qb7+ Ke5 183. Qh1
-Kf4 184. Qh2+ Ke3 185. Qg1+ Kd2 186. Qd4+ Kc2 187. Qf2 Qe4 188. Qh2 Kd1
-189. Qh5 Qc2 190. Qg4 Kc1 191. Qg1+ Qd1 192. Qg5+ Qd2 193. Qg1+ e1=Q 194.
-Qxe1+ Qxe1 195. Ka1 Kc2+ 196. Ka2 0-1
-{{</inlinechessgame>}}
+{{< lichess "fQhbqakr/C1LauzY1#122" >}}
 
 
 #### Game 17: Budapest gambit
@@ -838,17 +194,13 @@ Qxe1+ Qxe1 195. Ka1 Kc2+ 196. Ka2 0-1
 
 SF chose a solid a2-b3-c4, e3-f4 and Bd2 setup. Leela reacts with g6 and Bg7 and begins to attack the q-side. After all pawns disappear on the q-side and center and some piece swap, SF wins a pawn but with the pawns only on k-side this is not enough to win. Good positional evaluation of the game for Leela.
 
-
-{{< chessdiagram "r1bq1rk1/1pp2pbp/n2p2p1/p1n5/1PP2P2/P1N1PB2/1B4PP/R1NQ1RK1 b - - 0 15" >}}
-
+{{< lichess "fQhbqakr/igdXDwba#29" >}}
 
 
 #### Game 18:
 A masterpiece of positional play. May be one of the best games of the match. A very complex game to watch absolutely and to analyse with an engine. Leela decides for the same pawn setting that SF chose in the previous game. But she puts the pieces on other squares compared to SF and begins a long positional domination of all parts of the board. She manages to get SF queen for two rooks and a pawn, and something that seems to be a drawn endgame. She continues the pressure and gets a likely won game threatening to infilter her king on weak LS in the k-side. SF sees the win and she misses it in zeitnot. 5 second increment is not enough for her to play such a difficult attack. Draw.
 
-
-{{< chessdiagram "1r6/1r2k1p1/1pQpBb1p/p2P4/P4P2/1P3K2/7P/8 w - - 25 53" >}}
-
+{{< lichess "fQhbqakr/TDIWc7P0#104" >}}
 
 
 #### Game 19: Sicilian
@@ -856,18 +208,13 @@ A masterpiece of positional play. May be one of the best games of the match. A v
 
 Leela 7...Be7 seems to be a new move. She manages to equalize pushing the d7 pawn to d5. After a fight around isolated d5, SF gets nothing. Draw.
 
-
-{{< chessdiagram "r1b1k2r/ppq1bppp/2n1pn2/3p4/4P3/1NN1B3/PPP1QPPP/2KR1B1R w kq - 0 10" >}}
-
-
+{{< lichess "fQhbqakr/QY5SDD0O#18" >}}
 
 
 #### Game 20:
 Long positional torture. Leela gets the d-file and space on the k-side. SF gets enough counter play on semi-open b-file after Leela castles long. Draw.
 
-
-{{< chessdiagram "r3r1k1/4qppp/2ppb3/p3n3/4P3/P1B1Q3/1PP1B1PP/2KR3R b - - 3 23" >}}
-
+{{< lichess "fQhbqakr/64hyTbyM#45" >}}
 
 
 #### Game 21: KID, Saemisch variation
