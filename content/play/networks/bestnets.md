@@ -9,31 +9,56 @@ There is no single "best net" for Leela but there a few worth recommending for v
 ---
 
 ### Size versus Recommended Purpose
-* <10b: Recommended for sparring vs humans
-* 10b: Recommended for running on CPU
-* 20b: Recommended for running on non-RTX cards or TC on the order of seconds (with RTX)
+* 30b: Recommended for multi-GPU (RTX), long analysis, or when speed isn't a major factor
 * 24b: Recommended for TC > 1 minute per move with an RTX card
-* \>24b: Recommended for long analysis or when speed isn't a major factor
+* 20b: Recommended for running on non-RTX cards or TC on the order of seconds (with RTX)
+* 10b: Recommended for running on CPU
+* <10b: Recommended for sparring vs humans
 
-### Network List
+## Network Lists
 
-For nets of the same size, the first net listed is likely the strongest.
+In each section, the nets are listed in descending order of strength.
 
+
+### 30 blocks x 384 filters:
+| Name             | Source for Download               | Notes            |
+|------------------|-----------------------------------|------------------|
+| 384x30-t60-3010 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data. Won CCC13 and TCEC 17 |
+| 384x30-t40-1705| [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/) | Trained on T40 data |
+
+
+### 24 blocks x 320 filters:
+| Name             | Source for Download               | Notes            |
+|------------------|-----------------------------------|------------------|
+| Latest T60       | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Current main run |
+| J13B.2-136       | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | "Terminator 2" Net |
+
+
+### 20 blocks x 256 filters:
+| Name             | Source for Download               | Notes            |
+|------------------|-----------------------------------|------------------|
+| Leelenstein 14.2 | [Patreon: jjosh](https://www.patreon.com/posts/ls-14-2-35886573) | Early Access (Patrons only) |
+| Leelenstein 14.0 | [14.0 Post](https://www.patreon.com/posts/ls-14-34414677) | No account required |
+| SV-20b-t40-1541  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/) | Trained on T40 data |
+| 42850   | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
+
+
+### 10 blocks x 128 filters:
+| Name             | Source for Download               | Notes            |
+|------------------|-----------------------------------|------------------|
+| 591226  | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=47e3f899519dc1bc95496a457b77730fce7b0b89b6187af5c01ecbbd02e88398) | Last T59 net |
+| Latest T70  | [lczero.org run 2 networks](training.lczero.org/networks/1) | Current test run |
+| Little Demon 2 | [data.lczero.org repository](http://data.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
+
+
+### Asorted sizes:
 | Size   | Name             | Source for Download               | Notes            |
 |--------|------------------|-----------------------------------|------------------|
-| 5b x 48f   | Good Gyal 5      | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
-| 9b x 112f  | ID11258-112x9-se | [GitHub: dkappe Distilled Networks](https://github.com/dkappe/leela-chess-weights/wiki/Distilled-Networks) | Other sizes also here |
-| 10b x 128f | Latest T59  | [lczero.org run 2 networks](https://training.lczero.org/get_network?sha=47e3f899519dc1bc95496a457b77730fce7b0b89b6187af5c01ecbbd02e88398) 591226. | A previous test run |
-| 10b x 128f | Little Demon 2 | [data.lczero.org repository](http://data.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
 | 16b x 192f | J20-460          | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
-| 20b x 256f | Leelenstein 14.2 | [Patreon: jjosh](https://www.patreon.com/posts/ls-14-2-35886573) | Early Access |
-| 20b x 256f | SV-20b-t40-1541  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/) | Trained on T40 data |
-| 20b x 256f | Leelenstein 14.0 | [14.0 Post](https://www.patreon.com/posts/ls-14-34414677) | No account required |
-| 20b x 256f | T40: #42850   | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Last T40 net |
-| 24b x 320f | Latest T60       | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Current main run |
-| 24b x 320f | J13B.2-136       | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | "Terminator 2" Net |
-| 30b x 384f | 	384x30-t60-3010, 384x30-t60-3044 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data |
-| 30b x 384f | SV-30b-t40-1705| [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/) | Trained on T40 data |
+| 9b x 112f  | ID11258-112x9-se | [GitHub: dkappe Distilled Networks](https://github.com/dkappe/leela-chess-weights/wiki/Distilled-Networks) | Other sizes also here |
+| 5b x 48f   | Good Gyal 5      | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
+| 2b x 16f   | Tiny Gyal      | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
+
 
 Note: The Sergio-V nets are also available on [data.lczero.org](http://data.lczero.org/files/networks-contrib/sergio-v/) in some cases.
 
@@ -41,9 +66,9 @@ Note: The Sergio-V nets are also available on [data.lczero.org](http://data.lcze
 
 ### "This is all too complicated. Just tell me what net to use!"
 
-If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, pick a medium size 20b net, which should do reasonably well (if not optimal) under most common conditions.
+If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, pick a medium size 20b net, which should do reasonably well (if not optimally) under most common conditions.
 
-As in the table above, the top-recommended 20b net is `256x20-t40-1541.pb.gz` from [Sergio Vieri's repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/).
+The strongest 20b nets are the Leelensein ones listed above but these aren't trained purely on Lc0 data. The best 20b net trained only on Lc0 data is `256x20-t40-1541.pb.gz` from [Sergio Vieri's repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/).
 
 ---
 
