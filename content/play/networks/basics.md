@@ -1,7 +1,6 @@
 ---
 title: "What are networks and runs?"
 weight: 100
-draft: true
 ---
 
 Over the two years, people inside and outside of LCZero team produced hundreds of thousand of neural networks.
@@ -92,3 +91,7 @@ TODO(finish this)
 ### Distilled networks
 
 TODO(write this)
+
+### External networks
+
+TODO(also write this)
