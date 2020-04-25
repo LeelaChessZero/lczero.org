@@ -74,4 +74,4 @@ Nets by Sergiovieri, [found here](https://www.comp.nus.edu.sg/~sergio-v/t40/).
 
 ## What is the BEST net?
 
-That depends on what you're using the net for and the system that you are running it on. You can find [a good list here](https://github.com/AlexisOlson/lc0/wiki/Best-Lc0-Nets).
+That depends on what you're using the net for and the system that you are running it on. You can find [a good list here](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0).
