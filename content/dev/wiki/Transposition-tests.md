@@ -11,7 +11,7 @@ wikiname: "Transposition-tests"
 3. Tree nodes after `go nodes 1000000` from (middlegame) [r2br3/ppq2pkp/2b2np1/4p3/6N1/2PB1Q1P/PP1B1PP1/R3R1K1 w - - 1 2](https://lichess.org/analysis/standard/r2br3/ppq2pkp/2b2np1/4p3/6N1/2PB1Q1P/PP1B1PP1/R3R1K1_w_-_-_1_2) with network `id42482`.
 4. Tree nodes after `go nodes 1000000` from (late middlegame) [br5r/2bpkp2/B6p/2p4q/1PN1np2/P3P3/1BQ3PP/R4RK1 w - - 0 26](https://lichess.org/analysis/standard/br5r/2bpkp2/B6p/2p4q/1PN1np2/P3P3/1BQ3PP/R4RK1_w_-_-_0_26) with network `id42482`.
 5. Tree nodes after `go nodes 1000000` from (endgame) [8/8/1p1n2k1/3P2p1/3P1b2/1P1K1B2/8/4B3 w - - 2 55](https://lichess.org/analysis/standard/8/8/1p1n2k1/3P2p1/3P1b2/1P1K1B2/8/4B3_w_-_-_2_55) with network `id42482`.
-6. Same as dataset 6, but with 10'000'000 nodes (10 times more).
+6. Same as dataset 2 (startpos), but with 10'000'000 nodes (10 times more).
 7. Perpetual check position [r6k/pp4pp/2p5/5Q2/1q5P/8/2P2PP1/1K1R3R w - - 1 25](https://lichess.org/jHxiNNJd#48) from Leko vs Kramnik game. `go nodes 1000000` with network `id42482`.
 8. KRN vs KR draw enggame, [6r1/6k1/8/8/8/8/3N4/2KR4 w - - 0 1](https://lichess.org/analysis/standard/6r1/6k1/8/8/8/8/3N4/2KR4_w_-_-). `go nodes 1000000` with network `id42482`.
 
