@@ -40,7 +40,7 @@ You may ask, "Where is T50?"
 
 **T50** is a set of small, lightweight nets that are used to test different training methods before applying those training methods to T60.
 
-All of the main networks can be downloaded from [lczero.org](https://lczero.org/networks/)
+All of the main networks can be downloaded from [lczero.org](https://training.lczero.org/networks/)
 
 ## J Nets
 
