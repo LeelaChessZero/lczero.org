@@ -4,7 +4,7 @@ weight: 500
 wikiname: "Third-Party-Nets"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-Outside the official training nets on http://lczero.org/networks, some people are downloading the game data and training their own nets. See also: http://data.lczero.org/files/networks-contrib/
+Outside the official training nets on https://training.lczero.org/networks/, some people are downloading the game data and training their own nets. See also: http://data.lczero.org/files/networks-contrib/
 
 * Wiki page for all of jhorthos's experimental nets: https://github.com/jhorthos/lczero-training/wiki/Leela-Training
   * jhorthos's T40 experiment nets: https://docs.google.com/spreadsheets/d/1-KAIfcaq5gwT90AlFNlqAWsmOehrCks86A88V47LDO0/edit#gid=1342481515
