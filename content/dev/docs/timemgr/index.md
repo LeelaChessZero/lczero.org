@@ -9,16 +9,6 @@ This page contains current and proposed changes to the time manager.
 
 'Legacy' estimates and budgets time for a move based on ..to be documented
 
-## PR 1201 AlphaZero time manager
-
-'alpazero' is an optional time manager simulating the time managent as was used by the AlpaZero project. 'alphazero' Makes the engine use AlphaZero time. The alphazero engine always budgeted 5 percent of total time left for the first upcoming move. Remaining time is divided by value `alphazero-time-value`. The Default value of 20 uses (all time / 20 = 5%) 5 percent of all remaining time. Lower values of 'alphazero-time-value' will spend more time in beginning of game, higher values will save more time for later in the game.
-
-### Configuration alphazero time
- 
-To enable the `alphazero` time manager configure with parameter `--time-manager=alphazero(alphazero-time-value=20)` to have each move played out at (all time / 20 = 5%) five percent of all remaining time per move.
-
-
-
 ---
 title: "PR1195: Time management update"
 weight: 300
