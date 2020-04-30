@@ -40,7 +40,7 @@ You may ask, "Where is T50?"
 
 **T50** is a set of small, lightweight nets that are used to test different training methods before applying those training methods to T60.
 
-All of the main networks can be downloaded from [lczero.org](https://lczero.org/networks/)
+All of the main networks can be downloaded from [lczero.org](https://training.lczero.org/networks/)
 
 ## J Nets
 
@@ -74,4 +74,4 @@ Nets by Sergiovieri, [found here](https://www.comp.nus.edu.sg/~sergio-v/t40/).
 
 ## What is the BEST net?
 
-That depends on what you're using the net for and the system that you are running it on. You can find [a good list here](https://github.com/AlexisOlson/lc0/wiki/Best-Lc0-Nets).
+That depends on what you're using the net for and the system that you are running it on. You can find [a good list here](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0).

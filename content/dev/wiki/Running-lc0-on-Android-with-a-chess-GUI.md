@@ -27,10 +27,10 @@ Once you are in the chess app you can choose the Leela Chess Zero engine. This s
 
 ### Plain engine binaries for the latest release
 
-|  Architecture   |  Eigen   | OpenBLAS  |   OpenCL   |
-|:----------------|:---------:|:---------:|:---------:|
-| armv7-a     |   -  |  [link](https://ci.appveyor.com/api/projects/LeelaChessZero/lc0/artifacts/armeabi-v7a%2Flc0?branch=release/0.24&job=Environment%3A%20NAME%3Dandroid)   |   -   |
-| aarch64     |   -  |  [link](https://ci.appveyor.com/api/projects/LeelaChessZero/lc0/artifacts/arm64-v8a%2Flc0?branch=release/0.24&job=Environment%3A%20NAME%3Dandroid)   |   -   |
+|  Architecture   |  OpenBLAS/Eigen  |   OpenCL   |
+|:----------------|:---------:|:---------:|
+| armv7-a     |  [link](https://ci.appveyor.com/api/buildjobs/3q12nsw61se53w9u/artifacts/armeabi-v7a/lc0)   |   -   |
+| aarch64     |  [link](https://ci.appveyor.com/api/buildjobs/3q12nsw61se53w9u/artifacts/arm64-v8a/lc0)   |   -   |
 
 More back-ends will be added as soon as they are available.
 
