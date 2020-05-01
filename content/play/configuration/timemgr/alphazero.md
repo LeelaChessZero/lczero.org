@@ -14,6 +14,12 @@ This page contains an alternative time manager to be used by lczero.
  
 To enable the `alphazero` time manager configure with parameter `--time-manager=alphazero(alphazero-time-value=20)`. The number `20` in the command divides all remaining available time to have each move played out at (all time / 20 = 5%) five percent of all remaining time per move. If you want you can use other numbers, but we know alphazero was using 5% of all remaining time.
 
+### Time visualization
+
+This graph shows that when a decay of 5% is chosen, for each subsequent move less and less time is budgeted for the move.
+
+![Moves left](../alphazerotimedecay.png)
+
 A development description might still be available on github 
 [PR 1201](https://github.com/LeelaChessZero/lc0/pull/1201).
 
