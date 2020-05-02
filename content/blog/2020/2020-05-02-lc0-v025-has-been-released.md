@@ -62,7 +62,7 @@ Enable using `--time-manager=smooth-experimental` command line flag.
   That it how it should be according to the standard, but some GUIs start clock
   from `position` command.
 * Added a flag to allow `go nodes` to takes reused nodes into account.
-* Shared collisions support between threads, should a strentgh per node a bit.
+* Shared collisions support between threads, should increase strentgh per node a bit.
 * We changed win probability to centipawn value formula again. New formula is
   **cp = 90 × tan(1.5637541897 × q)**.
 * Some chess GUIs didn't like chess engines returning `depth 0`, changed Lc0 to
