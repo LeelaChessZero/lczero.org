@@ -1,6 +1,6 @@
 ---
 title: "Cutechess"
-weight: 100
+weight: 500
 summary: "Installing the Lc0 in Cutechess GUI."
 ---
 
