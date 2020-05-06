@@ -1,6 +1,6 @@
 ---
 title: "BanksiaGUI"
-weight: 100
+weight: 200
 summary: "Installing the Lc0 in BanksiaGUI."
 ---
 
