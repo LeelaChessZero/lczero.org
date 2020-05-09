@@ -1,4 +1,15 @@
 ---
+title: "Time management options"
+weight: 300
+---
+
+This page contains current and proposed changes to the time manager.
+
+# Time manager legacy
+
+'Legacy' estimates and budgets time for a move based on ..to be documented
+
+---
 title: "PR1195: Time management update"
 weight: 300
 ---
