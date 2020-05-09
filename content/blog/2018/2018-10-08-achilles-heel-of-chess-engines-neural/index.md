@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-[![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-
-karsparov.jpeg)
+![]({{< file "2018-10-08-achilles-heel-of-chess-engines-neural-karsparov.jpeg" >}})
 
 When first Chess engines were born were very weak. First real Chess
 program(even though in 1912 there was a King Rook versus King solver and in
@@ -37,8 +36,7 @@ running on a PDP-6, won against a 1510 Elo human player.
 
  _(Mac Hack VI)_
 
-[![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-
-phpJK5zWz.png)
+![]({{< file "2018-10-08-achilles-heel-of-chess-engines-neural-phpJK5zWz.png" >}})
 
 In 1968 David Levy he beat in a friendly chess game with Stanford professor
 John McCarthy, and McCarthy said that within 10 years, there would be a
@@ -62,10 +60,7 @@ match.**
 
  _(J. Robert Oppenheimer, John Von Neumann, and the MANIAC computer.)_
 
-[![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-
-Oppie%2B%252526%2BNeumann%2B%252526%2BMANIAC_0.jpg)](https://1.bp.blogspot.com/-
-lZdNCqBN71Q/W7um4G_WhtI/AAAAAAAAAYQ/-RzaYrmGq80WZW4cvuaQb-0v_CeMH3tWQCLcBGAs/s16
-00/Oppie%2B%252526%2BNeumann%2B%252526%2BMANIAC_0.jpg)
+[![]({{< file "MANIAC.jpg" >}})](https://1.bp.blogspot.com/-lZdNCqBN71Q/W7um4G_WhtI/AAAAAAAAAYQ/-RzaYrmGq80WZW4cvuaQb-0v_CeMH3tWQCLcBGAs/s1600/Oppie%2B%252526%2BNeumann%2B%252526%2BMANIAC_0.jpg)
 
 In the decade of 1970, Chess engine interest continues to flourish and Chess
 playing programs continued to improve because of a combination of big hardware
@@ -125,9 +120,7 @@ showed Deep Blue didn't play this correctly and Kasparov could have drawn This
 legendary Be4 move is now easily found from Chess engines with the correct
 continuation of course.)_
 
-[![](../../images/2018-10-08-achilles-heel-of-chess-engines-neural-Deep-Blue-
-versus-Garry-Kasparov-game-2-in-1997-At-this-position-Deep-Blue-using-
-the.png)
+![]({{< file "2018-10-08-achilles-heel-of-chess-engines-neural-Deep-Blue-versus-Garry-Kasparov-game-2-in-1997-At-this-position-Deep-Blue-using-the.png" >}})
 
 Engines initially were very weak in all aspects of the game, but as
 improvements came they started to be really good at **tactics**. This fact,
