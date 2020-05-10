@@ -25,6 +25,16 @@ Pick the row that matches your hardware from the following table:
 | Computers without GPUs, but with modern CPUs | [DNNL BLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-dnnl.zip) |
 | Older CPUs | [OpenBLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-openblas.zip) |
 
+## MacOS
+
+You can install Lc0 using [Homebrew](https://brew.sh/).
+
+```
+brew install lc0
+```
+
+The Homebrew package includes the **lc0** engine and network **42850**.
+
 ## Android
 
 | Architecture | Backend |

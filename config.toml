@@ -44,7 +44,7 @@ summaryLength = 30
     weight = 70
 
 [params]
-  lc0version="v0.25.0"
+  lc0version="v0.25.1"
   google_analytics_id="UA-100707634-4"
 
   #homepage_intro = 'Lc0'

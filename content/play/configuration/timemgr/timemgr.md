@@ -30,6 +30,3 @@ This graph shows that when a decay of 5% is chosen, for each subsequent move les
 
 A development description might still be available on github 
 [PR 1201](https://github.com/LeelaChessZero/lc0/pull/1201).
-
-
-Please see [alphazero time manager](../alphazero/) for an alternative time manager.

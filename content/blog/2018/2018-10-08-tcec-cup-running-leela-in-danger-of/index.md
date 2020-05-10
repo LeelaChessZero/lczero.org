@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-[![](../../images/2018-10-08-tcec-cup-running-leela-in-danger-of-
-hk678688888.png)
+![]({{< file "2018-10-08-tcec-cup-running-leela-in-danger-of-hk678688888.png" >}})
 
 TCEC Cup continues and we already know 6 engines that have promoted to next
 round.  
@@ -30,7 +29,6 @@ clone of Stockfish that can run with 7 piece tablebases somewhat better than
 Stockfish) running on 88 cores, what is going on in the position!  
 Some analysis of the games will follow.....
 
-![](../../images/2018-10-08-tcec-cup-running-leela-in-danger-
-of-2018-10-09_01-38-58.png)
+![]({{< file "2018-10-08-tcec-cup-running-leela-in-danger-of-2018-10-09_01-38-58.png" >}})
 
 Stay tuned more results and analysis will follow........

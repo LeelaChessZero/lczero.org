@@ -47,7 +47,7 @@ In each section, the nets are listed in descending order of strength.
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
 | 591226  | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=47e3f899519dc1bc95496a457b77730fce7b0b89b6187af5c01ecbbd02e88398) | Last T59 net |
-| Latest T70  | [lczero.org run 2 networks](training.lczero.org/networks/1) | Current test run |
+| Latest T70  | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Current test run |
 | Little Demon 2 | [data.lczero.org repository](http://data.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
 
 
