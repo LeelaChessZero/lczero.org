@@ -112,5 +112,5 @@ In this case, pass it as `ConfigFile` UCI parameter, or `--config` (`-c`) comman
 |**SmartPruningMinimumBatches** | `--smart-pruning-minimum-batches`| `0` |Only allow smart pruning to stop search after at least this many batches have been evaluated. It may be useful to have this value greater than the number of search threads in use.|
 |**RamLimitMb** | `--ramlimit-mb`| `0` |Maximum memory usage for the engine, in megabytes. The estimation is very rough, and can be off by a lot. For example, multiple visits to a terminal node counted several times, and the estimation assumes that all positions have 30 possible moves. When set to 0, no RAM limit is enforced.|
 |**MoveOverheadMs** | `--move-overhead`| `200` |Amount of time, in milliseconds, that the engine subtracts from it's total available time (to compensate for slow connection, interprocess communication, etc).|
-|**TimeManager** | `--time-manager`| `legacy` |Name and config of atime manager.|
+|**TimeManager** | `--time-manager`| `legacy`,`smooth`,`alphazero` |Name and config of atime manager.|
 
