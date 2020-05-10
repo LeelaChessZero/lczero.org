@@ -59,7 +59,8 @@ In this case, pass it as `ConfigFile` UCI parameter, or `--config` (`-c`) comman
 |--|--|--|--|
 |**WeightsFile** | `-w`, `--weights`| `<autodiscover>` |Path from which to load network weights. Setting it to <autodiscover> makes it search in ./ and ./weights/ subdirectories for the latest (by file date) file which looks like weights.|
 |**Backend** | `-b`, `--backend`| `cudnn-auto` |Neural network computational backend to use.|
-|**Threads** | `-o`, `--backend-opts`| `2` |Parameters of neural network backend. Exact parameters differ per backend. [UCI: BackendOptions]  -t,  --threads=1..128 Number of (CPU) worker threads to use.|
+|**BackendOptions** | `-o`, `--backend-opts`||Parameters of neural network backend. Exact parameters differ per backend.|
+|**Threads** | `-t`, `--threads`| `2` |1..128 Number of (CPU) worker threads to use.|
 |**NNCacheSize** | `--nncache`| `200000` |Number of positions to store in a memory cache. A large cache can speed up searching, but takes memory.|
 |**MinibatchSize** | `--minibatch-size`| `256` |How many positions the engine tries to batch together for parallel NN computation. Larger batches may reduce strength a bit, especially with a small number of playouts.|
 |**MaxPrefetch** | `--max-prefetch`| `32` |When the engine cannot gather a large enough batch for immediate use, try to prefetch up to X positions which are likely to be useful soon, and put them into cache.|
