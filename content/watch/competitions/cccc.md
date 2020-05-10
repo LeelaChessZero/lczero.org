@@ -4,7 +4,7 @@ weight: 100
 draft: false
 ---
 
-[**C**hess.**c**om **c**omputer **c**hess **c**hampionship](https://chess.com/cccc) (also known as **CCCCC**, **CCCC** and **CCC**) is a never stopping tournament optimized for enternainment.
+[**C**hess.**c**om **c**omputer **c**hess **c**hampionship](https://chess.com/cccc) (also known as **CCCCC**, **CCCC** and **CCC**) is a never stopping tournament optimized for entertainment.
 
 Organizers pick participants based on engine's entertainment value. Particularly, clones are allowed to participate.
 
