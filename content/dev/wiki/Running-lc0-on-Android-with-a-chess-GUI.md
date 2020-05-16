@@ -26,13 +26,23 @@ Once you are in the chess app you can choose the Leela Chess Zero engine. This s
 ### Plain engine binaries for the latest release
 
 |  Architecture   |  OpenBLAS/Eigen  |   OpenCL   |
-|:----------------|:---------:|:---------:|
+|:----------------|:----------------:|:----------:|
 | armv7-a     |  [link](https://ci.appveyor.com/api/buildjobs/3q12nsw61se53w9u/artifacts/armeabi-v7a/lc0)   |   -   |
 | aarch64     |  [link](https://ci.appveyor.com/api/buildjobs/3q12nsw61se53w9u/artifacts/arm64-v8a/lc0)   |   -   |
 
 More back-ends will be added as soon as they are available.
 
-### Unofficial builds for version 0.23
+# Unofficial builds
+
+## Experimental builds for x86 devices
+
+These add support to Asus ZenPad tablets and other devices with Intel SoC.
+
+|  Architecture   |  OpenBLAS   |   Eigen   |
+|:----------------|:-----------:|:---------:|
+| x86             |[link](https://github.com/LeelaChessZero/lc0/files/4636848/lc0-i686-blas.zip) | [link](https://github.com/LeelaChessZero/lc0/files/4629245/lc0.zip) |
+
+## Unofficial builds for version 0.23
 
 Now that the Android builds are official there is no need to use other ones. The following builds are left here just for reference.
 
@@ -41,14 +51,14 @@ Now that the Android builds are official there is no need to use other ones. The
 | armv7-a     |   [link](https://github.com/LeelaChessZero/lc0/files/3909474/lc0-0.23-eigen-armv7.zip)  |  [link](https://github.com/LeelaChessZero/lc0/files/3909472/lc0-0.23-blas-armv7.zip)   |   [link](https://github.com/LeelaChessZero/lc0/files/3909475/lc0-0.23-opencl-armv7.zip)    |
 | aarch64     |   [link](https://github.com/LeelaChessZero/lc0/files/3909470/lc0-0.23-eigen-aarch64.zip)  |  [link](https://github.com/LeelaChessZero/lc0/files/3909467/lc0-0.23-blas-aarch64.zip)   |   [link](https://github.com/LeelaChessZero/lc0/files/3909471/lc0-0.23-opencl-aarch64.zip)    |
 
-### Unofficial builds for version 0.22
+## Unofficial builds for version 0.22
 
 |  Architecture           |  Eigen   | OpenBLAS  |   OpenCL   |
 |:------------------------|:---------:|:---------:|:---------:|
 | armv7-a | [link](https://github.com/LeelaChessZero/lc0/files/3494665/lc0-0.22-eigen-armv7a.zip) | [link](https://github.com/LeelaChessZero/lc0/files/3494666/lc0-0.22-blas-armv7a.zip) | |
 | aarch64     |   [link](https://github.com/LeelaChessZero/lc0/files/3494676/lc0-0.22-eigen-aarch64.zip)  |  [link](https://github.com/LeelaChessZero/lc0/files/3494674/lc0-0.22-blas-aarch64.zip)   |   [link](https://github.com/LeelaChessZero/lc0/files/3494675/lc0-0.22-opencl-aarch64.zip)    |
 
-### Unofficial and older builds with embedded weights
+## Unofficial builds with embedded weights
 
 These are special builds for those who couldn't or wouldn't fiddle with UCI Options and full paths, or maybe those using an App without that capability. These builds contain a small weights file embedded into the engine itself. You'll still be able to use other weights with them, but the embedded weights will load when you didn't specify one.
 
