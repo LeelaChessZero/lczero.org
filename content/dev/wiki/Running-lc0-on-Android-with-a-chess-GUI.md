@@ -70,7 +70,7 @@ These are special builds for those who couldn't or wouldn't fiddle with UCI Opti
 | aarch64 **48x5**     |  |  [link](https://github.com/LeelaChessZero/lc0/files/3232978/lc0-blas-aarch64-api21-48x5.zip)   |      |
 
 * **LD2**: Little Demon 2 is a strong 128x10 network from aart (https://lc0.org/ld2).
-* The 48x5 network is a distilled network from dkappe (https://github.com/dkappe/leela-chess-weights/releases/tag/11258-48x5-se).
+* The 48x5 network is a distilled network from dkappe (https://github.com/dkappe/leela-chess-weights/wiki/Distilled-Networks).
 
 ---
 **Note**: The following steps are no longer needed but are left here for reference.
