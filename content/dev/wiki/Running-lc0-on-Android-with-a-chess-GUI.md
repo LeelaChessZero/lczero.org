@@ -34,33 +34,6 @@ Once you are in the chess app you can choose the Leela Chess Zero engine. This s
 
 More back-ends will be added as soon as they are available.
 
----
-**Note**: The following steps are no longer needed but are left here for reference.
-
-Follow these simple steps and you'll be running lc0 on your Android device. No root needed. Just the right engine, a weights file and a supported Chess App.
-
-## Video Tutorial
-
-Here's a small video showing the steps described below, just in case you need to see it in action:
-
-[To watch the video, click here ](https://streamable.com/fozkg)
-
-### Supported Devices
-
-There are currently two architectures supported: *armv7-a* and *aarch64*. In general older devices are 32-bit in which case you must download the *armv7-a* builds. The more recent devices are 64-bit so if you have one you should get the *aarch64* builds that are much *faster*. If you are not sure which architecture to choose, use [this app](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo) to lookup the architecture of your Android device.
-
-### Supported Android versions
-
-All the 64-bit builds on this page are compiled targeting the API Level 21 (equivalent to Android 5.0 Lollipop). The 32-bit ones target the API Level 24 (Android 7.0 Nougat). Older Android versions may not work.
-
-### Which back-end to choose?
-
-It's better to try either Eigen or OpenBLAS links first as they're easier to use and they should be faster too. As for the OpenCL ones, they are heavier and have some extra requirements:
-* Device with OpenCL support (builds are linked to OpenCL version 2.0)
-* Expect a very long delay on the first start of the engine and when a different network size is tried. This happens because the OpenCL tuner needs to optimize its parameters to your device.
-
-## Download the right engine
-
 ### Unofficial builds for version 0.23
 
 Now that the Android builds are official there is no need to use other ones. The following builds are left here just for reference.
@@ -90,6 +63,31 @@ These are special builds for those who couldn't or wouldn't fiddle with UCI Opti
 
 * **LD2**: Little Demon 2 is a strong 128x10 network from aart (https://lc0.org/ld2).
 * The 48x5 network is a distilled network from dkappe (https://github.com/dkappe/leela-chess-weights/releases/tag/11258-48x5-se).
+
+---
+**Note**: The following steps are no longer needed but are left here for reference.
+
+Follow these simple steps and you'll be running lc0 on your Android device. No root needed. Just the right engine, a weights file and a supported Chess App.
+
+## Video Tutorial
+
+Here's a small video showing the steps described below, just in case you need to see it in action:
+
+[To watch the video, click here ](https://streamable.com/fozkg)
+
+### Supported Devices
+
+There are currently two architectures supported: *armv7-a* and *aarch64*. In general older devices are 32-bit in which case you must download the *armv7-a* builds. The more recent devices are 64-bit so if you have one you should get the *aarch64* builds that are much *faster*. If you are not sure which architecture to choose, use [this app](https://play.google.com/store/apps/details?id=com.inkwired.droidinfo) to lookup the architecture of your Android device.
+
+### Supported Android versions
+
+All the 64-bit builds on this page are compiled targeting the API Level 21 (equivalent to Android 5.0 Lollipop). The 32-bit ones target the API Level 24 (Android 7.0 Nougat). Older Android versions may not work.
+
+### Which back-end to choose?
+
+It's better to try either Eigen or OpenBLAS links first as they're easier to use and they should be faster too. As for the OpenCL ones, they are heavier and have some extra requirements:
+* Device with OpenCL support (builds are linked to OpenCL version 2.0)
+* Expect a very long delay on the first start of the engine and when a different network size is tried. This happens because the OpenCL tuner needs to optimize its parameters to your device.
 
 ## Select a network weights file
 
