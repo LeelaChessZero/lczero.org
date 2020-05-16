@@ -36,7 +36,7 @@ More back-ends will be added as soon as they are available.
 
 ## Experimental builds for x86 devices
 
-These add support to Asus ZenPad tablets and other devices with Intel SoC.
+These add support to Asus ZenPad tablets and other Android devices with Intel processor.
 
 |  Architecture   |  OpenBLAS   |   Eigen   |
 |:----------------|:-----------:|:---------:|
