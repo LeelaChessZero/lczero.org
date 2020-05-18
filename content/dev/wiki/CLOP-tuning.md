@@ -4,6 +4,10 @@ weight: 500
 wikiname: "CLOP-tuning"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
+CLOP Tuner:
+
+https://github.com/kiudee/bayes-skopt
+
 ## TCEC Season 13 tuning
 
 Master (and thus div4) is result of a CLOP tune at 4000 games. Div3 updated the prune factor and time scale based on results at 8000 games as CLOP continued to run during div4.
