@@ -4,6 +4,8 @@ weight: 500
 wikiname: "CLOP-tuning"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
+CLOP Tuning is a tool used for figuring out what differentiable constants, functions, or other things should gain lc0 the most Elo/improve performance. 
+
 CLOP Tuner:
 
 https://github.com/kiudee/bayes-skopt
