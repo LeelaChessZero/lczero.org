@@ -30,7 +30,7 @@ The syntax for pages is [CommonMark](https://commonmark.org/) standard of MarkDo
 
 If you create pages or plan to contribute non-trivial amount of changes, it's recommended to setup HuGo locally. It works will both under Windows and Linux. Here is how to do it.
 
-For the site, you need **"extended"** version of Hugo v0.60.1 or later.
+For the site, you need **"extended"** version of Hugo v0.70.0 or later.
 
 ### Installing HuGo in Windows
 
