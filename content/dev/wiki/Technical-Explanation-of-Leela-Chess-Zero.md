@@ -20,7 +20,7 @@ This is the same search specified by the AGZ paper, [PUCT](http://citeseerx.ist.
 
 ## Glossary
 * _20x256_: Shorthand for the size of the NN. 20 _residual blocks_ and 256 _filters_.
-* _Backup_: After a playout reaches a terminal nodes, and the NN is called, take _V_ and average this into the _Q_ of all nodes visited to reach that position.
+* _Backup_: After a playout reaches a terminal node, and the NN is called, take _V_ and average this into the _Q_ of all nodes visited to reach that position.
 * _Batch Size_: How many positions the GPU can train on simultaneously. Set as large as your GPU can handle.
 * [_Batch normalization_](https://arxiv.org/abs/1502.03167): Normalize channel outputs to have variance near 1 and outputs near 0.
 * [_Batch Renormalization_](https://arxiv.org/abs/1702.03275): Better but more complicated way for training to measure normalization statistics. Added during T40 to help fix Pawn promotion issues.
