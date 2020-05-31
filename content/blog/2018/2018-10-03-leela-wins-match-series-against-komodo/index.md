@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-03-leela-wins-match-series-against-komodo-
-hkjhk8999999.png" >}})
+![]({{< file "2018-10-03-leela-wins-match-series-against-komodo-hkjhk8999999.png" >}})
 
 **Leela** won **16-14** against **Komodo** the 30 games match to determine 3rd
 position in CCCC1, while on the variants tournament she **won a game against
@@ -60,8 +59,7 @@ Leela after her usual shuffling instead of immediate killing, managed to win.
 
 It was also the first win with white pieces of any engine till now in this
 variant, after 9 black wins and 4 draws!!  
-For more info about it [READ HERE](../../../2018/09/cccc-leela-
-komodo-event-for-3rd-place.html) where all 5 variants are explained.
+For more info about it [READ HERE](../../../2018/09/cccc-leela-komodo-event-for-3rd-place.html) where all 5 variants are explained.
 
 Here is the Leela Stockfish game:
 

@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-28-tcec-cup-in-next-days-
-hjkhk79799999.png" >}})
+![]({{< file "2018-09-28-tcec-cup-in-next-days-hjkhk79799999.png" >}})
 
 The TCEC(Top Chess Engine Championship) tournament is currently running with
 engines playing in the premier division and this division will finish in a few
@@ -49,8 +48,7 @@ choose different match ups for the next rounds.
 
 (click to zoom image)
 
-![]({{< file "2018-09-28-tcec-cup-in-next-days-
-ghjgjh866868.png" >}})
+![]({{< file "2018-09-28-tcec-cup-in-next-days-ghjgjh866868.png" >}})
 
 So **Leela** will have to face **Laser** in the TCEC Cup in 8 games. The odds
 should be with her and she should promote as she is stronger than Laser but we

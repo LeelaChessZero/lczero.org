@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-
-gjh6575777777.png" >}})
+![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-gjh6575777777.png" >}})
 
 Leela Chess Zero is a project started before some months inspired by
 Deepmind's papers about AlphaGO Zero and AlphaZero, which is based on a new
@@ -293,8 +292,7 @@ ADVANCED... and then ENGINE PARAMETERS.
 
 (click image to zoom in)
 
-![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-
-yiuyiuyi1.png" >}})
+![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-yiuyiuyi1.png" >}})
 
  _ ****_  
  _ ****_  
@@ -329,11 +327,9 @@ ENGINES->Engine 1->CONFIGURE.
 
 (click image to zoom in)
 
-![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-
-fhfh87892.png" >}})
+![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-fhfh87892.png" >}})
 
-![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-
-hhkhkhk2.png" >}})
+![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-hhkhkhk2.png" >}})
 
  _ ****_  
  _ **
@@ -354,8 +350,7 @@ If we want we change the name also.
 
 (click image to zoom in)
 
-![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-
-ghgjh5.png" >}})
+![]({{< file "2018-09-21-guide-setting-up-leela-on-chess-gui-ghgjh5.png" >}})
 
 So to sum up:  
 1)We grab a Lc0 binary that suits our GPU from here:

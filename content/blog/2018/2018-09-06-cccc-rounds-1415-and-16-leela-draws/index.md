@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-[![]({{< file "2018-09-06-cccc-rounds-1415-and-16-leela-draws-
-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
+[![]({{< file "2018-09-06-cccc-rounds-1415-and-16-leela-draws-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 **  
 **After another 3 rounds have completed and we reached round 16 of 46 that

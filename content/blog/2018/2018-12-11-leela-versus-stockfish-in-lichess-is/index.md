@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-12-11-leela-versus-stockfish-in-lichess-is-
-ghjgjgj897898888.png" >}})
+![]({{< file "2018-12-11-leela-versus-stockfish-in-lichess-is-ghjgjgj897898888.png" >}})
 
 Lichess.org will host a match between the mighty **Stockfish 10 **and
 **Leela**. It will be a 6 games match with time control of 5'+2" with
@@ -23,9 +22,7 @@ It will be played with the [@LeelaChess](https://lichess.org/@/LeelaChess) and
 [@Stockfish10Chess](https://lichess.org/@/Stockfish10Chess) accounts so follow
 one of these to see the match.
 
-[The official
-announcement.](https://lichess.org/blog/XA7juREAAC4AxZsR/deathmatch-leela-
-vs.-stockfish)
+[The official announcement.](https://lichess.org/blog/XA7juREAAC4AxZsR/deathmatch-leela-vs.-stockfish)
 
 The games of the match and more details will be available in an updated post
 here.

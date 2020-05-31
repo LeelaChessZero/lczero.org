@@ -7,12 +7,10 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-02-cccc-leela-komodo-3rd-place-match-
-hkjhk87987979798799.png)
+![]({{< file "2018-10-02-cccc-leela-komodo-3rd-place-match-hkjhk87987979798799.png">}})
 
 TCEC Cup is about to start in a few days and _**Chessdom.com**_ just
-[announced the complete pairings](http://www.chessdom.com/tcec-
-cup-2018-brackets/) up to the final.
+[announced the complete pairings](http://www.chessdom.com/tcec-cup-2018-brackets/) up to the final.
 
 Leela is on the Stockfish side and if she will promote from the first match
 against Laser she will probably face Ethereal in round of 16, so it will be a
@@ -25,8 +23,7 @@ Here is the format of TCEC Cup:
 
 (click to zoom)
 
-[![]({{< file "2018-10-02-cccc-leela-komodo-3rd-place-match-
-hgjhgj686868.png" >}})
+[![]({{< file "2018-10-02-cccc-leela-komodo-3rd-place-match-hgjhgj686868.png" >}})
 
 All games will be played with time control of 30 minutes plus 10 second per
 move increment with pondering off.  

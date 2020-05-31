@@ -7,9 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-07-cccc-rounds-17-18-and-19-leela-
-with-2-gjgj98789798799999.png)](https://www.chess.com/computer-chess-
-championship" >}})
+[![]({{< file "2018-09-07-cccc-rounds-17-18-and-19-leela-with-2-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 CCCC continues with Houdini on the lead a full point ahead of the 2nd
 Stockfish. Houdini till now seems unstoppable and is killing every other

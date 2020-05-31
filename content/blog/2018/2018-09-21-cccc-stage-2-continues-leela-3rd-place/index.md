@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-21-cccc-stage-2-continues-leela-3rd-place-
-gjhgjh5646656.png" >}})
+![]({{< file "2018-09-21-cccc-stage-2-continues-leela-3rd-place-gjhgjh5646656.png" >}})
 
 Stage 2 continues with **Leela** doing excellently being 3rd, half a point
 ahead of Komodo! **  
@@ -72,8 +71,7 @@ are not and the most normal ones with ECO A openings being played so often :)
 
 (click to open a bigger image)
 
-![]({{< file "2018-09-21-cccc-stage-2-continues-leela-3rd-place-
-ffh778687687.png" >}}) ****
+![]({{< file "2018-09-21-cccc-stage-2-continues-leela-3rd-place-ffh778687687.png" >}}) ****
 
  ** _Length of games and percentages of white/black wins and draws:_**
 

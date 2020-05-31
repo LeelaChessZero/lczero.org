@@ -7,9 +7,7 @@ tags = []
 draft = false
 +++
 
-[ ![]({{< file "2018-09-09-cccc-rounds-23-24-and-25-leela-
-with-2-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-
-championship)
+[ ![]({{< file "2018-09-09-cccc-rounds-23-24-and-25-leela-with-2-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 **ROUND 23**  
 Andscacs won Arasan in an important win for top8 place, while Ethereal and

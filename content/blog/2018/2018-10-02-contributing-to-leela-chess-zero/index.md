@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-02-contributing-to-leela-chess-zero-
-ghgj76888.png" >}})
+![]({{< file "2018-10-02-contributing-to-leela-chess-zero-ghgj76888.png" >}})
 
 Deepmind's latest paper release ( _Mastering Chess and Shogi by Self-Play with
 a General Reinforcement Learning Algorithm_ ) on 5 December 2017, presented a
@@ -85,8 +84,7 @@ stronger.
 
 ►For contributing at generating games with _**Google Colab**_ you must follow
 the given instructions here:  
-<https://github.com/LeelaChessZero/lc0/wiki/Run-Leela-Chess-Zero-client-on-a-
-Tesla-K80-GPU-for-free-(Google-Colaboratory)>  
+<https://github.com/LeelaChessZero/lc0/wiki/Run-Leela-Chess-Zero-client-on-a-Tesla-K80-GPU-for-free-(Google-Colaboratory)>  
 Normally Google Colab allows about 12 hours of continuous usage of its GPUs
 then it stops them and then you have to restart it.  
 That way you can generate about **1000 games per day.**  

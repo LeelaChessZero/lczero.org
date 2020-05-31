@@ -33,8 +33,7 @@ more!
 So, as a basis, algorithms tries to divide all remaining time roughly using
 the following time distribution (x axis is move number):
 
-![]({{< file "2018-09-05-time-
-management-41066697-eaedea6c-6a21-11e8-9d11-3fd57a192f3a.png" >}})
+![]({{< file "2018-09-05-time-management-41066697-eaedea6c-6a21-11e8-9d11-3fd57a192f3a.png" >}})
 
 To control the shape of that curve, the following parameters are used:
 

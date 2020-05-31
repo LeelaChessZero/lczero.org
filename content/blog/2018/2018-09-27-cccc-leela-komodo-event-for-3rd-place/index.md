@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-27-cccc-leela-komodo-event-for-3rd-place-
-fh68768888.png" >}})
+![]({{< file "2018-09-27-cccc-leela-komodo-event-for-3rd-place-fh68768888.png" >}})
 
 Chess.com has [announced](https://www.chess.com/news/view/stockfish-houdini-
 to-battle-for-computer-chess-championship-komodo-vs-lc0-for-3rd) that after

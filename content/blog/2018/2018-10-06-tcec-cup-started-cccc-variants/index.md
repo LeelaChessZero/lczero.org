@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-06-tcec-cup-started-cccc-variants-
-hk678688888.png)
+![]({{< file "2018-10-06-tcec-cup-started-cccc-variants-hk678688888.png" >}})
 
 The **TCEC Cup** has started and 2 match pairs will be played every day.  
 We remind that 32 engines will compete in a Knockout elimination tournament,
@@ -29,8 +28,7 @@ Nemorino matches, on Sunday Fire-Senpai and Vajolet-Booot and **Leela will
 play on Monday against Laser** as also Ethereal against Rodent.
 
 The TCEC Cup format:  
-![]({{< file "2018-10-06-tcec-cup-started-cccc-
-variants-2018-10-06_15-53-38.png" >}})
+![]({{< file "2018-10-06-tcec-cup-started-cccc-variants-2018-10-06_15-53-38.png" >}})
 
 _Meanwhile in **Chess.com** the **variants games** are being played right
 now._

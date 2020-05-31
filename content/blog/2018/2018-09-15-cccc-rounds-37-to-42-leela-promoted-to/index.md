@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-15-cccc-rounds-37-to-42-leela-promoted-to-
-ghjgjh5667.png" >}})
+![]({{< file "2018-09-15-cccc-rounds-37-to-42-leela-promoted-to-ghjgjh5667.png" >}})
 
 CCCC continues and **Leela** , along with **Stockfish** , **Houdini** ,
 **Komodo** and **Fire** , already has secured a place in the 2nd stage.  

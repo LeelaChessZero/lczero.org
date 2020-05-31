@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-11-cccc-rounds-28-29-30-and-31-leela-draws-
-hgfh8768768.png" >}})
+![]({{< file "2018-09-11-cccc-rounds-28-29-30-and-31-leela-draws-hgfh8768768.png" >}})
 
 It seems Leela is hiding something that is beyond us. How else can be
 explained that after Fizbo a 3325 CCRL Elo engine with endgame tablebases in a

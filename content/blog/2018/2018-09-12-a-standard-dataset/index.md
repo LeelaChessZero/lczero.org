@@ -27,8 +27,7 @@ trainingset. You can download the dataset in [pgn-
 format](http://data.lczero.org/files/ccrl-pgn.tar.bz2) (539M) and
 [v3-format](http://data.lczero.org/files/ccrl-v3.tar.bz2) (11G).
 
-![]({{< file "2018-09-12-a-standard-dataset-cclr-
-test.png" >}})
+![]({{< file "2018-09-12-a-standard-dataset-cclr-test.png" >}})
 
 This figure shows a distribution of all the gameover types within the testset
 of this data. Games with over 500 plies have been excluded from this figure to

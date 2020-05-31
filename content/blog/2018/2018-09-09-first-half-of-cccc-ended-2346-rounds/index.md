@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-09-first-half-of-cccc-ended-2346-rounds-
-jkj0770709.png" >}})
+![]({{< file "2018-09-09-first-half-of-cccc-ended-2346-rounds-jkj0770709.png" >}})
 
 First half of the CCCC tournament has ended.  
 It's a 46 rounds tournament and so 23 rounds have been played. Time control is
@@ -197,5 +196,4 @@ A whole lot of games have French defense! Engines for some reason prefer
      2: d4        102: 36.9%   61.2%  46%    
      3: Nf3        22:  7.9%   54.5%  45%  
 
-![]({{< file "2018-09-09-first-half-of-cccc-ended-2346-rounds-
-fgh86868888.png" >}})
+![]({{< file "2018-09-09-first-half-of-cccc-ended-2346-rounds-fgh86868888.png" >}})

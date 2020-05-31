@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-[ ![]({{< file "2018-09-05-cccc-rounds-11-12-and-13-leela-3-draws-
-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
+[ ![]({{< file "2018-09-05-cccc-rounds-11-12-and-13-leela-3-draws-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 **ROUND 11**  
 This round saw Leela drawing rather not that comfortably a strong engine and

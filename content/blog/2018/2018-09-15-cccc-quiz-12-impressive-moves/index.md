@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-15-cccc-quiz-12-impressive-moves-
-hjk68688.png" >}})
+![]({{< file "2018-09-15-cccc-quiz-12-impressive-moves-hjk68688.png" >}})
 
 In CCCC there have been played some very nice games and moves till now.  
 Can you find them? Play the move on the board and if it's correct it will show

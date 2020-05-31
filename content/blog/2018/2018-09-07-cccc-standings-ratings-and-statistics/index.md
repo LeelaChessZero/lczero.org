@@ -105,8 +105,7 @@ Score **Game length** **Frequency**
 1-0 =-= 0-1 1-0 =-= 0-1  
 All games 54.4% 77 98 78 30.3% 48.0% 21.5%
 
-![]({{< file "2018-09-07-cccc-standings-ratings-and-statistics-
-hkhjk8999.png" >}})
+![]({{< file "2018-09-07-cccc-standings-ratings-and-statistics-hkhjk8999.png" >}})
 
 **
 
@@ -141,8 +140,7 @@ Shortest wins (White)**
 
 Opening ECO classification :
 
-![]({{< file "2018-09-07-cccc-standings-ratings-and-statistics-
-fdfhd868.png" >}})
+![]({{< file "2018-09-07-cccc-standings-ratings-and-statistics-fdfhd868.png" >}})
 
-![]({{< file "2018-09-07-cccc-standings-ratings-and-statistics-
-tyutu8768.png" >}})
+![]({{< file "2018-09-07-cccc-standings-ratings-and-statistics-tyutu8768.png" >}})
+

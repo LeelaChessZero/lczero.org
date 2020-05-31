@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-28-lc0-training-
-gjhgj8768788768.jpg" >}})
+![]({{< file "2018-10-28-lc0-training-gjhgj8768788768.jpg" >}})
 
 If you are new to **Leela** (Lc0) Chess and have begun contributing games
 either using Google Cloud or some other online service or your own home

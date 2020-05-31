@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-12-cccc-blitz-tournament-is-running-and-
-jhjhgj8798.png" >}})
+![]({{< file "2018-10-12-cccc-blitz-tournament-is-running-and-jhjhgj8798.png" >}})
 
 CCCC blitz tournament is running and till now Leela is having a good
 performance being steadily on the top 3.

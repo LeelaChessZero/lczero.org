@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-
-uiyi888888.png" >}})
+![]({{< file "2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-uiyi888888.png" >}})
 
 Leela had its first loss in the tournament after 27 games that went
 undefeated. It lost against Ethereal with black after she blundered in
@@ -54,8 +53,7 @@ The bug is reproducible as the following picture shows. Fizbo 1.9 with 3,4,5,6
 syzygy tablebases, incorrectly, believes 209...Re1?? draws. 209...Rd2+ is the
 move that draws.
 
-![]({{< file "2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-
-dfguyt89798.png" >}})
+![]({{< file "2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-dfguyt89798.png" >}})
 
 301 Vajolet vs Andscacs 0-1  
 302 Wasp vs Texel 0-1  

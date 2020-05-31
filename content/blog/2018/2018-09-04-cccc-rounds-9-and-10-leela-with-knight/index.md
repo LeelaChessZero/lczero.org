@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-04-cccc-rounds-9-and-10-leela-with-knight-
-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
+![]({{< file "2018-09-04-cccc-rounds-9-and-10-leela-with-knight-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 **ROUND 9**
 

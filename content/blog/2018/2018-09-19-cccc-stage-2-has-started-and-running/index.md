@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-19-cccc-stage-2-has-started-and-running-
-gjhgjh5646656.png" >}})
+![]({{< file "2018-09-19-cccc-stage-2-has-started-and-running-gjhgjh5646656.png" >}})
 
 **Stage 2** of CCCC has already started before 2 days. Not without problems
 initially with repeating restarts but at last now it's running flawlessly.  

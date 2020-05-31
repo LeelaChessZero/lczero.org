@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-11-draw-in-chess-some-odd-cases-
-hjkhk.png" >}})
+![]({{< file "2018-10-11-draw-in-chess-some-odd-cases-hjkhk.png" >}})
 
 Chess is a game where there are 3 distinct results. White wins or black wins
 or it is a draw and nobody wins. Draw can achieved in many ways in Chess.

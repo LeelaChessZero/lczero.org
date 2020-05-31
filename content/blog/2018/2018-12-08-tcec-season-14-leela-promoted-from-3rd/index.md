@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-12-08-tcec-season-14-leela-promoted-from-3rd-
-ghgj6786888.png" >}})
+![]({{< file "2018-12-08-tcec-season-14-leela-promoted-from-3rd-ghgj6786888.png" >}})
 
 Leela's big journey to try to go to premier division of TCEC, has started!  
 TCEC season 14 is running for the last couple of weeks and Leela has

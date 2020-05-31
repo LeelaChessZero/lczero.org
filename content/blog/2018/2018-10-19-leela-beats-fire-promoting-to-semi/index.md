@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-19-leela-beats-fire-promoting-to-semi-
-LeelaFire3.png" >}})
+![]({{< file "2018-10-19-leela-beats-fire-promoting-to-semi-LeelaFire3.png" >}})
 
 **Leela** in a classic drama style, **promoted in TCEC Cup Semi-Finals** and
 it will face **Stockfish** today!  
@@ -114,8 +113,7 @@ Leela will now face the mighty Stockfish that is having an easy time till now
 crushing everyone in its path thus far. Game can be seen
 [HERE!](http://tcec.chessdom.com/live.html)
 
-The games of Leela in TCEC Cup: [TCEC Cup-Leela
-PGN](https://georgemj23.000webhostapp.com/Leela-TCEC-Cup.pgn)
+The games of Leela in TCEC Cup: [TCEC Cup-Leela PGN](https://georgemj23.000webhostapp.com/Leela-TCEC-Cup.pgn)
 
 Leela-Ethereal series:
 
@@ -1012,8 +1010,7 @@ Bd3+ 56. Kg1 Be2 57. Ba3 Bc4 58. Bc1 Ne4 59. Ba3 Kf5 60. Bc1 Nc3 61. Kh1 Ne2
 Kg1 0-1
 
 _**TCEC Cup brackets:**_  
-![]({{< file "2018-10-19-leela-beats-fire-promoting-to-
-semi-2018-10-19_10-57-23.png" >}})
+![]({{< file "2018-10-19-leela-beats-fire-promoting-to-semi-2018-10-19_10-57-23.png" >}})
 
 _**On the CCCC blitz event now**_ , **Leela** is steadily in the 3rd place
 having a solid performance so far with 38 wins 19 draws and just 2 losses out
@@ -1169,9 +1166,7 @@ as per their results the game as Leela win) the standings will be corrected.
       32 Crafty 25.2          128   85   97    59   14%   426   22%   
       33 Alfilx64               0  102  130    59    6%   429   12% 
 
-Games of Leela in CCCC Blitz event: [CCCC Blitz - Leela
-PGN](https://georgemj23.000webhostapp.com/Leela-CCCC-Blitz.pgn)  
-Game of CCCC blitz can be followed [HERE!](https://www.chess.com/computer-
-chess-championship)  
+Games of Leela in CCCC Blitz event: [CCCC Blitz - Leela PGN](https://georgemj23.000webhostapp.com/Leela-CCCC-Blitz.pgn)  
+Game of CCCC blitz can be followed [HERE!](https://www.chess.com/computer-chess-championship)  
 Leela as also all engines will play 128 games each one in total so there are
 still many games....

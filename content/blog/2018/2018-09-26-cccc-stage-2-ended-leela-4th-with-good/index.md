@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-26-cccc-stage-2-ended-leela-4th-with-good-
-gjhgj786867645.png" >}})
+![]({{< file "2018-09-26-cccc-stage-2-ended-leela-4th-with-good-gjhgj786867645.png" >}})
 
 Chess.com Computer Chess Championship stage 2 has finally ended. After a 280
 games battle only the top 2 engines will continue to the superfinal.  

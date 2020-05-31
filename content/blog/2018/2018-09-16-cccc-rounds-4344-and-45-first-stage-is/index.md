@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-09-16-cccc-rounds-4344-and-45-first-stage-is-
-ghjgj5522.png" >}})
+![]({{< file "2018-09-16-cccc-rounds-4344-and-45-first-stage-is-ghjgj5522.png" >}})
 
 1st stage is almost over, 1 round remains but the top 8 engines that will
 participate in stage 2 are known.  

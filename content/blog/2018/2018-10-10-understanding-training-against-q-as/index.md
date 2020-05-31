@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-10-understanding-training-against-q-
-as-1_oTtENBrl4x7EZlLYQo0GQA.jpeg" >}})
+![]({{< file "2018-10-10-understanding-training-against-q-as-1_oTtENBrl4x7EZlLYQo0GQA.jpeg" >}})
 
 _  
 Article by Cyanogenoid, member of Leela Chess Zero development team ._
@@ -51,8 +50,7 @@ This means that this 128x10 network gains significant amounts of strength
 through knowledge distillation while being much smaller and thus faster to run
 than the 256x40 network.
 
-![]({{< file "2018-10-10-understanding-training-against-q-as-
-image_093.png" >}})
+![]({{< file "2018-10-10-understanding-training-against-q-as-image_093.png" >}})
 
 One thing to take away from this 40-block to 10-block distillation is that it
 is important for the teacher to be stronger than the student. While this has

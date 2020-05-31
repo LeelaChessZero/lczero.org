@@ -7,9 +7,7 @@ tags = []
 draft = false
 +++
 
-[![]({{< file "2018-09-08-cccc-rounds-20-21-and-22-leela-
-with-3-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-
-championship)
+[![]({{< file "2018-09-08-cccc-rounds-20-21-and-22-leela-with-3-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 
 As it seems 6 engines will fight hard for 5 places that lead to next stage
 provided that Stockfish, Houdini and Komodo will have no problems to get the 3

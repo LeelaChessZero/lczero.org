@@ -7,8 +7,7 @@ tags = []
 draft = false
 +++
 
-![]({{< file "2018-10-09-leela-promotes-to-round-of-16-in-tcec-
-hk678688888.png" >}})
+![]({{< file "2018-10-09-leela-promotes-to-round-of-16-in-tcec-hk678688888.png" >}})
 
 Leela after 6 consecutive draws in the series of games against Laser(division
 1 engine) she won last 2 games so she promoted to next round where she will
@@ -234,5 +233,4 @@ Bc6 34. Bxc6 Qxc6 35. Rg1 Rh7 36. Ke2 Na4 37. Rgd1 Rh8 38. Rd8 Kh7 39. Nxh8
 Rxh8 1-0
 
 The schedule of TCEC Cup:  
-![]({{< file "2018-10-09-leela-promotes-to-round-of-16-in-
-tcec-2018-10-09_12-41-17.png" >}})
+![]({{< file "2018-10-09-leela-promotes-to-round-of-16-in-tcec-2018-10-09_12-41-17.png" >}})
