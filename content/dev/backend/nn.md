@@ -17,6 +17,10 @@ SE layers have `SE_CHANNELS` channels (typically 32 or so).
 
 The network consists of a "body" (residual tower) and several output "heads" attached to it.
 
+All convolution layers also include bias layers.
+
+**Fully connected layer** is **MatMul** plus adding **Bias** on top.
+
 ### Body
 
 * Input convolution: from 112×8×8 to `FILTERS`×8×8.
