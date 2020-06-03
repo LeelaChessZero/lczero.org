@@ -79,13 +79,13 @@ First, play matches with `cutechess-cli`. Here is an example command:
 
   `-engine conf=lc0 tc=4+0.064`: see above.
 
-  `-draw movenumber=40 movecount=4 score=8`: draw adjudication. If more than 4 moves pass with both engines having score <= 8 centipawns, and at least 40 moves have been played, call the game off as a draw.
+  `-draw movenumber=40 movecount=4 score=8`: draw adjudication. If more than 4 moves pass with both engines having score <= 8 centipawns, and at least 40 moves have been played, call the game off as a draw. Captures or pawn moves reset the counter.
 
-  `-resign movecount=4 score=500`: resign adjudication. If more than 4 consecutive moves pass where both engines believe the score to be more than 500 centipawns, resign the game.
+  `-resign movecount=4 score=500`: resign adjudication. If more than 4 consecutive moves pass where one engine believes its score to be below 500 centipawns, resign the game.
 
   `-each proto=uci`: both engines use the UCI protocol.
 
-  `-openings file=blah/openings-6ply-1000.pgn policy=round -repeat -rounds 500 -games 2`: details about the games. Here we are looking at openings from the file `openings-6ply-1000.pgn`. `policy=round` tells us that if we have multiple engines, the same opening is used in each round; if we lack this then in the same round different engines will play different openings, which makes calculated ratings less accurate. `-repeat` tells us that between any pair of engines, once an opening is played, the players swap sides, so both players play from both black and white. `-rounds 500 -games 2`: a total of 500 rounds are played, with 2 games per round, for a total of 1000 games. **Games should always be 2.**
+  `-openings file=blah/openings-6ply-1000.pgn policy=round -repeat -rounds 500 -games 2`: details about the games. Here we are looking at openings from the file `openings-6ply-1000.pgn`. `policy=round` tells us that if we have multiple engines, the same opening is used in each round; if we lack this then in the same round different engines will play different openings, which makes calculated ratings less accurate. `-repeat` tells us that between any pair of engines, once an opening is played, the players swap sides, so both players play from both black and white, which is also recommended for more accuracy. `-rounds 500 -games 2`: a total of 500 rounds are played, with 2 games per round, for a total of 1000 games. For gauntlets multiply this number with all participants excluding the first engine. **Games should always be 2.**
   
   
 </details>
