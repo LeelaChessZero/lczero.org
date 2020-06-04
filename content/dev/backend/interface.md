@@ -134,3 +134,25 @@ Policy head is accessed using `GetP(int sample, int move_id)` function. `move_id
 #### Moves left head
 
 The output of that head is accessed using `GetM()` function.
+
+## Example backend implementations
+
+"Real" backends:
+
+* [CUDA backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/cuda/network_cudnn.cc)
+* [DirectX 12 backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/dx/network_dx.cc)
+* [OpenCL backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/opencl/network_opencl.cc)
+* [BLAS backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/blas/network_blas.cc)
+* [Tensorflow C++ backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/network_tf_cc.cc)
+
+
+Backend adapters to combine other backends (e.g. in the case of multiple GPUs):
+
+* [Multiplexing backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/network_mux.cc)
+* [Round robin backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/network_rr.cc)
+* [Demux backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/network_demux.cc)
+
+Other backends:
+
+* ["Check" backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/network_random.cc)
+* [Random backend](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/network_check.cc) -- checks whether two backends return the same result.
