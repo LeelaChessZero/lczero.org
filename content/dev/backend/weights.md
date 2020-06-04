@@ -123,4 +123,11 @@ Probably clear..
 `FC_SIZE` = `LayerAdapter(weights.ip1_mov_b()).size()`
 
 
+## LegacyWeights wrapper
+
+There is a [`LegacyWeights`](https://github.com/LeelaChessZero/lc0/blob/master/src/neural/network_legacy.h#L31) struct which was used to contain weights
+before Protocol Buffer weights format was introduced. This struct was planned to be deprecated and later removed.
+
+However, it seems that it adds considerable amount of convenience (as working with `std::vector<float>` is more familiar) so it's probably here to say.
+
 [^1]: https://developers.google.com/protocol-buffers
