@@ -85,7 +85,7 @@ echo "Downloading lczero client"
 sudo curl -s -L https://github.com/LeelaChessZero/lczero-client/releases/latest | egrep -o '/LeelaChessZero/lczero-client/releases/download/.*/client_linux' | head -n 1 | wget --base=https://github.com/ -i - -O client_linux && chmod +x client_linux
 
 echo "Running Leela Chess Zero"
-./client_linux --user googlecloud --password googlecloud --use-test-server
+./client_linux --user googlecloud --password googlecloud
 ``` 
 
 **For Non-V100 GPUs**
@@ -93,7 +93,7 @@ echo "Running Leela Chess Zero"
 If you happened to be using a non-V100 GPU then change the final line in the script to use this command instead:
 
 ```
-./client_linux --user googlecloud --password googlecloud --use-test-server
+./client_linux --user googlecloud --password googlecloud
 ```
 You may also want to change the "googlecloud" username and password to your own username and password so you can see how many games you are contributing on the [Leela Chess Zero website](http://lczero.org/). Remember that the password you use will NOT be encrypted so do not use a sensitive one.
 
