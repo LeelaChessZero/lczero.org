@@ -45,6 +45,8 @@ On the 'Create an instance' page you have many options which you will see as you
 
 2) Scroll to **'Startup script'** under 'Automation' and copy and paste the following script into the box according to what kind of GPU you are using:
 
+***This script is very old and obsolete - you almost certainly don't want this - look further down for one that is newer and maybe less useless (but probably still needs updating too).***
+
 **For V100 GPUs:**
 ```bash
 #!/bin/bash
