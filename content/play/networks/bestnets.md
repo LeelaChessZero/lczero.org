@@ -25,6 +25,7 @@ In each section, the nets are listed in descending order of strength.
 ### 30 blocks x 384 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
+| 384x30-t60-4082 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data. Possible choice for TCEC 18 Superfinal |
 | 384x30-t60-3010 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data. Won CCC13 and TCEC 17 |
 | 384x30-t40-1705| [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/) | Trained on T40 data |
 
@@ -39,7 +40,7 @@ In each section, the nets are listed in descending order of strength.
 ### 20 blocks x 256 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| Leelenstein 14.3 | [Patreon: jjosh](https://www.patreon.com/posts/ls-14-3-36263859) | Early Access (Patrons only) |
+| Leelenstein 15.0 | [Patreon: jjosh](https://www.patreon.com/posts/leelenstein-15-0-38164065) | Early Access (Patrons only) |
 | Leelenstein 14.0 | [14.0 Post](https://www.patreon.com/posts/ls-14-34414677) | No account required |
 | SV-20b-t40-1541  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/) | Trained on T40 data |
 | 42850   | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
