@@ -57,7 +57,7 @@ In each section, the nets are listed in descending order of strength.
 ### Asorted sizes:
 | Size   | Name             | Source for Download               | Notes            |
 |--------|------------------|-----------------------------------|------------------|
-| 19b x 256  | T71.4-FR960-Chess| [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Trained from scratch on Fischer Random Chess |
+| 19b x 256f | T71.4-FR960-Chess| [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Trained from scratch on Fischer Random Chess |
 | 16b x 192f | J20-460          | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
 | 9b x 112f  | ID11258-112x9-se | [GitHub: dkappe Distilled Networks](https://github.com/dkappe/leela-chess-weights/wiki/Distilled-Networks) | Other sizes also here |
 | 5b x 48f   | Good Gyal 5      | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
