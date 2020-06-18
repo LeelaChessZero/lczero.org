@@ -19,14 +19,15 @@ The most important consideration in choosing a net is picking the right size for
 
 ## Network Lists
 
-In each section, the nets are listed in descending order of strength.
+In each section, the nets are listed (roughly) in descending order of strength. (Some may be too close to tell apart).
 
 
 ### 30 blocks x 384 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| 384x30-t60-4155 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data. Possible choice for TCEC 18 Superfinal |
-| 384x30-t60-3010 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data. Won CCC13 and TCEC 17 |
+| Latest 30b SV net | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data. |
+| SV-3972+jio-20k | [Direct Download](http://hforsten.com/leelaz/384x30-3972-swa-20000.pb.gz) | Submitted for TCEC 18 Superfinal |
+| 384x30-t60-3010 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Won CCC13 and TCEC 17 |
 | 384x30-t40-1705| [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/) | Trained on T40 data |
 
 
