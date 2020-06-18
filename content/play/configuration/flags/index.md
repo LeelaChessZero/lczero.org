@@ -103,7 +103,8 @@ In this case, pass it as `ConfigFile` UCI parameter, or `--config` (`-c`) comman
 |**DrawScoreOpponent** | `--draw-score-opponent`| `0` |Score of a drawn game, as seen by the opponent.|
 |**DrawScoreWhite** | `--draw-score-white`| `0` |Adjustment, added to a draw score of a white player.|
 |**DrawScoreBlack** | `--draw-score-black`| `0` |Adjustment, added to a draw score of a black player.|
-|**Ponder** | `-s`, `--syzygy-paths`| `true` |List of Syzygy tablebase directories, list entries separated by system separator (";" for Windows, ":" for Linux). [UCI: SyzygyPath]  --[no-]ponder This option is ignored. Here to please chess GUIs.|
+|**SyzygyPath** | `-s`, `--syzygy-paths`| `true` |List of Syzygy tablebase directories, list entries separated by system separator (";" for Windows, ":" for Linux).|
+|**Ponder** | `--[no-]ponder`| `true` |This option is ignored. Here to please chess GUIs.|
 |**UCI_Chess960** | `--[no-]chess960`| `false` |Castling moves are encoded as "king takes rook".|
 |**UCI_ShowWDL** | `--[no-]show-wdl`| `false` |Show win, draw and lose probability.|
 |**ConfigFile** | `-c`, `--config`| `lc0.config` |Path to a configuration file. The format of the file is one command line parameter per line, e.g.: --weights=/path/to/weights|
