@@ -27,8 +27,8 @@ Once you are in the chess app you can choose the Leela Chess Zero engine. This s
 
 |  Architecture   |  OpenBLAS/Eigen  |   OpenCL   |
 |:----------------|:----------------:|:----------:|
-| armv7-a     |  [link](https://ci.appveyor.com/api/buildjobs/3q12nsw61se53w9u/artifacts/armeabi-v7a/lc0)   |   -   |
-| aarch64     |  [link](https://ci.appveyor.com/api/buildjobs/3q12nsw61se53w9u/artifacts/arm64-v8a/lc0)   |   -   |
+| armv7-a     |  [link](https://ci.appveyor.com/api/buildjobs/wxdnmaj49end6gpn/artifacts/armeabi-v7a/lc0)   |   -   |
+| aarch64     |  [link](https://ci.appveyor.com/api/buildjobs/wxdnmaj49end6gpn/artifacts/arm64-v8a/lc0)   |   -   |
 
 More back-ends will be added as soon as they are available.
 
