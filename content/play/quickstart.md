@@ -27,9 +27,9 @@ Among other files, you'll find the following:
 | File     | Purpose                               |
 | -------- | --------------------------------------|
 | **lc0.exe**  | The Leela Chess Zero chess engine. |
-| E.g. **weights_run2_32930.pb.gz**| The default Neural Network. |
+| E.g. **703350.pb.gz**| The default Neural Network. |
 | ***.dll** | Libraries needed for the engine to function. |
-| **client.exe**| Not needed unless you want to contribute to training the networks. |
+| **lc0-training-client.exe**| Not needed unless you want to contribute to training the networks. |
 
 #### 4. (optional) Select a Neural Network to use.
 
