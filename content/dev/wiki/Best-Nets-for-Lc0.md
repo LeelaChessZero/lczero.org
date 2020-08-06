@@ -50,7 +50,7 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 ### 10 blocks x 128 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| SV-10b-t60-2-2990  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/new/128x10-t60-2/) | Trained on T60 data |
+| Latest 10b SV net  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/new/128x10-t60-2/) | Trained on T60 data |
 | 591226  | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=47e3f899519dc1bc95496a457b77730fce7b0b89b6187af5c01ecbbd02e88398) | Last T59 net |
 | 703675  | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=81bc9af2c90304e37d2c23cc1265531459a78f50ec550bf54f3cbe865944ca98) | A T70 net (not to be confused with T72) |
 | Little Demon 2 | [data.lczero.org repository](http://data.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
