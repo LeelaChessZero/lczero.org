@@ -43,7 +43,7 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
 | Leelenstein 15.0 | [Patreon: jjosh](https://www.patreon.com/posts/leelenstein-15-0-38164065) | Early Access (Patrons only) |
-| Leelenstein 14.0 | [14.0 Post](https://www.patreon.com/posts/ls-14-34414677) | No account required |
+| Leelenstein 14.3 | [14.3 Post](https://www.patreon.com/posts/ls-14-3-release-36263859) | No account required |
 | SV-20b-t40-1541  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/) | Trained on T40 data |
 | 42850   | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
 
