@@ -13,8 +13,11 @@ Lc0 has three main parts:
 |**Network (NN)**|Varies e.g. **weights_run1_62114.pb.gz**| Stores the Neural Net's evaluation function | **NO**   | **YES**|
 |**Client**    | **client.exe**| Gets the latest network from the server, generates self-play games, and uploads the training data to the server | **YES** | **NO**|
 
-* To **help the project** by donating GPU time, you need all three of these, and you should run **client.exe**. The client will automatically run lc0.exe, download the network for training, and ask the server what to do. 
-If this doesn't work right away try debugging by running lc0.exe  (see Debug section below).
+* To **help the project** by donating GPU time, you need to:
+1) Download and install the **Client** and **Engine**
+2) Run the **client.exe**
+
+The client will run games and arrange all communication with the learning server. Thanks for contributing!
 
 * To **play or analyze games** with Lc0, you don't need client.exe, but you do need the engine **lc0.exe** and a network file. The best way to do this is using a chess GUI. See the guide in [our blog](http://blog.lczero.org/2018/09/guide-setting-up-leela-on-chess-gui.html).
 
