@@ -23,6 +23,9 @@ To go a bit more in depth, Lc0 has three main parts:
 * To **play or analyze games** with Lc0, you don't need client.exe, but you do need the engine **lc0.exe** and a network file. The best way to do this is using a chess GUI. See the guide in [our blog](https://lczero.org/blog/2018/09/guide-setting-up-leela-on-chess-gui/).
 
 ## Downloading
+
+Just download the relevant version for your machine and place the downloads in the same directory to be able to contribute to leela's learning process or to analyse games.
+
 ### Client 
 Can be downloaded from https://github.com/LeelaChessZero/lczero-client/releases
 * **Windows** --> client.exe
@@ -38,18 +41,27 @@ Can be downloaded from https://github.com/LeelaChessZero/lczero-client/releases
 * [[Changelog|https://github.com/LeelaChessZero/lc0/blob/master/changelog.txt]] between different versions
 
 ### Network
-Download a network from http://training.lczero.org/networks or see [best nets](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0) for an overview of the best nets for your conditions. 
+
+The client will already download the latest network for contributing games. If you want, you can download a specific version of a network. Download a network from http://training.lczero.org/networks or see [best nets](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0) for an overview of the best nets for your specific hardware conditions. 
   * The name will be some long hash string, for example: b82f0b34b96c8f38f68ee97703b4149ab976122ca9bed6120f9dea88d733d266
   * Rename to "weights" (for convenience).
   * Place in the same directory with the lc0 application. On a Mac this is /Users/[username]/lc0/build/release/.
   * The file will be found automatically after opening lc0 in the command line.
 
 ## Get started analyzing positions
+
+You can analyse games in the engine console as follows:
+
 * Open the lc0 application. 
 * Enter the command "go nodes 100" in the terminal. 
 * lc0 will begin a configuration process, which will only happen once. Then it will analyze the starting position for 100 nodes.
 * To increase the quality of analysis, use more nodes.
 * To analyse a position, type for example, "position startpos moves e2e4 e7e5", where the moves lead to the desired position. Then use "go nodes [number]" again.
+* To analyse a specific position you can give the engine a FEN position "position fen 4k3/8/8/8/8/8/4P3/4K3 w - - 5 39". Then use "go nodes 100".
+
+## Graphical interface for analyses
+
+With nibbler there is now also a GUI available to help analyse games. You can find the latest version of nibbler at https://github.com/fohristiwhirl/nibbler
 
 ## Debug
 * For easier debug, verify install by running from command line (cmd.exe)
