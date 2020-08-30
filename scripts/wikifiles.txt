@@ -17,6 +17,7 @@ Known-Issues
 Large-Elo-fluctuations-starting-from-ID253
 Lc0-for-32-bit-windows
 Lc0-options
+Leela-Chess-Zero-Wiki
 Leela-Self-play-in-Docker
 Missing-Shallow-Tactics
 Neural-Net-Training
