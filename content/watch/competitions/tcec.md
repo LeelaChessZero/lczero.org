@@ -7,10 +7,10 @@ wikiname: "TCEC"
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at https://tcec-chess.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 
 # Season 18
-| Division | Executable | Network           | Participants | Placement | Result    |                                                                                                              
-| -------- | ---------- |-------------------| ------------ | --------- | --------- | 
-| SuFi     | v0.25.1    |svjio-t60-3972-mlh |      2       |    2nd    | 46.5/100  |
-| DivP     | v0.25.1    |sv-t60-3010        |      8       |    2nd    | 24.5/42   |
+| Division | Executable | Network           |  Placement | Result    |                                                                                                              
+| -------- | ---------- |-------------------|  --------- | --------- | 
+| SuFi     | v0.25.1    |svjio-t60-3972-mlh |     2/2    | 46.5/100  |
+| DivP     | v0.25.1    |sv-t60-3010        |     2/8    | 24.5/42   |
 
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
 * Non-default parameters:
