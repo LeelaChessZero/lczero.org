@@ -6,6 +6,33 @@ wikiname: "TCEC"
 ---
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at https://tcec-chess.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 
+# Season 18
+| Division | Executable | Network           | Participants | Placement | Result    |                                                                                                              
+| -------- | ---------- |-------------------| ------------ | --------- | --------- | 
+| SuFi     | v0.25.1    |svjio-t60-3972-mlh |      2       |    2nd    | 46.5/100  |
+| DivP     | v0.25.1    |sv-t60-3010        |      8       |    2nd    | 24.5/42   |
+
+* Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
+* Non-default parameters:
+  * MoveOverheadMs=1000
+  * Backend=demux
+  * BackendOptions=backend=cudnn-fp16,custom_winograd=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)
+  * NNCacheSize=20000000
+  * MinibatchSize=320
+  * MaxPrefetch=160
+  * MaxCollisionEvents=917
+  * MaxOutOfOrderEvalsFactor=2.4
+  * SmartPruningMinimumBatches=600
+  * StrictUciTiming=true
+* Added for SuFi:
+  * MovesLeftMaxEffect=0.2
+  * MovesLeftThreshold=0.0
+  * MovesLeftSlope=0.007
+  * MovesLeftQuadraticFactor=0.0
+  * MovesLeftScaledFactor=1.0
+  * MovesLeftConstantFactor=0.0
+
+
 # Season 13
 | Division | Executable               | Network     | Placement | Result    |                                                                                                              
 | -------- | --------------------------------------------------------------------------- |-----| ------- | ------ | 
