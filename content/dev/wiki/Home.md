@@ -9,6 +9,11 @@ wikiname: "Home"
 * [Best Networks](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0)
 * [LC0 Options](https://github.com/LeelaChessZero/lc0/wiki/Lc0-options)
 * [Benchmarking](https://github.com/LeelaChessZero/lc0/wiki/Running-a-benchmark)
+* Knowledge Base:
+  * [Technical Explanation of Leela Chess Zero](https://github.com/LeelaChessZero/lc0/wiki/Technical-Explanation-of-Leela-Chess-Zero)
+  * [What is LC0?](https://github.com/LeelaChessZero/lc0/wiki/What-is-Lc0%3F)
+  * [What is LC0? (for non programmers)](https://github.com/LeelaChessZero/lc0/wiki/What-is-Lc0%3F-(for-non-programmers))
+  * [Why "Zero"?](https://github.com/LeelaChessZero/lc0/wiki/Why-Zero)
 * Guides:
   * [Running LC0 in a Chess GUI](https://github.com/LeelaChessZero/lc0/wiki/Running-Leela-Chess-Zero-in-a-Chess-GUI)
   * [Running LC0 on Android with a Chess GUI](https://github.com/LeelaChessZero/lc0/wiki/Running-lc0-on-Android-with-a-chess-GUI)
@@ -23,8 +28,10 @@ wikiname: "Home"
   * [Leela Self play in Docker](https://github.com/LeelaChessZero/lc0/wiki/Leela-Self-play-in-Docker)
   * [Script for testing new nets versus old nets on Google Colab](https://github.com/LeelaChessZero/lc0/wiki/Script-for-testing-new-nets-versus-old-nets-on-Google-Colab)
   * [Running LC0 as a Lichess Bot](https://github.com/LeelaChessZero/lc0/wiki/Running-Leela-Chess-Zero-as-a-Lichess-Bot)
-  * [Neural Net Training](https://github.com/LeelaChessZero/lc0/wiki/Neural-Net-Training)   
-* [Debug and test procedures](https://github.com/LeelaChessZero/lc0/wiki/Debug-and-test-procedures)
+  * [Neural Net Training](https://github.com/LeelaChessZero/lc0/wiki/Neural-Net-Training) 
+* Debugging:
+  * [Debug and test procedures](https://github.com/LeelaChessZero/lc0/wiki/Debug-and-test-procedures)
+  * [Transposition tests](https://github.com/LeelaChessZero/lc0/wiki/Transposition-tests)
 * Testing:
   * [Testing Guide](https://github.com/LeelaChessZero/lc0/wiki/Testing-guide)
   * [Beginner Friendly Guide on Training and Testing a Net on Google Colab](https://github.com/LeelaChessZero/lc0/wiki/Beginner-Friendly-Guide-on-Training-and-Testing-a-Net-on-Google-Colab)
