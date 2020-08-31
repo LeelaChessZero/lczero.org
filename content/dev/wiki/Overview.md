@@ -4,8 +4,6 @@ weight: 500
 wikiname: "Overview"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-### Wiki Overview
-
 * [FAQ](https://github.com/LeelaChessZero/lc0/wiki/FAQ)
 * [Getting started](https://github.com/LeelaChessZero/lc0/wiki/Getting-Started)
 * [Best Networks](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0)
