@@ -15,7 +15,7 @@ wikiname: "Home"
   * [What is LC0? (for non programmers)](https://github.com/LeelaChessZero/lc0/wiki/What-is-Lc0%3F-(for-non-programmers))
   * [Why "Zero"?](https://github.com/LeelaChessZero/lc0/wiki/Why-Zero)
 * Guides:
-  * Running in...
+  * Running...
     * [Running LC0 in a Chess GUI](https://github.com/LeelaChessZero/lc0/wiki/Running-Leela-Chess-Zero-in-a-Chess-GUI)
     * [Running LC0 on Android with a Chess GUI](https://github.com/LeelaChessZero/lc0/wiki/Running-lc0-on-Android-with-a-chess-GUI)
     * [Running LC0 on Intel CPUs (Haswell or later)](https://github.com/LeelaChessZero/lc0/wiki/Running-Leela-Chess-Zero-on-Intel-CPUs-(Haswell-or-later))
