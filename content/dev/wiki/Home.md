@@ -28,6 +28,7 @@ wikiname: "Home"
   * [Leela Self play in Docker](https://github.com/LeelaChessZero/lc0/wiki/Leela-Self-play-in-Docker)
   * [Script for testing new nets versus old nets on Google Colab](https://github.com/LeelaChessZero/lc0/wiki/Script-for-testing-new-nets-versus-old-nets-on-Google-Colab)
   * [Running LC0 as a Lichess Bot](https://github.com/LeelaChessZero/lc0/wiki/Running-Leela-Chess-Zero-as-a-Lichess-Bot)
+  * [How to train your own LC0 Net - The Idiot's Guide for Windows 10](https://docs.google.com/document/d/1pB2MtqVVgYC2BwJbIrVvP2xWe5KIFFVteEqZroMf20E/edit)
   * [Neural Net Training](https://github.com/LeelaChessZero/lc0/wiki/Neural-Net-Training) 
 * Debugging:
   * [Debug and test procedures](https://github.com/LeelaChessZero/lc0/wiki/Debug-and-test-procedures)
