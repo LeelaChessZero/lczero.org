@@ -23,12 +23,12 @@ After installing the APK you will need a chess app that supports the Open Exchan
 
 Once you are in the chess app you can choose the Leela Chess Zero engine. This should be enough as the engine is ready to use with a built-in weights file. For those willing to use the plain engine binaries, get them here:
 
-### Plain engine binaries for the latest release
+### Plain engine binaries for the v0.26.2 release.
 
 |  Architecture   |  OpenBLAS/Eigen  |   OpenCL   |
 |:----------------|:----------------:|:----------:|
-| armv7-a     |  [link](https://ci.appveyor.com/api/buildjobs/r6bcet2n5sdpo5iu/artifacts/armeabi-v7a/lc0)   |   -   |
-| aarch64     |  [link](https://ci.appveyor.com/api/buildjobs/r6bcet2n5sdpo5iu/artifacts/arm64-v8a/lc0)   |   -   |
+| armv7-a     |  [link](https://ci.appveyor.com/api/buildjobs/hb9t7roh1bgtbnas/artifacts/armeabi-v7a/lc0)   |   -   |
+| aarch64     |  [link](https://ci.appveyor.com/api/buildjobs/hb9t7roh1bgtbnas/artifacts/arm64-v8a/lc0)   |   -   |
 
 More back-ends will be added as soon as they are available.
 
