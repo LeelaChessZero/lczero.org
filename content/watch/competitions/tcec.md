@@ -9,6 +9,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 # Season 19
 | Division | Executable  | Network           |  Placement | Result    |                                                                                                              
 | -------- | ----------- |-------------------|  --------- | --------- | 
+| SuFi     | v0.26.3-rc1 | J92-190           |     tbd.   | tbd.      |
 | DivP     | v0.26.2-rc1 | J92-100           |     2/8    | 32.5/56   |
 
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
@@ -26,6 +27,12 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
   * MovesLeftMaxEffect=0.2
   * MovesLeftThreshold=0.862976
   * MovesLeftSlope=0.0004
+* Added/Changed for SuFi:
+  * BackendOptions=backend=cudnn-fp16,custom_winograd=true,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)
+  * MovesLeftThreshold=0.0
+  * MovesLeftSlope=0.004
+  * MovesLeftQuadraticFactor=0.0
+  * MovesLeftScaledFactor=1.0
 
 # Season 18
 | Division | Executable | Network           |  Placement | Result    |                                                                                                              
