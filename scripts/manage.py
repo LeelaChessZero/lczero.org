@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 
 import click
+import json
 import os
 import os.path
 import re
-import json
+import requests
 
 SCRIPT_DIR = os.path.dirname(__file__)
 FILELIST = os.path.join(SCRIPT_DIR, 'wikifiles.txt')
 CONTENT_DIR = os.path.realpath(os.path.join(SCRIPT_DIR, '../content'))
+CONFIG_FILE = os.path.realpath(os.path.join(SCRIPT_DIR, '../config.toml'))
 WIKI_PATH = os.path.join(SCRIPT_DIR, 'lc0.wiki')
 DESTINATION_DIR = os.path.join(CONTENT_DIR, 'dev/wiki')
 
@@ -123,6 +125,26 @@ def cli():
 def updatewiki(quiet):
     WikiUpdater(quiet).Run()
 
+
+@cli.command()
+def updateversion():
+  with open(CONFIG_FILE, "r") as f:
+    lines = f.readlines()
+  new_version = requests.get('https://api.github.com/repos/LeelaChessZero/lc0/releases/latest').json()['tag_name']
+  version_regex = re.compile(r'(?<=lc0version=")([^"]+)')
+  changed = False
+  for i in range(len(lines)):
+    line = lines[i]
+    m = version_regex.search(line)
+    if m:
+      old_version = m.group(0)
+      if old_version != new_version:
+        lines[i] = version_regex.sub(new_version, line)
+        changed = True
+
+  if changed:
+    with open(CONFIG_FILE, "w") as f:
+      f.write(''.join(lines))
 
 if __name__ == '__main__':
     cli()
