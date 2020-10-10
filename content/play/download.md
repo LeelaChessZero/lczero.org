@@ -19,7 +19,8 @@ Pick the row that matches your hardware from the following table:
 
 | Hardware | Backend |
 |----------|---------|
-| Newer (2014+) NVidia GPUs: GTX&nbsp;7xx, GTX&nbsp;8xx, GTX&nbsp;9xx, GTX&nbsp;1xxx, RTX&nbsp;2xxx and so on | [CUDA](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cuda.zip) |
+| Newest (2018+) NVidia GPUs: GTX&nbsp;16xx, RTX&nbsp;20xx, RTX&nbsp;30xx and so on | [CUDA](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cuda.zip) |
+| Newer (2014-2018) NVidia GPUs: GTX&nbsp;7xx, GTX&nbsp;8xx, GTX&nbsp;9xx, GTX&nbsp;10xx | [CUDNN](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cudnn.zip) |
 | Newer non-NVidia GPUs (only for latest versions of Windows 10) | [DirectX 12](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows10-gpu-dx12.zip) |
 | Older GPUs or Windows versions | [OpenCL](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-opencl.zip) |
 | Computers without GPUs, but with modern CPUs | [DNNL BLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-dnnl.zip) |
