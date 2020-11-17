@@ -17,7 +17,7 @@ The **Lc0 engine** sees the board and makes the moves, and the **neural net** te
 
 ***You will need to download BOTH parts if you want to use Lc0.*** 
 
-Go to [Download]() to get the engine and find a network.
+Go to [Download](https://lczero.org/play/download/) to get the engine and find a network.
 
 Lc0 runs best with a powerful GPU, unlike other traditional engines that run on CPU, so keep that in mind. 
 
