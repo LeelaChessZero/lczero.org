@@ -1,6 +1,6 @@
 ---
 title: "Chessbase"
-weight: 500
+weight: 2000
 summary: "Installing the Lc0 in Chessbase GUI."
 ---
 
