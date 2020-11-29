@@ -88,6 +88,6 @@ Batch normalization is already folded into weights, so there's no need to do any
 * ReLU
 
 
-[^1]: AlphaGo Zero https://deepmind.com/research/publications/mastering-game-go-without-human-knowledge/, scroll down for the paper link.
-[^2]: AlphaZero https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go, scroll down for the paper link.
+[^1]: AlphaGo Zero [https://deepmind.com/research/publications/mastering-game-go-without-human-knowledge](https://deepmind.com/research/publications/mastering-game-go-without-human-knowledge), scroll down for the paper link.
+[^2]: AlphaZero [https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go](https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go), scroll down for the paper link.
 [^3]: Squeeze and Excitation networks: https://arxiv.org/abs/1709.01507
