@@ -30,8 +30,6 @@ To install Lc0 in Chessbase, follow the following steps:
 
 5. Click "OK" to finish the installation of the engine.
 
-![]({{< file "step050.png" >}})
-
 6. The engine is now usable! For example, you can activate it by clicking "Add Kibitzer" and selecting your newly created engine:
 
-![]({{< file "step060.png" >}})
+![]({{< file "step050.png" >}})
