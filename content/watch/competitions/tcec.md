@@ -6,6 +6,35 @@ wikiname: "TCEC"
 ---
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at https://tcec-chess.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 
+# Season 20
+| Division | Executable  | Network           |  Placement | Result    |                                                                                                              
+| -------- | ----------- |-------------------|  --------- | --------- | 
+| DivP     | v0.26.3     |  66740            |            |           |
+
+* Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
+* Non-default parameters:
+  * MoveOverheadMs=1000
+  * Backend=demux
+  * BackendOptions=backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)
+  * NNCacheSize=20000000
+  * MinibatchSize=320
+  * MaxPrefetch=160
+  * MaxCollisionEvents=917
+  * MaxOutOfOrderEvalsFactor=2.4
+  * SmartPruningMinimumBatches=300
+  * RootHasOwnCpuctParams=false
+  * CPuct=1.745
+  * CPuctBase=38739
+  * FpuValue=0.330
+  * CPuctFactor=3.894
+  * PolicyTemperature=1.359
+  * MovesLeftMaxEffect=0.2
+  * MovesLeftThreshold=0.0
+  * MovesLeftSlope=0.004
+  * MovesLeftQuadraticFactor=0.0
+  * MovesLeftScaledFactor=1.0
+  * TimeManager=legacy(steepness=4.0)
+
 # Season 19
 | Division | Executable  | Network           |  Placement | Result    |                                                                                                              
 | -------- | ----------- |-------------------|  --------- | --------- | 
@@ -23,7 +52,6 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
   * MaxCollisionEvents=917
   * MaxOutOfOrderEvalsFactor=2.4
   * SmartPruningMinimumBatches=600
-  * StrictUciTiming=true
   * MovesLeftMaxEffect=0.2
   * MovesLeftThreshold=0.862976
   * MovesLeftSlope=0.0004
@@ -51,7 +79,6 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
   * MaxCollisionEvents=917
   * MaxOutOfOrderEvalsFactor=2.4
   * SmartPruningMinimumBatches=600
-  * StrictUciTiming=true
 * Added for SuFi:
   * MovesLeftMaxEffect=0.2
   * MovesLeftThreshold=0.0
