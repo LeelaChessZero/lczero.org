@@ -59,9 +59,12 @@ strength growth, as nps improvement there may exceed 2.5 times.
 
 The [Ceres repository](https://github.com/dje-dev/Ceres) only contains source
 code for now with a build instructions.
-There are ≈5 people in Discord chat who managed to build it
+There are ≈5 people in Discord chat who managed to build it, but currently
+it's a bit complicated. Community is working on simplifying the build and
+providing a binary to use.
 
-[ I'm writing here !!] 
+Currently only Windows is supported, but Linux support is being worked on.
 
 
-## What it means to LCZero project
+## What it means to LCZero project?
+
