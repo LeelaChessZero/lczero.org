@@ -86,6 +86,8 @@ velocity will be slower with C# and less people are familiar with it, so there
 may be less dev engagement.
 * Back-porting of many of the Ceres features into Lc0 are not possible without
 a full rewrite (although full rewrite is always a good idea :-P).
+* It's not rational to split the effort and try to maintain two engines at high
+quality at the same time.
 
 It's possible that Ceres and will co-exist in parallel to Lc0 and Lc0 devs will
 try to back-port new ideas, or devs of LCZero project will abandon Lc0
