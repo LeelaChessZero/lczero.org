@@ -79,8 +79,8 @@ There are several factors that make that decision difficult:
 * Lc0 is still the only way to generate training data, so this part of Lc0 will
 have to be maintained in any case.
 * Ceres is written in C#, which will make the engine less portable. While
-having a Linux build is probably possible, more exotic platforms
-(like tensoflow-js, iOS and even Windows prior to 10) is surely out of scope.
+having a Linux build is on the radar, more exotic platforms
+(like tensoflow-js, or even Windows versions prior to 10) is surely out of scope.
 * Even though it will be possible to build Ceres on Linux, I expect developer
 velocity will be slower with C# and less people are familiar with it, so there
 may be less dev engagement.
