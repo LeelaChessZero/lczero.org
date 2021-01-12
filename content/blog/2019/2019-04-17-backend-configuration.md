@@ -136,7 +136,7 @@ threads come from different games), and sends them further to child backend as
 a single batch.  
 Also it supports several child backends and sends a batch to whichever backend
 is free. Because of this it's also used outside of selfplay, in multi-GPU
-configurations (although now there are better backends for that).
+configurations (although now there are also other backends for that).
 
 Options:  
 Multiplexing takes list of subdictionaries as options, and creates one child
