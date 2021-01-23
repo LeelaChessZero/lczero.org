@@ -31,6 +31,7 @@ wikiname: "Home"
   * Running/Contributing with Google Colab
     * [Run LC0 client on a Tesla K80 GPU for free (Google Colaboratory)](https://github.com/LeelaChessZero/lc0/wiki/Run-Leela-Chess-Zero-client-on-a-Tesla-K80-GPU-for-free-(Google-Colaboratory))
     * [Script for testing new nets versus old nets on Google Colab](https://github.com/LeelaChessZero/lc0/wiki/Script-for-testing-new-nets-versus-old-nets-on-Google-Colab)
+    * [Beginner Friendly Guide on Training and Testing a Net on Google Colab](https://github.com/LeelaChessZero/lc0/wiki/Beginner-Friendly-Guide-on-Training-and-Testing-a-Net-on-Google-Colab)
   * Running/Contributing with vast.ai
     * [Contribute LC0 games with vast.ai](https://github.com/jhorthos/lczero-training/wiki/Contribute-Leela-games-with-vast.ai)
   * Running/Contributing in Docker
@@ -43,7 +44,6 @@ wikiname: "Home"
   * [Transposition tests](https://github.com/LeelaChessZero/lc0/wiki/Transposition-tests)
 * Testing:
   * [Testing Guide](https://github.com/LeelaChessZero/lc0/wiki/Testing-guide)
-  * [Beginner Friendly Guide on Training and Testing a Net on Google Colab](https://github.com/LeelaChessZero/lc0/wiki/Beginner-Friendly-Guide-on-Training-and-Testing-a-Net-on-Google-Colab)
 * Tuning:
   * [CLOP Tuning](https://github.com/LeelaChessZero/lc0/wiki/CLOP-tuning)
 * [Project History](https://github.com/LeelaChessZero/lc0/wiki/Project-History)
