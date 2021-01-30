@@ -148,7 +148,7 @@ CC=clang-6.0 CXX=clang++-6.0 ./build.sh
 mv ./build/release/lc0 lc0
 
 echo "Downloading lczero client"
-sudo curl -s -L https://github.com/LeelaChessZero/lczero-client/releases/latest | egrep -o '/LeelaChessZero/lczero-client/releases/download/.*/client_linux' | head -n 1 | wget --base=https://github.com/ -i - -O client_linux && chmod +x client_linux
+sudo curl -s -L https://github.com/LeelaChessZero/lczero-client/releases/latest | egrep -o '/LeelaChessZero/lczero-client/releases/download/.*/lc0-training-client-linux' | head -n 1 | wget --base=https://github.com/ -i - -O client_linux && chmod +x client_linux
 
 echo "Running Leela Chess Zero"
 ./client_linux --user googlecloud --password googlecloud
