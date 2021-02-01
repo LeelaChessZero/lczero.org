@@ -9,7 +9,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 # Season 20
 | Division |    Executable      |     Network       |  Placement |   Result  |                                                                                                              
 | -------- | ------------------ | ----------------- | ---------- | --------- | 
-| SuFi     | v0.27.0-dev PR1483 |     J94-100       |            |           |
+| SuFi     | v0.27.0-dev PR1483 |     J94-100       |     2/2    |   47/100  |
 | DivP     | v0.26.3            |      66740        |     1/8    |   38/56   |
 
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
