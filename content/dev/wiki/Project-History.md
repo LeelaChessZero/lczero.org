@@ -7,6 +7,80 @@ wikiname: "Project-History"
 * See also our [blog](https://blog.lczero.org)
 * [Discord chat](https://discord.gg/pKujYxD) #announcements and #dev-log have the most detailed updates.
 
+## T60
+* Start date: 2019-07-26
+* Network size: 320 filters, 24 residual blocks
+* Uses an absolute fpu of 1 at root.
+* Important changes during the run (for minor changes consult the Discord log):
+  * 60584: Training start temperature reduced to 1.15 (was 1.2)
+  * 60647: Temperature further dropped to 1.1.
+  * 60691: Temp visit offset changed to -0.9
+  * 60781: Learning rate drop to 0.015
+  * 60951-60955: Briefly activated multinet. Deactivated due to worse game generation speed.
+  * 61306: **Policy softmax temperature set to 1.2** (up from 1.0)
+  * 61433: Initial temperature to 1.3, temp decay aiming at 0 by move 23, but instead truncating at 0.4 at move 16.
+  * 61486: Temperature set to 1.2 decaying to 0.35
+  * 61538: Temperature decaying to 0.45
+  * 61606: Temperature set to 1.1 decaying to 0.45
+  * 61657: Endgame cutoff for the temperature at 22 instead of 16 (tempdecay moves to 37 instead of 26 to achieve this)
+  * 61708: Endgame cutoff of 26
+  * 61771: Learning rate drop to 0.0015
+  * 62479: Temperature set to 0.9 transitioning to 0.65 without decay
+  * 62622: Endgame temperature set to 0.75
+  * 62670: Lookahead optimizer introduced; LR doubled to 0.003
+  * 62721: Learning rate drop to 0.001
+  * 63022: Learning rate back up to 0.003
+  * 63062: CPuct set to 1.9, CPuctAtRoot remaining at 2.5
+  * 63158: Endgame temperature back to 0.65
+  * 63486: **Moves left head (MLH) attached**, no MLH settings active for now
+  * 63531: MLH parameters enabled in training (quadratic Q scaling with 0.004 slope and 0.1 max effect)
+  * 63828: **Policy softmax temperature set to 1.4** (up from 1.2) in conjunction with noise epsilon of 0.1 and alpha of 0.12
+  * 63965: CPuct in tree of 1.3, CPuctAtRoot remaining at 2.5
+  * 64026: FpuValue set to 0.3
+  * 64195: Temperature set to 0.9 decaying to 0.45 (delay-moves=20, moves=80, cutoff-move=60)
+  * 65105: CPuct in tree of 1.6, FpuValue in tree of 0.4
+  * 65240: CPuct in tree of 1.3, FpuValue in tree of 0.3
+  * 65479: Learning rate drop to 0.0002
+  * 66512: Network size increased to 384x30b
+  * 66664: Learning rate drop to 0.00008
+  * 66868: Experimenting with learning rate 0.0002, endgame temp 0.5, cutoff-move 55
+  * 66998: Further raising endgame temp to 0.55
+  * 67366: Endgame temp set to 0.6
+
+## T59
+* Start date: 2019-12-12
+* End date: 2020-02-17
+* Same as T58 on termination, but no multinet
+
+## T58
+* Start date: 2019-09-28
+* End date: 2019-12-12
+* Same as T57, plus:
+* Multinet
+* Temperature of 1.1
+* Important changes during the run:
+  * 58188: Policy softmax temperature set to 1.2 (up from 1.0)
+
+## T57
+
+* Start date: 2019-08-16
+* Same as T60, except for 128 filters and 10 residual blocks.
+
+## T56
+* Start date: 2019-07-25
+* Same as T55, but the learning rate search will only trigger (for 1k steps) if the regularization term has gone up by more than 0.01% in the last 50 steps.
+
+## T55
+* Start date: 2019-07-19
+* Same training parameters as T52 to act as a comparison point (0.45 endgame temperature and 12 micronats kld)
+* Focus is on whether an experimental learning rate search can reduce the time to train without reducing strength.
+* Test was declared a failure on completion.
+
+## T54
+* Same as T53, plus:
+* Aggressive lowering of kldgain thresholds.
+* Seed data (100k games) was produced by a 8x1 network with zero weights.
+
 ## T53
 * Same as T52, plus:
 * Endgame temperature 0
@@ -30,6 +104,7 @@ wikiname: "Project-History"
 * Batch renorm added (after ?)
 * Did not use: Improved settings for self-Elo matches
 ## T40
+* End date: 2019-07-26
 * 20x256 SE net
 * Policy head: one 1x1 80 channel CNN + FC layer
 * Value head: Expected value (aka _V_)
