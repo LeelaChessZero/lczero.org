@@ -9,7 +9,7 @@ wikiname: "Project-History"
 
 ## T60
 * Start date: 2019-07-26
-* Network size: 320 filters, 24 residual blocks
+* Network size: 320 filters, 24 residual blocks until 66511; 384 filters, 30 blocks from 66512
 * Uses an absolute fpu of 1 at root.
 * Important changes during the run (for minor changes consult the Discord log):
   * 60584: Training start temperature reduced to 1.15 (was 1.2)
