@@ -6,7 +6,7 @@ wikiname: "Running-Leela-Chess-Zero-on-Intel-CPUs-(Haswell-or-later)"
 ---
 Update:  While the MKL version may be useful for analysis, it will be quite slow when generating training games.
 
-If you have an newer intel CPU and no dedicated GPU, you can boost your nps by using Intel's Math Kernel Library. Please note that you should keep track of your CPU temperature to avoid overheating, especially if you have an older Haswell CPU. Windows Task Manager and [HWInfo64](https://www.hwinfo.com/download.php) are great tools for tracking your resource usage. This guide takes into account that you have already downloaded the most recent [cpu-win.zip](https://github.com/glinscott/leela-chess/releases) and extracted it.
+If you have an newer intel CPU and no dedicated GPU, you can boost your nps by using Intel's Math Kernel Library. Please note that you should keep track of your CPU temperature to avoid overheating, especially if you have an older Haswell CPU. Windows Task Manager and [HWInfo64](https://www.hwinfo.com/download.php) are great tools for tracking your resource usage. This guide takes into account that you have already downloaded the most recent version (http://lczero.org/play/download/) and extracted it.
 
 ***
 
