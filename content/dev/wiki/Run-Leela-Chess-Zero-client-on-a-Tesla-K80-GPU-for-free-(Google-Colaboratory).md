@@ -27,7 +27,7 @@ Each session will **stop running after 12 hours of use and needs to be restarted
 
   `!cd lc0/build && ./client_linux --user 'yournick' --password yourpassword >/dev/null`
 
-  Here `yournick` and `yourpassword` can be freely chosen. Your nick will then be listed on http://lczero.org/ and you can click on it and replay all games you contributed. You dont need to change the nick and password. If you keep it as it is the games will be appended to [The Google Colab User on lczero.org](http://lczero.org/user/Google%20Colab). Changing the password is just helpful the first time, to test if your games are actually relayed.
+  Here `yournick` and `yourpassword` can be freely chosen. Your nick will then be listed on http://lczero.org/ and you can click on it and replay all games you contributed. You dont need to change the nick and password. If you keep it as it is the games will be appended to [The Google Colab User on lczero.org](https://training.lczero.org/user/Google%20Colab). Changing the password is just helpful the first time, to test if your games are actually relayed.
   
 * **Optional**: If you want to see the complete output, remove the `> /dev/null` at the end. It will then log each ponder line. **Notice that this will cause a lot internet traffic - around 20 GB per month if you would let it run nonstop.**
 
