@@ -41,7 +41,7 @@ In this case, you put the common part into the config file, and configure the re
 
 To go this, way, create a file named `lc0.config` and put it to the same directory are your `lc0.exe`.
 
-The contents of this file should be command line flags, one per line, with trailing `--` optional. For example:
+The contents of this file should be command line flags, one per line, with leading `--` optional. For example:
 
 ```
 # Lines starting from '#' are comments.
