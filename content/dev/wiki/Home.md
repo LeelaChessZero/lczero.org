@@ -10,6 +10,9 @@ wikiname: "Home"
 * [LC0 Options](https://github.com/LeelaChessZero/lc0/wiki/Lc0-options)
 * [Benchmarking](https://github.com/LeelaChessZero/lc0/wiki/Running-a-benchmark)
 * [Project History](https://github.com/LeelaChessZero/lc0/wiki/Project-History)
+* Tournament History:
+  * [TCEC](https://github.com/LeelaChessZero/lc0/wiki/TCEC)
+  * [CCCC](https://github.com/LeelaChessZero/lc0/wiki/CCCC)
 * Knowledge Base:
   * [Technical Explanation of Leela Chess Zero](https://github.com/LeelaChessZero/lc0/wiki/Technical-Explanation-of-Leela-Chess-Zero)
   * [What is LC0?](https://github.com/LeelaChessZero/lc0/wiki/What-is-Lc0%3F)
@@ -46,6 +49,4 @@ wikiname: "Home"
   * [Testing Guide](https://github.com/LeelaChessZero/lc0/wiki/Testing-guide)
 * Tuning:
   * [CLOP Tuning](https://github.com/LeelaChessZero/lc0/wiki/CLOP-tuning)
-* Tournament History:
-  * [TCEC](https://github.com/LeelaChessZero/lc0/wiki/TCEC)
 * [Known Issues](https://github.com/LeelaChessZero/lc0/wiki/Known-Issues)
