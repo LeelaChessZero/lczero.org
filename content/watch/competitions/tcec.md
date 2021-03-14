@@ -22,6 +22,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
 * Non-default parameters:
   * MoveOverheadMs=1000
+  * StrictTiming=true
   * Backend=demux
   * BackendOptions=backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)
   * NNCacheSize=20000000
@@ -62,6 +63,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
 * Non-default parameters:
   * MoveOverheadMs=1000
+  * StrictTiming=true
   * Backend=demux
   * BackendOptions=backend=cudnn-fp16,custom_winograd=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)
   * NNCacheSize=20000000
@@ -96,6 +98,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
 * Non-default parameters:
   * MoveOverheadMs=1000
+  * StrictTiming=true
   * Backend=demux
   * BackendOptions=backend=cudnn-fp16,custom_winograd=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)
   * NNCacheSize=20000000
