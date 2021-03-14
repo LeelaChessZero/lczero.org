@@ -1,0 +1,29 @@
+---
+title: "CCCC"
+weight: 500
+wikiname: "CCCC"
+# Warning: File is automatically generated from GitHub wiki, do not edit by hand.
+---
+The Chess.com Computer Chess Championship (CCCC) is continuously running computer chess events and is maintained by Chess.com at https://www.chess.com/computer-chess-championship.
+
+# CCC Rapid 2021: Finals
+|    Executable      |     Network       |  Placement |   Result  |                                                                                                              
+| ------------------ | ----------------- | ---------- | --------- | 
+|     v0.27.0-rc1    |     J94-100       |            |           |
+
+### LC0 hardware and settings:
+* Hardware: 2x A100, 2x AMD EPYC 7H12, 256 cores (128 physical)
+* Non-default parameters:
+  * MoveOverheadMs=1000
+  * StrictTiming=true
+  * Backend=demux
+  * BackendOptions=backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1)
+  * NNCacheSize=20000000
+  * MinibatchSize=192
+  * MaxPrefetch=48
+  * MultiGather=true
+  * MaxCollisionEvents=917
+  * MaxCollisionVisits=1000
+  * MaxOutOfOrderEvalsFactor=2.4
+  * SmartPruningMinimumBatches=100
+  * TimeManager=legacy(steepness=4.0)
