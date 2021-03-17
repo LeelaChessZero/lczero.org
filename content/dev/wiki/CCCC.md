@@ -9,7 +9,7 @@ The Chess.com Computer Chess Championship (CCCC) is continuously running compute
 # CCC Rapid 2021: Finals
 |    Executable      |     Network       |  Placement |   Result  |                                                                                                              
 | ------------------ | ----------------- | ---------- | --------- | 
-|     v0.27.0-rc1    |     J94-100       |     2/2    | 280.5/500 |
+|     v0.27.0-rc1    |     J94-100       |     2/2    | 219.5/500 |
 
 ### Finals Ordo evaluation:
 ```
