@@ -12,7 +12,7 @@ Popular GUIs are:
 * [Arena Chess GUI](http://www.playwitharena.de/) (free)
 * [BanksiaGUI](https://banksiagui.com/) (free, has Lc0 specific features)
 * [Cutechess](https://cutechess.com/) (free)
-* [Nibbler](https://github.com/fohristiwhirl/nibbler/releases) (free, has Lc0 specific features)
+* [Nibbler](https://github.com/rooklift/nibbler/releases) (free, has Lc0 specific features)
 * [Chessbase](https://chessbase.com/) (paid).
 
 #### 2. Download Lc0
