@@ -61,7 +61,7 @@ You can analyse games in the engine console as follows:
 
 ## Graphical interface for analyses
 
-With nibbler there is now also a GUI available to help analyse games. You can find the latest version of nibbler at https://github.com/fohristiwhirl/nibbler
+With nibbler there is now also a GUI available to help analyse games. You can find the latest version of nibbler at https://github.com/rooklift/nibbler
 
 ## Debug
 * For easier debug, verify install by running from command line (cmd.exe)
