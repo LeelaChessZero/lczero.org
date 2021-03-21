@@ -82,7 +82,7 @@ Lc0 is not the only engine that can output WDL probabilities.
 
 However, there are very few chess GUIs that support displaying WDL. The ones I'm aware of are:
 
-* [Nibbler](https://github.com/fohristiwhirl/nibbler/releases), the GUI made specifically for Lc0.
+* [Nibbler](https://github.com/rooklift/nibbler/releases), the GUI made specifically for Lc0.
 * [Banksia GUI](https://banksiagui.com/)
 * Fritz 17 (as I hear), that has it enabled[^3] for their distribution of Lc0 called Fat Fritz.
 
