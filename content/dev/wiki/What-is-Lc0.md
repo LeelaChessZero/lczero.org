@@ -21,4 +21,4 @@ Go to [Download](https://lczero.org/play/download/) to get the engine and find a
 
 Lc0 runs best with a powerful GPU, unlike other traditional engines that run on CPU, so keep that in mind. 
 
-It is also best if you get a chess GUI, so that you can see the board and the suggestions that Leela is making. A great GUI designed specifically for Lc0 is [Nibbler](https://github.com/rooklift/nibbler).
+It is also best if you get a chess GUI, so that you can see the board and the suggestions that Leela is making. A great GUI designed specifically for Lc0 is [Nibbler](https://github.com/fohristiwhirl/nibbler).
