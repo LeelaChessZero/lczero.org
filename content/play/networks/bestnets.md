@@ -10,11 +10,19 @@ The most important consideration in choosing a net is picking the right size for
 
 ---
 
+### "This is all too complicated. Just tell me what net to use!"
+
+If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, pick a medium size 20b net, which should do reasonably well (if not optimally) under most common conditions.
+
+The strongest 20b nets are the Leelenstein ones listed below but these aren't trained purely on Lc0 data: [LS15 on Patreon](https://www.patreon.com/posts/leelenstein-15-0-38164065). The best 20b net trained only on Lc0 data is `256x20-t40-1541.pb.gz` from [Sergio Vieri's repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/).
+
+---
+
 ### Size versus Recommended Purpose
-* 30b: Recommended for multi-GPU (RTX), long analysis, or when speed isn't a major factor
-* 24b: Recommended for TC > 1 minute per move with an RTX card
-* 20b: Recommended for running on non-RTX cards or TC on the order of seconds (with RTX)
-* 10b: Recommended for running on CPU
+* 30b: Recommended for RTX cards (any time control), GTX cards (analysis, long time control)
+* 24b/20b: Recommended for GTX cards (short time control)
+* 16b: Recommended for running on CPU (analysis, long time control)
+* 10b: Recommended for running on CPU (short time control, long time control)
 * <10b: Recommended for sparring vs humans
 
 ## Network Lists
@@ -50,6 +58,13 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 | 42850   | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
 
 
+### 16 blocks x 192 filters:
+| Name             | Source for Download               | Notes            |
+|------------------|-----------------------------------|------------------|
+| J64-210 | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T60 data |
+| J20-460 | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
+
+
 ### 10 blocks x 128 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
@@ -64,22 +79,12 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 | Size   | Name             | Source for Download               | Notes            |
 |--------|------------------|-----------------------------------|------------------|
 | 19b x 256f | T71.5-FR960-Armageddon-Chess| [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Trained from scratch on Fischer Random Armageddon Chess |
-| 16b x 192f | J64-210          | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T60 data |
-| 16b x 192f | J20-460          | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
 | 9b x 112f  | ID11258-112x9-se | [GitHub: dkappe Distilled Networks](https://github.com/dkappe/leela-chess-weights/wiki/Distilled-Networks) | Other sizes also here |
 | 5b x 48f   | Good Gyal 5      | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
 | 2b x 16f   | Tiny Gyal        | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
 
 
 Note: The Sergio-V nets are also available on [data.lczero.org](http://data.lczero.org/files/networks-contrib/sergio-v/) in some cases.
-
----
-
-### "This is all too complicated. Just tell me what net to use!"
-
-If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, pick a medium size 20b net, which should do reasonably well (if not optimally) under most common conditions.
-
-The strongest 20b nets are the Leelenstein ones listed above but these aren't trained purely on Lc0 data. The best 20b net trained only on Lc0 data is `256x20-t40-1541.pb.gz` from [Sergio Vieri's repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/).
 
 ---
 
