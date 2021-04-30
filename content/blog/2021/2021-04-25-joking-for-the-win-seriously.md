@@ -35,7 +35,7 @@ I had to restart 2-3 times after a few steps as it was clear the random initiali
 To summarize:
 
 - The first positive outcome from this joke was the addition of code to the rescorer to output NNUE plain format (for details see below).
-- Moreover, the lcfish training data were contributed to the [Stockfish training data collection](https://drive.google.com/drive/folders/1GhSF8s-ljJlsaPibtEgn1AQ6aGZanIGz?usp=sharing).
+- Moreover, the lcfish training data were contributed to the [Stockfish training data collection](https://drive.google.com/drive/folders/1rzZkgIgw7G5vQMLr2hZNiUXOp7z80613?usp=sharing).
 - We also have the single line change to allow building lc0 on windows with gcc (but not all backends).
 - Finally, some of the training data generated crashed the Stockfish-NNUE trainer, which led to the discovery and fix of a 3 year old bug in lc0.
 
