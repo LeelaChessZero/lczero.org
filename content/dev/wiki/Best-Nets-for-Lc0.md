@@ -62,8 +62,8 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
 | J64-210 | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T60 data |
-| J20-460 | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
 | T75     | [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Current 3rd test run |
+| J20-460 | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
 
 
 ### 10 blocks x 128 filters:
