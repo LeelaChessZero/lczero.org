@@ -14,9 +14,9 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 
 ### SuFi Ordo evaluation:
 ```
-   # ENGINE                                      :  RATING  ERROR  CFS(%)    W    D    L   GAMES
-   1 Stockfish 20210113                          :      21     49    79.8   14   78    8     100
-   2 LCZero 0.27.0d-Tilps-dje-magic_JH.94-100    :       0   ----     ---    8   78   14     100
+   # ENGINE                                      :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
+   1 Stockfish 20210113                          :      21     49    79.8   14   78    8     100      78.0
+   2 LCZero 0.27.0d-Tilps-dje-magic_JH.94-100    :       0   ----     ---    8   78   14     100      78.0
 ```
 ### LC0 hardware and settings:
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
@@ -55,9 +55,9 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 
 ### SuFi Ordo evaluation:
 ```
-   # ENGINE                                    :  RATING  ERROR  CFS(%)    W    D    L   GAMES
-   1 Stockfish 202009282242_nn-baeb9ef2d183    :      32     49    89.7   18   73    9     100
-   2 LCZero v0.26.3-rc1_T60.SV.JH.92-190       :       0   ----     ---    9   73   18     100
+   # ENGINE                                    :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
+   1 Stockfish 202009282242_nn-baeb9ef2d183    :      32     49    89.7   18   73    9     100      73.0
+   2 LCZero v0.26.3-rc1_T60.SV.JH.92-190       :       0   ----     ---    9   73   18     100      73.0
 ```
 ### LC0 hardware and settings:
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
@@ -90,9 +90,9 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 
 ### SuFi Ordo evaluation:
 ```
-   # ENGINE                               :  RATING  ERROR  CFS(%)    W    D    L   GAMES
-   1 Stockfish 202006170741               :      25     49    83.6   23   61   16     100
-   2 LCZero v0.25.1-svjio-t60-3972-mlh    :       0   ----     ---   16   61   23     100
+   # ENGINE                               :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
+   1 Stockfish 202006170741               :      25     49    83.6   23   61   16     100      61.0
+   2 LCZero v0.25.1-svjio-t60-3972-mlh    :       0   ----     ---   16   61   23     100      61.0
 ```
 ### LC0 hardware and settings:
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
