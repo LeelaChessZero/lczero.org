@@ -14,11 +14,8 @@ The Chess.com Computer Chess Championship (CCCC) is continuously running compute
 ### Finals Ordo evaluation:
 ```
    # ENGINE       :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
-   1 Stockfish    :    49.3   17.3   100.0  122  317   61     500      63.4
-   2 Lc0          :     0.0   ----     ---   61  317  122     500      63.4
-
-White advantage = 132.2 +/- 8.9
-Draw rate (equal opponents) = 88.6 % +/- 3.7
+   1 Stockfish    :      43     22   100.0  122  317   61     500      63.4
+   2 Lc0          :       0   ----     ---   61  317  122     500      63.4
 ```
 ### LC0 hardware and settings:
 * Hardware: 2x A100, 2x AMD EPYC 7H12, 256 cores (128 physical)
