@@ -14,7 +14,7 @@ The most important consideration in choosing a net is picking the right size for
 
 If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, pick a medium size 20b net, which should do reasonably well (if not optimally) under most common conditions.
 
-The strongest 20b net is Leelenstein listed below but it isn't trained purely on Lc0 data: [LS15 on Patreon](https://www.patreon.com/posts/leelenstein-15-0-38164065). The best 20b net trained only on Lc0 data is `256x20-t40-1541.pb.gz` from [Sergio Vieri's repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/).
+The strongest 20b net is Leelenstein listed below, but it isn't trained purely on Lc0 data: [LS15 on Patreon](https://www.patreon.com/posts/leelenstein-15-0-38164065). The best 20b net trained only on Lc0 data is `256x20-t40-1541.pb.gz` from [Sergio Vieri's repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/).
 
 ---
 
@@ -33,12 +33,12 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 ### 30 blocks x 384 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| T60 after 66512  | [lczero.org run 1 networks](http://training.lczero.org/networks/1) | Current main run |
-| J94-100 | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Based on Sergio-V networks, trained on T60 data + value repair method. TCEC22 DivP+SuFi net |
+| Latest T60 after 66512       | [lczero.org run 1 networks](http://training.lczero.org/networks/1) | Current main run |
+| J94-100                      | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Based on Sergio-V networks, trained on T60 data + value repair method. TCEC22 DivP+SuFi net |
 | Latest 30b SV net (outdated) | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data |
-| SV-3972+jio-20k (outdated) | removed | Submitted for TCEC 18 Superfinal |
-| 384x30-t60-3010 (outdated) | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Won CCC13 and TCEC 17 |
-| 384x30-t40-1705 (outdated) | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/) | Trained on T40 data |
+| SV-3972+jio-20k (outdated)   | removed | Submitted for TCEC 18 Superfinal |
+| 384x30-t60-3010 (outdated)   | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Won CCC13 and TCEC 17 |
+| 384x30-t40-1705 (outdated)   | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/) | Trained on T40 data |
 
 
 ### 24 blocks x 320 filters:
@@ -53,26 +53,26 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 |------------------|-----------------------------------|------------------|
 | Leelenstein 15.0 | [15.0 Post](https://www.patreon.com/posts/leelenstein-15-0-38164065) | No account required |
 | SV-20b-t40-1541  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/) | Trained on T40 data |
-| 42850   | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
+| 42850            | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
 
 
 ### 15/16 blocks x 192 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| J64-210 | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T60 data |
-| T75     | [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Current 3rd test run |
-| J20-460 | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
+| J64-210    | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T60 data |
+| Latest T75 | [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Current 3rd test run |
+| J20-460    | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
 
 
 ### 10 blocks x 128 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| Latest 10b SV net  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/new/128x10-t60-2/) | Trained on T60 data |
+| Latest 10b SV net | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/new/128x10-t60-2/) | Trained on T60 data |
 | Latest J104 net   | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Based on T70 network 703810, trained on T70 data + value repair method |
-| 703810  | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=b30e742bcfd905815e0e7dbd4e1bafb41ade748f85d006b8e28758f1a3107ae3) | Last T70 net (not to be confused with T72) |
-| T74     | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Current 2nd test run |
-| 591226  | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=47e3f899519dc1bc95496a457b77730fce7b0b89b6187af5c01ecbbd02e88398) | Last T59 net |
-| Little Demon 2 | [data.lczero.org repository](https://storage.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
+| 703810            | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=b30e742bcfd905815e0e7dbd4e1bafb41ade748f85d006b8e28758f1a3107ae3) | Last T70 net (not to be confused with T72) |
+| Latest T74        | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Current 2nd test run |
+| 591226            | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=47e3f899519dc1bc95496a457b77730fce7b0b89b6187af5c01ecbbd02e88398) | Last T59 net |
+| Little Demon 2    | [data.lczero.org repository](https://storage.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
 
 
 ### Asorted sizes:
