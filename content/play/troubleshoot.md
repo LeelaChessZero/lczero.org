@@ -23,7 +23,7 @@ That means that as the search goes, memory consumption increases. Lc0 requires r
 
 In case of long searches it's possible that the system RAM is exhausted, and in this case either the Lc0 or other system processes will crash.
 
-To prevent that from happening, there is a UCI parameter **RamLimitMb** (or command line flag `--ram-limit-mb`) which limits amount of memory Lc0 uses (e.g. `--ram-limit-mb=32000` if you want Lc0 to use only 32GB of RAM). The memory calculation is not exact, so it's recommended to have some slack (e.g. setting it to 30000 rather than 32000).
+To prevent that from happening, there is a UCI parameter **RamLimitMb** (or command line flag `--ramlimit-mb`) which limits amount of memory Lc0 uses (e.g. `--ramlimit-mb=32000` if you want Lc0 to use only 32GB of RAM). The memory calculation is not exact, so it's recommended to have some slack (e.g. setting it to 30000 rather than 32000).
 
 When Lc0 reaches the limit, it will stop the search (from the outside it would look like Lc0 is thinking but not making any progress).
 
