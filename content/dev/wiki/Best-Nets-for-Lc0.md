@@ -67,15 +67,16 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 ### 10 blocks x 128 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| 128x10-t60-2-5300 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/new/128x10-t60-2/) | Trained on T60 data |
 | Latest T74        | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Current 2nd test run |
+| 128x10-t60-2-5300 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/new/128x10-t60-2/) | Trained on T60 data |
+| Tinker BPR-64M-6430000  | [Google Drive](https://drive.google.com/file/d/19NCoFoS3AxtsCpOHejQIaYkPqRv6Vjfs/view) | Trained on T60 data |
 | Latest J104 net   | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Based on T70 network 703810, trained on T70 data + value repair method |
 | 703810            | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=b30e742bcfd905815e0e7dbd4e1bafb41ade748f85d006b8e28758f1a3107ae3) | Last T70 net (not to be confused with T72) |
 | 591226            | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=47e3f899519dc1bc95496a457b77730fce7b0b89b6187af5c01ecbbd02e88398) | Last T59 net |
 | Little Demon 2    | [data.lczero.org repository](https://storage.lczero.org/files/networks-contrib/) (LD2) | JH nets also here |
 
 
-### Asorted sizes:
+### Assorted sizes:
 | Size   | Name             | Source for Download               | Notes            |
 |--------|------------------|-----------------------------------|------------------|
 | 19b x 256f | T71.5-FR960-Armageddon-Chess| [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Trained from scratch on Fischer Random Armageddon Chess |
