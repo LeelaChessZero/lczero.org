@@ -24,8 +24,8 @@ This dataset was constructed from
 [CCRL](http://www.computerchess.org.uk/ccrl/) 40/40 and 40/4 data combined. It
 consists of 2'500'000 games, 20% of which is the testset and 80% the
 trainingset. You can download the dataset in [pgn-
-format](http://data.lczero.org/files/ccrl-pgn.tar.bz2) (539M) and
-[v3-format](http://data.lczero.org/files/ccrl-v3.tar.bz2) (11G).
+format](http://storage.lczero.org/files/ccrl-pgn.tar.bz2) (539M) and
+[v3-format](http://storage.lczero.org/files/ccrl-v3.tar.bz2) (11G).
 
 ![]({{< file "2018-09-12-a-standard-dataset-cclr-test.png" >}})
 
@@ -69,9 +69,9 @@ residual_blocks: 10
 
 This resulted in an accuracy of **47.0583%** , policy loss of **1.591** and
 mse loss of **0.10882**. The network can be downloaded as [ccrl-
-baseline.pb.gz](http://data.lczero.org/files/ccrl-baseline.pb.gz). The
+baseline.pb.gz](http://storage.lczero.org/files/ccrl-baseline.pb.gz). The
 tensorboard graphs can be downloaded as [leelalogs-
-base.tgz](http://data.lczero.org/files/leelalogs-base.tgz).
+base.tgz](http://storage.lczero.org/files/leelalogs-base.tgz).
 
 ## Potential ideas
 
