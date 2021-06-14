@@ -21,5 +21,5 @@ Therefore we are very pleased that Stockfish, starting from today, is using a NN
 
 {{< tweet 1404360328872402945 >}}
 
-Both projects have mentioned before that our “teams will join forces to demonstrate our commitment to open source chess engines and training tools, and open data.” This is the first concrete result stemming from this effort, and we promise it wont be the last.
+Both projects have mentioned before that our “teams will join forces to demonstrate our commitment to open source chess engines and training tools, and open data.” This is the first concrete result stemming from this effort, and we promise it won't be the last.
 
