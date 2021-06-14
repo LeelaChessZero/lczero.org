@@ -8,7 +8,7 @@ author: "borg"
 # cover: "cover.png" # Default
 ---
 
-In the Leela Chess project, we generate a huge amount of data. We use them to generate the network files to use with lc0 for further data generation, but also with other chess engines, like Ceres. The same data are often used by individual project contributors to generate additional network files using the “supervised learning” approach.
+In the Leela Chess project, we generate a huge amount of data. We use them to generate the network files to use with Lc0 for further data generation, but also with other chess engines, like Ceres. The same data are often used by individual project contributors to generate additional network files using the “supervised learning” approach.
 
 <!--more-->
 
