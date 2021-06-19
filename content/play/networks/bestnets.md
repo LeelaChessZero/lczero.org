@@ -79,7 +79,7 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 ### Assorted sizes:
 | Size   | Name             | Source for Download               | Notes            |
 |--------|------------------|-----------------------------------|------------------|
-| 19b x 256f | T71.5-FR960-Armageddon-Chess| [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Trained from scratch on Fischer Random Armageddon Chess |
+| 19b x 256f | T71.5-FR960-Armageddon-Chess| [lczero.org run 3 network 714700](https://training.lczero.org/get_network?sha=32d49c67db759a8794042a53d675e5c757a319ae696153b95970ab6099d8fc2d) | Trained from scratch on Fischer Random Armageddon Chess |
 | 9b x 112f  | ID11258-112x9-se | [GitHub: dkappe Distilled Networks](https://github.com/dkappe/leela-chess-weights/wiki/Distilled-Networks) | Other sizes also here |
 | 5b x 48f   | Good Gyal 5      | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
 | 2b x 16f   | Tiny Gyal        | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
