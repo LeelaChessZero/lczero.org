@@ -44,4 +44,4 @@ The Homebrew package includes the **lc0** engine and network **42850**.
 
 ## Building from sources (Linux, Windows and MacOS)
 
-If you want to build the Lc0 from source, refer to [this document](https://github.com/LeelaChessZero/lc0/blob/v0.24.1/README.md#building-and-running-lc0).
+If you want to build the Lc0 from source, refer to [this document](https://github.com/LeelaChessZero/lc0/blob/master/README.md#building-and-running-lc0).
