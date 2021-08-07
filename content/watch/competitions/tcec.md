@@ -6,6 +6,46 @@ wikiname: "TCEC"
 ---
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at https://tcec-chess.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 
+# Season 21
+| Division |   Executable  |    Network   |  Placement |   Result  |                                                                                                              
+| -------- | ------------- | ------------ | ---------- | --------- | 
+| SuFi     | v0.28-dev+    |     69626    |     2/2    |   44/100  |
+| DivP     | v0.28.0-rc1   |     69146    |     2/8    |  36.5/56  |
+
+### SuFi Ordo evaluation:
+```
+   # ENGINE                       :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
+   1 Stockfish 14_202107131735    :      42     50    95.3   19   74    7     100      74.0
+   2 LCZero 0.28-dev+_69626       :       0   ----     ---    7   74   19     100      74.0
+```
+### LC0 hardware and settings:
+* Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
+* Non-default parameters:
+  * MoveOverheadMs=1000
+  * StrictTiming=true
+  * Backend=demux
+  * BackendOptions=backend=cuda-fp16,res_block_fusing=true,(gpu=0),(gpu=1),(gpu=2),(gpu=3)
+  * NNCacheSize=50000000
+  * MinibatchSize=896
+  * MaxPrefetch=160
+  * SmartPruningQEffect=0.2
+  * SmartPruningMinimumBatches=300
+  * MovesLeftMaxEffect=0.1
+  * MovesLeftSlope=0.0088
+  * TimeManager=smooth(midpoint=45.2,steepness=5.93,init-tree-reuse=0.52,max-tree-reuse=0.73,tree-reuse-update-rate=3.39,nps-update-rate=7.82,init-timeuse=0.7,min-timeuse=0.34,timeuse-update-rate=5.51,max-move-budget=0.42,init-piggybank=0.09,per-move-piggybank=0.12,max-piggybank-use=0.94,max-piggybank-moves=36.5)
+  * DrawScoreSideToMove=-11
+  * DrawScoreOpponent=5
+  * RamLimitMb=48000
+* Added/Changed for SuFi:
+  * NNCacheSize=50000000
+  * MovesLeftMaxEffect=0.02
+  * MovesLeftSlope=0.002
+  * RamLimitMb=96000
+* Removed for SuFi:
+  * TimeManager=smooth(nps-update-rate=7.82)
+  * DrawScoreSideToMove=-11
+  * DrawScoreOpponent=5
+
 # Season 20
 | Division |    Executable      |     Network       |  Placement |   Result  |                                                                                                              
 | -------- | ------------------ | ----------------- | ---------- | --------- | 
