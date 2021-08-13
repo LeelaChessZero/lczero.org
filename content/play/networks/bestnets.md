@@ -33,8 +33,9 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 ### 30 blocks x 384 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
+| hanse-69722-vf2  | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Trained from 69722 on T60 data, value focus emphasizes positions with eval discrepancies. See [here](https://github.com/hans-ekbrand/lczero-training/wiki) | 
 | Latest T60 after 66512       | [lczero.org run 1 networks](http://training.lczero.org/networks/1) | Current main run |
-| J94-100                      | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Based on Sergio-V networks, trained on T60 data + value repair method. TCEC22 DivP+SuFi net |
+| J94-100 (outdated)           | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Based on Sergio-V networks, trained on T60 data + value repair method. TCEC22 DivP+SuFi net |
 | Latest 30b SV net (outdated) | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data |
 | SV-3972+jio-20k (outdated)   | removed | Submitted for TCEC 18 Superfinal |
 | 384x30-t60-3010 (outdated)   | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Won CCC13 and TCEC 17 |
