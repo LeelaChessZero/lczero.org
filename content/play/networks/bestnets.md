@@ -33,8 +33,8 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 ### 30 blocks x 384 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| hanse-69722-vf2  | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Trained from 69722 on T60 data, value focus emphasizes positions with eval discrepancies. See [here](https://github.com/hans-ekbrand/lczero-training/wiki) | 
-| Latest T60 after 66512       | [lczero.org run 1 networks](http://training.lczero.org/networks/1) | Current main run |
+| hanse-69722-vf2  | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Trained from 609722 on T60 data, value focus emphasizes positions with eval discrepancies. See [here](https://github.com/hans-ekbrand/lczero-training/wiki) | 
+| Latest T60 after 606512       | [lczero.org run 1 networks](http://training.lczero.org/networks/1) | Current main run |
 | J94-100 (outdated)           | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Based on Sergio-V networks, trained on T60 data + value repair method. TCEC22 DivP+SuFi net |
 | Latest 30b SV net (outdated) | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data |
 | SV-3972+jio-20k (outdated)   | removed | Submitted for TCEC 18 Superfinal |
@@ -43,10 +43,10 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 
 
 ### 24 blocks x 320 filters:
-| Name             | Source for Download               | Notes            |
-|------------------|-----------------------------------|------------------|
-| T60 until 66511  | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Current main run |
-| J13B.2-136       | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | "Terminator 2" Net |
+| Name              | Source for Download               | Notes            |
+|-------------------|-----------------------------------|------------------|
+| T60 until 606511  | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Current main run |
+| J13B.2-136        | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | "Terminator 2" Net |
 
 
 ### 20 blocks x 256 filters:
