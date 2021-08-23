@@ -18,6 +18,7 @@ If you don't care about squeezing out the very best performance for a particular
 
 ### Size versus Recommended Purpose
 * 30b: Recommended for RTX cards (any time control), GTX cards (analysis, long time control)
+* 24b/20b: [no recent strong nets available] Recommended for GTX cards (short time control)
 * 16/15b: Recommended for running on CPU (analysis, long time control), GTX cards (short time control)
 * 10b: Recommended for running on CPU (short time control, long time control)
 * <10b: Recommended for sparring vs humans
