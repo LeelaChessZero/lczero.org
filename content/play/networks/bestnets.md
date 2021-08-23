@@ -12,16 +12,13 @@ The most important consideration in choosing a net is picking the right size for
 
 ### "This is all too complicated. Just tell me what net to use!"
 
-If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, pick a medium size 20b net, which should do reasonably well (if not optimally) under most common conditions.
-
-The strongest 20b net is Leelenstein listed below, but it isn't trained purely on Lc0 data: [LS15 on Patreon](https://www.patreon.com/posts/leelenstein-15-0-38164065). The best 20b net trained only on Lc0 data is `256x20-t40-1541.pb.gz` from [Sergio Vieri's repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/).
+If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, stick with the network included in the official release (T75 or T74), which should do reasonably well (if not optimally) under most common conditions.
 
 ---
 
 ### Size versus Recommended Purpose
 * 30b: Recommended for RTX cards (any time control), GTX cards (analysis, long time control)
-* 24b/20b: Recommended for GTX cards (short time control)
-* 16b: Recommended for running on CPU (analysis, long time control)
+* 16/15b: Recommended for running on CPU (analysis, long time control), GTX cards (short time control)
 * 10b: Recommended for running on CPU (short time control, long time control)
 * <10b: Recommended for sparring vs humans
 
