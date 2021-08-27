@@ -29,7 +29,7 @@ This is the same search specified by the AGZ paper, [PUCT](http://citeseerx.ist.
 * _CNN_: Convolutional Neural Network. The largest part of Lc0's NN uses this architecture, which convolves (slides) several 3x3xN filters across the entire board.
 * _Depth_: Average depth. See also _Seldepth_.
 * _FC Layer_: Fully Connected layer. Unlike filters which only look at a 3x3 area of the board, the FC layer looks at the entire board at once. This is used in the policy and value heads.
-* _Filters_: A 3x3xN pattern. The N means it is looking at several input features. A "20x256" network has 256 3x3x256 filters in each layer (input layer is slightly different).
+* _Filters_: A 3x3xN pattern. The N means it is looking at several input features. A "20x256" network has 20 3x3x256 filters in each layer (input layer is slightly different).
 * _KLD_: [Kullback-Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) is used during selfplay to measure how the distribution of visits to different root moves is changing. This allows selfplay to spend more time when the Policy prediction was bad, and less time on obvious moves. First used in T50.
 * _Learning Rate_: How fast the neural net weights are adjusted. Too high and you don't learn anything, or worse. Too low and your progress is too slow.
 * _MSE loss_: Mean Squared Error of the value (_V_) NN output.  One of the terms the NN training process tries to minimize. The NN improves in a feedback loop by trying to predict who wins each self-play game. The mean squared error of the predictions is the "loss". See also _policy loss_ and _reg term_.
