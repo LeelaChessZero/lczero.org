@@ -11,7 +11,7 @@ Older versions and beta releases are available at our [GitHub releases page](htt
 
 Every package contains:
 * **lc0.exe** (the engine),
-* **703810.pb.gz** (a default network file), and
+* **752187.pb.gz** or **744204.pb.gz** (a default network file), and
 * **lc0-training-client.exe** (only needed if you would like to contribute training games).
 
 Depending on which hardware you have, different version of Lc0 will be best for you.  
