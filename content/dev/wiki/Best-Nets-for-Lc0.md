@@ -58,7 +58,7 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 ### 15/16 blocks x 192 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| Latest T75 | [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Current 3rd test run |
+| Latest T75 | [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Finished 3rd test run |
 | J64-210    | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T60 data |
 | J20-460    | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
 
@@ -66,7 +66,7 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 ### 10 blocks x 128 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| Latest T74        | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Current 2nd test run |
+| Latest T74        | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Finished 2nd test run |
 | 128x10-t60-2-5300 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/new/128x10-t60-2/) | Trained on T60 data |
 | Tinker TK-6430   | [Google Drive](https://drive.google.com/file/d/19NCoFoS3AxtsCpOHejQIaYkPqRv6Vjfs/view) | Trained on T60 data |
 | Latest J104 net   | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Based on T70 network 703810, trained on T70 data + value repair method |
