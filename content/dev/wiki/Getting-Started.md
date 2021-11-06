@@ -27,7 +27,7 @@ To go a bit more in depth, Lc0 has three main parts:
 Just download the relevant version for your machine and place the downloads in the same directory to be able to contribute to leela's learning process or to analyse games.
 
 ### Client 
-Can be downloaded from https://github.com/LeelaChessZero/lczero-client/releases
+Can be downloaded from [https://github.com/LeelaChessZero/lczero-client/releases](https://linkify.me/rkF9d9W)
 * **Windows** --> client.exe
 * **Linux**   --> client_linux
 * **Mac**     --> client_mac
