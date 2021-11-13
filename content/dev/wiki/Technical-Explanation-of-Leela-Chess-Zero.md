@@ -42,7 +42,7 @@ In the source code, the search algorithm is described as follows:
 This section aims to go into the details of each step.
 
 1. Initialize internal structures
-Here, the global object minibatch_ is cleared. The `minibatch_` is a vector of class `NodeToProcess`, which in turn has the following fields (and others, but these are of particular interest if you want the change the search algorithm)
+Here, the global object `minibatch_` is cleared. The `minibatch_` is a vector of class `NodeToProcess`, which in turn has the following fields (and others, but these are of particular interest if you want the change the search algorithm)
 
 ```
     int multivisit = 0;
@@ -69,7 +69,7 @@ Here, the global object minibatch_ is cleared. The `minibatch_` is a vector of c
 
 `is_cache_hit` Non-terminal nodes that are transpositions can have the NN-eval in the cache (see NNCache in the glossary below).
 
-`bool is_collision` A collision happens whenever the same leaf is reached during one search. A collisions count is used to determine when to cancel the search, since collisions imply time is wasted traversing the same line repeatedly.
+`bool is_collision` A collision happens whenever the same leaf is reached again during one search. A collisions count is used to determine when to cancel the search, since collisions imply time is wasted traversing the same line repeatedly.
 
 `moves_to_visit` is a vector of class `Move` and this vector should contain the moves leading up to the position that the node represents. If a node is not terminal `ProcessPickedTask()` uses `move_to_visit` when calling `ExtendNode()` to extend the node.
 
