@@ -18,6 +18,61 @@ When a move is actually played on the board, the chosen move is made the new roo
 
 This is the same search specified by the AGZ paper, [PUCT](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.172.9450&rep=rep1&type=pdf) (Predictor + Upper Confidence Bound tree search). Many people call this [MCTS](https://hal.archives-ouvertes.fr/hal-00747575v4/document) (Monte-Carlo Tree Search), because it is very similar to the search algorithm the Go programs started using in 2006. But the PUCT used in AGZ and Lc0 replaces rollouts (sampling playouts to a terminal game state) with a neural network that estimates what a rollout would do. Other search algorithms are [under consideration](https://github.com/gcp/leela-zero/issues/860) on the Github of Leela Go, but there isn't yet any real consensus that something else is demonstrably better than PUCT. This is something of an active research topic in the overlap of the AI+Game Theory fields.
 
+## Implementation, optimizations
+This section, which is currently under construction, aims at describing the actual implementation of the search. Before the search can start, threads are started, and while the main point of interest here is the information needed to successfully change how the actual search is done, a short summary of the threading framwork is useful.
+
+### The context of the search
+`Search::search()` is called from `EngineController::Go()` (in `engine.cc`), to construct a search object `search_`. After some configuration of this object, the actual search for nodes to extend starts when `search_->StartThreads()` is called.
+
+`Search::StartThreads()` starts a watchdog thread and a number of threads running `SearchWorker::RunBlocking()` which in turn calls `ExecuteOneIteration()`, which is responsible for modifying and extending the search tree.
+
+### The actual search
+In the source code, the search algorithm is described as follows:
+
+```
+    // 1. Initialize internal structures.
+    // 2. Gather minibatch.
+    // 3. Prefetch into cache.
+    // 4. Run NN computation.
+    // 5. Retrieve NN computations (and terminal values) into nodes.
+    // 6. Propagate the new nodes' information to all their parents in the tree.
+    // 7. Update the Search's status and progress information.
+```
+
+This section aims to go into the details of each step.
+
+1. Initialize internal structures
+Here, the global object minibatch_ is cleared. The `minibatch_` is a vector of class `NodeToProcess`, which in turn has the following fields (and others, but these are of particular interest if you want the change the search algorithm)
+
+```
+    int multivisit = 0;
+    // If greater than multivisit, and other parameters don't imply a lower
+    // limit, multivist could be increased to this value without additional
+    // change in outcome of next selection.
+    int maxvisit = 0;
+    uint16_t depth;
+    bool nn_queried = false;
+    bool is_cache_hit = false;
+    bool is_collision = false;
+    // Only populated for visits,
+    std::vector<Move> moves_to_visit;
+
+```
+(NodeToProcess also has a field `node` with the pointer to the actual node).
+`multivisit` holds data about how many times a node was visited during this search, this measure is called `visits-in-flight`. A normal visit corresponds to an evaluation of some kind: by the Neural network, or a check the resulted in the node is terminal (e.g. mate or draw by repetition). In contrast, a visit-in-flight does not guarantee any evaluation of any descendent node, however the visit-in-flight still gives useful information about how good the node is in comparision to its siblings which, if the node is a child of root, is relevant for move selection.
+
+`maxvisit` is used by a particular optimization of PUCT, only recaculate PUCT-scores of the children if the best child has maxvisit lower than multivisit.
+
+`depth` is used to determine if the node needs to be checked for draw by repetition, and it is used to calculate `depth` and `seldepth` (see SelDepth in the glossary below). reported via UCI. For a child of root, `depth == 2`. Depth starts with 1 at root, so number of plies in PV is depth - 1.
+
+`nn_queried` should be set to true for nodes that are not terminal and not cache-hits. Step 5. "Retrieve NN computations (and terminal values) into nodes." will ignore nodes that do not have `nn_queried = true`.
+
+`is_cache_hit` Non-terminal nodes that are transpositions can have the NN-eval in the cache (see NNCache in the glossary below).
+
+`bool is_collision` A collision happens whenever the same leaf is reached during one search. A collisions count is used to determine when to cancel the search, since collisions imply time is wasted traversing the same line repeatedly.
+
+`moves_to_visit` is a vector of class `Move` and this vector should contain the moves leading up to the position that the node represents. If a node is not terminal `ProcessPickedTask()` uses `move_to_visit` when calling `ExtendNode()` to extend the node.
+
 ## Glossary
 * _20x256_: Shorthand for the size of the NN. 20 _residual blocks_ and 256 _filters_.
 * _Backup_: After a playout reaches a terminal node, and the NN is called, take _V_ and average this into the _Q_ of all nodes visited to reach that position.
