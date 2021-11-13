@@ -146,7 +146,7 @@ Most of the options should be left default. Here are some common ones you might 
 TBD: If you have multiple GPUs, you can use these with e.g. `--backend=?? --backend-opts=??`
 
 ## How does Lc0 calculate the cp eval?
-Lc0 uses an average expected score _Q_ in the range [-1,1]. This expected score is converted to a traditional centi-pawn (cp) eval using this formula: `cp = 111.714640912 * tan(1.5620688421 * Q)`. 
+Lc0 uses an average expected score _Q_ in the range [-1,1]. This expected score is converted to a traditional centi-pawn (cp) eval using multiple formulas. For example: `cp = 111.714640912 * tan(1.5620688421 * Q)`. 
 
 | (Q+1)/2 | cp/100 |
 | - | - |
