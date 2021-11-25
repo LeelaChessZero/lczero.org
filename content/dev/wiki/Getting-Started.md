@@ -27,14 +27,14 @@ To go a bit more in depth, Lc0 has three main parts:
 Just download the relevant version for your machine and place the downloads in the same directory to be able to contribute to leela's learning process or to analyse games.
 
 ### Client 
-Can be downloaded from [https://github.com/LeelaChessZero/lczero-client/releases](https://linkify.me/juJtXvo)
+Can be downloaded from [https://github.com/LeelaChessZero/lczero-client/releases](https://linkify.me/fceVQax)
 * **Windows** --> client.exe
 * **Linux**   --> client_linux
 * **Mac**     --> client_mac
 * Note: recent versions of engine package include client.exe
 ### Engine 
 * **Mac/Linux**  -->   must be compiled by user (refer to the [[README.md|https://github.com/LeelaChessZero/lc0#mac]] in github )
-* **Windows**    -->   download the latest from [https://github.com/LeelaChessZero/lc0/releases](https://linkify.me/juJtXvo)
+* **Windows**    -->   download the latest from [https://github.com/LeelaChessZero/lc0/releases](https://linkify.me/fceVQax)
   * CPU only   : lc0-<version>-windows-blas.zip
   * Nvidia GPU : lc0-<version>-windows-cuda-zip 
   * Other GPU cases: lc0--<version>-windows-opencl.zip
