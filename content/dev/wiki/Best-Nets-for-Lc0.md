@@ -17,6 +17,7 @@ If you don't care about squeezing out the very best performance for a particular
 ---
 
 ### Size versus Recommended Purpose
+* 40b: Experimental nets are currently being trained, network page will be updated once 40b nets are at least equal to 30b under time control.
 * 30b: Recommended for RTX cards (any time control), GTX cards (analysis, long time control)
 * 24b/20b: [no recent strong nets available] Recommended for GTX cards (short time control)
 * 16/15b: Recommended for running on CPU (analysis, long time control), GTX cards (short time control)
