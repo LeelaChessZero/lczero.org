@@ -35,10 +35,8 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 | Latest T60 after 606512       | [lczero.org run 1 networks](http://training.lczero.org/networks/1) | Current main run |
 | hanse-69722-vf2  | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Trained from 609722 on T60 data, value focus emphasizes positions with eval discrepancies. See [here](https://github.com/hans-ekbrand/lczero-training/wiki) | 
 | J94-100 (outdated)           | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Based on Sergio-V networks, trained on T60 data + value repair method. TCEC22 DivP+SuFi net |
-| Latest 30b SV net (outdated) | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Trained on T60 data |
-| SV-3972+jio-20k (outdated)   | removed | Submitted for TCEC 18 Superfinal |
-| 384x30-t60-3010 (outdated)   | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t60/384x30/) | Won CCC13 and TCEC 17 |
-| 384x30-t40-1705 (outdated)   | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/) | Trained on T40 data |
+| SV-3972+jio-20k (outdated)   | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Submitted for TCEC 18 Superfinal |
+| 384x30-t60-3010 (outdated)   | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Won CCC13 and TCEC 17 |
 
 
 ### 24 blocks x 320 filters:
@@ -52,7 +50,7 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
 | Leelenstein 15.0 | [15.0 Post](https://www.patreon.com/posts/leelenstein-15-0-38164065) | No account required |
-| SV-20b-t40-1541  | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/t40/256x20/) | Trained on T40 data |
+| SV-20b-t40-1541  | removed | Trained on T40 data |
 | 42850            | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
 
 
@@ -60,7 +58,8 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
 | Latest T75 | [lczero.org run 3 networks](https://training.lczero.org/networks/3) | Finished 3rd test run |
-| Latest T76 | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Current 2nd test run |
+| Latest T76 | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Finished 2nd test run |
+| Latest T77 | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Current 2nd test run |
 | J64-210    | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T60 data |
 | J20-460    | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Trained on T40 data |
 
@@ -69,7 +68,7 @@ In each section, the nets are listed (roughly) in descending order of strength. 
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
 | Latest T74        | [lczero.org run 2 networks](https://training.lczero.org/networks/2) | Finished 2nd test run |
-| 128x10-t60-2-5300 | [Sergio-V repository](https://www.comp.nus.edu.sg/~sergio-v/new/128x10-t60-2/) | Trained on T60 data |
+| 128x10-t60-2-5300 | removed | Trained on T60 data |
 | Tinker TK-6430   | [Google Drive](https://drive.google.com/file/d/19NCoFoS3AxtsCpOHejQIaYkPqRv6Vjfs/view) | Trained on T60 data |
 | Latest J104 net   | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | Based on T70 network 703810, trained on T70 data + value repair method |
 | 703810            | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=b30e742bcfd905815e0e7dbd4e1bafb41ade748f85d006b8e28758f1a3107ae3) | Last T70 net (not to be confused with T72) |
