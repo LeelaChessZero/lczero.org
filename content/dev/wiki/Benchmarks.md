@@ -12,11 +12,11 @@ Google docs of bench results here. Easier to maintain/prettier? https://docs.goo
 | ------------- | ---- | ------------- | ------------- | ------------- |
 |A100 40GB | v0.28.2 | 30x384 | cuda-fp16 | 71560 nps|
 |RTX 3090 | v0.28| 30x384 | cuda-fp16 | xxx nps|
-|RTX 3080 | v0.29.0-dev 3/5 | 40x512 | cuda-fp16 | 15159 nps|
+|RTX 3080 | v0.29.0-dev 3/3 | 40x512 | cuda-fp16 | 15159 nps|
 |RTX 3080 | v0.28.2 | 30x384 | cuda-fp16 | 32289 nps|
 |RTX 3070 | v0.28.2 | 30x384 | cuda-fp16 | xxx nps|
-|RTX 3060 | v0.28.2 | 40x512 | cuda-fp16 | xxx nps|
-|RTX 3060 | v0.28.2 | 30x384 | cuda-fp16 | xxx nps|
+|RTX 3060 | v0.29.0-dev 3/3 | 40x512 | cuda-fp16 | 6659 nps|
+|RTX 3060 | v0.29.0-dev 3/3 | 30x384 | cuda-fp16 | 14639 nps|
 # Turing Cards
 | GPU model | Engine version | Neural Net size | Backend | Speed |
 | ------------- | ---- | ------------- | ------------- | ------------- |
