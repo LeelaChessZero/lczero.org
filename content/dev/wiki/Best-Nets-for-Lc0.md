@@ -4,30 +4,33 @@ weight: 500
 wikiname: "Best-Nets-for-Lc0"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-There is no single "best net" for Leela but there a few worth recommending for various purposes. 
-
-The most important consideration in choosing a net is picking the right size for your hardware and time controls. In general, if you have a weak GPU or no GPU and want to only spend milliseconds per move, then you want a smaller net that evaluates positions more quickly, i.e. higher NPS (nodes per second). On the other hand, if you have an RTX card(s) and you want to run analysis from a position hours at a time, then the quality of the evaluation is more important than the speed, and a larger (but slower) net is probably going to work best.
-
----
-
-### "This is all too complicated. Just tell me what net to use!"
+### General Recommendation
 
 If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, stick with the network included in the official release (T75 or T74), which should do reasonably well (if not optimally) under most common conditions.
 
 ---
 
-### Size versus Recommended Purpose
-* 40b: Experimental nets are currently being trained, network page will be updated once 40b nets are at least equal to 30b under time control.
-* 30b: Recommended for RTX cards (any time control), GTX cards (analysis, long time control)
-* 24b/20b: [no recent strong nets available] Recommended for GTX cards (short time control)
-* 16/15b: Recommended for running on CPU (analysis, long time control), GTX cards (short time control)
-* 10b: Recommended for running on CPU (short time control, long time control)
-* <10b: Recommended for sparring vs humans
+### Current Main / Experimental Runs
 
-## Network Lists
+| Network Size | Purpose | Filters | Blocks | File Size | Recommendation |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| large | High-end GPUs | 512 | 40 (20/15 with mish activation) | 100-300 MB | [Latest T78 (512x20mish)*](http://training.lczero.org/networks/3) |
+| medium | Low-end GPUs | 384/320 | 30/24 | 80-150 MB | [Last T60: 611246 (384x30)](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04) |
+| small | CPU | 192 | 15 | 15-20 MB | [Latest T79 (192x15)*](http://training.lczero.org/networks/2) |
+| very small | Sparring vs. Humans | ≤128 | ≤10 | ≤10 MB | see below |
 
-In each section, the nets are listed (roughly) in descending order of strength. (Some may be too close to tell apart).
+\* Network architecture requires latest LC0 binary v0.29: https://github.com/LeelaChessZero/lc0/releases <br />
+DirectX12 backend for latest T78 networks is currently not available, resort to last [T78 512x40 network: 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or T60 (384x30) networks (roughly equal in performance).
 
+The most important consideration in choosing a net is picking the right size for your hardware and time controls. In general, if you have a weak GPU or no GPU and want to only spend milliseconds per move, then you want a smaller net that evaluates positions more quickly, i.e. higher NPS (nodes per second). On the other hand, if you have an RTX card(s) and you want to run analysis from a position hours at a time, then the quality of the evaluation is more important than the speed, and a larger (but slower) net is probably going to work best.
+
+---
+
+### Network Lists
+
+Listed for completeness, includes networks from older training runs. Some download links might be outdated.
+
+In each section, the nets are listed (roughly) in descending order of strength. Some may be too close to tell apart.
 
 ### 30 blocks x 384 filters:
 | Name             | Source for Download               | Notes            |
