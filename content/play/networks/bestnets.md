@@ -19,8 +19,9 @@ If you don't care about squeezing out the very best performance for a particular
 | small | CPU | 192 | 15 | 15-20 MB | [Latest T79 (192x15)*](http://training.lczero.org/networks/2) |
 | very small | Sparring vs. Humans | ≤128 | ≤10 | ≤10 MB | see below |
 
-\* Network architecture requires latest LC0 binary v0.29: https://github.com/LeelaChessZero/lc0/releases <br />
-DirectX12 backend for latest T78 networks is currently not available, resort to last [T78 512x40 network: 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or T60 (384x30) networks (both roughly equal in performance).
+\* Network architecture requires latest LC0 binary v0.29: https://github.com/LeelaChessZero/lc0/releases
+
+DirectX12 backend for latest T78 networks is currently not available, please choose either the last [T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or [last T60 network 611246 (384x30)](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04) (both roughly equal in strength).
 
 The most important consideration in choosing a net is picking the right size for your hardware and time controls. In general, if you have a weak GPU or no GPU and want to only spend milliseconds per move, then you want a smaller net that evaluates positions more quickly, i.e. higher NPS (nodes per second). On the other hand, if you have an RTX card(s) and you want to run analysis from a position hours at a time, then the quality of the evaluation is more important than the speed, and a larger (but slower) net is probably going to work best.
 
