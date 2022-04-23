@@ -22,7 +22,7 @@ If you don't care about squeezing out the very best performance for a particular
 
 \* Network architecture requires latest LC0 binary v0.29: https://github.com/LeelaChessZero/lc0/releases
 
-If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (UCI option: `BackendOptions: max_batch=256`), default: 1024. Make sure that this setting is not lower than `--minibatch-size` (UCI option: `MinibatchSize`), default: 256. This will reduce GPU memory usage without any negative impact on playing strength.
+If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength.
 
 DirectX12 backend for latest T78 networks is currently not available, in this case please choose either the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or [last T60 611246 (384x30)](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04) (both roughly equal in strength).
 
