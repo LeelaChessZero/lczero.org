@@ -22,9 +22,9 @@ If you don't care about squeezing out the very best performance for a particular
 
 \* Network architecture requires latest LC0 binary v0.29: https://github.com/LeelaChessZero/lc0/releases
 
-If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength.
+If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength.
 
-DirectX12 backend for latest T78 networks is currently not available, in this case please choose either the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or [last T60 611246 (384x30)](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04) (both roughly equal in strength).
+DirectX12 backend for latest T78 networks is currently not available, in this case please choose either the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or [last T60 611246 (384x30)](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04), both roughly equal in strength.
 
 The most important consideration in choosing a net is picking the right size for your hardware and time controls. In general, if you have a weak GPU or no GPU and want to only spend milliseconds per move, then you want a smaller net that evaluates positions more quickly, i.e. higher NPS (nodes per second). On the other hand, if you have an RTX card(s) and you want to run analysis from a position hours at a time, then the quality of the evaluation is more important than the speed, and a larger (but slower) net is probably going to work best.
 
@@ -39,7 +39,7 @@ In each section, the nets are listed roughly in descending order of strength. So
 ### 30 blocks x 384 filters:
 | Name             | Source for Download               | Notes            |
 |------------------|-----------------------------------|------------------|
-| Latest T60 after 606512       | [lczero.org run 1 networks](http://training.lczero.org/networks/1) | Current main run |
+| Latest T60 after 606512       | [lczero.org run 1 networks](http://training.lczero.org/networks/1) | Finished main run |
 | hanse-69722-vf2  | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Trained from 609722 on T60 data, value focus emphasizes positions with eval discrepancies. See [here](https://github.com/hans-ekbrand/lczero-training/wiki) | 
 | J94-100 (outdated)           | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Based on Sergio-V networks, trained on T60 data + value repair method. TCEC22 DivP+SuFi net |
 | SV-3972+jio-20k (outdated)   | [Contributed networks on Lc0 data](http://storage.lczero.org/files/networks-contrib/) | Submitted for TCEC 18 Superfinal |
@@ -49,7 +49,7 @@ In each section, the nets are listed roughly in descending order of strength. So
 ### 24 blocks x 320 filters:
 | Name              | Source for Download               | Notes            |
 |-------------------|-----------------------------------|------------------|
-| T60 until 606511  | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Current main run |
+| T60 until 606511  | [lczero.org run 1 networks](https://training.lczero.org/networks/1) | Finished main run |
 | J13B.2-136        | [GitHub: jhorthos Leela Training](https://github.com/jhorthos/lczero-training/wiki/Leela-Training) | "Terminator 2" Net |
 
 
@@ -93,9 +93,6 @@ In each section, the nets are listed roughly in descending order of strength. So
 | 5b x 48f   | Good Gyal 5      | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
 | 2b x 16f   | Tiny Gyal        | [GitHub: dkappe Bad Gyal](https://github.com/dkappe/leela-chess-weights/wiki/Bad-Gyal) | Other sizes also here |
 
-
-Note: The Sergio-V nets are also available on [storage.lczero.org](https://storage.lczero.org/files/networks-contrib/sergio-v/) in some cases.
-
 ---
 
-If this page hasn't been updated recently, check the [Discord](https://discord.gg/pKujYxD) channels for a recommendation. Be sure to specify your hardware and use case so the helpful regulars know what to recommend.
+If you still have questions, check the [Discord](https://discord.gg/pKujYxD) channels. Be sure to specify your hardware and use case so the helpful regulars know what to recommend.
