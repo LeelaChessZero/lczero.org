@@ -26,7 +26,6 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
   * CPuctBase=45669
   * FpuValue=0.3229
   * PolicyTemperature=1.156
-  * MaxPrefetch=37
   * SmartPruningFactor=2
   * SmartPruningMinimumBatches=300
   * TimeManager=legacy
