@@ -6,13 +6,38 @@ wikiname: "TCEC"
 ---
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at https://tcec-chess.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 
+# Season 22
+| Division |   Executable  |    Network   |  Placement |   Result  |                                                                                                              
+| -------- | ------------- | ------------ | ---------- | --------- | 
+| DivP     |  v0.29-dev+   |     781561   |     3/8    |  34/56  |
+
+### LC0 hardware and settings:
+* Hardware: 2x A100-PCIE-40GB + 2x Xeon 6230R (52 cores/104 threads)
+* Non-default parameters:
+  * MoveOverheadMs=1000
+  * StrictTiming=true
+  * Backend=demux
+  * BackendOptions=backend=cuda-fp16,multi_stream=true,threads=2,(gpu=0),(gpu=1)
+  * NNCacheSize=50000000
+  * MinibatchSize=384
+  * MaxPrefetch=37
+  * CPuct=1.939
+  * CPuctFactor=3.973
+  * CPuctBase=45669
+  * FpuValue=0.3229
+  * PolicyTemperature=1.156
+  * SmartPruningFactor=2
+  * SmartPruningMinimumBatches=300
+  * TimeManager=legacy
+  * RamLimitMb=96000
+
 # Season 21
 | Division |   Executable  |    Network   |  Placement |   Result  |                                                                                                              
 | -------- | ------------- | ------------ | ---------- | --------- | 
 | SuFi     | v0.28-dev+    |     69626    |     2/2    |   44/100  |
 | DivP     | v0.28.0-rc1   |     69146    |     2/8    |  36.5/56  |
 
-### SuFi Ordo evaluation:
+### SuFi Results:
 ```
    # ENGINE                       :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
    1 Stockfish 14_202107131735    :      42     50    95.3   19   74    7     100      74.0
@@ -52,7 +77,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 | SuFi     | v0.27.0-dev PR1483 |     J94-100       |     2/2    |   47/100  |
 | DivP     | v0.26.3            |      66740        |     1/8    |   38/56   |
 
-### SuFi Ordo evaluation:
+### SuFi Results:
 ```
    # ENGINE                                      :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
    1 Stockfish 20210113                          :      21     49    79.8   14   78    8     100      78.0
@@ -93,7 +118,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 | SuFi     | v0.26.3-rc1 | J92-190           |     2/2    | 45.5/100  |
 | DivP     | v0.26.2-rc1 | J92-100           |     2/8    | 32.5/56   |
 
-### SuFi Ordo evaluation:
+### SuFi Results:
 ```
    # ENGINE                                    :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
    1 Stockfish 202009282242_nn-baeb9ef2d183    :      32     49    89.7   18   73    9     100      73.0
@@ -128,7 +153,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 | SuFi     | v0.25.1    |svjio-t60-3972-mlh |     2/2    | 46.5/100  |
 | DivP     | v0.25.1    |sv-t60-3010        |     2/8    | 24.5/42   |
 
-### SuFi Ordo evaluation:
+### SuFi Results:
 ```
    # ENGINE                               :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
    1 Stockfish 202006170741               :      25     49    83.6   23   61   16     100      61.0
