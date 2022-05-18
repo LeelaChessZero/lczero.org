@@ -180,6 +180,41 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
   * MovesLeftScaledFactor=1.0
   * MovesLeftConstantFactor=0.0
 
+# Season 17
+| Division | Executable | Network           |  Placement | Result    |                                                                                                              
+| -------- | ---------- |-------------------|  --------- | --------- | 
+| SuFi     | v0.24      |  sv-t60-3010      |     1/2    | 52.5/100  |
+| DivP     | v0.21      |  sv-t60-3010      |     1/10   | 22/36     |
+
+### SuFi Results:
+```
+   # ENGINE                      :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
+   1 LCZero v0.24-sv-t60-3010    :       0   ----    75.8   17   71   12     100      71.0
+   2 Stockfish 20200407DC        :     -18     49     ---   12   71   17     100      71.0
+```
+### LC0 hardware and settings:
+* Hardware: 4 x NVIDIA RTX 2080 ti + 2x Intel Xeon E5-2630V4 2.2 GHz (20 cores / 40 ht)
+* Non-default parameters:
+  * MoveOverheadMs=1000
+  * Backend=demux
+  * BackendOptions=backend=cudnn-fp16,(gpu=0),(gpu=1),(gpu=2),(gpu=3)
+  * NNCacheSize=20000000
+  * MinibatchSize=352
+  * MaxPrefetch=160
+  * CPuct=2.147
+  * CPuctAtRoot=2.147
+  * CPuctBase=18368
+  * FpuValue=0.443
+  * CPuctFactor=2.815
+  * PolicyTemperature=1.607
+  * MaxCollisionEvents=160
+  * MaxOutOfOrderEvalsFactor=2.0
+  * SmartPruningMinimumBatches=160
+* Added for SuFi:
+  * MinibatchSize=176
+  * MaxCollisionEvents=917
+  * MaxOutOfOrderEvalsFactor=2.4
+
 # Season 13
 | Division | Executable               | Network     | Placement | Result    |                                                                                                              
 | -------- | --------------------------------------------------------------------------- |-----| ------- | ------ | 
