@@ -184,7 +184,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 | Division | Executable | Network           |  Placement | Result    |                                                                                                              
 | -------- | ---------- |-------------------|  --------- | --------- | 
 | SuFi     | v0.24      |  sv-t60-3010      |     1/2    | 52.5/100  |
-| DivP     | v0.21      |  sv-t60-3010      |     1/10   | 22/36     |
+| DivP     | v0.24      |  sv-t60-3010      |     1/10   | 22/36     |
 
 ### SuFi Results:
 ```
