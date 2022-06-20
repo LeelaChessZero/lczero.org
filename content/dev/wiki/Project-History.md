@@ -46,6 +46,24 @@ wikiname: "Project-History"
   * 66868: Experimenting with learning rate 0.0002, endgame temp 0.5, cutoff-move 55
   * 66998: Further raising endgame temp to 0.55
   * 67366: Endgame temp set to 0.6
+  * 67673: Reduced endgame temp to 0.55
+  * 67739: Introduced value focus with min 0.7, slope 1.0
+  * 67834: Further reduced endgame temp to 0.45
+  * 67992: Training migrated to noob's machine; batch splits reduced by 4x
+  * 68110: Value focus min set to 0.5
+  * 68160: Value loss weight raised to 0.8
+  * 68200: Deblunder started with threshold 0.1 (not active until aprox. 68380)
+  * 68256: Value loss weight raised to 1.6 to match T74
+  * 68623: Temp set to 0.9 decaying to 0.6 
+  * 69426: Introduce 960 book, set at 2%
+  * 609947: Value focus min set to 0.05, slope 2.0
+  * 610077: Training and match params changed, cpuct 1.32, cpuctatroot 1.9, fpuvalue 0.23
+  * 610161: Introduced 'diff focus' with q_weight 6.0, pol_scale 3.5, focus slope 3.0, focus min 0.025
+  * 610269: Dirichlet noise 0.25, alpha noise, 0.30
+  * 610323: Tuned values applied, cpuct 0.96, fpuvalue 0.28
+  * 610885: Learning Rate drop to 0.0001, # of steps to 1000, switched to 2 gpu's with batch size of 1024 and no splits
+  * 611226: Batch normalization momentum set to 0.999
+  * End date: 2022-01-08
 
 ## T59
 * Start date: 2019-12-12
