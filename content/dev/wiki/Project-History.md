@@ -8,7 +8,15 @@ wikiname: "Project-History"
 * [Discord chat](https://discord.gg/pKujYxD) #announcements and #dev-log have the most detailed updates.
 
 ## T80
-* Start date:
+* Start date: 2022-04-03
+* Network size: 15 residual blocks, 512 filters
+* Attention policy head with 0 encoder layers, ReLU activations replaced with mish
+* Training started from an initial net trained by tilps on T79 data for ~2m steps
+* Initial learning rate of 0.04
+  * 800127: Reduced to 1k steps per net (64k games)
+  * 800226: Learning rate drop to 0.004, reg. term weight 0.15, back up to 2k steps per net
+  * 800784: Reduced to 1k steps per net again (64k games)
+  * 801910: Reduced to 500 steps per net (64k games)
 
 ## T79
 * Start date:
