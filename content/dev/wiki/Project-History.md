@@ -37,11 +37,21 @@ wikiname: "Project-History"
   * 791770: Learning rate drop to 0.00004
   * 791971: Reg term weight disabled
   * End date: 2022-05-20
+
 ## T78
 * Start date:
 
 ## T77
-* Start date:
+* Start date: 2021-11-21
+* Network size: 15 residual blocks, 192 filters
+* Input format 4
+  * 770041: KLD set to 40 micronats (down from 60)
+  * 770252: Learning rate drop to 0.04, reg term weight set to 0.5
+  * 770559: Learning rate drop to 0.004, reg term weight set to 0.15
+  * 771043: Reg term weight set to 0.1
+  * 771258: Learning rate drop to 0.0004 and reg term weight to 0.05
+  * 771548: Learning rate drop to 0.00004 and reg term weight to 0.02
+  * End date: 2021-12-31
 
 ## T76
 * Start date:
