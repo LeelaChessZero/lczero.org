@@ -54,11 +54,25 @@ wikiname: "Project-History"
   * End date: 2021-12-31
 
 ## T76
-* Start date:
-
+* Start date: 2021-10-16
+* Network size: 15 residual blocks, 192 filters
+* Value focus params applied at the beginning of the run
+  * 760003: KLD set to 170 (down from 340)
+  * 760005: KLD set to 80 (down from 170)
+  * 760010: KLD set to 60 (down from 80)
+  * 760052: KLD set to 40 (down from 60)
+  * 760232: Learning rate drop to 0.04, reg term weight set to 0.5
+  * 760434: Reg term weight set to 1.0
+  * 760444: Reg term weight reverted back to 0.5
+  * 760454: Reverted training net back to 760433
+  * 760489: Learning rate drop to 0.004, reg term weight to 0.15
+  * 760897: Reg term weight to 0.1
+  * 760944: Learning rate drop to 0.0004, reg term weight to 0.05
+  * 761257: Learning rate drop to 0.00004, reg term weight to 0.02
+  * End date: 2021-11-21
 ## T75
 * Start date:
-
+  * End date: 2021-10-16
 ## T74
 * Start date:
 
