@@ -19,8 +19,24 @@ wikiname: "Project-History"
   * 801910: Reduced to 500 steps per net (64k games)
 
 ## T79
-* Start date:
-
+* Start date: 2022-02-25
+* Network size: 15 residual blocks, 192 filters
+* Attention policy head with 0 encoder layers, ReLU activations replaced with mish
+  * 790202: KLD dropped from 60 to 50 micronats
+  * 790243: Policy softmax temperature set to 1.45 (up from 1.40)
+  * 790264: Reverted last policy softmax temperature change
+  * 790279: Learning rate drop to 0.04
+  * 790401: Reg term weight set to 0.75
+  * 790451: Reg term weight set to 0.6
+  * 790503: Reg term weight set to 0.5
+  * 790612: Policy softmax temperature set to 1.45... again (up from 1.40)
+  * 790652: Learning rate drop to 0.004, reg term weight set to 0.15
+  * 790994: Reg term weight to 0.1
+  * 791071: Fpu value set to 0.26 (up from 0.23)
+  * 791334: Learning rate drop to 0.0004, reg term weight set to 0.05
+  * 791770: Learning rate drop to 0.00004
+  * 791971: Reg term weight disabled
+  * End date: 2022-05-20
 ## T78
 * Start date:
 
@@ -98,10 +114,10 @@ wikiname: "Project-History"
   * 68623: Temp set to 0.9 decaying to 0.6 
   * 69426: Introduce 960 book, set at 2%
   * 609947: Value focus min set to 0.05, slope 2.0
-  * 610077: Training and match params changed, cpuct 1.32, cpuctatroot 1.9, fpuvalue 0.23
+  * 610077: Training and match params changed, cpuct 1.32, cpuctatroot 1.9, fpu value 0.23
   * 610161: Introduced 'diff focus' with q_weight 6.0, pol_scale 3.5, focus slope 3.0, focus min 0.025
   * 610269: Dirichlet noise 0.25, alpha noise, 0.30
-  * 610323: Tuned values applied, cpuct 0.96, fpuvalue 0.28
+  * 610323: Tuned values applied, cpuct 0.96, fpu value 0.28
   * 610885: Learning Rate drop to 0.0001, # of steps to 1000, switched to 2 gpu's with batch size of 1024 and no splits
   * 611226: Batch normalization momentum set to 0.999
   * End date: 2022-01-08
