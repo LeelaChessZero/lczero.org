@@ -7,6 +7,39 @@ wikiname: "Project-History"
 * See also our [blog](https://blog.lczero.org)
 * [Discord chat](https://discord.gg/pKujYxD) #announcements and #dev-log have the most detailed updates.
 
+## T80
+* Start date:
+
+## T79
+* Start date:
+
+## T78
+* Start date:
+
+## T77
+* Start date:
+
+## T76
+* Start date:
+
+## T75
+* Start date:
+
+## T74
+* Start date:
+
+## T73
+* Start date:
+
+## T72
+* Start date:
+
+## T71
+* Start date:
+
+## T70
+* Start date:
+
 ## T60
 * Start date: 2019-07-26
 * Network size: 320 filters, 24 residual blocks until 66511; 384 filters, 30 blocks from 66512
