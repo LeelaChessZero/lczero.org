@@ -39,7 +39,10 @@ wikiname: "Project-History"
   * End date: 2022-05-20
 
 ## T78
-* Start date:
+* Start date: 2021-12-03
+* Network size: 40 residual blocks, 512 filters
+* Training started from an initial net trained by masterkni6 
+* Initial learning rate of 0.0002
 
 ## T77
 * Start date: 2021-11-21
