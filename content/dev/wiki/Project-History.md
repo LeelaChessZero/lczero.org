@@ -89,7 +89,48 @@ wikiname: "Project-History"
 * Start date:
 
 ## T70
-* Start date:
+* Start date: 2020-02-17
+* Network size: 10 residual blocks, 128 filters
+* Purpose: 
+  * 700002: KLD set to 30 micronats (up from 20)
+  * 700061: swa_max_n set to 10
+  * 700105: KLD set to 20 micronats (down from 30)
+  * 700140: Learning rate drop to 0.04
+  * 700271: Initial temp set to 1.0
+  * 700324: Initial temp for match games set to 1.0
+  * 700377: Initial temp for match games set to 1.2
+  * 700378: Learning rate drop to 0.004
+  * 700511: Initial temp set to 0.9
+  * 700555: Training params changed, cpuct 1.32, cpuctatroot 1.9, fpu value 0.23
+  * 700640: Initial temp set to 1.0, endgame temp set to 0.75, visit offset to -3
+  * 700699: Revert last change
+  * 700812: Learning rate drop to 0.0004 
+  * 701046: Endgame temp set to 0.45, endgame-cutoff to 26
+  * 701124: Endgame temp set to 0.3
+  * 701214: Endgame temp cutoff set to 40
+  * 701290: Sticky-endgames enabled
+  * 701398: KLD set to 15 micronats (down from 20)
+  * 701400: KLD set to 12 micronats (down from 15)
+  * 701458: Training params changed, cpuctatroot 2.1
+  * 701463: Learning rate drop to 0.00004
+  * 701473: Match params synced to training params
+  * 701492: Learning rate raised to 0.004, Training and match params changed, cpuctatroot 1.9, KLD set to 20 micronats (up from 12)
+  * 701522: Endgame temp cutoff set to 32
+  * 701556: Temp decay set to 72
+  * 701603: Temp cutoff set to 60 with no decay
+  * 701752: Endgame temp set to 0
+  * 701809: Enabled gaviota moves left rescoring
+  * 701884: Endgame temp set to 0.45
+  * 701955: Endgame temp set to 0.3
+  * 701955: MLH attached
+  * 702218: Temp set to 0.9, endgame temp to 0.3, tempdecay-delay to 40, tempdecay to 30, temp cutoff to 60
+  * 702403: Tempdecay-delay set to 20, tempdecay to 60
+  * 702516: Endgame temp set to 0.4, tempdecay to 72
+  * 702567: Match params changed, sticky endgames enabled
+  * 703080: Endgame temp to 0.5, tempdecay to 90,
+  * 703314: Endgame temp set to 0.45
+  * 703460: Learning rate drop to 0.00008
+  * End date: 2020-7-11
 
 ## T60
 * Start date: 2019-07-26
