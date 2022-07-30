@@ -14,7 +14,7 @@ If you don't care about squeezing out the very best performance for a particular
 
 | Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Recommendation |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Large | GPU | 512 | 40 (or 20/15 with mish activation) | 2.2 GB | 100-300 MB | [T78: 784157 (512x20mish)*](http://training.lczero.org/get_network?sha=197bfdd2d268f936f2c6f4625544af84555d1f95dcfb139ef03e00c3b270483b) (Right-click → "Save link as...") |
+| Large | GPU | 512 | 40 (or 20/15 with mish activation) | 2.2 GB | 100-300 MB | [T78: 784072 (512x20mish)*](http://training.lczero.org/get_network?sha=60300303105289a7487017cb4d78492d51cc38866ce16b96e53d6c44439bbb18) (Right-click → "Save link as...") |
 | Medium | GPU | 384 | 30 | 1.9 GB | 130-140 MB | [Last T60 384x30 network: 611246](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04) (Right-click → "Save link as...") |
 | Medium | GPU | 320 | 24 | 1.5 GB | 70-80 MB | [Last T60 320x24 network: 606511](http://training.lczero.org/get_network?sha=82d14d7d8a4f00826f269901d5e31df1a7b2112c20604dc8bee4008271db4d88) (Right-click → "Save link as...") |
 | Small | CPU | 192 | 15 | - | 15-20 MB | [Last T79 192x15 network: 792013*](http://training.lczero.org/get_network?sha=195b450999e874d07aea2c09fd0db5eff9d4441ec1ad5a60a140fe8ea94c4f3a) (Right-click → "Save link as...") |
