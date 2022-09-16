@@ -16,7 +16,7 @@ Each session will **stop running after 12 hours of use and needs to be restarted
 
 **Do not use multiple accounts for training.** Google has notified us they will block users for this.
 ## Running the GPU client
-* First [download a copy of the latest notebook](https://drive.google.com/file/d/1JcNBVlN0suCk-kRK74j1nzuzSBE88k0V/view?usp=sharing)
+* First [download a copy of the latest notebook](https://drive.google.com/file/d/1JcNBVlN0suCk-kRK74j1nzuzSBE88k0V/view?usp=sharing)(https://discord.com/channels/425419482568196106/427066771627966466/941028798038700132)
 * Sign in to your Google account and [open Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb).
 * In the menu, choose **File** -> **Upload notebook…** and upload the notebook.
 * **Optional**: When the notebook has opened, scroll down to the second last cell and there replace ...
