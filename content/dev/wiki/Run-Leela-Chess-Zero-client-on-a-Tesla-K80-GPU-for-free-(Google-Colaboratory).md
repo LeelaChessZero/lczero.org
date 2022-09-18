@@ -12,11 +12,11 @@ Using Colab requires **no installation and runs in your browser. It will not use
 
 This example shows how to run an **LCZero client on Colab to contribute training games**. You can expect to contribute 1000 to 1500 games per day. At approximately 1000 nodes per second (nps), a single Colab client is faster than a speedy 16-CPU server.
 
-Each session will **stop running after 12 hours of use and needs to be restarted**. You must also keep the browser tab open. More details are below.
+Each session will **stop running after 12 hours of use and needs to be restarted**. You must also keep the browser tab open. Colab pro+ session length is 24 hours, using same account two sessions can run offline (tab can be closed and it will continue to run). More details are below.
 
 **Do not use multiple accounts for training.** Google has notified us they will block users for this.
 ## Running the GPU client
-* First [download a copy of the latest notebook](https://drive.google.com/drive/folders/1pYxlA3Ky1L7wPgLkkWIlOfHOTkVItFMr?usp=sharing) V11b, two scripts are the same, except name and localhost name, they should be used in two tabs with same colab account - google will allocate two gpus! All parameters, login and password should be entered only at the top of the script.
+* First [download a copy of the latest notebooks](https://drive.google.com/drive/folders/1pYxlA3Ky1L7wPgLkkWIlOfHOTkVItFMr?usp=sharing) v11b, two scripts are the same, except name and localhost name, they should be used in two tabs with same colab account - google will allocate two gpus! All parameters, login and password should be entered only at the top of the script.
 * Sign in to your Google account and [open Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb).
 * In the menu, choose **File** -> **Upload notebook…** and upload the notebook.
 * **Optional**: When the notebook has opened, scroll down to the second last cell and there replace ...
