@@ -4,7 +4,7 @@ weight: 500
 wikiname: "Run-Leela-Chess-Zero-client-on-a-Tesla-K80-GPU-for-free-(Google-Colaboratory)"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-[Google Colaboratory](https://colab.research.google.com) (Colab) is a free tool for machine learning research. It is a Python notebook running in a Virtual Machine using an NVIDIA Tesla K80 GPU (a graphics processor developed by the NVIDIA Corporation).
+[Google Colaboratory](https://colab.research.google.com) (Colab) is a free tool for machine learning research. It is a Python notebook running in a Virtual Machine using an NVIDIA Tesla K80, T4, V100 and A100 GPU (a graphics processors developed by the NVIDIA Corporation).
 
 Or, in dummy language, Colab is processing power located on Google servers - not on your local computer - and people who have a google account can use this in order to contribute training games for Leela. It is a service by Google.
 
@@ -27,7 +27,7 @@ Each session will **stop running after 12 hours of use and needs to be restarted
 
   `!cd lc0/build && ./client_linux --user 'yournick' --password yourpassword >/dev/null`
 
-  Here `yournick` and `yourpassword` can be freely chosen. Your nick will then be listed on http://lczero.org/ and you can click on it and replay all games you contributed. You dont need to change the nick and password. If you keep it as it is the games will be appended to [The Google Colab User on lczero.org](https://training.lczero.org/user/Google%20Colab). Changing the password is just helpful the first time, to test if your games are actually relayed.
+  Here `yournickname` and `yourpassword` can be freely chosen. Your nick will then be listed on http://lczero.org/ and you can click on it and replay all games you contributed. You dont need to change the nick and password. If you keep it as it is the games will be appended to [The Google Colab User on lczero.org](https://training.lczero.org/user/Google%20Colab). Changing the password is just helpful the first time, to test if your games are actually relayed.
   
 * **Optional**: If you want to see the complete output, remove the `> /dev/null` at the end. It will then log each ponder line. **Notice that this will cause a lot internet traffic - around 20 GB per month if you would let it run nonstop.**
 
