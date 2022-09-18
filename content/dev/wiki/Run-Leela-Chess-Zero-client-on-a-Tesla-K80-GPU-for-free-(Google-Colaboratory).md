@@ -16,7 +16,7 @@ Each session will **stop running after 12 hours of use and needs to be restarted
 
 **Do not use multiple accounts for training.** Google has notified us they will block users for this.
 ## Running the GPU client
-* First [download a copy of the latest notebook](https://drive.google.com/file/d/1JcNBVlN0suCk-kRK74j1nzuzSBE88k0V/view?usp=sharing) (https://discord.com/channels/425419482568196106/427066771627966466/941028798038700132) 11.4
+* First [download a copy of the latest notebook](https://drive.google.com/drive/folders/1pYxlA3Ky1L7wPgLkkWIlOfHOTkVItFMr?usp=sharing) V11b, two scripts are the same, except name and localhost name, they should be used in two tabs with same colab account - google will allocate two gpus! All parameters, login and password should be entered only at the top of the script.
 * Sign in to your Google account and [open Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb).
 * In the menu, choose **File** -> **Upload notebook…** and upload the notebook.
 * **Optional**: When the notebook has opened, scroll down to the second last cell and there replace ...
@@ -39,7 +39,7 @@ If everything has gone well, you should see similar output as shown in the image
 
 Note: Google offers **unlimited access to its GPUs**, but each session will **stop running after 12 hours of use and need to be restarted**. The animated spinning "stop" symbol will turn into a static red "play" symbol when the cell has stopped. You can restart with **Runtime** -> **Restart Runtime** followed by **Runtime** -> **Run All**. A simple macro would work to automate the restarting process. 
 
-A session will also stop if you close the browser tab running Colab (about ~1.5 hours after closing the tab). To ensure the client runs for the full 12 hours, please **keep the tab open**.
+A session will also stop if you close the browser tab running Colab (about ~1.5 hours after closing the tab). To ensure the client runs for the full 12 hours, please **keep the tab open**. Colab pro+ session runs 24 hours and will run even if tab is closed, 2 instances with gpu's when using two scripts are available.
 
 ## Troubleshooting
 
