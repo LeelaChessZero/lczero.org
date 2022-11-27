@@ -6,6 +6,36 @@ wikiname: "TCEC"
 ---
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at https://tcec-chess.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 
+# Season 23
+| Division |   Executable      |    Network   |  Placement |   Result  |                                                                                                              
+| -------- | ----------------- | ------------ | ---------- | --------- | 
+| SuFi     | v0.30-dag-9a9c42d |     784968   |     2/2    |  41.5/100  |
+| DivP     | v0.30-dag-bord-lf |     784968   |     2/8    |  35.5/56  |
+
+### SuFi Results:
+```
+   # ENGINE                            :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
+   1 Stockfish dev16_20221027          :      60     50    99.1   27   63   10     100      63.0
+   2 LCZero 0.30-dag-9a9c42d_784968    :       0   ----     ---   10   63   27     100      63.0
+```
+### LC0 hardware and settings:
+* Hardware: 2x A100-PCIE-40GB + 2x Xeon 6230R (52 cores/104 threads)
+* Non-default parameters:
+  * MoveOverheadMs=1000
+  * StrictTiming=true
+  * Backend=demux
+  * BackendOptions=backend=cuda-fp16,(gpu=0),(gpu=1)
+  * MinibatchSize=192
+  * MaxPrefetch=37
+  * CPuct=1.589
+  * CPuctFactor=3.973
+  * CPuctBase=45669
+  * FpuValue=0.2643
+  * PolicyTemperature=1.179
+  * SmartPruningFactor=2.0
+  * SmartPruningMinimumBatches=300
+  * RamLimitMb=94500
+
 # Season 22
 | Division |   Executable  |    Network   |  Placement |   Result  |                                                                                                              
 | -------- | ------------- | ------------ | ---------- | --------- | 
@@ -26,7 +56,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
   * CPuctBase=45669
   * FpuValue=0.3229
   * PolicyTemperature=1.156
-  * SmartPruningFactor=2
+  * SmartPruningFactor=2.0
   * SmartPruningMinimumBatches=300
   * TimeManager=legacy
   * RamLimitMb=96000
