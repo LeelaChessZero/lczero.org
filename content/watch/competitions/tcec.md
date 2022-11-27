@@ -15,7 +15,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 ### SuFi Results:
 ```
    # ENGINE                            :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
-   1 Stockfish dev16_20221027          :      60     50    99.1   27   63   10     100      63.0
+   1 Stockfish dev16_20221027          :      60     42    99.7   27   63   10     100      63.0
    2 LCZero 0.30-dag-9a9c42d_784968    :       0   ----     ---   10   63   27     100      63.0
 ```
 ### LC0 hardware and settings:
@@ -70,7 +70,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 ### SuFi Results:
 ```
    # ENGINE                       :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
-   1 Stockfish 14_202107131735    :      42     50    95.3   19   74    7     100      74.0
+   1 Stockfish 14_202107131735    :      42     35    99.1   19   74    7     100      74.0
    2 LCZero 0.28-dev+_69626       :       0   ----     ---    7   74   19     100      74.0
 ```
 ### LC0 hardware and settings:
@@ -110,7 +110,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 ### SuFi Results:
 ```
    # ENGINE                                      :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
-   1 Stockfish 20210113                          :      21     49    79.8   14   78    8     100      78.0
+   1 Stockfish 20210113                          :      21     33    89.6   14   78    8     100      78.0
    2 LCZero 0.27.0d-Tilps-dje-magic_JH.94-100    :       0   ----     ---    8   78   14     100      78.0
 ```
 ### LC0 hardware and settings:
@@ -151,7 +151,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 ### SuFi Results:
 ```
    # ENGINE                                    :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
-   1 Stockfish 202009282242_nn-baeb9ef2d183    :      32     49    89.7   18   73    9     100      73.0
+   1 Stockfish 202009282242_nn-baeb9ef2d183    :      32     36    95.8   18   73    9     100      73.0
    2 LCZero v0.26.3-rc1_T60.SV.JH.92-190       :       0   ----     ---    9   73   18     100      73.0
 ```
 ### LC0 hardware and settings:
@@ -186,7 +186,7 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 ### SuFi Results:
 ```
    # ENGINE                               :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
-   1 Stockfish 202006170741               :      25     49    83.6   23   61   16     100      61.0
+   1 Stockfish 202006170741               :      25     43    86.7   23   61   16     100      61.0
    2 LCZero v0.25.1-svjio-t60-3972-mlh    :       0   ----     ---   16   61   23     100      61.0
 ```
 ### LC0 hardware and settings:
@@ -219,8 +219,8 @@ TCEC (Top Chess Engine Championship) is a computer chess tournament organized an
 ### SuFi Results:
 ```
    # ENGINE                      :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
-   1 LCZero v0.24-sv-t60-3010    :       0   ----    75.8   17   71   12     100      71.0
-   2 Stockfish 20200407DC        :     -18     49     ---   12   71   17     100      71.0
+   1 LCZero v0.24-sv-t60-3010    :       0   ----    81.8   17   71   12     100      71.0
+   2 Stockfish 20200407DC        :     -18     38     ---   12   71   17     100      71.0
 ```
 ### LC0 hardware and settings:
 * Hardware: 4 x NVIDIA RTX 2080 ti + 2x Intel Xeon E5-2630V4 2.2 GHz (20 cores / 40 ht)
