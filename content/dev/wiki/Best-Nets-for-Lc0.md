@@ -6,7 +6,7 @@ wikiname: "Best-Nets-for-Lc0"
 ---
 ### General Recommendation
 
-If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, stick with the network included in the official release (T75 or T74), which should do reasonably well under most common conditions.
+If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, stick with the network included in the official release (T75 or T79), which should do reasonably well under most common conditions.
 
 ---
 
@@ -22,9 +22,9 @@ If you don't care about squeezing out the very best performance for a particular
 
 \* Network architecture requires latest LC0 binary v0.29: https://github.com/LeelaChessZero/lc0/releases
 
-If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength.
+If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength. With the cudnn backend you can also try `--backend-opts=custom_winograd=false` or as a UCI option: `BackendOptions: custom_winograd=false`.
 
-DirectX12 backend for latest T78 networks is currently not available, in this case please choose either the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or [last T60 611246 (384x30)](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04), both roughly equal in strength.
+DirectX12 backend for latest T78 networks is currently not available, in this case please choose either the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or [last T60 611246 (384x30)](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04), both roughly equal in strength. Alternatively you can download the onnx-dml version that can use all the latest networks, see the included README file for instructions on how to get the directml.dll that can't be included in the package for licensing reasons.
 
 The most important consideration in choosing a net is picking the right size for your hardware and time controls. In general, if you have a weak GPU or no GPU and want to only spend milliseconds per move, then you want a smaller net that evaluates positions more quickly, i.e. higher NPS (nodes per second). On the other hand, if you have an RTX card(s) and you want to run analysis from a position hours at a time, then the quality of the evaluation is more important than the speed, and a larger (but slower) net is probably going to work best.
 
