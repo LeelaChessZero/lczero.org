@@ -20,7 +20,7 @@ If you don't care about squeezing out the very best performance for a particular
 | Small | CPU | 192 | 15 | - | 15-20 MB | [Last T79 192x15 network: 792013*](http://training.lczero.org/get_network?sha=195b450999e874d07aea2c09fd0db5eff9d4441ec1ad5a60a140fe8ea94c4f3a) (Right-click → "Save link as...") |
 | Very Small | Sparring vs. Humans | ≤128 | ≤10 | - | ≤10 MB | see below |
 
-\* Network architecture requires latest LC0 binary v0.29: https://github.com/LeelaChessZero/lc0/releases
+\* Network architecture requires latest LC0 binary v0.29: <https://github.com/LeelaChessZero/lc0/releases>, but will not work with opencl or dx12 backends.
 
 If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength. With the cudnn backend you can also try `--backend-opts=custom_winograd=false` or as a UCI option: `BackendOptions: custom_winograd=false`.
 
