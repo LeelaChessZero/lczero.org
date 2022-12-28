@@ -11,7 +11,7 @@ Older versions and beta releases are available at our [GitHub releases page](htt
 
 Every package contains:
 * **lc0.exe** (the engine),
-* **752187.pb.gz** or **744204.pb.gz** (a default network file), and
+* **791556.pb.gz** or **753723.pb.gz** (a default network file), and
 * **lc0-training-client.exe** (only needed if you would like to contribute training games).
 
 Depending on which hardware you have, different version of Lc0 will be best for you.  
@@ -21,8 +21,7 @@ Pick the row that matches your hardware from the following table:
 |----------|---------|
 | Newest (2018+) NVidia GPUs: RTX&nbsp;20xx, RTX&nbsp;30xx and so on (but not GTX&nbsp;16xx) | [CUDA](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cuda.zip) |
 | Newer (2014-2018) NVidia GPUs: GTX&nbsp;7xx, GTX&nbsp;8xx, GTX&nbsp;9xx, GTX&nbsp;10xx and also GTX&nbsp;16xx | [CUDNN](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cudnn.zip) |
-| Newer non-NVidia GPUs (only for latest versions of Windows 10) | [DirectX 12](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows10-gpu-dx12.zip) |
-| Older GPUs or Windows versions. Note: Recent AMD GPUs might have driver issues. | [OpenCL](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-opencl.zip) |
+| Other GPUs (requires a very recent DirectML dll, see the included `README` for instructions) | [onnx-dml](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-onnx-dml.zip) |
 | Computers without GPUs, but with modern CPUs | [DNNL BLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-dnnl.zip) |
 | Older CPUs | [OpenBLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-openblas.zip) |
 
