@@ -38,6 +38,7 @@ Technical-Explanation-of-Leela-Chess-Zero
 Testing-guide
 Third-Party-Nets
 Training-and-Testing-a-Net-on-Google-Colab:-Beginner-Friendly-Guide
+Training-data-format-versions
 Training-runs
 Transposition-tests
 Ubuntu-16.04-LC0-Instructions
