@@ -25,6 +25,7 @@ Neural-Net-Training
 Overview
 Project-History
 Run-Leela-Chess-Zero-client-on-a-Tesla-K80-GPU-for-free-(Google-Colaboratory)
+Run-Leela-Chess-Zero-client-on-a-Tesla-T4-GPU-for-free-(Google-Colaboratory)
 Running-Leela-Chess-Zero-as-a-Lichess-Bot
 Running-Leela-Chess-Zero-on-Intel-CPUs-(Haswell-or-later)
 Running-a-benchmark
