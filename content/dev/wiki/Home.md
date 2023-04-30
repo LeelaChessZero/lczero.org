@@ -32,7 +32,7 @@ wikiname: "Home"
     * [How to train your own LC0 Net - The Idiot's Guide for Windows 10](https://docs.google.com/document/d/1pB2MtqVVgYC2BwJbIrVvP2xWe5KIFFVteEqZroMf20E/edit)
     * [Neural Net Training](https://github.com/LeelaChessZero/lc0/wiki/Neural-Net-Training) 
   * Running/Contributing with Google Colab
-    * [Run LC0 client on a Tesla K80 GPU for free (Google Colaboratory)](https://github.com/LeelaChessZero/lc0/wiki/Run-Leela-Chess-Zero-client-on-a-Tesla-K80-GPU-for-free-(Google-Colaboratory))
+    * [Run Leela Chess Zero client on a Tesla T4 GPU for free (Google Colaboratory)](https://github.com/LeelaChessZero/lc0/wiki/Run-Leela-Chess-Zero-client-on-a-Tesla-T4-GPU-for-free-(Google-Colaboratory))
     * [Script for testing new nets versus old nets on Google Colab](https://github.com/LeelaChessZero/lc0/wiki/Script-for-testing-new-nets-versus-old-nets-on-Google-Colab)
     * [Beginner Friendly Guide on Training and Testing a Net on Google Colab](https://github.com/LeelaChessZero/lc0/wiki/Beginner-Friendly-Guide-on-Training-and-Testing-a-Net-on-Google-Colab)
   * Running/Contributing with vast.ai
