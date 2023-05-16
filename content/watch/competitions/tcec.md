@@ -6,6 +6,48 @@ wikiname: "TCEC"
 ---
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at https://tcec-chess.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 
+# Season 24
+| Division     |   Executable       |   Network   |  Placement |   Result   |                                                                                                              
+| ------------ | ------------------ | ----------- | ---------- | ---------- | 
+| SuFi         | v0.30-dag-a9b25c2b | BT2-3650000 |     2/2    |  48.0/100  |
+| DivP Playoff | v0.30-dag-8092b376 | BT2-3650000 |     2/4    |  14.0/24   |
+| DivP         | v0.30-dag-8092b376 | BT2-3650000 |     2/8    |  37.0/56   |
+
+### SuFi Results:
+```
+   # ENGINE                                  :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
+   1 Stockfish dev-20230409-b36d39de         :      14     49    71.3   20   64   16     100      64.0
+   2 LCZero 0.30-dag-a9b25c2b-BT2-3650000    :       0   ----     ---   16   64   20     100      64.0
+```
+### LC0 hardware and settings:
+* Hardware: 2x A100-PCIE-40GB + 2x Xeon 6230R (52 cores/104 threads)
+* Non-default parameters:
+  * MoveOverheadMs=1000
+  * StrictTiming=true
+  * Backend=demux
+  * BackendOptions=backend=cuda-fp16,(gpu=0),(gpu=1)
+  * MinibatchSize=216
+  * CPuct=2.242
+  * CPuctFactor=3.973
+  * CPuctBase=45669
+  * FpuValue=0.583
+  * PolicyTemperature=1.406
+  * SmartPruningFactor=2.0
+  * SmartPruningMinimumBatches=300
+  * MovesLeftSlope=0.0027
+  * MovesLeftThreshold=0.8
+  * TimeManager=legacy(book-ply-bonus=0.4)
+  * TaskWorkers=3
+  * WDLDrawRateReference=0.58
+  * WDLContemptAttenuation=0.6
+  * WDLEvalObjectivity=0
+  * WDLCalibrationElo=3600
+  * RamLimitMb=94500
+* Added/Changed for SuFi:
+  * BackendOptions=backend=cuda-fp16,(gpu=0),(gpu=1),multi_stream=true,threads=2
+  * Contempt=0
+  * ScoreType=WDL_mu
+
 # Season 23
 | Division |   Executable      |    Network   |  Placement |   Result  |                                                                                                              
 | -------- | ----------------- | ------------ | ---------- | --------- | 
