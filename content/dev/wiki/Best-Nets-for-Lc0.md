@@ -4,27 +4,23 @@ weight: 500
 wikiname: "Best-Nets-for-Lc0"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-### General Recommendation
-
-If you don't care about squeezing out the very best performance for a particular situation and want a general-purpose net, stick with the network included in the official release (T75 or T79), which should do reasonably well under most common conditions.
-
----
-
 ### Strongest Networks
 
-| Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Recommendation |
+In general, for game analysis and long calculation time per move the largest network compatible with your hardware is recommended. In use cases with very low calculation time, computer self-play games or a slow GPU a smaller network might be a better choice. For CPU users the smallest network below is recommended.
+
+| Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Large | GPU | 512 | 40 (or 15-20 with mish activation) | 2.2 GB | 150-160 MB | [Last T80 512x19 network: 811971*](http://training.lczero.org/get_network?sha=30c9789e7d7e58f2c97946a57c6132e71ff322daa2861325daca732e71d2f9b2) (Right-click → "Save link as...") |
-| Medium | GPU | 384 | 30 | 1.9 GB | 130-140 MB | [Last T60 384x30 network: 611246](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04) (Right-click → "Save link as...") |
-| Medium | GPU | 320 | 24 | 1.5 GB | 70-80 MB | [Last T60 320x24 network: 606511](http://training.lczero.org/get_network?sha=82d14d7d8a4f00826f269901d5e31df1a7b2112c20604dc8bee4008271db4d88) (Right-click → "Save link as...") |
-| Small | CPU | 192 | 15 | - | 15-20 MB | [Last T79 192x15 network: 792013*](http://training.lczero.org/get_network?sha=195b450999e874d07aea2c09fd0db5eff9d4441ec1ad5a60a140fe8ea94c4f3a) (Right-click → "Save link as...") |
+| Large | GPU | 768 | 15 (mish activation) | 2.4 GB | 160-170 MB | [T1-768x15x24h-swa-4000000](https://storage.lczero.org/files/networks-contrib/t1-768x15x24h-swa-4000000.pb.gz) (Right-click → "Save link as...") |
+| Medium | GPU | 512 | 15 (mish activation) | 1.8 GB | 140-150 MB | [T1-512x15x8h-distilled-swa-3395000](https://storage.lczero.org/files/networks-contrib/t1-512x15x8h-distilled-swa-3395000.pb.gz) (Right-click → "Save link as...") |
+| Medium | GPU | 256 | 10 (mish activation) | 1.6 GB | 30-40 MB | [T1-256x10-distilled-swa-2432500](https://storage.lczero.org/files/networks-contrib/t1-256x10-distilled-swa-2432500.pb.gz) (Right-click → "Save link as...") |
+| Small | CPU | 192 | 15 | - | 15-20 MB | [Last T79 192x15 network: 792013](http://training.lczero.org/get_network?sha=195b450999e874d07aea2c09fd0db5eff9d4441ec1ad5a60a140fe8ea94c4f3a) (Right-click → "Save link as...") |
 | Very Small | Sparring vs. Humans | ≤128 | ≤10 | - | ≤10 MB | see below |
 
-\* Not supported by DirectX12 and OpenCL backends, in this case please choose either the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or the [last T60 384x30 network 611246](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04), both roughly equal in strength. Alternatively you can download the ONNX-DML version that can use all the latest networks, see the included README file for instructions on how to get the directml.dll that can't be included in the package for licensing reasons.
+T1 networks are contributed by masterkni6, the larger 768x15 network has a very similar network architecture to official T80 networks in current Training Run1.
 
 If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength. With the cuDNN backend you can also try `--backend-opts=custom_winograd=false` or as a UCI option: `BackendOptions: custom_winograd=false`.
 
-The most important consideration in choosing a net is picking the right size for your hardware and time controls. In general, if you have a weak GPU or no GPU and want to only spend milliseconds per move, then you want a smaller net that evaluates positions more quickly, i.e. higher NPS (nodes per second). On the other hand, if you have an RTX card(s) and you want to run analysis from a position hours at a time, then the quality of the evaluation is more important than the speed, and a larger (but slower) net is probably going to work best.
+Note for DirectX12 and OpenCL backend users: The format of the networks in the list above is not supported. However, you can download and use the LC0 ONNX-DML version instead, see the included README file for instructions on how to get the directml.dll that can't be included in the package for licensing reasons. Alternatively you can use older networks such as the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or the [last T60 384x30 network 611246](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04).
 
 ---
 
