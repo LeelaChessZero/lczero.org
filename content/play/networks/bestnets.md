@@ -6,7 +6,7 @@ wikiname: "Best-Nets-for-Lc0"
 ---
 ### Strongest Networks
 
-In general, for game analysis and long calculation time per move the largest network compatible with your hardware is recommended. In use cases with very low calculation time, computer self-play games or a slow GPU a smaller network might be a better choice. For CPU users the smallest network below is recommended.
+In general, for game analysis and long calculation time per move the largest network compatible with your hardware is recommended. In use cases with very low calculation time per move or a slow GPU a smaller network might be a better choice. For CPU users the smallest network below is recommended.
 
 | Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -16,7 +16,7 @@ In general, for game analysis and long calculation time per move the largest net
 | Small | CPU | 192 | 15 | - | 15-20 MB | [Last T79 192x15 network: 792013](http://training.lczero.org/get_network?sha=195b450999e874d07aea2c09fd0db5eff9d4441ec1ad5a60a140fe8ea94c4f3a) (Right-click → "Save link as...") |
 | Very Small | Sparring vs. Humans | ≤128 | ≤10 | - | ≤10 MB | see below |
 
-T1 networks are contributed by masterkni6, the larger 768x15 network has a very similar network architecture to official T80 networks in current Training Run1.
+T1 networks are contributed by masterkni6. The larger 768x15 network linked above is comparable in architecture with networks in current training run1.
 
 If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength. With the cuDNN backend you can also try `--backend-opts=custom_winograd=false` or as a UCI option: `BackendOptions: custom_winograd=false`.
 
