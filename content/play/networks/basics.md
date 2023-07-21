@@ -85,13 +85,3 @@ Odd numbered runs (test71, test58, etc) use much smaller network size (usually 1
 ### Contrib runs
 
 Example of a contrib run is [sv networks](https://www.comp.nus.edu.sg/~sergio-v/t40/384x30/), which is trained from test40 training data.
-
-TODO(finish this)
-
-### Distilled networks
-
-TODO(write this)
-
-### External networks
-
-TODO(also write this)

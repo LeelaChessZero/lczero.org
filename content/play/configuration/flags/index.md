@@ -57,7 +57,7 @@ In this case, pass it as `ConfigFile` UCI parameter, or `--config` (`-c`) comman
 
 |UCI parameter| Command line flag | Default value | Description |
 |--|--|--|--|
-|**WeightsFile** | `-w`, `--weights`| `<autodiscover>` |Path from which to load network weights. Setting it to <autodiscover> makes it search in ./ and ./weights/ subdirectories for the latest (by file date) file which looks like weights.|
+|**WeightsFile** | `-w`, `--weights`| `<autodiscover>` |Path from which to load network weights. Setting it to `<autodiscover>` makes it search in ./ and ./weights/ subdirectories for the latest (by file date) file which looks like weights.|
 |**Backend** | `-b`, `--backend`| `cudnn-auto` |Neural network computational backend to use.|
 |**BackendOptions** | `-o`, `--backend-opts`||Parameters of neural network backend. Exact parameters differ per backend.|
 |**Threads** | `-t`, `--threads`| `2` |1..128 Number of (CPU) worker threads to use.|
