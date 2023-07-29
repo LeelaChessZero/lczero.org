@@ -20,7 +20,7 @@ Pick the row that matches your hardware from the following table:
 | Hardware | Backend |
 |----------|---------|
 | Newest (2018+) NVidia GPUs: RTX&nbsp;20xx, RTX&nbsp;30xx and so on (but not GTX&nbsp;16xx) | [CUDA](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cuda.zip) |
-| Newer (2014-2018) NVidia GPUs: GTX&nbsp;7xx, GTX&nbsp;8xx, GTX&nbsp;9xx, GTX&nbsp;10xx and also GTX&nbsp;16xx | [CUDNN](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cudnn.zip) |
+| Newer (2014-2018) NVidia GPUs: GTX&nbsp;650 to GTX&nbsp;16xx; GT&nbsp;640M to GT&nbsp;980M (excluding 670M, 675M, 705M, 710M, 800M, 820M)  | [CUDNN](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cudnn.zip) |
 | Other GPUs (requires a very recent DirectML dll, see the included `README` for instructions) | [onnx-dml](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-onnx-dml.zip) |
 | Computers without GPUs, but with modern CPUs | [DNNL BLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-dnnl.zip) |
 | Older CPUs | [OpenBLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-openblas.zip) |
