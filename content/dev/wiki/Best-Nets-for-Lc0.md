@@ -8,12 +8,12 @@ In general, for game analysis and long calculation time per move, the largest ne
 
 | Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Large | GPU | 768 | 15 (mish activation) | 2.4 GB | 160-170 MB | [T1-768x15x24h-swa-4000000](https://storage.lczero.org/files/networks-contrib/t1-768x15x24h-swa-4000000.pb.gz) (Right-click → "Save link as...") |
+| Large | GPU | 768 | 15 (mish activation) | 2.4 GB | 160-170 MB | [T2-768x15x24h-swa-5230000](https://storage.lczero.org/files/networks-contrib/t2-768x15x24h-swa-5230000.pb.gz) (Right-click → "Save link as...") |
 | Medium | GPU/CPU | 512 | 15 (mish activation) | 1.8 GB | 140-150 MB | [T1-512x15x8h-distilled-swa-3395000](https://storage.lczero.org/files/networks-contrib/t1-512x15x8h-distilled-swa-3395000.pb.gz) (Right-click → "Save link as...") |
 | Small | GPU/CPU | 256 | 10 (mish activation) | 1.6 GB | 30-40 MB | [T1-256x10-distilled-swa-2432500](https://storage.lczero.org/files/networks-contrib/t1-256x10-distilled-swa-2432500.pb.gz) (Right-click → "Save link as...") |
 | Very Small | Sparring vs. Humans | ≤128 | ≤10 | - | ≤10 MB | see below |
 
-T1 networks above are contributed by masterkni6. The larger 768x15 network is comparable in architecture with networks in current training run1.
+T1/T2 networks above are contributed by masterkni6. The larger 768x15 network is comparable in architecture with networks in current training run1.
 
 If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength. With the cuDNN backend you can also try `--backend-opts=custom_winograd=false` or as a UCI option: `BackendOptions: custom_winograd=false`.
 
