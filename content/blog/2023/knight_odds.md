@@ -26,7 +26,7 @@ The bot can also be challenged through the lichess [featured bots](https://liche
 
 #### How strong do I have to be to challenge LeelaKnightOdds?
 
-While the bot won’t reject challenges from players based on their rating, the primary target group are players rated above 2400 in blitz or rapid, and is estimated to perform around 2600 in 5’+3” games. Don’t hesitate though to give it a few tries even if you are lower rated, at worst you’ll get some first-hand experience of being fawned by Leela :smiley:. Generally, longer time controls should feel a bit easier.
+While the bot won’t reject challenges from players based on their rating, the primary target group are players rated above 2400 in blitz or rapid, and is estimated to perform around 2600 in 5’+3” games. Don’t hesitate though to give it a few tries even if you are lower rated, at worst you’ll get some first-hand experience of being fawned by Leela &#x1f600;. Generally, longer time controls should feel a bit easier.
 
 
 #### Technical details
