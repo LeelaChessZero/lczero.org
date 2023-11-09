@@ -31,15 +31,15 @@ While the bot won’t reject challenges from players based on their rating, the 
 
 #### Technical details
 
-LeelaKnightOdds is using a T81 net on a mobile RTX 4090 at around 25knps with Lc0 v0.30. The emulated strengths in search are 2800 (white) and 3300 (black). During the first 10 moves, there is some amount of randomization to avoid repeating the same opening.
+LeelaKnightOdds is using a T81 net on a mobile RTX 4090 at around 25knps with Lc0 v0.30. The emulated strengths in search are 2800 (you) and 3300 (Leela). During the first 6 moves, there is some amount of randomization to avoid repeating the same opening.
 
 We also configured the time management in a way that Leela plays relatively quickly, especially for obvious moves, and never spends too much time on single moves.
 
 The relevant settings are the following, where some require the Lc0 pro version [^1]
 ```
-	Temperature: 0.5
-	TempValueCutoff: 2
-	TempCutoffMove: 10
+	Temperature: 2.0
+	TempValueCutoff: 2.0
+	TempDecayMoves: 6
 	MovesLeftThreshold: 0.95
 	Contempt: 500
 	ContemptMaxValue: 1000
