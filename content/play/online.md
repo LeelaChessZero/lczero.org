@@ -8,3 +8,4 @@ You can find them in the respective [lichess team](https://lichess.org/team/all-
 The ones that are almost always online are [Lc0Test](https://lichess.org/@/Lc0Test), [leela2200](https://lichess.org/@/leela2200) or [MiniHuman](https://lichess.org/@/MiniHuman). 
 There is also an official Leela bot called [LeelaChess](https://lichess.org/@/LeelaChess), but most of the time it's offline.  
 The [Maia](https://maiachess.com/) bots run on lc0 networks as well, you can play them on [lichess](https://lichess.org/player/bots).
+A new knight odds bot called [LeelaKnightOdds](https://lichess.org/@/LeelaKnightOdds) is now accepting challenges on lichess. Discover more about the bot and learn how to challenge it by visiting [this link](https://lczero.org/blog/2023/11/play-with-knight-odds-against-lc0-on-lichess/).
