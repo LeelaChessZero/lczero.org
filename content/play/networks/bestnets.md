@@ -21,6 +21,18 @@ Note for DirectX12 and OpenCL backend users: The format of the networks in the l
 
 ---
 
+### Newer nets
+
+We also have some recent networks that are stronger at long time controls but are not supported by the current release of Lc0. These networks are very large and are intended for high-end hardware. Code that supports these can be found [here](https://github.com/Ergodice/lc0/).
+
+| Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Very Large | GPU | 1024 | 15 (mish activation) | 4 GB | 330 MB | [BT4-1024x15x32h-swa-5757500](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1024x15x32h-swa-5757500.pb.gz) (Right-click → "Save link as...") |
+| Large | GPU | 768| 15 (mish activation) | 2.6 GB | 190 MB | [BT3-768x15x24h-swa-2790000](https://storage.lczero.org/files/networks-contrib/BT3-768x15x24h-swa-2790000.pb.gz) (Right-click → "Save link as...") |
+
+---
+
+
 ### Network Lists
 
 Listed for completeness, includes networks from older training runs. Some download links might be outdated.
