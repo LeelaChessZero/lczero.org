@@ -18,6 +18,16 @@ T1/T2 networks above are contributed by masterkni6. The larger 768x15 network is
 If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength. With the cuDNN backend you can also try `--backend-opts=custom_winograd=false` or as a UCI option: `BackendOptions: custom_winograd=false`.
 
 Note for DirectX12 and OpenCL backend users: The format of the networks in the list above is not supported. However, you can download and use the LC0 ONNX-DML version instead, see the included README file for instructions on how to get the directml.dll that can't be included in the package for licensing reasons. Alternatively you can use older networks such as the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or the [last T60 384x30 network 611246](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04).
+---
+
+### Newer nets
+
+We also have some recent networks that are stronger at long time controls but are not supported by the current release of Lc0. These networks are very large and are intended for high-end hardware. Code that supports these can be found [here](https://github.com/Ergodice/lc0/).
+
+| Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Very Large | GPU | 1024 | 15 (mish activation) | 4 GB | 330 MB | [BT4-1024x15x32h-swa-5757500](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1024x15x32h-swa-5757500.pb.gz) (Right-click → "Save link as...") |
+| Large | GPU | 768| 15 (mish activation) | 2.6 GB | 190 MB | [BT3-768x15x24h-swa-2790000](https://storage.lczero.org/files/networks-contrib/BT3-768x15x24h-swa-2790000.pb.gz) (Right-click → "Save link as...") |
 
 ---
 
