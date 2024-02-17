@@ -78,11 +78,11 @@ Here is a short summary of our timeline of progress. BT1 was our first transform
 
 | Network      | Params (M) | FLOPS (G) | Policy Elo | Date |
 |--------------|------------|-----------|--------| -|
-|T78 | 194.5 | 12.45 | +0 | 12/2021 |
-|BT1 | 92 | 5.637 | +13 | 8/2022 |
-|BT2 | 82 | 3.964 | +123 | 3/2023 |
-|BT3 | 105.5 | 4.158 | +179 | 10/2023 |
-|BT4 | 191.3 | 7.613 | +270 | 2/2024 |
+|T78 | 194.5 | 12.45 | &emsp;&ensp;0 | 12/2021 |
+|BT1 | &ensp;92 | &ensp;5.637 | &ensp;+13 | &ensp;8/2022 |
+|BT2 | &ensp;82 | &ensp;3.964 | +123 | &ensp;3/2023 |
+|BT3 | 105.5 | &ensp;4.158 | +179 | 10/2023 |
+|BT4 | 191.3 | &ensp;7.613 | +270 | &ensp;2/2024 |
 
 |  | BT1      | BT2  | BT3 | BT4 |
 |--------------|------------|-----------|--------|-|
@@ -90,7 +90,7 @@ Here is a short summary of our timeline of progress. BT1 was our first transform
 |Embedding size| 1024 | 768 | 768 | 1024 |
 |FFN size| 1536| 1024|1024|1536|
 |Head count| 8| 12| 24| 32|
-|Smolgen| &cross;| &check;| &check;| &check;| 
+|Smolgen| &cross;| &check;| &check;| &check;|
 |New embedding| &cross;|&cross;| &check;| &check;|
 
 ![flops](./imgs/flops.png)
