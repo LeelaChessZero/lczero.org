@@ -25,7 +25,7 @@ To gauge the effectiveness of our models, we employed a metric called "puzzle ac
 
 #### Comparison 1 – value network
 
-We created a comparison chart that evaluates the value network of various Lc0 networks, AlphaZero, and the latest 270M-parameter network from DeepMind.
+We created a comparison chart that evaluates the value network of various Lc0 networks, AlphaZero, and the latest 270M-parameter network from DeepMind. The data are presented in descending order for the 2600-2800 value puzzle accuracy and the blue boxes indicate the results from the DeepMind paper.
 
 ![](value_head_tests.png)
 
@@ -33,11 +33,11 @@ As you can see from the chart, the latest Lc0 networks are significantly stronge
 
 #### Comparison 2 – policy network
 
-We finally created a comparison chart that evaluates the policy network accuracy of the same networks. We kept the value network test of DeepMind’s networks in this comparison chart for convenience – they are not strictly comparable. In general, a puzzle test performance based on value is typically about 150 Elo stronger than a policy test (but quite a bit slower).
+We finally created a comparison chart that evaluates the policy network accuracy of the same networks. We kept the value network test of DeepMind’s networks in this comparison chart for convenience – they are not strictly comparable. In general, a puzzle test performance based on value is typically about 150 Elo stronger than a policy test (but quite a bit slower). The data are presented in the same order as the previous figure, with the blue boxes again indicating the results from the DeepMind paper.
 
 ![](policy_head_tests.png)
 
-As you can see from the chart, the latest BT4 network[^2] is stronger in policy accuracy than the best transformer network from DeepMind is in value accuracy. The improvement in accuracy with the latest transformer networks has been steadily improving with the size of the model.
+As you can see from the chart, the latest BT4 network[^2] is stronger in policy puzzle accuracy than the best transformer network from DeepMind is in value puzzle accuracy. The improvement in accuracy with the latest transformer networks has been steadily improving with the size of the model.
 
 [^1]: EngineBattle is a chess GUI/tool with added Lc0 features that is under development by one of the members of our community and will be released as open source in the near future.
 
