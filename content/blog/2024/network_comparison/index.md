@@ -1,7 +1,7 @@
 ---
 title: "How well do Lc0 networks compare to the greatest transformer network from DeepMind?"
 author: "lepned"
-published: 2024-02-15
+published: 2024-02-21
 ---
 
 To explore the performance of Lc0 networks relative to DeepMind's state-of-the-art transformer networks, we embarked on a comparative analysis, inspired by the methodologies detailed in DeepMind's [latest publication](https://arxiv.org/abs/2402.04494). Our objective was to closely align our testing approach for Lc0 networks with the evaluation framework applied by DeepMind, allowing for a direct comparison of results.
