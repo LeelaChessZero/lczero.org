@@ -33,11 +33,11 @@ As you can see from the chart, the latest Lc0 networks are significantly stronge
 
 #### Comparison 2 – policy network
 
-We finally created a comparison chart that evaluates the policy network accuracy of the same networks. We kept the value network test of DeepMind’s networks in this comparison chart for convenience – they are not strictly comparable. In general, a puzzle test performance based on value is typically about 150 Elo stronger than a policy test (but quite a bit slower). The data are presented in the same order as the previous figure, with the blue boxes again indicating the results from the DeepMind paper.
+We finally created a comparison chart that evaluates the policy puzzle accuracy of the same networks. We kept the value network test of DeepMind’s networks in this comparison chart for convenience – they are not strictly comparable. In general, the puzzle test performance based on value is typically about 150 Elo stronger than a policy test (but quite a bit slower). The data are presented in the same order as the previous figure, with the blue boxes again indicating the results from the DeepMind paper.
 
 ![](policy_head_tests.png)
 
-As you can see from the chart, the latest BT4 network[^2] is stronger in policy puzzle accuracy than the best transformer network from DeepMind is in value puzzle accuracy. The improvement in accuracy with the latest transformer networks has been steadily improving with the size of the model. Moreover, while T2 and T80 share the same architecture, reinforcement learning has considerably improved the policy puzzle accuracy of T80 in the hardest puzzles.
+As you can see from the chart, the latest BT4 network[^2] has higher policy puzzle accuracy than the best transformer network from DeepMind has value puzzle accuracy. The puzzle accuracy with the latest transformer networks has been steadily improving with the size of the model. Moreover, while T2 and T80 share the same architecture, reinforcement learning has considerably improved the policy puzzle accuracy of T80 in the hardest puzzles.
 
 [^1]: EngineBattle is a chess GUI/tool with added Lc0 features that is under development by one of the members of our community and will be released as open source in the near future.
 
