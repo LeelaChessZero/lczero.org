@@ -37,7 +37,7 @@ We finally created a comparison chart that evaluates the policy network accuracy
 
 ![](policy_head_tests.png)
 
-As you can see from the chart, the latest BT4 network[^2] is stronger in policy puzzle accuracy than the best transformer network from DeepMind is in value puzzle accuracy. The improvement in accuracy with the latest transformer networks has been steadily improving with the size of the model.
+As you can see from the chart, the latest BT4 network[^2] is stronger in policy puzzle accuracy than the best transformer network from DeepMind is in value puzzle accuracy. The improvement in accuracy with the latest transformer networks has been steadily improving with the size of the model. Moreover, while T2 and T80 share the same architecture, reinforcement learning has considerably improved the policy puzzle accuracy of T80 in the hardest puzzles.
 
 [^1]: EngineBattle is a chess GUI/tool with added Lc0 features that is under development by one of the members of our community and will be released as open source in the near future.
 
