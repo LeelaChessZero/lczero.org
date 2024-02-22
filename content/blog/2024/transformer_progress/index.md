@@ -1,7 +1,7 @@
 ---
 title: "Transformer Progress"
 author: "Daniel Monroe"
-published: 2024-02-16
+published: 2024-02-22
 ---
 
 
@@ -13,9 +13,9 @@ Recently, the [transformer architecture](https://arxiv.org/abs/1706.03762) has d
 
 
 #### Our work
-Leela’s nets have historically struggled with long-range dependencies, failing to recognize positional and tactical ideas involving squares that are far away from each other, such as multiloaded pieces. This was because Leela’s networks used a convolution-based architecture, like those of the DeepMind AlphaZero project on which Lc0 is based. Effectively, each square iteratively analyzes the information at each adjacent square and uses that information to refine its representation. The main drawback of this approach is the small receptive fields of the convolution filters. For the a1 square to “learn” about what piece is on h8, the information must make at least 7 trips from square to square.
+Leela’s nets have historically struggled with long-range dependencies, failing to recognize positional and tactical ideas involving squares that are far away from each other, such as multiloaded pieces. This was because Leela’s models used a convolution-based architecture, like those of the DeepMind AlphaZero project on which Lc0 is based. Effectively, each square iteratively analyzes the information at each adjacent square and uses that information to refine its representation. The main drawback of this approach is the small receptive fields of the convolution filters. For the a1 square to “learn” about what piece is on h8, the information must make at least 7 trips from square to square.
 
-Our strongest transformer model, BT4, is nearly 300 elo stronger in terms of raw policy than our strongest convolution-based model, T78, with fewer parameters and less computation. We've tested dozens of modifications and ablations to get our transformer architecture to where it is today.
+Our strongest transformer model, BT4, is nearly 300 elo stronger in terms of raw policy than our strongest convolution-based model, T78, with fewer parameters and less computation. We've tested dozens of modifications to get our transformer architecture to where it is today.
 
 
 All of our experiments used a Post-LayerNorm encoder-only architecture with [DeepNet](https://arxiv.org/abs/2203.00555). Our models use 64 tokens, one for each square. The order of the tokens is flipped with the side to move, and we use mish nonlinearities in the FFN layers. Embeddings are formed as a linear projections of an input consisting of:
@@ -42,28 +42,28 @@ To accomplish 1., we apply a linear projection to the tokens to form 64 vectors 
 
 #### Other improvements
 
-Another unique aspect of transformers in chess is that they don’t seem to benefit from large FFN sizes. We found very little performance gain from increasing the expansion ratio from 1&times; to the ratio of 4&times;, typically used in vision and NLP. We also found that our models do best with small head depths. With smolgen enabled, we found improvement up to a head depth of 8. This may be because there are so few tokens relative to other domains. Despite this, BT3 and BT4 use heads of depth 32 since self-attention can be an expensive operation with enough heads.
+Another unique aspect of transformers in chess is that they don’t seem to benefit from large FFN sizes. We found very little performance gain from increasing the expansion ratio from 1&times; to the ratio of 4&times; typically used in vision and NLP. We also found that our models do best with small head depths. With smolgen enabled, we found improvement up to a head depth of 8. This may be because there are so few tokens relative to other domains. Despite this, BT3 and BT4 use heads of depth 32 since self-attention can be an expensive operation with enough heads.
 
 Our last enhancement was a minor upgrade to the embedding. Qualitative analysis of the attention maps in the first attention layer suggested that it was not doing much. To address this, before the token embedding we flatten the 12&times;64 board representation (64 one-hot vectors of length 12 corresponding to which piece is at each square) and for each square apply a linear projection to C channels, which we concatenate to the input before the token embedding. We also add an FFN layer after the embedding so the model can make use of this information. The goal is to allow the model to encode the entire board state from the beginning. While parameter inefficient, this new embedding lets the model play as if 15% larger with a 5% latency increase.
 
 Another change which should speed up inference is omitting biases in the QKV projection and omitting centering and biasing in normalization layers, except those in smolgen. This will make training 10% faster and inference 5% faster without quality degradiation, but will only be introduced in BT5.
 
-These enhancements to the architecture have vastly improved Leela’s playing strength. The raw policy of BT4 is 270 Elo stronger than that of T78, our strongest convolution-based network, with fewer parameters and computations. We’ve also closed much of the performance gap with Stockfish. At the TCEC Superfinal [Season 23](https://tcec-chess.com/#div=sf&game=1&season=23) Leela lost 19 game pairs and only won 2, while in Seasons [24](https://tcec-chess.com/#div=sf&game=1&season=24) and [25](https://tcec-chess.com/#div=sf&game=1&season=25) she lost 9 and won 5.
+These enhancements to the architecture have vastly improved Leela’s playing strength. The raw policy of BT4 is 270 Elo stronger than that of T78, our strongest convolution-based model, with fewer parameters and computations. We’ve also closed much of the performance gap with Stockfish. At the TCEC Superfinal [Season 23](https://tcec-chess.com/#div=sf&game=1&season=23) Leela lost 19 game pairs and only won 2, while in Seasons [24](https://tcec-chess.com/#div=sf&game=1&season=24) and [25](https://tcec-chess.com/#div=sf&game=1&season=25) she lost 9 and won 5.
 
 #### Attention Maps
 
 As discussed above, smolgen allows chess transformers to utilize self-attention much more effectively. We can gain insight into how the enhanced self-attention layers work by looking directly at the attention maps. We visualized the attention maps of BT4 using j33's excellent [visualization tool](https://github.com/Ergodice/lc0-attention-visualizer/). The highlighted square is the one producing the queries, i.e., receiving signal, and the other squares are colored based on the strength of the signal traveling from that square to the querying square.
 
-![Layer 4 Head 2](./imgs/4-1.png)
-![Layer 4 Head 31](./imgs/4-2.png)
-![Layer 5 Head 5](./imgs/5-1.png)
-![Layer 13 Head 2](./imgs/13-1.png)
+![Layer 4 Head 2](./imgs/attmaps/4-1.png)
+![Layer 4 Head 31](./imgs/attmaps/4-2.png)
+![Layer 5 Head 5](./imgs/attmaps/5-1.png)
+![Layer 13 Head 2](./imgs/attmaps/13-1.png)
 
 The attention maps above are from heads in layers 4, 4, 5, and 13, respectively. The fourth attention map is particularly interesting because it detects which of the opponent's pieces can move to a square. The model learns this from scratch just from the gradient signal; the only human intervention is in the architecture choice. The model isn't perfect though! Here is an attention map taken from a head in layer 10:
 
-![Layer 10 Head 4](./imgs/10-4.png)
+![Layer 10 Head 4](./imgs/attmaps/10-4.png)
 
-This head also looks at which of the opponent's pieces can move to a square, but in this case network seems to mistakenly think the knight on d4 can move to f6! This may be a consequence of the way this head functions. We believe it relies on a heuristic, attending to squares which
+This head also looks at which of the opponent's pieces can move to a square, but in this case the model seems to mistakenly think the knight on d4 can move to f6! This may be a consequence of the way this head functions. We believe it relies on a heuristic, attending to squares which
 
 * Are a knight's, rook's, or bishop's move away
 * Have a piece type which the token at the querying square knows can move there
@@ -74,11 +74,11 @@ We've also noticed a strange tendency for squares in later layers to consistentl
 
 #### Model Progress
 
-Here is a short summary of our timeline of progress. BT1 was our first transformer network, performing roughly on par with T78. BT2 improved on BT1 by adding smolgen and increasing head count. BT3 further improved on BT2 by increasing head count again and adding the new embedding layer. BT4 built on BT3 by doubling model size to push our architecture to the limit. In the figures below, "params" refers to the parameter count of a model and "FLOPS" refers to the number of floating point operations it uses per single position. 270M is a transformer model trained recently on chess fens and without domain-specific improvements [by DeepMind](https://arxiv.org/abs/2402.04494). Policy elo for that model is estimated based on performance in chess puzzles.
+Here is a short summary of our timeline of progress. BT1 was our first transformer model, performing roughly on par with T78. BT2 improved on BT1 by adding smolgen and increasing head count. BT3 further improved on BT2 by increasing head count again and adding the new embedding layer. BT4 built on BT3 by doubling model size to push our architecture to the limit. In the figures below, "params" refers to the parameter count of a model and "FLOPS" refers to the number of floating point operations it uses per single position. 270M is a transformer model trained recently on chess fens and without domain-specific improvements [by DeepMind](https://arxiv.org/abs/2402.04494). Policy elo for that model is estimated based on performance in chess puzzles.
 
-| Network      | Params (M) | FLOPS (G) | Policy Elo | Date |
+| model      | Params (M) | FLOPS (G) | Policy Elo | Date |
 |--------------|------------|-----------|--------| -|
-|T78 | 194.5 | 12.45 | &emsp;&ensp;0 | 12/2021 |
+|T78 | 194.5 | 12.45 | &emsp;&ensp;- | 12/2021 |
 |BT1 | &ensp;92 | &ensp;5.637 | &ensp;+13 | &ensp;8/2022 |
 |BT2 | &ensp;82 | &ensp;3.964 | +123 | &ensp;3/2023 |
 |BT3 | 105.5 | &ensp;4.158 | +179 | 10/2023 |
@@ -102,6 +102,22 @@ A lot of techniques which have been successful in other domains did not bear fru
 
 As always, Lc0 is based on contributions from volunteers who want to push forward the state of the art in computer chess. If you have any insight or ideas to share, we are happy to speak in our [Discord chat](https://discord.gg/pKujYxD).
 
+#### Architecture Diagrams
+
+A big thank you to Almaudoh for designing these!
+
+![full](./imgs/arch/full.webp)
+![mha](./imgs/arch/mha.webp)
+![sda](./imgs/arch/sda.webp)
+![smolgen](./imgs/arch/smolgen.webp)
+![embedding](./imgs/arch/embedding.webp)
+
+![policy](./imgs/arch/policy.webp)
+
+![valuehead](./imgs/arch/valuehead.webp)
+![mlh](./imgs/arch/mlh.webp)
+
+
 
 #### Layer 12 Heads
-![Layer 12](./imgs/12.png)
+![Layer 12](./imgs/attmaps/12.png)
