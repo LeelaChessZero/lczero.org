@@ -27,7 +27,7 @@ We also have some recent networks that are stronger at long time controls but ar
 
 | Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Very Large | GPU | 1024 | 15 (mish activation) | 4 GB | 330 MB | [BT4-1024x15x32h-swa-5757500](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1024x15x32h-swa-5757500.pb.gz) (Right-click → "Save link as...") |
+| Very Large | GPU | 1024 | 15 (mish activation) | 4 GB | 330 MB | [BT4-1024x15x32h-swa-6147500](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1024x15x32h-swa-6147500.pb.gz) (Right-click → "Save link as...") |
 | Large | GPU | 768| 15 (mish activation) | 2.6 GB | 190 MB | [BT3-768x15x24h-swa-2790000](https://storage.lczero.org/files/networks-contrib/BT3-768x15x24h-swa-2790000.pb.gz) (Right-click → "Save link as...") |
 
 ---
