@@ -78,7 +78,8 @@ Queen for the Knight on b1/b8:\
 ##### New: LeelaRookOdds:
 Rook odds:\
 [Without queenside rook - play as black](https://lichess.org/?user=LeelaRookOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NBQKBNR_w_Kkq#friend)\
-[Without kingside rook - play as black](https://lichess.org/?user=LeelaRookOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBN1_w_Qkq#friend)\
+[Without kingside rook - play as black](https://lichess.org/?user=LeelaRookOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBN1_w_Qkq#friend)
+
 Rook and move odds:\
 [Without queenside rook - play as white](https://lichess.org/?user=LeelaRookOdds&fen=1nbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQk#friend)\
 [Without kingside rook - play as white](https://lichess.org/?user=LeelaRookOdds&fen=rnbqkbn1/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQq#friend)
