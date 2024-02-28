@@ -46,6 +46,10 @@ The next step will most likely be to fill in the gaps with Rook odds (in between
 
 If you want to learn more about piece odds in chess, you might be interested in an upcoming article about the topic by GM Larry Kaufman in the “New In Chess” magazine, whose assessment of the quality of play and analysis of performance were a big contribution to improving the level of the bots and making them possible in the first place.
 
+#### Update 2024-02-29: LeelaRookOdds added to the Leela piece odds family of lichess bots
+
+We now added LeelaRookOdds to fill in the gap between knight odds and queen for knight odds. The expected rapid performance should be around 2650 when Leela plays white and 2500 as black (lichess ratings), so between 2300 and 2500 FIDE.
+
 #### Quality of life update: direct challenge links on Lichess
 
 Thanks to [zamfofex](https://github.com/lichess-org/lila/pull/14511), we are now able to provide direct challenge links for the different bots, so you don’t have to copy the FEN any more from the bot descriptions.
@@ -69,6 +73,15 @@ Queen for the Knight on b1/b8:\
 ##### LeelaQueenOdds:
 [Play as black](https://lichess.org/?user=LeelaQueenOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNB1KBNR_w_KQkq#friend)\
 [Play as white](https://lichess.org/?user=LeelaQueenOdds&fen=rnb1kbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
+
+
+##### New: LeelaRookOdds:
+Rook odds:\
+[Without queenside rook - play as black](https://lichess.org/?user=LeelaRookOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NBQKBNR_w_Kkq#friend)\
+[Without kingside rook - play as black](https://lichess.org/?user=LeelaRookOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBN1_w_Qkq#friend)\
+Rook and move odds:\
+[Without queenside rook - play as white](https://lichess.org/?user=LeelaRookOdds&fen=1nbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQk#friend)\
+[Without kingside rook - play as white](https://lichess.org/?user=LeelaRookOdds&fen=rnbqkbn1/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQq#friend)
 
 If you accidentally select the wrong color (or try to play from an unsupported position), there will be a generic error message that the bot currently isn’t accepting challenges. Similarly, the Lichess rematch feature automatically switches colors, thus rematch offers will always be declined.
 
