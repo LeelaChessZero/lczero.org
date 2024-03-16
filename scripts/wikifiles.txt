@@ -47,5 +47,6 @@ Ubuntu-16.04-MKL-Instructions
 What-is-Lc0?
 What-is-Lc0?-(for-non-programmers)
 Why-Zero
+XLA-backend
 android
 networks
