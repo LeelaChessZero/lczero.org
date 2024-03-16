@@ -11,7 +11,7 @@ The C API that OpenXLA implements is called PjRT, and the Lc0 XLA backend runs N
 * On NVidia devices, it runs NN at speeds comparable to the handwritten cuda/cudnn backend (and sometimes faster).
 * Only requires ONNX as input (either external, or converted by the Lc0 ONNX converter), meaning it can run NNs for which other backends are no written yet.
 * Optimizes for particular GPU (will produce different code for A100 vs H100, and for different memory sizes)
-* Supports running on TPUs*
+* Supports running on TPUs
 * Supports multiGPU / multihost setups for huge nets (not sure if we ever need it)
 #### Cons
 * Painful to build
