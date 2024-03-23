@@ -28,6 +28,7 @@ wikiname: "Home"
     * [Ubuntu 16.04 MKL Instructions](https://github.com/LeelaChessZero/lc0/wiki/Ubuntu-16.04-MKL-Instructions)
     * [Google Cloud Guide (LC0)](https://github.com/LeelaChessZero/lc0/wiki/Google-Cloud-guide-(lc0))
     * [Building LC0 with Termux](https://github.com/LeelaChessZero/lc0/wiki/Building-lc0-with-Termux)
+    * [[XLA backend]]
   * Training Networks
     * [How to train your own LC0 Net - The Idiot's Guide for Windows 10](https://docs.google.com/document/d/1pB2MtqVVgYC2BwJbIrVvP2xWe5KIFFVteEqZroMf20E/edit)
     * [Neural Net Training](https://github.com/LeelaChessZero/lc0/wiki/Neural-Net-Training) 
