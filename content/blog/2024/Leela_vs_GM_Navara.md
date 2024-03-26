@@ -19,7 +19,7 @@ Our goals for the match are to:
 3. entertain the spectators with exciting and competitive games, and
 4. find ways we might improve the bot's play in the future. 
 
-For some context the most recent public knight odds matches were by Komodo against GM David Smerdon (April 2020) and Komodo Dragon against GM Ben Finegold (January 2022), both rated around 2400 FIDE Elo. The games were played at 15'+10" and both GMs won, Smerdon 5-1 and Finegold 4.5-1.5. Even though GM Navara is substantially stronger, we anticipate a competitive fight due to the faster time control and Leela's considerably stronger odds play.
+For some context the most recent public knight odds matches were by Komodo against GM David Smerdon (April 2020) and Komodo Dragon against GM Ben Finegold (January 2022). The games were played at 15'+10" and both GMs won, Smerdon 5-1 and Finegold 4.5-1.5. Even though GM Navara is substantially stronger, we anticipate a competitive fight due to the faster time control and Leela's considerably stronger odds play.
 
 #### About GM David Navara
 
