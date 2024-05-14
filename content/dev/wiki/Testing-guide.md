@@ -16,7 +16,7 @@ make
 
 2. Install `ordo`. Repository [here](https://github.com/michiguel/Ordo). `ordo` is a tool for computing elo ratings.
 
-3. Download a decently-sized opening book. If you play engine matches without an opening book, the engines will often play the same games over and over again, which is obviously problematic. If you force unique openings for each pair of games or round, you will get much better results. Chad's opening books [here](https://cdn.discordapp.com/attachments/429710776282906625/536596158018224139/openings.zip) are built from the most popular human openings and are decent for testing.
+3. Download a decently-sized opening book. If you play engine matches without an opening book, the engines will often play the same games over and over again, which is obviously problematic. If you force unique openings for each pair of games or round, you will get much better results. jhorthos's opening books [here](https://github.com/jhorthos/lczero-training/wiki/Opening-Books) are built from the most popular human openings and are decent for testing.
 
 4. Set up a `cutechess-cli` config file, which should be named `engines.json`. Here is a sample file with configurations for lc0 and stockfish:
 ```
