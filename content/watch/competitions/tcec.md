@@ -6,6 +6,50 @@ wikiname: "TCEC"
 ---
 TCEC (Top Chess Engine Championship) is a computer chess tournament organized and maintained by Chessdom at https://tcec-chess.com/. This page documents Leela configuration in each of the "seasons" of this tournament.
 
+# Season 26
+| Division     |   Executable       |   Network   |  Placement |   Result   |                                                                                                              
+| ------------ | ------------------ | ----------- | ---------- | ---------- | 
+| Superfinal   | v0.31-dag-5350a2e  | BT4-6147500 |     2/2    |  43.0/100  |
+| DivP         | v0.31-dag-5350a2e  | BT4-6147500 |     2/8    |  36.5/56   |
+
+### Superfinal Results:
+```
+   # ENGINE                                 :  RATING  ERROR  CFS(%)    W    D    L   GAMES  DRAWS(%)
+   1 Stockfish dev-20240513-e608eab8        :      49     49    97.5   31   52   17     100      52.0
+   2 LCZero 0.31-dag-5350a2e-BT4-6147500    :       0   ----     ---   17   52   31     100      52.0
+```
+Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1&season=26
+### LC0 hardware and settings (Superfinal):
+* Hardware: 2x A100-PCIE-40GB + 2x Xeon 6230R (52 cores/104 threads)
+* Parameter settings:
+  * MoveOverheadMs=1000
+  * StrictTiming=true
+  * Backend=demux
+  * BackendOptions=backend=cuda-fp16,(gpu=0,policy_head=optimistic,value_head=winner),(gpu=1,policy_head=optimistic,value_head=winner)
+  * MinibatchSize=160
+  * CPuct=2.897
+  * CPuctFactor=3.973
+  * CPuctBase=45669
+  * FpuValue=0.984
+  * PolicyTemperature=1.4
+  * UseUncertaintyWeighting=true
+  * UncertaintyWeightingCap=1.03
+  * UncertaintyWeightingCoefficient=0.13
+  * UncertaintyWeightingExponent=-1.76
+  * SmartPruningFactor=2.0
+  * SmartPruningMinimumBatches=300
+  * MovesLeftSlope=0.0027
+  * MovesLeftThreshold=0.8
+  * TimeManager=legacy(book-ply-bonus=0.4,first-move-bonus=3.5)
+  * Contempt=0
+  * WDLDrawRateReference=0.64
+  * WDLContemptAttenuation=0.55
+  * WDLEvalObjectivity=0
+  * WDLCalibrationElo=3600
+  * MoveRuleBucketing=true
+  * TaskWorkers=3
+  * RamLimitMb=94500
+
 # Season 25
 | Division     |   Executable       |   Network   |  Placement |   Result   |                                                                                                              
 | ------------ | ------------------ | ----------- | ---------- | ---------- | 
@@ -64,7 +108,7 @@ Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1
    2 LCZero 0.30-dag-a9b25c2b-BT2-3650000    :       0   ----     ---   16   64   20     100      64.0
 ```
 Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1&season=24
-### LC0 hardware and settings:
+### LC0 hardware and settings (Superfinal):
 * Hardware: 2x A100-PCIE-40GB + 2x Xeon 6230R (52 cores/104 threads)
 * Non-default parameter settings:
   * MoveOverheadMs=1000
@@ -106,7 +150,7 @@ Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1
    2 LCZero 0.30-dag-9a9c42d_784968    :       0   ----     ---   10   63   27     100      63.0
 ```
 Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1&season=23
-### LC0 hardware and settings:
+### LC0 hardware and settings (Superfinal):
 * Hardware: 2x A100-PCIE-40GB + 2x Xeon 6230R (52 cores/104 threads)
 * Non-default parameter settings:
   * MoveOverheadMs=1000
@@ -129,7 +173,7 @@ Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1
 | -------- | ------------- | ------------ | ---------- | --------- | 
 | DivP     |  v0.29-dev+   |     781561   |     3/8    |  34/56  |
 
-### LC0 hardware and settings:
+### LC0 hardware and settings (Superfinal):
 * Hardware: 2x A100-PCIE-40GB + 2x Xeon 6230R (52 cores/104 threads)
 * Non-default parameter settings:
   * MoveOverheadMs=1000
@@ -162,7 +206,7 @@ Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1
    2 LCZero 0.28-dev+_69626       :       0   ----     ---    7   74   19     100      74.0
 ```
 Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1&season=21
-### LC0 hardware and settings:
+### LC0 hardware and settings (Superfinal):
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
 * Non-default parameter settings:
   * MoveOverheadMs=1000
@@ -203,7 +247,7 @@ Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1
    2 LCZero 0.27.0d-Tilps-dje-magic_JH.94-100    :       0   ----     ---    8   78   14     100      78.0
 ```
 Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1&season=20
-### LC0 hardware and settings:
+### LC0 hardware and settings (Superfinal):
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
 * Non-default parameter settings:
   * MoveOverheadMs=1000
@@ -245,7 +289,7 @@ Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1
    2 LCZero v0.26.3-rc1_T60.SV.JH.92-190       :       0   ----     ---    9   73   18     100      73.0
 ```
 Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1&season=19
-### LC0 hardware and settings:
+### LC0 hardware and settings (Superfinal):
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
 * Non-default parameter settings:
   * MoveOverheadMs=1000
@@ -281,7 +325,7 @@ Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1
    2 LCZero v0.25.1-svjio-t60-3972-mlh    :       0   ----     ---   16   61   23     100      61.0
 ```
 Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1&season=18
-### LC0 hardware and settings:
+### LC0 hardware and settings (Superfinal):
 * Hardware: 4x V100 + Xeon 8163 CPU @ 2.50GHz, 32 vcores
 * Non-default parameter settings:
   * MoveOverheadMs=1000
@@ -315,7 +359,7 @@ Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1
    2 Stockfish 20200407DC        :     -18     38     ---   12   71   17     100      71.0
 ```
 Games and additional data on TCEC website: https://tcec-chess.com/#div=sf&game=1&season=17
-### LC0 hardware and settings:
+### LC0 hardware and settings (Superfinal):
 * Hardware: 4 x NVIDIA RTX 2080 ti + 2x Intel Xeon E5-2630V4 2.2 GHz (20 cores / 40 ht)
 * Non-default parameter settings:
   * MoveOverheadMs=1000
