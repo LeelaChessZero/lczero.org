@@ -4,37 +4,28 @@ weight: 800
 wikiname: "Best-Nets-for-Lc0"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-In general, for game analysis and long calculation time per move, the largest network compatible with your hardware is recommended. In use cases with very low calculation time per move or slow hardware, a smaller network might be a better choice.
+The networks below are our strongest available. In general, the largest network compatible with your hardware is recommended. To download, right click the corresponding link and select "Save link as..."
 
 | Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Large | GPU | 768 | 15 (mish activation) | 2.4 GB | 160-170 MB | [T82-768x15x24h-swa-7464000](https://storage.lczero.org/files/768x15x24h-t82-swa-7464000.pb.gz) (Right-click → "Save link as...") |
-| Medium | GPU/CPU | 512 | 15 (mish activation) | 1.8 GB | 140-150 MB | [T1-512x15x8h-distilled-swa-3395000](https://storage.lczero.org/files/networks-contrib/t1-512x15x8h-distilled-swa-3395000.pb.gz) (Right-click → "Save link as...") |
-| Small | GPU/CPU | 256 | 10 (mish activation) | 1.6 GB | 30-40 MB | [T1-256x10-distilled-swa-2432500](https://storage.lczero.org/files/networks-contrib/t1-256x10-distilled-swa-2432500.pb.gz) (Right-click → "Save link as...") |
+| Very Large | Large GPU | 1024 | 15 | 4 GB | 330 MB | [BT4-1024x15x32h-swa-6147500](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1024x15x32h-swa-6147500.pb.gz) |
+| Large | GPU | 768| 15 | 2.6 GB | 190 MB | [BT3-768x15x24h-swa-2790000](https://storage.lczero.org/files/networks-contrib/BT3-768x15x24h-swa-2790000.pb.gz) |
+| Large | GPU | 768 | 15 | 2.4 GB | 160-170 MB | [T82-768x15x24h-swa-7464000](https://storage.lczero.org/files/768x15x24h-t82-swa-7464000.pb.gz)  |
+| Medium | GPU/CPU | 512 | 15 | 1.8 GB | 140-150 MB | [T1-512x15x8h-distilled-swa-3395000](https://storage.lczero.org/files/networks-contrib/t1-512x15x8h-distilled-swa-3395000.pb.gz) |
+| Small | GPU/CPU | 256 | 10 | 1.6 GB | 30-40 MB | [T1-256x10-distilled-swa-2432500](https://storage.lczero.org/files/networks-contrib/t1-256x10-distilled-swa-2432500.pb.gz)  |
 | Very Small | Sparring vs. Humans | ≤128 | ≤10 | - | ≤10 MB | see below |
 
-T1/T2/T82 networks above are contributed by masterkni6. The larger 768x15 network is comparable in architecture with networks in current training run1.
 
-If you're getting `out of memory` errors when using large networks on GPU, pick the next best network in the list or try adding `--backend-opts=max_batch=256` to LC0 command (or UCI option: `BackendOptions: max_batch=256`), default: 1024. This will reduce GPU memory usage without any negative impact on playing strength. With the cuDNN backend you can also try `--backend-opts=custom_winograd=false` or as a UCI option: `BackendOptions: custom_winograd=false`.
+If you're getting `out of memory` errors when using large networks on GPU, you can tell the engine to process positions in smaller chunks by adding `--minibatch-size=16` to the lc0 command or config file. Alternatively, you can switch to a smaller network.
 
-Note for DirectX12 and OpenCL backend users: The format of the networks in the list above is not supported. However, you can download and use the LC0 ONNX-DML version instead, see the included README file for instructions on how to get the directml.dll that can't be included in the package for licensing reasons. Alternatively you can use older networks such as the [last T78 512x40 network 782344](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) or the [last T60 384x30 network 611246](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04).
-
----
-
-### Newer nets
-
-We also have some recent networks that are stronger at long time controls but are not supported by the current release of Lc0. These networks are very large and are intended for high-end hardware. Code that supports these can be found [here](https://github.com/Ergodice/lc0/).
-
-| Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Very Large | GPU | 1024 | 15 (mish activation) | 4 GB | 330 MB | [BT4-1024x15x32h-swa-6147500](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1024x15x32h-swa-6147500.pb.gz) (Right-click → "Save link as...") |
-| Large | GPU | 768| 15 (mish activation) | 2.6 GB | 190 MB | [BT3-768x15x24h-swa-2790000](https://storage.lczero.org/files/networks-contrib/BT3-768x15x24h-swa-2790000.pb.gz) (Right-click → "Save link as...") |
+Note for DirectX12 and OpenCL backend users: The format of the networks in the list above is not supported. However, you can download and use the LC0 ONNX-DML version instead, see the included README file for instructions on how to get the directml.dll that can't be included in the package for licensing reasons, or use one of the legacy nets listed below.
 
 ---
 
-### Network Lists
 
-Listed for completeness, includes networks from older training runs. Some download links might be outdated.
+### Legacy Nets
+
+This section includes networks from older training runs. The strongest among these are [T78](http://training.lczero.org/get_network?sha=d0ed346c32fbcc9eb2f0bc7e957d188c8ae428ee3ef7291fd5aa045fc6ef4ded) and [T60](http://training.lczero.org/get_network?sha=7ca2381cfeac5c280f304e7027ffbea1b7d87474672e5d6fb16d5cd881640e04). Some download links might be outdated.
 
 In each section, the nets are listed roughly in descending order of strength. Some may be too close to tell apart.
 
