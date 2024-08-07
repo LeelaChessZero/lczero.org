@@ -20,7 +20,9 @@ Lc0-for-32-bit-windows
 Lc0-options
 Leela-Chess-Zero-Wiki
 Leela-Self-play-in-Docker
+Main
 Missing-Shallow-Tactics
+Networks
 Neural-Net-Training
 Overview
 Project-History
