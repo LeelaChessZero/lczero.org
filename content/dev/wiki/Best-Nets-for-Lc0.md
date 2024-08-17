@@ -16,7 +16,7 @@ The networks below are our strongest available. In general, the largest network 
 | Very Small | Sparring vs. Humans | ≤128 | ≤10 | - | ≤10 MB | see below |
 
 
-If you're getting `out of memory` errors when using large networks on GPU, you can tell the engine to process positions in smaller chunks by adding `--minibatch-size=16` to the lc0 command or config file. Alternatively, you can switch to a smaller network.
+If you're getting `out of memory` errors when using large networks on GPU, you can tell the engine to not reserve as much memory on the GPU with --backend-opts=max_batch=256 and to process positions in smaller chunks by adding `--minibatch-size=16` to the lc0 command or config file. Alternatively, you can switch to a smaller network.
 
 Note for DirectX12 and OpenCL backend users: The format of the networks in the list above is not supported. However, you can download and use the LC0 ONNX-DML version instead, see the included README file for instructions on how to get the directml.dll that can't be included in the package for licensing reasons, or use one of the legacy nets listed below.
 
