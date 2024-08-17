@@ -1,7 +1,7 @@
 ---
-title: "Actual networks"
+title: "Networks"
 weight: 800
-wikiname: "Best-Nets-for-Lc0"
+wikiname: "Networks"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
 The networks below are our strongest available. In general, the largest network compatible with your hardware is recommended. To download, right click the corresponding link and select "Save link as..."
