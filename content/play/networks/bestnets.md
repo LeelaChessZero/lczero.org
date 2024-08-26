@@ -12,6 +12,7 @@ The networks below are our strongest available, and the first listed (BT4-spsa-1
 | Very Large | Large GPU | 1024 | 15 | 4 GB | 330 MB | [BT4-1024x15x32h-swa-6147500](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1024x15x32h-swa-6147500.pb.gz) |
 | Large | GPU | 768| 15 | 2.6 GB | 190 MB | [BT3-768x15x24h-swa-2790000](https://storage.lczero.org/files/networks-contrib/BT3-768x15x24h-swa-2790000.pb.gz) |
 | Large | GPU | 768 | 15 | 2.4 GB | 160-170 MB | [T82-768x15x24h-swa-7464000](https://storage.lczero.org/files/768x15x24h-t82-swa-7464000.pb.gz)  |
+| Medium | GPU/CPU | 512 | 15 | 1.8 GB | 150-155 MB | [t3-512x15x16h-distill-swa-2767500](https://storage.lczero.org/files/networks-contrib/t3-512x15x16h-distill-swa-2767500.pb.gz) |
 | Medium | GPU/CPU | 512 | 15 | 1.8 GB | 140-150 MB | [T1-512x15x8h-distilled-swa-3395000](https://storage.lczero.org/files/networks-contrib/t1-512x15x8h-distilled-swa-3395000.pb.gz) |
 | Small | GPU/CPU | 256 | 10 | 1.6 GB | 30-40 MB | [T1-256x10-distilled-swa-2432500](https://storage.lczero.org/files/networks-contrib/t1-256x10-distilled-swa-2432500.pb.gz)  |
 | Very Small | Sparring vs. Humans | ≤128 | ≤10 | - | ≤10 MB | see below |
