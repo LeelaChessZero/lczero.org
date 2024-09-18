@@ -21,10 +21,11 @@ wikiname: "Running-a-benchmark"
 
 1. Open a terminal window
 
-2. Type in that window
-**lc0 benchmark**
+2. Type in that window **lc0 benchmark**
+
 Should you want to keep the output in a separate file use
-**lc0 benchmark 2>&1 >> <yourlogFileName>**
+
+**lc0 benchmark 2>&1 >> [yourlogFileName]**
 
 3. Note the version of Leela, NPS number from engine output (from the logfile if you sent the output into a logfile) and fill the form at https://lc0.org/benchmark-form to share the result with others.
 
