@@ -23,6 +23,13 @@ To build it, just add `-Dxla` parameter to `./build.sh`. There's no dependencies
 
 ### Using prebuilt one
 Most likely, you'll have to build it yourself, but you may try prebuilt XLA library in the [elixir-nx](https://github.com/elixir-nx/xla/releases) repository. They build entire XLA repository though, so the resulting `.so` file is ≈20% larger, and noone tested yet whether the function `GetPjrtApi()` is actually exported.
+
+Alternatively, you can use the prebuilt plugin that is shipped with Jax on CUDA-enabled versions.
+1. Enter a Python environment. e.g., `python3 -m virtualenv venv`; `source venv/bin/activate`.
+2. Install the Jax backend (PJRT) library `pip install jax-cuda12-pjrt` (cuda11 also available).
+3. Copy and rename file found in `venv/lib/python3.10/site-packages/jax_plugins/xla_cuda12/xla_cuda_plugin.so`. Note that you may need to adapt the path. You may rename the file to `pjrt_c_api_gpu_plugin.so`.
+4. As of writing, the symbol `GetPjrtApi` is confirmed to be exported, so you should be able to use this prebuilt library.
+
 ### Building it yourself
 1. Clone the openxla/xla repo:
 ```sh
