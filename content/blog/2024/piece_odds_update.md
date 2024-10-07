@@ -31,7 +31,7 @@ The settings have been changed several times since [the previous values]({{< rel
 	Contempt: 450
 	ContemptMaxValue: 2000
 	WDLCalibrationElo: 3300
-	WDLMaxReasonableS: 2.5
+	WDLMaxS: 2.5
 	WDLDrawRateReference: 0.65
 	WDLEvalObjectivity: 0.0
 ```
