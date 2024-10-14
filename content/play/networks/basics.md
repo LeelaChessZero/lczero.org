@@ -25,7 +25,7 @@ Network structure defines:
 
 Network structure is usually picked at the start of the [run]({{< ref "#what-are-runs" >}}), and it's usually impossible to switch in the middle.
 
-One of important characteristics of the network is it's size. It's defined in number of **blocks** and **filters**, which is sometimes referred to as **height** and **width** of the network. The size is often written as i.e. `10x128`, meaning 10 blocks and 128 filters.
+One of important characteristics of the network is its size. It's defined in number of **blocks** and **filters**, which is sometimes referred to as **height** and **width** of the network. The size is often written as i.e. `10x128`, meaning 10 blocks and 128 filters.
 
 The size in memory/weights file, and computational complexity, is proportional to the number of blocks and to the square of number of filters. For example, `24x320` network is **15** times larger than `10x128`:
 ```
@@ -37,11 +37,11 @@ The size in memory/weights file, and computational complexity, is proportional t
 Network needs millions of example chess games to learn.
 The games have to be both very high-level for a network to learn strong moves, and contain weaker moves so that the network learns to avoid them and know how to exploit them.
 
-The existing sets of games, like Tournament chess or Computer chess databases, may be enough to train the network to a reasonable level, but it has it's limits. This approach is called **supervised learning**.
+The existing sets of games, like Tournament chess or Computer chess databases, may be enough to train the network to a reasonable level, but it has its limits. This approach is called **supervised learning**.
 
 Another approach is to generate the training data yourself: train a network, use it to generate games, and then use those games to generate a next, stronger version of the network, then generate games using the updated network and so on. This is called **reinforcement learning**.
 
-The LCZero project uses **reinforcement learning** for it's [official runs]({{< ref "#official-runs" >}}), and then people from LCZero community try different training procedures on the same data using **supervised learning** approach and produce [contrib runs]({{< ref "#contrib-runs" >}}), which usually results in even stronger networks.
+The LCZero project uses **reinforcement learning** for its [official runs]({{< ref "#official-runs" >}}), and then people from LCZero community try different training procedures on the same data using **supervised learning** approach and produce [contrib runs]({{< ref "#contrib-runs" >}}), which usually results in even stronger networks.
 
 ### Training procedure
 
