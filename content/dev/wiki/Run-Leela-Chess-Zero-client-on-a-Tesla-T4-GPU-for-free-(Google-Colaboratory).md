@@ -4,6 +4,14 @@ weight: 500
 wikiname: "Run-Leela-Chess-Zero-client-on-a-Tesla-T4-GPU-for-free-(Google-Colaboratory)"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
+# !!!!!!!!!! WARNING !!!!!!!!!
+
+After abusing colab by some Lc0 clone projects, running a chess training on free tier of Colab is a [disallowed activity](https://research.google.com/colaboratory/faq.html#disallowed-activities) and is throttled/banned.
+
+Do not run the Lc0 training on Colab (at least in the free runtime).
+
+---
+
 [Google Colaboratory](https://colab.research.google.com) (Colab) is a free tool for machine learning research. It is a Python notebook running in a Virtual Machine using an NVIDIA Tesla K80, T4, V100 and A100 GPU (a graphics processors developed by the NVIDIA Corporation).
 
 Or, in dummy language, Colab is processing power located on Google servers - not on your local computer - and people who have a google account can use this in order to contribute training games for Leela. It is a service by Google.
