@@ -30,6 +30,7 @@ We shared these concerns with the ICGA along with our decision to withdraw. To o
 This is our final reply:
 
 > We are unsure why you forwarded us the responses from ShashChess. It is the responsibility of the WCCC organizers to determine if an engine complies with the rules and verify the truthfulness of the information provided by its developers.  
+> &nbsp;  
 > In our perspective, the WCCC did an unsatisfactory job in evaluating ShashChess's compliance with the participant rules. This undermines the competition's integrity. Therefore, we are not reconsidering our decision to withdraw from the competition.
 
 On a positive note, the extended preparation we did for WCCC will not be wasted. We're looking forward to sharing some insights into our strategies and tools we’ve developed for our entry.
