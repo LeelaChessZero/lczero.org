@@ -4,7 +4,7 @@ author: "Marcogio9"
 published: 2024-11-02
 ---
 
-For more than 20 years, human vs engine matches have become too one-sided to be interesting for spectators and players. This however isn't the case with odds, 
+For more than 20 years, human vs engine matches have become too one-sided to be interesting for spectators and players. This however isn't the case with odds. 
 <!--more-->
 
 #### A New Era for Odds Games: Specializing Lc0 for Piece Odds
@@ -15,7 +15,7 @@ In the initial stage, this dedicated network has been operating under the [Leela
 
 #### The Ultimate Test: Challenging Grandmasters to Knight Odds Games
 
-The effectiveness of this approach was demonstrated in an [official match on Lichess](https://lichess.org/2aaJZCqd) against [GM Aleksandr Lenderman](https://ratings.fide.com/profile/2021285), consisting of 18 games played at a time control of 15'+10", where the specialized network achieved an impressive score of +14, =2, -2, indicating an important milestone as no Grandmaster has ever been defeated in an official match under knight odds at this time control, with the best result so far being the combined +3, =8, -10 performance of Komodo Dragon in its 3 matches against Grandmasters.
+The effectiveness of this approach was demonstrated in an [unofficial match on Lichess](https://lichess.org/2aaJZCqd) against [GM Aleksandr Lenderman](https://ratings.fide.com/profile/2021285), consisting of 18 games played at a time control of 15'+10", where the specialized network achieved an impressive score of +14, =2, -2, indicating an important milestone as no Grandmaster has ever been defeated in an official match under knight odds at this time control, with the best result so far being the combined +3, =8, -10 performance of Komodo Dragon in its 3 matches against Grandmasters.
 
 These specialized networks are still under development and therefore not yet publicly available. As development continues, we are actively seeking strong Grandmasters to challenge the network at knight odds, pushing its limits and helping us better understand what constitutes a fair opponent.
 
