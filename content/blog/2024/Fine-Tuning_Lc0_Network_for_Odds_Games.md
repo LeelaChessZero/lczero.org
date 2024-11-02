@@ -21,4 +21,4 @@ These specialized networks are still under development and therefore not yet pub
 
 [^1]: This account stopped accepting challenges starting October 31, 2024, as the new network has been integrated into the featured bot, [LeelaKnightOdds](https://lichess.org/@/LeelaKnightOdds).
 
-[^2]: You can find a live-commented video series and analysis of selected games on the (ChessNetwork)[https://www.youtube.com/@ChessNetwork/] and (Silicon Road)[https://www.youtube.com/@SiliconRoadChess] YouTube channels.
+[^2]: You can find a live-commented video series and analysis of selected games on the [ChessNetwork](https://www.youtube.com/@ChessNetwork/) and [Silicon Road](https://www.youtube.com/@SiliconRoadChess) YouTube channels.
