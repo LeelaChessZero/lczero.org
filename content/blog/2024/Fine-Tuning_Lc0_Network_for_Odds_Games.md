@@ -11,7 +11,7 @@ For more than 20 years, human vs engine matches have become too one-sided to be 
 
 Over the last few months, [LeelaKnightOdds](https://lichess.org/@/LeelaKnightOdds) has seen a substantial strength gain, thanks to the fine-tuning of Lc0 networks for specific odds scenarios using knight odds games between [the original configuration with Contempt]({{< relref "../2023/knight_odds.md" >}}) and an opponent engine emulating strong human play. Our focus has primarily been on gaining performance and playing better openings in knight odds, but we expect that the capabilities of these specialized networks extend to all four featured piece odds bots on Lichess: [LeelaKnightOdds](https://lichess.org/@/LeelaKnightOdds), [LeelaRookOdds](https://lichess.org/@/LeelaRookOdds), [LeelaQueenForKnight](https://lichess.org/@/LeelaQueenForKnight), and [LeelaQueenOdds](https://lichess.org/@/LeelaQueenOdds), now all using the spezialized piece odds network.
 
-In the initial stage, this dedicated network has been operating under the [LeelaKnightOdds-dev[^1]](https://lichess.org/@/LeelaKnightOdds-dev) account, quickly capturing the attention of the chess community[^2] due to its superior performance and generally engaging and spectacular playing style even while we were still on the search for the strongest configuration.
+In the initial stage, this dedicated network has been operating under the [LeelaKnightOdds-dev](https://lichess.org/@/LeelaKnightOdds-dev)[^1] account, quickly capturing the attention of the chess community[^2] due to its superior performance and generally engaging and spectacular playing style even while we were still on the search for the strongest configuration.
 
 #### The Ultimate Test: Challenging Grandmasters to Knight Odds Games
 
