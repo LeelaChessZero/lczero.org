@@ -1,6 +1,6 @@
 ---
 title: "The Leela Piece Odds Challenge: What does it take you to win against Leela?"
-author: "Marcogio9, Naphthalin"
+author: "Naphthalin"
 published: 2024-11-11
 ---
 
@@ -100,4 +100,4 @@ A preliminary version of the leaderboard can already be accessed [here](https://
 
 #### Acknowledgements
 
-Making top engines accessible to the chess community in such a unique way is only possible thanks to the support of a multitude of people. This includes the lichess team and patrons for providing the online platform, the lichess devs and contributors for maintaining and developing specialized tools like `lichess-bot` and [direct challenge links]({{< relref "piece_odds_update.md" >}}#quality-of-life-update-direct-challenge-links-on-lichess), and GM Larry Kaufman for his continuous contributions judging and improving the quality and performance of Leela's piece odds play.
+Making top engines accessible to the chess community in such a unique way is only possible thanks to the support of a multitude of people. This includes the lichess team and patrons for providing the online platform, the lichess devs and contributors for maintaining and developing specialized tools like `lichess-bot` and [direct challenge links]({{< relref "piece_odds_update.md" >}}#quality-of-life-update-direct-challenge-links-on-lichess), and GM Larry Kaufman for his continuous contributions judging and improving the quality and performance of Leela's piece odds play. Credits for training the specialized knight resp. queen odds nets go to marcus98 and Noah.
