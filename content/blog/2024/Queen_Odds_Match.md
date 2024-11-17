@@ -20,4 +20,4 @@ Our goals for the match are to:
 3. entertain the spectators with exciting and competitive games, and
 4. find ways we might improve the bot's play in the future. 
 
-The match will be streamed (and potentially live commentated) at Dave's [YouTube channel](https://www.youtube.com/@RespectfulDave)
+The match will be streamed (and potentially live commentated) at Dave's [YouTube channel](https://www.youtube.com/@RespectfulDave).
