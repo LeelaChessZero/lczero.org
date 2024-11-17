@@ -4,7 +4,7 @@ author: "Naphthalin"
 published: 2024-11-17
 ---
 
-We're excited to announce a queen odds exhibition bullet match between Leela and chess streamer [CM David Maycock](https://ratings.fide.com/profile/5142547).
+We're excited to announce a queen odds exhibition bullet match between Leela and chess streamer [CM David Maycock](https://ratings.fide.com/profile/5142547) aka [RespectfulDave](https://www.youtube.com/@RespectfulDave).
 
 - Sunday November 17, 4-6pm UTC
 - Match will be played on Lichess between the accounts [LeelaQueenOdds](<https://lichess.org/@/LeelaQueenOdds>) and [CM Respectful_Dave](https://lichess.org/@/Respectful_Dave).
