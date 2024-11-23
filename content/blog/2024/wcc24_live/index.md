@@ -24,7 +24,7 @@ Inbetween the games, we may run the annotation of TCEC games just to keep the en
 
 ---
 
-### User Interface
+### Making sense of all the arrows
 
 * Variations starting with different moves are displayed in distinct colors, with thicker lines representing more likely variations.
   * For each variation, you'll see the probability of each outcome (white win, black win, draw) and the likelihood of that move being the best choice.
