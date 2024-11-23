@@ -97,7 +97,7 @@ contributors started to rise again.
 On December 10th Tilps started Test35, a small net with 10 blocks, to test
 whether the new SE-implementation works, which it seems to do. Test35 is not
 expected to produce a new best net. Self-elo graph can be seen at
-<http://lczero.org/training_run/1> .
+http://lczero.org/training_run/1.
 
 ## Status right now
 
