@@ -41,7 +41,7 @@ Inbetween the games, we may run the annotation of TCEC games just to keep the en
   ![Previous move](arrows03.png)
   ![Previous move](multipv02.png)
 
-* You can click on a variation to explore it move by move.
+* You can click on a variation row or a specific move there to explore the line move by move.
 
 ### Technical details
 
