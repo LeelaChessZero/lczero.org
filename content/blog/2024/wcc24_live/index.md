@@ -34,7 +34,7 @@ Inbetween the games, we may run the annotation of TCEC games just to keep the en
 * Within each variation:
     * Solid lines represent moves by the player whose turn it is.
     * Dashed lines indicate the opponent's moves.
-    * When the same piece moves consecutively within a variation (as in a maneuver), these moves are shown with thin lines.
+    * When the same piece moves consecutively within a variation (i.e. makes a maneuver), these moves are shown with thin lines.
       ![Maneuver](arrows02.png)
 
 * When reviewing previous moves, the move that was actually played is highlighted with a pink outline and a lavender background:
