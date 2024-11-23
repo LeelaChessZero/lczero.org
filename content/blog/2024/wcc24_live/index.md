@@ -1,5 +1,5 @@
 ---
-title: "LCZero Live analysis for WCC 2024"
+title: "LCZero live analysis for WCC 2024"
 slug: "wcc24-live"
 published: 2024-11-23
 author: "crem"
