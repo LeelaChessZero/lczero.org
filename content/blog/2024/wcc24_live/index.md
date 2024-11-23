@@ -27,17 +27,17 @@ Inbetween the games, we may run the annotation of TCEC games just to keep the en
 ### Making sense of all the arrows
 
 * Variations starting with different moves are displayed in distinct colors, with thicker lines representing more likely variations.
-  * For each variation, you'll see the probability of each outcome (white win, black win, draw) and the likelihood of that move being the best choice.
+  * For each variation, you'll see the probability of each outcome (white win, black win, draw) and the likelihood of that move being the best choice.  
   ![Board with arrows](arrows01.png)
   ![MultiPV view](multipv01.png)
 
 * Within each variation:
     * Solid lines represent moves by the player whose turn it is.
     * Dashed lines indicate the opponent's moves.
-    * When the same piece moves consecutively within a variation (i.e. makes a maneuver), these moves are shown with thin lines.
+    * When the same piece moves consecutively within a variation (i.e. makes a maneuver), these moves are shown with thin lines.  
       ![Maneuver](arrows02.png)
 
-* When reviewing previous moves, the move that was actually played is highlighted with a pink outline and a lavender background:
+* When reviewing previous moves, the move that was actually played is highlighted with a pink outline and a lavender background:  
   ![Previous move](arrows03.png)
   ![Previous move](multipv02.png)
 
