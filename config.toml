@@ -44,8 +44,9 @@ summaryLength = 30
     weight = 70
 
 [params]
-  lc0version="v0.26.1"
+  lc0version="v0.31.2"
   google_analytics_id="UA-100707634-4"
+  math = false
 
   #homepage_intro = 'Lc0'
   homepage_image = '/images/logo_v2.svg'
@@ -78,3 +79,11 @@ summaryLength = 30
       mobile = "/images/logo.svg"
       standard  = "/images/logo.svg"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]

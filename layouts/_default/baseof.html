@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
   {{ end }}
 
+  {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+  {{ end }}  
+
   {{ block "header_css" . }}{{ end }}
 
 </head>
