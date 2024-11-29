@@ -1,7 +1,7 @@
 ---
 title: "The Leela Piece Odds Challenge: What does it take you to win against Leela?"
 author: "Naphthalin"
-published: 2024-11-11
+published: 2024-11-29
 ---
 
 Finally, [LeelaPieceOdds](https://lichess.org/@/LeelaPieceOdds) is ready, awaiting all kind of odds challenges from you at Lichess.
@@ -12,7 +12,7 @@ Finally, [LeelaPieceOdds](https://lichess.org/@/LeelaPieceOdds) is ready, awaiti
 
 When we initially tested configurations for Leela giving piece odds with regular Leela nets using Contempt, quality of play deteriorated quickly with higher material value and more missing pieces. This was especially true when missing bishops, as the network seemed to hallucinate them back into existence, neglecting the arising pawn weaknesses. Thankfully, some nets performed well enough in selected positions, so we added [LeelaRookOdds](https://lichess.org/@/LeelaRookOdds), [LeelaQueenOdds](https://lichess.org/@/LeelaQueenOdds) and [LeelaQueenForKnight](https://lichess.org/@/LeelaQueenForKnight) to [LeelaKnightOdds](https://lichess.org/@/LeelaKnightOdds), forming the Leela Piece Odds family on Lichess.
 
-Of these four, the two favourites have been the hardest (knight odds, at or above strong GM level) and the most accessible challenge (queen odds, performing at 1700-2300 rating, depending on the time control), both with a total game time of over 50 days within less than a year. While the other two combined add 29 more days, they aren't doing an ideal job at bridging the big gap between knight odds and queen odds, in particular due to the 400+ Elo gap between queen odds and queen for knight odds and the unfamiliarity with openings being a knight down as a human player well versed in theory. Furthermore, for a significant share of chess enthusiasts, especially at faster time controls even queen odds isn't enough to overcome the raw strength difference to a top engine like Leela.
+Of these four, the two favourites have been the hardest (knight odds, at or above strong GM level) and the most accessible challenge (queen odds, performing at 2000-2700 rating, depending on the time control), with a total game time of 60 days of knight odds and 90 days of knight odds within less than a year. While the other two combined add 40 more days, they aren't doing an ideal job at bridging the big gap between knight odds and queen odds, in particular due to the 400+ Elo gap between queen odds and queen for knight odds and the unfamiliarity with openings being a knight down as a human player well versed in theory. Furthermore, for a significant share of chess enthusiasts, especially at faster time controls even queen odds isn't enough to overcome the raw strength difference to a top engine like Leela.
 
 
 #### The missing puzzle piece: A dedicated piece odds network
@@ -31,12 +31,12 @@ Two more restrictions are made: First, if a rook is removed, it's always the que
 
 To assess the difficulty of the different challenges, the following approximate material values can be used:
 
-Queen: 8.1
-Rook: 4.0
-Bishop pair: 6.3
-Knight: 2.7
+Queen: 9.0
+Rook: 4.6
+Bishop pair: 7.0
+Knight: 3.0
 
-where 1 point in material equates to roughly 150 Elo performance. Furthermore, the difference between playing as white and as black is bigger in odds chess than in regular chess, approximately 100-130 Elo.
+where 1 point in material equates to roughly 70 Elo performance. Furthermore, the difference between playing as white and as black is bigger in odds chess than in regular chess, approximately 100 Elo.
 
 
 #### Challenge LeelaPieceOdds on Lichess
@@ -101,7 +101,7 @@ Bonus (doesn't count towards the ladder):
 
 #### Future plans: Leela Piece Odds leaderboards
 
-In order to highlight the community aspect of challenging Leela to piece odds games, we're planning to add a leaderboard for games against [LeelaPieceOdds](https://lichess.org/@/LeelaPieceOdds), tracking and comparing the individual performances at different time controls and odds, and thus hopefully encouraging players to try setups both above and below their rating. In order to get more consistent data, only time controls 3'+0", 5'+3" and 15'+10" will count towards the ladder, and the bot will stop accepting other time controls automatically at some point.
+In order to highlight the community aspect of challenging Leela to piece odds games, we're planning to add a leaderboard for games against [LeelaPieceOdds](https://lichess.org/@/LeelaPieceOdds), tracking and comparing the individual performances at different time controls and odds, and thus hopefully encouraging players to try setups both above and below their rating. In order to get more consistent data, only time controls 1'+1", 3'+1", 5'+3" and 15'+10" will count towards the ladder, and the bot might stop accepting other time controls automatically at some point.
 
 A preliminary version of the leaderboard can already be accessed [here](https://marcogio9.github.io/LeelaQueenOdds-Leaderboard/) for games against [LeelaQueenOdds](https://lichess.org/@/LeelaQueenOdds), showing the estimated individual performance at queen odds, corrected for the time control and color, recalibrated to 5'+3". 
 
