@@ -4,7 +4,7 @@ author: "Naphthalin"
 published: 2024-11-29
 ---
 
-Finally, [LeelaPieceOdds](https://lichess.org/@/LeelaPieceOdds) is ready, awaiting all kind of odds challenges from you at Lichess.
+Finally, [LeelaPieceOdds](https://lichess.org/@/LeelaPieceOdds) is ready, awaiting piece odds challenges from you at Lichess.
 <!--more-->
 
 
