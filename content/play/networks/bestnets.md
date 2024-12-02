@@ -53,7 +53,7 @@ In each section, the nets are listed roughly in descending order of strength. So
 |------------------|-----------------------------------|------------------|
 | Leelenstein 15.0 | [15.0 Post](https://www.patreon.com/posts/leelenstein-15-0-38164065) | No account required |
 | SV-20b-t40-1541  | removed | Trained on T40 data |
-| 42850            | [training.lczero.org direct download](https://training.lczero.org/get_network?sha=00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
+| 42850            | [storage.lczero.org direct download](https://storage.lczero.org/files/networks/00af53b081e80147172e6f281c01daf5ca19ada173321438914c730370aa4267) | Last T40 net |
 
 
 ### 15/16 blocks x 192 filters:
