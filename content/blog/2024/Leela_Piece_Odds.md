@@ -46,8 +46,8 @@ where 1 point in material equates to roughly 70 Elo performance. Furthermore, th
 If you accidentally select the wrong color (or try to play from an unsupported position), there will be a generic error message that the bot currently isn’t accepting challenges. Similarly, the Lichess rematch feature automatically switches colors, thus rematch offers will always be declined.
 
 ##### Piece odds (play as black)
-[N](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR_w_KQkq#friend)
-[N](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKB1R_w_KQkq#friend)
+[N b1](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR_w_KQkq#friend)
+[N g1](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKB1R_w_KQkq#friend)
 [R](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NBQKBNR_w_Kkq#friend)
 [Qn](https://lichess.org/?user=LeelaPieceOdds&fen=r1bqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNB1KBNR_w_KQkq#friend)
 [NN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKB1R_w_KQkq#friend)
@@ -55,12 +55,12 @@ If you accidentally select the wrong color (or try to play from an unsupported p
 [RN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NBQKB1R_w_Kkq#friend)
 [Q](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNB1KBNR_w_KQkq#friend)
 [RR](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NBQKBN1_w_kq#friend)
-[BBN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R2QK1NR_w_KQkq#friend)
-[BBN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RN1QK2R_w_KQkq#friend)
+[BBN b1](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R2QK1NR_w_KQkq#friend)
+[BBN g1](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RN1QK2R_w_KQkq#friend)
 [RNN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/2BQKB1R_w_Kkq#friend)
 [RBB](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1N1QK1NR_w_Kkq#friend)
-[QN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1B1KBNR_w_KQkq#friend)
-[QN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNB1KB1R_w_KQkq#friend)
+[QN b1](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1B1KBNR_w_KQkq#friend)
+[QN g1](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNB1KB1R_w_KQkq#friend)
 [BBNN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R2QK2R_w_KQkq#friend)
 [QR](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NB1KBNR_w_Kkq#friend)
 [QNN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1B1KB1R_w_KQkq#friend)
@@ -68,13 +68,13 @@ If you accidentally select the wrong color (or try to play from an unsupported p
 [QRN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NB1KB1R_w_Kkq#friend)
 [QRR](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/1NB1KBN1_w_kq#friend)
 
-Bonus (doesn't count towards the ladder):
+Bonus (won't count towards the ladder):
 [BN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQK1NR_w_KQkq#friend)
 [BN](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RN1QKB1R_w_KQkq#friend)
 
 ##### Piece and move odds (play as white)
-[n](https://lichess.org/?user=LeelaPieceOdds&fen=r1bqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
-[n](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
+[n b8](https://lichess.org/?user=LeelaPieceOdds&fen=r1bqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
+[n g8](https://lichess.org/?user=LeelaPieceOdds&fen=rnbqkb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
 [r](https://lichess.org/?user=LeelaPieceOdds&fen=1nbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQk#friend)
 [qN](https://lichess.org/?user=LeelaPieceOdds&fen=rnb1kbnr/pppppppp/8/8/8/8/PPPPPPPP/R1BQKBNR_w_KQkq#friend)
 [nn](https://lichess.org/?user=LeelaPieceOdds&fen=r1bqkb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
@@ -82,12 +82,12 @@ Bonus (doesn't count towards the ladder):
 [rn](https://lichess.org/?user=LeelaPieceOdds&fen=1nbqkb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQk#friend)
 [q](https://lichess.org/?user=LeelaPieceOdds&fen=rnb1kbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
 [rr](https://lichess.org/?user=LeelaPieceOdds&fen=1nbqkbn1/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQ#friend)
-[bbn](https://lichess.org/?user=LeelaPieceOdds&fen=r2qk1nr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
-[bbn](https://lichess.org/?user=LeelaPieceOdds&fen=rn1qk2r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
+[bbn b8](https://lichess.org/?user=LeelaPieceOdds&fen=r2qk1nr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
+[bbn g8](https://lichess.org/?user=LeelaPieceOdds&fen=rn1qk2r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
 [rnn](https://lichess.org/?user=LeelaPieceOdds&fen=2bqkb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQk#friend)
 [rbb](https://lichess.org/?user=LeelaPieceOdds&fen=1n1qk1nr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQk#friend)
-[qn](https://lichess.org/?user=LeelaPieceOdds&fen=r1b1kbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
-[qn](https://lichess.org/?user=LeelaPieceOdds&fen=rnb1kb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
+[qn b8](https://lichess.org/?user=LeelaPieceOdds&fen=r1b1kbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
+[qn g8](https://lichess.org/?user=LeelaPieceOdds&fen=rnb1kb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
 [bbnn](https://lichess.org/?user=LeelaPieceOdds&fen=r2qk2r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
 [qr](https://lichess.org/?user=LeelaPieceOdds&fen=1nb1kbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQk#friend)
 [qnn](https://lichess.org/?user=LeelaPieceOdds&fen=r1b1kb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
@@ -95,7 +95,7 @@ Bonus (doesn't count towards the ladder):
 [qrn](https://lichess.org/?user=LeelaPieceOdds&fen=1nb1kb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQk#friend)
 [qrr](https://lichess.org/?user=LeelaPieceOdds&fen=1nb1kbn1/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQ#friend)
 
-Bonus (doesn't count towards the ladder):
+Bonus (won't count towards the ladder):
 [bn](https://lichess.org/?user=LeelaPieceOdds&fen=r1bqk1nr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
 [bn](https://lichess.org/?user=LeelaPieceOdds&fen=rn1qkb1r/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq#friend)
 
