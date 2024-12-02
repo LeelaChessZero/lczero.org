@@ -19,13 +19,6 @@ Leela won the SuFi, 52.5 to 47.5 (+5 wins). This was a difficult match that show
 
 <!--more-->
 
-
-
-Odd number games SF (Stockfish 20200407DC, 176 threads) with white, even number Leela (LCZero v0.24-sv-t60-3010, 4xRTX 2080Ti) with white.
-TC 90'+5" (note: often short for Leela in the endgame).
-
-{{< chessgame "sufi.pgn" >}}
-
 Leela fans love to understand what happens on the board, love simple moves that chain with logic, love to see plans.
 
 
@@ -70,24 +63,23 @@ ________________
 {{</style>}}
 ________________
 
+Odd number games SF (Stockfish 20200407DC, 176 threads) with white, even number Leela (LCZero v0.24-sv-t60-3010, 4xRTX 2080Ti) with white.
+TC 90'+5" (note: often short for Leela in the endgame).
+
 #### Game 1: QGD, exchange variation.
 
 **Book 1.d4**
 
 Leela equalizes before move 10 and takes an advantage with better pawn structure. She takes a pawn in the center but returns her h pawn to deny 0-0 to SF. She gets a better pawn structure and a majority on the q-side where she castles with SF king in the center. Black has a good edge. But as the queens remain on the board, SF manages, with dynamic play, to equalize and gets a draw by perpetual check.
 
-
-{{< chessdiagram "r1bqk2r/ppp2p2/4n3/3p2pp/8/2P1P1P1/P2NBPP1/2RQK2R w Kkq - 0 14" >}}
-
+{{< lichess "fQhbqakr/pzZjMIG6#26" >}}
 
 
 #### Game 2: QGD, semi-slav.
 
 Leela loses a small beginning advantage and the game is a short draw.
 
-
-{{< chessdiagram "r1br2k1/3nqpb1/1pp1p2p/p1PpP3/NP1P2p1/P2B1N2/5PPP/R2Q1RK1 w - - 0 17" >}}
-
+{{< lichess "fQhbqakr/n3dYfmE2#32" >}}
 
 
 #### Game 3: Sicilian, Keres attack (SF +1)
@@ -98,17 +90,15 @@ The last move of book 6...a6 instead 6...h6 made this line may be winning for wh
 SF mobilizes the h-pawn and gets a fawn in h6. SF used it, after exploding the center, to get a winning pawn endgame.
 This game looks like a Leela game but the next one is more positional.
 
-
-{{< chessdiagram "r1b1k2r/4bp1p/p1npp1pP/qp4P1/4P3/P1N1B3/1PPQBP2/R3K2R w KQkq - 0 16" >}}
+{{< lichess "fQhbqakr/SecQEqfJ#30" >}}
 
 
 #### Game 4: (Leela equalizes)
 
+
 Leela gets a strong advantage even more quickly than SF. She pushes the f pawn and with Rg3 in offensive and defensive position she gets a semi closed center (black d6-e5 and white e4) and castles long while SF king remains in the center. SF decides for the thematic Rxc3 exchange sac. Swapping the queen and getting the e4 pawn as a minor compensation. The ending that results with white majority on the q-side was absolutely hopeless. Finally a very simple game : pure Leela style.
 
-
-{{< chessdiagram "4k2r/3nbppp/p2p4/1p2pPP1/4b3/P1PBB1R1/2P4P/2KR4 b k - 1 19" >}}
-
+{{< lichess "fQhbqakr/ig6viVLA#37" >}}
 
 
 #### Game 5: KID, orthodox
@@ -117,17 +107,13 @@ Leela gets a strong advantage even more quickly than SF. She pushes the f pawn a
 
 SF decides for a quick a-pawn push to a6. Leela finds usual counter play on the k-side and the center. Lots of pawns and pieces swapping, to end queens and a knight pair, SF a pawn up. But with so few pawns on the board and kings in open space it is a logical draw.
 
-
-{{< chessdiagram "r1bq2rk/ppp1n1b1/P2p1n2/2PPp1pp/1P2Pp2/2NN1P2/3BB1PP/R2Q1RK1 b - - 0 17" >}}
-
+{{< lichess "fQhbqakr/hSodNVbZ#33" >}}
 
 
 #### Game 6:
 3 pawns swap, then on move 25 Leela dominates the q-side and the center. SF holds the k-side and gives a 0 eval. Pieces begin to swap and Leela gets a strong passer in the center but Fish has counter play against Leela King. Draw.
 
-
-{{< chessdiagram "r2q1bk1/5r1p/1p1p1nn1/pN1P4/P1R1Bpb1/3N4/1P4PP/3QBRK1 w - - 0 26" >}}
-
+{{< lichess "fQhbqakr/T3ow1LR6#50" >}}
 
 
 #### Game 7: Vienna Game: Frankenstein-Dracula Variation (SF +1)
@@ -136,17 +122,13 @@ SF decides for a quick a-pawn push to a6. Leela finds usual counter play on the 
 
 Likely a 1-0 opening. Black gives the Ra8 for development and space advantage. But taking back the Na8 loses two tempos, black pieces are not well coordinated and black king in d8. SF plays very clever moves like Qf3-h3-f3-d1-g4 at the right tempo, gets well coordinated pieces and wins with strong threats on the black king in the center. A masterpiece for SF.
 
-
-{{< chessdiagram "2nk1b1r/p2p4/1p3q2/3b2p1/1P1NppQp/2P4P/5PP1/R1BR2K1 b - - 5 28" >}}
-
+{{< lichess "fQhbqakr/Fxd7bE1L#55" >}}
 
 
 #### Game 8: (SF +1)
 Leela plays nearly the same setting as SF in the previous game but not at the right tempo, and finally all advantages evaporate. A draw.
 
-
-{{< chessdiagram "3k1b1r/pb1pq3/1p1n4/6p1/3N1p1p/2P4Q/PP3PPP/R1BR2K1 b - - 2 20" >}}
-
+{{< lichess "fQhbqakr/YHSwvQer#39" >}}
 
 
 #### Game 9: Dutch, Leningrad variation (SF +1)
@@ -154,34 +136,28 @@ Leela plays nearly the same setting as SF in the previous game but not at the ri
 
 This opening gives a good edge to white. Leela chooses a stonewall structure and plays an attack on the k-side. SF reacts on the q-side but strangely closes the game on that side to contest k-side. Interestingly both engines thought they were better. Finally after many swaps the game ends in a draw.
 
-
-{{< chessdiagram "4b1rk/1p2qnrp/p1p1pb2/P1Pp1pp1/1P1P1P2/2QNPBPP/4NK2/2R4R w - - 0 28" >}}
-
+{{< lichess "fQhbqakr/BfrknQEc#54" >}}
 
 
 #### Game 10: (SF +1)
 Long positional torture by Leela. SF chooses the stonewall. Leela attacks on the q-side and SF decides to defend, Leela does not manage to explode the q-side so she goes for the center and SF reacts at k-side and manages to get enough counter play. A fighting draw.
 
-
-{{< chessdiagram "2r3k1/2rn2bp/1ppq2p1/p2p1p2/3Pn2P/1P1BPNP1/PBR1QPK1/2R5 w - - 2 26" >}}
-
+{{< lichess "fQhbqakr/rg7KHU1O#50" >}}
 
 
 #### Game 11: French, Winawer variation (SF +1)
 **Book 1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6**
 
+
 The worst opening for SF. Playing the anti positional c4 move SF proves one more time that it does not understand this opening. Leela equalized with a clever Kd7 move after sacrificing g7 pawn for counter play on k-side. Draw.
 
-
-{{< chessdiagram "r6r/p2kbpQp/1p6/3pPq2/P2p4/7P/1P3PP1/R1BR2K1 w - - 1 21" >}}
-
+{{< lichess "fQhbqakr/c6JOyD7Q#40" >}}
 
 
 #### Game 12: (Leela equalizes)
 The game all Leela fans waited for. Classical play by Leela on k-side with g4-h5, Rh3 setup. SF reacts by closing the q-side with c4? and then a4?? At this point he thinks white has a slight edge whereas Leela and all club players know that the position is hopeless for black. The remainder of the game is just technical for Leela. A game to analyse by the SF dev team.
 
-
-{{< chessdiagram "r2nkb1r/1q3pp1/2n1p2p/1p1pP2P/p1pP1NP1/P1P1BN1R/1P3PK1/1R1Q4 b kq - 0 22" >}}
+{{< lichess "fQhbqakr/HblUvhjc#43" >}}
 
 
 
@@ -190,35 +166,27 @@ The game all Leela fans waited for. Classical play by Leela on k-side with g4-h5
 
 Another opening that SF does not understand but Leela does. SF plays on the q-side and keeps the center closed. Since in Benoni black must play on q-side and white in the center this results in a fighting draw where SF gets a pawn up but nothing to convert.
 
-
-{{< chessdiagram "r2qr1k1/p1n2pb1/bp1p1npp/2pP4/P1N1P3/2N1BP2/1P2B1PP/R2Q1RK1 b - - 1 15" >}}
-
+{{< lichess "fQhbqakr/CZ0IYXbu#29" >}}
 
 
 #### Game 14: (Leela +1)
 New nightmare for SF. It swaps, early in the game, the Bg7 against the Nc3 and allows white to block q-side with Nb6. The only compensation it gets is the e-pawn. All Benoni players know that it is not enough. Weaknesses on DS and closed q-side is too much. At this point, on move 19, the game is positionaly lost and SF eval is just +0.7 Leela fights to take control of the e-file, SF gives the pawn back on the a-file to delay the logical result : Leela wins with a devastating rook on e6.
 
-
-{{< chessdiagram "1rb1nrk1/1p2q2p/pN1p2p1/2pP1p2/P3nP2/2P2B1P/6PK/R1B1QR2 b - - 1 19" >}}
-
+{{< lichess "fQhbqakr/7PbXUQl4#37" >}}}
 
 
 #### Game 15: Modern, Robatsch defense (Leela +1)
 **Book 1. e4 g6 2. d4 d6 3. Nc3 a6**
 
-SF chooses the 3 pawns attack, Leela reacts immediately with a6-b5 and, for a pawn, gets the control of LS on the q-side and the center. On move 20, she has enough counter play to get an easy draw in a simple endgame. Good positional play for Leela
+SF chooses the 3 pawns attack, Leela reacts immediately with a6-b5 and, for a pawn, gets the control of LS on the q-side and the center. On move 20, she has enough counter play to get an easy draw in a simple endgame. Good positional play for Leela.
 
-
-{{< chessdiagram "1r1q1rk1/1b1nppbp/p5p1/4N3/P2P1P2/2P5/2Q1N1PP/1RB2RK1 b - - 8 21" >}}
+{{< lichess "fQhbqakr/TH1IpujV#41" >}}
 
 
 #### Game 16: (SF equalizes)
 Drama Leela blunders and loses the game. She chooses a Be3, h4, 0-0-0 setup and begins a long positional torture. But SF manages to resist and Leela blunders.
 
-
-{{< chessdiagram "4r3/1r3qk1/4p1p1/3pR1Pp/p1p2P1P/P1P1Q3/KP2R3/8 w - - 5 62" >}}
-
-
+{{< lichess "fQhbqakr/C1LauzY1#122" >}}
 
 
 #### Game 17: Budapest gambit
@@ -226,17 +194,13 @@ Drama Leela blunders and loses the game. She chooses a Be3, h4, 0-0-0 setup and 
 
 SF chose a solid a2-b3-c4, e3-f4 and Bd2 setup. Leela reacts with g6 and Bg7 and begins to attack the q-side. After all pawns disappear on the q-side and center and some piece swap, SF wins a pawn but with the pawns only on k-side this is not enough to win. Good positional evaluation of the game for Leela.
 
-
-{{< chessdiagram "r1bq1rk1/1pp2pbp/n2p2p1/p1n5/1PP2P2/P1N1PB2/1B4PP/R1NQ1RK1 b - - 0 15" >}}
-
+{{< lichess "fQhbqakr/igdXDwba#29" >}}
 
 
 #### Game 18:
 A masterpiece of positional play. May be one of the best games of the match. A very complex game to watch absolutely and to analyse with an engine. Leela decides for the same pawn setting that SF chose in the previous game. But she puts the pieces on other squares compared to SF and begins a long positional domination of all parts of the board. She manages to get SF queen for two rooks and a pawn, and something that seems to be a drawn endgame. She continues the pressure and gets a likely won game threatening to infilter her king on weak LS in the k-side. SF sees the win and she misses it in zeitnot. 5 second increment is not enough for her to play such a difficult attack. Draw.
 
-
-{{< chessdiagram "1r6/1r2k1p1/1pQpBb1p/p2P4/P4P2/1P3K2/7P/8 w - - 25 53" >}}
-
+{{< lichess "fQhbqakr/TDIWc7P0#104" >}}
 
 
 #### Game 19: Sicilian
@@ -244,18 +208,13 @@ A masterpiece of positional play. May be one of the best games of the match. A v
 
 Leela 7...Be7 seems to be a new move. She manages to equalize pushing the d7 pawn to d5. After a fight around isolated d5, SF gets nothing. Draw.
 
-
-{{< chessdiagram "r1b1k2r/ppq1bppp/2n1pn2/3p4/4P3/1NN1B3/PPP1QPPP/2KR1B1R w kq - 0 10" >}}
-
-
+{{< lichess "fQhbqakr/QY5SDD0O#18" >}}
 
 
 #### Game 20:
 Long positional torture. Leela gets the d-file and space on the k-side. SF gets enough counter play on semi-open b-file after Leela castles long. Draw.
 
-
-{{< chessdiagram "r3r1k1/4qppp/2ppb3/p3n3/4P3/P1B1Q3/1PP1B1PP/2KR3R b - - 3 23" >}}
-
+{{< lichess "fQhbqakr/64hyTbyM#45" >}}
 
 
 #### Game 21: KID, Saemisch variation
