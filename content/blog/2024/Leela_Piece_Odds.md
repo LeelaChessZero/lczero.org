@@ -1,7 +1,7 @@
 ---
 title: "The Leela Piece Odds Challenge: What does it take you to win against Leela?"
 author: "Naphthalin"
-published: 2024-11-29
+published: 2024-12-02
 ---
 
 Finally, [LeelaPieceOdds](https://lichess.org/@/LeelaPieceOdds) is ready, awaiting piece odds challenges from you at Lichess.
