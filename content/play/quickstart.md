@@ -7,7 +7,7 @@ To set up Leela Chess Zero, follow the following steps:
 
 #### 1. Setup a chess GUI
 
-Leela Chess Zero, as the most of other chess programs, implements UCI protocol and requires a chess GUI.
+Leela Chess Zero, like most other chess programs, implements UCI protocol and requires a chess GUI.
 Popular GUIs are:
 * [Arena Chess GUI](http://www.playwitharena.de/) (free)
 * [BanksiaGUI](https://banksiagui.com/) (free, has Lc0 specific features)
