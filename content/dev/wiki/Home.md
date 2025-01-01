@@ -6,7 +6,7 @@ wikiname: "Home"
 ---
 * [FAQ](https://github.com/LeelaChessZero/lc0/wiki/FAQ)
 * [Getting started](https://github.com/LeelaChessZero/lc0/wiki/Getting-Started)
-* [Best Networks](https://github.com/LeelaChessZero/lc0/wiki/Best-Nets-for-Lc0)
+* [Networks](https://github.com/LeelaChessZero/lc0/wiki/Networks)
 * [LC0 Options](https://github.com/LeelaChessZero/lc0/wiki/Lc0-options)
 * [Benchmarking](https://github.com/LeelaChessZero/lc0/wiki/Running-a-benchmark)
 * [Project History](https://github.com/LeelaChessZero/lc0/wiki/Project-History)
