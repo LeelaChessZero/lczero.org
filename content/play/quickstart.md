@@ -14,6 +14,7 @@ Popular GUIs are:
 * [Cutechess](https://cutechess.com/) (free)
 * [Nibbler](https://github.com/rooklift/nibbler/releases) (free, has Lc0 specific features)
 * [Chessbase](https://chessbase.com/) (paid).
+* [jose](https://hrimfaxi.bitbucket.io/jose) (free, has Lc0 specific features)
 
 #### 2. Download Lc0
 
