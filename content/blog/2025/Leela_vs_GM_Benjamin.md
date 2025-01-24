@@ -10,7 +10,7 @@ We're excited to announce the very first knight odds exhibition match at classic
 
 From 25th to 27th of January, [LeelaKnightOdds](<https://lichess.org/@/LeelaKnightOdds>) will play 8 knight odds games at 60'+30" with [GM Joel Benjamin](<https://en.wikipedia.org/wiki/Joel_Benjamin>).
 
-- First game will start at 5pm UTC on Saturday Jan 25, the full schedule can be found on the [Lichess event page}(<https://lichess.org/broadcast/leela-knight-odds-vs-gm-joel-benjamin/game-1/vzQHuqnK>)
+- First game will start at 5pm UTC on Saturday Jan 25, the full schedule can be found on the [Lichess event page](<https://lichess.org/broadcast/leela-knight-odds-vs-gm-joel-benjamin/game-1/vzQHuqnK>)
 - 3 games on Saturday and Sunday, 2 games on Monday
 - Match will be played on Lichess between the accounts [LeelaKnightOdds](<https://lichess.org/@/LeelaKnightOdds>) and [SuperEasy](<https://lichess.org/@/SuperEasy>).
 - Leela is playing white, alternating between missing b1 and g1 knight.
