@@ -23,7 +23,7 @@ While this demonstrates the tremendous improvement LeelaKnightOdds saw from swit
 
 #### About GM Joel Benjamin
 
-GM Joel Benjamin is a former multiple US national champion and currently listed with a FIDE rating of 2473, with a peak rating of 2620. More relevant for the upcoming match however is his involvement with chess engines spanning back literally to the beginning of chess engines reaching and surpassing the level of the strongest human players, when he was the official GM consultant for IBM in the 1997 rematch of Deep Blue versus Kasparov. Since this marks the first ever overall win of a chess engine over a top human player in a classical match, GM Benjamin playing a classical match against Leela has an additional symbolic significance on top of his experience from [previous odds matches against Komodo](<https://www.chess.com/news/view/komodo-coasts-to-victory-over-benjamin-9464>).
+GM Joel Benjamin is a former multiple US national champion and currently listed with a FIDE rating of 2473, with a peak rating of 2620. More relevant for the upcoming match however is his involvement with chess engines spanning back literally to the beginning of chess engines reaching and surpassing the level of the strongest human players, when he was the official GM consultant for IBM in the 1997 rematch of Deep Blue versus Kasparov. Since this marks the first ever overall win of a chess engine over a top human player in a classical match, GM Benjamin playing a classical match against Leela has an additional symbolic significance on top of his experience from previous odds matches against [Komodo](<https://www.chess.com/news/view/komodo-coasts-to-victory-over-benjamin-9464>) in 2017 and Rybka in 2007/2008.
 
 
 #### LeelaKnightOdds configuration
