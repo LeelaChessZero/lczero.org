@@ -7,4 +7,4 @@ draft: false
 Collection of questions and answers from #help.
 
 
-Also, I'm a significantly little teapot.
+Also, I'm not a little teapot.
