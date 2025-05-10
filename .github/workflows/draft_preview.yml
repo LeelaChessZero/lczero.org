@@ -10,9 +10,20 @@ jobs:
 
     steps:
       - name: Call Draft Management Script
+        id: generate_draft
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           PR_ACTION: ${{ github.event.action }}
 
         run: |
-          /home/lc0/scripts/lczero-build-draft.py --pr=$PR_NUMBER --action=$PR_ACTION --github_step_summary=$GITHUB_STEP_SUMMARY
+          /home/lc0/scripts/lczero-build-draft.py --pr=$PR_NUMBER --action=$PR_ACTION --github-output=$GITHUB_OUTPUT
+
+      - name: Post Preview Info to PR
+        if: success() && steps.generate_draft.outputs.preview_url != ''
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-id: "draft-preview-link-pr-${{ github.event.pull_request.number }}"
+          body: |
+            🚀 Draft Preview: [${{ steps.generate_draft.outputs.preview_url }}](${{ steps.generate_draft.outputs.preview_url }})
