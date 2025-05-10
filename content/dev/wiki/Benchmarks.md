@@ -4,25 +4,32 @@ weight: 500
 wikiname: "Benchmarks"
 # Warning: File is automatically generated from GitHub wiki, do not edit by hand.
 ---
-Run go infinite from start position and abort after depth 26 and report NPS output. 
+Run `lc0.exe benchmark --nncache=2000000` and report nps output and binary version, please use latest release or current master.
+Google docs of bench results here. Easier to maintain/prettier? https://docs.google.com/spreadsheets/d/1i4ymeCO7SH1vQ5gS7ZcBChjQaiv1dNItwXwLqvNC-r4/preview
 
-_I put some sample ones from memory. Please put your own bench scores here in sorted NPS order if you can. If you don't know what engine type, gpu is opencl and cpu is openblas_
-
-Google docs of bench results here. Easier to maintain/prettier? https://docs.google.com/spreadsheets/d/1lGFf6PLGmBUSMan-YP7Vul4DpRNfn6K8oeCjBILe6uA/edit#gid=0
-
-# GPU
-| GPU @ stock or OC frequency| Engine version/type | Neural Net size | Username | Speed |
+# Ampere Cards
+| GPU model | Engine version | Neural Net size | Backend | Speed |
 | ------------- | ---- | ------------- | ------------- | ------------- |
-|GTX 1060 @ stock -t 3 | v7 Linux openCL | 10x128 | | 2650 nps|
-|1080 ti @ 2ghz -t 3 | v7 Windows openCL | 10x128 | | 2500 nps|
-|GTX 1050 Ti @ stock | v7 Windows openCL | 20x256 | go infinite | 2300 nps|
-|GTX 1050 Ti @ stock | v7 Windows openCL | 20x256 | benchmark | 1690 nps|
-|GTX 470 @ stock -t 2 | v7 Windows openCL | 10x128 | | 600 nps|
-# CPU
-| CPU @ stock or OC frequency| Engine version/type | Neural Net size | Username | Speed |
-| ------------- | ---- | ------------- | ------------- |------------- |
-|i7-6800K @ 3.6GHz -t 12 | v7 Linux openblas | 10x128 | | 1010 nps|
-|i7-8700 stock -t 12 | v7 Windows openblas | 10x128 | | 818 nps|
-|i6700 stock -t 4 | v7 Windows intel_mkl | 10x128 | | 500 nps|
-|i6700 stock -t 4 | v7 Windows openblas | 10x128 | | 320 nps|
-|Ryzen 3 1200 stock -t 4 | v7 Windows openblas | 10x128 | | 300 nps|
+|A100 40GB | v0.28.2 | 30x384 | cuda-fp16 | 71560 nps|
+|RTX 3090 | v0.28| 30x384 | cuda-fp16 | xxx nps|
+|RTX 3080 | v0.29.0-dev 3/3 | 40x512 | cuda-fp16 | 15159 nps|
+|RTX 3080 | v0.28.2 | 30x384 | cuda-fp16 | 32289 nps|
+|RTX 3070 | v0.28.2 | 30x384 | cuda-fp16 | xxx nps|
+|RTX 3060 | v0.29.0-dev 3/3 | 40x512 | cuda-fp16 | 6659 nps|
+|RTX 3060 | v0.29.0-dev 3/3 | 30x384 | cuda-fp16 | 14639 nps|
+# Turing Cards
+| GPU model | Engine version | Neural Net size | Backend | Speed |
+| ------------- | ---- | ------------- | ------------- | ------------- |
+|Tesla V100 | v0.28.2 | 30x384 | cuda-fp16 | xxx nps|
+|RTX 2080 | v0.28.2 | 30x384 | cuda-fp16 | xxx nps|
+|RTX 2070 | v0.28.0 | 30x384 | cuda-fp16 | xxx nps|
+|RTX 2060 | v0.28.2 | 30x384 | cuda-fp16 | xxx nps|
+# CPUs 
+| CPU model + # of threads | Engine version | Neural Net size | Backend | Speed |
+| ------------- | ---- | ------------- | ------------- | ------------- |
+|3990x -128th | v0.28.2 | 10x128 | DNNL-BLAS | xxx nps|
+|5950x -32th | v0.28.2 | 15x192 | Open-BLAS | xxx nps|
+|11900k -16th | v0.28.2 | 15x192 | onednn | xxx nps|
+|5600x -12th | v0.28.2 | 10x128 | onednn | xxx nps|
+
+
