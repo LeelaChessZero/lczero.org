@@ -1,7 +1,6 @@
 ---
 title: "Gathering larger batches"
 weight: 400
-draft: true
 ---
 
 Of all optimization ideas and attempts, improving batch gathering is the main one which stops us from scaling to many GPUs, and it's the area where I (crem) had the most attempts, and all of them failed so far.

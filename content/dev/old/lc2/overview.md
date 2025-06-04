@@ -1,7 +1,6 @@
 ---
 title: "Overview"
 weight: 100
-draft: true
 ---
 
 This section contains the summary of ideas for the potential reimplementation of Lc0 search algorithm to address limitations of search algorithm (for now I name it "Lc2", although probably the name will be changed as not everyone likes that).
