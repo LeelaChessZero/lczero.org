@@ -96,6 +96,7 @@ class WikiUpdater:
         new_files = set(wiki_pages.keys()) - known_pages
         self.Info("%d new pages" % len(new_files))
 
+        return
         if len(new_files) == 0:
             return
 
