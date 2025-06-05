@@ -1,7 +1,6 @@
 ---
 title: "Failed attempts"
 weight: 20000
-draft: true
 ---
 
 *Feel free to skip this page, nothing useful is here.*

@@ -22,8 +22,6 @@ If you just want to edit a single page without needing to create a new one or pr
 
 Some pages originated from [GitHub wiki](https://github.com/LeelaChessZero/lc0/wiki). Those pages should not be edited in the website repository (they would be overwritten anyway). Instead, **[Edit on Wiki]** button leads to the wiki, where those documents can be edited. Such pages are automatically synchronized with website every ten minutes.
 
-New pages appear in [this section]({{<ref "../../dev/wiki">}}) of the website. It's possible to move the document around (while keeping the `wikiname` header), and it will remain linked/synced to the GitHub wiki page.
-
 The syntax for pages is [CommonMark](https://commonmark.org/) standard of MarkDown.
 
 ## Setting up HuGo to run locally
