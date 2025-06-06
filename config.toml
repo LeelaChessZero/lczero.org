@@ -1,8 +1,7 @@
 baseURL = "/"
 languageCode = "en"
 title = "Leela Chess Zero"
-# themesDir = "../.."
-theme = "whisper"
+theme = "leela"
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
