@@ -158,20 +158,25 @@ h6 {
 }
 
 a.header-anchor {
-  text-decoration: none;
-  fill: var(--link-color);
-  opacity: 0;
-  display: inline-block;
-  margin-left: 0.1em;
+    text-decoration: none;
+    fill: var(--link-color);
+    opacity: 0;
+    display: inline-block;
+    margin-left: 0.1em;
 }
 
 h1:hover .header-anchor,
 h2:hover .header-anchor,
 h3:hover .header-anchor,
 h4:hover .header-anchor {
-  opacity: 1;
+    opacity: 1;
 }
 
+code {
+    background: var(--footer-bg-color);
+    padding: 3px 6px;
+    border-radius: 3px;
+}
 
 table {
     width: 100%;
@@ -191,6 +196,23 @@ td {
 th+th,
 td+td {
     border-left: 1px solid var(--footer-icon-color);
+}
+
+.footnotes {
+    font-size: 0.8em;
+}
+
+.footnotes li::marker {
+    content: counter(list-item);
+    font-size: 0.6em;
+}
+
+.footnotes li {
+    padding-left: 5px;
+}
+
+.footnotes p {
+    margin: 0;
 }
 
 .button {
