@@ -2,6 +2,8 @@
     box-sizing: border-box;
     --main-font: 'Roboto', Arial, sans-serif, -apple-system;
 
+    --content-width: 100%;
+
     @media (min-width: 576px) {
         --content-width: 540px;
     }
@@ -157,6 +159,11 @@ h6 {
     font-size: var(--font-size-h6);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 a.header-anchor {
     text-decoration: none;
     fill: var(--link-color);
@@ -264,7 +271,20 @@ main {
 
 .main-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.content-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        flex-direction: row;
+    }
 }
 
 nav.sidebar {
@@ -407,7 +427,8 @@ footer {
     color: black;
     background-color: var(--footer-bg-color);
     padding: 8px;
-    border-radius: 3px;;
+    border-radius: 3px;
+    ;
 }
 
 .blog-summary-title a {
