@@ -157,6 +157,22 @@ h6 {
     font-size: var(--font-size-h6);
 }
 
+a.header-anchor {
+  text-decoration: none;
+  fill: var(--link-color);
+  opacity: 0;
+  display: inline-block;
+  margin-left: 0.1em;
+}
+
+h1:hover .header-anchor,
+h2:hover .header-anchor,
+h3:hover .header-anchor,
+h4:hover .header-anchor {
+  opacity: 1;
+}
+
+
 table {
     width: 100%;
     border-collapse: collapse;
