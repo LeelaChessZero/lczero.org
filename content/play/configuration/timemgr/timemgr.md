@@ -2,6 +2,7 @@
 title: "Time management"
 weight: 100
 draft: true
+summary: "Time management in Lc0"
 ---
 
 This page contains different types of time managers.

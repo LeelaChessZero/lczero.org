@@ -1,0 +1,7 @@
+<div class="summary">
+  {{ if .Params.image }}
+  <img alt="{{ .Title }}" src="{{ .Params.image }}" />
+  {{ end}}
+  <div class="summary-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+  <div class="summary-content">{{ .Summary }}</div>
+</div>
