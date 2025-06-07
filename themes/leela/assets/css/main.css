@@ -377,3 +377,22 @@ footer {
     margin-left: 8px;
     color: var(--footer-icon-color);
 }
+
+/* Blog list */
+.blog-summary {
+    margin-top: 48px;
+}
+
+.blog-post-date {
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-right: 8px;
+    color: black;
+    background-color: var(--footer-bg-color);
+    padding: 8px;
+    border-radius: 3px;;
+}
+
+.blog-title a {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,20 @@
+{{ define "body_classes" }}blog-index{{ end }}
+{{ define "main" }}
+    <h1 class="title">{{ .Title }}</h1>
+
+    {{if default true .Params.show_contents}}
+    {{ range.Pages }}
+        <div class="blog-summary">            
+            <div class="blog-title">
+                <a href="{{ .Permalink }}">
+                    <span class="blog-post-date">{{ .PublishDate.Format "2006-01-02" }}</span>{{ .Title }}
+                </a>
+            </div>
+            {{ if .Params.image }}
+                <img alt="{{ .Title }}" src="{{ .Params.image }}" />
+            {{ end}}
+            <p>{{ .Summary }}</p>
+        </div>
+    {{ end }}
+    {{ end }}
+{{ end }}
