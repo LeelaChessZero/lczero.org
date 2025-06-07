@@ -2,31 +2,7 @@
     box-sizing: border-box;
     --main-font: 'Roboto', Arial, sans-serif, -apple-system;
 
-    --content-width: 100%;
-
-    @media (min-width: 576px) {
-        --content-width: 540px;
-    }
-
-    @media (min-width: 768px) {
-        --content-width: 720px;
-    }
-
-    @media (min-width: 992px) {
-        --content-width: 960px;
-    }
-
-    @media (min-width: 1300px) {
-        --content-width: 1140px;
-    }
-
-    @media (min-width: 1600px) {
-        --content-width: 1400px;
-    }
-
-    @media (min-width: 1900px) {
-        --content-width: 1660px;
-    }
+    --content-width: min(100%, 1140px);
 
     --content-color: hsl(210, 11%, 15%);
     --link-color: hsl(327, 82%, 51%);
