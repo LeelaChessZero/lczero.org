@@ -1,4 +1,8 @@
-{{- with resources.Get "css/main.css" }}
+{{ $mainCss := resources.Get "css/main.css" }}
+{{ $syntaxCss := resources.Get "css/syntax.css" }}
+{{ $css := slice $mainCss $syntaxCss | resources.Concat "css/bundle.css" }}
+
+{{- with $css }}
   {{- if hugo.IsDevelopment }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}

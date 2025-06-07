@@ -248,7 +248,11 @@ main {
     background: var(--footer-bg-color);
     border-radius: 3px;
     padding: 4px 10px;
-    margin: 0 0.5em;
+    margin: 0;
+}
+
+.highlight pre {
+    margin: 0;
 }
 
 .main-container {
