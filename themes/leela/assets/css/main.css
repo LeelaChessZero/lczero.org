@@ -320,6 +320,14 @@ nav.sidebar .nonselectable {
     font-style: italic;
 }
 
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    width: 100%;
+}
+
 /* Lists */
 
 .summary {
@@ -383,7 +391,16 @@ footer {
     margin-top: 48px;
 }
 
-.blog-post-date {
+.blog-date {
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.blog-title {
+    margin-top: 0;
+}
+
+.blog-summary-date {
     font-size: 0.9rem;
     font-weight: 800;
     margin-right: 8px;
@@ -393,6 +410,6 @@ footer {
     border-radius: 3px;;
 }
 
-.blog-title a {
+.blog-summary-title a {
     font-size: 1.2rem;
 }
