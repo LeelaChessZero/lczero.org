@@ -29,8 +29,10 @@
     --content-color: hsl(210, 11%, 15%);
     --link-color: hsl(327, 82%, 51%);
     --button-text-color: #fff;
+    --secondary-color: #fafad2;
     --footer-bg-color: hsl(231, 47%, 97%);
     --footer-icon-color: hsl(231, 17%, 60%);
+    --sidebar-width: 180px;
 }
 
 *,
@@ -85,7 +87,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 0;
+    margin: 0
 }
 
 .main-menu>ul>li {
@@ -131,16 +133,99 @@ h1 {
     border-radius: 3px;
 }
 
+main {
+    width: var(--content-width);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    flex-grow: 1;
+}
+
+.banner {
+    background: var(--secondary-color);
+    border-radius: 3px;
+    padding: 4px 10px 4px 10px;
+    margin: 20px 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+nav.sidebar {
+    width: var(--sidebar-width);
+    margin-right: 32px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+nav.sidebar ul {
+    font-size: .9rem;
+    line-height: 1.2;
+    list-style: none;
+    padding: 0;
+}
+
+nav.sidebar ul.nested {
+    font-size: .75rem;
+    padding-left: 1rem;
+    line-height: 1;
+}
+
+nav.sidebar ul li {
+    margin: 0;
+    padding: 0.4em 0;
+}
+
+nav.sidebar a {
+    color: var(--content-color);
+    text-decoration: none;
+    display: block;
+}
+
+nav.sidebar a.active {
+    color: var(--link-color);
+}
+
+nav.sidebar .nonselectable {
+    font-weight: 500;
+}
+
+.button-floating {
+    background: var(--secondary-color);
+    border-radius: 3px;
+    padding: 4px 10px;
+    float: right;
+}
+
+.last-updated {
+    padding: 4px 10px;
+    float: right;
+    font-size: 90%;
+    font-style: italic;
+}
+
+/* Lists */
+
+.summary {
+    margin-bottom: 1em;
+}
+
+.summary-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.summary-content {
+    border-top: 1px solid transparent;
+    padding-left: 1em;
+}
+
 /* Home page content */
 
 .page-home {
     text-align: center;
-}
-
-.home-content {
-    max-width: var(--content-width);
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .page-home p {

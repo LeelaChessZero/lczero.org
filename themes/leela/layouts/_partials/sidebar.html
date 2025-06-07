@@ -1,0 +1,26 @@
+<h4>{{ .Section | humanize }}</h4>
+<ul>
+    {{template "submenu" dict "sect" .FirstSection "docId" .File.UniqueID}}
+</ul>
+
+{{define "submenu"}}
+{{$docId := .docId}}
+{{with .sect}}
+{{ range .CurrentSection.Pages.ByWeight }}
+<li>
+    {{ if .Content }}
+    <a class="{{ if eq .File.UniqueID $docId }}active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ else }}
+    <span class="nonselectable">{{ .Title }}</span>
+    {{ end }}
+</li>
+{{ if .Pages }}
+<li>
+    <ul class="nested">
+        {{template "submenu" dict "sect" . "docId" $docId}}
+    </ul>
+</li>
+{{ end }}
+{{ end }}
+{{end}}
+{{end}}

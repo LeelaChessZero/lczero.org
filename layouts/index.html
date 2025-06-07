@@ -4,21 +4,19 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
-<div class="home-content">
-  <h1>{{ .Title | default .Site.Title }}</h1>
-  <div class="content">
-    {{ if .Content }}
-    {{ .Content }}
-    {{ else }}
-    <p>{{ .Site.Params.homepage_intro }}</p>
-    {{ end }}
-  </div>
-  {{ range .Site.Params.homepage_button }}
-  <a class="button button-primary mb-2" href="{{ .link | relURL }}">
-    {{ .text }}
-  </a>
+<h1>{{ .Title | default .Site.Title }}</h1>
+<div class="content">
+  {{ if .Content }}
+  {{ .Content }}
+  {{ else }}
+  <p>{{ .Site.Params.homepage_intro }}</p>
   {{ end }}
 </div>
+{{ range .Site.Params.homepage_button }}
+<a class="button button-primary mb-2" href="{{ .link | relURL }}">
+  {{ .text }}
+</a>
+{{ end }}
 
 <img class="home-large-logo" src="/images/logo_v2.svg" />
 <div class="home-under-logo">
