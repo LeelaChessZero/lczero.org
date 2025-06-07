@@ -172,7 +172,14 @@ h4:hover .header-anchor {
     opacity: 1;
 }
 
+pre.chroma code {
+    display: flex;
+    flex-direction: column;
+}
+
 code {
+    font-family: "roboto mono", monospace;
+    font-size: 0.8rem;
     background: var(--footer-bg-color);
     padding: 3px 6px;
     border-radius: 3px;
