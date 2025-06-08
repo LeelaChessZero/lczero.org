@@ -105,7 +105,7 @@ Test35 and Test30 going in paralell. Test30 is not going away even though
 Test35 is receiving the bulk of contributions. Test35 will eventually give way
 for Test40, so that both test30 and test40 will continue training. A
 contributor can choose what test net to contribute to or to be auto assigned
-by the devs (which is the default) by using the '-run <num>' parameter. 0
+by the devs (which is the default) by using the `-run <num>` parameter. 0
 means auto assign, 1 is Test35 and 2 is Test30.
 
 ## Want to contribute?
