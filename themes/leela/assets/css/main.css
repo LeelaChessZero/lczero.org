@@ -199,6 +199,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     font-family: var(--main-font);
     font-weight: 200;
@@ -286,6 +290,11 @@ td {
 th+th,
 td+td {
     border-left: 1px solid var(--footer-icon-color);
+}
+
+em {
+    font-style: italic;
+    font-weight: 300;
 }
 
 .footnotes {
