@@ -10,7 +10,7 @@ This guide will help you test if Leela Chess Zero is working correctly by runnin
 ### Step 1: Find the lc0 file
 1. Open **File Explorer** (the folder icon in your taskbar, or press `Windows key + E`)
 2. Navigate to the folder where you installed Leela Chess Zero
-   - This is usually in a folder like `C:\Program Files\Lc0\` or wherever you extracted the files
+   - This is usually in a folder like `C:\Lc0\` or wherever you extracted the files
 3. Look for a file named `lc0` (it will show as type "Application" or "Windows Application")
    - Note: You might not see the `.exe` extension - that's normal in Windows
 
