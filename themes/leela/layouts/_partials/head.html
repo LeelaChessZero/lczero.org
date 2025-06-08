@@ -8,4 +8,10 @@
 {{ partialCached "head/js.html" . }}
 {{ if .Param "math" }}
   {{ partialCached "math.html" . }}
-{{ end }}  
+{{ end }}
+{{ if .Params.LoadChessbaseScripts }}
+  <link rel="stylesheet" type="text/css" href="//pgn.chessbase.com/CBReplay.css"/>
+  <script src="//pgn.chessbase.com/jquery-3.0.0.min.js"></script>
+  <script src="//pgn.chessbase.com/cbreplay.js" type="text/javascript"></script>  
+{{ end }}
+
