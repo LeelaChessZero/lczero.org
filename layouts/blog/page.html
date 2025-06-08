@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="main-container">
+    <div class="content-container">
+
+        <div class="blog-date">{{ .PublishDate.Format "2006-01-02" }}</div>
+        <h1 class="blog-title">{{ .Title }}</h1>
+
+        {{if .Draft}}
+        <div class="banner">
+            <strong>This is a draft.</strong>
+            This page is not shown on the site. Remove <code>draft:true</code> from
+            the header to publish the page.
+        </div>
+        {{end}}
+
+        {{ .Content }}
+
+        {{ if .Params.author }}
+        <div class="last-updated">
+            Posted by: {{ .Params.author }}
+        </div>
+        {{ end }}
+
+        <div class="bottom-nav">
+            {{ with .PrevInSection }}
+            <a class="previous" href="{{.Permalink}}">
+                ◃◃◃ {{.Title}}</a>
+            {{ end }}
+            {{ with .NextInSection }}
+            <a class="next" href="{{.Permalink}}">{{.Title}} ▹▹▹</a>
+            {{ end }}
+        </div>
+
+    </div>
+</div>
+{{ end }}

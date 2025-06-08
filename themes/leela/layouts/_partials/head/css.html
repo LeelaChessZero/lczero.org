@@ -1,0 +1,13 @@
+{{ $mainCss := resources.Get "css/main.css" }}
+{{ $syntaxCss := resources.Get "css/syntax.css" }}
+{{ $css := slice $mainCss $syntaxCss | resources.Concat "css/bundle.css" }}
+
+{{- with $css }}
+  {{- if hugo.IsDevelopment }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{- else }}
+    {{- with . | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{- end }}
+  {{- end }}
+{{- end }}

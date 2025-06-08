@@ -1,0 +1,11 @@
+<div class="logo">
+  <a href="{{ .Site.BaseURL }}"><img alt="Logo" src="{{ .Site.Params.logo.standard | relURL }}" /></a>
+</div>
+<!-- Add these two elements for the hamburger menu -->
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+<label for="menu-toggle" class="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</label>
+{{ partial "main-menu.html" . }}

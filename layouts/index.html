@@ -4,46 +4,22 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
-<div class="strip">
-  <div class="container pt-4 pb-16">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="title">{{ .Title | default .Site.Title }}</h1>
-        <div class="content">
-          {{ if .Content }}
-          {{ .Content }}
-          {{ else }}
-          <p>{{ .Site.Params.homepage_intro }}</p>
-          {{ end }}
-        </div>
-        {{ range .Site.Params.homepage_button }}
-        <a class="button button-primary mb-2" href="{{ .link | relURL }}">
-          {{ .text }}
-        </a>
-        {{ end }}
-      </div>
-    </div>
-  </div>
+<h1>{{ .Title | default .Site.Title }}</h1>
+<div class="content">
+  {{ if .Content }}
+  {{ .Content }}
+  {{ else }}
+  <p>{{ .Site.Params.homepage_intro }}</p>
+  {{ end }}
 </div>
-
-{{ if .Site.Params.homepage_image }}
-<div class="strip">
-  <div class="container pt-4 pb-4">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-10">
-        <div class="terminal">
-          <img src="{{ .Site.Params.homepage_image | relURL}}" />
-          Looking for the training site? It's
-          <a href="//training.lczero.org">here</a>.
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+{{ range .Site.Params.homepage_button }}
+<a class="button button-primary mb-2" href="{{ .link | relURL }}">
+  {{ .text }}
+</a>
 {{ end }}
 
-
-{{ end }}
-
-{{ define "footer_js" }}
+<img class="home-large-logo" src="/images/logo_v2.svg" />
+<div class="home-under-logo">
+  Looking for the training site? It's <a href="//training.lczero.org">here</a>.
+</div>
 {{ end }}

@@ -19,7 +19,7 @@ Our intention has always been for “our” data to be open and available to eve
 
 Therefore we are very pleased that Stockfish, starting from today, is using a NNUE network file [trained on the same data](https://github.com/official-stockfish/Stockfish/commit/f8c779dbe538315aa6f65556d0acf11640558504)
 
-{{< tweet user="LeelaChessZero" id="1404360328872402945" >}}
+{{< x user="LeelaChessZero" id="1404360328872402945" >}}
 
 Both projects have mentioned before that our “teams will join forces to demonstrate our commitment to open source chess engines and training tools, and open data.” This is the first concrete result stemming from this effort, and we promise it won't be the last.
 

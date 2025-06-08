@@ -1,6 +1,7 @@
 ---
 title: "Engine parameters"
 weight: 100
+summary: "How to set engine parameters, and a list of all available parameters."
 ---
 
 ## Setting the parameters
