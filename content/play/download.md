@@ -1,6 +1,7 @@
 ---
 title: "Download Lc0"
 weight: 200
+# layout: download
 ---
 
 The latest stable version of Lc0 is **[{{< param lc0version >}}](https://github.com/LeelaChessZero/lc0/releases/tag/{{<param lc0version>}})**.
@@ -9,6 +10,7 @@ Older versions and beta releases are available at our [GitHub releases page](htt
 
 ## Choose Your Platform
 
+{{< downloads >}}
 ### Windows Downloads
 
 All Windows packages contain:
@@ -42,12 +44,21 @@ brew install lc0
 
 The Homebrew package includes the **lc0** engine and network **42850**.
 
+
+### Linux
+
+You have 2 options
+- Package managers: Many Linux distributions include Lc0 in their repositories. Check your package manager first.
+- [Build from Source](https://github.com/LeelaChessZero/lc0/blob/master/README.md#building-and-running-lc0) to ensure the most updated Lc0
+
+
 ### Android
 
 Download the APK for all architectures:
 [Android APK](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-android.apk)
 
 Note: This is only the engine, there is no GUI with this apk. See [our page](https://lczero.org/dev/wiki/running-lc0-on-android-with-a-chess-gui/) about running Lc0 on android.
+{{< /downloads >}}
 
 ### Other Options
 - [All Releases on GitHub](https://github.com/LeelaChessZero/lc0/releases)
