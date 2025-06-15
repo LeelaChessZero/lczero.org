@@ -50,9 +50,6 @@ summaryLength = 30
   #homepage_intro = 'Lc0'
   mainSections = ["play", "watch", "contribute", "dev", "community", "blog", "about"]
   [[params.homepage_button]]
-    link = "/play/download"
-    text = "Download"
-  [[params.homepage_button]]
     link = "/play/quickstart"
     text = "Quick start"
 
