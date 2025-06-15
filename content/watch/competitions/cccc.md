@@ -12,6 +12,15 @@ Organizers pick participants based on engine's entertainment value. Particularly
 
 | Season                  | Year | Time control   | Lc0 final position   |
 | ----------------------- | ---- | -------------- | -------------------- |
+| CCC 24: Bullet          | 2025 | 1+1            | 4                    |
+| CCC 24: Rapid           | 2025 | 10+3           | 2                    |
+| CCC 24: Blitz           | 2025 | 3+2            | 3                    |
+| CCC 23: Bullet          | 2024 | 1+1            | 3                    |
+| CCC 23: Rapid           | 2024 | 10+3           | 2                    |
+| CCC 23: Blitz           | 2024 | 3+2            | 3                    |
+| CCC 22: Bullet          | 2024 | 1+1            | 4                    |
+| CCC 22: Rapid           | 2024 | 10+3           | 2                    |
+| CCC 22: Blitz           | 2024 | 3+2            | 3                    |
 | CCC 21: Bullet          | 2023 | 1+1            | 5                    |
 | CCC 21: Rapid           | 2023 | 10+3           | 2                    |
 | CCC 21: Blitz           | 2023 | 3+2            | 3                    |
