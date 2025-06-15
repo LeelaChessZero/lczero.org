@@ -7,40 +7,48 @@ The latest stable version of Lc0 is **[{{< param lc0version >}}](https://github.
 
 Older versions and beta releases are available at our [GitHub releases page](https://github.com/LeelaChessZero/lc0/releases).
 
-## Windows
+## Choose Your Platform
 
-Every package contains:
-* **lc0.exe** (the engine),
-* **791556.pb.gz** or **753723.pb.gz** (a default network file), and
-* **lc0-training-client.exe** (only needed if you would like to contribute training games).
+### Windows Downloads
 
-Depending on which hardware you have, different version of Lc0 will be best for you.  
-Pick the row that matches your hardware from the following table:
+All Windows packages contain:
+- **lc0.exe** (the engine)
+- A default neural network file
+- **lc0-training-client.exe** (for contributing training games)
 
-| Hardware | Backend |
-|----------|---------|
-| Newest (2018+) NVidia GPUs: RTX&nbsp;20xx, RTX&nbsp;30xx and so on (but not GTX&nbsp;16xx) | [CUDA](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cuda.zip) |
-| Newer (2014-2018) NVidia GPUs: GTX&nbsp;650 to GTX&nbsp;16xx; GT&nbsp;640M to GT&nbsp;980M (excluding 670M, 675M, 705M, 710M, 800M, 820M)  | [CUDNN](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cudnn.zip) |
-| Other GPUs (requires a very recent DirectML dll, see the included `README` for instructions) | [onnx-dml](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-onnx-dml.zip) |
-| Computers without GPUs, but with modern CPUs | [DNNL BLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-dnnl.zip) |
-| Older CPUs | [OpenBLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-openblas.zip) |
+Select the version that matches your hardware:
 
-## MacOS
+#### NVIDIA GPU Users
+| GPU Series | Recommended Version | Download Link |
+|------------|---------------------|---------------|
+| RTX 20xx, RTX 30xx, RTX 40xx (2018+) | CUDA | [Download CUDA Version](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cuda.zip) |
+| GTX 650 to GTX 16xx (2014-2018) | CUDNN | [Download CUDNN Version](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-nvidia-cudnn.zip) |
 
-You can install Lc0 using [Homebrew](https://brew.sh/).
+#### Other GPU Users
+| GPU Type | Recommended Version | Download Link |
+|----------|---------------------|---------------|
+| AMD/Intel GPUs | DirectML[^1] | [Download ONNX-DML Version](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-onnx-dml.zip) |
+| Generic GPUs | OpenCL | [Download OpenCL Version](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-opencl.zip) |
 
-```
+[^1]: Requires a very recent DirectML dll, see the included `README` for instructions
+
+### MacOS
+
+You can install Lc0 using [Homebrew](https://brew.sh/). 
+
+```bash
 brew install lc0
 ```
 
 The Homebrew package includes the **lc0** engine and network **42850**.
 
-## Android
+### Android
 
-| Architecture | Backend |
-|--------------|---------|
-| All architectures | [BLAS](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-android.apk) |
+Download the APK for all architectures:
+[Android APK](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-android.apk)
 
-## Building from sources (Linux, Windows and MacOS)
+Note: This is only the engine, there is no GUI with this apk. See [our page](https://lczero.org/dev/wiki/running-lc0-on-android-with-a-chess-gui/) about running Lc0 on android.
 
-If you want to build the Lc0 from source, refer to [this document](https://github.com/LeelaChessZero/lc0/blob/master/README.md#building-and-running-lc0).
+### Other Options
+- [All Releases on GitHub](https://github.com/LeelaChessZero/lc0/releases)
+- [Build from Source](https://github.com/LeelaChessZero/lc0/blob/master/README.md#building-and-running-lc0)
