@@ -1,12 +1,9 @@
 ---
 title: "Download Lc0"
 weight: 200
-# layout: download
 ---
 
-The latest stable version of Lc0 is **[{{< param lc0version >}}](https://github.com/LeelaChessZero/lc0/releases/tag/{{<param lc0version>}})**.
-
-Older versions and beta releases are available at our [GitHub releases page](https://github.com/LeelaChessZero/lc0/releases).
+Latest stable version: **[{{< param lc0version >}}](https://github.com/LeelaChessZero/lc0/releases/tag/{{<param lc0version>}})** | [All Releases](https://github.com/LeelaChessZero/lc0/releases)
 
 ## Choose Your Platform
 
@@ -31,6 +28,13 @@ Select the version that matches your hardware:
 |----------|---------------------|---------------|
 | AMD/Intel GPUs | DirectML[^1] | [Download ONNX-DML Version](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-onnx-dml.zip) |
 | Generic GPUs | OpenCL | [Download OpenCL Version](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-gpu-opencl.zip) |
+
+#### CPU Only (No GPU)
+| GPU Type | Recommended Version | Download Link |
+|----------|---------------------|---------------|
+| **Modern CPU only** (2009+) | DNNL BLAS | [DNNL BLAS Version](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-dnnl.zip)     |
+| **Older CPU only** | OpenBLAS | [OpenBLAS Version](https://github.com/LeelaChessZero/lc0/releases/download/{{<param lc0version>}}/lc0-{{<param lc0version>}}-windows-cpu-openblas.zip)  |
+
 
 [^1]: Requires a very recent DirectML dll, see the included `README` for instructions
 
