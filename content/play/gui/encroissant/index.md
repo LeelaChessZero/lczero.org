@@ -1,53 +1,60 @@
 ---
-title: "En croissanr"
+title: "En Croissant"
 weight: 4000
-summary: "Installing the Lc0 in En Croissant"
+summary: "Installing the Lc0 engine in En Croissant"
 ---
 
-# 1. On windows
-The LC0 engine is available on windows in the application go to engines and then LC0
+# 1. On Windows
+The LC0 engine is available on Windows. In the application, go to Engines and then select LC0.
 
-# 2. On mac
+# 2. On macOS
 ## 2.1 Locate the engine
-Follow the instructions to install lc0 with brew in the "Dowload Lc0".
+Follow the instructions to install lc0 with Homebrew in the "Download Lc0" section.
 
-After installation locate your engine with the command : 
+After installation, locate your engine with the command:
+```
 brew info lc0
+```
 
-The command should give you the path where is located the Lc0 engine :
-For exemmple :
+The command should give you the path where the Lc0 engine is located.
+For example:
+```
 Installed
 /opt/homebrew/Cellar/lc0/0.31.2
+```
 
-## 2.2 Add it in en-croissant
+## 2.2 Add it to En Croissant
 
-Take a cofee, then launch en-croissant.
-### 1 - Add an engine
-Go to engine, and then "add new"
+Take a coffee break, then launch En Croissant.
 
-### 2 - Select the engine file
+### Step 1 - Add an engine
+Go to Engines, and then click "Add New"
 
-- Go to local tab.
+### Step 2 - Select the engine file
 
-- Click on binary file.  
-  
-A finder should open to let user choose where the engine is installed.
-  
-On macOS, the /opt/homebrew/ directory is a system-level directory that's hidden by default in Finder.
-To locate the engine and use it :
-- In finder press Cmd + Shift + G (or go to Go menu → Go to Folder) to browse a path
-- Then copy past the path of the engine (see 2.1 section).
-- The file to select is located in the bin folder
-- Select the file lc0 (bin/lc0)
+- Go to the Local tab.
+- Click on "Binary file".
 
-### 3 - Launch a game or annalysis
-Create a game and select the lc0 engine or or lauch analysis board with lc0.
+A Finder window should open to let you choose where the engine is installed.
 
-### Detail of step in picture
+On macOS, the `/opt/homebrew/` directory is a system-level directory that's hidden by default in Finder.
 
-#### step 1
-![picture of the engine section location in en croissant located on the botton of the left bar menu](step010.png "Location of the engine menu")
- #### step 2
-![picture of the engine section location in en croissant located on the botton of the left bar menu](step020.png "Location of the engine menu")
-#### step 3
-![picture of the engine section location in en croissant located on the botton of the left bar menu](step030.png "Location of the engine menu")
+To locate the engine and use it:
+- In Finder, press `Cmd + Shift + G` (or go to Go menu → Go to Folder) to browse to a specific path
+- Copy and paste the path of the engine (see section 2.1)
+- The file to select is located in the `bin` folder
+- Select the file `lc0` (located at `bin/lc0`)
+
+### Step 3 - Launch a game or analysis
+Create a game and select the lc0 engine, or launch the analysis board with lc0.
+
+### Detailed steps with pictures
+
+#### Step 1
+![Engine section location in En Croissant, located at the bottom of the left sidebar menu](step010.png "Location of the engine menu")
+
+#### Step 2
+![Add engine details on the local engine tab](step020.png "Local engine execution")
+
+#### Step 3
+![Select the engine in Finder](step030.png "Select the engine in Finder")
