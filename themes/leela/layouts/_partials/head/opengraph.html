@@ -1,5 +1,5 @@
 {{/*  Source: https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_partials/opengraph.html  */}}
-<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}">
 
 {{- with or site.Title site.Params.title | plainify }}
   <meta property="og:site_name" content="{{ . }}">
@@ -16,6 +16,18 @@
 {{- with or .Params.locale site.Language.LanguageCode }}
   <meta property="og:locale" content="{{ replace . `-` `_` }}">
 {{- end }}
+
+{{- with or .Title site.Title site.Params.title | plainify }}
+  <meta name="twitter:title" content="{{ . }}">
+{{- end }}
+
+{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+  <meta name="twitter:description" content="{{ trim . "\n\r\t " }}">
+{{- end }}
+
+
+<meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
+<meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
 
 {{- if .IsPage }}
   <meta property="og:type" content="article">

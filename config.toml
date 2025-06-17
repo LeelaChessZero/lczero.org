@@ -62,16 +62,15 @@ summaryLength = 30
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
 
-  # [params.homepage_meta_tags]
-  #   meta_description = "Leela Chess Zero is an open source neural network based chess engine."
-  #   meta_og_title = "Leela Chess Zero"
-  #   meta_og_type = "website"
-  #   meta_og_url = "https://hugo-whisper.netlify.com"
-  #   meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-  #   meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
-  #   meta_twitter_card = "summary"
-  #   meta_twitter_site = "@zerostaticio"
-  #   meta_twitter_creator = "@zerostaticio"
+  [params.homepage_meta_tags]
+    meta_description = "Leela Chess Zero is an open source neural network based chess engine."
+    meta_og_title = "Leela Chess Zero"
+    meta_og_type = "website"
+    meta_og_url = "https://lczero.org"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "Leela Chess Zero is an open source neural network based chess engine."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@leelachesszero"
 
   [params.logo]
       mobile = "/images/logo.svg"
