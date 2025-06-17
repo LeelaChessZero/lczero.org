@@ -15,6 +15,7 @@ Popular GUIs are:
 * [Nibbler](https://github.com/rooklift/nibbler/releases) (free, has Lc0 specific features)
 * [Chessbase](https://chessbase.com/) (paid).
 * [jose](https://peteschaefer.github.io/jose) (free, has Lc0 specific features)
+* [En Croissant](https://encroissant.org/) (free, open source, cross-platform windows mac linux)
 
 #### 2. Download Lc0
 
