@@ -17,11 +17,11 @@
   <meta property="og:locale" content="{{ replace . `-` `_` }}">
 {{- end }}
 
-{{- with or .Title site.Title site.Params.title | plainify }}
+{{- with or .Title .site.Title .Site.Params.homepage_meta_tags.meta_og_title | plainify }}
   <meta name="twitter:title" content="{{ . }}">
 {{- end }}
 
-{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+{{- with or .Description .Summary .Site.Params.homepage_meta_tags.Params.meta_description | plainify | htmlUnescape }}
   <meta name="twitter:description" content="{{ trim . "\n\r\t " }}">
 {{- end }}
 
