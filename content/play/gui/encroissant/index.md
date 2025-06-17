@@ -5,11 +5,15 @@ summary: "Installing the Lc0 engine in En Croissant"
 ---
 
 # 1. On Windows
-The LC0 engine is available on Windows. In the application, go to Engines and then select LC0.
-
+  
+The lc0 engine is directly available on "en croissant" Windows Version.  
+To enable it :
+- Go to "Engines" (menu on the left) and then select lc0.  
+- This should download the last version of lc0 ready to use.  
+  
 # 2. On macOS
 ## 2.1 Locate the engine
-Follow the instructions to install lc0 with Homebrew in the "Download Lc0" section.
+Follow the instructions to install lc0 with Homebrew in the [Download Lc0]({{<ref "download">}}) section.  
 
 After installation, locate your engine with the command:
 ```
@@ -20,7 +24,7 @@ The command should give you the path where the Lc0 engine is located.
 For example:
 ```
 Installed
-/opt/homebrew/Cellar/lc0/0.31.2
+/opt/homebrew/Cellar/lc0/{{<param lc0version>}}
 ```
 
 ## 2.2 Add it to En Croissant
