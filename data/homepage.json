@@ -1,0 +1,44 @@
+{
+    "features": {
+      "title": "Why Leela Chess Zero?",
+      "subtitle": "Experience a revolutionary approach to chess strategy and analysis.",
+      "items": [
+        {
+          "title": "A True Learning Machine",
+          "description": "Lc0 uses a powerful neural network that learned chess through self-play, resulting in a unique and intuitive style, free from human bias.",
+          "icon": "fas fa-brain"
+        },
+        {
+          "title": "Unrivaled Positional Insight",
+          "description": "Leela deeply understands long-term strategy, pawn structures, and subtle moves, uncovering insights other engines miss.",
+          "icon": "fas fa-chess-board"
+        },
+        {
+          "title": "Open Source",
+          "description": "Completely free and open source, developed by a community of enthusiasts and researchers.",
+          "icon": "fas fa-code-branch"
+        }
+      ]
+    },
+    "community": {
+      "title": "Join Our Community",
+      "description": "LCZero is powered by a vibrant community of chess enthusiasts, programmers, and researchers.",
+      "links": [
+        {
+          "name": "Discord",
+          "link": "https://discord.gg/pKujYxD",
+          "icon": "fab fa-discord"
+        },
+        {
+          "name": "GitHub",
+          "link": "https://github.com/LeelaChessZero/lczero",
+          "icon": "fab fa-github"
+        },
+        {
+          "name": "Twitter",
+          "link": "https://twitter.com/LeelaChessZero",
+          "icon": "fab fa-twitter"
+        }
+      ]
+    }
+  }

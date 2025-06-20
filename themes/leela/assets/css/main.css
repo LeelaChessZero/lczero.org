@@ -518,3 +518,267 @@ footer {
 .blog-summary-title a {
     font-size: 1.2rem;
 }
+
+
+/* Base Alert Styles */
+.alert {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid hsl(327, 82%, 51%);
+  background-color: white;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.alert-header {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: hsl(327, 82%, 51%);
+  font-size: 1.1em;
+}
+
+/* Note Alert */
+.alert-note {
+  border-left-color: hsl(210, 80%, 60%);
+  background-color: hsl(210, 80%, 98%);
+}
+
+.alert-note .alert-header {
+  color: hsl(210, 80%, 40%);
+}
+
+/* Warning Alert */
+.alert-warning {
+  border-left-color: hsl(40, 90%, 50%);
+  background-color: hsl(40, 90%, 96%);
+}
+
+.alert-warning .alert-header {
+  color: hsl(40, 90%, 35%);
+}
+
+/* Tip Alert */
+.alert-tip {
+  border-left-color: hsl(120, 70%, 45%);
+  background-color: hsl(120, 70%, 97%);
+}
+
+.alert-tip .alert-header {
+  color: hsl(120, 70%, 30%);
+}
+
+/* Caution Alert */
+.alert-caution {
+  border-left-color: hsl(0, 80%, 50%);
+  background-color: hsl(0, 80%, 97%);
+}
+
+.alert-caution .alert-header {
+  color: hsl(0, 80%, 40%);
+}
+
+/* Important Alert */
+.alert-important {
+  border-left-color: hsl(327, 82%, 51%);
+  background-color: hsl(327, 82%, 96%);
+}
+
+.alert-important .alert-header {
+  color: hsl(327, 82%, 35%);
+}
+
+.hero {
+  position: relative;
+  padding: 4rem 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-margin {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero .content {
+  margin-bottom: 2rem;
+}
+
+.hero .content p {
+  font-size: 1.25rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+
+/* Features Section */
+.features-section {
+  padding: 5rem 0;
+  border-top: 1px solid #e9ecef;
+}
+
+.features-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.features-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.features-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.features-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-color: hsl(327, 82%, 51%);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: hsl(327, 82%, 51%);
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.feature-description {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Community Section */
+.community-section {
+  padding: 5rem 0;
+  border-top: 1px solid #e9ecef;
+}
+
+.community-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.community-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.community-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.community-description {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.community-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.community-link {
+  display: block;
+  text-decoration: none;
+  padding: 2rem;
+  border: 1px solid #e9ecef;
+  border-radius: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+.community-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: hsl(327, 82%, 51%);
+}
+
+.community-link .icon-placeholder {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.community-link-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}
+
+/* Training Site Notice */
+.training-notice .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.training-notice p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}

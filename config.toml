@@ -52,9 +52,11 @@ summaryLength = 30
   [[params.homepage_button]]
     link = "/play/download"
     text = "Download"
+    icon = "fab fa-github"
   [[params.homepage_button]]
     link = "/play/quickstart"
-    text = "Quick start"
+    text = "Quick start"   
+    icon = "fas fa-play-circle"
 
   [permalinks]
     blog = "/blog/:year/:month/:slug/"
