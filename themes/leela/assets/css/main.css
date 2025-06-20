@@ -782,3 +782,49 @@ footer {
   font-size: 1.1rem;
   color: #333;
 }
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .content p {
+    font-size: 1.1rem;
+  }
+  
+  
+  .features-title,
+  .community-title {
+    font-size: 2rem;
+  }
+  
+  .features-grid,
+  .community-links {
+    grid-template-columns: 1fr;
+  }
+  
+  .hero,
+  .features-section,
+  .community-section {
+    padding: 3rem 0;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero .container,
+  .features-section .container,
+  .community-section .container,
+  .training-notice .container {
+    padding: 0 1rem;
+  }
+  
+  .feature-card,
+  .community-link {
+    padding: 1.5rem;
+  }
+}
