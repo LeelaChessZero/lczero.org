@@ -1,7 +1,6 @@
 Batchsize---Node-Collisions-Testing
 Beginner-Friendly-Guide-on-Training-and-Testing-a-Net-on-Google-Colab
 Benchmarks
-Best-Nets-for-Lc0
 Building-lc0-on-Android,-with-Termux
 Building-lc0-with-Termux
 CCCC
