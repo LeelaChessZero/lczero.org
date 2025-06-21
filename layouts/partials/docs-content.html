@@ -1,0 +1,36 @@
+<div id="overlay"></div>
+<div class="main-container">
+    {{ partial "docs-sidebar.html" . }}
+    <div class="content-container">
+      {{if .Params.wikiname }}
+      <a href="https://github.com/LeelaChessZero/lc0/wiki/{{ .Params.wikiname }}/_edit" class="button-floating"
+        target="_blank">
+        Edit on wiki</a>
+      {{else}}
+      <a href="https://github.com/LeelaChessZero/lczero.org/edit/master/content/{{ with .File }}{{ .Path }}{{ end }}"
+        class="button-floating" target="_blank">
+        Edit on GitHub</a>
+      {{end}}
+      <h1>{{ .Title }}</h1>
+  
+      {{if .Draft}}
+      <div class="banner">
+        <strong>This is a draft.</strong>
+        This page is not shown on the site. Remove <code>draft:true</code> from
+        the header to publish the page.
+      </div>
+      {{end}}
+  
+      {{ .Content }}
+  
+      {{ if and (ne .Kind "page") (default true .Params.show_contents) }}
+      {{ range.Pages }}
+      {{ .Render "summary" }}
+      {{ end }}
+      {{ else }}
+      <div class="last-updated">
+        Last Updated: {{ .Page.Lastmod.Format "2006-01-02" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
