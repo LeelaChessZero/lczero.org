@@ -1,15 +1,15 @@
 {{ $emojis := dict
   "caution" ":exclamation:"
-  "important" ":information_source:"
+  "important" ":bangbang:"
   "note" ":information_source:"
   "tip" ":bulb:"
-  "warning" ":information_source:"
+  "warning" ":rotating_light:" 
 }}
 
 {{ if eq .Type "alert" }}
   {{ if eq .AlertSign "-" }}
     <!-- Collapsible Blockquote -->
-    <details>
+    <details class="alert alert-{{ .AlertType }}">
       <summary>
         {{ transform.Emojify (index $emojis .AlertType) }} 
         {{ .AlertTitle | default (title .AlertType) }}
@@ -18,7 +18,7 @@
     </details>
   {{ else if eq .AlertSign "+" }}
     <!-- Expandable Blockquote -->
-    <details open>
+    <details open class="alert alert-{{ .AlertType }}">
       <summary>
         {{ transform.Emojify (index $emojis .AlertType) }} 
         {{ .AlertTitle | default (title .AlertType) }}
@@ -27,7 +27,7 @@
     </details>
   {{ else }}
     <!-- Regular Blockquote -->
-    <blockquote>
+    <blockquote class="alert alert-{{ .AlertType }}">
       <p>
         {{ transform.Emojify (index $emojis .AlertType) }} 
         {{ .AlertTitle | default (title .AlertType) }}
