@@ -108,6 +108,10 @@ header {
     text-decoration: none;
 }
 
+.main-menu > ul > li > a:hover {
+  text-decoration: underline;
+}
+
 .main-menu>ul>li.active>a {
     font-weight: 700;
 }
@@ -317,7 +321,7 @@ em {
 .button {
     white-space: nowrap;
     display: inline-block;
-    padding: 8px 15px 6px;
+    padding: 8px 1rem;
     background: var(--link-color);
     font-weight: 400;
     text-transform: uppercase;
@@ -325,7 +329,7 @@ em {
     text-decoration: none;
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
-    border-radius: 3px;
+    border-radius: 0.5rem;
 }
 
 main {
@@ -590,7 +594,7 @@ footer {
 
 .hero {
   position: relative;
-  padding: 4rem 0;
+  padding: 2rem 0;
   min-height: 60vh;
   display: flex;
   align-items: center;
@@ -672,7 +676,7 @@ footer {
   text-align: center;
   padding: 2rem;
   border-radius: 1rem;
-  border: 1px solid #e9ecef;
+  border: 1px solid hsl(327, 36%, 40%);
   transition: all 0.3s ease;
 }
 
