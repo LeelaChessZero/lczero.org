@@ -28,8 +28,8 @@ summaryLength = 30
     weight = 40
 
 [[menu.main]]
-    name = "Development"
-    url = "/dev"
+    name = "Documentation"
+    url = "/documentation"
     weight = 50
 
 [[menu.main]]
@@ -52,11 +52,9 @@ summaryLength = 30
   [[params.homepage_button]]
     link = "/play/download"
     text = "Download"
-    icon = "fab fa-github"
   [[params.homepage_button]]
     link = "/play/quickstart"
-    text = "Quick start"   
-    icon = "fas fa-play-circle"
+    text = "Quick start"
 
   [permalinks]
     blog = "/blog/:year/:month/:slug/"

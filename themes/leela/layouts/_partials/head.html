@@ -5,6 +5,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
+{{ if default false .FirstSection.Params.documentation_home }}
+    {{ partialCached "head/docs-css+js.html" . }}
+{{ end }}
 {{ partialCached "head/js.html" . }}
 {{ if .Param "math" }}
   {{ partialCached "math.html" . }}

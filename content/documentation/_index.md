@@ -2,6 +2,7 @@
 title: 'Future Home to documentation'
 show_contents: false
 layout: single
+documentation_home: true
 ---
 
 Just a test page, carry on.
