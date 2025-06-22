@@ -35,9 +35,9 @@
           "icon": "fab fa-github"
         },
         {
-          "name": "Twitter",
-          "link": "https://twitter.com/LeelaChessZero",
-          "icon": "fab fa-twitter"
+          "name": "X (Twitter)",
+          "link": "https://x.com/LeelaChessZero",
+          "icon": "fab fa-x-twitter"
         }
       ]
     }
