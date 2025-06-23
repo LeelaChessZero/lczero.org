@@ -1,9 +1,10 @@
 {{ $emojis := dict
-  "caution" ":exclamation:"
-  "important" ":bangbang:"
-  "note" ":information_source:"
-  "tip" ":bulb:"
-  "warning" ":rotating_light:" 
+  "caution" "fa-fw fas fa-hand"
+  "important" "fa-fw fas fa-bolt"
+  "info" "fa-fw fas fa-info-circle"
+  "note" "fa-fw fas fa-exclamation-circle"
+  "tip" "fa-fw fas fa-lightbulb"
+  "warning" "fa-fw fas fa-exclamation-triangle" 
 }}
 
 {{ if eq .Type "alert" }}
@@ -11,7 +12,7 @@
     <!-- Collapsible Blockquote -->
     <details class="alert alert-{{ .AlertType }}">
       <summary>
-        {{ transform.Emojify (index $emojis .AlertType) }} 
+        <i class="{{ index $emojis .AlertType }}"></i>
         {{ .AlertTitle | default (title .AlertType) }}
       </summary>
       {{ .Text | safeHTML }}
@@ -20,7 +21,7 @@
     <!-- Expandable Blockquote -->
     <details open class="alert alert-{{ .AlertType }}">
       <summary>
-        {{ transform.Emojify (index $emojis .AlertType) }} 
+        <i class="{{ index $emojis .AlertType }}"></i>
         {{ .AlertTitle | default (title .AlertType) }}
       </summary>
       {{ .Text }}
@@ -28,11 +29,13 @@
   {{ else }}
     <!-- Regular Blockquote -->
     <blockquote class="alert alert-{{ .AlertType }}">
-      <p>
-        {{ transform.Emojify (index $emojis .AlertType) }} 
+      <summary class="alert-header">
+        <i class="{{ index $emojis .AlertType }}"></i>
         {{ .AlertTitle | default (title .AlertType) }}
-      </p>
-      {{ .Text }}
+      </summary>
+      <div class="alert-content">
+        {{ .Text }}
+      </div>
     </blockquote>
   {{ end }}
 {{ else }}

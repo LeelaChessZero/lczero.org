@@ -1,7 +1,6 @@
 ---
 title: 'Future Home to documentation'
 show_contents: false
-layout: single
 documentation_home: true
 ---
 
@@ -17,6 +16,9 @@ Just a test page, carry on.
 
 > [!TIP] 
 > Pro tip: Comment your code.
+
+> [!INFO] 
+> For your information: This message contains information.
 
 > [!NOTE] 
 > This note is here to look official. Carry on.

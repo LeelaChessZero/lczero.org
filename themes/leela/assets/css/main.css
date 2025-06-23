@@ -51,11 +51,16 @@
     --alert-tip-color: hsl(120, 70%, 45%);
     --alert-tip-bg: hsl(120, 70%, 97%);
     --alert-tip-header: hsl(120, 70%, 30%);
-    --alert-caution-color: hsl(0, 80%, 50%);
-    --alert-caution-bg: hsl(0, 80%, 97%);
-    --alert-caution-header: hsl(0, 80%, 40%);
-    --alert-important-bg: hsl(327, 82%, 96%);
-    --alert-important-header: hsl(327, 82%, 35%);
+    --alert-important-color: hsl(0, 80%, 50%);
+    --alert-important-bg: hsl(0, 80%, 97%);
+    --alert-important-header: hsl(0, 80%, 40%);
+    --alert-caution-bg: hsl(327, 82%, 96%);
+    --alert-caution-header: hsl(327, 82%, 35%);
+    --alert-caution-color: hsl(327, 82%, 51%);
+    /*TODO*/
+    --alert-info-bg: hsl(180, 70%, 96%);
+    --alert-info-header: hsl(180, 70%, 35%);
+    --alert-info-color: hsl(180, 70%, 50%);
 }
 
 *,
@@ -622,12 +627,22 @@ footer {
 
 /* Important Alert */
 .alert-important {
-  border-left-color: var(--link-color);
+  border-left-color: var(--alert-important-color);
   background-color: var(--alert-important-bg);
 }
 
 .alert-important .alert-header {
   color: var(--alert-important-header);
+}
+
+/* Info Alert */
+.alert-info {
+  border-left-color: var(--alert-info-color);
+  background-color: var(--alert-info-bg);
+}
+
+.alert-info .alert-header {
+  color: var(--alert-info-header);
 }
 
 .hero {
