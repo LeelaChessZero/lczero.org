@@ -1,0 +1,66 @@
+
+
+<aside class="doc-sidebar" id="doc-sidebar">
+    {{ $currentNode := . }}
+    <div class="doc-sidebar-content">
+        <ul class="topics">
+            {{range .FirstSection.Sections.ByWeight}}
+            {{template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+            {{ end }}
+        </ul>
+    </div>
+</aside>
+
+{{ define "section-tree-nav" }}
+{{ $currentNode := .currentnode }}
+{{ $currentFileUniqueID := "" }}
+{{ with $currentNode.File }}{{ $currentFileUniqueID = .UniqueID }}{{ end }}
+ {{with .sect}}
+  {{if and .IsSection (or (not .Params.hidden) $.showhidden)}}
+    {{safeHTML .Params.head}}
+    <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dd-item
+        {{if .IsAncestor $currentNode }}parent{{end}}
+        {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}
+        {{if .Params.alwaysopen}}parent{{end}}
+        ">
+      <a href="{{.RelPermalink}}">
+          {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
+      </a>
+      {{ $numberOfPages := (add (len ( where .Pages "Params.hidden" "ne" true )) (len ( where .Sections "Params.hidden" "ne" true ))) }}
+      {{ if ne $numberOfPages 0 }}
+        <ul>
+          {{ $currentNode.Scratch.Set "pages" .Pages }}
+          {{ if .Sections}}
+            {{ $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}
+          {{end}}
+          {{ $pages := ($currentNode.Scratch.Get "pages") }}
+
+        {{if eq .Site.Params.ordersectionsby "title"}}
+          {{ range $pages.ByTitle }}
+            {{ if and .Params.hidden (not $.showhidden) }}
+            {{else}}
+            {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+            {{end}}
+          {{ end }}
+        {{else}}
+          {{ range $pages.ByWeight }}
+            {{ if and .Params.hidden (not $.showhidden) }}
+            {{else}}
+            {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+            {{end}}
+          {{ end }}
+        {{end}}
+        </ul>
+      {{ end }}
+    </li>
+  {{else}}
+    {{ if not .Params.Hidden }}
+      <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dd-item {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}">
+        <a href="{{ .RelPermalink}}">
+        {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
+        </a>
+    </li>
+     {{ end }}
+  {{end}}
+ {{ end }}
+{{ end }}

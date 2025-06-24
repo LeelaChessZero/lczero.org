@@ -28,8 +28,8 @@ summaryLength = 30
     weight = 40
 
 [[menu.main]]
-    name = "Development"
-    url = "/dev"
+    name = "Documentation"
+    url = "/documentation"
     weight = 50
 
 [[menu.main]]

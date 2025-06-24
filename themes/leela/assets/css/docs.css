@@ -1,0 +1,283 @@
+:root {
+    /* Doc Sidebar Colors - White Theme */
+    --doc-sidebar-bg: hsl(0, 0%, 100%);
+    --doc-sidebar-color: hsl(0, 0%, 20%);
+    --doc-sidebar-hover: hsl(274, 82%, 56%);
+    --doc-sidebar-subtitle: hsl(0, 0%, 60%);
+    --doc-sidebar-divider: hsl(0, 0%, 90%);
+    --doc-sidebar-parent-bg: hsl(274, 50%, 96%);
+    --doc-sidebar-parent-color: hsl(274, 82%, 56%);
+    --doc-sidebar-active-bg: hsl(274, 50%, 96%);
+    --doc-sidebar-active-color: hsl(274, 82%, 56%);
+    --doc-sidebar-li-active-bg: hsl(327, 82%, 96%);
+    --doc-sidebar-li-active-color: hsl(327, 82%, 51%);
+    --doc-sidebar-li-parent-active-bg: hsl(327, 30%, 96%);
+    --doc-sidebar-visited-icon: hsl(274, 82%, 56%);
+    --doc-sidebar-shortcuts-heading: hsl(274, 82%, 56%);
+    --overlay-bg: hsla(0, 0%, 0%, 0.1);
+    
+    /* Pink accent colors (kept as requested) */
+    --pink-accent: hsl(327, 82%, 51%);
+    --pink-light: hsl(327, 82%, 96%);
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+
+/* Main container layout */
+.main-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-left: 300px;
+    /*max-width: var(--content-width, min(100%, 1140px));*/
+    min-height: 100vh;
+}
+
+.content-container, #doc-sidebar {
+    transition: all 0.5s ease;
+}
+
+.content-container {
+    padding: 15px 3rem;
+    width: var(--content-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#doc-sidebar-toggle-span {
+    display: none;
+    background: var(--doc-sidebar-bg);
+    color: var(--doc-sidebar-color);
+    border: 1px solid var(--doc-sidebar-divider);
+}
+@media only all and (max-width: 47.938em) {
+    #doc-sidebar-toggle-span {
+        display: inline;
+    }
+}
+#doc-sidebar {
+    background-color: var(--doc-sidebar-bg);
+    position: absolute;
+    top: 0;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+    font-weight: 400;
+    font-size: 15px;
+    border-right: 1px solid var(--doc-sidebar-divider);
+}
+#doc-sidebar a {
+    color: var(--doc-sidebar-color);
+}
+
+/*#doc-sidebar a:hover {
+    color: var(--doc-sidebar-hover);
+} */
+
+#doc-sidebar a.subtitle {
+    color: var(--doc-sidebar-subtitle);
+}
+#doc-sidebar hr {
+    border-bottom: 1px solid var(--doc-sidebar-divider);
+}
+#doc-sidebar a.padding {
+    padding: 0 1rem;
+}
+#doc-sidebar h5 {
+    margin: 2rem 0 0;
+    position: relative;
+    line-height: 2;
+}
+#doc-sidebar h5 a {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#doc-sidebar h5 i {
+    color: var(--doc-sidebar-subtitle);
+    position: absolute;
+    right: 0.6rem;
+    top: 0.7rem;
+    font-size: 80%;
+}
+#doc-sidebar h5.parent a {
+    background: var(--doc-sidebar-parent-bg);
+    color: var(--doc-sidebar-parent-color) !important;
+}
+#doc-sidebar h5.active a {
+    background: var(--doc-sidebar-active-bg);
+    color: var(--doc-sidebar-active-color) !important;
+}
+#doc-sidebar h5.active i {
+    color: var(--doc-sidebar-active-color) !important;
+}
+#doc-sidebar h5 + ul.topics {
+    display: none;
+    margin-top: 0;
+}
+#doc-sidebar h5.parent + ul.topics, #doc-sidebar h5.active + ul.topics {
+    display: block;
+}
+#doc-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#doc-sidebar ul.topics {
+    margin: 0 1rem;
+}
+#doc-sidebar ul.topics.searched ul {
+    display: block;
+}
+#doc-sidebar ul.topics ul {
+    display: none;
+    padding-bottom: 1rem;
+}
+#doc-sidebar ul.topics ul ul {
+    padding-bottom: 0;
+}
+#doc-sidebar ul.topics li.parent ul, #doc-sidebar ul.topics > li.active ul {
+    display: block;
+}
+#doc-sidebar ul.topics > li > a {
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+#doc-sidebar ul.topics > li > a b {
+    opacity: 0.5;
+    font-weight: normal;
+}
+#doc-sidebar ul.topics > li > a .fa {
+    margin-top: 9px;
+}
+#doc-sidebar ul.topics > li.parent, #doc-sidebar ul.topics > li.active {
+    background: var(--doc-sidebar-li-parent-active-bg);
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#doc-sidebar ul li.active > a {
+    background: var(--doc-sidebar-li-active-bg);
+    color: var(--pink-accent) !important;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#doc-sidebar ul li {
+    padding: 0;
+}
+#doc-sidebar ul li.visited + span {
+    margin-right: 16px;
+}
+#doc-sidebar ul li a {
+    display: block;
+    padding: 2px 0;
+}
+#doc-sidebar ul li a span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+#doc-sidebar ul li > a {
+    padding: 4px 0;
+}
+#doc-sidebar ul li.visited > a .read-icon {
+    color: var(--doc-sidebar-visited-icon);
+    display: inline;
+}
+#doc-sidebar ul li li {
+    padding-left: 1rem;
+    text-indent: 0.2rem;
+}
+
+@media only all and (max-width: 59.938em) {
+    #doc-sidebar {
+        width: 230px;
+    }
+    .main-container {
+        margin-left: 230px;
+    }
+}
+@media only all and (max-width: 47.938em) {
+    #doc-sidebar {
+        top: 0px;
+        padding-top: 1rem;
+        width: 230px;
+        left: -230px;
+        z-index: 1003; /* Ensure sidebar is above overlay */
+        transition: all 0.3s ease; /* Smoother transition */
+    }
+    
+    .main-container {
+        margin-left: 0;
+        width: 100%;
+        transition: transform 0.3s ease; /* Animate the push */
+    }
+    
+    .sidebar-shown {
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+    
+    .sidebar-shown #doc-sidebar {
+        left: 0;
+        transform: translateX(0);
+    }
+    
+    .sidebar-shown .content-container {
+        transform: translateX(230px); /* Push content by sidebar width */
+    }
+    
+    .sidebar-shown #overlay {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1002; /* Below sidebar but above content */
+        background: var(--overlay-bg);
+        cursor: pointer;
+    }
+}
+#doc-sidebar ul.topics > li > a .read-icon {
+    margin-top: 9px;
+}
+
+#doc-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#doc-sidebar #shortcuts li {
+    padding: 2px 0;
+    list-style: none;
+}
+
+#doc-sidebar ul li .read-icon {
+    display: none;
+    float: right;
+    font-size: 13px;
+    min-width: 16px;
+    margin: 4px 0 0 0;
+    text-align: right;
+}
+#doc-sidebar ul li.visited > a .read-icon {
+    color: var(--doc-sidebar-visited-icon);
+    display: inline;
+}
+
+#doc-sidebar #shortcuts h3 {
+    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    color: var(--doc-sidebar-shortcuts-heading);
+    margin-top:1rem;
+    padding-left: 1rem;
+}
