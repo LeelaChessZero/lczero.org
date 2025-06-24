@@ -1,7 +1,55 @@
 <div id="overlay"></div>
+{{ partial "docs-sidebar.html" . }}
 <div class="main-container">
-    {{ partial "docs-sidebar.html" . }}
     <div class="content-container">
+      <div class="bottom-nav">
+        {{/*  Credit to Learn (https://github.com/matcornic/hugo-theme-learn) */}}
+        {{ $currentNode := . }}
+
+        {{ template "menu-nextprev" dict "menu" .FirstSection "currentnode" $currentNode }}
+
+        {{ define "menu-nextprev" }}
+            {{$currentNode := .currentnode }}
+            {{ if ne .menu.Params.hidden true}}
+                {{if hasPrefix $currentNode.RelPermalink .menu.RelPermalink }}
+                    {{ $currentNode.Scratch.Set "NextPageOK" "OK" }}
+                    {{ $currentNode.Scratch.Set "prevPage" ($currentNode.Scratch.Get "prevPageTmp") }}
+                {{else}}
+                    {{if eq ($currentNode.Scratch.Get "NextPageOK") "OK"}}
+                        {{ $currentNode.Scratch.Set "NextPageOK" nil }}
+                        {{ $currentNode.Scratch.Set "nextPage" .menu }}
+                    {{end}}
+                {{end}}
+                {{ $currentNode.Scratch.Set "prevPageTmp" .menu }}
+
+                    {{ $currentNode.Scratch.Set "pages" .menu.Pages }}
+                    {{ if .menu.IsHome}}
+                        {{ $currentNode.Scratch.Set "pages" .menu.Sections }}
+                    {{ else if .menu.Sections}}
+                        {{ $currentNode.Scratch.Set "pages" (.menu.Pages | union .menu.Sections) }}
+                    {{end}}
+                    {{ $pages := ($currentNode.Scratch.Get "pages") }}
+
+                    {{ range $pages.ByWeight  }}
+                        {{ template "menu-nextprev" dict "menu" . "currentnode" $currentNode }}
+                    {{end}}
+            {{ end }}
+        {{ end }}
+
+      {{ $prev := $.Scratch.Get "prevPage" }}
+      {{ $next := $.Scratch.Get "nextPage" }}
+      <a class="{{ if not $prev }}feature-description{{ end }}" {{ if $prev }}href="{{ $prev.Permalink }}"{{ end }}>
+        <i class="fa-fw fas fa-chevron-left"></i>
+        {{ if $prev }}{{ $prev.Title }}{{ end }}
+      </a>
+      <a class="{{ if not $next }}feature-description{{ end }}" {{ if $next }}href="{{ $next.Permalink }}"{{ end }}>
+        {{ if $next }}{{ $next.Title }}{{ end }}
+        <i class="fa-fw fas fa-chevron-right"></i>
+      </a>
+
+      </div>
+      
+    <button id="doc-sidebar-toggle-span">&times;</button>
       {{if .Params.wikiname }}
       <a href="https://github.com/LeelaChessZero/lc0/wiki/{{ .Params.wikiname }}/_edit" class="button-floating"
         target="_blank">
