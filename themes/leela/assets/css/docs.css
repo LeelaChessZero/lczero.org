@@ -1,10 +1,39 @@
+:root {
+    /* Doc Sidebar Colors - White Theme */
+    --doc-sidebar-bg: hsl(0, 0%, 100%);
+    --doc-sidebar-color: hsl(0, 0%, 20%);
+    --doc-sidebar-hover: hsl(274, 82%, 56%);
+    --doc-sidebar-subtitle: hsl(0, 0%, 60%);
+    --doc-sidebar-divider: hsl(0, 0%, 90%);
+    --doc-sidebar-parent-bg: hsl(274, 50%, 96%);
+    --doc-sidebar-parent-color: hsl(274, 82%, 56%);
+    --doc-sidebar-active-bg: hsl(274, 50%, 96%);
+    --doc-sidebar-active-color: hsl(274, 82%, 56%);
+    --doc-sidebar-li-active-bg: hsl(327, 82%, 96%);
+    --doc-sidebar-li-active-color: hsl(327, 82%, 51%);
+    --doc-sidebar-li-parent-active-bg: hsl(327, 30%, 96%);
+    --doc-sidebar-visited-icon: hsl(274, 82%, 56%);
+    --doc-sidebar-shortcuts-heading: hsl(274, 82%, 56%);
+    --overlay-bg: hsla(0, 0%, 0%, 0.1);
+    
+    /* Pink accent colors (kept as requested) */
+    --pink-accent: hsl(327, 82%, 51%);
+    --pink-light: hsl(327, 82%, 96%);
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+
 /* Main container layout */
 .main-container {
     display: flex;
+    position: relative;
     flex-direction: row;
-    /*max-width: var(--content-width, min(100%, 1140px));*/
-    
     margin: 0 auto;
+    margin-left: 300px;
+    /*max-width: var(--content-width, min(100%, 1140px));*/
     min-height: 100vh;
 }
 
@@ -14,12 +43,16 @@
 
 .content-container {
     padding: 15px 3rem;
-    padding-left: 0px;
-    margin-left: 300px;
+    width: var(--content-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #doc-sidebar-toggle-span {
     display: none;
+    background: var(--doc-sidebar-bg);
+    color: var(--doc-sidebar-color);
+    border: 1px solid var(--doc-sidebar-divider);
 }
 @media only all and (max-width: 47.938em) {
     #doc-sidebar-toggle-span {
@@ -27,29 +60,29 @@
     }
 }
 #doc-sidebar {
-    /*background-color: hsl(274, 14%, 19%);*/
-    position: fixed;
-    top: 76px;
+    background-color: var(--doc-sidebar-bg);
+    position: absolute;
+    top: 0;
     width: 300px;
     bottom: 0;
     left: 0;
     font-weight: 400;
     font-size: 15px;
+    border-right: 1px solid var(--doc-sidebar-divider);
 }
 #doc-sidebar a {
-    color: var(--content-color);
+    color: var(--doc-sidebar-color);
 }
-/*
-#doc-sidebar a:hover {
-    color: #e6e6e6;
 
-}
-*/
+/*#doc-sidebar a:hover {
+    color: var(--doc-sidebar-hover);
+} */
+
 #doc-sidebar a.subtitle {
-    color: rgba(204, 204, 204, 0.6);
+    color: var(--doc-sidebar-subtitle);
 }
 #doc-sidebar hr {
-    border-bottom: 1px solid #2a232f;
+    border-bottom: 1px solid var(--doc-sidebar-divider);
 }
 #doc-sidebar a.padding {
     padding: 0 1rem;
@@ -67,22 +100,22 @@
     padding-right: 1rem;
 }
 #doc-sidebar h5 i {
-    color: rgba(204, 204, 204, 0.6);
+    color: var(--doc-sidebar-subtitle);
     position: absolute;
     right: 0.6rem;
     top: 0.7rem;
     font-size: 80%;
 }
 #doc-sidebar h5.parent a {
-    background: #201b24;
-    color: #d9d9d9 !important;
+    background: var(--doc-sidebar-parent-bg);
+    color: var(--doc-sidebar-parent-color) !important;
 }
 #doc-sidebar h5.active a {
-    background: #fff;
-    /*color: #777 !important;*/
+    background: var(--doc-sidebar-active-bg);
+    color: var(--doc-sidebar-active-color) !important;
 }
 #doc-sidebar h5.active i {
-    color: #777 !important;
+    color: var(--doc-sidebar-active-color) !important;
 }
 #doc-sidebar h5 + ul.topics {
     display: none;
@@ -124,15 +157,15 @@
     margin-top: 9px;
 }
 #doc-sidebar ul.topics > li.parent, #doc-sidebar ul.topics > li.active {
-    background: hsl(327, 30%, 80%);
+    background: var(--doc-sidebar-li-parent-active-bg);
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 #doc-sidebar ul li.active > a {
-    background: hsl(327, 82%, 51%);
-    /*color: #777 !important;*/
+    background: var(--doc-sidebar-li-active-bg);
+    color: var(--pink-accent) !important;
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
@@ -158,7 +191,7 @@
     padding: 4px 0;
 }
 #doc-sidebar ul li.visited > a .read-icon {
-    color: #9c6fb6;
+    color: var(--doc-sidebar-visited-icon);
     display: inline;
 }
 #doc-sidebar ul li li {
@@ -170,37 +203,47 @@
     #doc-sidebar {
         width: 230px;
     }
-    .content-container {
+    .main-container {
         margin-left: 230px;
     }
 }
 @media only all and (max-width: 47.938em) {
     #doc-sidebar {
+        top: 0px;
+        padding-top: 1rem;
         width: 230px;
         left: -230px;
+        z-index: 1003; /* Ensure sidebar is above overlay */
+        transition: all 0.3s ease; /* Smoother transition */
     }
-    .content-container {
+    
+    .main-container {
         margin-left: 0;
         width: 100%;
+        transition: transform 0.3s ease; /* Animate the push */
     }
-    .sidebar-hidden {
-        overflow: hidden;
+    
+    .sidebar-shown {
+        overflow-x: hidden; /* Prevent horizontal scroll */
     }
-    .sidebar-hidden #doc-sidebar {
+    
+    .sidebar-shown #doc-sidebar {
         left: 0;
+        transform: translateX(0);
     }
-    .sidebar-hidden .content-container {
-        margin-left: 230px;
-        overflow: hidden;
+    
+    .sidebar-shown .content-container {
+        transform: translateX(230px); /* Push content by sidebar width */
     }
-    .sidebar-hidden #overlay {
-        position: absolute;
+    
+    .sidebar-shown #overlay {
+        position: fixed;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
-        z-index: 10;
-        background: rgba(255, 255, 255, 0.5);
+        z-index: 1002; /* Below sidebar but above content */
+        background: var(--overlay-bg);
         cursor: pointer;
     }
 }
@@ -228,13 +271,13 @@
     text-align: right;
 }
 #doc-sidebar ul li.visited > a .read-icon {
-    color: #00bdf3;
+    color: var(--doc-sidebar-visited-icon);
     display: inline;
 }
 
 #doc-sidebar #shortcuts h3 {
     font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    color: white ;
+    color: var(--doc-sidebar-shortcuts-heading);
     margin-top:1rem;
     padding-left: 1rem;
 }

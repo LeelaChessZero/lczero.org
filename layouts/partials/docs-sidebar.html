@@ -1,8 +1,7 @@
 
 
-<nav class="doc-sidebar" id="doc-sidebar">
+<aside class="doc-sidebar" id="doc-sidebar">
     {{ $currentNode := . }}
-    <button id="doc-sidebar-toggle-span" onclick="closeSidebar()">&times;</button>
     <div class="doc-sidebar-content">
         <ul class="topics">
             {{range .FirstSection.Sections.ByWeight}}
@@ -10,7 +9,7 @@
             {{ end }}
         </ul>
     </div>
-</nav>
+</aside>
 
 {{ define "section-tree-nav" }}
 {{ $currentNode := .currentnode }}
