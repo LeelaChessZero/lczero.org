@@ -1,25 +1,79 @@
-{{ define "title" }}{{ .Site.Title }}{{ end}}
+{{ define "title" }}{{ .Site.Title }}{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
-<h1>{{ .Title | default .Site.Title }}</h1>
-<div class="content">
-  {{ if .Content }}
-  {{ .Content }}
-  {{ else }}
-  <p>{{ .Site.Params.homepage_intro }}</p>
-  {{ end }}
-</div>
-{{ range .Site.Params.homepage_button }}
-<a class="button button-primary mb-2" href="{{ .link | relURL }}">
-  {{ .text }}
-</a>
+
+ <!-- Hero Section -->
+ <section class="hero">
+  <div class="container">
+      <div class="hero-margin">
+          <h1>{{ .Title | default .Site.Title }}</h1>
+          <div class="content">
+              {{ if .Content }}
+                  {{ .Content }}
+              {{ else }}
+                  <p>{{ .Site.Params.homepage_intro }}</p>
+              {{ end }}
+          </div>
+          {{ range .Site.Params.homepage_button }}
+          <a class="button button-primary" href="{{ .link | relURL }}">
+              {{ .text }}
+          </a>
+          {{ end }}
+      </div>
+    </div>
+    <img class="home-large-logo" src="/images/logo_v2.svg" alt="Logo" />
+</section>
+
+<!-- Features Section -->
+{{ with .Site.Data.homepage.features }}
+<section class="features-section">
+  <div class="container">
+      <div class="features-header">
+          <h2 class="features-title">{{ .title }}</h2>
+          <p class="features-subtitle">{{ .subtitle }}</p>
+      </div>
+      <div class="features-grid">
+          {{ range .items }}
+          <div class="feature-card">
+              <div class="feature-icon">
+                  <i class="{{ .icon }}"></i>
+              </div>
+              <h3 class="feature-title">{{ .title }}</h3>
+              <p class="feature-description">{{ .description }}</p>
+          </div>
+          {{ end }}
+      </div>
+  </div>
+</section>
 {{ end }}
 
-<img class="home-large-logo" src="/images/logo_v2.svg" />
-<div class="home-under-logo">
-  Looking for the training site? It's <a href="//training.lczero.org">here</a>.
-</div>
+<!-- Community Section -->
+<section class="community-section">
+  <div class="container">
+      <div class="community-header">
+          <h2 class="community-title">{{ .Site.Data.homepage.community.title }}</h2>
+          <p class="community-description">{{ .Site.Data.homepage.community.description }}</p>
+      </div>
+      <div class="community-links">
+          {{ range .Site.Data.homepage.community.links }}
+          <a href="{{ .link }}" class="community-link">
+              <i class="icon-placeholder {{ .icon }}"></i>
+              <h3 class="community-link-title">{{ .name }}</h3>
+          </a>
+          {{ end }}
+      </div>
+  </div>
+</section>
+
+<!-- Training Site Notice -->
+<section class="training-notice">
+  <div class="container">
+      <p>
+          Looking for the training site? It's <a href="//training.lczero.org" class="training-link">here</a>.
+      </p>
+  </div>
+</section>
 {{ end }}
