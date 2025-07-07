@@ -76,6 +76,26 @@ summaryLength = 30
       mobile = "/images/logo.svg"
       standard  = "/images/logo.svg"
 
+  [[params.footerIcons]]
+    url = "https://lczero.org/blog/index.xml"
+    icon = "qlementine-icons--rss-24"
+    name = "RSS Feed"
+  
+  [[params.footerIcons]]
+    url = "https://github.com/LeelaChessZero/"
+    icon = "qlementine-icons--github-fill-24"
+    name = "GitHub"
+  
+  [[params.footerIcons]]
+    url = "https://discord.gg/pKujYxD"
+    icon = "qlementine-icons--discord-fill-24"
+    name = "Discord"
+  
+  [[params.footerIcons]]
+    url = "https://x.com/leelachesszero"
+    icon = "qlementine-icons--x-24"
+    name = "X (Twitter)"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
