@@ -17,11 +17,9 @@
                   <p>{{ .Site.Params.homepage_intro }}</p>
               {{ end }}
           </div>
-          {{ range .Site.Params.homepage_button }}
-          <a class="button button-primary" href="{{ .link | relURL }}">
+          {{ range .Site.Params.homepage_button }}<a class="button button-primary" href="{{ .link | relURL }}">
               {{ .text }}
-          </a>
-          {{ end }}
+          </a>{{ end }}
       </div>
     </div>
     <img class="home-large-logo" src="/images/logo_v2.svg" alt="Logo" />
