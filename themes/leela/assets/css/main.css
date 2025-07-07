@@ -12,9 +12,6 @@
     --footer-icon-color: hsl(231, 17%, 60%);
     --sidebar-width: 180px;
 
-    --bg-primary: #fff;    
-    --shadow-color: rgba(0,0,0, 0.1);
-
     --border-color: hsl(223.81 0% 90%);
     --border-color-active: hsl(327, 82%, 51%);
 
@@ -371,6 +368,7 @@ em {
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
     border-radius: 0.5rem;
+    margin-right: 1rem;
 }
 
 main {
