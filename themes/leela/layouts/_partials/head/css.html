@@ -1,6 +1,7 @@
 {{ $mainCss := resources.Get "css/main.css" }}
 {{ $syntaxCss := resources.Get "css/syntax.css" }}
-{{ $css := slice $mainCss $syntaxCss | resources.Concat "css/bundle.css" }}
+{{ $iconsCss := resources.Get "css/icons.css" }}
+{{ $css := slice $mainCss $syntaxCss $iconsCss | resources.Concat "css/bundle.css" }}
 
 {{- with $css }}
   {{- if hugo.IsDevelopment }}

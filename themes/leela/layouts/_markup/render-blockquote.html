@@ -1,0 +1,46 @@
+{{ $emojis := dict
+    "caution" "material-symbols--back-hand"
+    "important" "material-symbols--bolt"
+    "info" "material-symbols--info"
+    "note" "material-symbols--error"
+    "tip" "material-symbols--lightbulb-rounded"
+    "warning" "material-symbols--warning" 
+  }}
+  
+  {{ if eq .Type "alert" }}
+    {{ if eq .AlertSign "-" }}
+      <!-- Collapsible Blockquote -->
+      <details class="alert alert-{{ .AlertType }}">
+        <summary>
+          <i class="{{ index $emojis .AlertType }}"></i>
+          {{ .AlertTitle | default (title .AlertType) }}
+        </summary>
+        {{ .Text | safeHTML }}
+      </details>
+    {{ else if eq .AlertSign "+" }}
+      <!-- Expandable Blockquote -->
+      <details open class="alert alert-{{ .AlertType }}">
+        <summary>
+          <i class="{{ index $emojis .AlertType }}"></i>
+          {{ .AlertTitle | default (title .AlertType) }}
+        </summary>
+        {{ .Text }}
+      </details>
+    {{ else }}
+      <!-- Regular Blockquote -->
+      <blockquote class="alert alert-{{ .AlertType }}">
+        <summary class="alert-header">
+          <i class="{{ index $emojis .AlertType }}"></i>
+          {{ .AlertTitle | default (title .AlertType) }}
+        </summary>
+        <div class="alert-content">
+          {{ .Text }}
+        </div>
+      </blockquote>
+    {{ end }}
+  {{ else }}
+    <!-- Fallback for non-alert blockquotes -->
+    <blockquote>
+      {{ .Text }}
+    </blockquote>
+  {{ end }}
