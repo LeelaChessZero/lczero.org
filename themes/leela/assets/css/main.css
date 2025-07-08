@@ -12,6 +12,48 @@
     --footer-icon-color: hsl(231, 17%, 60%);
     --sidebar-width: 180px;
 
+    --border-color: hsl(223.81 0% 90%);
+    --border-color-active: hsl(327, 82%, 51%);
+
+    --white: #fff;
+    --black: #000;
+    --gray-300: #e9ecef;
+    --gray-600: #666;
+    --gray-700: #333;
+    --black-rgb: 0, 0, 0;
+
+
+    --text-primary: var(--black);
+    --text-secondary: var(--gray-700);
+    --text-tertiary: var(--gray-600);
+
+    --bg-primary: var(--white);
+    --bg-secondary: var(--footer-bg-color);
+    --border-primary: var(--border-color);
+    --border-active: var(--border-color-active);
+    --shadow-color: rgba(var(--black-rgb), 0.1);
+    --feature-icon-color: var(--link-color);
+    
+    /* Alert color variables */
+    --alert-note-color: hsl(210, 80%, 60%);
+    --alert-note-bg: hsl(210, 80%, 98%);
+    --alert-note-header: hsl(210, 80%, 40%);
+    --alert-warning-color: hsl(40, 90%, 50%);
+    --alert-warning-bg: hsl(40, 90%, 96%);
+    --alert-warning-header: hsl(40, 90%, 35%);
+    --alert-tip-color: hsl(120, 70%, 45%);
+    --alert-tip-bg: hsl(120, 70%, 97%);
+    --alert-tip-header: hsl(120, 70%, 30%);
+    --alert-important-color: hsl(0, 80%, 50%);
+    --alert-important-bg: hsl(0, 80%, 97%);
+    --alert-important-header: hsl(0, 80%, 40%);
+    --alert-caution-bg: hsl(327, 82%, 96%);
+    --alert-caution-header: hsl(327, 82%, 35%);
+    --alert-caution-color: hsl(327, 82%, 51%);
+    --alert-info-bg: hsl(180, 70%, 96%);
+    --alert-info-header: hsl(180, 70%, 35%);
+    --alert-info-color: hsl(180, 70%, 50%);
+
     --font-size-h6: 1rem;
     --font-size-h5: 1.25rem;
     --font-size-h4: 1.5rem;
@@ -317,7 +359,7 @@ em {
 .button {
     white-space: nowrap;
     display: inline-block;
-    padding: 8px 15px 6px;
+    padding: 0.5rem 1rem;
     background: var(--link-color);
     font-weight: 400;
     text-transform: uppercase;
@@ -325,7 +367,8 @@ em {
     text-decoration: none;
     -webkit-transition: all .15s ease;
     transition: all .15s ease;
-    border-radius: 3px;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
 }
 
 main {
@@ -449,23 +492,6 @@ nav.sidebar .nonselectable {
     padding-left: 1em;
 }
 
-/* Home page content */
-
-.page-home {
-    text-align: center;
-}
-
-.page-home p {
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 250;
-    margin-bottom: 40px;
-}
-
-.home-large-logo {
-    display: block;
-    margin: 0 auto;
-}
 
 /* Footer */
 
@@ -517,4 +543,324 @@ footer {
 
 .blog-summary-title a {
     font-size: 1.2rem;
+}
+
+/* Base Alert Styles */
+.alert {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid var(--link-color);
+  background-color: var(--bg-primary);
+  box-shadow: 0 2px 4px var(--shadow-color);
+  border-radius: 0 4px 4px 0;
+}
+
+.alert-header {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--link-color);
+  font-size: 1.1em;
+}
+
+/* Note Alert */
+.alert-note {
+  border-left-color: var(--alert-note-color);
+  background-color: var(--alert-note-bg);
+}
+
+.alert-note .alert-header {
+  color: var(--alert-note-header);
+}
+
+/* Warning Alert */
+.alert-warning {
+  border-left-color: var(--alert-warning-color);
+  background-color: var(--alert-warning-bg);
+}
+
+.alert-warning .alert-header {
+  color: var(--alert-warning-header);
+}
+
+/* Tip Alert */
+.alert-tip {
+  border-left-color: var(--alert-tip-color);
+  background-color: var(--alert-tip-bg);
+}
+
+.alert-tip .alert-header {
+  color: var(--alert-tip-header);
+}
+
+/* Caution Alert */
+.alert-caution {
+  border-left-color: var(--alert-caution-color);
+  background-color: var(--alert-caution-bg);
+}
+
+.alert-caution .alert-header {
+  color: var(--alert-caution-header);
+}
+
+/* Important Alert */
+.alert-important {
+  border-left-color: var(--alert-important-color);
+  background-color: var(--alert-important-bg);
+}
+
+.alert-important .alert-header {
+  color: var(--alert-important-header);
+}
+
+/* Info Alert */
+.alert-info {
+  border-left-color: var(--alert-info-color);
+  background-color: var(--alert-info-bg);
+}
+
+.alert-info .alert-header {
+  color: var(--alert-info-header);
+}
+
+/* Home page content */
+
+.hero {
+  position: relative;
+  padding: 2rem 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-margin {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero .content {
+  margin-bottom: 2rem;
+}
+
+.hero .content p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+
+/* Features Section */
+.features-section {
+  padding: 5rem 0;
+  border-top: 1px solid var(--border-primary);
+}
+
+.features-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.features-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.features-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.features-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-tertiary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border-primary);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px var(--shadow-color);
+  border-color: var(--border-active);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--feature-icon-color);
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.feature-description {
+  color: var(--text-tertiary);
+  line-height: 1.6;
+}
+
+/* Community Section */
+.community-section {
+  padding: 5rem 0;
+  border-top: 1px solid var(--border-primary);
+}
+
+.community-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.community-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.community-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.community-description {
+  font-size: 1.2rem;
+  color: var(--text-tertiary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.community-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.community-link {
+  display: block;
+  text-decoration: none;
+  padding: 2rem;
+  border: 1px solid var(--border-primary);
+  border-radius: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+.community-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px var(--shadow-color);
+  border-color: var(--border-active);
+  text-decoration: none;
+}
+
+.community-link .icon-placeholder {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.community-link-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* Training Site Notice */
+.training-notice .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.training-notice p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .content p {
+    font-size: 1.1rem;
+  }
+
+  .features-title,
+  .community-title {
+    font-size: 2rem;
+  }
+
+  .features-grid,
+  .community-links {
+    grid-template-columns: 1fr;
+  }
+
+  .hero,
+  .features-section,
+  .community-section {
+    padding: 3rem 0;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero .container,
+  .features-section .container,
+  .community-section .container,
+  .training-notice .container {
+    padding: 0 1rem;
+  }
+
+  .feature-card,
+  .community-link {
+    padding: 1.5rem;
+  }
 }
