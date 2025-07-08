@@ -21,5 +21,7 @@ or
 [Linux](https://github.com/microsoft/onnxruntime/releases/download/v1.22.0/onnxruntime-linux-x64-gpu-1.22.0.tgz).
 
 Then you need to download the
-[tensortrt](https://developer.nvidia.com/tensorrt/download/10x) DLLs and add
-them to your PATH or the directory with the lc0 binary.
+[tensortrt](https://developer.nvidia.com/tensorrt/download/10x) and
+[CuDNN](https://developer.nvidia.com/cudnn-downloads) DLLs (either in your PATH
+or the lc0 directory) and add them to your PATH or the directory with the lc0
+binary.
