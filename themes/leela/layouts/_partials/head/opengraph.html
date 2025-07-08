@@ -11,6 +11,7 @@
 
 {{- with or .Description .Summary .Site.Params.homepage_meta_tags.meta_description | plainify | htmlUnescape }}
   <meta property="og:description" content="{{ trim . "\n\r\t " }}">
+  <meta name="description" content="{{ trim . "\n\r\t " }}">
 {{- end }}
 
 {{- with or .Params.locale site.Language.LanguageCode }}

@@ -1,0 +1,44 @@
+{
+    "features": {
+      "title": "Why Leela Chess Zero?",
+      "subtitle": "Lc0 is a direct open-source implementation inspired by DeepMind's AlphaZero project, and it has far exceeded its success in chess.",
+      "items": [
+        {
+          "title": "Self-Learning Neural Network",
+          "description": "Lc0 uses a neural network that learned chess through self-play, resulting in a unique style, free from all human bias.",
+          "icon": "material-symbols--psychology"
+        },
+        {
+          "title": "Deep Positional Insight",
+          "description": "Leela understands long-term strategy, pawn structures, and subtle moves.",
+          "icon": "material-symbols--insights"
+        },
+        {
+          "title": "Open Source",
+          "description": "Completely free and open source under the GPLv3.0, developed by a community of enthusiasts and researchers.",
+          "icon": "material-symbols--code"
+        }
+      ]
+    },
+    "community": {
+      "title": "Join Our Community",
+      "description": "LCZero is powered by a community of chess enthusiasts, programmers, and researchers.",
+      "links": [
+        {
+          "name": "Discord",
+          "link": "https://discord.gg/pKujYxD",
+          "icon": "qlementine-icons--discord-fill-24"
+        },
+        {
+          "name": "GitHub",
+          "link": "https://github.com/LeelaChessZero/lc0",
+          "icon": "qlementine-icons--github-fill-24"
+        },
+        {
+          "name": "X (Twitter)",
+          "link": "https://x.com/LeelaChessZero",
+          "icon": "qlementine-icons--x-24"
+        }
+      ]
+    }
+  }
