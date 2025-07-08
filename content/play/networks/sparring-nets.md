@@ -29,7 +29,6 @@ These networks typically range from beginner to intermediate strength (approxima
 |Maia 1800|1800|[`maia-1800.pb.gz`](https://github.com/CSSLab/maia-chess/releases/download/v1.0/maia-1800.pb.gz)|University of Toronto CSSLab|Run at Nodes = 1|
 |Maia 1900|1900|[`maia-1900.pb.gz`](https://github.com/CSSLab/maia-chess/releases/download/v1.0/maia-1900.pb.gz)|University of Toronto CSSLab|Run at Nodes = 1|
 |Maia 2200|2200|[`maia-2200.pb.gz`](https://github.com/CallOn84/LeelaNets/raw/refs/heads/main/Nets/Maia%202200/maia-2200.pb.gz)|@CallOn84|Run at Nodes = 1|
-|Elite Leela v2|3500|[`Elite-Leela-v2-128x10x8h-1704000.pb.gz`](https://github.com/CallOn84/LeelaNets/raw/refs/heads/main/Nets/Elite%20Leela/Elite-Leela-v2-128x10x8h-1704000.pb.gz)|@CallOn84||
 
 ---
 
