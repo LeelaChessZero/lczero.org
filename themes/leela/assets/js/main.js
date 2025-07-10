@@ -21,4 +21,31 @@ document.addEventListener('DOMContentLoaded', () => {
             header.appendChild(anchor);
         }
     });
-});
+
+    const toggle = document.querySelector('.sidebar-toggle');
+    const sidebar = document.querySelector('nav.sidebar');
+    const overlay = document.querySelector('.sidebar-overlay');
+    const closeBtn = document.querySelector('.sidebar-header .material-symbols--close');
+  
+    if (toggle && sidebar) {
+      // Toggle sidebar with menu button
+      toggle.addEventListener('click', function() {
+        sidebar.classList.toggle('active');
+        overlay.style.display = sidebar.classList.contains('active') ? 'block' : 'none';
+      });
+  
+      // Close with overlay click
+      overlay.addEventListener('click', function() {
+        sidebar.classList.remove('active');
+        overlay.style.display = 'none';
+      });
+  
+      // Close with X button
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function() {
+            sidebar.classList.remove('active');
+            overlay.style.display = 'none';
+        });
+      }
+    }
+  });
