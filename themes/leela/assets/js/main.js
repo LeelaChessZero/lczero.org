@@ -35,10 +35,12 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   
       // Close with overlay click
-      overlay.addEventListener('click', function() {
-        sidebar.classList.remove('active');
-        overlay.style.display = 'none';
-      });
+      if (overlay) {
+        overlay.addEventListener('click', function() {
+          sidebar.classList.remove('active');
+          overlay.style.display = 'none';
+        });
+      }
   
       // Close with X button
       if (closeBtn) {

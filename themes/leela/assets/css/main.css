@@ -462,9 +462,6 @@ nav.sidebar .nonselectable {
   cursor: pointer;
   position: absolute;
   color: var(--link-color);
-  /* top: 10px;
-  left: 10px;
-  z-index: 1000; */
 }
 .sidebar-toggle-text {
   font-size: 1rem;
@@ -478,7 +475,7 @@ nav.sidebar .nonselectable {
   border-bottom: 1px solid var(--border-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .sidebar-toggle {
       display: block;
   }
@@ -513,9 +510,6 @@ nav.sidebar .nonselectable {
       display: none;
   }
   
-  nav.sidebar.active + .sidebar-overlay {
-      display: block;
-  }
   
   .sidebar-header {
     display: flex;
