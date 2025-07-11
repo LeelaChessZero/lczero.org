@@ -1,7 +1,17 @@
-{{/* <h4>{{ .Section | humanize }}</h4> */}}
+<button class="sidebar-toggle" aria-label="Toggle navigation">
+  <span class="material-symbols--arrow-menu-open-rounded"></span>
+  <span class="sidebar-toggle-text">Section Menu</span>
+</button>
+<div class="sidebar-overlay"></div>
+<nav class="sidebar">    
+<div class="sidebar-header">
+    <span class="material-symbols--close"></span>
+<h4>{{ .Section | humanize }}</h4>
+</div>
 <ul>
     {{template "submenu" dict "sect" .FirstSection "docId" .File.UniqueID}}
 </ul>
+</nav>
 
 {{define "submenu"}}
 {{$docId := .docId}}

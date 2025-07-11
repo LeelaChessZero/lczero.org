@@ -454,6 +454,76 @@ nav.sidebar .nonselectable {
     font-weight: 500;
 }
 
+.sidebar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  color: var(--link-color);
+}
+.sidebar-toggle-text {
+  font-size: 1rem;
+}
+
+.sidebar-header {
+  display: none;
+  padding: 1rem;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+@media (max-width: 834px) {
+  .sidebar-toggle {
+      display: block;
+  }
+  
+  nav.sidebar {
+      position: fixed;
+      left: -100%;
+      top: 0;
+      bottom: 0;
+      width: 70%;
+      max-width: 300px;
+      background: var(--bg-primary);
+      z-index: 1003;
+      padding: 2rem 1rem;
+      transition: left 0.3s ease;
+      overflow-y: auto;
+  }
+  
+  nav.sidebar.active {
+      left: 0;
+  }
+  
+  /* Optional overlay when sidebar is open */
+  .sidebar-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 1002;
+      display: none;
+  }
+  
+  
+  .sidebar-header {
+    display: flex;
+  }
+  .sidebar-header .material-symbols--close {
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  .sidebar-header h4 {
+    margin: 0;
+  }
+}
+
 .button-floating {
     background: var(--secondary-color);
     border-radius: 3px;

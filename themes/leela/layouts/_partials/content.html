@@ -1,5 +1,5 @@
 <div class="main-container">
-  <nav class="sidebar">{{ partial "sidebar.html" . }}</nav>
+  {{ partial "sidebar.html" . }}
   <div class="content-container">
     {{if .Params.wikiname }}
     <a href="https://github.com/LeelaChessZero/lc0/wiki/{{ .Params.wikiname }}/_edit" class="button-floating"
