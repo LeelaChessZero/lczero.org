@@ -19,6 +19,10 @@ On a high level, the Lc0 ecosystem consists of:
     MCTS/PUCT).
   * **Neural Network Backends**: Code that evaluates a chess position using a
     neural network on a wide range of hardware.
+  * **Rescorer**: A component that is used in the training pipeline but still is
+    a part of the Lc0 binary. It checks positions with Syzygy tablebases, and
+    whether the move was intentional blunder. If so, it updates the training
+    data.
 * **Reinforcement Learning (RL) loop**: A system that allows to train new neural
   networks using games played by the engine against itself on a previous version
   of the network. This part is planned for complete redesign due to several
