@@ -32,7 +32,7 @@ On a high level, the Lc0 ecosystem consists of:
     [GitHub](https://github.com/LeelaChessZero/lczero-server)): it provides a
     HTTP API for training clients to upload games, and distributes the games
     to the servers that train the neural networks. Currently, it also provides
-    a web interface at <https://train.lczero.org>, but we intend only to keep
+    a web interface at <https://training.lczero.org>, but we intend only to keep
     the API, and move the web interface to a separate project.
   * **The training servers** (Python,
     [GitHub](https://github.com/LeelaChessZero/lczero-training)): A set of
