@@ -1,6 +1,6 @@
 ---
 title: "Implementing a new search algorithm"
-weight: 100
+weight: 2000
 draft: true
 summary: "A guide to implementing a new search algorithm in lc0"
 ---
