@@ -9,28 +9,51 @@
 <h4>{{ .Section | humanize }}</h4>
 </div>
 <ul>
-    {{template "submenu" dict "sect" .FirstSection "docId" .File.UniqueID}}
+    {{template "submenu" dict "sect" .FirstSection "docId" .File.UniqueID "currentLang" .Language.Lang}}
 </ul>
 </nav>
 
 {{define "submenu"}}
-{{$docId := .docId}}
-{{with .sect}}
-{{ range .CurrentSection.Pages.ByWeight }}
-<li>
-    {{ if .Content }}
-    <a class="{{ if eq .File.UniqueID $docId }}active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
-    {{ else }}
-    <span class="nonselectable">{{ .Title }}</span>
+    {{$docId := .docId}}
+    {{$currentLang := .currentLang}}
+    {{with .sect}}
+        {{ range .CurrentSection.Pages.ByWeight }}
+            {{/* Get the best available version of this page */}}
+            {{$displayPage := .}}
+            {{if not .IsTranslated}}
+                {{$defaultLang := .Site.Language.Lang}}
+                {{$defaultPage := .Site.GetPage (printf "/%s/%s" $defaultLang .File.Path)}}
+                {{if $defaultPage}}
+                    {{$displayPage = $defaultPage}}
+                {{end}}
+            {{else if not (eq .Language.Lang $currentLang)}}
+                {{range .Translations}}
+                    {{if eq .Language.Lang $currentLang}}
+                        {{$displayPage = .}}
+                    {{end}}
+                {{end}}
+            {{end}}
+
+            <li>
+                {{ if $displayPage.Content }}
+                    <a class="{{ if eq .File.UniqueID $docId }}active {{ end }}" href="{{ $displayPage.Permalink }}">
+                        {{ $displayPage.Title }}
+                        {{ if not (eq $displayPage.Language.Lang $currentLang) }}
+                            <span class="lang-indicator">({{ $displayPage.Language.LanguageName }})</span>
+                        {{ end }}
+                    </a>
+                {{ else }}
+                    <span class="nonselectable">{{ $displayPage.Title }}</span>
+                {{ end }}
+            </li>
+
+            {{ if .Pages }}
+                <li>
+                    <ul class="nested">
+                        {{template "submenu" dict "sect" . "docId" $docId "currentLang" $currentLang}}
+                    </ul>
+                </li>
+            {{ end }}
+        {{ end }}
     {{ end }}
-</li>
-{{ if .Pages }}
-<li>
-    <ul class="nested">
-        {{template "submenu" dict "sect" . "docId" $docId}}
-    </ul>
-</li>
 {{ end }}
-{{ end }}
-{{end}}
-{{end}}
