@@ -11,6 +11,34 @@ enableGitInfo = true
 # See https://gohugo.io/content-management/summaries/
 summaryLength = 30
 
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+enableMissingTranslationPlaceholders = true
+[languages]
+  # [languages.de]
+    # contentDir = 'content/de'
+  #   disabled = true
+    # languageCode = 'de-DE'
+    # languageDirection = 'ltr'
+    # languageName = 'Deutsch'
+    # title = 'Projekt Dokumentation'
+  #   weight = 2
+    # [languages.de.params]
+    #   subtitle = 'Referenz, Tutorials und Erklärungen'
+
+  [languages.es]
+    weight = 2
+  [languages.en]
+    # contentDir = 'content/en'
+    # disabled = false
+    # languageCode = 'en-US'
+    # languageDirection = 'ltr'
+    # languageName = 'English'
+    # title = 'Project Documentation'
+    weight = 1
+    # [languages.en.params]
+    #   subtitle = 'Reference, Tutorials, and Explanations'
 
 [[menu.main]]
     name = "Play"
