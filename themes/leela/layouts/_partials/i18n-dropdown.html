@@ -1,0 +1,16 @@
+{{ if .IsTranslated }}
+<div class="language-dropdown">
+  <button class="language-dropdown-toggle">
+    {{ .Language.LanguageName }} ▼
+  </button>
+  <ul class="language-dropdown-menu">
+    {{ range .Translations }}
+    <li>
+      <a href="{{ .RelPermalink }}" lang="{{ .Language.Params.languageCode }}">
+        {{ .Language.Lang }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
