@@ -9,6 +9,8 @@ The `lc3` search algorithm is a multi-threaded tree search implementation that
 uses a streaming approach with worker threads communicating through event
 queues, departing from the batch-based model of `classic` search.
 
+For background, see the [AlphaZero Primer](../../alphazero/).
+
 ## Node Repository
 
 The node repository is a key-value store.

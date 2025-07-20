@@ -29,5 +29,4 @@ On the other hand, the following aspects are provided by the API:
   [`GenerateLegalMoves`](https://github.com/LeelaChessZero/lc0/blob/e0bbc58b8f4698ae1196f7bebf64a2fbf13a21fe/src/chess/board.h#L102)
   function to generate moves.
 * **Backend interface, including caching.**
-* **Syzygy tablebase support.**
-
+* **Syzygy tablebase API.**
