@@ -9,7 +9,8 @@
 <h4>{{ .Section | humanize }}</h4>
 </div>
 <ul>
-    {{template "submenu" dict "sect" .FirstSection "docId" .File.UniqueID "currentLang" .Language.Lang}}
+    {{$defaultFirstSection := index .FirstSection.Translations 0 | default .FirstSection}}
+    {{template "submenu" dict "sect" $defaultFirstSection "docId" .File.UniqueID "currentLang" .Language.Lang}}
 </ul>
 </nav>
 
@@ -20,13 +21,7 @@
         {{ range .CurrentSection.Pages.ByWeight }}
             {{/* Get the best available version of this page */}}
             {{$displayPage := .}}
-            {{if not .IsTranslated}}
-                {{$defaultLang := .Site.Language.Lang}}
-                {{$defaultPage := .Site.GetPage (printf "/%s/%s" $defaultLang .File.Path)}}
-                {{if $defaultPage}}
-                    {{$displayPage = $defaultPage}}
-                {{end}}
-            {{else if not (eq .Language.Lang $currentLang)}}
+            {{if not (eq .Language.Lang $currentLang)}}
                 {{range .Translations}}
                     {{if eq .Language.Lang $currentLang}}
                         {{$displayPage = .}}
@@ -39,7 +34,7 @@
                     <a class="{{ if eq .File.UniqueID $docId }}active {{ end }}" href="{{ $displayPage.Permalink }}">
                         {{ $displayPage.Title }}
                         {{ if not (eq $displayPage.Language.Lang $currentLang) }}
-                            <span class="lang-indicator">({{ $displayPage.Language.LanguageName }})</span>
+                            <span class="lang-indicator">({{ $displayPage.Language.Lang }})</span>
                         {{ end }}
                     </a>
                 {{ else }}
