@@ -9,8 +9,8 @@
 <h4>{{ .Section | humanize }}</h4>
 </div>
 <ul>
-    {{$defaultFirstSection := index .FirstSection.Translations 0 | default .FirstSection}}
-    {{template "submenu" dict "sect" $defaultFirstSection "docId" .File.UniqueID "currentLang" .Language.Lang}}
+    {{$defaultLangVersion := index .AllTranslations 0 | default .}}
+    {{template "submenu" dict "sect" $defaultLangVersion.FirstSection "docId" .File.UniqueID "currentLang" .Language.Lang}}
 </ul>
 </nav>
 
