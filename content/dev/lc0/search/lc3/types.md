@@ -1,6 +1,6 @@
 ---
-title: "Eval"
-weight: 600
+title: "Types"
+weight: 00
 draft: true
 # summary: "A short summary of the page content."
 ---

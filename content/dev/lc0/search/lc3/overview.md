@@ -1,7 +1,6 @@
 ---
 title: "Overview"
 weight: 100
-draft: true
 summary: "Overview of the lc3 search algorithm"
 ---
 

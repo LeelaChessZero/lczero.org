@@ -1,6 +1,6 @@
 ---
 title: "Backprop"
-weight: 600
+weight: 700
 draft: true
 # summary: "A short summary of the page content."
 ---
