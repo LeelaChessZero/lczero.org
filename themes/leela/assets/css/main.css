@@ -587,6 +587,12 @@ footer {
     color: var(--footer-icon-color);
 }
 
+/* GoAT Graphs */
+div.goat {
+  width: 80%;
+  margin: auto;
+}
+
 /* Blog list */
 .blog-summary {
     margin-top: 48px;
