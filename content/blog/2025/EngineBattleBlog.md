@@ -12,7 +12,11 @@ The chess engine development community has always needed powerful tools to test,
 
 EngineBattle is a modern, web-based chess engine testing platform that supports tournaments, puzzle testing, detailed analysis, and real-time visualizations. What sets it apart for Lc0 users is its specialized support for Monte Carlo Tree Search (MCTS) engines, offering unique insights into how neural networks evaluate positions and make decisions.
 
-The tool is available as an open-source project on GitHub (https://github.com/lepned/EngineBattle) and is actively being developed for the chess engine community, with a newly created Discord server (https://discord.gg/tRMYTbk5TE) for users and contributors.
+The tool is available as an open-source project on [GitHub](https://github.com/lepned/EngineBattle) and is actively being developed for the chess engine community, with a newly created [Discord server](https://discord.gg/tRMYTbk5TE) for users and contributors.
+
+<div align="center">
+  <img src="Tournament.png" alt="EngineBattle tournament GUI" height="350">
+</div>
 
 ## Key Features for the Lc0 Community
 
@@ -105,7 +109,7 @@ This comprehensive test evaluates multiple networks across all test types (polic
 
 #### Lichess puzzle run with different Lc0 nets
 
-![](LichessPuzzle.png)
+![Lichess puzzle test results showing different Lc0 networks performance](LichessPuzzle.png)
 
 The puzzles can be visualized for each engine with a **Show Boards** button that allows users to examine both solved and failed puzzles, providing visual insight into where the engine succeeded or made errors. Puzzle testing can also be performed directly from the console for automated workflows.
 
@@ -128,7 +132,7 @@ The tool automatically saves failed puzzles to your specified output folder, all
 EngineBattle's analysis mode provides an intuitive interface for position analysis with specialized support for engines like Lc0 and Ceres. The dual-engine analysis feature allows you to compare two engines simultaneously, making it perfect for evaluating different networks or configurations side-by-side. Configure your AnalyzeConfig.json to specify two Lc0 engines with different networks, set your desired node count, and load any position to see real-time evaluation differences and search visualization charts. This is particularly valuable when testing experimental search features against defaults across different test positions.
 
 #### Dual analysis mode with Lc0 with two different nets
-![](AnalysisMode.png)
+![Dual analysis mode interface showing two Lc0 engines with different networks](AnalysisMode.png)
 
 Analysis mode lets you choose between different overlay modes (policy, Q-value, V-value, E-value, etc.) for engines that support LogLiveStats UCI output, providing detailed real-time insights into neural network evaluation components. This overlay feature was inspired by the Nibbler GUI.
 
