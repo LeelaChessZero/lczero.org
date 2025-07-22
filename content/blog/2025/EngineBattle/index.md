@@ -14,9 +14,7 @@ EngineBattle is a modern, web-based chess engine testing platform that supports 
 
 The tool is available as an open-source project on [GitHub](https://github.com/lepned/EngineBattle) and is actively being developed for the chess engine community, with a newly created [Discord server](https://discord.gg/tRMYTbk5TE) for users and contributors.
 
-<div align="center">
-  <img src="Tournament.png" alt="EngineBattle tournament GUI" height="350">
-</div>
+![EngineBattle tournament GUI](Tournament.png)
 
 ## Key Features for the Lc0 Community
 
