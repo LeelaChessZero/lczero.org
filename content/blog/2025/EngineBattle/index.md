@@ -103,7 +103,7 @@ For comprehensive network evaluation across multiple neural networks using the E
 }
 ```
 
-This comprehensive test evaluates multiple networks across all test types (policy, value, search) with varying node counts and a large sample size for statistical significance. It's worth mentioning that this specific feature was used to determine the strength of modern Lc0 networks compared to AlphaZero like networks and DeepMind's latest transformer network in this blog post: https://lczero.org/blog/2024/02/how-well-do-lc0-networks-compare-to-the-greatest-transformer-network-from-deepmind/
+This comprehensive test evaluates multiple networks across all test types (policy, value, search) with varying node counts and a large sample size for statistical significance. It's worth mentioning that this specific feature was used to determine the strength of modern Lc0 networks compared to AlphaZero like networks and DeepMind's latest transformer network in [this blog post](https://lczero.org/blog/2024/02/how-well-do-lc0-networks-compare-to-the-greatest-transformer-network-from-deepmind/).
 
 #### Lichess puzzle run with different Lc0 nets
 
