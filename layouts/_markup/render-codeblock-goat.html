@@ -6,14 +6,9 @@
     <svg
       xmlns="http://www.w3.org/2000/svg"
       font-family="roboto mono, monospace"
-      {{ if or $width $height }}
-        {{ with $width }}width="{{ . }}"{{ end }}
-        {{ with $height }}height="{{ . }}"{{ end }}
-      {{ else }}
-        width="{{ .Width }}"
-        height="{{ .Height }}"
-        viewBox="0 0 {{ .Width }} {{ .Height }}"
-      {{ end }}>
+      width="{{ with $width }}{{ . }}{{ else }}{{ .Width }}{{ end }}"
+      height="{{ with $height }}{{ . }}{{ else }}{{ .Height }}{{ end }}"
+      viewBox="0 0 {{ .Width }} {{ .Height }}">
       {{ .Inner }}
     </svg>
   {{ end }}
