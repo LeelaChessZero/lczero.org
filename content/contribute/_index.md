@@ -17,11 +17,11 @@ If you are not a developer, there is still plenty of ways to contribute:
 
 * [Contribute training games.](https://github.com/LeelaChessZero/lc0/wiki/Contributing-Training-Games)
 Self-play training game generation is vital part of the LCZero project.
-* Help on **#help** channel in our Discord.
+* Help on **#help** channel in our [Discord](https://discord.gg/pKujYxD).
 * Contributing to [improving this site]({{<ref "hugo">}}).
 * Maintaining [benchmark tool]({{<ref "benchmark">}}) and submitting your
   benchmark data.
-* Testing and tuning of the engine (join #test-discuss in Discord).
+* Testing and tuning of the engine (join #test-discuss in [Discord](https://discord.gg/pKujYxD)).
 * Run Lc0 Lichess bots.
 * Maintain or moderate one of our social surfaces (forum, twitch, blog).
 * Do Lc0 games streaming or youtube videos with analysis.

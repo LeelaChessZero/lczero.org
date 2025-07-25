@@ -6,13 +6,13 @@ description: "A selection of neural networks designed to play at human skill lev
 
 ## About Human Sparring Networks
 
-Human Sparring Networks are specially trained neural networks designed to play at human-like strength levels, making them ideal for:
+Human Sparring Networks are neural networks trained on human games, which means they play much more like real humans compared to other engines, which makes them useful for:
 - Practicing against opponents of specific skill levels
 - Analyzing games from a human perspective
 - Educational purposes and chess training
 - Casual play without being overwhelming
 
-These networks typically range from beginner to intermediate strength (approximately 1100-1900 Elo).
+These networks typically range from beginner to intermediate strength (approximately 1100-2200 Elo).
 
 ---
 
@@ -29,7 +29,6 @@ These networks typically range from beginner to intermediate strength (approxima
 |Maia 1800|1800|[`maia-1800.pb.gz`](https://github.com/CSSLab/maia-chess/releases/download/v1.0/maia-1800.pb.gz)|University of Toronto CSSLab|Run at Nodes = 1|
 |Maia 1900|1900|[`maia-1900.pb.gz`](https://github.com/CSSLab/maia-chess/releases/download/v1.0/maia-1900.pb.gz)|University of Toronto CSSLab|Run at Nodes = 1|
 |Maia 2200|2200|[`maia-2200.pb.gz`](https://github.com/CallOn84/LeelaNets/raw/refs/heads/main/Nets/Maia%202200/maia-2200.pb.gz)|@CallOn84|Run at Nodes = 1|
-|Elite Leela v2|3500|[`Elite-Leela-v2-128x10x8h-1704000.pb.gz`](https://github.com/CallOn84/LeelaNets/raw/refs/heads/main/Nets/Elite%20Leela/Elite-Leela-v2-128x10x8h-1704000.pb.gz)|@CallOn84||
 
 ---
 
