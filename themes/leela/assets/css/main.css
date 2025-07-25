@@ -86,7 +86,7 @@
       --color-white: #f8f9fa;
       --color-black: #212529;
       --color-black-rgb: 33, 37, 41;
-      --color-gray-300: #495057;
+      --color-gray-300: #74808b;
       --color-gray-600: #adb5bd;
       --color-gray-700: #e9ecef;
 
@@ -647,7 +647,7 @@ footer {
     font-size: 0.9rem;
     font-weight: 800;
     margin-right: 8px;
-    color: black;
+    color: var(--color-text-secondary);
     background-color: var(--color-footer-bg);
     padding: 8px;
     border-radius: 3px;
