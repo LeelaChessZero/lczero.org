@@ -917,6 +917,11 @@ footer {
   }
 }
 
+.goat svg {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 480px) {
   .hero h1 {
     font-size: 2rem;
