@@ -6,13 +6,13 @@ description: "A selection of neural networks designed to play at human skill lev
 
 ## About Human Sparring Networks
 
-Human Sparring Networks are specially trained neural networks designed to play at human-like strength levels, making them ideal for:
+Human Sparring Networks are neural networks trained on human games, which means they play much more like real humans compared to other engines, which makes them useful for:
 - Practicing against opponents of specific skill levels
 - Analyzing games from a human perspective
 - Educational purposes and chess training
 - Casual play without being overwhelming
 
-These networks typically range from beginner to intermediate strength (approximately 1100-1900 Elo).
+These networks typically range from beginner to intermediate strength (approximately 1100-2200 Elo).
 
 ---
 
