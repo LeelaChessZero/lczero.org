@@ -10,13 +10,20 @@ The aim is to make workers focus on the infrastructure of the search, while the
 policy defines the details of the search algorithm. Several policies may
 coexist, allowing experimentation with different ideas.
 
-Search policy defines things like:
+As of 2025-07-25, the search policy defines the following:
 
-* Computation of the hash for a position (e.g. whether transpositions end up
-  having the same hash).
-* Distribution of visits between child nodes.
-* Updating node values from the evaluation results.
-* Which move to play after the search is finished.
+| Function or struct       | Description                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------ |
+| `MakeNodeKey`            | Computation of the hash for a position (e.g. whether transpositions end up having the same hash) |
+| `GetNumEdgesToFetch`     | How many edges to consider for the next visit                                                    |
+| `DistributeVisits`       | How to distribute visits between child nodes                                                     |
+| `struct ValueDelta`      | Structure to use in backpropagation                                                              |
+| `NodeEventToValueDelta`  | How to convert `NodeEvent` to `ValueDelta`                                                       |
+| `MergeNodeUpdates`       | How to combine two `ValueDelta`s                                                                 |
+| `MoveNodeUpdateToParent` | How to forward a `ValueDelta` to the parent node                                                 |
+| `UpdateNodeAggregate`    | How to apply `ValueDelta` to the node in the repository                                          |
+| `MakeEdgeDelta`          | How to apply `ValueDelta` to the edge in the repository                                          |
+| (TBD)                    | Which move to play after the search is finished.                                                 |
 
 The logic that is currently implemented will be described in the following
 sections.

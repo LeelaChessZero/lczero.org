@@ -1,7 +1,6 @@
 ---
 title: "lc3 Search"
 weight: 500
-draft: true
 summary: "The lc3 search algorithm"
 ---
 

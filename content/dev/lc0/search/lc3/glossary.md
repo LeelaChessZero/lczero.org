@@ -36,6 +36,7 @@ Some of these values may have a prefix:
 
 ### `Variation`
 
+(I consider renaming it to `TreePath` or `NodePath`).
 
 [^1]: Note that it has different meaning from `v` in the classic search, where
 it meant "raw value from the NN".

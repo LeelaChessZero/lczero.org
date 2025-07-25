@@ -14,8 +14,12 @@ For background, see the [AlphaZero Primer](../../alphazero/).
 
 The node repository is a key-value store.
 
-Currently, it's implemented as a sharded `absl::flat_hash_map`, but API allows
-to implement it e.g. as a database.
+Currently, it's implemented as a sharded `absl::flat_hash_map` with
+straightforward value type, but
+
+* The plan is to replace it with more space-efficient storage (while still
+  keeping it as `absl::flat_hash_map`).
+* In theory, API allows to implement it e.g. as a database.
 
 ### Keys
 
@@ -29,7 +33,7 @@ to implement it e.g. as a database.
 
 The values cannot be retrieved as a whole, API only allows to update or fetch
 parts of the value. This allows to implement e.g. compressed storage with
-efficient update.
+efficient update (currently not implemented).
 
 In addition to what `classic` search stores in the nodes (node values, edge
 moves and priors), `lc3` stores:
@@ -60,7 +64,7 @@ are created by the `GatherWorker` and destroyed by the `BackpropWorker`.
 ```goat
 +------------+ NodeEvent +----------+ NodeEvent +--------------+
 |            +---------->|          +---------->|              |
-|GatherWorker|           |EvalWorker|     ^     |BackpropWorker|               .
+|GatherWorker|           |EvalWorker|     ^     |BackpropWorker|
 |            |           |          |     |     |              |
 +-----+------+           +----------+     |     +--------------+
       |                        NodeEvent  |
@@ -98,11 +102,12 @@ are created by the `GatherWorker` and destroyed by the `BackpropWorker`.
 
 ## Stats Collection
 
-*This part is not implemented yet.*
-
 The search algorithm collects statistics about the search process, which
 can be used for time management, changing search behavior during the search, and
 reporting search insights.
+
+The metrics are aggregated by the game, move, and exponential time intervals
+(1s, 2s, 4s, 8s; ½s, ¼s, ⅛s etc.).
 
 * **WatchdogWorker**: Currently has a minimal implementation that reports `uci`
   `info` and `bestmove` messages. Note that unlike the search workers about,

@@ -1,7 +1,6 @@
 ---
 title: "Alphazero Primer"
 weight: 200
-draft: true
 math: true
 summary: "A refresher on the AlphaZero algorithm."
 ---
@@ -24,11 +23,14 @@ algorithm.
 ## Neural Network
 
 ```goat
-
   +------------------+
   |       Input      |
   +------------------+
+  |                  |
+  |                  |
   |      ResNet      |
+  |                  |
+  |                  |
   +----------+-------+
   |  Policy  | Value |
   |   Head   | Head  |
