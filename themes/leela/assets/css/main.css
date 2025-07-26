@@ -56,27 +56,27 @@
     
     /* Alert color variables */
     --alert-color-note: hsl(210, 80%, 60%);
-    --alert-bg-note: hsl(210, 80%, 98%);
+    --alert-bg-note: hsla(210, 80%, 60%, 0.15);
     --alert-header-note: hsl(210, 80%, 40%);
 
     --alert-color-warning: hsl(40, 90%, 50%);
-    --alert-bg-warning: hsl(40, 90%, 96%);
+    --alert-bg-warning: hsla(40, 90%, 50%, 0.15);
     --alert-header-warning: hsl(40, 90%, 35%);
 
     --alert-color-tip: hsl(120, 70%, 45%);
-    --alert-bg-tip: hsl(120, 70%, 97%);
+    --alert-bg-tip: hsla(120, 70%, 45%, 0.15);
     --alert-header-tip: hsl(120, 70%, 30%);
 
     --alert-color-important: hsl(0, 80%, 50%);
-    --alert-bg-important: hsl(0, 80%, 97%);
+    --alert-bg-important: hsla(0, 80%, 50%, 0.15);
     --alert-header-important: hsl(0, 80%, 40%);
 
     --alert-color-caution: hsl(327, 82%, 51%);
-    --alert-bg-caution: hsl(327, 82%, 96%);
+    --alert-bg-caution: hsla(327, 82%, 51%, 0.15);
     --alert-header-caution: hsl(327, 82%, 35%);
 
     --alert-color-info: hsl(180, 70%, 50%);
-    --alert-bg-info: hsl(180, 70%, 96%);
+    --alert-bg-info: hsla(180, 70%, 50%, 0.15);
     --alert-header-info: hsl(180, 70%, 35%);
 
 }
