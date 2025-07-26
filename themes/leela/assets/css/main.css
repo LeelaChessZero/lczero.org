@@ -97,7 +97,7 @@
       --color-text-secondary: var(--color-gray-600);
       --color-text-tertiary: var(--color-gray-300);
       --color-bg-primary: #121416; 
-      --color-bg-secondary: #1a1d21;
+      --color-bg-secondary: #2d3239;
       --color-footer-bg: var(--color-black);
       --color-footer-icon: hsl(231, 17%, 70%);
   }
@@ -212,7 +212,7 @@ header {
         right: -100%;
         width: 280px;
         height: 100vh;
-        background: #fff;
+        background: var(--color-bg-primary);
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
