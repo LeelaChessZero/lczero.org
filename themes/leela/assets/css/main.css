@@ -981,3 +981,116 @@ footer {
     padding: 1.5rem;
   }
 }
+
+/* Download Page */
+
+.downloads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.download-card {
+  background: var(--color-bg-primary);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--color-border-primary);
+}
+
+.download-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px var(--shadow-color);
+}
+
+.download-card h3 {
+  margin-top: 0;
+  color: var(--color-text-primary);
+  border-bottom: 2px solid var(--color-border-primary);
+  padding-bottom: 0.5rem;
+}
+
+.download-card-content {
+  margin-top: 1rem;
+}
+
+.download-dropdown {
+  margin: 0.75rem 0;
+}
+
+.dropdown-header {
+  cursor: pointer;
+  position: relative;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border-primary);
+  border-radius: 6px;
+  padding: 0.75rem 1.25rem;
+  padding-right: 40px;
+  margin: 0;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.dropdown-header:hover {
+  background-color: var(--color-gray-300);
+}
+
+.dropdown-header.open {
+  border-radius: 6px 6px 0 0;
+  border-bottom: 1px solid transparent;
+  background-color: var(--color-border-primary);
+}
+
+.dropdown-header::after {
+  content: '◀';
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-tertiary);
+  transition: transform 0.3s ease;
+  font-size: 0.8em;
+}
+
+.dropdown-header.open::after {
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.dropdown-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  border: 1px solid transparent;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  background-color: var(--color-bg-secondary);
+  margin-top: -1px;
+}
+
+.dropdown-content.open {
+  max-height: 2000px;
+  border-color: var(--color-border-primary);
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .downloads-grid {
+      grid-template-columns: 1fr;
+  }
+}
+
+@keyframes pulse-highlight {
+  0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(59, 130, 246, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
+
+.pulse-highlight {
+  animation: pulse-highlight 3.5s ease-out;
+  position: relative;
+  z-index: 1;
+}
