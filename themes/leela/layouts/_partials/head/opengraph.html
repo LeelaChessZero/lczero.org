@@ -80,3 +80,12 @@
     {{- end }}
   {{- end }}
 {{- end }}
+
+<!-- multilingual SEO optimizations -->
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+  {{ end }}
+  {{$defaultFirstSection := index .AllTranslations 0 | default .}}
+  <link rel="alternate" hreflang="x-default" href="{{ $defaultFirstSection.Permalink }}" />
+{{ end }}
