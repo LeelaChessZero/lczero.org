@@ -20,7 +20,7 @@ summary: "Step-by-step instructions for translating lczero.org to new languages"
 language codes (e.g., `es` for Spanish, `fr` for French, `de` for German). 
 
 ### 2. Translate UI Strings
-1. Duplicate the English UI file: Copy `i18n/en.toml` and rename it using the language code the new 
+1. Duplicate the English UI file: Copy `i18n/en.toml` and rename it using the language code for the new 
 language. For example, for Spanish, you'd create `i18n/es.toml`.
 2. Translate all strings in the new file
 
@@ -29,7 +29,7 @@ language. For example, for Spanish, you'd create `i18n/es.toml`.
 For each page you want to translate:
 1. Create a copy with the language code suffix:  
    `original.md` to `original.[lang-code].md`  
-   (Example: `troubleshoot.md` to`troubleshoot.es.md`)
+   (Example: `troubleshoot.md` to `troubleshoot.es.md`)
 2. Open the new, language-specific file and translate:
   - All front matter values (title, summary, etc.)
   - Page content (Markdown text)

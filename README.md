@@ -40,7 +40,7 @@ Add the new language to `config.toml` file under the `[languages]` section.
 For each page you want to translate:
 1. Create a copy with the language code suffix:  
    `original.md` to `original.[lang-code].md`  
-   (Example: `troubleshoot.md` to`troubleshoot.es.md`)
+   (Example: `troubleshoot.md` to `troubleshoot.es.md`)
 2. Translate all content in the new file
 
 ### 4. Mark Machine Translations (Optional)
