@@ -1,7 +1,7 @@
 ---
 title: "WCCC"
 weight: 100
-draft: true
+draft: false
 ---
 Note: not sure if it's the right place to put it under history but it doesn't belond under watch as it's no longer going on.
 
