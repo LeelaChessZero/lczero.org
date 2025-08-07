@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-weight: 100
+title: "Eval"
+weight: 600
 draft: true
 # summary: "A short summary of the page content."
 ---
