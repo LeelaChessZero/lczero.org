@@ -18,8 +18,10 @@ enableMissingTranslationPlaceholders = true
 [languages]
   [languages.en]
     weight = 1
+    languageName = "English"
   [languages.es]
     weight = 2
+    languageName = "Español"
   # [languages.de]
   #   weight = 3
 

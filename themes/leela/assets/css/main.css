@@ -1094,3 +1094,57 @@ footer {
   position: relative;
   z-index: 1;
 }
+
+/* Language Dropdown Styles */
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.language-dropdown-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 1.1em;
+  color: var(--content-color);
+  display: flex;
+  align-items: center;
+}
+
+.language-dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  min-width: 140px;
+  background: var(--white);
+  border: 1px solid var(--footer-bg-color);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 0.5em;
+  margin-top: 6px;
+  z-index: 1002;
+  padding: 0.3em 0;
+}
+
+.language-dropdown-menu.show {
+  display: block;
+}
+
+.language-dropdown-menu li {
+  list-style: none;
+}
+
+.language-dropdown-menu a {
+  display: block;
+  padding: 8px 18px;
+  color: var(--content-color);
+  text-decoration: none;
+  font-size: 1em;
+  transition: background 0.15s;
+}
+
+.language-dropdown-menu a:hover {
+  background: var(--footer-bg-color);
+  color: var(--link-color);
+}
