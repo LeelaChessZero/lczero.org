@@ -50,4 +50,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
     }
-  });
+    
+    // Language dropdown toggle
+    const langDropdown = document.querySelector('.language-dropdown');
+    if (langDropdown) {
+        const toggleBtn = langDropdown.querySelector('.language-dropdown-toggle');
+        const menu = langDropdown.querySelector('.language-dropdown-menu');
+        if (toggleBtn && menu) {
+            toggleBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                menu.classList.toggle('show');
+            });
+            // Hide menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!langDropdown.contains(e.target)) {
+                    menu.classList.remove('show');
+                }
+            });
+        }
+    }
+});
