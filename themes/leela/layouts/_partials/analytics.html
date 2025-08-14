@@ -1,14 +1,34 @@
 {{- if hugo.IsServer -}}
-  <!-- Dont add Google analytics to localhost -->
+  <!-- Don't add Google Analytics to localhost -->
 {{ else }}
-    {{ if .Site.Params.google_analytics_id }}
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Params.google_analytics_id -}}"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  {{ if .Site.Params.google_analytics_id }}
+    <script>
+    (function() {
+      const consentKey = 'gtmConsent';
+      const gaId = '{{- .Site.Params.google_analytics_id -}}';
 
-        gtag('config', '{{- .Site.Params.google_analytics_id -}}');
-        </script>
-    {{ end }}
+      function loadAnalytics() {
+        const gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+        document.head.appendChild(gaScript);
+
+        gaScript.onload = function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', gaId);
+        };
+      }
+
+      // Load immediately if consent already given
+      if (localStorage.getItem(consentKey) === 'true') {
+        loadAnalytics();
+      }
+
+      // Expose to consent popup
+      window.loadAnalyticsWithConsent = loadAnalytics;
+    })();
+    </script>
+  {{ end }}
 {{ end }}

@@ -1,0 +1,62 @@
+<!-- Consent Popup Partial -->
+<div id="consent-popup" style="display:none;">
+  <div class="consent-popup-content">
+    <p>We use cookies and similar technologies to improve your experience and analyze traffic. 
+       Do you consent to Google Analytics?</p>
+      {{ if hugo.IsServer }}
+        <p style="font-size: 0.85em; color: var(--color-text-tertiary);">
+          <strong>Note:</strong> You are running the site locally — analytics will not actually be loaded.
+        </p>
+      {{ end }}
+    <div>
+      <button id="accept-consent">Accept</button>
+      <button id="decline-consent">Decline</button>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  const consentKey = 'gtmConsent';
+  const consentPopup = document.getElementById('consent-popup');
+  const acceptBtn = document.getElementById('accept-consent');
+  const declineBtn = document.getElementById('decline-consent');
+
+  function hasDoNotTrackEnabled() {
+    return (
+      navigator.doNotTrack === "1" || // Most browsers
+      navigator.doNotTrack === "yes" || // Older Firefox
+      window.doNotTrack === "1" || // Some IE versions
+      navigator.msDoNotTrack === "1" // IE 10+
+    );
+  }
+
+  function acceptConsent() {
+    localStorage.setItem(consentKey, 'true');
+    consentPopup.style.display = 'none';
+    if (typeof window.loadAnalyticsWithConsent === 'function') {
+      window.loadAnalyticsWithConsent();
+    }
+  }
+
+  function declineConsent() {
+    localStorage.setItem(consentKey, 'false');
+    consentPopup.style.display = 'none';
+  }
+
+  // Skip entirely if DNT is enabled
+  if (hasDoNotTrackEnabled()) {
+    localStorage.setItem(consentKey, 'false'); // Ensure analytics doesn't load
+    /*  return;  */
+  }
+
+  // Show popup if no decision yet
+  const storedConsent = localStorage.getItem(consentKey);
+  if (!storedConsent) {
+    consentPopup.style.display = 'block';
+  }
+
+  acceptBtn.addEventListener('click', acceptConsent);
+  declineBtn.addEventListener('click', declineConsent);
+
+</script>

@@ -1094,3 +1094,59 @@ footer {
   position: relative;
   z-index: 1;
 }
+
+
+/* Tracking Consent Popup Styles */
+#consent-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--color-bg-primary);
+  border-top: 1px solid var(--color-border-primary);
+  padding: 1rem;
+  box-shadow: 0 -2px 10px var(--shadow-color);
+  font-family: var(--main-font);
+  color: var(--color-text-primary);
+  z-index: 9999;
+}
+
+.consent-popup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+#consent-popup p {
+  margin: 0;
+  font-size: var(--font-size-h6);
+  color: var(--color-text-secondary);
+}
+
+#consent-popup button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-size: var(--font-size-h6);
+}
+
+#accept-consent {
+  background: var(--color-accent);
+  color: var(--color-button-text);
+}
+
+#decline-consent {
+  background: var(--color-gray-300);
+  color: var(--color-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  #decline-consent {
+    background: var(--color-gray-600);
+    color: var(--color-white);
+  }
+}
