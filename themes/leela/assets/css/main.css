@@ -1107,7 +1107,7 @@ footer {
   cursor: pointer;
   padding: 6px 10px;
   font-size: 1.1em;
-  color: var(--content-color);
+  color: var(--color-accent);
   display: flex;
   align-items: center;
 }
@@ -1115,11 +1115,11 @@ footer {
 .language-dropdown-menu {
   display: none;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 100%;
   min-width: 140px;
-  background: var(--white);
-  border: 1px solid var(--footer-bg-color);
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border-primary);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   border-radius: 0.5em;
   margin-top: 6px;
