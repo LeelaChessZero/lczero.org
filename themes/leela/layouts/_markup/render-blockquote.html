@@ -13,7 +13,7 @@
       <details class="alert alert-{{ .AlertType }}">
         <summary>
           <i class="{{ index $emojis .AlertType }}"></i>
-          {{ .AlertTitle | default (title .AlertType) }}
+          {{ .AlertTitle | default (i18n (print "alert." .AlertType) | default (i18n "alert.default")) }}
         </summary>
         {{ .Text | safeHTML }}
       </details>
@@ -22,7 +22,7 @@
       <details open class="alert alert-{{ .AlertType }}">
         <summary>
           <i class="{{ index $emojis .AlertType }}"></i>
-          {{ .AlertTitle | default (title .AlertType) }}
+          {{ .AlertTitle | default (i18n (print "alert." .AlertType) | default (i18n "alert.default")) }}
         </summary>
         {{ .Text }}
       </details>
@@ -31,7 +31,7 @@
       <blockquote class="alert alert-{{ .AlertType }}">
         <summary class="alert-header">
           <i class="{{ index $emojis .AlertType }}"></i>
-          {{ .AlertTitle | default (title .AlertType) }}
+          {{ .AlertTitle | default (i18n (print "alert." .AlertType) | default (i18n "alert.default")) }}
         </summary>
         <div class="alert-content">
           {{ .Text }}
