@@ -1,1 +1,10 @@
 machineTranslationNotice = 'Esta página fue traducida por máquina. Es posible que algunos contenidos no sean precisos.'
+# Alert blockquote i18n strings
+[alert]
+default = "Alerta"
+caution = "Precaución"
+important = "Importante"
+info = "Información"
+note = "Nota"
+tip = "Consejo"
+warning = "Advertencia"
