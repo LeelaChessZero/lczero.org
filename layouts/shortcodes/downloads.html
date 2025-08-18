@@ -7,8 +7,9 @@
         <div class="download-platform-cards">
             {{ range .cards }}
             <div class="download-dropdown">
-                <h4 class="dropdown-header" role="button" aria-expanded="false" aria-controls="dropdown-{{ .title | plainify }}" tabindex="0" id="dropdown-header-{{ .title | plainify }}" aria-label="Toggle {{ .title }} downloads">{{ .title }}</h4>
-                <div class="dropdown-content" id="dropdown-{{ .title | plainify }}" aria-labelledby="dropdown-header-{{ .title | plainify }}">
+                {{ $id := replace (.title | plainify) " " "-" }}
+                <h4 class="dropdown-header" role="button" aria-expanded="false" aria-controls="dropdown-{{ $id }}" tabindex="0" id="dropdown-header-{{ $id }}" aria-label="Toggle {{ .title }} downloads">{{ .title }}</h4>
+                <div class="dropdown-content" id="dropdown-{{ $id }}" aria-labelledby="dropdown-header-{{ $id }}">
                     <div class="download-card-content">
                         {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
                         <table>
@@ -57,5 +58,21 @@
                 }
             });
         });
+
+        if (window.location.hash) {
+            var hash = window.location.hash.substring(1); // remove '#'
+            var target = document.getElementById(hash);
+            if (target && target.classList.contains('dropdown-header')) {
+                // Open the dropdown if not already open
+                if (!target.classList.contains('open')) {
+                    target.classList.add('open');
+                    var content = target.nextElementSibling;
+                    if (content) content.classList.add('open');
+                    target.setAttribute('aria-expanded', 'true');
+                }
+                // Optionally scroll into view
+                target.scrollIntoView({behavior: 'smooth', block: 'center'});
+            }
+        }
     });
 </script>
