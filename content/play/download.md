@@ -15,7 +15,7 @@ Latest stable version: **[{{< param lc0version >}}](https://github.com/LeelaChes
 > 
 > Devices that are currently not supported include ARM based Windows and Linux computers and all other non x86 architectures.
 > 
-> For advanced users, additional branches and experimental builds are available on GitHub, but they not officially support and should only be used if you understand the risks and differences involved. 
+> For advanced users, additional branches and experimental builds are available on GitHub, but they are not officially supported and should only be used if you understand the risks and differences involved. 
 
 ### Other Options
 - [All Releases on GitHub](https://github.com/LeelaChessZero/lc0/releases)

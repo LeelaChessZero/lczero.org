@@ -7,26 +7,28 @@
         <div class="download-platform-cards">
             {{ range .cards }}
             <div class="download-dropdown">
-                <h4 class="dropdown-header">{{ .title }}</h4>
-                <div class="dropdown-content">
+                <h4 class="dropdown-header" role="button" aria-expanded="false" aria-controls="dropdown-{{ .title | plainify }}" tabindex="0" id="dropdown-header-{{ .title | plainify }}" aria-label="Toggle {{ .title }} downloads">{{ .title }}</h4>
+                <div class="dropdown-content" id="dropdown-{{ .title | plainify }}" aria-labelledby="dropdown-header-{{ .title | plainify }}">
                     <div class="download-card-content">
                         {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
                         <table>
                             <thead>
-                              <tr>
-                                  <th>Version</th>
-                                  <th>Description</th>
-                              </tr>
+                                <tr>
+                                    <th>Version</th>
+                                    <th>Description</th>
+                                </tr>
                             </thead>
-                          <tbody>
-                            {{ range .downloads }}
-                            {{ $link := replace .url "{{lc0version}}" (site.Params.lc0version) }}
-                            <tr>
-                              <td><a href="{{ $link }}">{{ .label }}</a></td>
-                              <td><div class="download-description">{{ .description | markdownify }}</div></td>
-                            </tr>
-                            {{ end }}
-                          </tbody>
+                            <tbody>
+                                {{ range .downloads }}
+                                {{ $link := replace .url "{{lc0version}}" (site.Params.lc0version) }}
+                                <tr>
+                                    <td><a href="{{ $link }}">{{ .label }}</a></td>
+                                    <td>
+                                        <div class="download-description">{{ .description | markdownify }}</div>
+                                    </td>
+                                </tr>
+                                {{ end }}
+                            </tbody>
                         </table>
                     </div>
 
@@ -44,6 +46,9 @@
                 header.classList.toggle('open');
                 var content = header.nextElementSibling;
                 if (content) content.classList.toggle('open');
+                // Update aria-expanded
+                var expanded = header.classList.contains('open');
+                header.setAttribute('aria-expanded', expanded);
             });
             header.addEventListener('keydown', function (e) {
                 if (e.key === 'Enter' || e.key === ' ') {

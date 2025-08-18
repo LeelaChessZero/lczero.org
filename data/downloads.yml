@@ -46,7 +46,7 @@
   # - title: MacOS Options
   #   description: ''
   #   downloads:
-  #   - label: Offical Release
+  #   - label: Official Release
   #     url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}--macos_12.6.1 
   #     description: Supports Apple Silicon and Intel-based Macs.
   #   - label: Homebrew Package
