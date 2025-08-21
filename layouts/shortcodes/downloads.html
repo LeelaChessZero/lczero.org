@@ -7,7 +7,7 @@
         <div class="download-platform-cards">
             {{ range .cards }}
             <div class="download-dropdown">
-                {{ $id := replace (.title | plainify) " " "-" }}
+                {{ $id := .title | plainify | anchorize }}
                 <h4 class="dropdown-header" role="button" aria-expanded="false" aria-controls="dropdown-{{ $id }}" tabindex="0" id="dropdown-header-{{ $id }}" aria-label="Toggle {{ .title }} downloads">{{ .title }}</h4>
                 <div class="dropdown-content" id="dropdown-{{ $id }}" aria-labelledby="dropdown-header-{{ $id }}">
                     <div class="download-card-content">
