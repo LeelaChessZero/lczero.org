@@ -43,7 +43,7 @@ summaryLength = 30
     weight = 70
 
 [params]
-  lc0version="v0.31.2"
+  lc0version="v0.32.0"
   google_analytics_id="G-MC971PFSYE"
   math = false
 
