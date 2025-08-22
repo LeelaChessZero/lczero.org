@@ -1,0 +1,44 @@
+{
+    "features": {
+      "title": "¿Por qué Leela Chess Zero?",
+      "subtitle": "Lc0 es una implementación de código abierto inspirada directamente en el proyecto AlphaZero de DeepMind, y ha superado su éxito en ajedrez.",
+      "items": [
+        {
+          "title": "Red Neuronal de Autoaprendizaje",
+          "description": "Lc0 utiliza una red neuronal que aprendió ajedrez mediante autoaprendizaje, resultando en un estilo único, libre de todo sesgo humano.",
+          "icon": "material-symbols--psychology"
+        },
+        {
+          "title": "Profundo Entendimiento Posicional",
+          "description": "Leela comprende la estrategia a largo plazo, las estructuras de peones y los movimientos sutiles.",
+          "icon": "material-symbols--insights"
+        },
+        {
+          "title": "Código Abierto",
+          "description": "Completamente libre y de código abierto bajo la GPLv3.0, desarrollado por una comunidad de entusiastas e investigadores.",
+          "icon": "material-symbols--code"
+        }
+      ]
+    },
+    "community": {
+      "title": "Únete a Nuestra Comunidad",
+      "description": "LCZero está impulsado por una comunidad de entusiastas del ajedrez, programadores e investigadores.",
+      "links": [
+        {
+          "name": "Discord",
+          "link": "https://discord.gg/pKujYxD",
+          "icon": "qlementine-icons--discord-fill-24"
+        },
+        {
+          "name": "GitHub",
+          "link": "https://github.com/LeelaChessZero/lc0",
+          "icon": "qlementine-icons--github-fill-24"
+        },
+        {
+          "name": "X (Twitter)",
+          "link": "https://x.com/LeelaChessZero",
+          "icon": "qlementine-icons--x-24"
+        }
+      ]
+    }
+  }

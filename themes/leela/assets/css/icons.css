@@ -217,3 +217,17 @@
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
+
+.meteor-icons--language {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5h14M9 2v3m4 0q-2 8-9 11m2-7q2 4 6 6m1 7l5-11l5 11m-1.4-3h-7.2'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}

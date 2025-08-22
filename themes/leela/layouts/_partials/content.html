@@ -10,6 +10,7 @@
       class="button-floating" target="_blank">
       Edit on GitHub</a>
     {{end}}
+    {{ partial "i18n-dropdown.html" . }}
     <h1>{{ .Title }}</h1>
 
     {{if .Draft}}
@@ -17,6 +18,11 @@
       <strong>This is a draft.</strong>
       This page is not shown on the site. Remove <code>draft:true</code> from
       the header to publish the page.
+    </div>
+    {{end}}
+    {{if .Params.machineTranslated}}
+    <div class="banner">
+      {{ i18n "machineTranslationNotice" }}
     </div>
     {{end}}
 
