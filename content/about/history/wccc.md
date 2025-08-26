@@ -3,11 +3,10 @@ title: "WCCC"
 weight: 100
 draft: false
 ---
-Note: not sure if it's the right place to put it under history but it doesn't belond under watch as it's no longer going on.
 
 In World Computer Chess Championship engines there are no limits on hardware that can be used. All games are played from the starting position, usage of opening books by engines are permitted (although Leela had only one move for white in its opening book and no opening book for black). Time control is 60 minutes plus 15s per move. Games are played over-the-board – engine operators make the moves. 
 
-**2018 – Stockholm (24th WCCC) **
+**2018 – Stockholm (24th WCCC)**
 
 Engine build: v0.15 running the “test-10” 20 × 256 network (net #42850). 
 
