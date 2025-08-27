@@ -24,7 +24,7 @@ Hardware: 8 × NVIDIA A100 40 GB GPUs
 
 Result: Lc0 tied Komodo dragon after the round robin, both engines with 5,5/8. Tie-breaks: four rapid games + Armageddon; Komodo Dragon won the Armageddon game, so Lc0 finished runner-up.
 
-You can find some statistics [here]([https://lczero.org/blog/2024/10/why-we-withdrew-from-wccc/](https://lczero.org/dev/old/2022/)).
+You can find some statistics [here](https://lczero.org/dev/old/2022/).
 
 **Side events at the 26th WCCC**
 Alongside the main WCCC, the World Chess Software Championship and the World Computer Speed Chess Championship were also organized. 
