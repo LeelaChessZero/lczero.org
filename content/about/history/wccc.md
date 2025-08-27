@@ -25,7 +25,7 @@ Hardware: 8 × NVIDIA A100 40 GB GPUs
 Result: Lc0 tied Komodo dragon after the round robin, both engines with 5,5/8. Tie-breaks: four rapid games + Armageddon; Komodo Dragon won the Armageddon game, so Lc0 finished runner-up. 
 
 **Side events at the 26th WCCC**
-Alongside the main WCCC there were also organized the World Chess Software Championship and the World Computer Speed Chess Championship. 
+Alongside the main WCCC, the World Chess Software Championship and the World Computer Speed Chess Championship were also organized. 
 
 World Chess Software Championship is organized on the same hardware for all computers (AMD Ryzen 4750U with 32 GB of RAM) with a 45 minutes plus 15 seconds per move time control. Leela got 3rd place with 6,5/10 just half a point away from being tied for 1st despite running on a CPU. 
 
