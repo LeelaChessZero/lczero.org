@@ -10,7 +10,7 @@ Organizers pick participants based on engine's entertainment value. Particularly
 
 ## Results of past competitions
 
-| Season                  | Year | Time control   | Lc0 final position   |
+| Evemt                  | Year | Time control   | Lc0 final position   |
 | ----------------------- | ---- | -------------- | -------------------- |
 | CCC 24: Bullet          | 2025 | 1+1            | 4                    |
 | CCC 24: Rapid           | 2025 | 10+3           | 2                    |
@@ -26,15 +26,15 @@ Organizers pick participants based on engine's entertainment value. Particularly
 | CCC 21: Blitz           | 2023 | 3+2            | 3                    |
 | CCC 20: Bullet          | 2023 | 1+1            | 4                    |
 | CCC 20: Rapid           | 2023 | 10+3           | 2                    |
-| CCC 20: Blitz           | 2023 | 3+2            | ?                    |
-| CCC 19: Bullet          | 2023 | 1+1            | ?                    |
+| CCC 20: Blitz           | 2023 | 3+2            | 2                    |
+| CCC 19: Bullet          | 2023 | 1+1            | 3                    |
 | CCC 19: Rapid           | 2022 | 15+3           | 2                    |
-| CCC 19: Blitz           | 2022 | 5+5            | ?                    |
+| CCC 19: Blitz           | 2022 | 5+5            | 3                    |
 | CCC 18: Rapid           | 2022 | 15+3           | 2                    |
 | CCC 17: Blitz           | 2022 | 5+5            | 2                    |
-| CCC 17: Bullet          | 2022 | 2+1            | ?                    |
-| CCC 17: Rapid           | 2022 | 15+3           | ?                    |
-| CCC 16: Blitz           | 2022 | 5+5            | ?                    |
+| CCC 17: Bullet          | 2022 | 2+1            | 2                    |
+| CCC 17: Rapid           | 2022 | 15+3           | 3                    |
+| CCC 16: Blitz           | 2022 | 5+5            | 3                    |
 | CCC 16: Bullet          | 2021 | 2+1            | ?                    |
 | CCC 16: Rapid           | 2021 | 15+3           | 2                    |
 | CCC Chess 960 Blitz     | 2021 | 5+5            | ?                    |
