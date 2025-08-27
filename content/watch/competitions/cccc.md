@@ -10,7 +10,7 @@ Organizers pick participants based on engine's entertainment value. Particularly
 
 ## Results of past competitions
 
-| Evemt                  | Year | Time control   | Lc0 final position   |
+| Event                  | Year | Time control   | Lc0 final position   |
 | ----------------------- | ---- | -------------- | -------------------- |
 | CCC 24: Bullet          | 2025 | 1+1            | 4                    |
 | CCC 24: Rapid           | 2025 | 10+3           | 2                    |
