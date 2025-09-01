@@ -1,7 +1,5 @@
 ---
 title: "History of a project"
 weight: 200
-draft: true
+draft: false
 ---
-
-(This page is not yet written)
