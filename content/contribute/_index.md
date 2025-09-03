@@ -54,14 +54,10 @@ Some ideas for inspiration:
 * Network evaluation framework as a centralized server (e.g. position-tester-as-a-service).
 * Visualization of networks (structure and activation).
 * Come up with more stats, and run them.
-* Web site for gathering stats for people who wants to provide more stats.
 * Tools to be able to run chess engine remotely (e.g. on colab while doing local analysis)
-* GUI for engines running remotely (e.g. like TUI we used for WCCC but through web).
 * Better monitoring for server infrastructure.
 * Automate backup management.
 * Improve detection of malicious training games.
 * Maintain a webassembly version of Lc0 (Lichess wants to have that!)
-* Maintain a version of Lc0 for mobile platforms.
-* Maintain Linux / MacOS compilation.
 * Write a "hub" website for competitions (so that people won't have to stream
 their competitions through twitch). Basically, do a distributed CCCC.

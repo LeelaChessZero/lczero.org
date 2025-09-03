@@ -33,11 +33,6 @@ summaryLength = 30
     weight = 50
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 60
-
-[[menu.main]]
     name = "Blog"
     url = "/blog"
     weight = 70
@@ -48,7 +43,7 @@ summaryLength = 30
   math = false
 
   #homepage_intro = 'Lc0'
-  mainSections = ["play", "watch", "contribute", "dev", "community", "blog", "about"]
+  mainSections = ["play", "watch", "contribute", "dev", "community", "blog"]
   [[params.homepage_button]]
     link = "/play/download"
     text = "Download"
