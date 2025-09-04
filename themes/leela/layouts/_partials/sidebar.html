@@ -22,17 +22,15 @@
             {{/* Get the best available version of this page */}}
             {{$displayPage := .}}
             {{if not (eq .Language.Lang $currentLang)}}
-                {{range .Translations}}
-                    {{if eq .Language.Lang $currentLang}}
+                {{with index (where .AllTranslations "Language.Lang" $currentLang) 0}}
                         {{$displayPage = .}}
-                    {{end}}
                 {{end}}
             {{end}}
-
+            {{ $isCurrent := eq $displayPage.File.UniqueID $docId }}
             <li>
                 {{ if $displayPage.Content }}
-                    <a class="{{ if eq .File.UniqueID $docId }}active {{ end }}" href="{{ $displayPage.Permalink }}">
-                        {{ $displayPage.Title }}
+                    <a {{ if $isCurrent }}class="active" aria-current="page"{{ end }} href="{{ $displayPage.Permalink }}">
+                        {{ $displayPage.Title }} 
                         {{ if not (eq $displayPage.Language.Lang $currentLang) }}
                             <span class="lang-indicator">({{ $displayPage.Language.Lang }})</span>
                         {{ end }}
