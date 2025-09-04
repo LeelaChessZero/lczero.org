@@ -1,7 +1,7 @@
 ---
 title: "FAQ"
 weight: 2100
-summary: "Frequently Asked Questions about Leela Chess Zero"
+summary: "Preguntas frecuentes sobre Leela Chess Zero"
 machineTranslated: true
 ---
 
@@ -29,3 +29,18 @@ o
 [Linux](https://github.com/microsoft/onnxruntime/releases/download/v1.22.0/onnxruntime-linux-x64-gpu-1.22.0.tgz).
 
 Luego, deberás descargar las DLLs de [TensorRT](https://developer.nvidia.com/tensorrt/download/10x) y [CuDNN](https://developer.nvidia.com/cudnn-downloads), y agregarlas a tu variable PATH o al directorio que contiene el binario de lc0.
+
+<!-- 
+Eng: Refs do not support cross language. Ignoring for now
+
+### ¿Cuál es la mejor red de Lc0?
+
+No hay una única red de Lc0 que sea la mejor en todas las situaciones; depende del hardware que tengas. Puedes encontrar una lista de las mejores redes [aquí]({{<ref "bestnets">}}). -->
+
+### ¿Es BT5 mejor que BT4?
+
+A pesar de que BT5 tiene mejoras teóricas respecto a BT4, resultó ser más lento y peor con el mismo recuento de nodos. Las pruebas han mostrado que BT5 puede ser alrededor de 50 elo más débil que BT4 en controles de tiempo cortos y alrededor de 12 elo más débil a igual número de nodos, pese a ser un 20-50% más lento.
+
+### ¿Lc0 o AlphaZero: cuál es más fuerte?
+
+Lc0 ha superado con creces el éxito de AlphaZero en ajedrez y actualmente es mucho más fuerte.
