@@ -1,4 +1,12 @@
 machineTranslationNotice = 'This page was translated by a machine. Some content may be inaccurate.'
+# Menu i18n strings
+[menu]
+  play = "Play"
+  watch = "Watch"
+  contribute = "Contribute"
+  development = "Development"
+  blog = "Blog"
+
 # Alert blockquote i18n strings
 [alert]
 default = "Alert"
