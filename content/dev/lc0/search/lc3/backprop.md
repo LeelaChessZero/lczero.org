@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-weight: 100
+title: "Backprop"
+weight: 700
 draft: true
 # summary: "A short summary of the page content."
 ---
