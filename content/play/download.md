@@ -1,6 +1,7 @@
 ---
 title: "Download Lc0"
 weight: 200
+summary: Get the latest stable Lc0 builds for Windows, Linux and macOS.
 ---
 
 Latest stable version: **[{{< param lc0version >}}](https://github.com/LeelaChessZero/lc0/releases/tag/{{<param lc0version>}})** | [All Releases](https://github.com/LeelaChessZero/lc0/releases)
