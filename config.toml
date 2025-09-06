@@ -19,11 +19,15 @@ enableMissingTranslationPlaceholders = true
   [languages.en]
     weight = 1
     languageName = "English"
+    languageDirection = 'ltr'
   [languages.es]
     weight = 2
     languageName = "Español"
-  # [languages.de]
-  #   weight = 3
+    languageDirection = 'ltr'
+  [languages.hi]
+    weight = 3
+    languageName = "Hindi"
+    languageDirection = 'ltr'
 
 [[menu.main]]
     identifier = "menu.play"

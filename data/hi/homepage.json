@@ -1,0 +1,44 @@
+{
+  "features": {
+    "title": "Leela Chess Zero क्यों?",
+    "subtitle": "Lc0 DeepMind के AlphaZero प्रोजेक्ट से प्रेरित एक ओपन-सोर्स कार्यान्वयन है, और यह शतरंज में अत्यधिक सफल रहा है।",
+    "items": [
+      {
+        "title": "स्व-सीखने वाला न्यूरल नेटवर्क",
+        "description": "Lc0 एक ऐसे न्यूरल नेटवर्क का उपयोग करता है जिसने स्व-खेल के माध्यम से शतरंज सीखी, जिससे इसका खेल एक अनूठी शैली बनती है जो मानवीय पूर्वाग्रहों से मुक्त है।",
+        "icon": "material-symbols--psychology"
+      },
+      {
+        "title": "गहन स्थिति संबंधी अंतर्दृष्टि",
+        "description": "Leela दीर्घकालिक रणनीति, प्यादे की संरचनाएँ और सूक्ष्म चालों को समझती है।",
+        "icon": "material-symbols--insights"
+      },
+      {
+        "title": "ओपन-सोर्स",
+        "description": "GPLv3.0 के अंतर्गत पूरी तरह से मुक्त और ओपन-सोर्स, जिसे उत्साही और शोधकर्ताओं की एक समुदाय द्वारा विकसित किया गया है।",
+        "icon": "material-symbols--code"
+      }
+    ]
+  },
+  "community": {
+    "title": "हमारे समुदाय में शामिल हों",
+    "description": "LCZero शतरंज के उत्साही, प्रोग्रामर, और शोधकर्ताओं के समुदाय द्वारा संचालित है।",
+    "links": [
+      {
+        "name": "Discord",
+        "link": "https://discord.gg/pKujYxD",
+        "icon": "qlementine-icons--discord-fill-24"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/LeelaChessZero/lc0",
+        "icon": "qlementine-icons--github-fill-24"
+      },
+      {
+        "name": "X (Twitter)",
+        "link": "https://x.com/LeelaChessZero",
+        "icon": "qlementine-icons--x-24"
+      }
+    ]
+  }
+}
