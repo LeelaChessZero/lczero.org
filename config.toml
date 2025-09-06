@@ -11,28 +11,50 @@ enableGitInfo = true
 # See https://gohugo.io/content-management/summaries/
 summaryLength = 30
 
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+enableMissingTranslationPlaceholders = true
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+    languageDirection = 'ltr'
+  [languages.es]
+    weight = 2
+    languageName = "Español"
+    languageDirection = 'ltr'
+  [languages.hi]
+    weight = 3
+    languageName = "Hindi"
+    languageDirection = 'ltr'
 
 [[menu.main]]
+    identifier = "menu.play"
     name = "Play"
     url = "/play/quickstart"
     weight = 20
 
 [[menu.main]]
+    identifier = "menu.watch"
     name = "Watch"
     url = "/watch"
     weight = 30
 
 [[menu.main]]
+    identifier = "menu.contribute"
     name = "Contribute"
     url = "/contribute"
     weight = 40
 
 [[menu.main]]
+    identifier = "menu.development"
     name = "Development"
     url = "/dev"
     weight = 50
 
 [[menu.main]]
+    identifier = "menu.blog"
     name = "Blog"
     url = "/blog"
     weight = 70

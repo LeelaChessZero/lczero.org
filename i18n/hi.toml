@@ -1,0 +1,18 @@
+machineTranslationNotice = 'यह पृष्ठ मशीन द्वारा अनुवादित किया गया है। कुछ सामग्री असत्य हो सकती है।'
+# Menu i18n strings
+[menu]
+  play = "खेलें"
+  watch = "देखें"
+  contribute = "योगदान करें"
+  development = "विकास"
+  blog = "ब्लॉग"
+
+# Alert blockquote i18n strings
+[alert]
+default = "सूचना"
+caution = "सावधानी"
+important = "महत्वपूर्ण"
+info = "जानकारी"
+note = "नोट"
+tip = "सुझाव"
+warning = "चेतावनी"
