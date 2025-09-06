@@ -11,6 +11,15 @@ There are many built-in shortcodes in Hugo, you can see them here: https://gohug
 
 ## Custom Shortcodes
 
+### Lichess Embed
+
+Used to embed a lichess game into the website
+
+{{< lichessgame game_id=BMuSp0Wt >}}
+
+```go
+{{</* lichessgame game_id=BMuSp0Wt */>}}
+```
 
 ### Downloads
 
