@@ -5,24 +5,25 @@
 
 {{ define "main" }}
 
- <!-- Hero Section -->
- <section class="hero">
+<!-- Hero Section -->
+<section class="hero">
+  {{ partial "i18n-dropdown.html" . }}
   <div class="container">
-      <div class="hero-margin">
-          <h1>{{ .Title | default .Site.Title }}</h1>
-          <div class="content">
-              {{ if .Content }}
-                  {{ .Content }}
-              {{ else }}
-                  <p>{{ .Site.Params.homepage_intro }}</p>
-              {{ end }}
-          </div>
-          {{ range .Site.Params.homepage_button }}<a class="button button-primary" href="{{ .link | relURL }}">
-              {{ .text }}
-          </a>{{ end }}
+    <div class="hero-margin">
+      <h1>{{ .Title | default .Site.Title }}</h1>
+      <div class="content">
+        {{ if .Content }}
+        {{ .Content }}
+        {{ else }}
+        <p>{{ .Site.Params.homepage_intro }}</p>
+        {{ end }}
       </div>
+      {{ range .Site.Params.homepage_button }}<a class="button button-primary" href="{{ .link | relURL }}">
+        {{ .text }}
+      </a>{{ end }}
     </div>
-    <img class="home-large-logo" src="/images/logo_v2.svg" alt="Logo" />
+  </div>
+  <img class="home-large-logo" src="/images/logo_v2.svg" alt="Logo" />
 </section>
 
 <!-- Features Section -->
@@ -33,21 +34,21 @@
 {{ with $homepage.features }}
 <section class="features-section">
   <div class="container">
-      <div class="features-header">
-          <h2 class="features-title">{{ .title }}</h2>
-          <p class="features-subtitle">{{ .subtitle }}</p>
+    <div class="features-header">
+      <h2 class="features-title">{{ .title }}</h2>
+      <p class="features-subtitle">{{ .subtitle }}</p>
+    </div>
+    <div class="features-grid">
+      {{ range .items }}
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="{{ .icon }}"></i>
+        </div>
+        <h3 class="feature-title">{{ .title }}</h3>
+        <p class="feature-description">{{ .description }}</p>
       </div>
-      <div class="features-grid">
-          {{ range .items }}
-          <div class="feature-card">
-              <div class="feature-icon">
-                  <i class="{{ .icon }}"></i>
-              </div>
-              <h3 class="feature-title">{{ .title }}</h3>
-              <p class="feature-description">{{ .description }}</p>
-          </div>
-          {{ end }}
-      </div>
+      {{ end }}
+    </div>
   </div>
 </section>
 {{ end }}
@@ -56,18 +57,18 @@
 {{ with $homepage.community }}
 <section class="community-section">
   <div class="container">
-      <div class="community-header">
-          <h2 class="community-title">{{ .title }}</h2>
-          <p class="community-description">{{ .description }}</p>
-      </div>
-      <div class="community-links">
-          {{ range .links }}
-          <a href="{{ .link }}" class="community-link">
-              <i class="icon-placeholder {{ .icon }}"></i>
-              <h3 class="community-link-title">{{ .name }}</h3>
-          </a>
-          {{ end }}
-      </div>
+    <div class="community-header">
+      <h2 class="community-title">{{ .title }}</h2>
+      <p class="community-description">{{ .description }}</p>
+    </div>
+    <div class="community-links">
+      {{ range .links }}
+      <a href="{{ .link }}" class="community-link">
+        <i class="icon-placeholder {{ .icon }}"></i>
+        <h3 class="community-link-title">{{ .name }}</h3>
+      </a>
+      {{ end }}
+    </div>
   </div>
 </section>
 {{ end }}
@@ -75,9 +76,9 @@
 <!-- Training Site Notice -->
 <section class="training-notice">
   <div class="container">
-      <p>
-          Looking for the training site? It's <a href="//training.lczero.org" class="training-link">here</a>.
-      </p>
+    <p>
+      Looking for the training site? It's <a href="//training.lczero.org" class="training-link">here</a>.
+    </p>
   </div>
 </section>
 {{ end }}

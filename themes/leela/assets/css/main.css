@@ -448,6 +448,7 @@ main {
 
 .content-container {
     overflow-x: auto;
+    width: 100%;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -1101,6 +1102,13 @@ footer {
   float: right;
 }
 
+.hero .language-dropdown {
+  position: absolute;
+  right: 0;
+  top: 0;
+  float: none;
+}
+
 .language-dropdown-toggle {
   background: none;
   border: none;
@@ -1115,7 +1123,7 @@ footer {
 .language-dropdown-menu {
   display: none;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 100%;
   min-width: 140px;
   background: var(--color-bg-secondary);
