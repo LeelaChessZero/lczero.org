@@ -13,13 +13,48 @@ There are many built-in shortcodes in Hugo, you can see them here: https://gohug
 
 ### Lichess Embed
 
-Used to embed a lichess game into the website
+Used to embed a Lichess game into the page. Parameters:
+- game_id (required) — the Lichess game id.
+- ply (optional) — move number to anchor to, e.g. ply=69.
+- width (optional) — CSS width for the embed container (e.g. "80%", "600px"); defaults to "100%".
+- caption (optional) — text displayed centered below the board.
 
+Rendered example (default width):
 {{< lichessgame game_id=BMuSp0Wt >}}
 
+Raw shortcode (won't render):
 ```go
 {{</* lichessgame game_id=BMuSp0Wt */>}}
 ```
+
+Examples:
+- Minimal:
+  {{< lichessgame game_id=BMuSp0Wt >}}
+  ```go
+  {{</* lichessgame game_id=BMuSp0Wt */>}}
+  ```
+
+- With a move (ply):
+  {{< lichessgame game_id=jrLkiOkY ply=69 >}}
+  ```go
+  {{</* lichessgame game_id=jrLkiOkY ply=69 */>}}
+  ```
+
+- With width (80%) and caption (caption appears centered below the board):
+  {{< lichessgame game_id=jrLkiOkY ply=69 width="80%" caption="Hikaru makes a mistake" >}}
+  ```go
+  {{</* lichessgame game_id=jrLkiOkY ply=69 width="80%" caption="Hikaru makes a mistake" */>}}
+  ```
+
+- With fixed pixel width:
+  {{< lichessgame game_id=jrLkiOkY width="600px" caption="Compact board" >}}
+  ```go
+  {{</* lichessgame game_id=jrLkiOkY width="600px" caption="Compact board" */>}}
+  ```
+
+Notes:
+- width accepts any valid CSS width value; the board will scale to fill the container width.
+- caption text is optional and will be centered beneath the board when provided.
 
 ### Downloads
 
