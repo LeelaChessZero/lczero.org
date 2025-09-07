@@ -90,19 +90,21 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Toggle theme on click
-  themeToggleBtn.addEventListener("click", () => {
-    if (htmlEl.classList.contains("theme-light")) {
-      htmlEl.className = "theme-dark";
-      localStorage.setItem("theme", "dark");
-      themeIcon.className = "ri--moon-line";
-    } else if (htmlEl.classList.contains("theme-dark")) {
-      htmlEl.className = ""; // system
-      localStorage.setItem("theme", "system");
-      themeIcon.className = "ri--computer-line";
-    } else {
-      htmlEl.className = "theme-light";
-      localStorage.setItem("theme", "light");
-      themeIcon.className = "ri--sun-line";
-    }
-  });
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener("click", () => {
+      if (htmlEl.classList.contains("theme-light")) {
+        htmlEl.className = "theme-dark";
+        localStorage.setItem("theme", "dark");
+        themeIcon.className = "ri--moon-line";
+      } else if (htmlEl.classList.contains("theme-dark")) {
+        htmlEl.className = ""; // system
+        localStorage.setItem("theme", "system");
+        themeIcon.className = "ri--computer-line";
+      } else {
+        htmlEl.className = "theme-light";
+        localStorage.setItem("theme", "light");
+        themeIcon.className = "ri--sun-line";
+      }
+    });
+  }
 });
