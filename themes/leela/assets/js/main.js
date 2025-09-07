@@ -69,4 +69,40 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
+
+
+    // Theme toggle
+  const htmlEl = document.documentElement;
+  const themeToggleBtn = document.getElementById("theme-toggle");
+  const themeIcon = document.getElementById("theme-icon");
+
+  // Load saved theme from localStorage
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "light") {
+    htmlEl.className = "theme-light";
+    themeIcon.className = "ri--sun-line";
+  } else if (savedTheme === "dark") {
+    htmlEl.className = "theme-dark";
+    themeIcon.className = "ri--moon-line";
+  } else {
+    htmlEl.className = ""; // system theme
+    themeIcon.className = "ri--computer-line";
+  }
+
+  // Toggle theme on click
+  themeToggleBtn.addEventListener("click", () => {
+    if (htmlEl.classList.contains("theme-light")) {
+      htmlEl.className = "theme-dark";
+      localStorage.setItem("theme", "dark");
+      themeIcon.className = "ri--moon-line";
+    } else if (htmlEl.classList.contains("theme-dark")) {
+      htmlEl.className = ""; // system
+      localStorage.setItem("theme", "system");
+      themeIcon.className = "ri--computer-line";
+    } else {
+      htmlEl.className = "theme-light";
+      localStorage.setItem("theme", "light");
+      themeIcon.className = "ri--sun-line";
+    }
+  });
 });

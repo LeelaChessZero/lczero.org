@@ -13,48 +13,10 @@
     --font-size-h2: 2rem;
     --font-size-h1: 2.5rem;
 
-    /* Core Colors */
-    --color-white: #fff;
-    --color-black: #000;
-    --color-black-rgb: 0, 0, 0;
-    --color-gray-300: #e9ecef;
-    --color-gray-600: #666;
-    --color-gray-700: #333;
-    --black-rgb: 0, 0, 0;
-
-
-    /* Color palette */
+    /* Color palette - shared across themes */
     --color-accent: hsl(327, 82%, 51%);
-    --color-float-ui: #fafad2;
     
-    --border-color: hsl(223.81 0% 90%);
-    --border-color-active: hsl(327, 82%, 51%);
-
-
-    
-    --color-border-primary: var(--border-color);
-    --color-border-active: var(--border-color-active);
-
-    
-    /* Text colors */
-    --color-text-primary: var(--color-black);
-    --color-text-secondary: var(--color-gray-700);
-    --color-text-tertiary: var(--color-gray-600);
-    --color-link: var(--color-accent);
-    --color-button-text: var(--color-white);
-
-    /* Background colors */
-    --color-bg-primary: var(--color-white);
-    --color-bg-secondary: hsl(231, 47%, 97%);
-    --color-footer-bg: var(--color-bg-secondary);
-    --color-footer-icon: hsl(231, 17%, 60%);
-
-
-    /* Effects */
-    --shadow-color: rgba(var(--black-rgb), 0.1);
-    --feature-icon-color: var(--color-accent);
-    
-    /* Alert color variables */
+    /* Alert color variables - shared across themes */
     --alert-color-note: hsl(210, 80%, 60%);
     --alert-bg-note: hsla(210, 80%, 60%, 0.15);
     --alert-header-note: hsl(210, 80%, 40%);
@@ -78,28 +40,119 @@
     --alert-color-info: hsl(180, 70%, 50%);
     --alert-bg-info: hsla(180, 70%, 50%, 0.15);
     --alert-header-info: hsl(180, 70%, 35%);
-
 }
 
+/* Light theme (default) */
+:root,
+.theme-light {
+    /* Core Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-black-rgb: 0, 0, 0;
+    --color-gray-300: #e9ecef;
+    --color-gray-600: #666;
+    --color-gray-700: #333;
+    --black-rgb: 0, 0, 0;
+
+    --color-float-ui: #fafad2;
+    
+    --border-color: hsl(223.81 0% 90%);
+    --border-color-active: hsl(327, 82%, 51%);
+    
+    --color-border-primary: var(--border-color);
+    --color-border-active: var(--border-color-active);
+    
+    /* Text colors */
+    --color-text-primary: var(--color-black);
+    --color-text-secondary: var(--color-gray-700);
+    --color-text-tertiary: var(--color-gray-600);
+    --color-link: var(--color-accent);
+    --color-button-text: var(--color-white);
+
+    /* Background colors */
+    --color-bg-primary: var(--color-white);
+    --color-bg-secondary: hsl(231, 47%, 97%);
+    --color-footer-bg: var(--color-bg-secondary);
+    --color-footer-icon: hsl(231, 17%, 60%);
+
+    /* Effects */
+    --shadow-color: rgba(var(--black-rgb), 0.1);
+    --feature-icon-color: var(--color-accent);
+}
+
+/* Dark theme */
+.theme-dark {
+    /* Core Colors */
+    --color-white: #f8f9fa;
+    --color-black: #212529;
+    --color-black-rgb: 33, 37, 41;
+    --color-gray-300: #74808b;
+    --color-gray-600: #adb5bd;
+    --color-gray-700: #e9ecef;
+    --black-rgb: 33, 37, 41;
+
+    --color-float-ui: #343a40; /* A yellow felt too bright */
+    
+    --border-color: hsl(210, 14%, 30%);
+    --border-color-active: hsl(327, 82%, 51%);
+    
+    --color-border-primary: var(--border-color);
+    --color-border-active: var(--border-color-active);
+    
+    /* Text colors */
+    --color-text-primary: var(--color-white);
+    --color-text-secondary: var(--color-gray-600);
+    --color-text-tertiary: var(--color-gray-300);
+    --color-link: var(--color-accent);
+    --color-button-text: var(--color-white);
+
+    /* Background colors */
+    --color-bg-primary: #121416; 
+    --color-bg-secondary: #2d3239;
+    --color-footer-bg: var(--color-black);
+    --color-footer-icon: hsl(231, 17%, 70%);
+
+    /* Effects */
+    --shadow-color: rgba(var(--black-rgb), 0.1);
+    --feature-icon-color: var(--color-accent);
+}
+
+/* System theme - respects user's OS preference */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not(.theme-light):not(.theme-dark) {
+      /* Core Colors */
       --color-white: #f8f9fa;
       --color-black: #212529;
       --color-black-rgb: 33, 37, 41;
       --color-gray-300: #74808b;
       --color-gray-600: #adb5bd;
       --color-gray-700: #e9ecef;
+      --black-rgb: 33, 37, 41;
 
       --color-float-ui: #343a40; /* A yellow felt too bright */
-      --color-border-primary: hsl(210, 14%, 30%);
       
+      --border-color: hsl(210, 14%, 30%);
+      --border-color-active: hsl(327, 82%, 51%);
+      
+      --color-border-primary: var(--border-color);
+      --color-border-active: var(--border-color-active);
+      
+      /* Text colors */
       --color-text-primary: var(--color-white);
       --color-text-secondary: var(--color-gray-600);
       --color-text-tertiary: var(--color-gray-300);
+      --color-link: var(--color-accent);
+      --color-button-text: var(--color-white);
+
+      /* Background colors */
       --color-bg-primary: #121416; 
       --color-bg-secondary: #2d3239;
       --color-footer-bg: var(--color-black);
       --color-footer-icon: hsl(231, 17%, 70%);
+
+      /* Effects */
+      --shadow-color: rgba(var(--black-rgb), 0.1);
+      --feature-icon-color: var(--color-accent);
   }
 }
 
@@ -626,8 +679,25 @@ footer {
 .footer-content>a {
     display: inline-flex;
     align-items: center;
-    margin-left: 8px;
+    margin-left: 0.5rem;
     color: var(--color-footer-icon);
+}
+
+.footer-content button#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0.5rem;
+  color: var(--color-footer-icon);
+  display: inline-flex;
+  align-items: center;
+}
+
+
+.footer-content button#theme-toggle:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 
 /* Blog list */
