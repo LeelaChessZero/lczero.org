@@ -17,7 +17,7 @@ There are specific CPU-only builds available (such as BLAS or DNNL). These build
 
 ### Is stockfish or Lc0 stronger?
 
-This will depend on specific hardware and testing conditions, but generally Stockfish is considered to be slightly stronger than Lc0.
+This will depend on specific hardware and testing conditions, but Stockfish is considered to be slightly stronger than Lc0.
 
 ### What is the best Lc0 network?
 
