@@ -3,7 +3,8 @@
     <h1 class="title">{{ .Title }}</h1>
 
     {{if default true .Params.show_contents}}
-    {{ range.Pages }}
+    {{ $paginator := .Paginate .Pages }}
+    {{ range $paginator.Pages }}
         <div class="blog-summary">            
             <div class="blog-summary-title">
                 <a href="{{ .Permalink }}">
@@ -15,6 +16,17 @@
             {{ end}}
             <p>{{ .Summary }}</p>
         </div>
+    {{ end }}
+
+    <!-- Pagination navigation -->
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pagination">
+        <a {{ if $paginator.HasPrev }}href="{{ $paginator.Prev.URL }}" class="pagination-prev" {{ else }}class="pagination-prev pagination-disabled"{{ end }}>← Previous</a>
+
+        <span class="pagination-current">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+        
+        <a {{ if $paginator.HasNext }}href="{{ $paginator.Next.URL }}" class="pagination-next" {{ else }}class="pagination-next pagination-disabled"{{ end }}>Next →</a>
+        </nav>
     {{ end }}
     {{ end }}
 {{ end }}
