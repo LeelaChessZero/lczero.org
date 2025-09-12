@@ -59,6 +59,10 @@ enableMissingTranslationPlaceholders = true
     url = "/blog"
     weight = 70
 
+# Used for blog pagination
+[pagination]
+  pagerSize = 10  
+
 [params]
   lc0version="v0.32.0"
   google_analytics_id="G-MC971PFSYE"

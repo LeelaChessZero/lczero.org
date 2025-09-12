@@ -658,6 +658,25 @@ footer {
     font-size: 1.2rem;
 }
 
+nav.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
+
+.pagination-prev, .pagination-next {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.pagination-disabled {
+    color: var(--color-text-tertiary);
+    pointer-events: none;
+}
+
+
 /* Base Alert Styles */
 .alert {
   padding: 1rem;
