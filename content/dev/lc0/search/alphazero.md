@@ -152,8 +152,9 @@ described above.
 
 ### First Play Urgency (FPU)
 
-What an edge didn't have any visits yet, it doesn't have \(Q\) value yet, so we need to choose a value for it. 
-In AlphaZero, the value is just set to 0 (i.e. draw value).
+If an edge didn't have any visits yet, it doesn't have \(Q\) value yet, so we
+need to choose a value for it. In AlphaZero, the value is just set to 0 (i.e.
+draw value).
 
 In Lc0, we use First Play Urgency (FPU) instead, first introduced in Leela Zero
 (Go engine by Gian-Carlo Pascutto). FPU takes parent's \(Q\) value and subtracts

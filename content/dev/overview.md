@@ -9,63 +9,57 @@ network evaluation with Monte Carlo Tree Search. The distributed nature of the
 project requires quite a bit of infrastructure to support development, testing,
 and deployment.
 
-On a high level, the Lc0 ecosystem consists of:
+## Lc0 Ecosystem
 
-* **The `lc0` engine** (C++, [GitHub](https://github.com/LeelaChessZero/lc0)):
-  It's an [UCI](https://en.wikipedia.org/wiki/Universal_Chess_Interface) chess
-  engine that loads a neural network and runs a MCTS search. Internally, it
-  consists of:
-  * **Search Algorithms**: Various implementations of search algorithms (mainly
-    MCTS/PUCT).
-  * **Neural Network Backends**: Code that evaluates a chess position using a
-    neural network on a wide range of hardware.
-  * **Rescorer**: A component that is used in the training pipeline but still is
-    a part of the Lc0 binary. It checks positions with Syzygy tablebases, and
-    whether the move was intentional blunder. If so, it updates the training
-    data.
-* **Reinforcement Learning (RL) loop**: A system that allows to train new neural
-  networks using games played by the engine against itself on a previous version
-  of the network. This part is planned for complete redesign due to several
-  limitations mentioned below. It consists of:
-  * **The training client** (Go,
-    [GitHub](https://github.com/LeelaChessZero/lczero-client)): A binary that
-    downloads the latest network, runs `lc0` against itself, and uploads the
-    games to the data collection server. In the near future, we intend to make
-    it also support running benchmarks and engine tuning.
-  * **The data collection server** (Go,
-    [GitHub](https://github.com/LeelaChessZero/lczero-server)): it provides a
-    HTTP API for training clients to upload games, and distributes the games
-    to the servers that train the neural networks. Currently, it also provides
-    a web interface at <https://training.lczero.org>, but we intend only to keep
-    the API, and move the web interface to a separate project.
-  * **The training servers** (Python,
-    [GitHub](https://github.com/LeelaChessZero/lczero-training)): A set of
-    servers that wait for new games to be uploaded, train new neural networks,
-    and upload them to the data collection server.
-* **The website** (Hugo,
-  [GitHub](https://github.com/LeelaChessZero/lczero.org)): This website with
-  documentation, blog and other information about the project.
-* **Developer website** (Python/Django, <https://dev.lczero.org>): A new website
-  in development that is intended to replace the current
-  <https://training.lczero.org> interface, the <https://lc0.org> URL shoretener,
-  and all of:
-  * <https://dashboard.lczero.org/monitor/> (Python/Django) Our monitoring and
-    alerting system.
-  * <https://bench.lczero.org/> Openbench instance.
-  * Discord notification system of TCEC and CCCC games.
-* **live.lczero.org** (Python/Sanic,
-  [GitHub](https://github.com/LeelaChessZero/lczero-live)): A site that run for
-  live broadcasts of notable human chess events with Leela Chess Zero
-  annotations. We hope to update it for the next events to show even more unique
-  insights into the games.
-* **Miscellaneous**:
-  * **Discord bot** (Python): Simple command responder, URL shortener interface,
-    and TCEC and CCCC game notifications. Planned to be rewritten together with
-    the developer website.
-  * **https://lc0.org/**: An URL shortener interface.
-  * **Lc0-TUI** (Python, [GitHub](https://github.com/LeelaChessZero/lc0-tui)): A
-    terminal user interface for interacting with the Lc0 engine. It was used for
-    the WCCC competitions, but is not actively maintained anymore.
+On a high level, the Lc0 ecosystem consists of the following components:
+
+### The lc0 Engine
+
+(C++, [GitHub](https://github.com/LeelaChessZero/lc0)) It's an [UCI](https://en.wikipedia.org/wiki/Universal_Chess_Interface) chess engine that loads a neural network and runs a MCTS search.
+
+| Component                   | Description                                                                                                                                                                                                             |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Search Algorithms**       | Various implementations of search algorithms (mainly MCTS/PUCT).                                                                                                                                                        |
+| **Neural Network Backends** | Code that evaluates a chess position using a neural network on a wide range of hardware.                                                                                                                                |
+| **Rescorer**                | A component that is used in the training pipeline but still is a part of the Lc0 binary. It checks positions with Syzygy tablebases, and whether the move was intentional blunder. If so, it updates the training data. |
+
+### Reinforcement Learning (RL) Loop
+
+A system that allows to train new neural networks using games played by the engine against itself on a previous version of the network. This part is planned for complete redesign due to several limitations mentioned below.
+
+| Component                      | Description                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **The training client**        | (Go, [GitHub](https://github.com/LeelaChessZero/lczero-client)) A binary that downloads the latest network, runs `lc0` against itself, and uploads the games to the data collection server. In the near future, we intend to make it also support running benchmarks and engine tuning.                                                                                   |
+| **The data collection server** | (Go, [GitHub](https://github.com/LeelaChessZero/lczero-server)) it provides a HTTP API for training clients to upload games, and distributes the games to the servers that train the neural networks. Currently, it also provides a web interface at <https://training.lczero.org>, but we intend only to keep the API, and move the web interface to a separate project. |
+| **The training servers**       | (Python, [GitHub](https://github.com/LeelaChessZero/lczero-training)) A set of servers that wait for new games to be uploaded, train new neural networks, and upload them to the data collection server.                                                                                                                                                                  |
+
+### The Website
+
+(Hugo, [GitHub](https://github.com/LeelaChessZero/lczero.org)) This website with documentation, blog and other information about the project.
+
+### Developer Website
+
+(Python/Django, <https://dev.lczero.org>) A new website in development that is intended to replace the current <https://training.lczero.org> interface, the <https://lc0.org> URL shoretener, and additional services:
+
+| Component                 | Description                                                                                 |
+| ------------------------- | ------------------------------------------------------------------------------------------- |
+| **Monitoring system**     | <https://dashboard.lczero.org/monitor/> (Python/Django) Our monitoring and alerting system. |
+| **Openbench instance**    | <https://bench.lczero.org/>                                                                 |
+| **Discord notifications** | Discord notification system of TCEC and CCCC games.                                         |
+
+### Live.lczero.org
+
+(Python/Sanic, [GitHub](https://github.com/LeelaChessZero/lczero-live)) A site that run for live broadcasts of notable human chess events with Leela Chess Zero annotations. We hope to update it for the next events to show even more unique insights into the games.
+
+### Miscellaneous
+
+Various supporting tools and services:
+
+| Component            | Description                                                                                                                                                                                                 |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Discord bot**      | (Python) Simple command responder, URL shortener interface, and TCEC and CCCC game notifications. Planned to be rewritten together with the developer website.                                              |
+| **lc0.org** | An URL shortener interface.                                                                                                                                                                                 |
+| **Lc0-TUI**          | (Python, [GitHub](https://github.com/LeelaChessZero/lc0-tui)) A terminal user interface for interacting with the Lc0 engine. It was used for the WCCC competitions, but is not actively maintained anymore. |
 
 ## The `lc0` Engine
 

@@ -5,4 +5,4 @@ draft: true
 summary: "A description of the lc0 backends"
 ---
 
-Starting with version v0.32, `lc0` definew a 
+Starting with version v0.32, `lc0` defin
