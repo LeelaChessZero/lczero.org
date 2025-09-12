@@ -11,44 +11,65 @@ enableGitInfo = true
 # See https://gohugo.io/content-management/summaries/
 summaryLength = 30
 
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
+enableMissingTranslationPlaceholders = true
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+    languageDirection = 'ltr'
+  [languages.es]
+    weight = 2
+    languageName = "Español"
+    languageDirection = 'ltr'
+  [languages.hi]
+    weight = 3
+    languageName = "Hindi"
+    languageDirection = 'ltr'
 
 [[menu.main]]
+    identifier = "menu.play"
     name = "Play"
     url = "/play/quickstart"
     weight = 20
 
 [[menu.main]]
+    identifier = "menu.watch"
     name = "Watch"
     url = "/watch"
     weight = 30
 
 [[menu.main]]
+    identifier = "menu.contribute"
     name = "Contribute"
     url = "/contribute"
     weight = 40
 
 [[menu.main]]
+    identifier = "menu.development"
     name = "Development"
     url = "/dev"
     weight = 50
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 60
-
-[[menu.main]]
+    identifier = "menu.blog"
     name = "Blog"
     url = "/blog"
     weight = 70
 
+# Used for blog pagination
+[pagination]
+  pagerSize = 10  
+
 [params]
-  lc0version="v0.31.2"
+  lc0version="v0.32.0"
   google_analytics_id="G-MC971PFSYE"
   math = false
 
   #homepage_intro = 'Lc0'
-  mainSections = ["play", "watch", "contribute", "dev", "community", "blog", "about"]
+  mainSections = ["play", "watch", "contribute", "dev", "community", "blog"]
   [[params.homepage_button]]
     link = "/play/download"
     text = "Download"

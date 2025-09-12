@@ -1,0 +1,71 @@
+---
+- platform: Windows
+  description: |
+    All Windows packages contain: 
+      - lc0.exe (the engine)
+      - A default neural network file
+      - lc0-training-client.exe (for contributing training games)
+  cards:
+  - title: NVIDIA GPU Users
+    description: ''
+    downloads:
+    - label: CUDA 11 Version
+      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-gpu-nvidia-cuda11.zip
+      description: For RTX 20xx, RTX 30xx, RTX 40xx (2018+) GPUs.
+    - label: CUDNN Version
+      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-gpu-nvidia-cudnn.zip
+      description: For GTX 650 to GTX 16xx (2014-2018) GPUs.
+  - title: Other GPU Users
+    description: ''
+    downloads:
+    - label: ONNX-DML Version
+      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-onnx-dml.zip
+      description: For AMD/Intel GPUs.
+    # - label: OpenCL Version # Open CL doesn't exist in v0.32.0, find replacement or remove.
+    #   url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-gpu-opencl.zip
+    #   description: For generic GPUs.
+  - title: CPU Only (No GPU)
+    description: ''
+    downloads:
+    - label: DNNL BLAS Version
+      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-cpu-dnnl.zip
+      description: For modern CPUs (2009+).
+    - label: OpenBLAS Version
+      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-cpu-openblas.zip
+      description: For older CPUs.
+- platform: MacOS
+  # description: |
+  #   You can install using [Homebrew](https://brew.sh/).
+  #   ```sh
+  #   brew install lc0
+  #   ```
+
+  #   The Homebrew package includes the lc0 engine and network 42850.
+  # Add once v0.32.0 is released and remove description above.
+  cards:
+  - title: MacOS Options
+    description: ''
+    downloads:
+    - label: Official Release
+      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-macos_12.6.1 
+      description: Supports Apple Silicon and Intel-based Macs.
+    - label: Homebrew Package
+      url: https://formulae.brew.sh/formula/lc0
+      description: Homebrew package for your convenience.
+
+- platform: Linux
+  cards:
+  - title: Linux Options
+    description: Use your package manager or build from source for latest.
+    downloads:
+    - label: Build from Source
+      url: https://github.com/LeelaChessZero/lc0/blob/master/README.md#building-and-running-lc0
+      description: Follow the instructions in the README to build from source.
+- platform: Android
+  cards:
+  - title: Android APK
+    # description: 
+    downloads:
+    - label: Android APK
+      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-android.apk
+      description: 'Engine only, no GUI.'

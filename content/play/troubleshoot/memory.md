@@ -1,5 +1,5 @@
 ---
-title: "Troubleshoot"
+title: "Memory issues"
 weight: 2000
 draft: false
 ---
@@ -10,15 +10,15 @@ Unlike traditional A/B chess engines, Lc0 has to keep entire search tree in memo
 That means that as the search goes, memory consumption increases. Lc0 requires roughly 250-350 bytes of memory per node, that means that typical RAM sizes can only handle so many nodes:
 
 | Amount of RAM | Maximum nodes |
-|--------------|---------------|
-| 1GB | 3'000'000 |
-| 4GB | 12'000'000 |
-| 8GB | 25'000'000 |
-| 16GB | 50'000'000 |
-| 32GB | 100'000'000 |
-| 64GB | 200'000'000 |
-| 128GB | 400'000'000 |
-| 256GB | 800'000'000 |
+| ------------- | ------------- |
+| 1GB           | 3'000'000     |
+| 4GB           | 12'000'000    |
+| 8GB           | 25'000'000    |
+| 16GB          | 50'000'000    |
+| 32GB          | 100'000'000   |
+| 64GB          | 200'000'000   |
+| 128GB         | 400'000'000   |
+| 256GB         | 800'000'000   |
 
 
 In case of long searches it's possible that the system RAM is exhausted, and in this case either the Lc0 or other system processes will crash.
@@ -29,8 +29,3 @@ When Lc0 reaches the limit, it will stop the search (from the outside it would l
 
 It's also possible to increase amount of memory available to Lc0 by a large factor by using a swap(paging) file on SSD. Usually swap files degrade performance of programs, but Lc0 can handle it just fine.  
 Please consult the documentation of the operating system you use to find out how to enable the swap file.
-
-
-### Other topics
-
-TODO(Write about log collection to ask on #help in discord, common problems and their ways to debug)
