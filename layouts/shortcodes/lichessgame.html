@@ -1,0 +1,7 @@
+{{ $width := default "100%" .Params.width }}
+<figure style="width: {{ $width }}; margin: 1rem auto;">
+	<iframe src="https://lichess.org/embed/game/{{ .Params.game_id }}?theme=auto&bg=auto{{ if .Params.ply }}#{{ .Params.ply }}{{ end }}" style="width: 100%; aspect-ratio: 3/2;" frameborder=0></iframe>
+	{{ with .Params.caption }}
+		<figcaption style="text-align: center; margin-top: 0.25rem;">{{ . }}</figcaption>
+	{{ end }}
+</figure>
