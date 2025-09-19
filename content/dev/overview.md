@@ -39,7 +39,7 @@ A system that allows to train new neural networks using games played by the engi
 
 ### Developer Website
 
-(Python/Django, <https://dev.lczero.org>) A new website in development that is intended to replace the current <https://training.lczero.org> interface, the <https://lc0.org> URL shoretener, and additional services:
+(Python/Django, <https://dev.lczero.org>) A new website in development that is intended to replace the current <https://training.lczero.org> interface, the <https://lc0.org> URL shortener, and additional services:
 
 | Component                 | Description                                                                                 |
 | ------------------------- | ------------------------------------------------------------------------------------------- |
