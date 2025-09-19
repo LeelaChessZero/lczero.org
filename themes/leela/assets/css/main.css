@@ -236,8 +236,11 @@ header {
 .main-menu>ul>li {
     list-style: none;
     font-size: 14px;
+}
+
+.main-menu>ul>li>a {
     padding: 10px 14px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     font-weight: 400;
     text-decoration: none;
@@ -250,12 +253,17 @@ header {
 .main-menu>ul>li>button#theme-toggle {
   background: none;
   border: none;
-  cursor: pointer;
-  padding: 0;
+  cursor: pointer;  
+  padding: 10px 14px;
   color: var(--color-accent);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.main-menu>ul>li>button#theme-toggle:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 
 /* Mobile Styles */
