@@ -9,7 +9,7 @@ Here's a brief refresher on the AlphaZero algorithm, which Lc0 is based on.
 
 It's described in the detail in the papers
 
-* "[Mastering the game of Go without human knowledge](hhttps://www.nature.com/articles/nature24270.epdf?author_access_token=VJXbVjaSHxFoctQQ4p2k4tRgN0jAjWel9jnR3ZoTv0PVW4gB86EEpGqTRDtpIz-2rmo8-KG06gqVobU5NSCFeHILHcVFUeMsbvwS-lxjqQGg98faovwjxeTUgZAUMnRQ)"
+* "[Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270.epdf?author_access_token=VJXbVjaSHxFoctQQ4p2k4tRgN0jAjWel9jnR3ZoTv0PVW4gB86EEpGqTRDtpIz-2rmo8-KG06gqVobU5NSCFeHILHcVFUeMsbvwS-lxjqQGg98faovwjxeTUgZAUMnRQ)"
 ([DeepMind blog post](https://deepmind.com/blog/article/alphago-zero-starting-from-scratch)),
 and then
 * "[A general reinforcement learning algorithm that masters chess, shogi and Go through self-play](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf)"
