@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
     themeIcon.className = "ri--moon-line";
   } else {
     htmlEl.className = ""; // system theme
-    themeIcon.className = "ri--computer-line";
+    themeIcon.className = "lucide--sun-moon";
   }
 
   // Toggle theme on click
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (htmlEl.classList.contains("theme-dark")) {
         htmlEl.className = ""; // system
         localStorage.setItem("theme", "system");
-        themeIcon.className = "ri--computer-line";
+        themeIcon.className = "lucide--sun-moon";
       } else {
         htmlEl.className = "theme-light";
         localStorage.setItem("theme", "light");

@@ -236,17 +236,26 @@ header {
 .main-menu>ul>li {
     list-style: none;
     font-size: 14px;
-}
-
-.main-menu>ul>li>a {
     padding: 10px 14px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-weight: 400;
     text-decoration: none;
 }
 
 .main-menu>ul>li.active>a {
     font-weight: 700;
+}
+
+.main-menu>ul>li>button#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Mobile Styles */
@@ -326,6 +335,13 @@ header {
         height: 100vh;
         background: rgba(0, 0, 0, 0.5);
         z-index: 999;
+    }
+
+    .menu-item-theme-switch {
+        order: 999;
+        margin-top: auto;
+        padding-top: 20px;
+        border-top: 1px solid var(--color-footer-bg);
     }
 }
 
@@ -681,23 +697,6 @@ footer {
     align-items: center;
     margin-left: 0.5rem;
     color: var(--color-footer-icon);
-}
-
-.footer-content button#theme-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  margin-left: 0.5rem;
-  color: var(--color-footer-icon);
-  display: inline-flex;
-  align-items: center;
-}
-
-
-.footer-content button#theme-toggle:focus {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
 }
 
 /* Blog list */
