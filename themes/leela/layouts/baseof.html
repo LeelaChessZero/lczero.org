@@ -5,13 +5,13 @@
 </head>
 <body class='{{ block "body_classes" . }}{{ end }}'>
   <header>
-    {{ partial "header.html" . }}
+    {{ partialCached "header.html" . .Section }}
   </header>
   <main>
     {{ block "main" . }}{{ end }}
   </main>
   <footer>
-    {{ partial "footer.html" . }}
+    {{ partialCached "footer.html" . }}
   </footer>
 </body>
 </html>
