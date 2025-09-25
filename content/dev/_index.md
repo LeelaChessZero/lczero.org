@@ -1,8 +1,8 @@
 ---
-weight: 100
+weight: 200
 ---
 
-When written, this section will contain technical docs: algorithm description,
-code annotation, design documents, server administrator guides etc.
+# Developer Documentation
 
-Nothing of that is currently here. :)
+The documentation is organized in the following sections that cover the Lc0
+ecosystem.
