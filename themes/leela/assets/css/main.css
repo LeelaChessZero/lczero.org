@@ -350,7 +350,7 @@ pre.chroma code {
 
 code {
     font-family: "roboto mono", monospace;
-    font-size: 0.8rem;
+    font-size: 80%;
     background: var(--color-footer-bg);
     padding: 3px 6px;
     border-radius: 3px;
