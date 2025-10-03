@@ -69,4 +69,45 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
+
+
+    // Theme toggle
+  const htmlEl = document.documentElement;
+  const themeToggleBtn = document.getElementById("theme-toggle");
+  const themeIcon = document.getElementById("theme-icon");
+
+  // Load saved theme from localStorage
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "light") {
+    htmlEl.classList.add("theme-light");
+    themeIcon.className = "ri--sun-line";
+  } else if (savedTheme === "dark") {
+    htmlEl.classList.add("theme-dark");
+    themeIcon.className = "ri--moon-line";
+  } else {
+    htmlEl.classList.remove("theme-light", "theme-dark");
+    themeIcon.className = "lucide--sun-moon";
+  }
+
+  // Toggle theme on click
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener("click", () => {
+      if (htmlEl.classList.contains("theme-light")) {
+        htmlEl.classList.remove("theme-light");
+        htmlEl.classList.add("theme-dark");
+        localStorage.setItem("theme", "dark");
+        themeIcon.className = "ri--moon-line";
+      } else if (htmlEl.classList.contains("theme-dark")) {
+        htmlEl.classList.remove("theme-light");
+        htmlEl.classList.remove("theme-dark");
+        localStorage.setItem("theme", "system");
+        themeIcon.className = "lucide--sun-moon";
+      } else {
+        htmlEl.classList.remove("theme-dark");
+        htmlEl.classList.add("theme-light");
+        localStorage.setItem("theme", "light");
+        themeIcon.className = "ri--sun-line";
+      }
+    });
+  }
 });
