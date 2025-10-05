@@ -1,11 +1,12 @@
-+++
-title = "CCCC rounds 32,33,34,35 and 36. Leela with 5 draws and an \"almost win\" against mighty Komodo!"
-slug = "cccc-rounds-32333435-and-36-leela-with"
-published = 2018-09-13T16:21:00.004000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-13T16:21:00+02:00"
+slug: cccc-rounds-32333435-and-36-leela-with
+tags: []
+title: CCCC rounds 32,33,34,35 and 36. Leela with 5 draws and an "almost win" against
+  mighty Komodo!
+---
 
 ![]({{< file "2018-09-13-cccc-rounds-32333435-and-36-leela-with-gtuytu6767.png" >}})
 

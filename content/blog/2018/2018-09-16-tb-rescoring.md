@@ -1,11 +1,11 @@
-+++
-title = "TB Rescoring"
-slug = "tb-rescoring"
-published = 2018-09-16T00:57:00.001000+02:00
-author = "killrducky"
-tags = []
-draft = false
-+++
+---
+author: killrducky
+draft: false
+published: "2018-09-16T00:57:00+02:00"
+slug: tb-rescoring
+tags: []
+title: TB Rescoring
+---
 
 While test20 runs, we are running test30 in parallel to test two ideas. First
 test30 uses a different method to initialize the first random net, and a

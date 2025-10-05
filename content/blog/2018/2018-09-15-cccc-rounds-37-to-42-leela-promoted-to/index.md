@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 37 to 42. Leela promoted to 2nd stage!"
-slug = "cccc-rounds-37-to-42-leela-promoted-to"
-published = 2018-09-15T20:19:00.004000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-15T20:19:00+02:00"
+slug: cccc-rounds-37-to-42-leela-promoted-to
+tags: []
+title: CCCC rounds 37 to 42. Leela promoted to 2nd stage!
+---
 
 ![]({{< file "2018-09-15-cccc-rounds-37-to-42-leela-promoted-to-ghjgjh5667.png" >}})
 

@@ -1,5 +1,5 @@
 ---
-title: "Networks and Runs"
+title: Networks and Runs
 weight: 800
 ---
 

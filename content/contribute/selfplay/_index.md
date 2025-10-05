@@ -1,7 +1,7 @@
 ---
-title: "Training games"
+draft: true
+title: Training games
 weight: 100
-draft: true  # Do not forget to add link to this page from the parent page
 ---
 
 TODO(Update quickstart page to have a link to this page when explaining what client.exe is)

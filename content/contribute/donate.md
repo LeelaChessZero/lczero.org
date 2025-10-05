@@ -1,7 +1,7 @@
 ---
-title: "Donate"
-weight: 3000
 draft: true
+title: Donate
+weight: 3000
 ---
 
 We have patreon at https://www.patreon.com/lc0.

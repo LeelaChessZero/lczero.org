@@ -1,11 +1,12 @@
-+++
-title = "CCCC rounds 28, 29, 30 and 31. Leela draws Stockfish and wins in drawn position again!"
-slug = "cccc-rounds-28-29-30-and-31-leela-draws"
-published = 2018-09-11T20:44:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-11T20:44:00+02:00"
+slug: cccc-rounds-28-29-30-and-31-leela-draws
+tags: []
+title: CCCC rounds 28, 29, 30 and 31. Leela draws Stockfish and wins in drawn position
+  again!
+---
 
 ![]({{< file "2018-09-11-cccc-rounds-28-29-30-and-31-leela-draws-hgfh8768768.png" >}})
 

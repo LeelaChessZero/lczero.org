@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 43,44 and 45. First stage is over!"
-slug = "cccc-rounds-4344-and-45-first-stage-is"
-published = 2018-09-16T18:48:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-16T18:48:00+02:00"
+slug: cccc-rounds-4344-and-45-first-stage-is
+tags: []
+title: CCCC rounds 43,44 and 45. First stage is over!
+---
 
 ![]({{< file "2018-09-16-cccc-rounds-4344-and-45-first-stage-is-ghjgj5522.png" >}})
 

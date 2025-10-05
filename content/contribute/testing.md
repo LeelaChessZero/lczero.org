@@ -1,7 +1,7 @@
 ---
-title: "Testing"
-weight: 300
 draft: true
+title: Testing
+weight: 300
 ---
 
 (Describe how to run tests in cutechess/arena/etc, how to report results, how to

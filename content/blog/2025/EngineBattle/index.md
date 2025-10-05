@@ -1,7 +1,8 @@
 ---
-title: "EngineBattle: A Comprehensive Streaming, Testing and Analysis Tool for Lc0 Users"
-author: "lepned"
-published: 2025-07-22
+author: lepned
+published: "2025-07-22"
+title: 'EngineBattle: A Comprehensive Streaming, Testing and Analysis Tool for Lc0
+  Users'
 ---
 
 The chess engine development community has always needed powerful tools to test, analyze, and compare engine performance. EngineBattle offers a comprehensive solution specifically designed with features that make it invaluable for Lc0 developers and users who want to dive deep into neural network evaluation and testing.

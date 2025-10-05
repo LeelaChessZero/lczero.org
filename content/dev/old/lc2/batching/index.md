@@ -1,5 +1,5 @@
 ---
-title: "Gathering larger batches"
+title: Gathering larger batches
 weight: 400
 ---
 

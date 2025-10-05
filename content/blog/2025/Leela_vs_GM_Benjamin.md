@@ -1,7 +1,7 @@
 ---
-title: "Leela vs GM Joel Benjamin"
-author: "Naphthalin"
-published: 2025-01-24
+author: Naphthalin
+published: "2025-01-24"
+title: Leela vs GM Joel Benjamin
 ---
 
 We're excited to announce the very first knight odds exhibition match at classical time control! Happening January 25th to 27th on Lichess with GM Joel Benjamin.

@@ -1,7 +1,7 @@
 ---
-title: "Community"
-date: 2019-12-07T19:59:37+01:00
+date: "2019-12-07T19:59:37+01:00"
 draft: false
+title: Community
 weight: 100
 ---
 

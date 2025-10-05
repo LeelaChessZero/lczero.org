@@ -1,7 +1,7 @@
 ---
-title: "Why we withdrew from WCCC"
-author: "Lc0 WCCC team"
-published: 2024-10-18
+author: Lc0 WCCC team
+published: "2024-10-18"
+title: Why we withdrew from WCCC
 ---
 
 The WCCC organizers allowed a clone, ShashChess, to participate as a proxy for Stockfish (that didn’t enter), which we find disrespectful. Consequently, we are withdrawing from the competition.

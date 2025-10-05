@@ -1,11 +1,7 @@
 ---
-title: "Jumping on the NNUE bandwagon"
-# slug: "blog-post-title"
-published: 2021-04-01
-#draft: true
-author: "borg"
-# image: "name"
-# cover: "cover.png" # Default
+author: borg
+published: "2021-04-01"
+title: Jumping on the NNUE bandwagon
 ---
 
 Unless you were living under a rock during the last year, you have probably heard of the revolution that has been happening in computer chess. That is assuming you are interested in computer chess, but if you are not then why are you reading this? We are talking about Efficiently Updatable Neural Networks (referred to as NNUE, giving new meaning to backronyms) allegedly discovered by Japanese monks on sacred FORTRAN punched cards. The introduction of NNUE to the Alpha-Beta search of Stockfish resulted in impressive gains, despite initial bugs and ridicule. Since then the dominoes have been falling one after the other and now almost all the top chess engines have a NNUE implementation. Obviously Lc0 couldn’t be far behind, so we proudly present LcFiSh, the latest incarnation of Lc0 with NNUE technology.

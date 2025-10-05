@@ -1,11 +1,11 @@
-+++
-title = "Leela promotes to round of 16 in TCEC Cup with 2 nice wins!"
-slug = "leela-promotes-to-round-of-16-in-tcec"
-published = 2018-10-09T12:09:00.001000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-09T12:09:00+02:00"
+slug: leela-promotes-to-round-of-16-in-tcec
+tags: []
+title: Leela promotes to round of 16 in TCEC Cup with 2 nice wins!
+---
 
 ![]({{< file "2018-10-09-leela-promotes-to-round-of-16-in-tcec-hk678688888.png" >}})
 

@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 6,7 and 8...."
-slug = "cccc-rounds-67-and-8"
-published = 2018-09-03T16:51:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-03T16:51:00+02:00"
+slug: cccc-rounds-67-and-8
+tags: []
+title: CCCC rounds 6,7 and 8....
+---
 
 [![]({{< file "gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 

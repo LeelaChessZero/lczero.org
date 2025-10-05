@@ -1,11 +1,11 @@
-+++
-title = "Understanding Training against Q as Knowledge Distillation."
-slug = "understanding-training-against-q-as"
-published = 2018-10-10T23:06:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-10T23:06:00+02:00"
+slug: understanding-training-against-q-as
+tags: []
+title: Understanding Training against Q as Knowledge Distillation.
+---
 
 ![]({{< file "2018-10-10-understanding-training-against-q-as-1_oTtENBrl4x7EZlLYQo0GQA.jpeg" >}})
 

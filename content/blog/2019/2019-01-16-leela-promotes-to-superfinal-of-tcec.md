@@ -1,11 +1,11 @@
-+++
-title = "Leela promotes to SuperFinal of TCEC! She will face Stockfish."
-slug = "leela-promotes-to-superfinal-of-tcec"
-published = 2019-01-16T20:16:00.003000+01:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2019-01-16T20:16:00+01:00"
+slug: leela-promotes-to-superfinal-of-tcec
+tags: []
+title: Leela promotes to SuperFinal of TCEC! She will face Stockfish.
+---
 
 [![](../../images/2019-01-16-leela-promotes-to-superfinal-of-tcec-
 jkhkjh9879879999.png)

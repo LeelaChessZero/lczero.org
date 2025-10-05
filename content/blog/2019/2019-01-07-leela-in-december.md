@@ -1,11 +1,11 @@
-+++
-title = "Leela in December"
-slug = "leela-in-december"
-published = 2019-01-07T20:18:00.002000+01:00
-author = "Kaffe avec"
-tags = []
-draft = false
-+++
+---
+author: Kaffe avec
+draft: false
+published: "2019-01-07T20:18:00+01:00"
+slug: leela-in-december
+tags: []
+title: Leela in December
+---
 
 ## Quick recap
 

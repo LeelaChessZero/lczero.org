@@ -1,10 +1,10 @@
 ---
-title: "LCZero live analysis for WCC 2024"
-slug: "wcc24-live"
-published: 2024-11-23
-author: "crem"
+author: crem
 params:
   math: true
+published: "2024-11-23"
+slug: wcc24-live
+title: LCZero live analysis for WCC 2024
 ---
 
 We are excited to announce the launch of https://live.lczero.org/ for the upcoming

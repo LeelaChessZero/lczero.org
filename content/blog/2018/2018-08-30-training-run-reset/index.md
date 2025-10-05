@@ -1,11 +1,11 @@
-+++
-title = "Training run reset"
-slug = "training-run-reset"
-published = 2018-08-30T20:34:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-08-30T20:34:00+02:00"
+slug: training-run-reset
+tags: []
+title: Training run reset
+---
 
 ## Update
 

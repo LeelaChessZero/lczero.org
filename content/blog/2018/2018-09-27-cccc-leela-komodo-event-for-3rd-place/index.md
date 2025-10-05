@@ -1,11 +1,11 @@
-+++
-title = "CCCC Leela-Komodo event for 3rd place and Chess variants tournament!"
-slug = "cccc-leela-komodo-event-for-3rd-place"
-published = 2018-09-27T16:09:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-27T16:09:00+02:00"
+slug: cccc-leela-komodo-event-for-3rd-place
+tags: []
+title: CCCC Leela-Komodo event for 3rd place and Chess variants tournament!
+---
 
 ![]({{< file "2018-09-27-cccc-leela-komodo-event-for-3rd-place-fh68768888.png" >}})
 

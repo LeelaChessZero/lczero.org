@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 17, 18 and 19. Leela with 2 wins and 1 draw."
-slug = "cccc-rounds-17-18-and-19-leela-with-2"
-published = 2018-09-07T17:39:00.001000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-07T17:39:00+02:00"
+slug: cccc-rounds-17-18-and-19-leela-with-2
+tags: []
+title: CCCC rounds 17, 18 and 19. Leela with 2 wins and 1 draw.
+---
 
 [![]({{< file "2018-09-07-cccc-rounds-17-18-and-19-leela-with-2-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 

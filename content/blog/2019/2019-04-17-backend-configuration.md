@@ -1,11 +1,11 @@
-+++
-title = "Backend configuration"
-slug = "backend-configuration"
-published = 2019-04-17T11:55:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2019-04-17T11:55:00+02:00"
+slug: backend-configuration
+tags: []
+title: Backend configuration
+---
 
 To break the silence of lack of posts in this blog, let me write about Lc0
 backends configuration, as it has been totally undocumented so far.  

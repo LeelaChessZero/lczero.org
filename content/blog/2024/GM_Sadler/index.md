@@ -1,7 +1,7 @@
 ---
-title: "GM Matthew Sadler on WDL contempt"
-author: "Naphthalin"
-published: 2024-03-24
+author: Naphthalin
+published: "2024-03-24"
+title: GM Matthew Sadler on WDL contempt
 ---
 
 GM Matthew Sadler has posted a [blog post](https://matthewsadler.me.uk/openings/online-chess-novelties/) on WDL Contempt and a series of YouTube videos showing examples of using it for opening preparation.

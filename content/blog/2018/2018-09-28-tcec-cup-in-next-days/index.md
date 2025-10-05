@@ -1,11 +1,11 @@
-+++
-title = "TCEC Cup in the next days!"
-slug = "tcec-cup-in-next-days"
-published = 2018-09-28T22:09:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-28T22:09:00+02:00"
+slug: tcec-cup-in-next-days
+tags: []
+title: TCEC Cup in the next days!
+---
 
 ![]({{< file "2018-09-28-tcec-cup-in-next-days-hjkhk79799999.png" >}})
 

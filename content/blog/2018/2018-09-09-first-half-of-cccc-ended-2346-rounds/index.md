@@ -1,11 +1,11 @@
-+++
-title = "First half of CCCC ended. 23/46 rounds. Leela is 4th! Results and conclusions...."
-slug = "first-half-of-cccc-ended-2346-rounds"
-published = 2018-09-09T01:58:00.003000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-09T01:58:00+02:00"
+slug: first-half-of-cccc-ended-2346-rounds
+tags: []
+title: First half of CCCC ended. 23/46 rounds. Leela is 4th! Results and conclusions....
+---
 
 ![]({{< file "2018-09-09-first-half-of-cccc-ended-2346-rounds-jkj0770709.png" >}})
 

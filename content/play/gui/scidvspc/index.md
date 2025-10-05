@@ -1,7 +1,7 @@
 ---
-title: "Scid vs. PC"
+summary: Installing the Lc0 in Scid vs. PC.
+title: Scid vs. PC
 weight: 3000
-summary: "Installing the Lc0 in Scid vs. PC."
 ---
 
 To install Lc0 in Scid vs. PC, follow the following steps:

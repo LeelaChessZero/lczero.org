@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 3, 4 and 5. Leela with a beautiful win!"
-slug = "cccc-rounds-3-4-and-5-leela-with"
-published = 2018-09-02T15:55:00.001000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-02T15:55:00+02:00"
+slug: cccc-rounds-3-4-and-5-leela-with
+tags: []
+title: CCCC rounds 3, 4 and 5. Leela with a beautiful win!
+---
 
 [![]({{< file "gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 

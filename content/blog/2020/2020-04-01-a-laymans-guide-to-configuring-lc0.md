@@ -1,11 +1,11 @@
-+++
-title = "A Layman's Guide to Configuring lc0"
-slug = "a-laymans-guide-to-configuring-lc0"
-published = 2020-04-01
-author = "borg"
-tags = []
-draft = false
-+++
+---
+author: borg
+draft: false
+published: "2020-04-01"
+slug: a-laymans-guide-to-configuring-lc0
+tags: []
+title: A Layman's Guide to Configuring lc0
+---
 
 One of the commonly expressed complaints about lc0 is that there are too many parameters. While this is undoubtedly true, this gives us unparalleled flexibility to tune the engine[’](https://www.youtube.com/watch?v=zXP_pr7np-o)s behavior to reach the point where “when you see what Leela suggests, then you say - it makes sense” as Magnus Carlsen recently said. While there are efforts underway to simplify the user-facing configuration options, we decided that this is a perfect opportunity to reveal the underlying formulas used to derive the default values for most parameters:
 <!--more-->

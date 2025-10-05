@@ -1,10 +1,9 @@
 ---
-title: "TCEC S17 SUper FInal report"
-slug: "tcec-s17-super-final-report"
-published: 2020-04-21
-author: "glbchess64"
-
+author: glbchess64
 loadChessbaseScripts: true
+published: "2020-04-21"
+slug: tcec-s17-super-final-report
+title: TCEC S17 SUper FInal report
 ---
 
 *by @glbchess64*

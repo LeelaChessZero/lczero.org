@@ -1,7 +1,9 @@
 ---
-title: "Human Sparring Networks"
+description: A selection of neural networks designed to play at human skill levels.
+  These networks mimic human decision-making and common mistakes, offering tailored
+  opponents for players of all levels.
+title: Human Sparring Networks
 weight: 850
-description: "A selection of neural networks designed to play at human skill levels. These networks mimic human decision-making and common mistakes, offering tailored opponents for players of all levels."
 ---
 
 ## About Human Sparring Networks

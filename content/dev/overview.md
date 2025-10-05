@@ -1,7 +1,7 @@
 ---
-title: "Overview"
+summary: Overview of the Leela Chess Zero ecosystem
+title: Overview
 weight: 100
-summary: "Overview of the Leela Chess Zero ecosystem"
 ---
 
 Leela Chess Zero (Lc0) is an open-source chess engine that combines neural

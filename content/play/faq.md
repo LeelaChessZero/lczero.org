@@ -1,7 +1,7 @@
 ---
-title: "FAQ"
+summary: Frequently Asked Questions about Leela Chess Zero
+title: FAQ
 weight: 2100
-summary: "Frequently Asked Questions about Leela Chess Zero"
 ---
 
 ### What is Lc0?

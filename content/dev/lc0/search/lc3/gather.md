@@ -1,8 +1,7 @@
 ---
-title: "Gather"
-weight: 500
 draft: true
-# summary: "A short summary of the page content."
+title: Gather
+weight: 500
 ---
 
 (This page is not yet written)

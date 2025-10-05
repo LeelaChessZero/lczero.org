@@ -1,7 +1,7 @@
 ---
-title: "Nibbler"
+summary: Installing the Lc0 in Nibbler GUI.
+title: Nibbler
 weight: 100
-summary: "Installing the Lc0 in Nibbler GUI."
 ---
 
 To install Lc0 in Nibbler, follow the following steps:

@@ -1,12 +1,12 @@
-+++
-title = "TCEC Superfinal Leela-Stockfish continues. Equal after 33 games! "
-slug = "tcec-superfinal-leela-stockfish"
-published = 2019-02-10T17:18:00+01:00
-author = "Bob23"
-tags = []
-draft = false
-loadChessbaseScripts = true
-+++
+---
+author: Bob23
+draft: false
+loadChessbaseScripts: true
+published: "2019-02-10T17:18:00+01:00"
+slug: tcec-superfinal-leela-stockfish
+tags: []
+title: 'TCEC Superfinal Leela-Stockfish continues. Equal after 33 games! '
+---
 
 **TCEC superfinal** of **14th** Season is currently being played as
 **Stockfish** and **Leela** battle for the TCEC Season 14 Champion title.  

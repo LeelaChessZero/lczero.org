@@ -1,11 +1,11 @@
-+++
-title = "CCCC Leela-Komodo 3rd place match started and TCEC Cup is about to start."
-slug = "cccc-leela-komodo-3rd-place-match"
-published = 2018-10-02T10:57:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-02T10:57:00+02:00"
+slug: cccc-leela-komodo-3rd-place-match
+tags: []
+title: CCCC Leela-Komodo 3rd place match started and TCEC Cup is about to start.
+---
 
 ![]({{< file "2018-10-02-cccc-leela-komodo-3rd-place-match-hkjhk87987979798799.png">}})
 

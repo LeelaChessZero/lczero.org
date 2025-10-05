@@ -1,11 +1,11 @@
-+++
-title = "Lc0 training."
-slug = "lc0-training"
-published = 2018-10-28T23:06:00+01:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-28T23:06:00+01:00"
+slug: lc0-training
+tags: []
+title: Lc0 training.
+---
 
 ![]({{< file "2018-10-28-lc0-training-gjhgj8768788768.jpg" >}})
 

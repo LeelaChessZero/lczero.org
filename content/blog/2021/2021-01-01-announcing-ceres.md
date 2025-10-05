@@ -1,11 +1,7 @@
 ---
-title: "Announcing Ceres"
-# slug: "blog-post-title"
-published: 2021-01-01
-#draft: true
-author: "crem"
-# image: "name"
-# cover: "cover.png" # Default
+author: crem
+published: "2021-01-01"
+title: Announcing Ceres
 ---
 
 There has been a long time without posts in our blog, and finally there is a

@@ -1,11 +1,11 @@
-+++
-title = "Training server is down"
-slug = "training-server-is-down"
-published = 2019-05-17T19:36:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2019-05-17T19:36:00+02:00"
+slug: training-server-is-down
+tags: []
+title: Training server is down
+---
 
 **2019-05-26 UPDATE:** Temporary server is up again.  
 **2019-05-25** **UPDATE2:** Turns out cloud instance was preemtable, so it

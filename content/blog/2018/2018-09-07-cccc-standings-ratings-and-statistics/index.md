@@ -1,11 +1,11 @@
-+++
-title = "CCCC standings, ratings and statistics after round 17."
-slug = "cccc-standings-ratings-and-statistics"
-published = 2018-09-07T00:46:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-07T00:46:00+02:00"
+slug: cccc-standings-ratings-and-statistics
+tags: []
+title: CCCC standings, ratings and statistics after round 17.
+---
 
 Chess.com Computer World Championship continues with engines battling for the
 first 8 positions that would bring them to next stage.  

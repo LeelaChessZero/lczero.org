@@ -1,10 +1,7 @@
 ---
-title: "Lc0 v0.25 has been released"
-#slug: "blog-post-title"
-published: 2020-05-02
-author: "crem"
-# image: "name"
-# cover: "cover.png" # Default
+author: crem
+published: "2020-05-02"
+title: Lc0 v0.25 has been released
 ---
 
 Lc0 **v0.25** has been released.  

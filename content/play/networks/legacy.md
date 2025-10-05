@@ -1,5 +1,5 @@
 ---
-title: "Legacy Networks"
+title: Legacy Networks
 weight: 900
 ---
 

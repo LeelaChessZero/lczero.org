@@ -1,5 +1,5 @@
 ---
-title: "Move Q and N to eges"
+title: Move Q and N to eges
 weight: 300
 ---
 

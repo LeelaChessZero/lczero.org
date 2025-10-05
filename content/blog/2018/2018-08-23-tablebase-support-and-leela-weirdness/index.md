@@ -1,11 +1,11 @@
-+++
-title = "Tablebase support and Leela weirdness in endgame"
-slug = "tablebase-support-and-leela-weirdness"
-published = 2018-08-23T20:42:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-08-23T20:42:00+02:00"
+slug: tablebase-support-and-leela-weirdness
+tags: []
+title: Tablebase support and Leela weirdness in endgame
+---
 
 As it [has been announced earlier]({{< ref "2018-08-19-lc0-v0170-rc1-has-been-released" >}}),
 Leela has a partial endgame tablebase support now.

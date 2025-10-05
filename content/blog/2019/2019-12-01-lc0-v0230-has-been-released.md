@@ -1,11 +1,11 @@
-+++
-title = "Lc0 v0.23.0 has been released"
-slug = "lc0-v0230-has-been-released"
-published = 2019-12-01T17:05:00+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2019-12-01T17:05:00+01:00"
+slug: lc0-v0230-has-been-released
+tags: []
+title: Lc0 v0.23.0 has been released
+---
 
 **Update:** we have a bugfix release **v0.23.1**, download
 [here](https://github.com/LeelaChessZero/lc0/releases/tag/v0.23.1). It

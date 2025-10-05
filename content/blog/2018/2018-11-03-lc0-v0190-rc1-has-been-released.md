@@ -1,11 +1,11 @@
-+++
-title = "Lc0 v0.19.0-rc1 (UPD: rc2) has been released."
-slug = "lc0-v0190-rc1-has-been-released"
-published = 2018-11-03T17:52:00+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-11-03T17:52:00+01:00"
+slug: lc0-v0190-rc1-has-been-released
+tags: []
+title: 'Lc0 v0.19.0-rc1 (UPD: rc2) has been released.'
+---
 
 The release candidate of a new Leela version has been released:
 

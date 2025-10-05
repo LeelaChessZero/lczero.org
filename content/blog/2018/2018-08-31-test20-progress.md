@@ -1,11 +1,11 @@
-+++
-title = "Test20 progress"
-slug = "test20-progress"
-published = 2018-08-31T23:25:00.002000+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-08-31T23:25:00+02:00"
+slug: test20-progress
+tags: []
+title: Test20 progress
+---
 
 Test20 is being run for a few hours already, and several people expressed a
 concern that this time progress is slower then it was in previous runs.

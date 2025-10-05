@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 26 and 27. Leela with a crazy game as also her first loss!"
-slug = "cccc-rounds-26-and-27-leela-with-crazy"
-published = 2018-09-10T14:33:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-10T14:33:00+02:00"
+slug: cccc-rounds-26-and-27-leela-with-crazy
+tags: []
+title: CCCC rounds 26 and 27. Leela with a crazy game as also her first loss!
+---
 
 ![]({{< file "2018-09-10-cccc-rounds-26-and-27-leela-with-crazy-uiyi888888.png" >}})
 

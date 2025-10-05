@@ -1,11 +1,11 @@
-+++
-title = "Lc0 v0.24 has been released!"
-slug = "lc0-v024-has-been-released"
-published = 2020-03-11T19:02:00.004000+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2020-03-11T19:02:00+01:00"
+slug: lc0-v024-has-been-released
+tags: []
+title: Lc0 v0.24 has been released!
+---
 
 **IMPORTANT UPDATE:** v0.24.0 had a bug when either `--logit-q` or 
 `--draw-score-*` options were active. If you use either of those options, please

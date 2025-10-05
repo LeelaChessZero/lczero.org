@@ -1,7 +1,7 @@
 ---
-title: "BanksiaGUI"
+summary: Installing the Lc0 in BanksiaGUI.
+title: BanksiaGUI
 weight: 200
-summary: "Installing the Lc0 in BanksiaGUI."
 ---
 
 # Install Lc0

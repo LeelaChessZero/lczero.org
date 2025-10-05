@@ -1,5 +1,5 @@
 ---
-title: "Setting up Lc0 in chess GUI"
+title: Setting up Lc0 in chess GUI
 weight: 200
 ---
 

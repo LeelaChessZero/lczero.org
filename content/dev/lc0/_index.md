@@ -1,7 +1,7 @@
 ---
-title: "The lc0 engine"
+summary: A description of the `lc0.exe` engine, including search algorithms, and backends.
+title: The lc0 engine
 weight: 100
-summary: "A description of the `lc0.exe` engine, including search algorithms, and backends."
 ---
 
 

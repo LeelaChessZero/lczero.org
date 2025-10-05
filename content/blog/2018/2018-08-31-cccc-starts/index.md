@@ -1,11 +1,11 @@
-+++
-title = "CCCC starts."
-slug = "cccc-starts"
-published = 2018-08-31T17:59:00.003000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-08-31T17:59:00+02:00"
+slug: cccc-starts
+tags: []
+title: CCCC starts.
+---
 
 [Chess.com Computer Chess Championship](http://www.chess.com/computer-chess-championship) starts today.
 

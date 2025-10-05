@@ -1,11 +1,11 @@
-+++
-title = "Competition Season!"
-slug = "competition-season"
-published = 2019-05-11T02:01:00.001000+02:00
-author = "Alexis Olson"
-tags = []
-draft = false
-+++
+---
+author: Alexis Olson
+draft: false
+published: "2019-05-11T02:01:00+02:00"
+slug: competition-season
+tags: []
+title: Competition Season!
+---
 
 Today, May 10, 2019, Leela is playing in the first game of the high profile
 [TCEC Season 15 Superfinal](https://tcec.chessdom.com/). Leela qualified after

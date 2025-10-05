@@ -1,11 +1,11 @@
-+++
-title = "Nibbler: an Lc0 GUI"
-slug = "nibbler-lc0-gui"
-published = 2019-06-25T13:20:00+02:00
-author = "fohristiwhirl"
-tags = []
-draft = false
-+++
+---
+author: fohristiwhirl
+draft: false
+published: "2019-06-25T13:20:00+02:00"
+slug: nibbler-lc0-gui
+tags: []
+title: 'Nibbler: an Lc0 GUI'
+---
 
 Does the world need another Chess GUI? Some people say no, but they don't have
 very many Chess GUIs, do they?

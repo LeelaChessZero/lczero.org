@@ -1,11 +1,7 @@
 ---
-title: "Joking FTW, Seriously"
-# slug: "blog-post-title"
-published: 2021-04-25
-#draft: true
-author: "borg"
-# image: "name"
-# cover: "cover.png" # Default
+author: borg
+published: "2021-04-25"
+title: Joking FTW, Seriously
 ---
 
 It all started a couple of months ago. First the [Stockfish 13](https://github.com/official-stockfish/Stockfish/releases/tag/sf_13) release announcement and shortly later the [Lc0 v0.27.0](https://discord.com/channels/425419482568196106/425419581713154049/813006562507096114) one contained identical language that both “teams will join forces to demonstrate our commitment to open source chess engines and training tools, and open data.” While the intention is still there and we stand behind this statement, we haven’t yet managed to make something more formal in this direction.

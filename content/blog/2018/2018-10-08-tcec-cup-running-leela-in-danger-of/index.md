@@ -1,11 +1,12 @@
-+++
-title = "TCEC CUP running. Leela in danger of elimination from the 1st round against Laser! UPDATE: Leela won!"
-slug = "tcec-cup-running-leela-in-danger-of"
-published = 2018-10-08T20:39:00.002000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-08T20:39:00+02:00"
+slug: tcec-cup-running-leela-in-danger-of
+tags: []
+title: 'TCEC CUP running. Leela in danger of elimination from the 1st round against
+  Laser! UPDATE: Leela won!'
+---
 
 ![]({{< file "2018-10-08-tcec-cup-running-leela-in-danger-of-hk678688888.png" >}})
 
