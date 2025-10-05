@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 9 and 10. Leela with the Knight underpromotion win!"
-slug = "cccc-rounds-9-and-10-leela-with-knight"
-published = 2018-09-04T10:23:00.001000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-04T10:23:00+02:00"
+slug: cccc-rounds-9-and-10-leela-with-knight
+tags: []
+title: CCCC rounds 9 and 10. Leela with the Knight underpromotion win!
+---
 
 ![]({{< file "2018-09-04-cccc-rounds-9-and-10-leela-with-knight-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 

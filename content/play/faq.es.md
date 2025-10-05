@@ -1,8 +1,8 @@
 ---
-title: "FAQ"
-weight: 2100
-summary: "Preguntas frecuentes sobre Leela Chess Zero"
 machineTranslated: true
+summary: Preguntas frecuentes sobre Leela Chess Zero
+title: FAQ
+weight: 2100
 ---
 
 ### ¿Qué es Lc0?

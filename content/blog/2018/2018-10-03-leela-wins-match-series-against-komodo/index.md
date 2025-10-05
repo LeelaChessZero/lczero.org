@@ -1,11 +1,12 @@
-+++
-title = "Leela wins the match series against Komodo and wins a Pawn odds game against Stockfish!"
-slug = "leela-wins-match-series-against-komodo"
-published = 2018-10-03T19:47:00.004000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-03T19:47:00+02:00"
+slug: leela-wins-match-series-against-komodo
+tags: []
+title: Leela wins the match series against Komodo and wins a Pawn odds game against
+  Stockfish!
+---
 
 ![]({{< file "2018-10-03-leela-wins-match-series-against-komodo-hkjhk8999999.png" >}})
 

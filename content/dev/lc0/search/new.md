@@ -1,7 +1,7 @@
 ---
-title: "Implementing a new search algorithm"
+summary: A guide to implementing a new search algorithm in lc0
+title: Implementing a new search algorithm
 weight: 2000
-summary: "A guide to implementing a new search algorithm in lc0"
 ---
 
 Starting with version v0.32, `lc0` defines a

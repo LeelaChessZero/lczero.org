@@ -1,11 +1,11 @@
-+++
-title = "Lc0 v0.18.0-rc2 has been released."
-slug = "lc0-v0180-rc2-has-been-released"
-published = 2018-09-26T22:55:00.001000+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-09-26T22:55:00+02:00"
+slug: lc0-v0180-rc2-has-been-released
+tags: []
+title: Lc0 v0.18.0-rc2 has been released.
+---
 
 The "Release Candidate 2" for the Lc0 version v0.18 has been published!  
 Available to download

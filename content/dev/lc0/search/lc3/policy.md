@@ -1,7 +1,7 @@
 ---
-title: "Search Policy"
+summary: What is a search policy
+title: Search Policy
 weight: 200
-summary: "What is a search policy"
 ---
 
 [Search policy](https://github.com/LeelaChessZero/lc0/blob/master/src/search/lc3/search_policy/search_policy.h)

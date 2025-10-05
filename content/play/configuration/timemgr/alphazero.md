@@ -1,8 +1,8 @@
 ---
-title: "Time manager Alphazero"
-weight: 100
 draft: true
-summary: "Time manager Alphazero in Lc0"
+summary: Time manager Alphazero in Lc0
+title: Time manager Alphazero
+weight: 100
 ---
 
 This page contains an alternative time manager to be used by lczero.

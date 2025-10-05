@@ -1,11 +1,11 @@
-+++
-title = "AlphaZero paper, and Lc0 v0.19.1"
-slug = "alphazero-paper-and-lc0-v0191"
-published = 2018-12-07T22:37:00+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-12-07T22:37:00+01:00"
+slug: alphazero-paper-and-lc0-v0191
+tags: []
+title: AlphaZero paper, and Lc0 v0.19.1
+---
 
 As everyone has already heard, DeepMind has published a detailed paper on
 AlphaZero!

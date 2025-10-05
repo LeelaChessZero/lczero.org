@@ -1,8 +1,9 @@
 ---
-title: "Shortcodes Reference & Usage Guide"
-weight: 100
 draft: false
-summary: Reference and usage guide for all Hugo shortcodes supported in the LCZero theme, including examples and rendered output.
+summary: Reference and usage guide for all Hugo shortcodes supported in the LCZero
+  theme, including examples and rendered output.
+title: Shortcodes Reference & Usage Guide
+weight: 100
 ---
 
 ## Built-In Shortcodes

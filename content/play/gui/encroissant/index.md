@@ -1,7 +1,7 @@
 ---
-title: "En Croissant"
+summary: Installing the Lc0 engine in En Croissant
+title: En Croissant
 weight: 4000
-summary: "Installing the Lc0 engine in En Croissant"
 ---
 
 # 1. On Windows

@@ -1,7 +1,7 @@
 ---
-title: "Leela vs GM Awonder Liang"
-author: "Marcogio9"
-published: 2024-12-08
+author: Marcogio9
+published: "2024-12-08"
+title: Leela vs GM Awonder Liang
 ---
 
 We’re excited to announce a knight odds exhibition match between Leela and [GM Awonder Liang](https://en.wikipedia.org/wiki/Awonder_Liang)!

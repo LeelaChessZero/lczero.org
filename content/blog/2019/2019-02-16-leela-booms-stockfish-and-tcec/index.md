@@ -1,12 +1,12 @@
-+++
-title = "Leela BOOMS Stockfish and TCEC Superfinal. She is leading with 2 points!"
-slug = "leela-booms-stockfish-and-tcec"
-published = 2019-02-16T14:42:00.003000+01:00
-author = "Bob23"
-tags = []
-draft = false
-loadChessbaseScripts = true
-+++
+---
+author: Bob23
+draft: false
+loadChessbaseScripts: true
+published: "2019-02-16T14:42:00+01:00"
+slug: leela-booms-stockfish-and-tcec
+tags: []
+title: Leela BOOMS Stockfish and TCEC Superfinal. She is leading with 2 points!
+---
 
 
 As per the usual expression of **BOOM** of TCEC chat when an engine finds

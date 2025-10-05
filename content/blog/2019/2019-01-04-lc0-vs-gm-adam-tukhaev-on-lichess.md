@@ -1,11 +1,11 @@
-+++
-title = "Lc0 vs GM Adam Tukhaev on Lichess"
-slug = "lc0-vs-gm-adam-tukhaev-on-lichess"
-published = 2019-01-04T15:49:00+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2019-01-04T15:49:00+01:00"
+slug: lc0-vs-gm-adam-tukhaev-on-lichess
+tags: []
+title: Lc0 vs GM Adam Tukhaev on Lichess
+---
 
 Not everyone knows, but recently there was a match between Lc0 and GM Daniel
 Naroditsky on Lichess.  

@@ -1,11 +1,11 @@
-+++
-title = "TCEC Cup started! CCCC variants tournament continues...."
-slug = "tcec-cup-started-cccc-variants"
-published = 2018-10-06T13:09:00.004000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-06T13:09:00+02:00"
+slug: tcec-cup-started-cccc-variants
+tags: []
+title: TCEC Cup started! CCCC variants tournament continues....
+---
 
 ![]({{< file "2018-10-06-tcec-cup-started-cccc-variants-hk678688888.png" >}})
 

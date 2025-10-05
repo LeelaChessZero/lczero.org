@@ -1,11 +1,11 @@
-+++
-title = "Leela Chess Zero - difficult positions. The new world of NN engines!"
-slug = "leela-chess-zero-difficult-positions"
-published = 2018-09-03T15:44:00.004000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-03T15:44:00+02:00"
+slug: leela-chess-zero-difficult-positions
+tags: []
+title: Leela Chess Zero - difficult positions. The new world of NN engines!
+---
 
 Traditional Chess engines with classic Alpha-Beta search, sometimes have huge
 problems with some positions that require deep planning and understanding of

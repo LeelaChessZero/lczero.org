@@ -1,11 +1,11 @@
-+++
-title = "Achilles heel of Chess engines.... Neural net engines and Leela the only hope!"
-slug = "achilles-heel-of-chess-engines-neural"
-published = 2018-10-08T21:20:00.002000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-08T21:20:00+02:00"
+slug: achilles-heel-of-chess-engines-neural
+tags: []
+title: Achilles heel of Chess engines.... Neural net engines and Leela the only hope!
+---
 
 ![]({{< file "2018-10-08-achilles-heel-of-chess-engines-neural-karsparov.jpeg" >}})
 

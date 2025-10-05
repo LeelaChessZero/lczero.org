@@ -1,11 +1,11 @@
-+++
-title = "Where to play Leela online?"
-slug = "where-to-play-leela-online"
-published = 2018-11-13T07:25:00+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-11-13T07:25:00+01:00"
+slug: where-to-play-leela-online
+tags: []
+title: Where to play Leela online?
+---
 
 The **play.lczero.org** web site where everyone could quickly play Lc0 online
 is currently down.

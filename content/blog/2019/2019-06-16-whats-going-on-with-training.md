@@ -1,11 +1,11 @@
-+++
-title = "What's going on with training!"
-slug = "whats-going-on-with-training"
-published = 2019-06-16T12:58:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2019-06-16T12:58:00+02:00"
+slug: whats-going-on-with-training
+tags: []
+title: What's going on with training!
+---
 
 I've just decided that maybe it's a time for a post. Describing what's going
 on and what are the plans, stuff like that!

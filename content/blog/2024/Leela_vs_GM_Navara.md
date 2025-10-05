@@ -1,7 +1,7 @@
 ---
-title: "Leela vs GM David Navara"
-author: "Naphthalin"
-published: 2024-03-26
+author: Naphthalin
+published: "2024-03-26"
+title: Leela vs GM David Navara
 ---
 
 We're excited to announce a knight odds exhibition match between Leela and [GM David Navara](https://en.wikipedia.org/wiki/David_Navara).

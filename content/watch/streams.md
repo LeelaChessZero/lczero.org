@@ -1,7 +1,7 @@
 ---
-title: "Streamers"
-weight: 1000
 draft: true
+title: Streamers
+weight: 1000
 ---
 
 These people frequently stream Leela games on Twitch:

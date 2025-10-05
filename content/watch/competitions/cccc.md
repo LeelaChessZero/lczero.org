@@ -1,7 +1,7 @@
 ---
-title: "CCCC"
-weight: 100
 draft: false
+title: CCCC
+weight: 100
 ---
 
 [**C**hess.**c**om **c**omputer **c**hess **c**hampionship](https://chess.com/cccc) (also known as **CCCCC**, **CCCC** and **CCC**) is a never stopping tournament optimized for entertainment.

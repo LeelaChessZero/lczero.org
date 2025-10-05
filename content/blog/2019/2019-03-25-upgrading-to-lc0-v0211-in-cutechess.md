@@ -1,11 +1,11 @@
-+++
-title = "Upgrading to Lc0 v0.21.1 in CuteChess"
-slug = "upgrading-to-lc0-v0211-in-cutechess"
-published = 2019-03-25T11:45:00.002000+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2019-03-25T11:45:00+01:00"
+slug: upgrading-to-lc0-v0211-in-cutechess
+tags: []
+title: Upgrading to Lc0 v0.21.1 in CuteChess
+---
 
 This a quick note for people who use **CuteChess** and just upgraded to
 **v0.21.1** from earlier versions.

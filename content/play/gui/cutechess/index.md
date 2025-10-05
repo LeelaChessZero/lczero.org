@@ -1,7 +1,7 @@
 ---
-title: "Cutechess"
+summary: Installing the Lc0 in Cutechess GUI.
+title: Cutechess
 weight: 500
-summary: "Installing the Lc0 in Cutechess GUI."
 ---
 
 To install Lc0 in Cutechess, follow the following steps:

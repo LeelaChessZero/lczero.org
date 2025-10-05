@@ -1,11 +1,11 @@
-+++
-title = "Time management"
-slug = "time-management"
-published = 2018-09-05T22:55:00.001000+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-09-05T22:55:00+02:00"
+slug: time-management
+tags: []
+title: Time management
+---
 
 As many of you have noticed, Leela's thinking time allocation seems suboptimal
 for during the CCCC games. It almost doesn't spend any time in the opening,

@@ -1,7 +1,7 @@
 ---
-title: "Transformer Progress"
-author: "Daniel Monroe"
-published: 2024-02-28
+author: Daniel Monroe
+published: "2024-02-28"
+title: Transformer Progress
 ---
 
 

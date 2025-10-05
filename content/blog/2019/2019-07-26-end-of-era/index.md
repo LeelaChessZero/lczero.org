@@ -1,12 +1,11 @@
-+++
-title = "End of era"
-slug = "end-of-era"
-published = 2019-07-26T15:44:00+02:00
-author = "crem"
-tags = []
-draft = false
-# cover = "cover.png" # Default
-+++
+---
+author: crem
+draft: false
+published: "2019-07-26T15:44:00+02:00"
+slug: end-of-era
+tags: []
+title: End of era
+---
 
 The era of test40 has finished, that training of test40 has been stopped.
 

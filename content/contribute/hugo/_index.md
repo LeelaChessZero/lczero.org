@@ -1,8 +1,8 @@
 ---
-title: "Website"
-weight: 1500
 draft: false
 show_contents: false
+title: Website
+weight: 1500
 ---
 
 Many sections of this website are not fully written, and help with filling/fixing them up would be appreciated.

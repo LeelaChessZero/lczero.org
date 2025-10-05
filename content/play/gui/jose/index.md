@@ -1,7 +1,7 @@
 ---
-title: "jose"
+summary: Installing the Lc0 in jose Chess Database
+title: jose
 weight: 3000
-summary: "Installing the Lc0 in jose Chess Database"
 ---
 
 #### 1. Play and Analyze ####

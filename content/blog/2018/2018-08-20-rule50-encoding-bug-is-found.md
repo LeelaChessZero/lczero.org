@@ -1,11 +1,11 @@
-+++
-title = "Rule50 encoding bug is found"
-slug = "rule50-encoding-bug-is-found"
-published = 2018-08-20T21:53:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-08-20T21:53:00+02:00"
+slug: rule50-encoding-bug-is-found
+tags: []
+title: Rule50 encoding bug is found
+---
 
 We had numerous issues in network encoding in the past, and now after pretty
 long pause we found yet another one! :)

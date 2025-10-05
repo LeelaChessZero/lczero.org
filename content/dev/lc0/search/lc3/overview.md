@@ -1,7 +1,7 @@
 ---
-title: "Overview"
+summary: Overview of the lc3 search algorithm
+title: Overview
 weight: 100
-summary: "Overview of the lc3 search algorithm"
 ---
 
 The `lc3` search algorithm is a multi-threaded tree search implementation that

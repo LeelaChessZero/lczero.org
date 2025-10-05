@@ -1,11 +1,11 @@
-+++
-title = "Contributing to Leela Chess Zero. Creating the Caissa of Chess engines...."
-slug = "contributing-to-leela-chess-zero"
-published = 2018-10-02T22:10:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-02T22:10:00+02:00"
+slug: contributing-to-leela-chess-zero
+tags: []
+title: Contributing to Leela Chess Zero. Creating the Caissa of Chess engines....
+---
 
 ![]({{< file "2018-10-02-contributing-to-leela-chess-zero-ghgj76888.png" >}})
 

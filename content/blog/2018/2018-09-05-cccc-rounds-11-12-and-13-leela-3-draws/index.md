@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 11, 12 and 13. Leela 3 draws against top opponents."
-slug = "cccc-rounds-11-12-and-13-leela-3-draws"
-published = 2018-09-05T10:25:00.002000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-05T10:25:00+02:00"
+slug: cccc-rounds-11-12-and-13-leela-3-draws
+tags: []
+title: CCCC rounds 11, 12 and 13. Leela 3 draws against top opponents.
+---
 
 [ ![]({{< file "2018-09-05-cccc-rounds-11-12-and-13-leela-3-draws-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 

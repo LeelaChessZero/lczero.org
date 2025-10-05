@@ -1,7 +1,7 @@
 ---
-title: "LeelaQueenOdds vs Respectful_Dave"
-author: "Naphthalin"
-published: 2024-11-17
+author: Naphthalin
+published: "2024-11-17"
+title: LeelaQueenOdds vs Respectful_Dave
 ---
 
 We're excited to announce a queen odds exhibition bullet match between Leela and chess streamer [CM David Maycock](https://ratings.fide.com/profile/5142547) aka [RespectfulDave](https://www.youtube.com/@RespectfulDave).

@@ -1,7 +1,7 @@
 ---
-title: "lc3 Search"
+summary: The lc3 search algorithm
+title: lc3 Search
 weight: 500
-summary: "The lc3 search algorithm"
 ---
 
 `lc3` is a new experimental search algorithm implementation currently in

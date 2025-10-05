@@ -1,11 +1,7 @@
 ---
-title: "The importance of open data"
-# slug: "blog-post-title"
-published: 2021-06-14
-#draft: true
-author: "borg"
-# image: "name"
-# cover: "cover.png" # Default
+author: borg
+published: "2021-06-14"
+title: The importance of open data
 ---
 
 In the Leela Chess project, we generate a huge amount of [data](https://storage.lczero.org/files/). We use them to generate the network files to use with Lc0 for further data generation, but also with other chess engines, like Ceres. The same data are often used by individual project contributors to generate additional network files using the “supervised learning” approach.

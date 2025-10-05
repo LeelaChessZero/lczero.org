@@ -1,11 +1,11 @@
-+++
-title = "CCCC Blitz is running.... Leela on top 3!"
-slug = "cccc-blitz-tournament-is-running-and"
-published = 2018-10-12T11:45:00.002000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-12T11:45:00+02:00"
+slug: cccc-blitz-tournament-is-running-and
+tags: []
+title: CCCC Blitz is running.... Leela on top 3!
+---
 
 ![]({{< file "2018-10-12-cccc-blitz-tournament-is-running-and-jhjhgj8798.png" >}})
 

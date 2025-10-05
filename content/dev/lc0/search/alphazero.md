@@ -1,8 +1,8 @@
 ---
-title: "Alphazero Primer"
-weight: 200
 math: true
-summary: "A refresher on the AlphaZero algorithm."
+summary: A refresher on the AlphaZero algorithm.
+title: Alphazero Primer
+weight: 200
 ---
 
 Here's a brief refresher on the AlphaZero algorithm, which Lc0 is based on.

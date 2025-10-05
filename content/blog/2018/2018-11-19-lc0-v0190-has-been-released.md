@@ -1,11 +1,11 @@
-+++
-title = "Lc0 v0.19.0 has been released."
-slug = "lc0-v0190-has-been-released"
-published = 2018-11-19T21:20:00.002000+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-11-19T21:20:00+01:00"
+slug: lc0-v0190-has-been-released
+tags: []
+title: Lc0 v0.19.0 has been released.
+---
 
 v0.19.0 is finally out of "release candidate" status, and now is fully
 released!  

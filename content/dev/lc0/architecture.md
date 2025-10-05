@@ -1,7 +1,7 @@
 ---
-title: "High level architecture"
+summary: A high level overview of the architecture of the lc0 engine
+title: High level architecture
 weight: 200
-summary: "A high level overview of the architecture of the lc0 engine"
 ---
 
 The project has the following directory layout (under `src/`):

@@ -1,11 +1,11 @@
-+++
-title = "CCCC rounds 14,15 and 16. Leela draws against Crafty...."
-slug = "cccc-rounds-1415-and-16-leela-draws"
-published = 2018-09-06T10:49:00.002000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-06T10:49:00+02:00"
+slug: cccc-rounds-1415-and-16-leela-draws
+tags: []
+title: CCCC rounds 14,15 and 16. Leela draws against Crafty....
+---
 
 [![]({{< file "2018-09-06-cccc-rounds-1415-and-16-leela-draws-gjgj98789798799999.png" >}})](https://www.chess.com/computer-chess-championship)
 

@@ -1,7 +1,7 @@
 ---
-title: "Memory issues"
-weight: 2000
 draft: false
+title: Memory issues
+weight: 2000
 ---
 
 ### Running out of memory

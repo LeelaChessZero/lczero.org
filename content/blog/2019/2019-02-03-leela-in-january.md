@@ -1,11 +1,11 @@
-+++
-title = "Leela in January"
-slug = "leela-in-january"
-published = 2019-02-03T20:46:00.001000+01:00
-author = "Kaffe avec"
-tags = []
-draft = false
-+++
+---
+author: Kaffe avec
+draft: false
+published: "2019-02-03T20:46:00+01:00"
+slug: leela-in-january
+tags: []
+title: Leela in January
+---
 
 As always, consult the
 [glossary](https://github.com/LeelaChessZero/lc0/wiki/Technical-Explanation-
