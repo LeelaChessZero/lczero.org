@@ -1,7 +1,7 @@
 ---
-title: "WCCC"
-weight: 100
 draft: false
+title: WCCC
+weight: 100
 ---
 
 In the World Computer Chess Championship engines there are no limits on hardware that can be used. All games are played from the starting position, usage of opening books by engines is permitted (although Leela had only one move for white in its opening book and no opening book for black). Time control is 60 minutes plus 15s per move. Games are played over-the-board – engine operators make the moves. 

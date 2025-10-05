@@ -1,11 +1,9 @@
 ---
-title: "Win-Draw-Loss evaluation"
-slug: "wdl-head"
-published: 2020-04-20
-author: "crem"
-# image: "name"
-# cover: "cover.png" # Default
+author: crem
 loadChessbaseScripts: true
+published: "2020-04-20"
+slug: wdl-head
+title: Win-Draw-Loss evaluation
 ---
 
 Traditionally, computer chess engines evaluated position in terms of [pawns](https://www.chessprogramming.org/Centipawns).

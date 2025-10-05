@@ -1,11 +1,11 @@
-+++
-title = "Leela versus Stockfish in Lichess is coming...."
-slug = "leela-versus-stockfish-in-lichess-is"
-published = 2018-12-11T19:46:00.003000+01:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-12-11T19:46:00+01:00"
+slug: leela-versus-stockfish-in-lichess-is
+tags: []
+title: Leela versus Stockfish in Lichess is coming....
+---
 
 ![]({{< file "2018-12-11-leela-versus-stockfish-in-lichess-is-ghjgjgj897898888.png" >}})
 

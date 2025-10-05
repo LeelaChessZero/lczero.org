@@ -1,11 +1,11 @@
-+++
-title = "CCCC stage 2 ended. Leela 4th with a good performance! Stockfish undefeated!"
-slug = "cccc-stage-2-ended-leela-4th-with-good"
-published = 2018-09-26T11:24:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-26T11:24:00+02:00"
+slug: cccc-stage-2-ended-leela-4th-with-good
+tags: []
+title: CCCC stage 2 ended. Leela 4th with a good performance! Stockfish undefeated!
+---
 
 ![]({{< file "2018-09-26-cccc-stage-2-ended-leela-4th-with-good-gjhgj786867645.png" >}})
 

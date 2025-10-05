@@ -1,5 +1,5 @@
 ---
-title: "Weights file format"
+title: Weights file format
 weight: 300
 ---
 

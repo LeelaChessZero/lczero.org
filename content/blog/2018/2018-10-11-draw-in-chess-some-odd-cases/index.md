@@ -1,11 +1,11 @@
-+++
-title = "Draw in Chess. Some odd cases."
-slug = "draw-in-chess-some-odd-cases"
-published = 2018-10-11T21:46:00.001000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-11T21:46:00+02:00"
+slug: draw-in-chess-some-odd-cases
+tags: []
+title: Draw in Chess. Some odd cases.
+---
 
 ![]({{< file "2018-10-11-draw-in-chess-some-odd-cases-hjkhk.png" >}})
 

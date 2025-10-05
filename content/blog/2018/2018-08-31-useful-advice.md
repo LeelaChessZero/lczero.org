@@ -1,11 +1,11 @@
-+++
-title = "Useful advice"
-slug = "useful-advice"
-published = 2018-08-31T23:39:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-08-31T23:39:00+02:00"
+slug: useful-advice
+tags: []
+title: Useful advice
+---
 
 It's not completely relevant to Lc0, but many people who follow CCCC wonder
 how to disable sound.

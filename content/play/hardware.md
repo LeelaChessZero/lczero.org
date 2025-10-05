@@ -1,7 +1,7 @@
 ---
-title: "Hardware for Lc0"
-weight: 1000
 draft: true
+title: Hardware for Lc0
+weight: 1000
 ---
 
 TODO(Write which hardware to buy for different usage and budget, from consumer to top-level-possible)

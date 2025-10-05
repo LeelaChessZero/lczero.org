@@ -1,7 +1,7 @@
 ---
-title: "Play with knight odds against Lc0 on lichess"
-author: "Naphthalin"
-published: 2023-11-09
+author: Naphthalin
+published: "2023-11-09"
+title: Play with knight odds against Lc0 on lichess
 ---
 
 In the recent [blog post]({{< relref "wdl_model.md" >}}) presenting the new WDL contempt feature added in the Lc0 v0.30 release, we shared our plans to add a lichess bot for piece odds games. While allowing arbitrary piece odds poses several challenges, which aren’t resolved yet, we are proud to announce that we made a big first step towards that goal with [LeelaKnightOdds](https://lichess.org/@/LeelaKnightOdds), now accepting your challenge on lichess.

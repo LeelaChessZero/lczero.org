@@ -1,5 +1,5 @@
 ---
-title: "Neural network topology"
+title: Neural network topology
 weight: 100
 ---
 

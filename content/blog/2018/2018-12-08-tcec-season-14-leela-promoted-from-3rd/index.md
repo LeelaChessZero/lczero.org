@@ -1,11 +1,11 @@
-+++
-title = "TCEC Season 14. Leela promoted from 3rd division to div2...."
-slug = "tcec-season-14-leela-promoted-from-3rd"
-published = 2018-12-08T20:55:00+01:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-12-08T20:55:00+01:00"
+slug: tcec-season-14-leela-promoted-from-3rd
+tags: []
+title: TCEC Season 14. Leela promoted from 3rd division to div2....
+---
 
 ![]({{< file "2018-12-08-tcec-season-14-leela-promoted-from-3rd-ghgj6786888.png" >}})
 

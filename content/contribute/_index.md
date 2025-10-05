@@ -1,9 +1,9 @@
 ---
-title: "Contribute"
-date: 2019-12-07T19:57:46+01:00
+date: "2019-12-07T19:57:46+01:00"
 draft: false
-weight: 100
 show_contents: false
+title: Contribute
+weight: 100
 ---
 
 If you would like to contribute to the LCZero project in any way, it would be

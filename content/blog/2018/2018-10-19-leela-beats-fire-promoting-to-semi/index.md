@@ -1,11 +1,11 @@
-+++
-title = "Leela beats Fire promoting to Semi-Final of TCEC Cup! "
-slug = "leela-beats-fire-promoting-to-semi"
-published = 2018-10-19T13:36:00.001000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-10-19T13:36:00+02:00"
+slug: leela-beats-fire-promoting-to-semi
+tags: []
+title: 'Leela beats Fire promoting to Semi-Final of TCEC Cup! '
+---
 
 ![]({{< file "2018-10-19-leela-beats-fire-promoting-to-semi-LeelaFire3.png" >}})
 

@@ -1,5 +1,5 @@
 ---
-title: "Best Networks"
+title: Best Networks
 weight: 800
 ---
 The networks below are our strongest available, and the first listed (BT4-spsa-1740) is what is currently being sent to engine competitions like the TCEC and CCC. In general, the largest network compatible with your hardware is recommended. To download, right click the corresponding link and select "Save link as...". 

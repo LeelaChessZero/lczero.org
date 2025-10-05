@@ -1,11 +1,12 @@
-+++
-title = "Announcing LcZ, the world's first neural net based chess engine and interactive fiction amalgamation."
-slug = "announcing-lcz-worlds-first-neural-net"
-published = 2019-04-01T09:02:00+02:00
-author = "borg"
-tags = []
-draft = false
-+++
+---
+author: borg
+draft: false
+published: "2019-04-01T09:02:00+02:00"
+slug: announcing-lcz-worlds-first-neural-net
+tags: []
+title: Announcing LcZ, the world's first neural net based chess engine and interactive
+  fiction amalgamation.
+---
 
 After the [huge success](https://discordapp.com/channels/425419482568196106/425419999096733706/500051417277530114)
 of the **xyzzy** extension to the UCI protocol introduced in Lc0, it was

@@ -1,5 +1,5 @@
 ---
-title: "C++ interface"
+title: C++ interface
 weight: 200
 ---
 

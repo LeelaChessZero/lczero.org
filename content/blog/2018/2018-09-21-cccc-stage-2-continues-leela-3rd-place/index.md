@@ -1,11 +1,11 @@
-+++
-title = "CCCC stage 2 continues.... Leela 3rd place. Missed 2 chances to beat Stockfish!"
-slug = "cccc-stage-2-continues-leela-3rd-place"
-published = 2018-09-21T11:05:00.001000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-21T11:05:00+02:00"
+slug: cccc-stage-2-continues-leela-3rd-place
+tags: []
+title: CCCC stage 2 continues.... Leela 3rd place. Missed 2 chances to beat Stockfish!
+---
 
 ![]({{< file "2018-09-21-cccc-stage-2-continues-leela-3rd-place-gjhgjh5646656.png" >}})
 

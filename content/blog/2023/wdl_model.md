@@ -1,7 +1,7 @@
 ---
-title: "The Lc0 v0.30.0 WDL rescale/contempt implementation"
-author: "Naphthalin"
-published: 2023-07-20
+author: Naphthalin
+published: "2023-07-20"
+title: The Lc0 v0.30.0 WDL rescale/contempt implementation
 ---
 
 The imminent v0.30.0 Lc0 release has two main features, attention body net support and WDL rescale/contempt. This blog post is about the latter, which is continuing our past efforts on providing more realistic WDL predictions with Lc0.

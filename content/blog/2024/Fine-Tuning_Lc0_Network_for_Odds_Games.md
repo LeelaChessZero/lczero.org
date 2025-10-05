@@ -1,7 +1,7 @@
 ---
-title: "Fine-Tuning Lc0 Network for Odds Games"
-author: "Marcogio9"
-published: 2024-11-02
+author: Marcogio9
+published: "2024-11-02"
+title: Fine-Tuning Lc0 Network for Odds Games
 ---
 
 For more than 20 years, human vs engine matches have become too one-sided to be interesting for spectators and players. This however isn't the case with odds. 

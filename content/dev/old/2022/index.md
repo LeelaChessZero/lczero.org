@@ -1,5 +1,5 @@
 ---
-title: "WCCC 2022 stats"
+title: WCCC 2022 stats
 weight: 200
 ---
 

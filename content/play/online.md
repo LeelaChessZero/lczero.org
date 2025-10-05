@@ -1,5 +1,5 @@
 ---
-title: "Play Online"
+title: Play Online
 weight: 1500
 ---
 

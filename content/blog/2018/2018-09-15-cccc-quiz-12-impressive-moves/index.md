@@ -1,11 +1,11 @@
-+++
-title = "CCCC quiz. 12 impressive moves! "
-slug = "cccc-quiz-12-impressive-moves"
-published = 2018-09-15T22:21:00.001000+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-15T22:21:00+02:00"
+slug: cccc-quiz-12-impressive-moves
+tags: []
+title: 'CCCC quiz. 12 impressive moves! '
+---
 
 ![]({{< file "2018-09-15-cccc-quiz-12-impressive-moves-hjk68688.png" >}})
 

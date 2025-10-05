@@ -1,8 +1,8 @@
 ---
-title: "Glossary"
-weight: 300
 math: true
-summary: "Summary of terms and the data types used in lc3 search"
+summary: Summary of terms and the data types used in lc3 search
+title: Glossary
+weight: 300
 ---
 
 There are too many similar types (and used to be 4 more!) in the lc3 search

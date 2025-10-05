@@ -1,11 +1,11 @@
-+++
-title = "Update from LCZero core devs team on DeusX TCEC entry"
-slug = "update-from-lczero-core-devs-team-on"
-published = 2018-08-07T10:00:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-08-07T10:00:00+02:00"
+slug: update-from-lczero-core-devs-team-on
+tags: []
+title: Update from LCZero core devs team on DeusX TCEC entry
+---
 
 Two days before start of TCEC season 13, it was revealed that “DeusX engine”
 is just a set of NN weights trained by Albert Silver for the Lc0 engine.

@@ -1,11 +1,11 @@
-+++
-title = "CCCC"
-slug = "cccc"
-published = 2018-08-27T21:46:00+02:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2018-08-27T21:46:00+02:00"
+slug: cccc
+tags: []
+title: CCCC
+---
 
 As most of you are already aware, Leela will participate in the upcoming
 season of CCCC!

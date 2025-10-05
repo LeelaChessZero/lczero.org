@@ -1,7 +1,7 @@
 ---
-title: "Chessbase"
+summary: Installing the Lc0 in Chessbase GUI.
+title: Chessbase
 weight: 2000
-summary: "Installing the Lc0 in Chessbase GUI."
 ---
 
 To install Lc0 in Chessbase, follow the following steps:

@@ -1,6 +1,6 @@
 ---
-title: Running without GUI
 draft: false
+title: Running without GUI
 ---
 
 This guide will help you test if Leela Chess Zero is working correctly by running it without any chess GUI program.

@@ -1,12 +1,12 @@
-+++
-title = "Leela won the TCEC CUP!"
-slug = "leela-won-tcec-cup"
-published = 2019-02-04T21:59:00+01:00
-author = "Bob23"
-tags = []
-loadChessbaseScripts = true
-draft = false
-+++
+---
+author: Bob23
+draft: false
+loadChessbaseScripts: true
+published: "2019-02-04T21:59:00+01:00"
+slug: leela-won-tcec-cup
+tags: []
+title: Leela won the TCEC CUP!
+---
 
 **Leela has won the TCEC CUP-2!** After many very difficult battles and games
 against the top Chess engines, Leela eventually managed to win the tournament.  

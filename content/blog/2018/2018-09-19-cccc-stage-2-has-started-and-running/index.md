@@ -1,11 +1,11 @@
-+++
-title = "CCCC Stage 2 has started and running....."
-slug = "cccc-stage-2-has-started-and-running"
-published = 2018-09-19T13:55:00+02:00
-author = "Bob23"
-tags = []
-draft = false
-+++
+---
+author: Bob23
+draft: false
+published: "2018-09-19T13:55:00+02:00"
+slug: cccc-stage-2-has-started-and-running
+tags: []
+title: CCCC Stage 2 has started and running.....
+---
 
 ![]({{< file "2018-09-19-cccc-stage-2-has-started-and-running-gjhgjh5646656.png" >}})
 

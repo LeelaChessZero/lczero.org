@@ -1,8 +1,8 @@
 ---
-title: "Translate the Website"
-weight: 100
 draft: false
-summary: "Step-by-step instructions for translating lczero.org to new languages"
+summary: Step-by-step instructions for translating lczero.org to new languages
+title: Translate the Website
+weight: 100
 ---
 
 ### 1. Configure the Language

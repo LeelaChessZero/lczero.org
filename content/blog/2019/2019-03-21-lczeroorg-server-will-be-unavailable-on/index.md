@@ -1,11 +1,11 @@
-+++
-title = "lczero.org server will be unavailable on April 5th"
-slug = "lczeroorg-server-will-be-unavailable-on"
-published = 2019-03-21T10:35:00+01:00
-author = "crem"
-tags = []
-draft = false
-+++
+---
+author: crem
+draft: false
+published: "2019-03-21T10:35:00+01:00"
+slug: lczeroorg-server-will-be-unavailable-on
+tags: []
+title: lczero.org server will be unavailable on April 5th
+---
 
 Important!
 

@@ -1,7 +1,7 @@
 ---
-title: "Update on playing with piece odds against Lc0 on Lichess"
-author: "Naphthalin"
-published: 2024-02-11
+author: Naphthalin
+published: "2024-02-11"
+title: Update on playing with piece odds against Lc0 on Lichess
 ---
 
 Since its first games almost 3 months ago, [LeelaKnightOdds](https://lichess.org/@/LeelaKnightOdds) has played over 1800 matches against a variety of opponents at a multitude of time controls.

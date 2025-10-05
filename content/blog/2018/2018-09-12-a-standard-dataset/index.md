@@ -1,11 +1,11 @@
-+++
-title = "A Standard Dataset"
-slug = "a-standard-dataset"
-published = 2018-09-12T10:04:00.002000+02:00
-author = "Error323"
-tags = []
-draft = false
-+++
+---
+author: Error323
+draft: false
+published: "2018-09-12T10:04:00+02:00"
+slug: a-standard-dataset
+tags: []
+title: A Standard Dataset
+---
 
 When doing machine learning it helps to use a standardized dataset such that
 methods can be compared in an objective manner. For machine vision, one of the
