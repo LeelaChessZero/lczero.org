@@ -832,6 +832,13 @@ nav.pagination {
   color: var(--alert-header-info);
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+
+}
+
 /* Home page content */
 
 .hero {
