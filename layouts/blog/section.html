@@ -6,7 +6,7 @@
     {{ $paginator := .Paginate .Pages }}
     {{ range $paginator.Pages }}
         <div class="blog-summary">            
-            <div class="blog-summary-title">
+            <div class="blog-summary-title" style="view-transition-name: post-title-{{ printf "%s/%s" .Language.Lang .Path | hash.FNV32a }};">
                 <a href="{{ .Permalink }}">
                     <span class="blog-summary-date">{{ .PublishDate.Format "2006-01-02" }}</span>{{ .Title }}
                 </a>
