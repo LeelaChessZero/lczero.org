@@ -12,9 +12,10 @@
             the header to publish the page.
         </div>
         {{end}}
-
-        {{ .Content }}
-
+        <div style="view-transition-name: post-summary-{{ printf "%s/%s" .Language.Lang .Path | hash.FNV32a }};">
+        {{ .Summary }}
+        </div>
+        {{ .ContentWithoutSummary }}
         {{ if .Params.author }}
         <div class="last-updated">
             Posted by: {{ .Params.author }}

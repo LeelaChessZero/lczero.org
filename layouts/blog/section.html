@@ -14,7 +14,7 @@
             {{ if .Params.image }}
                 <img alt="{{ .Title }}" src="{{ .Params.image }}" />
             {{ end}}
-            <p>{{ .Summary }}</p>
+            <p style="view-transition-name: post-summary-{{ printf "%s/%s" .Language.Lang .Path | hash.FNV32a }};">{{ .Summary }}</p>
         </div>
     {{ end }}
 
