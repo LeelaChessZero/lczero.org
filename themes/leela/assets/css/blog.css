@@ -9,14 +9,12 @@
     padding-bottom: 0;
 }
 
-/* NEW: Flex container for the date and title */
 .blog-summary-header {
     display: flex;
     align-items: center;
-    gap: 1rem; /* Space between date and title */
+    gap: 1rem; 
 }
 
-/* The date "pill" style */
 .blog-summary-date {
     flex-shrink: 0; /* Prevents the date from shrinking */
     background-color: var(--color-bg-secondary);
@@ -27,36 +25,19 @@
     white-space: nowrap;
 }
 
-/* The title heading element */
 .blog-summary-title {
     margin: 0;
     font-size: var(--font-size-h4); 
     font-weight: 600;
 }
 
-/* NEW: The author meta line */
 .blog-summary-meta {
     margin-top: 0.5rem; 
     font-style: italic;
 }
 
-/* The summary text paragraph */
 .blog-summary-content {
     margin-top: 0.75rem;
-}
-
-
-.author-box {
-    display: flex;
-    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
-    gap: 1.5rem;
-    align-items: flex-start;
-    padding: 2rem;
-    margin-block: 2.5rem; /* Vertical margin for spacing */
-    background-color: var(--color-bg-secondary);
-    border: 1px solid var(--color-border-primary);
-    border-radius: 12px;
-    box-shadow: 0 4px 12px var(--shadow-color);
 }
 
 .author-box {
