@@ -2,8 +2,55 @@
 <div class="main-container">
     <div class="content-container">
 
-        <div class="blog-date">{{ .PublishDate.Format "2006-01-02" }}</div>
         <h1 class="blog-title">{{ .Title }}</h1>
+
+        {{ if .Params.author }}
+            {{/* Get the author key from front matter */}}
+            {{ $authorKey := .Params.author }}
+            {{/* Look up the author in the data file */}}
+            {{ $authorData := index .Site.Data.authors (lower $authorKey) }}
+
+            {{ if $authorData }}
+                {{ $authorName := $authorData.name | default $authorKey }}
+                {{/* Author was found in data/authors.yml */}}
+                <div class="author-box">
+                    {{ with $authorData.image_url }}
+                    <img src="{{ . }}" alt="Photo of {{ $authorName }}" class="author-avatar">
+                    {{ end }}
+                    <div class="author-info">
+                        {{ with $authorData.url }}
+                            <a href="{{ . }}" target="_blank" rel="noopener" class="author-name">{{ $authorName }}</a>
+                        {{ else }}
+                            <span class="author-name">{{ $authorName }}</span>
+                        {{ end }}
+
+                    <div class="author-meta">
+                        {{ with $authorData.title }}
+                            <span class="author-title">{{ . }}</span>
+                        {{ end }}
+                        {{/* Add a separator if both title and date exist */}}
+                        {{ if and $authorData.title .PublishDate }}
+                            <span class="meta-separator" aria-hidden="true">&middot;</span>
+                        {{ end }}
+                        {{ if .PublishDate }}
+                            <time class="author-date" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+                    {{ end }}
+                </div>
+                    </div>
+                </div>
+            {{ else }}
+                {{/* Fallback/Default: Author not found in data file, just display the name */}}
+                <div class="author-box author-default">
+                    <div class="author-info">
+                        <span class="author-name">By: {{ $authorKey }}</span>
+                            {{ if .PublishDate }}
+                                <span class="meta-separator" aria-hidden="true">&middot;</span>
+                                <time class="author-date" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+                            {{ end }}
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
 
         {{if .Draft}}
         <div class="banner">
@@ -14,12 +61,6 @@
         {{end}}
 
         {{ .Content }}
-
-        {{ if .Params.author }}
-        <div class="last-updated">
-            Posted by: {{ .Params.author }}
-        </div>
-        {{ end }}
 
         <div class="bottom-nav">
             {{ with .PrevInSection }}

@@ -1,0 +1,44 @@
+# This is used for configuring author information for blog posts.
+# Each author is identified by a unique key (e.g., their github username) in all lowercase.
+# To get your github avatar URL, go to your profile and right-click on your avatar to copy the image address.
+# template:
+#   name: "John Doe" (Optional)
+#   title: ""
+#   image_url: "https://avatars.githubusercontent.com/u/12345678?v=4"
+#   url: "https://github.com/johndoe"
+
+crem:
+  # name: ""
+  title: "LCZero Core Developer"
+  image_url: "https://avatars.githubusercontent.com/u/11266455?v=4"
+  url: "https://github.com/mooskagh"
+
+borg:
+  title: "LCZero Contributor"
+  image_url: "https://avatars.githubusercontent.com/u/39573933?v=4"
+  url: "https://github.com/borg323"
+
+naphthalin:
+  title: "LCZero Contributor"
+  image_url: "https://avatars.githubusercontent.com/u/40385638?v=4"
+  url: "https://github.com/naphthalin"
+
+daniel monroe:
+  title: "LCZero Contributor"
+  image_url: "https://avatars.githubusercontent.com/u/23456789?v=4"
+  url: "https://github.com/daniel-monroe"
+
+ghostway:
+  title: "LCZero Contributor"
+  image_url: "https://avatars.githubusercontent.com/u/50481015?v=4"
+  url: "https://github.com/OfekShochat"
+
+lepned:
+  title: "EngineBattle Developer"
+  image_url: "https://avatars.githubusercontent.com/u/1504584?v=4"
+  url: "https://github.com/lepned"
+
+marcogio9:
+  title: "LCZero Odds Contributor"
+  image_url: "https://avatars.githubusercontent.com/u/154074772?v=4"
+  url: "https://github.com/marcogio9"
