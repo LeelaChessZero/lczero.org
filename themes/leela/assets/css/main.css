@@ -707,34 +707,6 @@ footer {
     color: var(--color-footer-icon);
 }
 
-/* Blog list */
-.blog-summary {
-    margin-top: 48px;
-}
-
-.blog-date {
-    font-size: 0.9rem;
-    font-weight: 800;
-}
-
-.blog-title {
-    margin-top: 0;
-}
-
-.blog-summary-date {
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-right: 8px;
-    color: var(--color-text-secondary);
-    background-color: var(--color-footer-bg);
-    padding: 8px;
-    border-radius: 3px;
-}
-
-.blog-summary-title a {
-    font-size: 1.2rem;
-}
-
 nav.pagination {
     display: flex;
     justify-content: space-between;
