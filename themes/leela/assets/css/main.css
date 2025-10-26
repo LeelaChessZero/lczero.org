@@ -658,14 +658,6 @@ nav.sidebar .nonselectable {
     font-style: italic;
 }
 
-.bottom-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 32px;
-    width: 100%;
-}
-
 /* Lists */
 
 .summary {
