@@ -267,6 +267,10 @@
     height: 16px;
 }
 
+.card-title {
+    margin-top: 0;
+}
+
 div.hidden {
     display: none;
     visibility: hidden;
