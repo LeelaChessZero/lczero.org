@@ -280,10 +280,6 @@
 
 div.hidden {
     display: none;
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-    transition: all 0.3s ease;
 }
 
 /* Responsive adjustments */

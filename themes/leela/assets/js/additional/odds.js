@@ -92,7 +92,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let pieceCheckboxes = ['queen', 'knight_q', 'knight_k', 'bishop_q', 'bishop_k', 'rook_q', 'rook_k'];
 
-        console.log(pieceDefinitions);
         for (const id of pieceCheckboxes) {
             if (document.getElementById(id).checked) {
                 const def = pieceDefinitions[id];
@@ -114,7 +113,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (!isValidOdds(removedPieces)) {
             const { Q, N, R, B } = removedPieces;
-            console.log(removedPieces);
             let guidance = "This combination of pieces is not supported.";
             if (Q === 0 && N === 1 && R === 0 && B === 1) {
                 guidance = "For Bishop+Knight odds, select one bishop and one knight from opposite sides of the board";
