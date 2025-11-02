@@ -2,7 +2,7 @@
 {{ .Page.Scratch.Add "requiredJS" (slice "odds.js") }}
 
 <div class="container">
-    <div class="feature-card mode-selection">
+    <div class="odds-card mode-selection">
         <h2 class="card-title">Game Mode</h2>
         <div class="checkbox-item">
             <input type="checkbox" id="frc-toggle">
@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <div class="feature-card">
+    <div class="odds-card">
         <h2 class="card-title">Remove Pieces</h2>
         <div class="piece-group">
             <div class="checkbox-grid">
@@ -73,16 +73,16 @@
         </div>
     </div>
 
-    <div class="feature-card color-selection">
+    <div class="odds-card color-selection">
         <h2 class="card-title">Play As</h2>
         <div class="radio-group">
             <div class="radio-item">
                 <input type="radio" id="color_black" name="color" value="black" checked>
-                <label for="color_black">Play as Black (vs. handicapped White)</label>
+                <label for="color_black">Play as Black (Piece odds)</label>
             </div>
             <div class="radio-item">
                 <input type="radio" id="color_white" name="color" value="white">
-                <label for="color_white">Play as White (vs. handicapped Black)</label>
+                <label for="color_white">Play as White (Piece and move odds)</label>
             </div>
         </div>
     </div>

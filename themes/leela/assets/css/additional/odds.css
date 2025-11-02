@@ -57,6 +57,13 @@
     gap: 0.5rem;
 }
 
+.odds-card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-border-primary);
+}
+
 .checkbox-item input[type="checkbox"] {
     width: 18px;
     height: 18px;
