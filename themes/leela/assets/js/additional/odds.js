@@ -358,7 +358,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (playerColor === 'black') { // White is handicapped
                 finalRights = oddsRights + "kq";
             } else { // Black is handicapped
-                finalRights = "kq" + oddsRights.toLowerCase();
+                finalRights = "KQ" + oddsRights.toLowerCase();
             }
 
             return finalRights || '-';
