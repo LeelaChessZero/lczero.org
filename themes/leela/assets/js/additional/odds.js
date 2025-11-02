@@ -1,0 +1,390 @@
+document.addEventListener("DOMContentLoaded", function() {
+    
+    // --- FRC Helper Functions ---
+    function isValidID(id) {
+        return Number.isInteger(id) && id >= 0 && id <= 959;
+    }
+
+    function decode(id) {
+        if (!isValidID(id)) return false;
+        const arrangement = [0, 1, 2, 3, 4, 5, 6, 7];
+
+        const place = (piece, pos = 0) => {
+            const square = arrangement.filter(Number.isInteger)[pos];
+            arrangement[square] = piece;
+        };
+
+        const divide = (num, by) => [Math.floor(num / by), Math.floor(num % by)];
+
+        const [q2, b1] = divide(id, 4);
+        arrangement[b1 * 2 + 1] = 'B';
+
+        const [q3, b2] = divide(q2, 4);
+        arrangement[b2 * 2] = 'B';
+
+        let [q4, q] = divide(q3, 6);
+        place('Q', q);
+        place('N', q4 > 3 ? ((q4 -= 3) > 3 ? ((q4 -= 2) > 3 ? (q4 = 3) : 2) : 1) : 0);
+        place('N', q4);
+
+        place('R');
+        place('K');
+        place('R');
+
+        return arrangement;
+    }
+
+    // --- DOM Elements ---
+
+    const generateBtn = document.getElementById('generateBtn');
+    const resultCard = document.getElementById('resultCard');
+    const errorMessage = document.getElementById('errorMessage');
+    const frcToggle = document.getElementById('frc-toggle');
+    const frcInputContainer = document.getElementById('frc-input-container');
+    const copyBtn = document.getElementById('copyBtn');
+    const openLink = document.getElementById('openLink');
+    const botValue = document.getElementById('botValue');
+    const fenValue = document.getElementById('fenValue');
+    const linkValue = document.getElementById('linkValue');
+
+    // Event Listeners
+    frcToggle.addEventListener('change', () => {
+        frcInputContainer.classList.toggle('hidden', !frcToggle.checked);
+    });
+
+    // Initialize visibility based on default state
+    frcInputContainer.classList.toggle('hidden', !frcToggle.checked);
+
+    document.getElementById('randomize-frc').addEventListener('click', () => {
+        const randomValue = Math.floor(Math.random() * 960); // 0–959 inclusive
+        document.getElementById('frc-id').value = randomValue;
+    });
+
+    generateBtn.addEventListener('click', generateLink);
+    copyBtn.addEventListener('click', copyLink);
+
+
+
+    function generateLink() {
+        const isFRC = frcToggle.checked;
+        const frcID = parseInt(document.getElementById('frc-id').value, 10);
+
+        errorMessage.parentNode.classList.add('hidden');
+        resultCard.classList.remove('active');
+
+        if (isFRC && !isValidID(frcID)) {
+            errorMessage.textContent = 'Invalid FRC ID. Please enter a number between 0 and 959.';
+            errorMessage.parentNode.classList.remove('hidden');
+            return;
+        }
+
+        const playerColor = document.querySelector('input[name="color"]:checked').value;
+        const initialArrangement = isFRC ? decode(frcID) : ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'];
+        const files = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
+        
+
+        // Map checkboxes to their piece definitions in the initial arrangement
+        const pieceDefinitions = definePieces(initialArrangement);
+
+        let workingArrangement = [...initialArrangement];
+        let removedPieces = { Q: 0, N: 0, R: 0, B: 0 };
+        let removedRookFiles = [];
+
+        let pieceCheckboxes = ['queen', 'knight_q', 'knight_k', 'bishop_q', 'bishop_k', 'rook_q', 'rook_k'];
+
+        console.log(pieceDefinitions);
+        for (const id of pieceCheckboxes) {
+            if (document.getElementById(id).checked) {
+                const def = pieceDefinitions[id];
+                if (def && workingArrangement[def.index] === def.piece) {
+                    workingArrangement[def.index] = null;
+                    removedPieces[def.piece]++;
+                    if (def.piece === 'R') {
+                        removedRookFiles.push(files[def.index]);
+                    }
+                }
+            }
+        }
+
+        if (Object.values(removedPieces).reduce((a, b) => a + b, 0) === 0) {
+            errorMessage.textContent = 'Please select at least one piece to remove.';
+            errorMessage.parentNode.classList.remove('hidden');
+            return;
+        }
+
+        if (!isValidOdds(removedPieces)) {
+            const { Q, N, R, B } = removedPieces;
+            console.log(removedPieces);
+            let guidance = "This combination of pieces is not supported.";
+            if (Q === 0 && N === 1 && R === 0 && B === 1) {
+                guidance = "For Bishop+Knight odds, select one bishop and one knight from opposite sides of the board";
+            }
+            if (Q === 0 && N === 1 && R === 1 && B === 0) {
+                guidance = "For Rook+Knight odds, select queen-side rook and king-side knight";
+            }
+            if (Q === 1 && N === 0 && R === 1 && B === 0) {
+                guidance = "For Queen+Rook odds, select queen-side rook only";
+            }
+            if (Q === 0 && N === 0 && R === 1 && B === 1) {
+                guidance = "Rook+Bishop odds is not supported";
+            }
+            if (Q === 1 && N === 2 && R === 2 && B === 2) {
+                guidance = "At least give the bot a fighting chance!";
+            }
+            // Add more specific guidance for other combinations
+
+            errorMessage.textContent = `Invalid Piece Selection: ${guidance}`;
+            errorMessage.parentNode.classList.remove('hidden');
+            return;
+        }
+
+        // Determine bot user
+        const botUser = getBotUser(removedPieces, isFRC);
+
+        // Build FEN
+        const fenRank = arrangementToFenRank(workingArrangement);
+        const playerRank = arrangementToFenRank(initialArrangement);
+        const castling = getCastlingRights(initialArrangement, removedRookFiles, playerColor, isFRC);
+
+        let fen;
+        if (playerColor === 'black') { // White is handicapped
+            fen = `${playerRank.toLowerCase()}/pppppppp/8/8/8/8/PPPPPPPP/${fenRank.toUpperCase()} w ${castling}`;
+        } else { // Black is handicapped
+            fen = `${fenRank.toLowerCase()}/pppppppp/8/8/8/8/PPPPPPPP/${playerRank.toUpperCase()} w ${castling}`;
+        }
+
+        const encodedFen = fen.replace(/ /g, '_');
+        const url = `https://lichess.org/?user=${botUser}&fen=${encodedFen}#friend`;
+
+
+        botValue.textContent = botUser;
+        fenValue.textContent = fen;
+        linkValue.textContent = url;
+        openLink.setAttribute('href', url);
+
+        // Store the URL for the copy and open buttons
+        linkValue.dataset.url = url;
+
+        // Show result card
+        resultCard.classList.add('active');
+    }
+
+    function definePieces(arrangement) {
+        const kingIndex = arrangement.indexOf('K');
+        const rookIndices = [arrangement.indexOf('R'), arrangement.lastIndexOf('R')];
+        const knightIndices = [arrangement.indexOf('N'), arrangement.lastIndexOf('N')];
+        const bishopIndices = [arrangement.indexOf('B'), arrangement.lastIndexOf('B')];
+
+        return {
+            'queen': { piece: 'Q', index: arrangement.indexOf('Q') },
+            'rook_q': { piece: 'R', index: rookIndices.find(i => i < kingIndex) },
+            'rook_k': { piece: 'R', index: rookIndices.find(i => i > kingIndex) },
+            'knight_q': { piece: 'N', index: Math.min(...knightIndices) },
+            'knight_k': { piece: 'N', index: Math.max(...knightIndices) },
+            'bishop_q': { piece: 'B', index: Math.min(...bishopIndices) },
+            'bishop_k': { piece: 'B', index: Math.max(...bishopIndices) }, 
+        };
+    }
+
+    function isValidOdds(removedPieces) {
+
+        const { Q, N, R, B } = removedPieces;
+
+        // Qn(queen for knight, doesn't have to be supported yet)
+        // Define valid odds combinations
+        const validOdds = [
+            { Q: 0, N: 1, R: 0, B: 0 }, // N
+            { Q: 0, N: 0, R: 0, B: 1 }, // B
+            { Q: 0, N: 0, R: 1, B: 0 }, // R
+            { Q: 1, N: 0, R: 0, B: 0 }, // Q
+            { Q: 0, N: 2, R: 0, B: 0 }, // NN
+            { Q: 0, N: 0, R: 0, B: 2 }, // BB
+            { Q: 0, N: 1, R: 1, B: 0 }, // RN
+            { Q: 1, N: 1, R: 0, B: 0 }, // QN
+            { Q: 0, N: 2, R: 1, B: 0 }, // RNN
+            { Q: 0, N: 0, R: 1, B: 2 }, // RBB
+            { Q: 1, N: 1, R: 1, B: 0 }, // QRN
+            { Q: 1, N: 0, R: 2, B: 0 }, // QRR
+            { Q: 1, N: 0, R: 1, B: 0 }, // QR
+            { Q: 0, N: 1, R: 0, B: 1 }, // BN
+            { Q: 0, N: 0, R: 2, B: 0 }, // RR
+            { Q: 0, N: 2, R: 0, B: 2 }, // BBNN
+            { Q: 0, N: 1, R: 0, B: 2 }, // BBN
+            { Q: 1, N: 2, R: 0, B: 0 }, // QNN
+            { Q: 1, N: 0, R: 0, B: 2 }  // QBB
+        ];
+
+        // Check if current removed pieces match any valid odds
+        const isValidCombination = validOdds.some(odds =>
+            odds.Q === (Q || 0) &&
+            odds.N === (N || 0) &&
+            odds.R === (R || 0) &&
+            odds.B === (B || 0));
+
+        if (!isValidCombination) {
+            return false;
+        }
+        // Additional restriction for BN: bishop and knight cannot be from same side
+        if (Q === 0 && N === 1 && R === 0 && B === 1) {
+            const knightQSelected = document.getElementById('knight_q').checked;
+            const knightKSelected = document.getElementById('knight_k').checked;
+            const bishopDSelected = document.getElementById('bishop_q').checked;
+            const bishopLSelected = document.getElementById('bishop_k').checked;
+
+            // Check if both pieces are from queen-side or both from king-side
+            const bothQueenSide = knightQSelected && bishopDSelected;
+            const bothKingSide = knightKSelected && bishopLSelected;
+
+            // BN is only valid if pieces are from opposite sides
+            return !(bothQueenSide || bothKingSide);
+        }
+
+        // Additional restriction for RN: rook must be queen-side, knight must be king-side
+        if (Q === 0 && N === 1 && R === 1 && B === 0) {
+            const rookQSelected = document.getElementById('rook_q').checked;
+            const knightKSelected = document.getElementById('knight_k').checked;
+
+            // RN is only valid if rook is queen-side and knight is king-side
+            return rookQSelected && knightKSelected;
+        }
+
+        // Additional restriction for RNN: rook must be queen-side, knight must be king-side
+        if (Q === 0 && N === 2 && R === 1 && B === 0) {
+            const rookQSelected = document.getElementById('rook_q').checked;
+
+            // RNN is only valid if rook is queen-side and both knights are king-side
+            return rookQSelected;
+        }
+
+        // Additional restriction for RBB: rook must be queen-side
+        if (Q === 0 && N === 0 && R === 1 && B === 2) {
+            const rookQSelected = document.getElementById('rook_q').checked;
+
+            // RBB is only valid if rook is queen-side
+            return rookQSelected;
+        }
+
+        if (Q === 1 && N === 0 && R === 1 && B === 0) {
+            const rookQSelected = document.getElementById('rook_q').checked;
+
+            // QR is only valid if rook is queen-side
+            return rookQSelected;
+        }
+
+        // QRN: queen-side rook and king-side knight
+        if (Q === 1 && N === 1 && R === 1 && B === 0) {
+            const rookQSelected = document.getElementById('rook_q').checked;
+            const knightKSelected = document.getElementById('knight_k').checked;
+
+            return rookQSelected && knightKSelected;
+        }
+
+        return true;
+    }
+
+    function getBotUser(removed, isFRC) {
+        const totalRemoved = Object.values(removed).reduce((a, b) => a + b, 0);
+        if (totalRemoved === 1) {
+            if (removed.Q === 1) return 'LeelaQueenOdds';
+            if (removed.N === 1) return 'LeelaKnightOdds';
+            // LeelaRookOdds is only for standard chess, missing a- or h-rook
+            if (removed.R === 1 && !isFRC && document.getElementById('rook_q').checked) return 'LeelaRookOdds';
+        }
+        return 'LeelaPieceOdds';
+    }
+
+    function arrangementToFenRank(arr) {
+        let fen = '';
+        let emptyCount = 0;
+        for (const piece of arr) {
+            if (piece === null) {
+                emptyCount++;
+            } else {
+                if (emptyCount > 0) {
+                    fen += emptyCount;
+                    emptyCount = 0;
+                }
+                fen += piece;
+            }
+        }
+        if (emptyCount > 0) fen += emptyCount;
+        return fen;
+    }
+
+    function getCastlingRights(initialArrangement, removedRookFiles, playerColor, isFRC) {
+        if (isFRC) {
+            const files = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
+            let whiteRights = '';
+            let blackRights = '';
+
+            initialArrangement.forEach((piece, index) => {
+                if (piece === 'R') {
+                    const file = files[index];
+                    if (!removedRookFiles.includes(file)) {
+                        whiteRights += file.toUpperCase();
+                    }
+                    blackRights += file.toLowerCase();
+                }
+            });
+
+            let finalRights;
+            if (playerColor === 'black') { // White is handicapped
+                finalRights = whiteRights + blackRights;
+            } else { // Black is handicapped
+                finalRights = whiteRights.replace(/[A-H]/g, char => {
+                    return removedRookFiles.includes(char) ? '' : char;
+                }) + blackRights.replace(/[a-h]/g, char => {
+                    return removedRookFiles.includes(char.toUpperCase()) ? '' : char;
+                });
+            }
+
+            return finalRights.split('').sort().join('') || '-';
+        } else {
+            // Standard chess uses QKqk notation
+            let oddsRights = '';
+
+            // Check king-side rook (file H)
+            if (!removedRookFiles.includes('H')) {
+                oddsRights += 'K';
+            }
+            // Check queen-side rook (file A)
+            if (!removedRookFiles.includes('A')) {
+                oddsRights += 'Q';
+
+            }
+
+
+            let finalRights;
+            if (playerColor === 'black') { // White is handicapped
+                finalRights = oddsRights + "kq";
+            } else { // Black is handicapped
+                finalRights = "kq" + oddsRights.toLowerCase();
+            }
+
+            return finalRights || '-';
+        }
+    }
+    function copyLink() {
+        const url = linkValue.dataset.url;
+        navigator.clipboard.writeText(url).then(() => {
+            // Visual feedback for successful copy
+            const originalText = copyBtn.innerHTML;
+            copyBtn.innerHTML = `
+                        <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        Copied!
+                    `;
+            copyBtn.style.backgroundColor = 'var(--color-success)';
+
+            setTimeout(() => {
+                copyBtn.innerHTML = originalText;
+                copyBtn.style.backgroundColor = '';
+            }, 2000);
+        });
+    }
+
+    // Initialize with hidden result card
+    resultCard.classList.remove('active');
+    errorMessage.classList.add('hidden');
+});
