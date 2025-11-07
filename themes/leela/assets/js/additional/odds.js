@@ -379,11 +379,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (playerColor === 'black') { // White is handicapped
                 finalRights = whiteRights + blackRights;
             } else { // Black is handicapped
-                finalRights = whiteRights.replace(/[A-H]/g, char => {
-                    return removedRookFiles.includes(char) ? '' : char;
-                }) + blackRights.replace(/[a-h]/g, char => {
-                    return removedRookFiles.includes(char.toUpperCase()) ? '' : char;
-                });
+                finalRights = blackRights.toUpperCase() + whiteRights.toLowerCase();
             }
 
             return finalRights.split('').sort().join('') || '-';
