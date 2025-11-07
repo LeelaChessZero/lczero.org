@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        if (!isValidOdds(removedPieces)) {
+        if (!isValidOdds(removedPieces, isFRC)) {
             const { Q, N, R, B } = removedPieces;
             let guidance = "This combination of pieces is not supported.";
             if (Q === 0 && N === 1 && R === 0 && B === 1) {
@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    function isValidOdds(removedPieces) {
+    function isValidOdds(removedPieces, isFRC) {
 
         const { Q, N, R, B } = removedPieces;
 
@@ -269,6 +269,11 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!isValidCombination) {
             return false;
         }
+
+        if (isFRC) {
+            return true; // No further restrictions for FRC
+        }
+
         // Additional restriction for BN: bishop and knight cannot be from same side
         if (Q === 0 && N === 1 && R === 0 && B === 1) {
             const knightQSelected = document.getElementById('knight_q').checked;
