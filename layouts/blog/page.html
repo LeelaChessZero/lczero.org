@@ -5,7 +5,6 @@
         <h1 class="blog-title">{{ .Title }}</h1>
         <div class="blog-meta">
         {{ if .PublishDate }}
-            <span class="meta-separator" aria-hidden="true">&middot;</span>
             <time class="author-date" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
         {{ end }}
         </div>
@@ -18,9 +17,7 @@
         </div>
         {{end}}
 
-        {{ .Content }}
-
-        {{ if .Params.guest_author }}
+         {{ if .Params.guest_author }}
             {{ $authorData := .Params.guest_author }}
             {{ with $authorData }}
             <div class="author-box">
@@ -40,7 +37,12 @@
                 </div>
             </div>
             {{ end }}
-        {{ else if .Params.author }}
+        {{ end }}
+
+        {{ .Content }}
+
+
+        {{ if (and (not .Params.guest_author) .Params.author) }}
                 <div class="last-updated">
                     Posted by: {{ .Params.author }}
                 </div>

@@ -150,12 +150,6 @@
     flex-basis: 50%; /* Each link takes up to 50% of the width */
 }
 
-.bottom-nav a:hover {
-    background-color: var(--color-bg-secondary);
-    border-color: var(--color-accent);
-    color: var(--color-text-primary);
-}
-
 .bottom-nav .previous {
     justify-content: flex-end;
     text-align: right;
