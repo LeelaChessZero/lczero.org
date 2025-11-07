@@ -41,24 +41,38 @@ document.addEventListener("DOMContentLoaded", function() {
     const errorMessage = document.getElementById('errorMessage');
     const frcToggle = document.getElementById('frc-toggle');
     const frcInputContainer = document.getElementById('frc-input-container');
+    const frcIdInput = document.getElementById('frc-id');
     const copyBtn = document.getElementById('copyBtn');
     const openLink = document.getElementById('openLink');
     const botValue = document.getElementById('botValue');
     const fenValue = document.getElementById('fenValue');
     const linkValue = document.getElementById('linkValue');
+    const frcIdResultContainer = document.getElementById('frcIdResultContainer');
+    const frcIdValue = document.getElementById('frcIdValue');
 
+
+    const knight_q_label = document.getElementById('knight_q_label');
+    const knight_k_label = document.getElementById('knight_k_label');
+    const bishop_q_label = document.getElementById('bishop_q_label');
+    const bishop_k_label = document.getElementById('bishop_k_label');
     // Event Listeners
     frcToggle.addEventListener('change', () => {
         frcInputContainer.classList.toggle('hidden', !frcToggle.checked);
-    });
+        if (!frcToggle.checked) {
+            knight_q_label.textContent = 'Queen-side Knight';
+            knight_k_label.textContent = 'King-side Knight';
+            bishop_q_label.textContent = 'Queen-side Bishop'; 
+            bishop_k_label.textContent = 'King-side Bishop';
+        } else {
+            knight_q_label.textContent = 'Knight 1';
+            knight_k_label.textContent = 'Knight 2';
+            bishop_q_label.textContent = 'Dark-Squared Bishop';
+            bishop_k_label.textContent = 'Light-Squared Bishop';
+        }
+        });
 
     // Initialize visibility based on default state
     frcInputContainer.classList.toggle('hidden', !frcToggle.checked);
-
-    document.getElementById('randomize-frc').addEventListener('click', () => {
-        const randomValue = Math.floor(Math.random() * 960); // 0–959 inclusive
-        document.getElementById('frc-id').value = randomValue;
-    });
 
     generateBtn.addEventListener('click', generateLink);
     copyBtn.addEventListener('click', copyLink);
@@ -67,7 +81,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function generateLink() {
         const isFRC = frcToggle.checked;
-        const frcID = parseInt(document.getElementById('frc-id').value, 10);
+        let frcID;
+
+        
+        frcIdResultContainer.classList.add('hidden');
+
+        if (isFRC) {
+            const isFrcIdUserSpecified = frcIdInput.value !== '';
+            
+            if (isFrcIdUserSpecified) {
+                frcID = parseInt(frcIdInput.value, 10);
+            } else {
+                // User did not specify an ID, so randomize it
+                frcID = Math.floor(Math.random() * 960);
+            }
+        }
 
         errorMessage.parentNode.classList.add('hidden');
         resultCard.classList.remove('active');
@@ -84,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
 
         // Map checkboxes to their piece definitions in the initial arrangement
-        const pieceDefinitions = definePieces(initialArrangement);
+        const pieceDefinitions = definePieces(initialArrangement, playerColor, isFRC);
 
         let workingArrangement = [...initialArrangement];
         let removedPieces = { Q: 0, N: 0, R: 0, B: 0 };
@@ -155,6 +183,11 @@ document.addEventListener("DOMContentLoaded", function() {
         const url = `https://lichess.org/?user=${botUser}&fen=${encodedFen}#friend`;
 
 
+        if (isFRC) {
+            frcIdValue.textContent = frcID;
+            frcIdResultContainer.classList.remove('hidden');
+        }
+
         botValue.textContent = botUser;
         fenValue.textContent = fen;
         linkValue.textContent = url;
@@ -167,12 +200,12 @@ document.addEventListener("DOMContentLoaded", function() {
         resultCard.classList.add('active');
     }
 
-    function definePieces(arrangement) {
+    function definePieces(arrangement, playerColor, isFRC) {
         const kingIndex = arrangement.indexOf('K');
         const rookIndices = [arrangement.indexOf('R'), arrangement.lastIndexOf('R')];
         const knightIndices = [arrangement.indexOf('N'), arrangement.lastIndexOf('N')];
         const bishopIndices = [arrangement.indexOf('B'), arrangement.lastIndexOf('B')];
-
+        if(!isFRC){
         return {
             'queen': { piece: 'Q', index: arrangement.indexOf('Q') },
             'rook_q': { piece: 'R', index: rookIndices.find(i => i < kingIndex) },
@@ -182,6 +215,20 @@ document.addEventListener("DOMContentLoaded", function() {
             'bishop_q': { piece: 'B', index: Math.min(...bishopIndices) },
             'bishop_k': { piece: 'B', index: Math.max(...bishopIndices) }, 
         };
+        } else {
+
+            const darkBishop = bishopIndices.find(i => i % 2 === (playerColor === 'white' ? 1 : 0));
+            const lightBishop = bishopIndices.find(i => i % 2 === (playerColor === 'white' ? 0 : 1));
+            return {
+                'queen': { piece: 'Q', index: arrangement.indexOf('Q') },
+                'rook_q': { piece: 'R', index: rookIndices.find(i => i < kingIndex) },
+                'rook_k': { piece: 'R', index: rookIndices.find(i => i > kingIndex) },
+                'knight_q': { piece: 'N', index: Math.min(...knightIndices) },
+                'knight_k': { piece: 'N', index: Math.max(...knightIndices) },
+                'bishop_q': { piece: 'B', index: darkBishop }, // Dark-squared bishop
+                'bishop_k': { piece: 'B', index: lightBishop }, // Light-squared bishop
+            };
+        }
     }
 
     function isValidOdds(removedPieces) {
@@ -281,12 +328,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function getBotUser(removed, isFRC) {
+        if (isFRC) {
+            return 'LeelaPieceOddsFRC';
+        }
         const totalRemoved = Object.values(removed).reduce((a, b) => a + b, 0);
         if (totalRemoved === 1) {
             if (removed.Q === 1) return 'LeelaQueenOdds';
             if (removed.N === 1) return 'LeelaKnightOdds';
             // LeelaRookOdds is only for standard chess, missing a- or h-rook
-            if (removed.R === 1 && !isFRC && document.getElementById('rook_q').checked) return 'LeelaRookOdds';
+            if (removed.R === 1 && document.getElementById('rook_q').checked) return 'LeelaRookOdds';
         }
         return 'LeelaPieceOdds';
     }

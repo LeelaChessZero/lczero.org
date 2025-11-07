@@ -11,38 +11,80 @@
 .card-title {
     font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
     color: var(--color-text-primary);
 }
 
-.mode-selection {
-    margin-bottom: 0;
+.settings-group {
+    margin-bottom: 1.5rem;
 }
+
+.odds-card {
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-border-primary);
+}
+
+.card-divider {
+    border: none;
+    height: 1px;
+    background-color: var(--color-border-primary);
+    margin: 1rem 0 2rem 0; 
+}
+
+/* --- FRC and Player Controls --- */
 
 #frc-input-container {
     margin-top: 1rem;
-    overflow: hidden;
 }
 
 #frc-id {
     padding: 0.5rem;
     border: 1px solid var(--color-border-primary);
     border-radius: 4px;
-    width: 80px;
+    width: 120px;
     text-align: center;
     background-color: var(--color-bg-secondary);
     color: var(--color-text-primary);
 }
 
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.radio-item input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+
+.radio-item label {
+    cursor: pointer;
+}
+
+/* --- Piece Selection --- */
+
 .piece-group {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--color-border-primary);
+    margin-bottom: 1.5rem;
 }
 
 .piece-group:last-child {
-    border-bottom: none;
     margin-bottom: 0;
+}
+
+/* Styles the "Knights", "Bishops", "Rooks" labels */
+.piece-group > div:first-child:not(.checkbox-grid) {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-align: left;
 }
 
 .checkbox-grid {
@@ -57,55 +99,15 @@
     gap: 0.5rem;
 }
 
-.odds-card {
-  text-align: center;
-  padding: 2rem;
-  border-radius: 1rem;
-  border: 1px solid var(--color-border-primary);
-}
-
 .checkbox-item input[type="checkbox"] {
     width: 18px;
     height: 18px;
-}
-
-.checkbox-item input[type="checkbox"]:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
 }
 
 .checkbox-item label {
     cursor: pointer;
 }
 
-.checkbox-item input[type="checkbox"]:disabled+label {
-    opacity: 0.4;
-    cursor: not-allowed;
-}
-
-.color-selection {
-    margin: 0;
-}
-
-.radio-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-}
-
-.radio-item input[type="radio"] {
-    width: 18px;
-    height: 18px;
-}
-
-.radio-item {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.radio-item label {
-    cursor: pointer;
-}
 
 #generateBtn {
     background-color: var(--color-accent);
@@ -132,10 +134,6 @@
 }
 
 #result {
-    margin-top: 0;
-    padding: 0;
-    background-color: transparent;
-    border-radius: 0;
     word-wrap: break-word;
     text-align: left;
 }
@@ -159,7 +157,6 @@
         opacity: 0;
         transform: translateY(10px);
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
@@ -268,14 +265,9 @@
     color: var(--color-button-text);
 }
 
-
 .btn-icon {
     width: 16px;
     height: 16px;
-}
-
-.card-title {
-    margin-top: 0;
 }
 
 div.hidden {

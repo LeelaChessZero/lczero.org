@@ -2,22 +2,36 @@
 {{ .Page.Scratch.Add "requiredJS" (slice "odds.js") }}
 
 <div class="container">
-    <div class="odds-card mode-selection hidden">
-        <h2 class="card-title">Game Mode</h2>
-        <div class="checkbox-item">
-            <input type="checkbox" id="frc-toggle">
-            <label for="frc-toggle">Enable Fischer Random (Chess960)</label>
-        </div>
-        <div id="frc-input-container" class="hidden">
-            <div class="checkbox-item" style="margin-top: 1rem;">
-                <label for="frc-id">FRC ID (0-959):</label>
-                <input type="number" id="frc-id" value="518" min="0" max="959">
-                <button id="randomize-frc" class="btn" style="margin-left: 0.5rem;">
-                    Randomize
-                </button>
+        <div class="odds-card configuration-card">
+    <h2 class="card-title">Game Configuration</h2>
+
+        <!-- Combined Game Settings Section -->
+        <div class="settings-group">
+            <div class="checkbox-item">
+                <input type="checkbox" id="frc-toggle">
+                <label for="frc-toggle">Enable Fischer Random (Chess960)</label>
             </div>
-            <div style="margin-top: 0.5rem;">
-                <small><i>King and Queen side is determined from the piece closest to that side.</i></small>
+            <div id="frc-input-container" class="hidden">
+                <div class="checkbox-item" style="margin-top: 1rem;">
+                    <label for="frc-id">FRC ID (0-959):</label>
+                    <input type="number" id="frc-id" placeholder="Auto (0-959)" min="0" max="959">
+                </div>
+                <div style="margin-top: 0.5rem;">
+                    <small><i>King and Queen side is determined from the piece closest to that side.</i></small>
+                </div>
+            </div>
+        </div>
+
+        <hr class="card-divider">
+        
+        <div class="radio-group">
+            <div class="radio-item">
+                <input type="radio" id="color_black" name="color" value="black" checked>
+                <label for="color_black">Play as Black (Piece odds)</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="color_white" name="color" value="white">
+                <label for="color_white">Play as White (Piece and move odds)</label>
             </div>
         </div>
     </div>
@@ -37,11 +51,11 @@
             <div class="checkbox-grid">
                 <div class="checkbox-item">
                     <input type="checkbox" id="knight_q">
-                    <label for="knight_q">Queen-side Knight</label>
+                    <label id="knight_q_label" for="knight_q">Queen-side Knight</label>
                 </div>
                 <div class="checkbox-item">
                     <input type="checkbox" id="knight_k">
-                    <label for="knight_k">King-side Knight</label>
+                    <label id="knight_k_label" for="knight_k">King-side Knight</label>
                 </div>
             </div>
         </div>
@@ -50,11 +64,11 @@
             <div class="checkbox-grid">
                 <div class="checkbox-item">
                     <input type="checkbox" id="bishop_q">
-                    <label for="bishop_q">Queen-side Bishop</label>
+                    <label id="bishop_q_label" for="bishop_q">Queen-side Bishop</label>
                 </div>
                 <div class="checkbox-item">
                     <input type="checkbox" id="bishop_k">
-                    <label for="bishop_k">King-side Bishop</label>
+                    <label id="bishop_k_label" for="bishop_k">King-side Bishop</label>
                 </div>
             </div>
         </div>
@@ -73,19 +87,6 @@
         </div>
     </div>
 
-    <div class="odds-card color-selection">
-        <h2 class="card-title">Play As</h2>
-        <div class="radio-group">
-            <div class="radio-item">
-                <input type="radio" id="color_black" name="color" value="black" checked>
-                <label for="color_black">Play as Black (Piece odds)</label>
-            </div>
-            <div class="radio-item">
-                <input type="radio" id="color_white" name="color" value="white">
-                <label for="color_white">Play as White (Piece and move odds)</label>
-            </div>
-        </div>
-    </div>
 
     <button id="generateBtn">
         <i class="material-symbols--bolt"></i>
@@ -98,6 +99,10 @@
                 <h3 class="result-title">Game Configuration</h3>
             </div>
             <div class="result-content">
+                <div class="result-field hidden" id="frcIdResultContainer">
+                    <div class="field-label">FRC ID</div>
+                    <div class="field-value" id="frcIdValue"></div>
+                </div>
                 <div class="result-field">
                     <div class="field-label">Bot</div>
                     <div class="field-value" id="botValue">Not Generated</div>
