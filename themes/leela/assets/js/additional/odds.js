@@ -56,9 +56,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const bishop_q_label = document.getElementById('bishop_q_label');
     const bishop_k_label = document.getElementById('bishop_k_label');
     // Event Listeners
-    frcToggle.addEventListener('change', () => {
-        frcInputContainer.classList.toggle('hidden', !frcToggle.checked);
-        if (!frcToggle.checked) {
+
+    function updateFRCToggle() {
+        const isFRC = frcToggle.checked;
+        frcInputContainer.classList.toggle('hidden', !isFRC);
+        if (!isFRC) {
             knight_q_label.textContent = 'Queen-side Knight';
             knight_k_label.textContent = 'King-side Knight';
             bishop_q_label.textContent = 'Queen-side Bishop'; 
@@ -69,10 +71,12 @@ document.addEventListener("DOMContentLoaded", function() {
             bishop_q_label.textContent = 'Dark-Squared Bishop';
             bishop_k_label.textContent = 'Light-Squared Bishop';
         }
-        });
+    }
+
+    frcToggle.addEventListener('change', updateFRCToggle);
 
     // Initialize visibility based on default state
-    frcInputContainer.classList.toggle('hidden', !frcToggle.checked);
+    updateFRCToggle();
 
     generateBtn.addEventListener('click', generateLink);
     copyBtn.addEventListener('click', copyLink);
