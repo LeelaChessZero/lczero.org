@@ -1,0 +1,143 @@
+{{ .Page.Scratch.Add "requiredCSS" (slice "odds.css") }}
+{{ .Page.Scratch.Add "requiredJS" (slice "odds.js") }}
+
+<div class="container">
+        <div class="odds-card configuration-card">
+    <h2 class="card-title">Game Configuration</h2>
+
+        <!-- Combined Game Settings Section -->
+        <div class="settings-group">
+            <div class="checkbox-item">
+                <input type="checkbox" id="frc-toggle">
+                <label for="frc-toggle">Enable Fischer Random (Chess960)</label>
+            </div>
+            <div id="frc-input-container" class="hidden">
+                <div class="checkbox-item" style="margin-top: 1rem;">
+                    <label for="frc-id">FRC ID (0-959):</label>
+                    <input type="number" id="frc-id" placeholder="Auto (0-959)" min="0" max="959">
+                </div>
+                <div style="margin-top: 0.5rem;">
+                    <small><i>King and Queen side is determined from the piece closest to that side.</i></small>
+                </div>
+            </div>
+        </div>
+
+        <hr class="card-divider">
+        
+        <div class="radio-group">
+            <div class="radio-item">
+                <input type="radio" id="color_black" name="color" value="black" checked>
+                <label for="color_black">Play as Black (Piece odds)</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="color_white" name="color" value="white">
+                <label for="color_white">Play as White (Piece and move odds)</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="odds-card">
+        <h2 class="card-title">Remove Pieces</h2>
+        <div class="piece-group">
+            <div class="checkbox-grid">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="queen">
+                    <label for="queen">Queen</label>
+                </div>
+            </div>
+        </div>
+        <div class="piece-group">
+            <div>Knights</div>
+            <div class="checkbox-grid">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="knight_q">
+                    <label id="knight_q_label" for="knight_q">Queen-side Knight</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="knight_k">
+                    <label id="knight_k_label" for="knight_k">King-side Knight</label>
+                </div>
+            </div>
+        </div>
+        <div class="piece-group">
+            <div>Bishops</div>
+            <div class="checkbox-grid">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="bishop_q">
+                    <label id="bishop_q_label" for="bishop_q">Queen-side Bishop</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="bishop_k">
+                    <label id="bishop_k_label" for="bishop_k">King-side Bishop</label>
+                </div>
+            </div>
+        </div>
+        <div class="piece-group">
+            <div>Rooks</div>
+            <div class="checkbox-grid">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="rook_q">
+                    <label for="rook_q">Queen-side Rook</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="rook_k">
+                    <label for="rook_k">King-side Rook</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <button id="generateBtn">
+        <i class="material-symbols--bolt"></i>
+        Generate Link
+    </button>
+
+    <div id="result">
+        <div class="result-card" id="resultCard">
+            <div class="result-header">
+                <h3 class="result-title">Game Configuration</h3>
+            </div>
+            <div class="result-content">
+                <div class="result-field hidden" id="frcIdResultContainer">
+                    <div class="field-label">FRC ID</div>
+                    <div class="field-value" id="frcIdValue"></div>
+                </div>
+                <div class="result-field">
+                    <div class="field-label">Bot</div>
+                    <div class="field-value" id="botValue">Not Generated</div>
+                </div>
+                <div class="result-field">
+                    <div class="field-label">FEN</div>
+                    <div class="field-value" id="fenValue">Not Generated</div>
+                </div>
+                <div class="result-field">
+                    <div class="field-label">Link</div>
+                    <div class="link-container">
+                        <div class="link-display">
+                            <div class="link-text" id="linkValue">
+                                Not Generated</div>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="btn btn-primary" id="copyBtn">
+                                <i class="material-symbols--bolt"></i>
+                                Copy
+                            </button>
+                            <a class="btn btn-success" id="openLink" target="_blank">
+                                <i class="qlementine-icons--external-link-16"></i>
+                                Open
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-important hidden">
+            <summary class="alert-header">
+                <i class="material-symbols--error"></i>
+                Error
+            </summary>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+</div>

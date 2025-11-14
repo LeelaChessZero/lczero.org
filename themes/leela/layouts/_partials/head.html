@@ -5,8 +5,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partial "head/opengraph.html" . }}
-{{ partialCached "head/css.html" . }}
-{{ partialCached "head/js.html" . }}
+{{ partialCached "head/css.html" . (.Page.Scratch.Get "requiredCSS") }}
+{{ partialCached "head/js.html" . (.Page.Scratch.Get "requiredJS") }}
 {{ if .Param "math" }}
   {{ partialCached "math.html" . }}
 {{ end }}

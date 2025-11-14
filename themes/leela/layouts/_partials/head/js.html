@@ -14,3 +14,16 @@
     {{- end }}
   {{- end }}
 {{- end }}
+
+{{ $requiredJS := .Page.Scratch.Get "requiredJS" }}
+  {{ range $file := $requiredJS }}
+    {{ with resources.Get (printf "js/additional/%s" $file) }}
+      {{ if hugo.IsDevelopment }}
+        <script src="{{ .RelPermalink }}"></script>
+      {{ else }}
+        {{ with . | minify | fingerprint }}
+        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
