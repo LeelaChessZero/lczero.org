@@ -352,13 +352,6 @@
     word-break: break-all;
 }
 
-.link-generated-text {
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 0.85rem;
-    color: var(--color-text-secondary);
-}
-
 /* --- Helpers --- */
 .hidden {
     display: none;
