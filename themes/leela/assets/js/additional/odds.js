@@ -50,24 +50,35 @@ document.addEventListener("DOMContentLoaded", function() {
     const frcIdResultContainer = document.getElementById('frcIdResultContainer');
     const frcIdValue = document.getElementById('frcIdValue');
 
+    // Select labels based on their 'for' attribute since they don't have IDs in the HTML
+    const knight_q_label = document.querySelector('label[for="knight_q"]');
+    const knight_k_label = document.querySelector('label[for="knight_k"]');
+    const bishop_q_label = document.querySelector('label[for="bishop_q"]');
+    const bishop_k_label = document.querySelector('label[for="bishop_k"]');
+    const rook_q_label   = document.querySelector('label[for="rook_q"]');
+    const rook_k_label   = document.querySelector('label[for="rook_k"]');
 
-    const knight_q_label = document.getElementById('knight_q_label');
-    const knight_k_label = document.getElementById('knight_k_label');
-    const bishop_q_label = document.getElementById('bishop_q_label');
-    const bishop_k_label = document.getElementById('bishop_k_label');
+    let url = '#';
+
     // Event Listeners
 
     function updateFRCToggle() {
         const isFRC = frcToggle.checked;
         frcInputContainer.classList.toggle('hidden', !isFRC);
+        
         if (!isFRC) {
-            // knight_q_label.textContent = 'Queen-side Knight';
-            // knight_k_label.textContent = 'King-side Knight';
+            // Standard Chess Labels
+            knight_q_label.textContent = 'Queen-side Knight';
+            knight_k_label.textContent = 'King-side Knight';
             bishop_q_label.textContent = 'Queen-side Bishop'; 
             bishop_k_label.textContent = 'King-side Bishop';
+            // rook_q_label.textContent   = 'Queen-side Rook';
+            // rook_k_label.textContent   = 'King-side Rook';
         } else {
-            // knight_q_label.textContent = 'Knight 1';
-            // knight_k_label.textContent = 'Knight 2';
+            // FRC Labels (Spatial or Color based)
+            knight_q_label.textContent = 'Left Knight';
+            knight_k_label.textContent = 'Right Knight';
+            // Map Q-side checkbox to Dark, K-side to Light for consistency
             bishop_q_label.textContent = 'Dark-Squared Bishop';
             bishop_k_label.textContent = 'Light-Squared Bishop';
         }
@@ -81,13 +92,10 @@ document.addEventListener("DOMContentLoaded", function() {
     generateBtn.addEventListener('click', generateLink);
     copyBtn.addEventListener('click', copyLink);
 
-
-
     function generateLink() {
         const isFRC = frcToggle.checked;
         let frcID;
 
-        
         frcIdResultContainer.classList.add('hidden');
 
         if (isFRC) {
@@ -105,6 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
         resultCard.classList.remove('active');
 
         if (isFRC && !isValidID(frcID)) {
+            console.log('Invalid FRC ID detected:', frcID);
             errorMessage.textContent = 'Invalid FRC ID. Please enter a number between 0 and 959.';
             errorMessage.parentNode.classList.remove('hidden');
             return;
@@ -138,6 +147,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (Object.values(removedPieces).reduce((a, b) => a + b, 0) === 0) {
+            console.log('No pieces selected for removal.');
             errorMessage.textContent = 'Please select at least one piece to remove.';
             errorMessage.parentNode.classList.remove('hidden');
             return;
@@ -161,8 +171,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (Q === 1 && N === 2 && R === 2 && B === 2) {
                 guidance = "At least give the bot a fighting chance!";
             }
-            // Add more specific guidance for other combinations
-
+            console.log('Invalid piece selection:', removedPieces);
             errorMessage.textContent = `Invalid Piece Selection: ${guidance}`;
             errorMessage.parentNode.classList.remove('hidden');
             return;
@@ -184,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         const encodedFen = fen.replace(/ /g, '_');
-        const url = `https://lichess.org/?user=${botUser}&fen=${encodedFen}#friend`;
+        url = `https://lichess.org/?user=${botUser}&fen=${encodedFen}#friend`;
 
 
         if (isFRC) {
@@ -194,15 +203,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         botValue.textContent = botUser;
         fenValue.textContent = fen;
-        linkValue.textContent = url;
         openLink.setAttribute('href', url);
-
-        // Store the URL for the copy and open buttons
-        linkValue.dataset.url = url;
 
         // Show result card
         resultCard.classList.add('active');
     }
+
 
     function definePieces(arrangement, playerColor, isFRC) {
         const kingIndex = arrangement.indexOf('K');
@@ -418,16 +424,10 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
     function copyLink() {
-        const url = linkValue.dataset.url;
         navigator.clipboard.writeText(url).then(() => {
             // Visual feedback for successful copy
             const originalText = copyBtn.innerHTML;
-            copyBtn.innerHTML = `
-                        <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        Copied!
-                    `;
+            copyBtn.innerHTML = `<i class="material-symbols--check"></i>Copied!`;
             copyBtn.style.backgroundColor = 'var(--color-success)';
 
             setTimeout(() => {
@@ -437,7 +437,23 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    const colorRadios = document.querySelectorAll('input[name="color"]');
+
+    colorRadios.forEach(radio => {
+        radio.addEventListener('change', function() {
+            // Remove 'selected' class from all radio cards
+            document.querySelectorAll('.radio-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+
+            // Add 'selected' class to the parent card of the checked radio
+            if (this.checked) {
+                this.closest('.radio-card').classList.add('selected');
+            }
+        });
+    });
+    
     // Initialize with hidden result card
     resultCard.classList.remove('active');
-    errorMessage.classList.add('hidden');
+    errorMessage.parentNode.classList.add('hidden');
 });
