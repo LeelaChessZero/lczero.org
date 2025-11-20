@@ -68,16 +68,16 @@ document.addEventListener("DOMContentLoaded", function() {
         
         if (!isFRC) {
             // Standard Chess Labels
-            knight_q_label.textContent = 'Queen-side Knight';
-            knight_k_label.textContent = 'King-side Knight';
+            // knight_q_label.textContent = 'Queen-side Knight';
+            // knight_k_label.textContent = 'King-side Knight';
             bishop_q_label.textContent = 'Queen-side Bishop'; 
             bishop_k_label.textContent = 'King-side Bishop';
             // rook_q_label.textContent   = 'Queen-side Rook';
             // rook_k_label.textContent   = 'King-side Rook';
         } else {
             // FRC Labels (Spatial or Color based)
-            knight_q_label.textContent = 'Left Knight';
-            knight_k_label.textContent = 'Right Knight';
+            // knight_q_label.textContent = 'Left Knight';
+            // knight_k_label.textContent = 'Right Knight';
             // Map Q-side checkbox to Dark, K-side to Light for consistency
             bishop_q_label.textContent = 'Dark-Squared Bishop';
             bishop_k_label.textContent = 'Light-Squared Bishop';
@@ -97,20 +97,30 @@ document.addEventListener("DOMContentLoaded", function() {
         let frcID;
 
         frcIdResultContainer.classList.add('hidden');
+        
+        errorMessage.parentNode.classList.add('hidden');
+        resultCard.classList.remove('active');
 
         if (isFRC) {
             const isFrcIdUserSpecified = frcIdInput.value !== '';
             
             if (isFrcIdUserSpecified) {
                 frcID = parseInt(frcIdInput.value, 10);
+                
+                if (frcID === 518) { 
+                    errorMessage.textContent = 'Standard Chess (ID 518) is not allowed in FRC mode.';
+                    errorMessage.parentNode.classList.remove('hidden');
+                    return;
+                }
             } else {
                 // User did not specify an ID, so randomize it
-                frcID = Math.floor(Math.random() * 960);
+                // Keep generating until we get a number that isn't 518 (Standard Position)
+                do {
+                    frcID = Math.floor(Math.random() * 960);
+                } while (frcID === 518);
             }
         }
 
-        errorMessage.parentNode.classList.add('hidden');
-        resultCard.classList.remove('active');
 
         if (isFRC && !isValidID(frcID)) {
             console.log('Invalid FRC ID detected:', frcID);
@@ -256,18 +266,24 @@ document.addEventListener("DOMContentLoaded", function() {
             { Q: 0, N: 0, R: 0, B: 2 }, // BB
             { Q: 0, N: 1, R: 1, B: 0 }, // RN
             { Q: 1, N: 1, R: 0, B: 0 }, // QN
+            { Q: 1, N: 0, R: 1, B: 0 }, // QR
+            { Q: 0, N: 1, R: 0, B: 1 }, // BN
+            { Q: 0, N: 0, R: 2, B: 0 }, // RR
             { Q: 0, N: 2, R: 1, B: 0 }, // RNN
             { Q: 0, N: 0, R: 1, B: 2 }, // RBB
             { Q: 1, N: 1, R: 1, B: 0 }, // QRN
             { Q: 1, N: 0, R: 2, B: 0 }, // QRR
-            { Q: 1, N: 0, R: 1, B: 0 }, // QR
-            { Q: 0, N: 1, R: 0, B: 1 }, // BN
-            { Q: 0, N: 0, R: 2, B: 0 }, // RR
             { Q: 0, N: 2, R: 0, B: 2 }, // BBNN
             { Q: 0, N: 1, R: 0, B: 2 }, // BBN
             { Q: 1, N: 2, R: 0, B: 0 }, // QNN
             { Q: 1, N: 0, R: 0, B: 2 }  // QBB
         ];
+
+        if (isFRC) { // Allow all 1-3 piece odds in FRC 
+            if (Q + N + R + B >= 1 && Q + N + R + B <= 3) {
+                return true;
+            }
+        }
 
         // Check if current removed pieces match any valid odds
         const isValidCombination = validOdds.some(odds =>
