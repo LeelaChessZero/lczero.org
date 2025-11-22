@@ -1,0 +1,358 @@
+/* --- Layout & Container --- */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: var(--content-width, 1140px);
+    margin: 0 auto;
+    font-family: var(--main-font);
+    color: var(--color-text-primary);
+}
+
+/* --- Cards --- */
+.odds-card {
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-border-primary);
+    border-radius: 1rem;
+    padding: 2rem;
+    /* Optional: Add shadow using the rgb variable defined in your root */
+    box-shadow: 0 4px 6px -1px var(--shadow-color);
+}
+
+.card-header {
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    font-size: var(--font-size-h5);
+    font-weight: 600;
+    margin: 0;
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.25rem;
+    display: block;
+}
+
+/* --- Configuration Section --- */
+.settings-group {
+    margin-bottom: 2rem;
+}
+
+.indent-container {
+    margin-left: 2rem;
+    margin-top: 0.75rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--color-border-primary);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#frc-id {
+    padding: 0.5rem;
+    border: 1px solid var(--color-border-primary);
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+    border-radius: 0.375rem;
+    width: 100px;
+}
+
+#frc-id:focus {
+    border-color: var(--color-border-active);
+    outline: none;
+}
+
+.helper-text {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    font-style: italic;
+    color: var(--color-text-tertiary);
+}
+
+/* --- Radio Cards (Side Selection) --- */
+.radio-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 640px) {
+    .radio-group {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.radio-card {
+    position: relative;
+    border: 1px solid var(--color-border-primary);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: var(--color-bg-primary);
+}
+
+.radio-card:hover {
+    border-color: var(--color-border-active);
+}
+
+.radio-card.selected {
+    border-color: var(--color-border-active);
+    /* Using border-active (Accent) for the thick left border to indicate selection clearly */
+    border-left-width: 4px; 
+    background-color: var(--color-bg-secondary);
+}
+
+.radio-card input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.radio-card label {
+    cursor: pointer;
+    display: block;
+}
+
+.radio-title {
+    display: block;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.radio-subtitle {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+
+/* --- Pieces Grid Layout --- */
+.piece-section.standalone {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--color-border-primary);
+}
+
+.large-checkbox label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--color-text-primary);
+}
+
+.pieces-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .pieces-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.piece-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.column-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-tertiary);
+    font-weight: 700;
+    margin: 0;
+}
+
+.checkbox-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.checkbox-item input[type="checkbox"] {
+    width: 1.25rem;
+    height: 1.25rem;
+    cursor: pointer;
+    accent-color: var(--color-accent);
+}
+
+.checkbox-item label {
+    cursor: pointer;
+    color: var(--color-text-primary);
+}
+
+/* --- Generate Button --- */
+.btn-generate {
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.1s ease, opacity 0.2s;
+    box-shadow: 0 4px 6px -1px var(--shadow-color);
+}
+
+/* --- Results Area --- */
+.result-card {
+    display: none;
+    background-color: var(--color-bg-secondary);
+    border: 1px solid var(--color-border-primary);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.result-card.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.result-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .result-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.result-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--color-text-tertiary);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.result-bot-name {
+    font-family: monospace;
+    font-size: 1.25rem;
+    color: var(--color-text-primary);
+    font-weight: 700;
+}
+
+.result-actions {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+/* Open Button - Uses the "Success/Tip" color */
+.btn-primary {
+    background-color: var(--alert-color-tip);
+    color: var(--color-button-text);
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* Copy Button - Uses standard secondary colors */
+.btn-secondary {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border-primary);
+}
+
+.btn-secondary:hover {
+    border-color: var(--color-border-active);
+    color: var(--color-link);
+}
+
+/* --- Technical Details (FEN etc) --- */
+.tech-details {
+    /* Slightly darker/lighter background than the card to offset the code block */
+    background-color: var(--color-bg-primary); 
+    border: 1px solid var(--color-border-primary);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+.detail-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.detail-row:last-child {
+    margin-bottom: 0;
+}
+
+.detail-label {
+    color: var(--color-text-tertiary);
+    flex-shrink: 0;
+    width: 60px;
+}
+
+.detail-code {
+    color: var(--color-text-secondary);
+    word-break: break-all;
+}
+
+/* --- Helpers --- */
+.hidden {
+    display: none;
+}
