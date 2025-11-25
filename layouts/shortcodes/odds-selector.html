@@ -18,7 +18,7 @@
             <div id="frc-input-container" class="hidden indent-container">
                 <div class="input-group">
                     <label for="frc-id">FRC ID (0-959):</label>
-                    <input type="number" id="frc-id" placeholder="Auto" min="0" max="959">
+                    <input type="number" id="frc-id" placeholder="Random" min="0" max="959">
                 </div>
                 <small class="helper-text">Piece positions are determined from the Bot's perspective.</small>
             </div>
@@ -106,41 +106,18 @@
         </div>
     </div>
 
-    <!-- 3. Action Button -->
-    <button id="generateBtn" class="btn-generate">
-        <i class="material-symbols--bolt"></i>
-        Generate Link
-    </button>
+    <!-- 3. Action Buttons & Feedback -->
+    <div class="actions-container">
+        <div class="buttons-row" style="display: flex; gap: 0.75rem; margin-bottom: 1rem;">
+             <!-- Copy Button (Small, Left) -->
+            <button id="copyBtn" class="btn btn-secondary" title="Copy Link" style="flex: 0 0 auto;">
+                <i class="material-symbols--content-copy"></i>
+            </button>
 
-    <!-- 4. Results -->
-    <div id="result" class="result-area">
-        <div class="result-card" id="resultCard">
-            <div class="result-header">
-                <div>
-                    <div class="result-label">Target Bot</div>
-                    <div class="result-bot-name" id="botValue">LeelaQueenOdds</div>
-                </div>
-                <div class="result-actions">
-                    <button class="btn btn-secondary" id="copyBtn">
-                        <i class="material-symbols--content-copy"></i> Copy
-                    </button>
-                    <a class="btn btn-primary" id="openLink" target="_blank" href="#">
-                        <i class="material-symbols--open-in-new"></i> Open Lichess
-                    </a>
-                </div>
-            </div>
-            
-            <!-- Collapsible/Small Technical Info -->
-            <div class="tech-details">
-                <div class="detail-row">
-                    <span class="detail-label">FEN</span>
-                    <code class="detail-code" id="fenValue">rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq</code>
-                </div>
-                <div class="detail-row hidden" id="frcIdResultContainer">
-                    <span class="detail-label">FRC ID</span>
-                    <span id="frcIdValue">725</span>
-                </div>
-            </div>
+            <!-- Challenge Button (Main) -->
+            <button id="generateBtn" class="btn-generate" style="flex: 1;">
+                 ⚔️ Challenge
+            </button>
         </div>
 
         <!-- Error Message -->

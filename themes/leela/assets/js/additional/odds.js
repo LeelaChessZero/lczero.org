@@ -37,18 +37,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- DOM Elements ---
 
     const generateBtn = document.getElementById('generateBtn');
-    const resultCard = document.getElementById('resultCard');
     const errorMessage = document.getElementById('errorMessage');
     const frcToggle = document.getElementById('frc-toggle');
     const frcInputContainer = document.getElementById('frc-input-container');
     const frcIdInput = document.getElementById('frc-id');
     const copyBtn = document.getElementById('copyBtn');
-    const openLink = document.getElementById('openLink');
-    const botValue = document.getElementById('botValue');
-    const fenValue = document.getElementById('fenValue');
-    const linkValue = document.getElementById('linkValue');
-    const frcIdResultContainer = document.getElementById('frcIdResultContainer');
-    const frcIdValue = document.getElementById('frcIdValue');
 
     // Select labels based on their 'for' attribute since they don't have IDs in the HTML
     const knight_q_label = document.querySelector('label[for="knight_q"]');
@@ -89,17 +82,23 @@ document.addEventListener("DOMContentLoaded", function() {
     // Initialize visibility based on default state
     updateFRCToggle();
 
-    generateBtn.addEventListener('click', generateLink);
-    copyBtn.addEventListener('click', copyLink);
+    generateBtn.addEventListener('click', function() {
+        if (calculateAndSetUrl()) {
+            window.open(url, '_blank');
+        }
+    });
+    
+    copyBtn.addEventListener('click', function() {
+        if (calculateAndSetUrl()) {
+            copyLink();
+        }
+    });
 
-    function generateLink() {
+    function calculateAndSetUrl() {
         const isFRC = frcToggle.checked;
         let frcID;
 
-        frcIdResultContainer.classList.add('hidden');
-        
         errorMessage.parentNode.classList.add('hidden');
-        resultCard.classList.remove('active');
 
         if (isFRC) {
             const isFrcIdUserSpecified = frcIdInput.value !== '';
@@ -110,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (frcID === 518) { 
                     errorMessage.textContent = 'Standard Chess (ID 518) is not allowed in FRC mode.';
                     errorMessage.parentNode.classList.remove('hidden');
-                    return;
+                    return false;
                 }
             } else {
                 // User did not specify an ID, so randomize it
@@ -126,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('Invalid FRC ID detected:', frcID);
             errorMessage.textContent = 'Invalid FRC ID. Please enter a number between 0 and 959.';
             errorMessage.parentNode.classList.remove('hidden');
-            return;
+            return false;
         }
 
         const playerColor = document.querySelector('input[name="color"]:checked').value;
@@ -160,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('No pieces selected for removal.');
             errorMessage.textContent = 'Please select at least one piece to remove.';
             errorMessage.parentNode.classList.remove('hidden');
-            return;
+            return false;
         }
 
         if (!isValidOdds(removedPieces, isFRC)) {
@@ -184,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('Invalid piece selection:', removedPieces);
             errorMessage.textContent = `Invalid Piece Selection: ${guidance}`;
             errorMessage.parentNode.classList.remove('hidden');
-            return;
+            return false;
         }
 
         // Determine bot user
@@ -204,19 +203,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const encodedFen = fen.replace(/ /g, '_');
         url = `https://lichess.org/?user=${botUser}&fen=${encodedFen}#friend`;
-
-
-        if (isFRC) {
-            frcIdValue.textContent = frcID;
-            frcIdResultContainer.classList.remove('hidden');
-        }
-
-        botValue.textContent = botUser;
-        fenValue.textContent = fen;
-        openLink.setAttribute('href', url);
-
-        // Show result card
-        resultCard.classList.add('active');
+        
+        return true;
     }
 
 
@@ -443,7 +431,7 @@ document.addEventListener("DOMContentLoaded", function() {
         navigator.clipboard.writeText(url).then(() => {
             // Visual feedback for successful copy
             const originalText = copyBtn.innerHTML;
-            copyBtn.innerHTML = `<i class="material-symbols--check"></i>Copied!`;
+            copyBtn.innerHTML = `<i class="material-symbols--check"></i>`;
             copyBtn.style.backgroundColor = 'var(--color-success)';
 
             setTimeout(() => {
@@ -468,8 +456,4 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
-    
-    // Initialize with hidden result card
-    resultCard.classList.remove('active');
-    errorMessage.parentNode.classList.add('hidden');
 });
