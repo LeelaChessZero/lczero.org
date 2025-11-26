@@ -97,9 +97,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     
     copyBtn.addEventListener('click', function() {
-        if (calculateAndSetUrl()) {
-            copyLink();
-        }
+        calculateAndSetUrl()
+        copyLink();
     });
 
     pieceCheckboxIds.forEach(id => {
@@ -140,9 +139,6 @@ document.addEventListener("DOMContentLoaded", function() {
     function calculateAndSetUrl() {
         const validation = validateConfiguration();
         setConfigHint(validation.valid, validation.message || defaultHint);
-        if (!validation.valid) {
-            return false;
-        }
 
         const isFRC = frcToggle.checked;
         const shouldRandomize = isFRC && frcRandomCheckbox && frcRandomCheckbox.checked;
@@ -206,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const encodedFen = fen.replace(/ /g, '_');
         url = `https://lichess.org/?user=${botUser}&fen=${encodedFen}#friend`;
         
-        return true;
+        return validation.valid;
     }
 
 
@@ -516,11 +512,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function setButtonDisabledState(isDisabled) {
-        [generateBtn, copyBtn].forEach(button => {
-            if (!button) return;
-            button.disabled = isDisabled;
-            button.classList.toggle('odds-btn-disabled', isDisabled);
-        });
+        if (!generateBtn) return;
+        generateBtn.disabled = isDisabled;
+        generateBtn.classList.toggle('odds-btn-disabled', isDisabled);
     }
 
     function setConfigHint(isValid, message) {
