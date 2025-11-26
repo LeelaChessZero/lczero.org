@@ -144,8 +144,6 @@
 
 .radio-card.selected {
     border-color: var(--color-border-active);
-    /* Using border-active (Accent) for the thick left border to indicate selection clearly */
-    border-left-width: 4px; 
     background-color: var(--color-bg-secondary);
 }
 
