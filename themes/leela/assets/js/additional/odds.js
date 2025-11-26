@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const frcToggle = document.getElementById('frc-toggle');
     const frcInputContainer = document.getElementById('frc-input-container');
     const frcIdInput = document.getElementById('frc-id');
+    const frcRandomCheckbox = document.getElementById('frc-random');
     const copyBtn = document.getElementById('copyBtn');
     const pieceCheckboxIds = ['queen', 'knight_q', 'knight_k', 'bishop_q', 'bishop_k', 'rook_q', 'rook_k'];
     const defaultHint = 'Complete the configuration to generate a challenge.';
@@ -60,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateFRCToggle() {
         const isFRC = frcToggle.checked;
         frcInputContainer.classList.toggle('hidden', !isFRC);
+        updateFrcInputState();
         
         if (!isFRC) {
             // Standard Chess Labels
@@ -109,6 +111,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     frcIdInput.addEventListener('input', updateActionState);
 
+    if (frcRandomCheckbox) {
+        frcRandomCheckbox.addEventListener('change', () => {
+            updateFrcInputState();
+            updateActionState();
+        });
+    }
+
+    updateFrcInputState();
+
     const colorRadios = document.querySelectorAll('input[name="color"]');
 
     colorRadios.forEach(radio => {
@@ -134,17 +145,20 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         const isFRC = frcToggle.checked;
+        const shouldRandomize = isFRC && frcRandomCheckbox && frcRandomCheckbox.checked;
         let frcID = validation.frcID;
 
         if (isFRC) {
-            const isFrcIdUserSpecified = frcIdInput.value !== '';
-            
-            if (!isFrcIdUserSpecified) {
-                // User did not specify an ID, so randomize it
+            if (shouldRandomize) {
                 // Keep generating until we get a number that isn't 518 (Standard Position)
                 do {
                     frcID = Math.floor(Math.random() * 960);
                 } while (frcID === 518);
+                if (frcIdInput) {
+                    frcIdInput.value = frcID;
+                }
+            } else if (typeof frcID !== 'number') {
+                return false;
             }
         }
 
@@ -432,9 +446,14 @@ document.addEventListener("DOMContentLoaded", function() {
     function validateConfiguration() {
         const isFRC = frcToggle.checked;
         const frcValue = frcIdInput.value.trim();
+        const shouldRandomize = frcRandomCheckbox && frcRandomCheckbox.checked;
         let frcID = null;
 
-        if (isFRC && frcValue !== '') {
+        if (isFRC && !shouldRandomize) {
+            if (frcValue === '') {
+                return { valid: false, message: 'Enter a number between 0 and 959 for the FRC ID.' };
+            }
+
             if (!/^\d+$/.test(frcValue)) {
                 return { valid: false, message: 'Enter a whole number between 0 and 959 for the FRC ID.' };
             }
@@ -521,5 +540,11 @@ document.addEventListener("DOMContentLoaded", function() {
         const validation = validateConfiguration();
         const message = validation.message || defaultHint;
         setConfigHint(validation.valid, message);
+    }
+
+    function updateFrcInputState() {
+        if (!frcIdInput || !frcRandomCheckbox) return;
+        const shouldRandomize = frcRandomCheckbox.checked;
+        frcIdInput.readOnly = shouldRandomize;
     }
 });

@@ -16,9 +16,15 @@
             </div>
             
             <div id="frc-input-container" class="hidden indent-container">
-                <div class="input-group">
+                <div class="input-group frc-input-group">
                     <label for="frc-id">FRC ID (0-959):</label>
-                    <input type="number" id="frc-id" placeholder="Random" min="0" max="959">
+                    <div class="frc-input-controls">
+                        <input type="number" id="frc-id" min="0" max="959" value="0">
+                        <label for="frc-random" class="frc-random-toggle">
+                            <input type="checkbox" id="frc-random" checked>
+                            <span>Generate random</span>
+                        </label>
+                    </div>
                 </div>
                 <small class="helper-text">Piece positions are determined from the Bot's perspective.</small>
             </div>

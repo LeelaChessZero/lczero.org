@@ -58,18 +58,53 @@
     gap: 1rem;
 }
 
+.frc-input-group {
+    flex-wrap: wrap;
+}
+
 #frc-id {
     padding: 0.5rem;
     border: 1px solid var(--color-border-primary);
-    background-color: var(--color-bg-secondary);
+    background-color: var(--color-bg-primary);
     color: var(--color-text-primary);
     border-radius: 0.375rem;
     width: 100px;
 }
 
+#frc-id[readonly] {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    cursor: not-allowed;
+}
+
 #frc-id:focus {
     border-color: var(--color-border-active);
     outline: none;
+}
+
+.frc-input-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.frc-random-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    cursor: pointer;
+    user-select: none;
+}
+
+.frc-random-toggle input {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    accent-color: var(--color-accent);
 }
 
 .helper-text {
