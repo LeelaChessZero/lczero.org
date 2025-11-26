@@ -352,6 +352,22 @@
     word-break: break-all;
 }
 
+.odds-selector .odds-btn {
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.odds-selector .odds-btn:disabled,
+.odds-selector .odds-btn.odds-btn-disabled {
+    background-color: #d1d5db;
+    border-color: #d1d5db;
+    color: #4b5563;
+    cursor: not-allowed;
+}
+
+.odds-selector .config-hint {
+    color: #000;
+}
+
 /* --- Helpers --- */
 .hidden {
     display: none;

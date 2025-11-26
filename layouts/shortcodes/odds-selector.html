@@ -1,7 +1,7 @@
 {{ .Page.Scratch.Add "requiredCSS" (slice "odds.css") }}
 {{ .Page.Scratch.Add "requiredJS" (slice "odds.js") }}
 
-<div class="container">
+<div class="container odds-selector">
     
     <!-- 1. Configuration Card -->
     <div class="odds-card">
@@ -110,23 +110,18 @@
     <div class="actions-container">
         <div class="buttons-row" style="display: flex; gap: 0.75rem; margin-bottom: 1rem;">
              <!-- Copy Button (Small, Left) -->
-            <button id="copyBtn" class="btn btn-secondary" title="Copy Link" style="flex: 0 0 auto;">
+            <button id="copyBtn" class="btn btn-secondary odds-btn" title="Copy Link" style="flex: 0 0 auto;">
                 <i class="material-symbols--content-copy"></i>
             </button>
 
             <!-- Challenge Button (Main) -->
-            <button id="generateBtn" class="btn-generate" style="flex: 1;">
+            <button id="generateBtn" class="btn-generate odds-btn" style="flex: 1;">
                  ⚔️ Challenge
             </button>
         </div>
 
-        <!-- Error Message -->
-        <div class="alert alert-important hidden">
-            <summary class="alert-header">
-                <i class="material-symbols--error"></i>
-                Error
-            </summary>
-            <p id="errorMessage"></p>
-        </div>
+        <small id="configHint" class="config-hint hidden" aria-live="polite" style="display: block; margin-top: 0.25rem;">
+            Complete the configuration to generate a challenge.
+        </small>
     </div>
 </div>
