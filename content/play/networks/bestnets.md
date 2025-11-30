@@ -2,11 +2,11 @@
 title: Best Networks
 weight: 800
 ---
-The networks below are our strongest available, and the first listed (BT4-spsa-1740) is what is currently being sent to engine competitions like the TCEC and CCC. In general, the largest network compatible with your hardware is recommended. To download, right click the corresponding link and select "Save link as...". 
+The networks below are our strongest available, and the first listed (BT4-it332) is what is currently being sent to engine competitions like the TCEC and CCC. In general, the largest network compatible with your hardware is recommended. To download, right click the corresponding link and select "Save link as...". 
 
 | Network Size | Purpose | Filters | Blocks | GPU Memory Usage | File Size | Network |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Very Large | Large GPU | 1024 | 15 | 4 GB | 380 MB | [BT4-spsa-1740](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1740.pb.gz) |
+| Very Large | Large GPU | 1024 | 15 | 4 GB | 365 MB | [BT4-it332](https://storage.lczero.org/files/networks-contrib/BT4-1024x15x32h-swa-6147500-policytune-332.pb.gz) |
 | Very Large | Large GPU | 1024 | 15 | 4 GB | 330 MB | [BT4-1024x15x32h-swa-6147500](https://storage.lczero.org/files/networks-contrib/big-transformers/BT4-1024x15x32h-swa-6147500.pb.gz) |
 | Large | GPU | 768| 15 | 2.6 GB | 190 MB | [BT3-768x15x24h-swa-2790000](https://storage.lczero.org/files/networks-contrib/BT3-768x15x24h-swa-2790000.pb.gz) |
 | Large | GPU | 768 | 15 | 2.4 GB | 160-170 MB | [T82-768x15x24h-swa-7464000](https://storage.lczero.org/files/768x15x24h-t82-swa-7464000.pb.gz)  |
