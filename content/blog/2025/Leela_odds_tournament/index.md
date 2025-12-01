@@ -4,28 +4,118 @@ published: "2025-12-01"
 title: 'Leela Odds Tournament in Jerusalem'
 ---
 
-On Nov. 29, a Classical time limit (90'+30") match took place on Lichess between 19 strong human players meeting at the Jerusalem Club in Jerusalem, Israel, and the LeelaOddsBots (mostly LeelaRookOdds). There was prize money for wins and draws to ensure that the players would play seriously, while also ruling out cheating, making this a much stricter test than typical online play. A similar event was held several years ago when the computer was Komodo and the handicap was knight odds; both of these events were organized and partly funded by Uri Blass.
+Is a rook advantage enough for a master to beat a superhuman AI in classical chess? For decades, the answer was an obvious "yes." However, a recent event in Jerusalem suggests the answer is no longer guaranteed.
 
-The Leela match was a double-round event, which was practical because Leela was playing at blitz speed, so games rarely exceeded two hours. All games in the first round were at rook odds (Leela White with the a1 rook removed, the traditional rook odds), except for two lower-rated players who received a two-knight handicap. For the second round, rook odds were again played, except for two winners in the first round who only received knight odds in the second game, and one low-rated first-round loser who received two knights in the second game.
+<!-- more -->
 
-LeelaRookOdds, running on my home computer with a 5090 GPU, played up to 12 games at once with replacement as games finished, while the remaining games were played on "LeelaPieceOdds" (at either rook or two-knight odds) or "LeelaKnightOdds" on my older 4090 GPU computer. My primary role in the project is as the opening book author/updater and parameter tuner. The humans generally played on real chess boards, entering their moves online only when ready. This did lead to a couple of incidents, but they only affected the two-knight odds games. The only issue at rook odds was one player entering the wrong move just as he was about to force a draw by repetition, so we scored it as a draw. Most of the human players played many blitz or rapid games vs LeelaRookOdds in the days before the event, with a total score of about 4% for the humans out of over 200 games - though, of course, blitz and rapid are much more favorable for the odds-giver than Classical chess.
+![alt text](587505319_25475188565455802_8905523921313172164_n.jpg)
 
-There were 38 games in total, of which 31 were at rook odds. The rook-odds players ranged from 1900 FIDE up to a 2463 FIDE IM, Yannay Ben Ari. The seventeen rook-odds players included two IMs, three FMs, and four National Masters (three of whom were within about fifty Elo of the FM title requirement of 2300 FIDE). Particularly notable is the young age of most of the players; by my count, 12 out of those seventeen (and one of the two players who took two knights) were between the ages of 12 and 23. So, it is likely that, on average, the field is underrated, as young players in FIDE typically are.
+On November 29, a Classical time limit (90'+30") match took place on Lichess between 19 strong human players meeting at the Jerusalem Club in Israel and the LeelaOddsBots (mostly LeelaRookOdds). There was prize money for wins and draws to ensure that the players would play seriously, while also ruling out cheating, making this a much stricter test than typical online play. A similar event was held several years ago when the computer was Komodo and the handicap was knight odds; both of these events were organized and partly funded by Uri Blass.
 
-The results of the rook odds games were 18 wins for LeelaRookOdds, 8 draws, and 5 wins by the human players. Based on the average FIDE rating of the field - 2166 (counting one player with only a national rating as his national rating minus 50, which looks typical) - this works out to a performance rating of 2321. A proper game-by-game calculation should come out a few points higher, since averaging opponents' ratings hurts a player with a positive score. Since the FIDE requirement for the FM title is to play 30 games with a rating of at least 2300 at classical time controls, I think we can say that (unofficially, of course) LeelaRookOdds has "earned" the FM title despite playing at blitz speed, playing 12 games at once on a single GPU, and playing without a rook!
+### The Setup and The Hardware
 
-If we only consider results against the nine players with NM, FM, or IM titles (all rated over 2150 FIDE), the score was nine wins for LeelaRookOdds, five draws, and three wins for humans vs an average rating of 2289. This results in a performance rating of 2417, above the 2400 rating required for the IM title. This phenomenon of performance rising with the rating of the opposition is normal for the LeelaOddsBots; presumably, it is due to Leela "assuming" opposition strong enough to score 50% at the odds, meaning a draw is acceptable if the opening went well for the human. Consequently, Leela often allows early draws by repetition. This doesn't matter against strong opposition, but weaker players will take the easy draw. It may also be due to Leela "gambling" that the opponents won't see difficult tactics, but sometimes Leela misjudges this, and even fairly weak players can win a game. I think it is reasonable to say that the break-even rating for LeelaRookOdds in Classical time limits is around the IM 2400 threshold, even though the performance rating against weaker players is only FM level.
+The match was a double-round event. This was practical because Leela was playing at blitz speed, so games rarely exceeded two hours.
 
-The two games at knight odds were won by Leela, one against the top-rated IM and the other against Yosef Gurevich (2081). Of the five games played at two-knight odds, the humans won one, drew three, and lost one, though one of the draws was due to a crash caused by a request to restart the computer for another player in a position that, although objectively drawn, was likely too difficult for the human to hold. The performance rating at two knights was only 1743 officially, or 1813 if we call that game a win for Leela. This is surprisingly low and difficult to reconcile with the strong rook odds performance and excellent results at two knights in blitz and Rapid. Probably, it is due to the sample size of just five games, of which three were against kids aged 12 and 13 who were likely much underrated. Against adults with well-established FIDE ratings, the break-even for two-knight odds would likely be close to 2000. The knight odds win over the top IM just confirms our belief that the break-even point in classical chess at knight odds is in the strong GM range, perhaps around 2600 FIDE.
+- **Round 1:** Mostly Rook odds (Leela White with the a1 rook removed), with two lower-rated players receiving two-knight odds.
+- **Round 2:** Rook odds again, except for first-round winners (who moved to knight odds) and one loser (who moved to two-knight odds).
 
-As for the actual rook odds games, the five human wins were good games. Leela successfully complicated the positions, but the humans generally found clever ways to simplify to winning endgames while avoiding serious errors. One game featured a prolonged battle to convert the advantage of Queen for Rook with opposite-colored bishops and many pawns, which took a long time but was ultimately indefensible for Leela. The 18 games won by LeelaRookOdds were generally decided by complex tactics - rarely obvious blunders, but tactics that master-level players can usually spot with enough time. Leela keeps the games so complicated that, either due to time pressure or moving quickly to avoid it, something will eventually get overlooked. Of course, most tactical errors don't cost a whole rook; there usually have to be multiple other errors to lose a rook-up game. Leela just gradually reduces the disadvantage until one serious error is enough to make the game close, then usually wins due to further small errors.
+LeelaRookOdds, running on my home computer with a **5090 GPU**, played up to 12 games at once with replacement as games finished. The remaining games ran on my older 4090 GPU computer.
 
-In general, I would say that the human players played well and avoided typical blitz and Rapid oversights, but that just isn't enough to score well against Leela at rook odds. I checked the reported accuracy figures (Lichess accuracy, using SF 17.1) for the human players and was rather surprised to see that no one won a game with less than 97% accuracy, and that some of the losses had accuracy as high as 90%, 91%, or 92%, with draws up to 94%! Who knew that it was so hard to win a game of chess starting with an extra rook? I also noticed that the handicap is even a bit more than that because, in some games, Leela would have liked to castle long but couldn't, and in others, the lack of protection for the a2 pawn mattered. That is why, in some games in the 1800s, the rook-odds giver would insist on starting with the pawn on a3; however, since Morphy and Staunton never asked for this advantage, Leela doesn't either.
+The humans generally played on real chess boards, entering their moves online only when ready. This led to very few errors, the only significant one at rook odds being a player entering a wrong move just as he was about to force a draw by repetition, we adjuticated this to a draw for the tournament.
 
-Based on this event, I would say that rook odds is closer to knight odds than it is to two-knight odds; the nominal 3-3-5-9 piece values are endgame values and not very relevant to the initial position. In round numbers, I would say that if removing the "f" pawn (the only one removed for pawn odds) is 1, then knight odds is about 3, bishop about 3.5, rook about 4 (maybe a bit more), and queen about 8. Our experience with the bots shows Leela performing much better giving queen odds than two rooks, but that is probably due to not yet having a net trained for two rooks; the handicaps should be quite close. Queen for Knight is an intermediate handicap between rook and two knights, but at queen for knight, Leela generally just tries to avoid trouble rather than attacking as she might when giving two knights, so draws are more frequent.
+### The Human Field
 
-This event allows us to compare the performance of humans at Classical time controls with performance at blitz against the same level of opposition, though admittedly at rook odds rather than in standard chess. I looked at all the blitz results of LeelaRookOdds since a major upgrade in late Feb. 2025 against identified GMs known to be in the world top 50 classical FIDE list. Most were 3'2" games, so I adjusted the ratings of the players at other time controls to reflect the higher quality of play at, say, 5'3". I counted 59 games against five opponents with an average strength (at 3'2") of 2714, with a score of 39 wins for Leela, 11 draws, and 9 wins for the GMs. The performance rating was FIDE 2909. Since LeelaRookOdds has been upgraded since many of these games were played, it should be a bit higher now. This can be compared with the 2321 performance for LeelaRookOdds in classical. So, I think it is fair to say that for rook odds at a high human level, the difference in quality of play between 3'2" blitz and 90'30" classical chess is about 600 Elo. For classical chess, most estimates for this are in the 500 ballpark, so perhaps odds play increases the difference between classical and blitz chess.
+![alt text](588773175_25475190302122295_1343816795594061971_n.jpg)
 
-In the past year, we have made large and rapid progress with the search, but very little with the actual nets. LeelaRookOdds still used the same net as it had one year ago, LKO4 trained by Marcus98, which was trained for Knight odds, bishop odds, rook odds, and FRC knight odds all at once! It has yet to be surpassed. Queen odds had only one clearly beneficial net upgrade this August. However, my expectation is that we will soon figure out how to make better odds nets and that net improvement will exceed search improvement in the coming year. Search was recently upgraded to look at more nodes when the position is no longer hopelessly lost objectively, and perhaps we can get a similar gain by doing something similar with the search contempt values. All in all, I expect that progress with the odds bots will continue at a much faster pace than is possible with standard chess. I also expect more odds matches with titled players; perhaps an FRC match at knight or rook odds with a GM might be next.
+There were 38 games in total, 31 of which were at rook odds. The rook-odds players ranged from 1900 FIDE up to a 2463 FIDE IM, Yannay Ben Ari. The field was notably young; 12 of the 17 rook-odds players were between the ages of 12 and 23, suggesting the field was likely underrated compared to their official FIDE metrics.
 
-Thanks to Uri and to all those involved with organizing and running this event. I think it finally clarified, within reasonable limits, where the odds bots stand in Classical chess. Based on what we now know, I think that fair matches at classical time limits in classical chess (not FRC) would be a par IM (2400 FIDE) for rook odds, a strong GM (2600 FIDE) for knight odds (Leela always White), and perhaps 100 Elo higher if it is FRC. For the new "Fast Classical" (45'30"), which we might use in some events, perhaps add 100 Elo.
+The roster included:
+
+- 2 International Masters (IMs)
+- 3 FIDE Masters (FMs)
+- 4 National Masters (NMs)
+
+### Rook Odds: Results and Performance
+
+The performance of LeelaRookOdds was staggering given the handicap.
+
+| Category | Games | Leela Wins | Draws | Human Wins | Leela Perf. Rating |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| All Rook Odds | 31 | 18 | 8 | 5 | 2321 |
+| vs Titled Players (2150+) | 17 | 9 | 5 | 3 | 2417 |
+
+Based on the average FIDE rating of the field (2166), Leela achieved a performance rating of 2321. Since the FIDE requirement for the FM title is to play 30 games with a rating of at least 2300, we can unofficially say **LeelaRookOdds has "earned" the FM title** - despite playing at blitz speed, in a simul on a single GPU, and starting without a rook!
+
+Interestingly, performance rose with the rating of the opposition. Against the nine titled players (NM, FM, IM), Leela performed at an IM level (2417). This phenomenon is normal for the LeelaOddsBots. Leela "assumes" the opposition is strong enough to score 50% at the odds, so she often allows early draws by repetition if the opening goes well for the human. Weaker players accept these draws, while stronger players fight on.
+
+### Analysis: How Leela Wins (and Loses)
+
+The five human wins were high-quality games. Leela successfully complicated positions, but the humans found clever ways to simplify into winning endgames. One featured a prolonged battle to convert a Queen-for-Rook advantage with opposite-colored bishops, which was ultimately indefensible for Leela.
+
+Conversely, the 18 games won by Leela were decided by complex tactics. These were rarely obvious blunders, but rather deep complications that master-level players can usually spot given enough time. However, Leela keeps the board so chaotic that humans eventually overlook something, either due to complexity or time pressure.
+
+**The Accuracy Requirement:**
+I checked the Lichess accuracy figures (using Stockfish 17.1) for the humans and found the results surprising:
+
+- **No one won** a game with less than **97% accuracy**.
+- Some losses had accuracy as high as **90–92%**.
+- Some draws had accuracy up to **94%**.
+
+It turns out that winning a game starting with an extra rook requires near-perfection. Leela gradually reduces the disadvantage until one serious error makes the game close, then usually wins via further small errors.
+
+### Knight and Two-Knight Odds Results
+
+The results for minor piece handicaps were mixed, partially due to sample size.
+
+| Handicap | Opponent | Result |
+| :--- | :--- | :---: |
+| **Knight Odds** | IM (Top Rated) | **Leela Win** |
+| **Knight Odds** | Y. Gurevich (2081) | **Leela Win** |
+| **2-Knights Odds** | Various | **+1 =3 -1** |
+
+*Note: One of the draws in the 2-Knights category was due to a computer crash in a position that was objectively drawn but likely too difficult for the human to hold.*
+
+The performance rating at two knights was only 1743 (or 1813 if we count the crash as a win). This is surprisingly low compared to blitz/rapid data, likely because three of the five games were against underrated junior players (aged 12-13). I suspect against established adults, the break-even for two-knight odds is closer to 2000.
+
+The win against the top IM at knight odds confirms our belief that the break-even point in classical chess for knight odds is in the strong GM range (approx. 2600 FIDE).
+
+### Re-evaluating Handicap Values
+
+Based on this event, I would argue that rook odds is closer to knight odds than it is to two-knight odds. The nominal 3-3-5-9 piece values are endgame values and aren't relevant to the initial position.
+
+In round numbers, if removing the "f" pawn is a value of **1**, here is how I estimate the current handicaps:
+
+- **Knight Odds:** ~3.0
+- **Bishop Odds:** ~3.5
+- **Rook Odds:** ~4.0 (perhaps slightly more)
+- **Queen Odds:** ~8.0
+
+Our experience shows Leela performs much better giving Queen odds than two rooks, though this may change once we have a net specifically trained for two-rook odds.
+
+### Comparison: Classical vs. Blitz
+
+This event allows us to compare human performance at Classical controls against their performance at Blitz vs Leela.
+
+I analyzed LeelaRookOdds' blitz results since the major upgrade in February 2025 against identified GMs in the world top 50. Most games were 3'2" (adjusted for ratings).
+
+| Format | Avg Opponent Rating | Leela Score | Perf. Rating |
+| :--- | :---: | :---: | :---: |
+| **Blitz (3'2")** | 2714 | +39 =11 -9 | **2909** |
+| **Classical (90'30")** | 2166 | +18 =8 -5 | **2321** |
+
+For rook odds at a high human level, the difference in quality of play between 3'2" blitz and 90'30" classical chess appears to be about **600 Elo**. Since standard estimates for this gap are usually around 500 Elo, it seems that odds play increases the divergence between classical and blitz performance.
+
+### Technical Progress and Future Outlook
+
+In the past year, we have made rapid progress with search, but very little with the actual neural nets. LeelaRookOdds still uses **LKO4** (trained by Marcus98 one year ago), which handles Knight, Bishop, Rook, and FRC Knight odds. It has yet to be surpassed.
+
+However, I expect we will soon figure out how to create better odds nets, and that net improvement will exceed search improvement in the coming year. We also hope to gain strength by adjusting search contempt values.
+
+### Conclusion: What is a Fair Match?
+
+Thanks to Uri Blass and everyone involved in organizing this event, we have clarified where the odds bots stand in Classical chess. Based on this data, here are my estimates for a fair match (50% score) at Classical time limits:
+
+- **Rook Odds:** Par with an **IM (~2400 FIDE)**.
+- **Knight Odds:** Par with a **Strong GM (~2600 FIDE)**.
+- **FRC (Fischer Random):** Add ~100 Elo to the above requirements.
+- **Fast Classical (45'30"):** Add ~100 Elo to the above requirements.
