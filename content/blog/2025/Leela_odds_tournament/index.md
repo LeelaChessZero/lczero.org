@@ -8,7 +8,7 @@ Is a rook advantage enough for a master to beat a superhuman AI in classical che
 
 <!-- more -->
 
-![alt text](587505319_25475188565455802_8905523921313172164_n.jpg)
+![7 Players Preparing for Rook Odds Games](587505319_25475188565455802_8905523921313172164_n.jpg)
 
 On November 29, a Classical time limit (90'+30") match took place on Lichess between 19 strong human players meeting at the Jerusalem Club in Israel and the LeelaOddsBots (mostly LeelaRookOdds). There was prize money for wins and draws to ensure that the players would play seriously, while also ruling out cheating, making this a much stricter test than typical online play. A similar event was held several years ago when the computer was Komodo and the handicap was knight odds; both of these events were organized and partly funded by Uri Blass.
 
@@ -19,13 +19,13 @@ The match was a double-round event. This was practical because Leela was playing
 - **Round 1:** Mostly Rook odds (Leela White with the a1 rook removed), with two lower-rated players receiving two-knight odds.
 - **Round 2:** Rook odds again, except for first-round winners (who moved to knight odds) and one loser (who moved to two-knight odds).
 
-LeelaRookOdds, running on my home computer with a **5090 GPU**, played up to 12 games at once with replacement as games finished. The remaining games ran on my older 4090 GPU computer.
+LeelaRookOdds, running on my home computer with a 5090 GPU, played up to 12 games at once with replacement as games finished. The remaining games ran on my older 4090 GPU computer.
 
-The humans generally played on real chess boards, entering their moves online only when ready. This led to very few errors, the only significant one at rook odds being a player entering a wrong move just as he was about to force a draw by repetition, we adjuticated this to a draw for the tournament.
+The humans generally played on real chess boards, entering their moves online only when ready. This led to very few errors. The only significant one at rook odds was a player entering a wrong move just as he was about to force a draw by repetition; we adjudicated this to a draw for the tournament.
 
 ### The Human Field
 
-![alt text](588773175_25475190302122295_1343816795594061971_n.jpg)
+![4 Players at the Jerusalem Chess Club tournament](588773175_25475190302122295_1343816795594061971_n.jpg)
 
 There were 38 games in total, 31 of which were at rook odds. The rook-odds players ranged from 1900 FIDE up to a 2463 FIDE IM, Yannay Ben Ari. The field was notably young; 12 of the 17 rook-odds players were between the ages of 12 and 23, suggesting the field was likely underrated compared to their official FIDE metrics.
 
