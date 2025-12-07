@@ -17,7 +17,9 @@
         </div>
         {{end}}
 
-         {{ if .Params.guest_author }}
+        {{ .Content }}
+
+        {{ if .Params.guest_author }}
             {{ $authorData := .Params.guest_author }}
             {{ with $authorData }}
             <div class="author-box">
@@ -37,12 +39,7 @@
                 </div>
             </div>
             {{ end }}
-        {{ end }}
-
-        {{ .Content }}
-
-
-        {{ if (and (not .Params.guest_author) .Params.author) }}
+        {{ else if .Params.author }}
                 <div class="last-updated">
                     Posted by: {{ .Params.author }}
                 </div>
