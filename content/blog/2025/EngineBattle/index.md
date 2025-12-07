@@ -7,7 +7,7 @@ guest_author:
   socials:
     github: "lepned"
     website: "https://github.com/lepned/EngineBattle"
-name: lepned
+author: lepned
 published: "2025-07-22"
 title: 'EngineBattle: A Comprehensive Streaming, Testing and Analysis Tool for Lc0
   Users'
