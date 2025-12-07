@@ -2,8 +2,12 @@
 <div class="main-container">
     <div class="content-container">
 
-        <div class="blog-date">{{ .PublishDate.Format "2006-01-02" }}</div>
         <h1 class="blog-title">{{ .Title }}</h1>
+        <div class="blog-meta">
+        {{ if .PublishDate }}
+            <time class="author-date" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+        {{ end }}
+        </div>
 
         {{if .Draft}}
         <div class="banner">
@@ -15,22 +19,55 @@
 
         {{ .Content }}
 
-        {{ if .Params.author }}
-        <div class="last-updated">
-            Posted by: {{ .Params.author }}
-        </div>
+        {{ if .Params.guest_author }}
+            {{ $authorData := .Params.guest_author }}
+            {{ with $authorData }}
+            <div class="author-box">
+                {{ with .image_url }}
+                <img src="{{ . }}" alt="Photo of {{ $authorData.name }}" class="author-avatar">
+                {{ end }}
+                <div class="author-info">
+                    {{ with .url }}
+                        <a href="{{ . }}" target="_blank" rel="noopener" class="author-name">{{ $authorData.name }}</a>
+                    {{ else }}
+                        <span class="author-name">{{ $authorData.name }}</span>
+                    {{ end }}
+                    {{ with .title }}
+                        <div class="author-title">{{ . }}</div>
+                    {{ end }}
+                    {{ partial "socials.html" . }}
+                </div>
+            </div>
+            {{ end }}
+        {{ else if .Params.author }}
+                <div class="last-updated">
+                    Posted by: {{ .Params.author }}
+                </div>
         {{ end }}
-
         <div class="bottom-nav">
+            {{ with .NextInSection }}
+            <a class="next" href="{{.Permalink}}">
+                <i class="material-symbols--arrow-left-alt"></i>
+                <div class="nav-link-text">
+                    <span class="nav-link-label">Next</span>
+                    <span class="nav-link-title">{{.Title}}</span>
+                </div>
+            </a>
+            {{ else }}
+            <span></span>
+            {{ end }}
             {{ with .PrevInSection }}
             <a class="previous" href="{{.Permalink}}">
-                ◃◃◃ {{.Title}}</a>
-            {{ end }}
-            {{ with .NextInSection }}
-            <a class="next" href="{{.Permalink}}">{{.Title}} ▹▹▹</a>
+                <div class="nav-link-text">
+                    <span class="nav-link-label">Previous</span>
+                    <span class="nav-link-title">{{.Title}}</span>
+                </div>
+                <i class="material-symbols--arrow-right-alt"></i>
+            </a>
+            {{ else }}
+            <span></span>
             {{ end }}
         </div>
-
     </div>
 </div>
 {{ end }}

@@ -1,4 +1,12 @@
 ---
+guest_author:
+  name: lepned
+  title: "EngineBattle Developer"
+  image_url: "https://avatars.githubusercontent.com/u/1504584?v=4"
+  url: "https://github.com/lepned"
+  socials:
+    github: "lepned"
+    website: "https://github.com/lepned/EngineBattle"
 author: lepned
 published: "2025-07-22"
 title: 'EngineBattle: A Comprehensive Streaming, Testing and Analysis Tool for Lc0
