@@ -9,8 +9,8 @@
   - title: NVIDIA GPU Users
     description: ''
     downloads:
-    - label: CUDA 11 Version
-      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-gpu-nvidia-cuda11.zip
+    - label: CUDA 12 Version
+      url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-gpu-nvidia-cuda12.zip
       description: For RTX 20xx, RTX 30xx, RTX 40xx (2018+) GPUs.
     - label: CUDNN Version
       url: https://github.com/LeelaChessZero/lc0/releases/download/{{lc0version}}/lc0-{{lc0version}}-windows-gpu-nvidia-cudnn.zip

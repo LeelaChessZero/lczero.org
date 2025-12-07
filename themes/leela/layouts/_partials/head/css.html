@@ -13,3 +13,19 @@
     {{- end }}
   {{- end }}
 {{- end }}
+
+
+{{/* Additional required CSS */}}
+
+{{ $requiredCSS := .Page.Scratch.Get "requiredCSS" }}
+  {{ range $file := $requiredCSS }}
+    {{ with resources.Get (printf "css/additional/%s" $file) }}
+      {{ if hugo.IsDevelopment }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}">
+      {{ else }}
+        {{ with . | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

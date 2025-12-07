@@ -64,7 +64,7 @@ enableMissingTranslationPlaceholders = true
   pagerSize = 10  
 
 [params]
-  lc0version="v0.32.0"
+  lc0version="v0.32.1"
   google_analytics_id="G-MC971PFSYE"
   math = false
 

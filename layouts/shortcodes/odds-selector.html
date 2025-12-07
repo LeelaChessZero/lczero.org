@@ -1,0 +1,155 @@
+{{ .Page.Scratch.Add "requiredCSS" (slice "odds.css") }}
+{{ .Page.Scratch.Add "requiredJS" (slice "odds.js") }}
+
+<div class="container">
+    
+    <!-- 1. Configuration Card -->
+    <div class="odds-card">
+        <div class="card-header">
+            <h2 class="card-title">Game Configuration</h2>
+        </div>
+
+        <div class="settings-group">
+            <div class="checkbox-item main-toggle">
+                <input type="checkbox" id="frc-toggle">
+                <label for="frc-toggle">Enable Fischer Random (Chess960)</label>
+            </div>
+            
+            <div id="frc-input-container" class="hidden indent-container">
+                <div class="input-group">
+                    <label for="frc-id">FRC ID (0-959):</label>
+                    <input type="number" id="frc-id" placeholder="Auto" min="0" max="959">
+                </div>
+                <small class="helper-text">Piece positions are determined from the Bot's perspective.</small>
+            </div>
+        </div>
+
+        <div class="radio-group">
+            <div class="radio-card selected">
+                <input type="radio" id="color_black" name="color" value="black" checked>
+                <label for="color_black">
+                    <span class="radio-title">Play as Black</span>
+                    <span class="radio-subtitle">Bot is White (First move)</span>
+                </label>
+            </div>
+            <div class="radio-card">
+                <input type="radio" id="color_white" name="color" value="white">
+                <label for="color_white">
+                    <span class="radio-title">Play as White</span>
+                    <span class="radio-subtitle">Bot is Black</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Handicap Card -->
+    <div class="odds-card">
+        <div class="card-header">
+            <h2 class="card-title">Remove Bot's Pieces</h2>
+            <span class="card-subtitle">Select pieces to remove from the bot</span>
+        </div>
+
+        <!-- Queen (Full Width) -->
+        <div class="piece-section standalone">
+            <div class="checkbox-item large-checkbox">
+                <input type="checkbox" id="queen">
+                <label for="queen">Queen</label>
+            </div>
+        </div>
+
+        <!-- Minor Pieces Grid -->
+        <div class="pieces-grid">
+            <!-- Knights -->
+            <div class="piece-column">
+                <h3 class="column-label">Knights</h3>
+                <div class="checkbox-stack">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="knight_q">
+                        <label for="knight_q">Queen-side Knight</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="knight_k">
+                        <label for="knight_k">King-side Knight</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bishops -->
+            <div class="piece-column">
+                <h3 class="column-label">Bishops</h3>
+                <div class="checkbox-stack">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="bishop_q">
+                        <label for="bishop_q">Queen-side Bishop</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="bishop_k">
+                        <label for="bishop_k">King-side Bishop</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rooks -->
+            <div class="piece-column">
+                <h3 class="column-label">Rooks</h3>
+                <div class="checkbox-stack">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="rook_q">
+                        <label for="rook_q">Queen-side Rook</label>
+                    </div> 
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="rook_k">
+                        <label for="rook_k">King-side Rook</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Action Button -->
+    <button id="generateBtn" class="btn-generate">
+        <i class="material-symbols--bolt"></i>
+        Generate Link
+    </button>
+
+    <!-- 4. Results -->
+    <div id="result" class="result-area">
+        <div class="result-card" id="resultCard">
+            <div class="result-header">
+                <div>
+                    <div class="result-label">Target Bot</div>
+                    <div class="result-bot-name" id="botValue">LeelaQueenOdds</div>
+                </div>
+                <div class="result-actions">
+                    <button class="btn btn-secondary" id="copyBtn">
+                        <i class="material-symbols--content-copy"></i> Copy
+                    </button>
+                    <a class="btn btn-primary" id="openLink" target="_blank" href="#">
+                        <i class="material-symbols--open-in-new"></i> Open Lichess
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Collapsible/Small Technical Info -->
+            <div class="tech-details">
+                <div class="detail-row">
+                    <span class="detail-label">FEN</span>
+                    <code class="detail-code" id="fenValue">rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq</code>
+                </div>
+                <div class="detail-row hidden" id="frcIdResultContainer">
+                    <span class="detail-label">FRC ID</span>
+                    <span id="frcIdValue">725</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Message -->
+        <div class="alert alert-important hidden">
+            <summary class="alert-header">
+                <i class="material-symbols--error"></i>
+                Error
+            </summary>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+</div>
