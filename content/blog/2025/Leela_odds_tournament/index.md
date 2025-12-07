@@ -1,6 +1,6 @@
 ---
 author: GM Larry "Hissha" Kaufman
-published: "2025-12-01"
+published: "2025-12-07"
 title: 'Leela Odds Tournament in Jerusalem'
 ---
 
@@ -105,11 +105,75 @@ I analyzed LeelaRookOdds' blitz results since the major upgrade in February 2025
 
 For rook odds at a high human level, the difference in quality of play between 3'2" blitz and 90'30" classical chess appears to be about **600 Elo**. Since standard estimates for this gap are usually around 500 Elo, it seems that odds play increases the divergence between classical and blitz performance.
 
-### Technical Progress and Future Outlook
+### A Million Games and A New Announcement
 
-In the past year, we have made rapid progress with search, but very little with the actual neural nets. LeelaRookOdds still uses **LKO4** (trained by Marcus98 one year ago), which handles Knight, Bishop, Rook, and FRC Knight odds. It has yet to be surpassed.
+As we analyze the results of this classical match, we are also celebrating a massive milestone for the project as a whole. As of the morning of December 6, 2025 (Lichess time), the LeelaOddsBots have officially played over one million games.
 
-However, I expect we will soon figure out how to create better odds nets, and that net improvement will exceed search improvement in the coming year. We also hope to gain strength by adjusting search contempt values.
+When this project started two years ago, I don’t think anyone imagined we would be crushing Grandmasters by significant margins in Rapid at rook odds, or that a human would need close to IM-level strength just to break even against Queen odds in blitz. Reaching a million games this quickly would have sounded just as crazy as the strength of the bots.
+
+Total Games Played (as of Dec 6):
+
+- LeelaQueenOdds (LQO): 697,911
+- LeelaPieceOdds: 105,663
+- LeelaRookOdds (LRO): 95,501
+- LeelaKnightOdds (LKO): 89,137
+- LeelaQueenForKnight: 13,985
+- Total: 1,002,197
+
+To celebrate this milestone, we will be promoting a new, BT4-based net for LeelaQueenOdds very soon. This new network has already proven its superiority in testing, and I am currently finalizing the optimal settings for Search Contempt and related parameters.
+
+Regarding LeelaRookOdds (which played in this Jerusalem event), we are still using the LKO4 net trained by Marcus98 one year ago. It handles Knight, Bishop, Rook, and FRC Knight odds simultaneously and has yet to be surpassed. While net progress for rook odds has been flat, we have made large and rapid progress with the search. We recently upgraded the search to look at more nodes when the position is no longer objectively lost, and we hope to gain similar strength by adjusting search contempt values.
+
+All in all, I expect that progress with the odds bots will continue at a much faster pace than is possible with standard chess. I also expect more odds matches with titled players; perhaps an FRC match at knight or rook odds with a GM might be next.
+
+> [!INFO]- Links to Lichess Games at the Event
+>
+> #### Rook Odds
+>
+> - https://lichess.org/cZklEcr0
+> - https://lichess.org/Sp1dvJx7
+> - https://lichess.org/LR0absor
+> - https://lichess.org/IFvGDOax
+> - https://lichess.org/DyVsk4kn
+> - https://lichess.org/2iBv6AYg
+> - https://lichess.org/xXYGF7US
+> - https://lichess.org/v8G8lftq
+> - https://lichess.org/BXBrdCuh
+> - https://lichess.org/abstxHfM
+> - https://lichess.org/ed2Cc3DE
+> - https://lichess.org/cMMxF0qB
+> - https://lichess.org/BFIEQkWa
+> - https://lichess.org/SxftFixP
+> - https://lichess.org/1K1ZS7q1
+> - https://lichess.org/kVNMdeFv
+> - https://lichess.org/2DodfoJx
+> - https://lichess.org/G7O1j1qI
+> - https://lichess.org/mpgcf9d1
+> - https://lichess.org/BJfNpN0K
+> - https://lichess.org/Z4Oc8Kc0
+> - https://lichess.org/3xomU6B1
+> - https://lichess.org/3rGyKnj4
+> - https://lichess.org/ynJQVQuM
+> - https://lichess.org/dIo3ZBt2
+> - https://lichess.org/r3ApF53O
+> - https://lichess.org/0NHkDMyk
+> - https://lichess.org/MyBfQIlJ
+> - https://lichess.org/Gj8B2LwR
+> - https://lichess.org/3npjdaOt
+> - https://lichess.org/hDalrYC4
+>
+> #### 2 Knight Odds
+>
+> - https://lichess.org/UUJOqXbQ
+> - https://lichess.org/ZA3doEvl
+> - https://lichess.org/Uva4tcd7
+> - https://lichess.org/v8G8lftq
+> - https://lichess.org/H64s8I58
+>
+> #### Knight Odds
+>
+> - https://lichess.org/obVj3veI
+> - https://lichess.org/PLjXMdYo
 
 ### Conclusion: What is a Fair Match?
 
