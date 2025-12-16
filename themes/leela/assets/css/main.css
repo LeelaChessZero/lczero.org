@@ -666,6 +666,10 @@ nav.sidebar .nonselectable {
     width: 100%;
 }
 
+.hero-margin .button-primary:last-child {
+  margin-top: 1rem;
+}
+
 /* Lists */
 
 .summary {
