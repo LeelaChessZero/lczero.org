@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function() {
             fen = `${fenRank.toLowerCase()}/pppppppp/8/8/8/8/PPPPPPPP/${playerRank.toUpperCase()} w ${castling}`;
         }
 
-        const encodedFen = fen.replace(/ /g, '_');
+        const encodedFen = fen.replace(/ /g, '%20');
         url = `https://lichess.org/?user=${botUser}&fen=${encodedFen}#friend`;
 
 
@@ -473,3 +473,4 @@ document.addEventListener("DOMContentLoaded", function() {
     resultCard.classList.remove('active');
     errorMessage.parentNode.classList.add('hidden');
 });
+
