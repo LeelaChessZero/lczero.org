@@ -4,7 +4,7 @@ weight: 100
 # summary: "Google Summer of Code Contributor Application Template"
 ---
 
-Please join our [Discord chat](https://discord.gg/BDWPPV5Fs4) and mention your intention to apply for GSoC. Then use the scheme shown here for your contributor application. If you have any questions, ask on the chat.
+Please join our [Discord chat](https://discord.gg/BDWPPV5Fs4) and mention your intention to apply for GSoC, we recommend that you briefly discuss the potential project in the chat before submitting the proposal. After that, use the scheme shown here for your contributor application. If you have any questions, ask in the chat.
 
 ## You
 * Name
@@ -16,12 +16,12 @@ Please join our [Discord chat](https://discord.gg/BDWPPV5Fs4) and mention your i
 ### In your application let us know
 * What platform do you use to code? Hardware specifications and operating system
 * Did you ever code in C++/python/…, yes/no? What is your experience?
-* If you apply for a project on our ideas list, have you experience in the areas listed under “Desired knowledge”?
+* If you apply for a project on our ideas list, have you experience in the areas listed under “Skills needed”?
 
 ### Set yourself up
 * Set up your platform to build a GIT snapshot of the current state of the project you are interested in.
 * If you need help, ask in the [chat](https://discord.gg/BDWPPV5Fs4).
-* Report success, after which you may be asked for a small code contribution.
+* Report success, after which you will be asked for a small code contribution.
 
 ## You and Us
 * Were you involved in LeelaChessZero in the past? What was your contribution?
