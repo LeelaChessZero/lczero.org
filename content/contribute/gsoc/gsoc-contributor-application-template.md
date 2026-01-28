@@ -1,5 +1,5 @@
 ---
-title: "GSoC Contributor Application Template"
+title: "Application Template"
 weight: 100
 # summary: "Google Summer of Code Contributor Application Template"
 ---
@@ -16,7 +16,7 @@ Please join our [Discord chat](https://discord.gg/BDWPPV5Fs4) and mention your i
 ### In your application let us know
 * What platform do you use to code? Hardware specifications and operating system
 * Did you ever code in C++/python/…, yes/no? What is your experience?
-* If you apply for a project on our ideas list, have you 	experience in the areas listed under “Desired knowledge”?
+* If you apply for a project on our ideas list, have you experience in the areas listed under “Desired knowledge”?
 
 ### Set yourself up
 * Set up your platform to build a GIT snapshot of the current state of the project you are interested in.
@@ -25,7 +25,7 @@ Please join our [Discord chat](https://discord.gg/BDWPPV5Fs4) and mention your i
 
 ## You and Us
 * Were you involved in LeelaChessZero in the past? What was your contribution?
-* Were you involved in other OpenSource development projects in the past? which, when and in what role?
+* Were you involved in other OpenSource development projects in the past? Which, when and in what role?
 * Why have you chosen your development idea and what do you expect from your implementation?
 
 ## Your Project
