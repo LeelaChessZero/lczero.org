@@ -16,16 +16,16 @@ Please join our [Discord chat](https://discord.gg/BDWPPV5Fs4) and mention your i
 ### In your application let us know
 * What platform do you use to code? Hardware specifications and operating system
 * Did you ever code in C++/python/…, yes/no? What is your experience?
-* If you apply for a project on our ideas list, have you experience in the areas listed under “Skills needed”?
+* If you apply for a project on our ideas list, do you have experience in the areas listed under “Skills needed”?
 
 ### Set yourself up
-* Set up your platform to build a GIT snapshot of the current state of the project you are interested in.
+* Set up your platform to build a Git snapshot of the current state of the project you are interested in.
 * If you need help, ask in the [chat](https://discord.gg/BDWPPV5Fs4).
 * Report success, after which you will be asked for a small code contribution.
 
 ## You and Us
 * Were you involved in LeelaChessZero in the past? What was your contribution?
-* Were you involved in other OpenSource development projects in the past? Which, when and in what role?
+* Were you involved in other open source development projects in the past? Which, when and in what role?
 * Why have you chosen your development idea and what do you expect from your implementation?
 
 ## Your Project
