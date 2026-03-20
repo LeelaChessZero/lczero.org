@@ -1,7 +1,7 @@
 ---
 author: GM Larry Kaufman
 published: "2026-03-20"
-title: Leela Odds Challenges on Lichess: Queen for knight & double knight odds
+title: "Leela Odds Challenges on Lichess: Queen for knight & double knight odds"
 ---
 
 It has been almost exactly 2 years since the [Leela odds match with GM David Navara](<https://lczero.org/blog/2024/03/leela-vs-gm-david-navara/>), and a lot has happened since. To showcase this progress, selected odds setups have been chosen for public blitz challenges: Queen for Knight (already finished) and Double Knight Odds (starting now).
