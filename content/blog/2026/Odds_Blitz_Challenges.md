@@ -37,4 +37,4 @@ While theoretically one could win the prize in ten games, I don't expect any hum
 - [LeelaPieceOdds](<https://lichess.org/@/LeelaPieceOdds>) plays white with both of its knights removed [lc0.org/NN](<https://lc0.org/NN>)
 - time control is 3'+0"
 - challenge is open to all titled players FM and above (GM, IM, FM) with revealed identities, plus extended after personal request (see above)
-- the first participant who makes an overall plus score which includes at least ten wins starting now will win the challenge and the $300 prize
+- the first participant who makes an overall plus score which includes at least ten wins (starting now, i.e. 2026-03-21 00:00 UTC) will win the challenge and the $300 prize
