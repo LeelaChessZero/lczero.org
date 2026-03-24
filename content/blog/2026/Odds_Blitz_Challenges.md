@@ -32,6 +32,12 @@ Note that unlike in the first challenge, 2'+1" will not be treated as an equival
 
 While theoretically one could win the prize in ten games, I don't expect any human to do that, and it likely will again take a "super" GM (one who has exceeded 2700 FIDE) to win the prize, or at least someone at that level in blitz (2900 Lichess blitz), but I could be wrong. In general I think games at two knights odds tend to be more exciting than at queen for knight, as the bot is more likely to take risks trying to win when it has a queen.
 
+##### UPDATE (2026-03-24): We have a winner!
+
+The NN challenge went live last Friday night. Several strong players attempted it, including streamer "Chess-Network" who scored +9=11-58, IM Kacper Drozdowski ("Kacparov") who scored +5=4-12, GM Keith Arkell ("AtomRod") who scored +1=2-22, GM Jeffery Xiong ("FeegLood") who scored +8=8-12, and finally the winner, GM Andy Woodward ("mraquariyaz67") who scored +10=3-2. I was exactly right in saying that the winner would need a 2900 blitz rating (both Kacper and Andy have that). Andy's games in particular showed that a bit more opening variety is needed (though he would have won anyway); a recent temperature change already implemented for the single piece odds bots should help once implemented for the multipiece bots. Based on the players who also played at queen for knight odds at 3'0" or the similar 2'1", it appears that NN is a slightly larger handicap, perhaps about a half pawn larger. It is also clear that rook odds is closer to knight odds than to two knights odds; the standard 1-3-3-5-9 values are misleading here.
+
+For future challenges we are considering a more flexible approach to the time limit, with players playing until someone has an overall winning record including at least ten won games, and giving prizes to the players who win matches at the shortest time controls for the specified odds.
+
 ##### Summary of the challenge conditions:
 
 - [LeelaPieceOdds](<https://lichess.org/@/LeelaPieceOdds>) plays white with both of its knights removed [lc0.org/NN](<https://lc0.org/NN>)
