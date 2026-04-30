@@ -5,16 +5,30 @@
     {{if default true .Params.show_contents}}
     {{ $paginator := .Paginate .Pages }}
     {{ range $paginator.Pages }}
-        <div class="blog-summary">            
-            <div class="blog-summary-title">
-                <a href="{{ .Permalink }}">
-                    <span class="blog-summary-date">{{ .PublishDate.Format "2006-01-02" }}</span>{{ .Title }}
-                </a>
+        <div class="blog-summary">
+            <div class="blog-summary-header">
+                {{ if .PublishDate }}
+                    <time class="blog-summary-date" datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "2006-01-02" }}</time>
+                {{ end }}
+                <h2 class="blog-summary-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
             </div>
+            
+            {{/* Fetch and display the author name */}}
+            {{ with .Params.author }}
+                {{ $authorKey := . }}
+                {{ $authorData := index site.Data.authors $authorKey }}
+                {{ $authorName := $authorData.name | default $authorKey }}
+                <div class="blog-summary-meta">
+                    By {{ $authorName }}
+                </div>
+            {{ end }}
+
             {{ if .Params.image }}
                 <img alt="{{ .Title }}" src="{{ .Params.image }}" />
             {{ end}}
-            <p>{{ .Summary }}</p>
+            <p class="blog-summary-content">{{ .Summary }}</p>
         </div>
     {{ end }}
 
@@ -22,11 +36,9 @@
     {{ if gt $paginator.TotalPages 1 }}
     <nav class="pagination">
         <a {{ if $paginator.HasPrev }}href="{{ $paginator.Prev.URL }}" class="pagination-prev" {{ else }}class="pagination-prev pagination-disabled"{{ end }}>← Previous</a>
-
         <span class="pagination-current">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
-        
         <a {{ if $paginator.HasNext }}href="{{ $paginator.Next.URL }}" class="pagination-next" {{ else }}class="pagination-next pagination-disabled"{{ end }}>Next →</a>
-        </nav>
+    </nav>
     {{ end }}
     {{ end }}
 {{ end }}

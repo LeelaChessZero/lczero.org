@@ -1,0 +1,24 @@
+{{ with .socials }}
+<div class="author-socials">
+    {{ with .github }}
+        <a href="https://github.com/{{ . }}" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+            <i class="qlementine-icons--github-fill-24"></i>
+        </a>
+    {{ end }}
+    {{ with .twitter }}
+        <a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener" class="social-link" aria-label="Twitter">
+            <i class="qlementine-icons--x-24"></i>
+        </a>
+    {{ end }}
+    {{ with .discord }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="social-link" aria-label="Discord">
+            <i class="qlementine-icons--discord-fill-24"></i>
+        </a>
+    {{ end }}
+    {{ with .website }}
+        <a href="{{ . }}" target="_blank" rel="noopener" class="social-link" aria-label="Website">
+            <i class="lucide--link-2"></i>
+        </a>
+    {{ end }}
+</div>
+{{ end }}
