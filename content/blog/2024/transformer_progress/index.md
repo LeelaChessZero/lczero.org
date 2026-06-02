@@ -4,6 +4,7 @@ published: "2024-02-28"
 title: Transformer Progress
 ---
 
+>⚠️ **Update (2026):** This architecture was accepted as a conference paper at ICLR 2026 — [*Chessformer: A Unified Architecture for Chess Modeling*](https://openreview.net/forum?id=2ltBRzEHyd). The **Leela-CF** model in the paper is the same network referred to as **BT4** on this website. This blog post and the earlier preprint [*Mastering Chess with a Transformer Model*](https://arxiv.org/abs/2409.12272) should be treated as superseded by the ICLR 2026 paper; please cite that version instead.
 
 Recently, the [transformer architecture](https://arxiv.org/abs/1706.03762) has dominated domains as diverse as vision and natural language processing. Over the past two years, the Lc0 team has been trying to answer the following question:
 
