@@ -20,7 +20,7 @@ We hope that this challenge will not only provide a lot of interesting and enter
 
 ##### Summary of the challenge conditions:
 
-- [LeelaQueenOdds](<https://lichess.org/@/LeelaQueenOdds>) plays white with both of its knights removed [lc0.org/Q](<https://lc0.org/Q>)
+- [LeelaQueenOdds](<https://lichess.org/@/LeelaQueenOdds>) plays white with its queen removed [lc0.org/Q](<https://lc0.org/Q>)
 - time control is 1'+0"
 - challenge is open to all titled players FM and above (GM, IM, FM) with a 2700+ Lichess bullet rating (50+ games) and their identity revealed, with possible extensions after personal request (see above)
 - the challenge will run from 2026-06-14 00:00 UTC until 28th of June 23:59:59 UTC
