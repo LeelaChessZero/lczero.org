@@ -8,7 +8,7 @@ During the last months, a multitude of minor improvements has been made to impro
 
 <!--more-->
 
-In addition to the Leela Odds challenges published in this [blog post](https://lczero.org/blog/2026/03/leela-odds-challenges-on-lichess-queen-for-knight-double-knight-odds/) 3 months ago, there also was a queen odds bullet challenge with a similar "first participanet to get a positive score with at least 10 wins" format, which was claimed rather quickly by GM Awonder Liang. To showcase the improvements made over the last months, we're now announcing another queen odds bullet challenge with a slightly different format:
+In addition to the Leela Odds challenges published in this [blog post](https://lczero.org/blog/2026/03/leela-odds-challenges-on-lichess-queen-for-knight-double-knight-odds/) 3 months ago, there also was a queen odds bullet challenge with a similar "first participant to get a positive score with at least 10 wins" format, which was claimed rather quickly by GM Awonder Liang. To showcase the improvements made over the last months, we're now announcing another queen odds bullet challenge with a slightly different format:
 
 Instead of the first participant to make a positive score, we're interested in the best possible scores achieved within a 2 week window, with the following format:
 
