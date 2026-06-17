@@ -1,6 +1,6 @@
 ---
 author: GM Larry Kaufman
-published: "2026-06-13"
+published: "2026-06-17"
 title: "Leela Odds Challenges on Lichess: Second iteration of the queen odds bullet challenge"
 ---
 
@@ -24,6 +24,6 @@ We hope that this challenge will not only provide a lot of interesting and enter
 - [LeelaQueenOdds](<https://lichess.org/@/LeelaQueenOdds>) plays white with its queen removed [lc0.org/Q](<https://lc0.org/Q>)
 - time control is 1'+0"
 - challenge is open to all titled players LM and above (GM, IM, FM, NM, LM) with a 2700+ Lichess bullet rating (50+ games) and their identity revealed, with possible extensions after personal request (see above)
-- the challenge will run from 2026-06-14 00:00 UTC until 28th of June 23:59:59 UTC
+- the challenge will run from 2026-06-18 00:00 UTC until 30th of June 23:59:59 UTC
 - matches go until either side has accumulated 20 wins, with a possible 10 game warm-up phase not counting towards the match
 - the two participants with the best scores (starting 2026-06-14 00:00 UTC) will win the challenge and receive a $200 (best score) resp. $100 (second best) prize
