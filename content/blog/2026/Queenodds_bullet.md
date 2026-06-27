@@ -27,3 +27,7 @@ We hope that this challenge will not only provide a lot of interesting and enter
 - the challenge will run from 2026-06-18 00:00 UTC until 30th of June 23:59:59 UTC
 - matches go until either side has accumulated 20 wins, with a possible 10 game warm-up phase not counting towards the match
 - the two participants with the best scores (starting 2026-06-18 00:00 UTC) will win the challenge and receive a $200 (best score) resp. $100 (second best) prize
+
+##### UPDATE 2026-06-27: Challenge postponed
+
+Unfortunately, all Leela bots including LeelaQueenOdds are facing major technical problems since last week, causing stalling challenges, abandoning games and repeated significant downtimes. This makes it impossible to provide players with the necessary playing conditions where they can perform to their maximum strength, which in turn prevents the challenge from achieving its goals. We have therefore decided to postpone the challenge to after the technical problems have been fixed; eligible players which have already reached the "20 wins for either side" condition will have their results counted once the challenge resumes, but will be allowed a "fresh start" under the challenge conditions with the better result counting.
