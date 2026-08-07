@@ -37,18 +37,14 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- DOM Elements ---
 
     const generateBtn = document.getElementById('generateBtn');
-    const resultCard = document.getElementById('resultCard');
-    const errorMessage = document.getElementById('errorMessage');
+    const configHint = document.getElementById('configHint');
     const frcToggle = document.getElementById('frc-toggle');
     const frcInputContainer = document.getElementById('frc-input-container');
     const frcIdInput = document.getElementById('frc-id');
+    const frcRandomCheckbox = document.getElementById('frc-random');
     const copyBtn = document.getElementById('copyBtn');
-    const openLink = document.getElementById('openLink');
-    const botValue = document.getElementById('botValue');
-    const fenValue = document.getElementById('fenValue');
-    const linkValue = document.getElementById('linkValue');
-    const frcIdResultContainer = document.getElementById('frcIdResultContainer');
-    const frcIdValue = document.getElementById('frcIdValue');
+    const pieceCheckboxIds = ['queen', 'knight_q', 'knight_k', 'bishop_q', 'bishop_k', 'rook_q', 'rook_k'];
+    const defaultHint = 'Complete the configuration to generate a challenge.';
 
     // Select labels based on their 'for' attribute since they don't have IDs in the HTML
     const knight_q_label = document.querySelector('label[for="knight_q"]');
@@ -65,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateFRCToggle() {
         const isFRC = frcToggle.checked;
         frcInputContainer.classList.toggle('hidden', !isFRC);
+        updateFrcInputState();
         
         if (!isFRC) {
             // Standard Chess Labels
@@ -84,50 +81,83 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    frcToggle.addEventListener('change', updateFRCToggle);
+    frcToggle.addEventListener('change', () => {
+        updateFRCToggle();
+        updateActionState();
+    });
 
     // Initialize visibility based on default state
     updateFRCToggle();
+    updateActionState();
 
-    generateBtn.addEventListener('click', generateLink);
-    copyBtn.addEventListener('click', copyLink);
+    generateBtn.addEventListener('click', function() {
+        if (calculateAndSetUrl()) {
+            window.open(url, '_blank');
+        }
+    });
+    
+    copyBtn.addEventListener('click', function() {
+        calculateAndSetUrl()
+        copyLink();
+    });
 
-    function generateLink() {
+    pieceCheckboxIds.forEach(id => {
+        const checkbox = document.getElementById(id);
+        if (checkbox) {
+            checkbox.addEventListener('change', updateActionState);
+        }
+    });
+
+    frcIdInput.addEventListener('input', updateActionState);
+
+    if (frcRandomCheckbox) {
+        frcRandomCheckbox.addEventListener('change', () => {
+            updateFrcInputState();
+            updateActionState();
+        });
+    }
+
+    updateFrcInputState();
+
+    const colorRadios = document.querySelectorAll('input[name="color"]');
+
+    colorRadios.forEach(radio => {
+        radio.addEventListener('change', function() {
+            // Remove 'selected' class from all radio cards
+            document.querySelectorAll('.radio-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+
+            // Add 'selected' class to the parent card of the checked radio
+            if (this.checked) {
+                this.closest('.radio-card').classList.add('selected');
+            }
+            updateActionState();
+        });
+    });
+
+    function calculateAndSetUrl() {
+        const validation = validateConfiguration();
+        setConfigHint(validation.valid, validation.message || defaultHint);
+
         const isFRC = frcToggle.checked;
-        let frcID;
-
-        frcIdResultContainer.classList.add('hidden');
-        
-        errorMessage.parentNode.classList.add('hidden');
-        resultCard.classList.remove('active');
+        const shouldRandomize = isFRC && frcRandomCheckbox && frcRandomCheckbox.checked;
+        let frcID = validation.frcID;
 
         if (isFRC) {
-            const isFrcIdUserSpecified = frcIdInput.value !== '';
-            
-            if (isFrcIdUserSpecified) {
-                frcID = parseInt(frcIdInput.value, 10);
-                
-                if (frcID === 518) { 
-                    errorMessage.textContent = 'Standard Chess (ID 518) is not allowed in FRC mode.';
-                    errorMessage.parentNode.classList.remove('hidden');
-                    return;
-                }
-            } else {
-                // User did not specify an ID, so randomize it
+            if (shouldRandomize) {
                 // Keep generating until we get a number that isn't 518 (Standard Position)
                 do {
                     frcID = Math.floor(Math.random() * 960);
                 } while (frcID === 518);
+                if (frcIdInput) {
+                    frcIdInput.value = frcID;
+                }
+            } else if (typeof frcID !== 'number') {
+                return false;
             }
         }
 
-
-        if (isFRC && !isValidID(frcID)) {
-            console.log('Invalid FRC ID detected:', frcID);
-            errorMessage.textContent = 'Invalid FRC ID. Please enter a number between 0 and 959.';
-            errorMessage.parentNode.classList.remove('hidden');
-            return;
-        }
 
         const playerColor = document.querySelector('input[name="color"]:checked').value;
         const initialArrangement = isFRC ? decode(frcID) : ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'];
@@ -141,9 +171,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let removedPieces = { Q: 0, N: 0, R: 0, B: 0 };
         let removedRookFiles = [];
 
-        let pieceCheckboxes = ['queen', 'knight_q', 'knight_k', 'bishop_q', 'bishop_k', 'rook_q', 'rook_k'];
-
-        for (const id of pieceCheckboxes) {
+        for (const id of pieceCheckboxIds) {
             if (document.getElementById(id).checked) {
                 const def = pieceDefinitions[id];
                 if (def && workingArrangement[def.index] === def.piece) {
@@ -154,37 +182,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 }
             }
-        }
-
-        if (Object.values(removedPieces).reduce((a, b) => a + b, 0) === 0) {
-            console.log('No pieces selected for removal.');
-            errorMessage.textContent = 'Please select at least one piece to remove.';
-            errorMessage.parentNode.classList.remove('hidden');
-            return;
-        }
-
-        if (!isValidOdds(removedPieces, isFRC)) {
-            const { Q, N, R, B } = removedPieces;
-            let guidance = "This combination of pieces is not supported.";
-            if (Q === 0 && N === 1 && R === 0 && B === 1) {
-                guidance = "For Bishop+Knight odds, select one bishop and one knight from opposite sides of the board";
-            }
-            if (Q === 0 && N === 1 && R === 1 && B === 0) {
-                guidance = "For Rook+Knight odds, select queen-side rook and king-side knight";
-            }
-            if (Q === 1 && N === 0 && R === 1 && B === 0) {
-                guidance = "For Queen+Rook odds, select queen-side rook only";
-            }
-            if (Q === 0 && N === 0 && R === 1 && B === 1) {
-                guidance = "Rook+Bishop odds is not supported";
-            }
-            if (Q === 1 && N === 2 && R === 2 && B === 2) {
-                guidance = "At least give the bot a fighting chance!";
-            }
-            console.log('Invalid piece selection:', removedPieces);
-            errorMessage.textContent = `Invalid Piece Selection: ${guidance}`;
-            errorMessage.parentNode.classList.remove('hidden');
-            return;
         }
 
         // Determine bot user
@@ -204,19 +201,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const encodedFen = fen.replace(/ /g, '%20');
         url = `https://lichess.org/?user=${botUser}&fen=${encodedFen}#friend`;
-
-
-        if (isFRC) {
-            frcIdValue.textContent = frcID;
-            frcIdResultContainer.classList.remove('hidden');
-        }
-
-        botValue.textContent = botUser;
-        fenValue.textContent = fen;
-        openLink.setAttribute('href', url);
-
-        // Show result card
-        resultCard.classList.add('active');
+        
+        return validation.valid;
     }
 
 
@@ -443,7 +429,7 @@ document.addEventListener("DOMContentLoaded", function() {
         navigator.clipboard.writeText(url).then(() => {
             // Visual feedback for successful copy
             const originalText = copyBtn.innerHTML;
-            copyBtn.innerHTML = `<i class="material-symbols--check"></i>Copied!`;
+            copyBtn.innerHTML = `<i class="material-symbols--check"></i>`;
             copyBtn.style.backgroundColor = 'var(--color-success)';
 
             setTimeout(() => {
@@ -453,24 +439,107 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    const colorRadios = document.querySelectorAll('input[name="color"]');
+    function validateConfiguration() {
+        const isFRC = frcToggle.checked;
+        const frcValue = frcIdInput.value.trim();
+        const shouldRandomize = frcRandomCheckbox && frcRandomCheckbox.checked;
+        let frcID = null;
 
-    colorRadios.forEach(radio => {
-        radio.addEventListener('change', function() {
-            // Remove 'selected' class from all radio cards
-            document.querySelectorAll('.radio-card').forEach(card => {
-                card.classList.remove('selected');
-            });
+        if (isFRC && !shouldRandomize) {
+            if (frcValue === '') {
+                return { valid: false, message: 'Enter a number between 0 and 959 for the FRC ID.' };
+            }
 
-            // Add 'selected' class to the parent card of the checked radio
-            if (this.checked) {
-                this.closest('.radio-card').classList.add('selected');
+            if (!/^\d+$/.test(frcValue)) {
+                return { valid: false, message: 'Enter a whole number between 0 and 959 for the FRC ID.' };
+            }
+
+            frcID = parseInt(frcValue, 10);
+
+            if (!isValidID(frcID)) {
+                return { valid: false, message: 'Enter a number between 0 and 959 for the FRC ID.' };
+            }
+
+            if (frcID === 518) {
+                return { valid: false, message: 'Standard Chess (ID 518) is not allowed in FRC mode.' };
+            }
+        }
+
+        const removedPieces = getRemovedPieces();
+        const totalRemoved = Object.values(removedPieces).reduce((a, b) => a + b, 0);
+        if (totalRemoved === 0) {
+            return { valid: false, message: 'Select at least one piece to remove.' };
+        }
+
+        if (!isValidOdds(removedPieces, isFRC)) {
+            return { valid: false, message: buildInvalidSelectionGuidance(removedPieces) };
+        }
+
+        return { valid: true, message: '', frcID, isFRC };
+    }
+
+    function getRemovedPieces() {
+        const removedPieces = { Q: 0, N: 0, R: 0, B: 0 };
+        pieceCheckboxIds.forEach(id => {
+            if (document.getElementById(id).checked) {
+                if (id.startsWith('knight')) removedPieces.N++;
+                if (id.startsWith('rook')) removedPieces.R++;
+                if (id.startsWith('bishop')) removedPieces.B++;
+                if (id === 'queen') removedPieces.Q++;
             }
         });
-    });
-    
-    // Initialize with hidden result card
-    resultCard.classList.remove('active');
-    errorMessage.parentNode.classList.add('hidden');
+        return removedPieces;
+    }
+
+    function buildInvalidSelectionGuidance(removedPieces) {
+        const { Q, N, R, B } = removedPieces;
+        if (Q === 0 && N === 1 && R === 0 && B === 1) {
+            return 'For Bishop+Knight odds, select one bishop and one knight from opposite sides of the board.';
+        }
+        if (Q === 0 && N === 1 && R === 1 && B === 0) {
+            return 'For Rook+Knight odds, select queen-side rook and king-side knight.';
+        }
+        if (Q === 1 && N === 0 && R === 1 && B === 0) {
+            return 'For Queen+Rook odds, select queen-side rook only.';
+        }
+        if (Q === 0 && N === 0 && R === 1 && B === 1) {
+            return 'Rook+Bishop odds are not supported.';
+        }
+        if (Q === 1 && N === 2 && R === 2 && B === 2) {
+            return 'At least give the bot a fighting chance!';
+        }
+        return 'This combination of pieces is not supported.';
+    }
+
+    function setButtonDisabledState(isDisabled) {
+        if (!generateBtn) return;
+        generateBtn.disabled = isDisabled;
+        generateBtn.classList.toggle('odds-btn-disabled', isDisabled);
+    }
+
+    function setConfigHint(isValid, message) {
+        setButtonDisabledState(!isValid);
+        if (!configHint) return;
+        if (isValid) {
+            configHint.classList.add('hidden');
+            configHint.textContent = '';
+            return;
+        }
+
+        configHint.classList.remove('hidden');
+        configHint.textContent = message;
+    }
+
+    function updateActionState() {
+        const validation = validateConfiguration();
+        const message = validation.message || defaultHint;
+        setConfigHint(validation.valid, message);
+    }
+
+    function updateFrcInputState() {
+        if (!frcIdInput || !frcRandomCheckbox) return;
+        const shouldRandomize = frcRandomCheckbox.checked;
+        frcIdInput.readOnly = shouldRandomize;
+    }
 });
 
