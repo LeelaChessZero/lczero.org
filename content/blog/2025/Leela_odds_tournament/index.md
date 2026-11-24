@@ -1,7 +1,15 @@
 ---
-author: GM Larry "Hissha" Kaufman
+author: Hissha
 published: "2025-12-07"
 title: 'Leela Odds Tournament in Jerusalem'
+guest_author:
+  name: GM Larry "Hissha" Kaufman
+  title: "American Chess Grand Master"
+  image_url: "https://images.chesscomfiles.com/uploads/v1/user/8883540.f9bceb19.160x160o.a156447c9ff7.jpeg"
+#   url: "https://github.com/N/A"
+#   socials:
+#     github: "N/A"
+#     website: "N/A"
 ---
 
 Is a rook advantage enough for a master to beat a superhuman AI in classical chess? For decades, the answer was an obvious "yes." However, a recent event in Jerusalem suggests the answer is no longer guaranteed.
