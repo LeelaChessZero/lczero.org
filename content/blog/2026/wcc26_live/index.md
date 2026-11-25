@@ -64,11 +64,17 @@ Additional to the deep analysis and WDL outputs, https://live.lczero.org/ now al
 
 The "sharpness" (or "tension") represents how much varying Contempt in the LCZero analysis affects the predicted score. Calibrated to 1.00 at the starting position, it allows to immediately compare openings and candidate moves.
 
+![Sharpness Panel](Sharpness_panel.png)
+
+![Sharpness Graph](Sharpness_graph.png)
+
 However, it's worth noting that a move or position having a high "sharpness" only means that there is a lot of play left in the position; it doesn't imply tactical complexity or imminent blunder potential, but positional tension.
 
 #### Situational Role
 
 All "situationally best" moves are displayed on the board, with a temperature color scheme from cold (defensive) to hot (speculative), and a label explaining their "Situational Role" and optimal Contempt range in brackets. 
+
+![Situational Role](Situational_Role.png)
 
 The possible "Situational Role" labels are
 
