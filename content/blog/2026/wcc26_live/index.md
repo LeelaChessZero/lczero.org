@@ -17,7 +17,7 @@ We'd like to showcase the distinctive features of LCZero that allow us to provid
 * Showing the evaluation and probability of each move being played by the players, rather than just the best move.
 * Identify aggressive and defensive moves using different Contempt values for analysis.
 
-The first game was already played on November 24th, you'll find analysis examples of some key positions in a separate [WCC Game 1 analysis with LCZero live](/blog/2026/11/lczero-live-analysis-for-wcc-2026/) blog post.
+The first game was already played on November 24th, you'll find analysis examples of some key positions in a separate [WCC Game 1 analysis with LCZero live](/blog/2026/11/wcc-2026-game-1-lczero-live-analysis/) blog post.
 
 ---
 
