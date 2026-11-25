@@ -1,6 +1,6 @@
 ---
 author: Naphthalin, crem
-published: "2026-11-25"
+published: "2026-11-24"
 title: "LCZero live analysis for WCC 2026"
 ---
 
