@@ -10,7 +10,7 @@ Here we want to highlight selected real-time annotations of the matches powered 
 
 <!--more-->
 
-If you're interested in more details about the LCZero live analysis website, we recommend taking a look at [this blog post](/blog/2026/11/wcc26-live/).
+If you're interested in more details about the LCZero live analysis website, we recommend taking a look at [this blog post](/blog/2026/11/lczero-live-analysis-for-wcc-2026/).
 
 ### Introduction and general remarks
 
