@@ -67,7 +67,7 @@ On move 22, Sindarov decides the fate of the game with the defensive 22. Ne1, dr
 
 ### Conclusion and Outlook
 
-While we already tested the analysis on games broadcasted by [https://lichess.org] in the last few days, this game 1 really was the litmus test especially for the newly added features. We already made a few changes and will continue to improve the experience and reduce potential confusion. 
+While we already tested the analysis on games broadcasted by https://lichess.org in the last few days, this game 1 really was the litmus test especially for the newly added features. We already made a few changes and will continue to improve the experience and reduce potential confusion. 
 We're fully aware that the analysis website shows an overwhelming amount of information, and while there is merit to the simplicity of a single best move and a single number eval, we believe this doesn't do the multidimensionality of chess justice.
 
 We expect a plethora of in-depth analysis for all of the WCC 2026 games and openings, and express our hopes that this glimpse into what's possible with some modern engines complements and enriches that.
