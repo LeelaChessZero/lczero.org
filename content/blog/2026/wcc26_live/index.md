@@ -64,7 +64,7 @@ For LCZero, two aspects of complexity are being used:
 * _Positional complexity_ using the WDL head for the [WDL Contempt implementation](/blog/2023/07/the-lc0-v0.30.0-wdl-rescale/contempt-implementation/) and the internalized Contempt in the specialized [Piece Odds networks](/blog/2024/11/fine-tuning-lc0-network-for-odds-games/)
 * _Tactical complexity_ using the Policy head for [Search Contempt](https://arxiv.org/html/2504.07757v1) used in the Piece Odds bots on lichess
 
-Calculating positional complexity can be provide additional insights into a position by analyzing it with a range of Contempt value and observe how much it affects the evaluation and move ordering.
+Calculating positional complexity can provide additional insights into a position by analyzing it with a range of Contempt values and observing how much this affects the evaluation and move ordering.
 
 In addition to the deep analysis and WDL outputs, https://live.lczero.org/ now also runs an extra analysis (lower depth than the deep analysis) on potentially interesting moves with variable [Contempt](/blog/2023/07/the-lc0-v0.30.0-wdl-rescale/contempt-implementation/) from -150 to +200. From this analysis, the following annotations are derived:
 
