@@ -54,7 +54,19 @@ We’re hopeful it’ll manage the traffic smoothly, although we're uncertain ab
 
 ### New: Sharpness and Situational Role
 
-Additional to the deep analysis and WDL outputs, https://live.lczero.org/ now also runs an extra analysis on potentially interesting moves with variable [Contempt](/blog/2023/07/the-lc0-v0.30.0-wdl-rescale/contempt-implementation/) from -150 to +200. From this analysis, the following annotations are derived:
+Traditionally, the way we're talking about positions with engine evaluations in mind is the advantage for white or black in centipawn units. 
+Strong players and commentators might on top assess the practical complications in a position or a specific opening line with terms like "sharp", "chaotic", "complex", "tension" with an intuitive meaning but no clear definition.
+However, there isn't a clear definition of this intuitive term, and it is used at the same time for positional complexity and imminent complicated tactics.
+Furthermore, interpreting engine output in terms of complexity is difficult and inconsistent, at least beyond observing fluctuating eval and the draw rate for engines providing native WDL predictions.
+
+For LCZero, two aspects of complexity are being used:
+
+* _Positional complexity_ using the WDL head for the [WDL Contempt implementation](/blog/2023/07/the-lc0-v0.30.0-wdl-rescale/contempt-implementation/) and the internalized Contempt in the specialized [Piece Odds networks](/blog/2024/11/fine-tuning-lc0-network-for-odds-games/)
+* _Tactical complexity_ using the Policy head for [Search Contempt](https://arxiv.org/html/2504.07757v1) used in the Piece Odds bots on lichess
+
+Calculating positional complexity can be provide additional insights into a position by analyzing it with a range of Contempt value and observe how much it affects the evaluation and move ordering.
+
+In addition to the deep analysis and WDL outputs, https://live.lczero.org/ now also runs an extra analysis (lower depth than the deep analysis) on potentially interesting moves with variable [Contempt](/blog/2023/07/the-lc0-v0.30.0-wdl-rescale/contempt-implementation/) from -150 to +200. From this analysis, the following annotations are derived:
 
 * Positional sharpness for each position and candidate move
 * Attribution of which player complicates or simplifies the game
@@ -62,7 +74,8 @@ Additional to the deep analysis and WDL outputs, https://live.lczero.org/ now al
 
 #### Sharpness
 
-The "sharpness" (or "tension") represents how much varying Contempt in the LCZero analysis affects the predicted score. Calibrated to 1.00 at the starting position, it allows to immediately compare openings and candidate moves.
+The "sharpness" (or "tension") represents how much varying Contempt in the LCZero analysis affects the predicted score. 
+Calibrated to 1.00 at the starting position, it allows an immediate comparison of openings and candidate moves regarding the tension as perceived by LCZero.
 
 ![Sharpness Panel](Sharpness_panel.png)
 

@@ -15,7 +15,7 @@ If you're interested in more details about the LCZero live analysis website, we 
 ### Introduction and general remarks
 
 First: We're engine developers and chess enthusiasts, but only (at most, if at all) hobby chess players. 
-The https://live.lczero.org/ shows things we find interesting and insightful, and we're excited to share it because no other engine can provide this sort of insights.
+The analysis on https://live.lczero.org/ shows things we find interesting and insightful, and we're excited to share it because no other engine can provide this sort of insights.
 The below analysis only strives to be a selection of interesting positions based on the LCZero specific insights. 
 If you're doing commentary (be it via live stream, video recaps or in-depth post-game analysis), please feel free to use the analysis results and graphics from the website under the condition of giving credit to the website and LCZero project.
 
@@ -63,3 +63,11 @@ On move 22, Sindarov decides the fate of the game with the defensive 22. Ne1, dr
 
 ###### 22. Ne1
 ![22. Ne1](Game1_22w.png)
+
+
+### Conclusion and Outlook
+
+While we already tested the analysis on games broadcasted by [https://lichess.org] in the last few days, this game 1 really was the litmus test especially for the newly added features. We already made a few changes and will continue to improve the experience and reduce potential confusion. 
+We're fully aware that the analysis website shows an overwhelming amount of information, and while there is merit to the simplicity of a single best move and a single number eval, we believe this doesn't do the multidimensionality of chess justice.
+
+We expect a plethora of in-depth analysis for all of the WCC 2026 games and openings, and express our hopes that this glimpse into what's possible with some modern engines complements and enriches that.
